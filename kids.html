@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            background-color: #ffffff; /* Light mode background color */
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .dark-mode {
+            background-color: #333; /* Dark mode background color */
+            color: #f4f4f4;
+        }
+        h1, h2 {
+            color: inherit;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .menu a, .toggle-button {
+            text-decoration: none;
+            padding: 5px 10px; /* Smaller padding */
+            font-size: 14px; /* Smaller font size */
+            color: #333;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 3px; /* Smaller border radius */
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .menu a:hover, .toggle-button:hover {
+            background-color: #ddd;
+        }
+        .menu li {
+            margin-right: 10px; /* Add margin between menu buttons */
+            display: inline-block; /* Ensure menu items are in a row */
+        }
+        .blog-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .blog-column {
+            width: calc(50% - 10px); /* Two columns with a little gap */
+            background-color: white; /* Light mode background color */
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .blog-post {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .dark-mode .blog-column {
+            background-color: #222; /* Dark mode background color */
+        }
+        .dark-mode .blog-post {
+            color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="vlog.html">Vlog</a></li>
+            <li><a href="kids.html">Kids</a></li>
+            <li><a href="script_kiddie.html">Script Kiddie</a></li>
+            <!-- Add more menu items if needed -->
+        </ul>
+    </div>
+    <button class="toggle-button" onclick="toggleMode()">Switch to Dark Mode</button>
+</div>
+
+<div class="blog-container">
+    <div class="blog-column">
+        <div class="blog-post">
+            <h2>Blog Posts (Left Column)</h2>
+            <ul>
+                <li><a href="blog_post_1.html">Blog Post 1</a> - Date Published: January 1, 2024</li>
+                <li><a href="blog_post_2.html">Blog Post 2</a> - Date Published: January 5, 2024</li>
+                <!-- Add more links here -->
+                <li><a href="blog_post_49.html">Blog Post 49</a> - Date Published: May 20, 2024</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="blog-column">
+        <div class="blog-post">
+            <h2>Blog Posts (Right Column)</h2>
+            <ul>
+                <li><a href="blog_post_50.html">Blog Post 50</a> - Date Published: May 22, 2024</li>
+                <!-- Add more links here -->
+                <li><a href="blog_post_99.html">Blog Post 99</a> - Date Published: May 25, 2024</li>
+                <li><a href="blog_post_100.html">Blog Post 100</a> - Date Published: May 28, 2024</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<footer>
+    &copy; 2024 My Simple Blog
+</footer>
+
+<script>
+    function toggleMode() {
+        var body = document.body;
+        body.classList.toggle("dark-mode");
+        var button = document.querySelector(".toggle-button");
+        if (body.classList.contains("dark-mode")) {
+            button.textContent = "Switch to Light Mode";
+        } else {
+            button.textContent = "Switch to Dark Mode";
+        }
+    }
+</script>
+
+</body>
+</html>

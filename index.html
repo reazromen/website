@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reaz Romen's Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+      background-color: #ffffff; /* Light mode background color */
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .dark-mode {
+      background-color: #333; /* Dark mode background color */
+      color: #f4f4f4;
+    }
+    h1, h2 {
+      color: inherit;
+    }
+    ul {
+      list-style-type: none;
+    }
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .menu a, .toggle-button {
+      text-decoration: none;
+      padding: 5px 10px; /* Smaller padding */
+      font-size: 14px; /* Smaller font size */
+      color: #333;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 3px; /* Smaller border radius */
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .menu a:hover, .toggle-button:hover {
+      background-color: #ddd;
+    }
+    .menu li {
+      margin-right: 10px; /* Add margin between menu buttons */
+    }
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <div class="menu">
+      <ul style="display: flex; list-style: none; margin: 0; padding: 0;">
+        <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="vlog.html">Vlog</a></li>
+            <li><a href="kids.html">Kids</a></li>
+            <li><a href="script_kiddie.html">Script Kiddie</a></li>
+            <!-- Add more menu items if needed -->
+      </ul>
+    </div>
+    <button class="toggle-button" onclick="toggleMode()">Switch to Dark Mode</button>
+  </div>
+
+  <h1>Reaz Romen's Website</h1>
+  <p>Meet Reaz Romen, the tech buddy who makes cloud stuff and automation seem like a comedy show! He knows his way around AWS, GCP, and Kubernetes better than most folks know their own closets.
+
+    But Reaz isn't just a tech whiz—he's also a forever student, always hungry to learn new things. When he's not coding, you might catch him buried in a book, soaking up knowledge like a thirsty sponge.
+    
+    From tweaking computer systems to making deployments happen automatically (think of it like magic!), Reaz is always ready for some digital adventures. And when things go wrong, he's got more tricks up his sleeve than a magician at a kid's party.
+    
+    Join Reaz for some laughs as he talks about cloud plans, automation tricks, IoT fun, and all the cool tech stuff! Because with him, it's not just about the tech—it's about having a good time while we learn together. 🚀 🚀</p>
+
+  <h2> What's the deal with simplicity, anyway??</h2>
+
+   Picture this: you're tinkering with your grandma's ancient Wi-Fi, trying to dodge those pesky ads like you're in a virtual dodgeball match, when suddenly—boom!—you land on my site. No heavy images slowing your browser to a crawl, no videos buffering like it's dial-up all over again. Just good ol' plain text, easier to navigate than coding with mittens on. And hey, I've got more useful stuff packed in here than a Swiss Army knife at a tech expo, and it won't cost you a dime. So why keep it simple? Because in the chaotic world of IT, simplicity is the unsung hero that saves the day.
+
+
+  <p> I built this site and file SHA256 hashes using CI/CD techniques in AWS. 
+    SHA-256 (Secure Hash Algorithm 256-bit) is a cryptographic hash function that produces a 256-bit (32-byte) hash value, often rendered as a 64-character hexadecimal number. It is part of the SHA-2 (Secure Hash Algorithm 2) family and is widely used in various security applications and protocols, including SSL/TLS, PGP, SSH, IPsec, and more.</p>
+  <p> You can skip TLS and directly access website stuff via insecure HTTP <a href="#">here</a>. Skipping TLS can reduce CPU usage and save power, which might be beneficial in resource-constrained environments. </p>
+  🍺 "Buy me a coffee! Send BDT to Baksh 01840903982. If your wallet is as empty as mine, no worries—you can still send $ via PayPal or Payoneer to rermen121@gmail.com.
+  
+  <script>
+  function toggleMode() {
+    var body = document.body;
+    body.classList.toggle("dark-mode");
+    var button = document.querySelector(".toggle-button");
+    if (body.classList.contains("dark-mode")) {
+      button.textContent = "Switch to Light Mode";
+    } else {
+      button.textContent = "Switch to Dark Mode";
+    }
+  }
+  
+</script>
+</body>
+</html>
+
+
