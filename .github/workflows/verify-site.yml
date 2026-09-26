@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Verify canonical static source
         shell: bash
         run: |
@@ -23,10 +24,26 @@ jobs:
           test -s writing.html
           test -s systems.html
           test -s assets/site.css
+          test -s assets/navigation.json
+          test -s .pages.yml
           grep -Fq "Good day. I’m Reaz Romen" index.html
           test ! -e _worker.js
           test ! -e _routes.json
           test ! -d admin
+          python3 -m json.tool assets/navigation.json >/dev/null
+          node --check assets/sitewide.js
+          node --check assets/phase1.js
+          node --check assets/responsive-v3.js
+          python3 -m pip install --quiet pyyaml
+          python3 - <<'PY'
+          import yaml
+          from pathlib import Path
+          data = yaml.safe_load(Path('.pages.yml').read_text())
+          assert isinstance(data, dict)
+          assert data.get('content')
+          assert data.get('media')
+          print('Pages CMS configuration parsed successfully')
+          PY
           count="$(find . -type f ! -path './.git/*' | wc -l | tr -d ' ')"
           echo "tracked/static file count: $count"
           test "$count" -gt 2000

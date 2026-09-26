@@ -1,0 +1,191 @@
+media:
+  - name: site-images
+    label: Site images
+    input: static/uploads
+    output: /static/uploads
+    rename: safe
+    categories: [image]
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: user
+    templates:
+      create: "cms(create): {path}"
+      update: "cms(update): {path}"
+      delete: "cms(delete): {path}"
+      rename: "cms(rename): {oldPath} -> {newPath}"
+
+content:
+  - name: global-controls
+    label: Global controls
+    type: group
+    items:
+      - name: navigation
+        label: Navigation & submenus
+        type: file
+        path: assets/navigation.json
+        format: json
+        operations:
+          create: false
+          delete: false
+        fields:
+          - name: main
+            label: Main menu
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label} → {href}"
+            fields:
+              - name: label
+                label: Label
+                type: string
+                required: true
+              - name: href
+                label: URL
+                type: string
+                required: true
+              - name: enabled
+                label: Visible
+                type: boolean
+              - name: lang
+                label: Language code
+                type: string
+              - name: target
+                label: Link target
+                type: string
+                description: "Leave empty for same-tab links. Use _blank only when needed."
+              - name: children
+                label: Submenu
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{label} → {href}"
+                fields:
+                  - name: label
+                    label: Label
+                    type: string
+                    required: true
+                  - name: href
+                    label: URL
+                    type: string
+                    required: true
+                  - name: enabled
+                    label: Visible
+                    type: boolean
+                  - name: lang
+                    label: Language code
+                    type: string
+                  - name: target
+                    label: Link target
+                    type: string
+
+      - name: redirects
+        label: Redirects
+        type: file
+        path: _redirects
+        format: code
+        operations:
+          create: false
+          delete: false
+
+  - name: core-pages
+    label: Core pages
+    type: group
+    items:
+      - { name: homepage, label: Homepage, type: file, path: index.html, format: code, operations: { create: false, delete: false } }
+      - { name: about, label: About, type: file, path: about.html, format: code, operations: { create: false, delete: false } }
+      - { name: work-index, label: Work index, type: file, path: portfolio.html, format: code, operations: { create: false, delete: false } }
+      - { name: perspectives, label: Perspectives, type: file, path: perspectives.html, format: code, operations: { create: false, delete: false } }
+      - { name: music-index, label: Music, type: file, path: music.html, format: code, operations: { create: false, delete: false } }
+      - { name: bangla-index, label: বাংলা, type: file, path: bangla.html, format: code, operations: { create: false, delete: false } }
+      - { name: systems, label: Stack / Systems, type: file, path: systems.html, format: code, operations: { create: false, delete: false } }
+      - { name: writing-index, label: Writing, type: file, path: writing.html, format: code, operations: { create: false, delete: false } }
+      - { name: topics-index, label: Topics index, type: file, path: topics.html, format: code, operations: { create: false, delete: false } }
+      - { name: archive-index, label: Archive, type: file, path: archive.html, format: code, operations: { create: false, delete: false } }
+      - { name: search-page, label: Search, type: file, path: search.html, format: code, operations: { create: false, delete: false } }
+      - { name: now-page, label: Now, type: file, path: now.html, format: code, operations: { create: false, delete: false } }
+      - { name: notes-page, label: Notes, type: file, path: notes.html, format: code, operations: { create: false, delete: false } }
+      - { name: services-page, label: Services, type: file, path: services.html, format: code, operations: { create: false, delete: false } }
+
+  - name: writing-content
+    label: Writing, topics & tags
+    type: group
+    items:
+      - name: posts
+        label: Articles
+        type: collection
+        path: posts
+        format: code
+        subfolders: true
+      - name: topics
+        label: Topic pages
+        type: collection
+        path: topics
+        format: code
+        subfolders: true
+      - name: domains
+        label: Domain pages
+        type: collection
+        path: domains
+        format: code
+        subfolders: true
+      - name: archive-pages
+        label: Archive pages
+        type: collection
+        path: archive
+        format: code
+        subfolders: true
+      - name: author-pages
+        label: Author pages
+        type: collection
+        path: author
+        format: code
+        subfolders: true
+
+  - name: work-content
+    label: Work / portfolio
+    type: group
+    items:
+      - name: portfolio-pages
+        label: Portfolio pages
+        type: collection
+        path: portfolio
+        format: code
+        subfolders: true
+
+  - name: music-content
+    label: Music
+    type: group
+    items:
+      - name: music-pages
+        label: Music pages
+        type: collection
+        path: music
+        format: code
+        subfolders: true
+      - name: music-manifest
+        label: Music research manifest
+        type: file
+        path: assets/music-research-manifest.json
+        format: code
+        operations:
+          create: false
+          delete: false
+
+  - name: advanced
+    label: Advanced / theme & behavior
+    type: group
+    items:
+      - { name: shared-css, label: Shared theme CSS, type: file, path: assets/site.css, format: code, operations: { create: false, delete: false } }
+      - { name: sitewide-js, label: Global behavior JS, type: file, path: assets/sitewide.js, format: code, operations: { create: false, delete: false } }
+      - { name: responsive-css, label: Responsive CSS, type: file, path: assets/responsive-v3.css, format: code, operations: { create: false, delete: false } }
+      - { name: responsive-js, label: Responsive JS, type: file, path: assets/responsive-v3.js, format: code, operations: { create: false, delete: false } }
+      - { name: search-js, label: Search / tag behavior JS, type: file, path: assets/phase1.js, format: code, operations: { create: false, delete: false } }
+      - { name: search-css, label: Search / tag CSS, type: file, path: assets/phase1.css, format: code, operations: { create: false, delete: false } }
+      - { name: context-js, label: Context preview JS, type: file, path: assets/phase2.js, format: code, operations: { create: false, delete: false } }
+      - { name: context-css, label: Context preview CSS, type: file, path: assets/phase2.css, format: code, operations: { create: false, delete: false } }
+      - { name: headers, label: HTTP headers, type: file, path: _headers, format: code, operations: { create: false, delete: false } }

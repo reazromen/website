@@ -44,3 +44,19 @@ html.dark{--accent:#5eead4;--accent-soft:#5eead412;--tech-line:color-mix(in srgb
 .home-section>p>a:hover,.home-contact a:hover{color:var(--accent)}
 @media(max-width:860px){.home-hero::after{display:none}}
 @media(max-width:720px){.index-row{grid-template-columns:30px minmax(0,1fr);gap:.75rem}.index-row .row-meta{grid-column:2}.system-path-meta{gap:.4rem .48rem}.path-node{font-size:.72rem}.path-node .tech-icon{width:13px;height:13px}.path-connector{display:none}}
+
+/* Managed navigation submenus — dormant unless navigation.json defines children */
+.nav-group{position:relative;display:inline-flex;align-items:center;min-height:44px}
+.nav-group>summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;min-height:44px;color:var(--muted);font-size:.94rem;white-space:nowrap}
+.nav-group>summary::-webkit-details-marker{display:none}
+.nav-group>summary:after{content:"⌄";margin-left:.35rem;font-size:.75em;color:var(--faint)}
+.nav-group>summary:hover,.nav-group[data-current]>summary{color:var(--text-strong)}
+.nav-submenu{position:absolute;top:calc(100% - 4px);left:0;z-index:60;display:grid;min-width:190px;padding:.4rem;border:1px solid var(--line);border-radius:8px;background:var(--surface);box-shadow:0 12px 30px color-mix(in srgb,#000 12%,transparent)}
+.nav-submenu a{display:flex!important;min-height:36px!important;padding:.4rem .55rem;border-radius:5px}
+.nav-submenu a[aria-current=page]:after{display:none!important}
+.nav-submenu a:hover{background:var(--accent-soft)}
+@media(max-width:720px){
+  .nav-group{position:static}
+  .nav-group>summary{font-size:.9rem;min-height:42px}
+  .nav-submenu{position:fixed;left:.75rem;right:.75rem;top:64px;min-width:0;max-height:calc(100vh - 80px);overflow:auto}
+}
