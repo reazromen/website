@@ -1,0 +1,32 @@
+name: Verify public site source
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify canonical static source
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s index.html
+          test -s about.html
+          test -s writing.html
+          test -s systems.html
+          test -s assets/site.css
+          grep -Fq "Good day. I’m Reaz Romen" index.html
+          test ! -e _worker.js
+          test ! -e _routes.json
+          test ! -d admin
+          count="$(find . -type f ! -path './.git/*' | wc -l | tr -d ' ')"
+          echo "tracked/static file count: $count"
+          test "$count" -gt 2000
