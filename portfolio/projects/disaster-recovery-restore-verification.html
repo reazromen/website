@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Encrypted backup and recovery system spanning local rsync, off-site object storage, checksums and disposable restore verification rather than backup-success alone.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../../about.html">
+  <title>Disaster Recovery &amp; Restore Verification — Reaz Romen Portfolio</title>
+  <link rel="stylesheet" href="../../static/css/site.css">
+
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/sitewide-v2.css">
+<meta data-pagefind-filter="type[content]" content="Work"><meta data-pagefind-filter="domain[content]" content="Data &amp; Storage"><meta data-pagefind-meta="domain[content]" content="Data &amp; Storage"><meta data-pagefind-meta="type[content]" content="Work"><meta data-pagefind-filter="format[content]" content="Project"><meta data-pagefind-meta="format[content]" content="Project"><meta data-pagefind-meta="title[content]" content="Disaster Recovery &amp; Restore Verification"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/phase2.css"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed">
+<a class="skip-link" href="#rr-main">Skip to content</a>
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<article class="project-dossier" data-pagefind-body>
+  <header class="dossier-hero">
+    <a class="back-link" href="../../portfolio.html#all-builds"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg><span>Complete project index</span></a>
+    <div class="dossier-hero-grid">
+      <div class="dossier-hero-copy">
+        <p class="eyebrow">Infrastructure &amp; Operations / Built / deployed</p>
+        <h1>Disaster Recovery &amp; Restore Verification</h1>
+        <p class="lede">Encrypted backup and recovery system spanning local rsync, off-site object storage, checksums and disposable restore verification rather than backup-success alone.</p>
+        <div class="project-hero-actions">
+          
+          <a class="button secondary" href="disaster-recovery-restore-verification.html#architecture"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="5" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/><path d="M12 7v5M5 17v-3h14v3"/></svg><span>Explore architecture</span></a>
+        </div>
+      </div>
+      <aside class="product-visual">
+        
+          <div class="visual-blueprint" aria-label="Disaster Recovery &amp; Restore Verification system visual">
+            <div class="visual-blueprint-head"><span>PRODUCT / SYSTEM VISUAL</span><b>Built / deployed</b></div>
+            <div class="visual-core">Disaster Recovery &amp; Restore Verification</div>
+            <div class="visual-orbit">
+              <span>rsync</span><span>Backblaze B2</span><span>Encryption</span><span>Checksums</span><span>Restore tests</span>
+            </div>
+            <div class="visual-flow-mini">
+              <i>Production data</i><em>→</em><i>Local backup/staging</i><em>→</em><i>Checksums + policy checks</i><em>→</em><i>Encrypted off-site transfer</i>
+            </div>
+          </div>
+          <p>Live system blueprint generated from the documented project topology.</p>
+        
+      </aside>
+    </div>
+  </header><nav class="project-record-bar" aria-label="Project engineering record"><span>ENGINEERING RECORD</span><a href="#architecture">Architecture</a><a href="#network">Signal / request path</a><a href="#testing">Verification</a><a href="#evidence">Evidence</a></nav>
+
+  <section class="dossier-facts">
+    <div><span class="fact-label"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12h4l2.2-6 4.2 12 2.2-6H21"/></svg><span>STATUS</span></span><strong>Built / deployed</strong></div>
+    <div><span class="fact-label"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 12 9 5 9-5M3 16l9 5 9-5"/></svg><span>AREA</span></span><strong>Infrastructure &amp; Operations</strong></div>
+    <div><span class="fact-label"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="m7 9 3 3-3 3M13 15h4"/></svg><span>STACK</span></span><strong>5 documented technologies</strong></div>
+    <div><span class="fact-label"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="5" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/><path d="M12 7v5M5 17v-3h14v3"/></svg><span>INTEGRATIONS</span></span><strong>2 connected / bounded services</strong></div>
+  </section>
+
+  <div class="dossier-layout">
+    <aside class="dossier-toc" aria-label="Project documentation">
+      <span>PROJECT DOCUMENTATION</span>
+      <a href="disaster-recovery-restore-verification.html#overview">01 / Overview</a>
+      <a href="disaster-recovery-restore-verification.html#architecture">02 / Architecture</a>
+      <a href="disaster-recovery-restore-verification.html#network">03 / Network & data flow</a>
+      <a href="disaster-recovery-restore-verification.html#stack">04 / Stack</a>
+      <a href="disaster-recovery-restore-verification.html#implementation">05 / How I built it</a>
+      <a href="disaster-recovery-restore-verification.html#testing">06 / Testing</a>
+      <a href="disaster-recovery-restore-verification.html#integrations">07 / Integrations</a>
+      <a href="disaster-recovery-restore-verification.html#evidence">08 / Evidence</a>
+      <a href="disaster-recovery-restore-verification.html#constraints">09 / Constraints</a>
+      <a href="disaster-recovery-restore-verification.html#result">10 / Result</a>
+    </aside>
+
+    <div class="dossier-main">
+      <section class="dossier-section" id="overview">
+        <div class="section-heading"><span>01</span><div><p class="eyebrow">OVERVIEW</p><h2>What I built.</h2></div></div>
+        <p class="large-copy">Encrypted backup and recovery system spanning local rsync, off-site object storage, checksums and disposable restore verification rather than backup-success alone.</p>
+        <div class="scope-grid">
+          
+          <article><span>01</span><p>Built local and off-site backup paths with encryption, checksums and policy checks.</p><section class="project-related"><p class="eyebrow">RELATED WRITING</p><div class="related-list"><a href="/posts/cloudflare-kv-do-queues-d1-consistency.html"><strong>Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their Consistency Models Differ</strong><span>2026-09-26</span></a><a href="/posts/distributed-lock-needs-fencing-token.html"><strong>A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt State</strong><span>2026-09-26</span></a><a href="/posts/pgvector-hnsw-fast-operationally-wrong.html"><strong>pgvector HNSW Can Return Fast Answers That Are Operationally Wrong</strong><span>2026-09-26</span></a></div></section></article>
+          
+          <article><span>02</span><p>Added immutable/off-site storage handling instead of relying on a single machine copy.</p></article>
+          
+          <article><span>03</span><p>Made restore verification a first-class test instead of treating a successful backup command as proof of recoverability.</p></article>
+          
+        </div>
+      </section>
+
+      <section class="dossier-section" id="architecture">
+        <div class="section-heading"><span>02</span><div><p class="eyebrow">SYSTEM ARCHITECTURE</p><h2>How the system is divided.</h2></div></div>
+        <div class="architecture-map">
+          
+          <article>
+            <div class="arch-node-index">01</div>
+            <strong>Architecture boundary</strong>
+            <p>Production data -&gt; local staged backup -&gt; encrypted/off-site B2 tier.</p>
+          </article>
+          
+          <article>
+            <div class="arch-node-index">02</div>
+            <strong>Architecture boundary</strong>
+            <p>Checksums and policy checks verify backup artifacts.</p>
+          </article>
+          
+          <article>
+            <div class="arch-node-index">03</div>
+            <strong>Architecture boundary</strong>
+            <p>Disposable restore jobs validate that selected data can actually be recovered.</p>
+          </article>
+          
+        </div>
+      </section>
+
+      <section class="dossier-section" id="network">
+        <div class="section-heading"><span>03</span><div><p class="eyebrow">NETWORK / DATA FLOW</p><h2>What talks to what.</h2></div></div>
+        <div class="trace-hint"><span>TRACE PATH</span><span>Focus or tap a stage to trace the flow from source to that point.</span><button type="button" class="trace-clear" hidden>Clear</button></div><div class="network-diagram" role="img" aria-label="Disaster Recovery &amp; Restore Verification network and data flow">
+          
+          <div class="network-node" tabindex="0" role="button" aria-pressed="false" data-trace-index="1"><small>01</small><strong>Production data</strong></div>
+          <div class="network-arrow"><span>→</span><i>data / control</i></div>
+          
+          <div class="network-node" tabindex="0" role="button" aria-pressed="false" data-trace-index="2"><small>02</small><strong>Local backup/staging</strong></div>
+          <div class="network-arrow"><span>→</span><i>data / control</i></div>
+          
+          <div class="network-node" tabindex="0" role="button" aria-pressed="false" data-trace-index="3"><small>03</small><strong>Checksums + policy checks</strong></div>
+          <div class="network-arrow"><span>→</span><i>data / control</i></div>
+          
+          <div class="network-node" tabindex="0" role="button" aria-pressed="false" data-trace-index="4"><small>04</small><strong>Encrypted off-site transfer</strong></div>
+          <div class="network-arrow"><span>→</span><i>data / control</i></div>
+          
+          <div class="network-node" tabindex="0" role="button" aria-pressed="false" data-trace-index="5"><small>05</small><strong>Backblaze B2</strong></div>
+          <div class="network-arrow"><span>→</span><i>data / control</i></div>
+          
+          <div class="network-node" tabindex="0" role="button" aria-pressed="false" data-trace-index="6"><small>06</small><strong>Disposable restore test</strong></div>
+          
+          
+        </div>
+      </section>
+
+      <section class="dossier-section" id="stack">
+        <div class="section-heading"><span>04</span><div><p class="eyebrow">TECHNOLOGY STACK</p><h2>The technical surface.</h2></div></div>
+        <div class="stack-board">
+          
+          <div><span>01</span><strong>rsync</strong></div>
+          
+          <div><span>02</span><strong>Backblaze B2</strong></div>
+          
+          <div><span>03</span><strong>Encryption</strong></div>
+          
+          <div><span>04</span><strong>Checksums</strong></div>
+          
+          <div><span>05</span><strong>Restore tests</strong></div>
+          
+        </div>
+      </section>
+
+      <section class="dossier-section" id="implementation">
+        <div class="section-heading"><span>05</span><div><p class="eyebrow">IMPLEMENTATION</p><h2>How it works in practice.</h2></div></div>
+        <ol class="implementation-list">
+          
+          <li><span>01</span><p>Production data -&gt; local staged backup -&gt; encrypted/off-site B2 tier.</p></li>
+          
+          <li><span>02</span><p>Checksums and policy checks verify backup artifacts.</p></li>
+          
+          <li><span>03</span><p>Disposable restore jobs validate that selected data can actually be recovered.</p></li>
+          
+        </ol>
+      </section>
+
+      <section class="dossier-section" id="testing">
+        <div class="section-heading"><span>06</span><div><p class="eyebrow">TESTING & VALIDATION</p><h2>How I know it works.</h2></div></div>
+        <div class="validation-grid">
+          
+          <article><span>TEST 01</span><p>Backup artifact generation</p></article>
+          
+          <article><span>TEST 02</span><p>SHA-256 verification</p></article>
+          
+          <article><span>TEST 03</span><p>Retention/policy checks</p></article>
+          
+          <article><span>TEST 04</span><p>Off-site transfer</p></article>
+          
+          <article><span>TEST 05</span><p>Disposable restore verification</p></article>
+          
+          <article><span>TEST 06</span><p>Recovery runbook exercises</p></article>
+          
+        </div>
+      </section>
+
+      <section class="dossier-section" id="integrations">
+        <div class="section-heading"><span>07</span><div><p class="eyebrow">EXTERNAL SERVICES & DEPENDENCIES</p><h2>What sits outside the core.</h2></div></div>
+        <div class="integration-board">
+          <div class="integration-core"><small>CORE</small><strong>Disaster Recovery &amp; Restore Verification</strong></div>
+          <div class="integration-links">
+            
+            <div><span>↔</span><strong>Backblaze B2</strong></div>
+            
+            <div><span>↔</span><strong>rsync target</strong></div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="dossier-section" id="evidence">
+        <div class="section-heading"><span>08</span><div><p class="eyebrow">ENGINEERING EVIDENCE</p><h2>Artifacts behind the claims.</h2></div></div>
+        <div class="evidence-board">
+          
+          <div class="evidence-item" id="evidence-01"><span>01</span><span class="evidence-type">NOTE</span><strong>Backup scripts</strong></div>
+          
+          <div class="evidence-item" id="evidence-02"><span>02</span><span class="evidence-type">NOTE</span><strong>Policy checker</strong></div>
+          
+          <div class="evidence-item" id="evidence-03"><span>03</span><span class="evidence-type">NOTE</span><strong>Checksums</strong></div>
+          
+          <div class="evidence-item" id="evidence-04"><span>04</span><span class="evidence-type">NOTE</span><strong>Off-site object tier</strong></div>
+          
+          <div class="evidence-item" id="evidence-05"><span>05</span><span class="evidence-type">NOTE</span><strong>Restore-verification jobs</strong></div>
+          
+          <div class="evidence-item" id="evidence-06"><span>06</span><span class="evidence-type">NOTE</span><strong>Recovery documentation</strong></div>
+          
+        </div>
+      </section>
+
+      <section class="dossier-section" id="constraints">
+        <div class="section-heading"><span>09</span><div><p class="eyebrow">BOUNDARIES / CONSTRAINTS</p><h2>What the project does not pretend to solve.</h2></div></div>
+        <div class="constraint-list">
+          
+          <p><span>—</span>Backup success alone is not treated as recoverability</p>
+          
+          <p><span>—</span>Credentials stay runtime-only</p>
+          
+          <p><span>—</span>Off-site copies are immutable/isolated by design where supported</p>
+          
+        </div>
+      </section>
+
+      <section class="dossier-section dossier-result" id="result">
+        <div class="section-heading"><span>10</span><div><p class="eyebrow">RESULT / CURRENT STATE</p><h2>What this produced.</h2></div></div>
+        <p class="result-copy">A DR workflow focused on recoverability evidence, not merely backup-file existence.</p>
+        
+      </section>
+    </div>
+  </div>
+
+  <nav class="project-pagination" aria-label="Project navigation">
+    <a href="central-secret-lifecycle-openbao.html"><span>← Previous project</span><strong>Central Secret Lifecycle / OpenBao</strong></a>
+    <a class="next" href="private-alert-delivery.html"><span>Next project →</span><strong>Private Alert Delivery</strong></a>
+  </nav>
+</article>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="../../topics.html">Topics</a>
+    <a href="../../systems.html">Systems</a>
+    <a href="../../archive.html">Archive</a>
+    <a href="../../author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script>
+<dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><div id="context-preview" class="context-preview" role="tooltip" hidden data-pagefind-ignore></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

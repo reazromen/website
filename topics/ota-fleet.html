@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../about.html">
+  <title>OTA &amp; Fleet — Reaz Romen — Systems Engineering</title>
+  <link rel="stylesheet" href="../static/css/site.css">
+<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
+
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<section class="page-head"><p class="eyebrow">TOPIC</p><h1>OTA &amp; Fleet</h1><p class="lede">Lessons, explainers, experiments, and implementation notes.</p></section>
+<div class="post-list">
+  <article class="post-card">
+  <p class="meta"><a href="ota-fleet.html">OTA &amp; Fleet</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/sticky-heartbeat-result-false-ota-rollback.html">A Sticky Heartbeat Result Almost Became a False OTA Rollback</a></h3>
+  <p>Telemetry from a previous release must not be allowed to mutate the state of a newly assigned release.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>OTA</span><span>state machine</span><span>heartbeat</span><span>rollback</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="ota-fleet.html">OTA &amp; Fleet</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/terminal-ota-events-need-release-id.html">Terminal OTA Events Need a Release ID</a></h3>
+  <p>Rollback and validation failure are too important to infer from an unscoped status string.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>OTA</span><span>events</span><span>release ID</span><span>causality</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="ota-fleet.html">OTA &amp; Fleet</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/release-state-and-channel-drifted-apart.html">Release State and Release Channel Drifted Apart</a></h3>
+  <p>A release promoted to STABLE was still carrying old channel metadata, creating two competing sources of truth.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>OTA</span><span>promotion</span><span>state machine</span><span>metadata</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="ota-fleet.html">OTA &amp; Fleet</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/stable-should-mean-device-actually-ran-release.html">STABLE Should Mean a Device Actually Ran the Release</a></h3>
+  <p>A release should not become stable merely because an administrator clicked a promotion button.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>OTA</span><span>canary</span><span>promotion</span><span>acceptance</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="ota-fleet.html">OTA &amp; Fleet</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/failed-canary-must-block-stable-promotion.html">A Failed Canary Must Block Stable Promotion</a></h3>
+  <p>Success evidence loses meaning if failed or rolled-back assignments are ignored during promotion.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>canary</span><span>rollback</span><span>OTA</span><span>release gate</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="ota-fleet.html">OTA &amp; Fleet</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/firmware-compatibility-derived-from-enrolled-device.html">Firmware Compatibility Should Be Derived from the Enrolled Device</a></h3>
+  <p>Release metadata is safer when it comes from authoritative device capabilities instead of copied operator input.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>firmware</span><span>compatibility</span><span>device enrollment</span><span>OTA</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="ota-fleet.html">OTA &amp; Fleet</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/ota-compatibility-more-than-version-string.html">OTA Compatibility Is More Than a Version String</a></h3>
+  <p>A firmware artifact can be newer and still be unsafe for the target partition table, bootloader or hardware revision.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>firmware</span><span>bootloader</span><span>partition table</span><span>security</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="ota-fleet.html">OTA &amp; Fleet</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/schema-migration-policy-belongs-in-ota-safety-model.html">Schema Migration Policy Belongs in the OTA Safety Model</a></h3>
+  <p>Rollback is only safe when persistent data remains readable by the previous firmware or a migration policy accounts for the change.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>OTA</span><span>migration</span><span>NVS</span><span>rollback</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="ota-fleet.html">OTA &amp; Fleet</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/store-device-enrollment-secrets-as-hashes.html">Store Device Enrollment Secrets as Hashes When the Server Only Needs Verification</a></h3>
+  <p>If a token only needs to be checked, retaining the plaintext creates unnecessary breach impact.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>tokens</span><span>hashing</span><span>device enrollment</span><span>security</span></div>
+</article>
+</div>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="/topics.html">Topics</a>
+    <a href="/systems.html">Systems</a>
+    <a href="/archive.html">Archive</a>
+    <a href="/author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

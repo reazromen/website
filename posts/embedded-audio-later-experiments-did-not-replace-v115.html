@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../about.html">
+  <title>Why V116–V131 Did Not Automatically Replace V115 — Reaz Romen — Systems Engineering</title>
+  <link rel="stylesheet" href="../static/css/site.css">
+<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><meta data-pagefind-filter="type[content]" content="Writing"><meta data-pagefind-filter="domain[content]" content="Communications &amp; Voice"><meta data-pagefind-filter="format[content]" content="Article"><meta data-pagefind-meta="type[content]" content="Writing"><meta data-pagefind-meta="domain[content]" content="Communications &amp; Voice"><meta data-pagefind-meta="title[content]" content="Why V116–V131 Did Not Automatically Replace V115"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
+
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<article class="article" data-pagefind-body>
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../topics.html">Topics</a> / <a href="../topics/embedded-audio-voice.html">Embedded Audio &amp; Voice</a></nav>
+  <p class="eyebrow">Embedded Audio Debugging: Acoustics, Release &amp; Production · deep-dive</p>
+  <h1>Why V116–V131 Did Not Automatically Replace V115</h1>
+  <p class="lede">Later queue, PLC and timer experiments looked more sophisticated on paper but repeatedly introduced crackle, echo or additional delay.</p>
+  <div class="article-meta">
+    <address class="author-line">By <a href="../author/reaz-romen.html">Reaz Romen</a><span class="verified" title="Verified by this publication">✓ Site verified</span></address>
+    
+    <span>Published 2026-09-15</span>
+    
+    <span>12 min read</span>
+  </div>
+  <div class="tags"><span>ESP32-S3</span><span>embedded audio</span><span>LOUP</span><span>acoustics</span><span>release engineering</span></div>
+  <div class="provenance"><strong>Current.</strong> Current deep engineering note derived from LOUP ESP32-S3 audio recovery, RTP/PCAP analysis, codec/AEC investigation and preserved release evidence from 2026.</div>
+  <div class="prose"><h1>Why V116–V131 Did Not Automatically Replace V115</h1>
+<p>This part of the LOUP audio investigation began with a deceptively simple symptom: later queue, PLC and timer experiments looked more sophisticated on paper but repeatedly introduced crackle, echo or additional delay.</p>
+<p>The test platform was the LOUP ESP32-S3 voice device with ES8311 playback, ES7210 capture, SIP/RTP media and a small speakerphone enclosure. The network codec was G.711 A-law/PCMA at nominal 8 kHz with 20 ms / 160-byte RTP payloads, while the physical audio path ran at 16 kHz in the recovered playback design. That mismatch between network time, device time and acoustic time is exactly why a vague word like “crackle” is not a diagnosis.</p>
+<p>The evidence that matters for this article is specific: The recovery memo explicitly rejected treating the V116–V131 queue/PLC architecture as the final answer; the strong candidate was rebuilt from V115 behavior plus diagnostics-only changes. I keep those observations tied to the build and test where they were recorded. They are not universal ESP32 performance claims.</p>
+<p>The engineering result was also specific: The team rolled back conceptually to the simpler proven path and reintroduced changes only under measurement. This article is about how I got from the symptom to that bounded conclusion, what the data did not prove, and what I would monitor before touching the same path again.</p>
+<h2>How I framed this case</h2>
+<p>I treated this case as a boundary-identification problem. The failure was audible at the end of the chain, but the useful question was which boundary first contained evidence of the defect. Starting from <strong>Later queue, PLC and timer experiments looked more sophisticated on paper but repeatedly introduced crackle, echo or additional delay.</strong>, I walked backward until <strong>The recovery memo explicitly rejected treating the V116–V131 queue/PLC architecture as the final answer; the strong candidate was rebuilt from V115 behavior plus diagnostics-only changes.</strong> could either confirm or reject the current hypothesis. That approach kept later layers from being blamed for defects they only reproduced. The mechanism that mattered was Architectural complexity is not progress unless it beats the known-good control on the product acceptance criteria. The false lead—Assuming the highest version number is the best baseline.—was attractive precisely because it could explain the symptom without explaining the evidence. The accepted result, The team rolled back conceptually to the simpler proven path and reintroduced changes only under measurement., mattered because it changed the earliest failing boundary rather than merely changing how the failure sounded.</p>
+<h2>Product audio ends at the ear, not at I2S</h2>
+<p>Once the digital path is stable, the mechanical product becomes the next experiment. Speaker driver, enclosure volume, vents, sealing, amplifier behavior, microphone placement and user volume all alter what reaches the room and what returns to the microphone. AEC is part of that physical loop even though its code is digital.</p>
+<p>Release engineering belongs here too. The acoustic result is only useful if I can identify and restore the firmware that produced it. The V132A handoff treated the working binary as an immutable rollback reference while source cleanup and unrelated power work continued elsewhere. That is how a good call becomes an engineering baseline rather than a memory.</p>
+<h2>Case notebook</h2>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Recorded answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Symptom</td>
+<td>Later queue, PLC and timer experiments looked more sophisticated on paper but repeatedly introduced crackle, echo or additional delay.</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>The recovery memo explicitly rejected treating the V116–V131 queue/PLC architecture as the final answer; the strong candidate was rebuilt from V115 behavior plus diagnostics-only changes.</td>
+</tr>
+<tr>
+<td>Mechanism</td>
+<td>Architectural complexity is not progress unless it beats the known-good control on the product acceptance criteria.</td>
+</tr>
+<tr>
+<td>Rejected explanation</td>
+<td>Assuming the highest version number is the best baseline.</td>
+</tr>
+<tr>
+<td>Retained result</td>
+<td>The team rolled back conceptually to the simpler proven path and reintroduced changes only under measurement.</td>
+</tr>
+<tr>
+<td>Rule carried forward</td>
+<td>Version progression should preserve evidence, not create pressure to keep a regression because it is newer.</td>
+</tr>
+</tbody>
+</table>
+<p>I use this table as a compact incident contract. If a later retest changes the evidence but not the written conclusion, the conclusion needs review.</p>
+<p>A useful follow-up is to ask what would falsify the retained result. For this case, a repeat run on the same controlled topology should reproduce the relevant observation. If <strong>The recovery memo explicitly rejected treating the V116–V131 queue/PLC architecture as the final answer; the strong candidate was rebuilt from V115 behavior plus diagnostics-only changes.</strong> disappears while the symptom remains, then the old explanation no longer covers the new incident. If the observation returns without the symptom, then it may be contextual rather than causal. That is why I keep mechanism-level counters beside the listening test.</p>
+<h3>Instrumentation sketch</h3>
+<pre><code class="language-text">release evidence bundle:
+  board revision
+  firmware artifact hash
+  source commit/archive identity
+  app-only flash offset
+  call topology
+  timing summary
+  full-duplex / mute / volume result
+  acoustic observation
+  rollback artifact
+
+&quot;sounds good&quot; is one field, not the bundle
+</code></pre>
+<p>The snippet is not presented as drop-in production code. It documents the measurement model. I want the instrumentation to be cheaper than the deadline it observes, explicit about units, and easy to disable or summarize after the call. The most dangerous diagnostic is one that silently changes scheduler behavior while appearing to measure it.</p>
+<p>For <strong>Why V116–V131 Did Not Automatically Replace V115</strong>, the next retest would therefore preserve the same topology and change only the variable tied to <strong>Architectural complexity is not progress unless it beats the known-good control on the product acceptance criteria.</strong>. I would collect the same observation again, compare it with the known-good control, and only then decide whether a new firmware branch deserves to replace the baseline.</p>
+<h2>The evidence I trusted</h2>
+<p>The strongest evidence was: <strong>The recovery memo explicitly rejected treating the V116–V131 queue/PLC architecture as the final answer; the strong candidate was rebuilt from V115 behavior plus diagnostics-only changes.</strong></p>
+<p>I try to rank evidence by how close it is to the mechanism. A subjective report is important because it defines the product failure, but it is not enough to choose a patch. A log line is stronger only if the logging path does not perturb the timing being measured. A packet capture is strong for transport questions but weak for acoustics. A binary hash is excellent for identity and useless for explaining timbre. A synchronized measurement is valuable only if the clocks and capture points are understood.</p>
+<p>For this investigation I used the evidence as a boundary. It allowed me to say what changed and, just as importantly, what did not change. That distinction prevented the later write-up from turning a plausible story into a fabricated root cause.</p>
+<p>The mechanism underneath the observation is straightforward: Architectural complexity is not progress unless it beats the known-good control on the product acceptance criteria. This is the part I would teach to another firmware engineer before giving them any patch, because without the mechanism the numbers are easy to misread.</p>
+<h2>Tools were chosen by the question, not by habit</h2>
+<p>The useful toolset for this layer was hash-identified rollback images, real call repetition, controlled volume/geometry tests, factory-facing diagnostics and release acceptance checklists. I did not expect one tool to explain the whole call.</p>
+<p>When the question was packet loss, I looked at RTP sequence and timestamps. When the question was device scheduling, I looked at monotonic callback and I2S timing. When the question was build identity, I used hashes and preserved artifacts. When the question was echo or timbre, packet capture stopped at the digital boundary and the next test had to include the physical speaker/microphone path.</p>
+<p>That separation matters because every tool has a blind spot. UART logs can perturb timing. PCAP cannot hear the room. Far-end listening cannot prove which queue grew. Docker/Asterisk logs cannot prove the ESP32 played a sample. A codec detection scan cannot prove the channel mapping matches the DSP assumptions. The tool is evidence only for the layer it can actually observe.</p>
+<p>This is also why I prefer small, named counters over giant debug dumps in realtime code. A counter such as “writes over 20 ms,” “max callback gap,” “queue underrun,” or “first callback to I2S start” has a defined semantic. It can be compared across builds without parsing thousands of lines whose own output may change the result.</p>
+<h2>What this result proves—and what it does not</h2>
+<p>The result I am willing to claim is narrow: <strong>The team rolled back conceptually to the simpler proven path and reintroduced changes only under measurement.</strong> It is supported by the recorded observation: <strong>The recovery memo explicitly rejected treating the V116–V131 queue/PLC architecture as the final answer; the strong candidate was rebuilt from V115 behavior plus diagnostics-only changes.</strong></p>
+<p>It does not prove that every LOUP board, every network path or every future firmware build behaves the same way. It does not turn a server-side packet capture into an acoustic measurement. It does not turn a stable AEC-off test into permission to remove AEC from a speakerphone. It does not make a hash a quality metric. Those distinctions sound obvious in hindsight and are easy to lose when a demo deadline rewards a simple story.</p>
+<p>The useful causal statement is the one consistent with the mechanism: Architectural complexity is not progress unless it beats the known-good control on the product acceptance criteria. If another experiment changes that mechanism, I expect the evidence to change too. If the evidence stays the same, I should question the theory before rewriting more code.</p>
+<p>I also keep the rejected explanation visible: Assuming the highest version number is the best baseline. That is part of the result. Knowing which layer did <em>not</em> create the step change prevents future debugging from starting at the same dead end.</p>
+<h2>Reproducing the experiment without changing the experiment</h2>
+<p>If I had to hand this case to another engineer, I would ask them to preserve the same evidence boundary before attempting a fix:</p>
+<ul>
+<li>preserve the rollback binary before unrelated feature work</li>
+<li>repeat calls at controlled speaker levels</li>
+<li>separate digital timing evidence from acoustic observations</li>
+<li>record hardware/enclosure revision with every audio result</li>
+<li>require rollback, mute, full-duplex and call-origin gates before final sign-off</li>
+</ul>
+<p>The point is not ceremony. Embedded audio is sensitive to hidden changes. A different softphone setting, a different PBX region, a new enclosure revision, a verbose log level or a queue added “for safety” can all change the result while leaving the test name unchanged.</p>
+<p>For <strong>Why V116–V131 Did Not Automatically Replace V115</strong>, the pass condition should be written in terms of the mechanism and evidence, not just “sounds good.” The subjective call still matters—it is the product—but the engineering result has to survive comparison.</p>
+<h2>The production rule that survived the incident</h2>
+<p>Version progression should preserve evidence, not create pressure to keep a regression because it is newer.</p>
+<p>I translate that sentence into an operational rule. The metric or artifact that revealed the failure must remain available in future debug builds, but it must not create the same realtime cost. The known-good binary must remain recoverable. A new audio experiment must identify exactly which layer changed. A release candidate must be tested against the same user-visible behaviors that made the earlier baseline valuable.</p>
+<p>This keeps debugging cumulative. Instead of starting every audio complaint with “maybe packet loss” or “maybe AEC,” the next investigation begins with a fault tree and a set of already-proven boundaries. The value of the V115/V127/V132A history is not the version numbers themselves; it is the accumulated map of which measurements are trustworthy and which changes have already regressed the product.</p>
+<h2>What I would do differently on the next product</h2>
+<p>I would design the measurement points earlier. The RTP callback, playout clock, queue, I2S boundary, exact AEC reference, capture slots and acoustic test points would all have named interfaces and low-cost counters from the beginning. That would reduce the amount of forensic reconstruction needed after subjective complaints arrive.</p>
+<p>I would also separate debug verbosity from realtime instrumentation by architecture, not convention. Realtime code would update fixed counters or ring-buffer events; a lower-priority task would export summaries. If a UART or network logger can block the media task, the design has already allowed the observer into the deadline path.</p>
+<p>For multi-device validation I would automate the call matrix and preserve a compact evidence bundle per run: firmware identity, hardware revision, test endpoint, RTP summary, device timing summary and subjective/acoustic result. The point is not to collect everything. It is to make two runs comparable.</p>
+<p>Most importantly, I would preserve the same failure-model discipline. Architectural complexity is not progress unless it beats the known-good control on the product acceptance criteria. That principle remains true whether the next product uses ESP32-S3, a Linux SoC, a different codec or a cloud media service.</p>
+<h2>The result I keep from this incident</h2>
+<p>The team rolled back conceptually to the simpler proven path and reintroduced changes only under measurement.</p>
+<p>The deeper value is the method. I started with a perceptual symptom, located the earliest layer that could create it, chose evidence that could see that layer, changed one variable, and checked the known-good invariants afterward. The process is slower than random tuning for the first build and dramatically faster by the tenth.</p>
+<p>The short version of the lesson is: <strong>Version progression should preserve evidence, not create pressure to keep a regression because it is newer.</strong></p>
+<p>That is the standard I now use for embedded audio work. A fix is not convincing because the call sounds better once. It is convincing when the mechanism, measurement, artifact identity and regression behavior all agree about why it got better.</p></div>
+  <aside class="author-card">
+    <div><p class="eyebrow">ABOUT THE AUTHOR</p><h3><a href="../author/reaz-romen.html">Reaz Romen</a></h3></div>
+    <p>Systems engineer working across embedded devices, networks, real-time communications, backend systems, Linux infrastructure, observability, and operational tooling.</p>
+  </aside>
+</article>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="/topics.html">Topics</a>
+    <a href="/systems.html">Systems</a>
+    <a href="/archive.html">Archive</a>
+    <a href="/author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../about.html">
+  <title>Voiceware Engineering — Reaz Romen — Systems Engineering</title>
+  <link rel="stylesheet" href="../static/css/site.css">
+
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/sitewide-v2.css">
+<link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/phase2.css"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed">
+<a class="skip-link" href="#rr-main">Skip to content</a>
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<section class="page-head"><p class="eyebrow">TOPIC</p><h1>Voiceware Engineering</h1><p class="lede">Lessons, explainers, experiments, and implementation notes.</p></section>
+<div class="post-list">
+  <article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/voiceware-started-with-one-deployable-service-not-a-platform.html">Voiceware Started With One Deployable Service, Not a “Platform”</a></h3>
+  <p>Why I validated the delivery path with the web application before expanding to the rest of the stack.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>kubernetes</span><span>platform-engineering</span><span>migration</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/how-voiceware-grew-from-a-web-app-chart-into-a-multi-service-deployment-repository.html">How Voiceware Grew From a Web-App Chart Into a Multi-Service Deployment Repository</a></h3>
+  <p>The transition from a single Helm chart to a repository containing ten independently represented workloads.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>helm</span><span>repository-design</span><span>gitops</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/the-real-architecture-work-was-finding-voiceware-s-runtime-boundaries.html">The Real Architecture Work Was Finding Voiceware’s Runtime Boundaries</a></h3>
+  <p>How I treated process boundaries as deployment boundaries instead of forcing the application into one monolithic unit.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>architecture</span><span>kubernetes</span><span>microservices</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/why-i-kept-audio-workers-redis-nginx-and-the-web-app-separate.html">Why I Kept Audio, Workers, Redis, Nginx, and the Web App Separate</a></h3>
+  <p>The operational reasons for not collapsing supporting services into one large deployment.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>architecture</span><span>fault-isolation</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/git-became-part-of-the-voiceware-control-plane.html">Git Became Part of the Voiceware Control Plane</a></h3>
+  <p>The moment Git stopped being a storage location for YAML and became the source of intended runtime state.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>gitops</span><span>argocd</span><span>operations</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/what-a-deployment-platform-meant-in-voiceware.html">What a “Deployment Platform” Meant in Voiceware</a></h3>
+  <p>The difference between having Kubernetes manifests and having a repeatable delivery system.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>platform-engineering</span><span>helm</span><span>argocd</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/the-repository-layout-that-made-voiceware-easier-to-reason-about.html">The Repository Layout That Made Voiceware Easier to Reason About</a></h3>
+  <p>Using an apps directory for Helm packages and an argocd directory for deployment controllers.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>repository-design</span><span>helm</span><span>argocd</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/why-voiceware-needed-more-than-docker-compose-thinking.html">Why Voiceware Needed More Than Docker Compose Thinking</a></h3>
+  <p>The conceptual shift from “start these containers” to declaring desired state and independent service lifecycles.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>docker</span><span>kubernetes</span><span>platform-engineering</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/the-most-useful-artifact-in-voiceware-was-the-deployment-history.html">The Most Useful Artifact in Voiceware Was the Deployment History</a></h3>
+  <p>What I learned by treating commit history as a record of engineering decisions instead of noise.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>git</span><span>debugging</span><span>devops</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/from-yaml-files-to-an-operating-model-the-voiceware-shift.html">From YAML Files to an Operating Model: The Voiceware Shift</a></h3>
+  <p>The broader change from manually thinking about containers to thinking about desired state, reconciliation, and service responsibility.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>platform-engineering</span><span>gitops</span><span>architecture</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/deployment-vs-service-the-two-kubernetes-objects-voiceware-needed-first.html">Deployment vs Service: The Two Kubernetes Objects Voiceware Needed First</a></h3>
+  <p>The separation between process lifecycle and network reachability.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>kubernetes</span><span>service</span><span>deployment</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/why-the-first-voiceware-web-service-used-clusterip.html">Why the First Voiceware Web Service Used ClusterIP</a></h3>
+  <p>Why internal reachability was the safer default during the first deployment slice.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>clusterip</span><span>kubernetes</span><span>networking</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/why-i-later-exposed-voiceware-on-nodeport-30080.html">Why I Later Exposed Voiceware on NodePort 30080</a></h3>
+  <p>The practical reason for adding a simple external access path while validating the web deployment.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>nodeport</span><span>kubernetes</span><span>networking</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/labels-and-selectors-the-tiny-contract-that-can-break-an-entire-service.html">Labels and Selectors: The Tiny Contract That Can Break an Entire Service</a></h3>
+  <p>Why the app label shared by a Deployment and Service matters more than it looks.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>kubernetes</span><span>labels</span><span>service-discovery</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/what-replicacount-really-means-in-a-voiceware-helm-chart.html">What replicaCount Really Means in a Voiceware Helm Chart</a></h3>
+  <p>Why a single integer represents an operational scaling decision rather than a cosmetic value.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>kubernetes</span><span>scaling</span><span>helm</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/container-ports-are-documentation-and-a-runtime-contract.html">Container Ports Are Documentation and a Runtime Contract</a></h3>
+  <p>How service ports made Voiceware component boundaries visible.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>ports</span><span>kubernetes</span><span>networking</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/why-chart-name-was-a-useful-naming-primitive.html">Why Chart.Name Was a Useful Naming Primitive</a></h3>
+  <p>Using the Helm chart identity to keep Deployment, labels, and Services aligned.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>helm</span><span>kubernetes</span><span>naming</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/the-trade-off-of-deploying-voiceware-into-the-default-namespace.html">The Trade-Off of Deploying Voiceware Into the default Namespace</a></h3>
+  <p>What the current ArgoCD destination implies and what I would revisit as environments grow.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>kubernetes</span><span>namespaces</span><span>argocd</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/internal-services-vs-external-services-in-voiceware.html">Internal Services vs External Services in Voiceware</a></h3>
+  <p>How I separate east-west service communication from user-facing exposure.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>kubernetes</span><span>networking</span><span>security</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/a-kubernetes-service-can-be-healthy-while-the-app-is-broken.html">A Kubernetes Service Can Be Healthy While the App Is Broken</a></h3>
+  <p>A layered method for checking pods, endpoints, ports, and application behavior separately.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>kubernetes</span><span>debugging</span><span>services</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 1 min read · 2026-09-18</p>
+  <h3><a href="../posts/why-i-put-voiceware-runtime-knobs-in-values-yaml.html">Why I Put Voiceware Runtime Knobs in values.yaml</a></h3>
+  <p>Separating reusable Kubernetes structure from service-specific image, replica, and port settings.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>helm</span><span>values</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 1 min read · 2026-09-18</p>
+  <h3><a href="../posts/chart-yaml-is-small-but-it-gives-a-service-an-identity.html">Chart.yaml Is Small, but It Gives a Service an Identity</a></h3>
+  <p>Why a minimal chart metadata file still matters to naming and packaging.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>helm</span><span>chart-yaml</span><span>packaging</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/the-voiceware-service-template-small-yaml-big-responsibility.html">The Voiceware Service Template: Small YAML, Big Responsibility</a></h3>
+  <p>How a short Service template binds a logical name to selected pods and a target port.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>helm</span><span>kubernetes-service</span><span>networking</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/the-voiceware-deployment-template-and-the-value-of-boring-repetition.html">The Voiceware Deployment Template and the Value of Boring Repetition</a></h3>
+  <p>Why a predictable Deployment shape across services made the repository easier to scan.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>helm</span><span>templates</span><span>platform-engineering</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 1 min read · 2026-09-18</p>
+  <h3><a href="../posts/how-a-missing-helm-value-turned-into-a-nil-pointer-problem.html">How a Missing Helm Value Turned Into a Nil-Pointer Problem</a></h3>
+  <p>How a missing optional Celery value caused Helm to fail before Kubernetes ever created the workload.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>helm</span><span>nil-pointer</span><span>debugging</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/conditional-helm-templates-are-powerful-and-easy-to-overcomplicate.html">Conditional Helm Templates Are Powerful—and Easy to Overcomplicate</a></h3>
+  <p>Using conditionals for workload-specific behavior without turning templates into a programming language.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>helm</span><span>templating</span><span>celery</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 1 min read · 2026-09-18</p>
+  <h3><a href="../posts/the-missing-service-port-bug-in-celery-low.html">The Missing service.port Bug in celery-low</a></h3>
+  <p>Why one absent value can break an otherwise familiar chart pattern.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>helm</span><span>celery</span><span>debugging</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 1 min read · 2026-09-18</p>
+  <h3><a href="../posts/the-missing-celery-type-bug-and-what-it-says-about-configuration-contracts.html">The Missing celery.type Bug and What It Says About Configuration Contracts</a></h3>
+  <p>How conditional behavior depends on values being present and semantically correct.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>helm</span><span>configuration</span><span>celery</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/rendering-safely-when-some-voiceware-workers-are-optional.html">Rendering Safely When Some Voiceware Workers Are Optional</a></h3>
+  <p>Why optional components need explicit enablement logic and safe defaults.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>helm</span><span>optional-workloads</span><span>celery</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="../posts/when-to-reuse-a-helm-template-and-when-to-fork-it.html">When to Reuse a Helm Template and When to Fork It</a></h3>
+  <p>The boundary between common deployment structure and service-specific commands such as celery-low.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>helm</span><span>architecture</span><span>templates</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/what-an-argocd-application-actually-did-for-voiceware.html">What an ArgoCD Application Actually Did for Voiceware</a></h3>
+  <p>Breaking down repository source, chart path, destination cluster, namespace, and sync policy.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>argocd</span><span>gitops</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/why-repourl-and-path-form-a-deployment-contract.html">Why repoURL and path Form a Deployment Contract</a></h3>
+  <p>How ArgoCD finds the intended service definition inside the repository.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>argocd</span><span>repository-design</span><span>gitops</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 3 min read · 2026-09-18</p>
+  <h3><a href="/posts/using-head-in-argocd-fast-for-iteration-risky-without-promotion-rules.html">Using HEAD in ArgoCD: Fast for Iteration, Risky Without Promotion Rules</a></h3>
+  <p>The trade-off of following the current branch head rather than pinning a release revision.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>argocd</span><span>releases</span><span>gitops</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/automated-sync-changed-the-way-i-thought-about-deployment.html">Automated Sync Changed the Way I Thought About Deployment</a></h3>
+  <p>Moving from imperative deploy commands to controller-driven convergence.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>argocd</span><span>automation</span><span>gitops</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/what-prune-true-means-in-a-real-repository.html">What prune: true Means in a Real Repository</a></h3>
+  <p>Why deleted desired-state resources should not silently live forever in the cluster.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>argocd</span><span>prune</span><span>gitops</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/what-selfheal-true-buys-you-and-what-it-does-not.html">What selfHeal: true Buys You—and What It Does Not</a></h3>
+  <p>The difference between correcting resource drift and fixing a broken application.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>argocd</span><span>self-heal</span><span>operations</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/git-as-desired-state-the-voiceware-mental-model.html">Git as Desired State: The Voiceware Mental Model</a></h3>
+  <p>Why a GitOps repo is more than a backup of manifests.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>gitops</span><span>desired-state</span><span>platform-engineering</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 3 min read · 2026-09-18</p>
+  <h3><a href="/posts/how-i-think-about-configuration-drift-in-voiceware.html">How I Think About Configuration Drift in Voiceware</a></h3>
+  <p>What drift is, how reconciliation changes it, and when a manual change is a warning sign.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>argocd</span><span>drift</span><span>operations</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/one-argocd-application-per-voiceware-service.html">One ArgoCD Application per Voiceware Service</a></h3>
+  <p>The benefits and costs of independently reconciling each major workload.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>argocd</span><span>architecture</span><span>gitops</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 3 min read · 2026-09-18</p>
+  <h3><a href="/posts/my-gitops-debugging-order-when-argocd-says-something-is-wrong.html">My GitOps Debugging Order When ArgoCD Says Something Is Wrong</a></h3>
+  <p>A deterministic path from Application source to rendered chart to Kubernetes object to runtime process.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>argocd</span><span>debugging</span><span>runbook</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/why-voiceware-had-multiple-celery-worker-roles.html">Why Voiceware Had Multiple Celery Worker Roles</a></h3>
+  <p>Separating scheduled, high-priority, standard, and low-priority execution concerns.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>celery</span><span>queues</span><span>architecture</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/celery-beat-is-not-just-another-worker.html">Celery Beat Is Not “Just Another Worker”</a></h3>
+  <p>Why scheduled task orchestration deserves different lifecycle thinking from queue consumers.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>celery-beat</span><span>scheduling</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/high-standard-and-low-queues-designing-for-contention.html">High, Standard, and Low Queues: Designing for Contention</a></h3>
+  <p>How priority classes can turn one background-processing system into controlled lanes.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>celery</span><span>queues</span><span>performance</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/queue-isolation-is-a-capacity-control-tool.html">Queue Isolation Is a Capacity-Control Tool</a></h3>
+  <p>Why worker pools give operators a place to assign and protect capacity.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>celery</span><span>capacity-planning</span><span>queues</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 1 min read · 2026-09-18</p>
+  <h3><a href="/posts/what-the-celery-a-pbx-command-reveals-about-runtime-ownership.html">What the celery -A pbx Command Reveals About Runtime Ownership</a></h3>
+  <p>How the worker command ties infrastructure configuration to an application module.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>celery</span><span>pbx</span><span>runtime</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 3 min read · 2026-09-18</p>
+  <h3><a href="/posts/why-a-worker-might-disable-gossip-mingle-and-heartbeats.html">Why a Worker Might Disable Gossip, Mingle, and Heartbeats</a></h3>
+  <p>The operational trade-offs visible in the Voiceware low-worker command.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>celery</span><span>operations</span><span>performance</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 1 min read · 2026-09-18</p>
+  <h3><a href="/posts/the-celery-low-fix-was-a-configuration-contract-failure.html">The celery-low Fix Was a Configuration-Contract Failure</a></h3>
+  <p>Connecting missing type, missing service port, and command fixes into one root lesson.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>celery</span><span>helm</span><span>debugging</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/one-image-multiple-processes-voiceware-s-celery-pattern.html">One Image, Multiple Processes: Voiceware’s Celery Pattern</a></h3>
+  <p>Reusing the Django application image for several worker roles while changing how the container starts.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>celery</span><span>containers</span><span>django</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/why-worker-scaling-must-follow-queue-behavior.html">Why Worker Scaling Must Follow Queue Behavior</a></h3>
+  <p>Thinking about replicas from queue latency and task cost rather than CPU alone.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>celery</span><span>scaling</span><span>operations</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/background-jobs-are-part-of-the-product-latency-budget.html">Background Jobs Are Part of the Product Latency Budget</a></h3>
+  <p>Why asynchronous does not mean unimportant or invisible.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>celery</span><span>latency</span><span>architecture</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/redis-in-voiceware-small-manifest-central-dependency.html">Redis in Voiceware: Small Manifest, Central Dependency</a></h3>
+  <p>Why an internal Redis service deserves explicit operational attention.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>redis</span><span>kubernetes</span><span>architecture</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 1 min read · 2026-09-18</p>
+  <h3><a href="/posts/clusterip-and-service-discovery-for-redis.html">ClusterIP and Service Discovery for Redis</a></h3>
+  <p>How an internal service name is preferable to hard-coding pod identity.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>redis</span><span>clusterip</span><span>service-discovery</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/a-single-redis-replica-is-a-design-choice-not-a-default-truth.html">A Single Redis Replica Is a Design Choice, Not a Default Truth</a></h3>
+  <p>How I interpret the current one-replica values and what changes when availability requirements grow.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>redis</span><span>availability</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 1 min read · 2026-09-18</p>
+  <h3><a href="/posts/control-plane-data-plane-and-queue-dependencies-in-voiceware.html">Control Plane, Data Plane, and Queue Dependencies in Voiceware</a></h3>
+  <p>A mental model for separating deployment control from application traffic and background work.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>architecture</span><span>redis</span><span>argocd</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 1 min read · 2026-09-18</p>
+  <h3><a href="/posts/redis-failure-is-not-the-same-as-web-app-failure.html">Redis Failure Is Not the Same as Web-App Failure</a></h3>
+  <p>Why dependency failures should be diagnosed as graph problems instead of pod problems.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>redis</span><span>debugging</span><span>dependencies</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/why-nginx-was-its-own-voiceware-application.html">Why Nginx Was Its Own Voiceware Application</a></h3>
+  <p>The operational value of separating edge/proxy concerns from the application container.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>nginx</span><span>architecture</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 1 min read · 2026-09-18</p>
+  <h3><a href="/posts/port-80-appears-twice-but-the-responsibilities-are-different.html">Port 80 Appears Twice, but the Responsibilities Are Different</a></h3>
+  <p>Distinguishing an Nginx listener from the web application service contract even when both use port 80.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>nginx</span><span>web-app</span><span>networking</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 3 min read · 2026-09-18</p>
+  <h3><a href="/posts/why-i-prefer-a-separate-edge-layer-over-hiding-routing-in-the-app.html">Why I Prefer a Separate Edge Layer Over Hiding Routing in the App</a></h3>
+  <p>The trade-off between fewer containers and clearer network responsibility.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>nginx</span><span>edge</span><span>architecture</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/nodeport-was-a-validation-step-not-the-whole-networking-story.html">NodePort Was a Validation Step, Not the Whole Networking Story</a></h3>
+  <p>How I think about the later web-app NodePort in the context of a production edge design.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>nodeport</span><span>nginx</span><span>networking</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/when-i-would-replace-nodeport-with-ingress-or-a-load-balancer.html">When I Would Replace NodePort With Ingress or a Load Balancer</a></h3>
+  <p>The conditions that justify moving from direct node exposure to a richer edge abstraction.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>ingress</span><span>nodeport</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/the-audio-fork-service-deserved-its-own-deployment-boundary.html">The audio-fork Service Deserved Its Own Deployment Boundary</a></h3>
+  <p>Why audio-related processing should not be forced into the lifecycle of the web process.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>audio</span><span>kubernetes</span><span>architecture</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/what-port-5001-tells-me-and-what-it-does-not.html">What Port 5001 Tells Me—and What It Does Not</a></h3>
+  <p>Reading infrastructure signal carefully without inventing application internals.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>audio</span><span>documentation</span><span>architecture</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/audio-workloads-need-different-operational-questions.html">Audio Workloads Need Different Operational Questions</a></h3>
+  <p>The checks I would apply to a voice-processing service beyond ordinary HTTP availability.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>audio</span><span>observability</span><span>operations</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/why-voice-processing-and-web-serving-should-fail-independently.html">Why Voice Processing and Web Serving Should Fail Independently</a></h3>
+  <p>Using deployment separation to reduce cross-component blast radius.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>audio</span><span>web-app</span><span>fault-isolation</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/the-esl-service-as-an-explicit-integration-boundary.html">The ESL Service as an Explicit Integration Boundary</a></h3>
+  <p>Why I prefer to see integration adapters represented directly in the deployment graph.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>esl</span><span>integration</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/port-5000-and-the-importance-of-stable-internal-contracts.html">Port 5000 and the Importance of Stable Internal Contracts</a></h3>
+  <p>How a service port becomes part of the dependency interface between components.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>esl</span><span>ports</span><span>service-discovery</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 1 min read · 2026-09-18</p>
+  <h3><a href="/posts/the-pbx-application-name-inside-the-celery-command-is-an-architecture-clue.html">The pbx Application Name Inside the Celery Command Is an Architecture Clue</a></h3>
+  <p>What process entrypoints reveal about how telephony logic and background work connect.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>pbx</span><span>celery</span><span>architecture</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/backpressure-matters-in-voice-systems-even-when-work-is-asynchronous.html">Backpressure Matters in Voice Systems Even When Work Is Asynchronous</a></h3>
+  <p>How queue separation can protect interactive paths from background processing pressure.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>backpressure</span><span>celery</span><span>audio</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/latency-sensitive-work-and-batch-work-should-not-share-every-knob.html">Latency-Sensitive Work and Batch Work Should Not Share Every Knob</a></h3>
+  <p>Why the presence of audio services and background workers argues for differentiated scaling and monitoring.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>latency</span><span>scaling</span><span>architecture</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/failure-isolation-in-a-voice-platform-is-a-product-feature.html">Failure Isolation in a Voice Platform Is a Product Feature</a></h3>
+  <p>Why runtime boundaries influence user experience even though users never see Kubernetes.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>reliability</span><span>voice</span><span>platform-engineering</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/why-filebeat-was-treated-as-a-first-class-voiceware-component.html">Why Filebeat Was Treated as a First-Class Voiceware Component</a></h3>
+  <p>Making log shipping visible in the deployment model rather than treating logs as an afterthought.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>filebeat</span><span>logging</span><span>observability</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/port-5044-and-the-difference-between-log-generation-and-log-transport.html">Port 5044 and the Difference Between Log Generation and Log Transport</a></h3>
+  <p>Separating application logging from the system that moves or ingests those logs.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>filebeat</span><span>logging</span><span>operations</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 3 min read · 2026-09-18</p>
+  <h3><a href="/posts/my-layered-debugging-model-for-voiceware-on-kubernetes.html">My Layered Debugging Model for Voiceware on Kubernetes</a></h3>
+  <p>A repeatable order for diagnosing delivery, scheduling, networking, dependencies, and application behavior.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>debugging</span><span>kubernetes</span><span>runbook</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/argocd-green-does-not-mean-voiceware-is-healthy.html">ArgoCD Green Does Not Mean Voiceware Is Healthy</a></h3>
+  <p>The difference between desired-state convergence and application correctness.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>argocd</span><span>health</span><span>observability</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/how-i-recognize-an-image-pull-problem-before-blaming-the-app.html">How I Recognize an Image-Pull Problem Before Blaming the App</a></h3>
+  <p>Using Kubernetes events and image references to separate runtime startup failures from application failures.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>containerd</span><span>image-pull</span><span>debugging</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/service-port-mismatches-the-quiet-networking-failure.html">Service Port Mismatches: The Quiet Networking Failure</a></h3>
+  <p>Why I verify listener, container port, Service port, and targetPort as one chain.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>ports</span><span>kubernetes</span><span>debugging</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/helm-render-errors-are-not-kubernetes-errors.html">Helm Render Errors Are Not Kubernetes Errors</a></h3>
+  <p>Why nil-pointer failures should be solved before looking at pods or cluster networking.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>helm</span><span>debugging</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/manifest-bugs-vs-runtime-bugs-voiceware-had-both-kinds-of-risk.html">Manifest Bugs vs Runtime Bugs: Voiceware Had Both Kinds of Risk</a></h3>
+  <p>Separating incorrect desired state from a correctly declared process that behaves badly.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>debugging</span><span>platform-engineering</span><span>operations</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/commit-messages-as-an-incident-timeline.html">Commit Messages as an Incident Timeline</a></h3>
+  <p>How the sequence of small fixes reconstructed the actual migration story.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>git</span><span>incidents</span><span>debugging</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 3 min read · 2026-09-18</p>
+  <h3><a href="/posts/the-minimum-telemetry-i-want-around-a-voiceware-like-stack.html">The Minimum Telemetry I Want Around a Voiceware-Like Stack</a></h3>
+  <p>A practical monitoring baseline derived from the workload types in the deployment graph.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>observability</span><span>monitoring</span><span>operations</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 1 min read · 2026-09-18</p>
+  <h3><a href="/posts/the-containerd-image-path-bug-that-looked-bigger-than-it-was.html">The containerd Image-Path Bug That Looked Bigger Than It Was</a></h3>
+  <p>Why image naming semantics matter when moving from local Docker assumptions into Kubernetes.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>containerd</span><span>docker</span><span>debugging</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/why-docker-io-library-voiceware-web-app-is-more-explicit-than-voiceware-web-app.html">Why docker.io/library/voiceware-web-app Is More Explicit Than voiceware-web-app</a></h3>
+  <p>How a fully qualified-ish image path reduces ambiguity for the runtime.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>containerd</span><span>images</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/image-names-are-part-of-the-deployment-api.html">Image Names Are Part of the Deployment API</a></h3>
+  <p>Why repository, tag, and pull policy deserve review like any other runtime contract.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>containers</span><span>helm</span><span>releases</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/the-risk-of-latest-in-a-gitops-repository.html">The Risk of :latest in a GitOps Repository</a></h3>
+  <p>Why a declarative manifest can still be non-reproducible when the tag is mutable.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>docker</span><span>latest-tag</span><span>gitops</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/ifnotpresent-can-hide-image-changes-during-testing.html">IfNotPresent Can Hide Image Changes During Testing</a></h3>
+  <p>How pull policy interacts with mutable image tags and node caches.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>image-pull-policy</span><span>containers</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/what-a-better-registry-strategy-would-look-like-for-voiceware.html">What a Better Registry Strategy Would Look Like for Voiceware</a></h3>
+  <p>A production-oriented path from local-style image names to controlled artifact distribution.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>registry</span><span>containers</span><span>devops</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/build-once-promote-the-same-image.html">Build Once, Promote the Same Image</a></h3>
+  <p>Why I prefer environment configuration to change without rebuilding application bytes.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>ci-cd</span><span>containers</span><span>releases</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/why-immutable-tags-make-rollback-boring.html">Why Immutable Tags Make Rollback Boring</a></h3>
+  <p>How precise image identity simplifies GitOps recovery.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>rollback</span><span>containers</span><span>gitops</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/local-images-and-cluster-images-are-different-problems.html">Local Images and Cluster Images Are Different Problems</a></h3>
+  <p>Why “it exists on my machine” is irrelevant unless the node runtime can resolve the same artifact.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>containerd</span><span>registry</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/the-build-deploy-boundary-is-where-many-platform-bugs-hide.html">The Build/Deploy Boundary Is Where Many Platform Bugs Hide</a></h3>
+  <p>How image identity, chart values, and runtime resolution meet at one interface.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>ci-cd</span><span>helm</span><span>containers</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/why-i-would-still-start-a-voiceware-migration-with-one-workload-today.html">Why I Would Still Start a Voiceware Migration With One Workload Today</a></h3>
+  <p>The repeatable migration strategy that survived the real project.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>migration</span><span>kubernetes</span><span>strategy</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 3 min read · 2026-09-18</p>
+  <h3><a href="/posts/my-voiceware-to-kubernetes-migration-checklist.html">My Voiceware-to-Kubernetes Migration Checklist</a></h3>
+  <p>A practical sequence for moving a service without losing track of runtime assumptions.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>migration</span><span>checklist</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/test-one-layer-at-a-time-or-debug-five-layers-at-once.html">Test One Layer at a Time or Debug Five Layers at Once</a></h3>
+  <p>Why staged validation mattered throughout the Helm and ArgoCD work.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>testing</span><span>debugging</span><span>platform-engineering</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/rollback-in-gitops-is-simple-only-when-releases-are-identifiable.html">Rollback in GitOps Is Simple Only When Releases Are Identifiable</a></h3>
+  <p>Connecting Git reverts, ArgoCD reconciliation, and immutable artifacts into one recovery model.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>rollback</span><span>argocd</span><span>containers</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 3 min read · 2026-09-18</p>
+  <h3><a href="/posts/infrastructure-configuration-deserves-code-review.html">Infrastructure Configuration Deserves Code Review</a></h3>
+  <p>Why a one-line port, image, or sync-policy change can have production impact.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>code-review</span><span>devops</span><span>gitops</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/how-i-would-separate-dev-staging-and-production-next.html">How I Would Separate Dev, Staging, and Production Next</a></h3>
+  <p>Turning the current single-destination pattern into an environment promotion model.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>environments</span><span>argocd</span><span>gitops</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/secrets-are-the-part-of-a-gitops-repo-i-do-not-want-to-just-add.html">Secrets Are the Part of a GitOps Repo I Do Not Want to “Just Add”</a></h3>
+  <p>How to think about credentials when application manifests are intentionally stored in Git.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>secrets</span><span>security</span><span>gitops</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/what-the-early-voiceware-manifests-do-not-yet-prove.html">What the Early Voiceware Manifests Do Not Yet Prove</a></h3>
+  <p>Being precise about the difference between a working deployment model and production hardening.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>production-readiness</span><span>kubernetes</span><span>architecture</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 3 min read · 2026-09-18</p>
+  <h3><a href="/posts/the-production-hardening-pass-i-would-apply-to-voiceware.html">The Production Hardening Pass I Would Apply to Voiceware</a></h3>
+  <p>A prioritized list of reliability controls to layer onto the validated deployment foundation.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>production-readiness</span><span>reliability</span><span>kubernetes</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="voiceware-engineering.html">Voiceware Engineering</a> · 2 min read · 2026-09-18</p>
+  <h3><a href="/posts/the-biggest-voiceware-lesson-platform-engineering-is-contract-engineering.html">The Biggest Voiceware Lesson: Platform Engineering Is Contract Engineering</a></h3>
+  <p>The common thread connecting ports, images, values, commands, Services, ArgoCD paths, and queues.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>voiceware</span><span>platform-engineering</span><span>architecture</span><span>lessons-learned</span></div>
+</article>
+</div>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="../topics.html">Topics</a>
+    <a href="../systems.html">Systems</a>
+    <a href="../archive.html">Archive</a>
+    <a href="../author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script>
+<dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><div id="context-preview" class="context-preview" role="tooltip" hidden data-pagefind-ignore></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

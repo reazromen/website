@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../about.html">
+  <title>The Backend Can Be Down Without Making the Phone Useless — Reaz Romen — Systems Engineering</title>
+  <link rel="stylesheet" href="../static/css/site.css">
+<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><meta data-pagefind-filter="type[content]" content="Writing"><meta data-pagefind-filter="domain[content]" content="Embedded &amp; Devices"><meta data-pagefind-filter="format[content]" content="Article"><meta data-pagefind-meta="type[content]" content="Writing"><meta data-pagefind-meta="domain[content]" content="Embedded &amp; Devices"><meta data-pagefind-meta="title[content]" content="The Backend Can Be Down Without Making the Phone Useless"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
+
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<article class="article" data-pagefind-body>
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../topics.html">Topics</a> / <a href="../topics/production-ota-fleet.html">Production OTA &amp; Fleet</a></nav>
+  <p class="eyebrow">Production OTA: Identity &amp; Enrollment · deep-dive</p>
+  <h1>The Backend Can Be Down Without Making the Phone Useless</h1>
+  <p class="lede">Provisioning and OTA control were new dependencies, but a temporary backend outage should not break an already configured voice device.</p>
+  <div class="article-meta">
+    <address class="author-line">By <a href="../author/reaz-romen.html">Reaz Romen</a><span class="verified" title="Verified by this publication">✓ Site verified</span></address>
+    
+    <span>Published 2026-09-15</span>
+    
+    <span>8 min read</span>
+  </div>
+  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
+  <div class="provenance"><strong>Current.</strong> Current deep engineering note derived from LOUP production OTA architecture, ESP-IDF integration contract, migration policy, release/assignment state machine and fleet operations evidence from 2026.</div>
+  <div class="prose"><h1>The Backend Can Be Down Without Making the Phone Useless</h1>
+<p>Production OTA got easier when I stopped treating it as file transfer. In this case, Provisioning and OTA control were new dependencies, but a temporary backend outage should not break an already configured voice device.</p>
+<p>The system behind this series is LOUP's production-style OTA control plane: per-device identity, explicit release objects, compatibility metadata, assignment state, heartbeat observation, A/B application slots, signed artifacts, first-boot validation, append-only events and staged rollout. The point is not the exact API shape. It is the state discipline required when server, device and bootloader can each be correct locally while disagreeing about the fleet globally.</p>
+<p>The evidence for this case was specific: <strong>The firmware contract explicitly says provisioning-server failure must not make the device unusable when valid cached SIP configuration already exists.</strong> I keep that claim tied to this implementation and policy rather than presenting it as a universal OTA benchmark.</p>
+<p>The result I retained was: <strong>The device retained valid local configuration and allowed calls while control-plane work retried independently.</strong></p>
+<h2>The state I was actually debugging</h2>
+<pre><code class="language-text">operator -&gt; release state -&gt; device assignment (desired)
+                           |
+                           v
+device heartbeat ----&gt; running_release_id (observed)
+       |                   |
+       |                   v
+       +---- desired manifest if eligible/compatible
+                           |
+                      inactive OTA slot
+                           |
+                      reboot pending verify
+                           |
+                 local self-test -&gt; accept / rollback
+                           |
+                  release-scoped event + heartbeat
+</code></pre>
+<p>Device identity is the first state machine. Factory registration, one-time enrollment, runtime credential state, blocked/revoked policy and observed health should not collapse into one boolean called online.</p>
+<p>The first design looked simpler because it removed a state. That simplicity was false. The problem was Provisioning and OTA control were new dependencies, but a temporary backend outage should not break an already configured voice device. The system already knew The firmware contract explicitly says provisioning-server failure must not make the device unusable when valid cached SIP configuration already exists. Once I modeled Configuration control plane availability and real-time product function have different failure budgets; cached state can decouple them., the shortcut Restarting or clearing working SIP state whenever config sync fails. stopped being acceptable. The retained result was The device retained valid local configuration and allowed calls while control-plane work retried independently.</p>
+<p>The practical rule was: <strong>A management plane should fail softer than the product function it manages.</strong> That rule is more durable than any one endpoint or database column because it defines which component is allowed to claim which truth.</p>
+<h2>Reconstructing the transition</h2>
+<pre><code class="language-text">factory_registered --consume bootstrap--&gt; enrolled
+      |                                  |
+      |                                  +--&gt; unique runtime credential
+      |                                         |
+      +-----------------------------------------+--&gt; active / blocked / revoked
+heartbeat observes runtime; it does not create trust.
+</code></pre>
+<p>I used one question to keep the model honest: <strong>What stale value could make this look successful when it is not?</strong></p>
+<p>For this case, the answer starts with the observed problem: Provisioning and OTA control were new dependencies, but a temporary backend outage should not break an already configured voice device. The control plane already had evidence that The firmware contract explicitly says provisioning-server failure must not make the device unusable when valid cached SIP configuration already exists. That evidence only becomes useful when it is attached to the correct transition. The underlying reason is Configuration control plane availability and real-time product function have different failure budgets; cached state can decouple them.</p>
+<p>Now consider the counterfactual. Suppose the server keeps its desired state, but the device never reports the corresponding running state. Nothing should silently advance. Suppose the device reports a terminal-looking string that belongs to an older release. The new assignment should not inherit that causality. Suppose a release is cryptographically valid but persistent-state compatibility is wrong. Delivery still has to stop. These are all examples of locally reasonable facts that become globally wrong when their scope is lost.</p>
+<p>The shortcut I rejected was Restarting or clearing working SIP state whenever config sync fails. It removes a state or validation step, but that apparent simplicity only pushes ambiguity into recovery. The retained result—The device retained valid local configuration and allowed calls while control-plane work retried independently.—keeps the ambiguity visible until a component with the right authority resolves it.</p>
+<h2>Implementation boundary</h2>
+<p>The implementation boundary starts before the OTA code. Device inventory must retain hardware identity even when credentials rotate. Enrollment consumes bootstrap authority and returns a runtime credential once; the database stores a verifier/hash rather than the reusable plaintext. Heartbeat endpoints then authenticate that runtime credential before accepting observations. If an operator blocks a device, the policy decision should be visible separately from credential revocation so recovery does not require inventing a new identity.</p>
+<p>Recovery paths deserve the same explicit state names as the happy path. In this case, the key observation is <strong>The firmware contract explicitly says provisioning-server failure must not make the device unusable when valid cached SIP configuration already exists.</strong>. I would expose enough state to verify that observation without copying secrets or giant diagnostic payloads into the event stream.</p>
+<p>The minimum useful operational record includes the device identifier, release identifier where relevant, previous and target versions, assignment state, boot/update state, and a sanitized result. For device-side acceptance I also want the generations that determine compatibility. These fields are not decoration: they let an incident review distinguish “server wanted release X,” “device downloaded release X,” “device booted release X,” and “device accepted release X.”</p>
+<p>The unsafe alternative was <strong>Restarting or clearing working SIP state whenever config sync fails.</strong>. That alternative usually saves one field or one state transition, but it makes recovery ambiguous. When the system later fails, an operator has to infer what probably happened from timestamps and logs. I would rather spend a little more schema/API complexity up front and make the transition mechanically provable.</p>
+<h2>What changes when the fleet grows</h2>
+<p>At two devices, an engineer can remember almost everything. At five devices, informal state already becomes unreliable. At twenty devices, a shared secret, ambiguous version string or manual “I think that board updated” workflow becomes an incident generator.</p>
+<p>I would keep the same model as the fleet grows and change the implementation around it: stronger key custody, richer cohorts, more formal release approvals, better metrics and eventually geographically independent control-plane recovery. I would not remove the distinctions between device identity, desired release, running release, release policy and rollback state. Those distinctions become more valuable with scale.</p>
+<p>The mechanism remains the same: Configuration control plane availability and real-time product function have different failure budgets; cached state can decouple them. Distributed state does not disappear when more automation is added; automation simply makes incorrect state transitions happen faster if the model is weak.</p>
+<h2>The invariants I wanted before the transition</h2>
+<ul>
+<li>factory identity exists before enrollment</li>
+<li>bootstrap secret is single-use</li>
+<li>runtime token is unique per device</li>
+<li>credential state is independent from online status</li>
+<li>blocked/revoked transitions are auditable</li>
+</ul>
+<p>For <strong>The Backend Can Be Down Without Making the Phone Useless</strong>, the key mechanism is that Configuration control plane availability and real-time product function have different failure budgets; cached state can decouple them. If one of these invariants is unknown, the control plane should prefer a blocked or pending state over inventing convergence.</p>
+<p>This is where production OTA diverges from a lab script. A lab script can assume the operator remembers which board is on which image. A fleet service has to make those assumptions explicit enough that another process can reject a dangerous transition automatically.</p>
+<h2>What the evidence proves—and what it does not</h2>
+<p>The evidence supports this narrow statement: <strong>The device retained valid local configuration and allowed calls while control-plane work retried independently.</strong></p>
+<p>It does not prove that every future firmware is safe, that every device will remain online, or that the server can infer unreported device state. OTA is distributed: the server knows assignment intent, the device knows what it is executing, and the bootloader knows pending/rollback state. No one component has perfect knowledge at every instant.</p>
+<p>That is why <strong>Configuration control plane availability and real-time product function have different failure budgets; cached state can decouple them.</strong> The correct model tolerates temporary disagreement and waits for the observation that resolves it. It is better to show PENDING than to manufacture success from stale data.</p>
+<h2>The rule I kept</h2>
+<p><strong>A management plane should fail softer than the product function it manages.</strong></p>
+<p>The result from this case was The device retained valid local configuration and allowed calls while control-plane work retried independently.</p>
+<p>That is the core of production OTA for me. The hard problem is not moving a <code>.bin</code> file over HTTPS. The hard problem is preserving causal truth while identity, policy, persistent data, bootloader state, device observations and operator intent change at different times.</p>
+<p>A successful update is therefore not “download returned 200.” It is a sequence of authorized, compatible and observable state transitions with a recovery path at every irreversible boundary.</p></div>
+  <aside class="author-card">
+    <div><p class="eyebrow">ABOUT THE AUTHOR</p><h3><a href="../author/reaz-romen.html">Reaz Romen</a></h3></div>
+    <p>Systems engineer working across embedded devices, networks, real-time communications, backend systems, Linux infrastructure, observability, and operational tooling.</p>
+  </aside>
+</article>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="/topics.html">Topics</a>
+    <a href="/systems.html">Systems</a>
+    <a href="/archive.html">Archive</a>
+    <a href="/author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

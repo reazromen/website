@@ -1,0 +1,98 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><meta name="description" content="A voice agent can report fast STT, fast LLM, and fast TTS while still feeling slow because endpointing, network boundaries, tool calls, buffering, and playout delays accumulate between those component timers."><meta name="author" content="Reaz Romen"><title>Voice AI Latency Is a Waterfall, Not One Number — Reaz Romen</title><link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><meta data-pagefind-filter="type[content]" content="Writing"><meta data-pagefind-filter="domain[content]" content="AI &amp; Automation"><meta data-pagefind-meta="domain[content]" content="AI &amp; Automation"><meta data-pagefind-meta="type[content]" content="Writing"><meta data-pagefind-filter="format[content]" content="Article"><meta data-pagefind-meta="format[content]" content="Article"><meta data-pagefind-filter="topic[content]" content="voice-ai"><meta data-pagefind-filter="topic[content]" content="latency"><meta data-pagefind-filter="topic[content]" content="webrtc"><meta data-pagefind-filter="topic[content]" content="vad"><meta data-pagefind-meta="title[content]" content="Voice AI Latency Is a Waterfall, Not One Number"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Voice AI Latency Is a Waterfall, Not One Number", "description": "A voice agent can report fast STT, fast LLM, and fast TTS while still feeling slow because endpointing, network boundaries, tool calls, buffering, and playout delays accumulate between those component timers.", "author": {"@type": "Person", "name": "Reaz Romen", "url": "https://reazromen.com/about.html"}, "mainEntityOfPage": "https://reazromen.com/posts/voice-ai-latency-is-a-waterfall.html", "datePublished": "2026-09-26"}</script><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/phase2.css"><link rel="stylesheet" href="/assets/responsive-v3.css"></head><body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a><header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header><main id="rr-main" class="shell site-main"><article class="article" data-pagefind-body><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/writing.html">Writing</a> / Real-Time Voice & AI</nav><p class="eyebrow">Real-Time Voice & AI · systems note</p><h1>Voice AI Latency Is a Waterfall, Not One Number</h1><p class="lede">A voice agent can report fast STT, fast LLM, and fast TTS while still feeling slow because endpointing, network boundaries, tool calls, buffering, and playout delays accumulate between those component timers.</p><div class="article-meta"><address class="author-line">By <a href="/author/reaz-romen.html">Reaz Romen</a><span class="verified" title="Published by this site">✓ Site verified</span></address><time datetime="2026-09-26"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></svg><span>Published 2026-09-26</span></time><span class="reading-time"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>9 min read</span></span></div><div class="tags"><span>voice-ai</span><span>latency</span><span>webrtc</span><span>vad</span></div><div class="article-relations"><span>DOMAIN</span><a href="/domains/ai-automation.html">AI &amp; Automation</a></div><details class="article-toc" open><summary>On this page</summary><nav aria-label="Table of contents"><a href="#endpointing-often-owns-the-first-hidden-second">Endpointing often owns the first hidden second</a><a href="#stt-finalization-is-different-from-partial-transcription">STT finalization is different from partial transcription</a><a href="#model-ttft-is-not-response-latency">Model TTFT is not response latency</a><a href="#tool-calls-create-a-second-waterfall">Tool calls create a second waterfall</a><a href="#tts-first-byte-is-not-first-audible-sample">TTS first byte is not first audible sample</a><a href="#realtime-speech-to-speech-removes-boundaries-not-physics">Realtime speech-to-speech removes boundaries, not physics</a><a href="#interruption-latency-is-a-separate-product-metric">Interruption latency is a separate product metric</a><a href="#instrument-boundaries-not-vendors">Instrument boundaries, not vendors</a><a href="#the-human-metric-is-turn-gap">The human metric is turn gap</a><a href="#sources-and-further-reading">Sources and further reading</a></nav></details><div class="prose"><p>A voice agent can have every component benchmark under a second and still pause awkwardly for three seconds before it answers.</p>
+<p>That sounds contradictory only if latency is treated as one number.</p>
+<p>In a real conversational pipeline, the user experiences a waterfall.</p>
+<pre><code>last spoken phoneme
+  -> endpoint detection
+  -> STT finalization
+  -> network / orchestration
+  -> model first token
+  -> optional tool calls
+  -> TTS first audio
+  -> transport buffering
+  -> playout starts</code></pre>
+<p>If each component reports only its internal processing time, the gaps between components disappear from the dashboard.</p>
+<h2 id="endpointing-often-owns-the-first-hidden-second">Endpointing often owns the first hidden second<a class="heading-anchor" href="#endpointing-often-owns-the-first-hidden-second" aria-label="Copy link to Endpointing often owns the first hidden second">#</a></h2>
+<p>The system has to decide that the user has finished speaking.</p>
+<p>Voice activity detection can detect silence quickly, but silence does not always mean turn completion. Natural speech includes pauses. Endpointing therefore balances responsiveness against cutting people off.</p>
+<p>LiveKit's current endpointing options make this trade visible: minimum and maximum delay, fixed versus dynamic behavior, and the interaction with VAD or STT end-of-speech signals.</p>
+<p>If STT already waits before declaring end-of-speech and the agent then applies another minimum delay, those waits can become additive.</p>
+<p>That time is real to the user even though it belongs to neither “STT latency” nor “LLM latency.”</p>
+<h2 id="stt-finalization-is-different-from-partial-transcription">STT finalization is different from partial transcription<a class="heading-anchor" href="#stt-finalization-is-different-from-partial-transcription" aria-label="Copy link to STT finalization is different from partial transcription">#</a></h2>
+<p>Streaming speech recognition can produce partial text while the user is still talking. A dashboard may show that text arriving quickly.</p>
+<p>The agent may still wait for a final transcript or a stable end-of-turn signal before sending the prompt downstream.</p>
+<p>So measure at least two timestamps:</p>
+<ul><li>first useful partial transcript,</li><li>final transcript / turn committed.</li></ul>
+<p>They answer different questions.</p>
+<h2 id="model-ttft-is-not-response-latency">Model TTFT is not response latency<a class="heading-anchor" href="#model-ttft-is-not-response-latency" aria-label="Copy link to Model TTFT is not response latency">#</a></h2>
+<p>Time-to-first-token is valuable because it measures how quickly generation begins.</p>
+<p>But a voice pipeline may need enough text to form a speakable phrase before TTS can start. Some architectures stream tokens directly into TTS; others buffer punctuation, clauses, or complete sentences for quality.</p>
+<p>A model with excellent TTFT can therefore feed a TTS stage that deliberately waits.</p>
+<p>The useful boundary is not only:</p>
+<pre><code>prompt sent -> first token</code></pre>
+<p>but also:</p>
+<pre><code>first token -> first TTS request
+first TTS request -> first audio byte
+first audio byte -> first sample played</code></pre>
+<h2 id="tool-calls-create-a-second-waterfall">Tool calls create a second waterfall<a class="heading-anchor" href="#tool-calls-create-a-second-waterfall" aria-label="Copy link to Tool calls create a second waterfall">#</a></h2>
+<p>If the model decides to call a CRM, calendar, database, search service, or custom function, conversational latency now includes another distributed system.</p>
+<p>A single “LLM duration” metric can hide:</p>
+<pre><code>model decides tool
+ -> tool RPC
+ -> remote API
+ -> database
+ -> response serialization
+ -> model resumes
+ -> TTS</code></pre>
+<p>The correct optimization may have nothing to do with the language model.</p>
+<p>Useful techniques include speculative acknowledgements, parallel tool work, cached context, local read models, tighter RPC budgets, and designing functions that return the minimum information needed to continue the turn.</p>
+<h2 id="tts-first-byte-is-not-first-audible-sample">TTS first byte is not first audible sample<a class="heading-anchor" href="#tts-first-byte-is-not-first-audible-sample" aria-label="Copy link to TTS first byte is not first audible sample">#</a></h2>
+<p>TTS services often expose time-to-first-byte or streaming chunk latency.</p>
+<p>After that byte arrives, the system may still buffer audio, packetize it, pass through WebRTC jitter handling, cross a mobile audio stack, and wait for playout scheduling.</p>
+<p>For the human, the clock stops when sound begins.</p>
+<p>So capture a client-side “first sample played” event if the UX matters enough to optimize seriously.</p>
+<h2 id="realtime-speech-to-speech-removes-boundaries-not-physics">Realtime speech-to-speech removes boundaries, not physics<a class="heading-anchor" href="#realtime-speech-to-speech-removes-boundaries-not-physics" aria-label="Copy link to Realtime speech-to-speech removes boundaries, not physics">#</a></h2>
+<p>Realtime models can consume and produce speech directly, bypassing a separate STT → text LLM → TTS cascade. LiveKit's documentation describes this as a distinct architecture and notes benefits such as richer speech context and full-duplex interaction.</p>
+<p>That can remove serialization boundaries and reduce the places where buffering accumulates.</p>
+<p>It also changes observability.</p>
+<p>Instead of three clean services with separate metrics, you now need model-level audio input/output timing, turn detection, interruption events, transport timing, and tool-call timing around the realtime session.</p>
+<p>Fewer boxes do not mean fewer clocks.</p>
+<h2 id="interruption-latency-is-a-separate-product-metric">Interruption latency is a separate product metric<a class="heading-anchor" href="#interruption-latency-is-a-separate-product-metric" aria-label="Copy link to Interruption latency is a separate product metric">#</a></h2>
+<p>A natural voice system should stop speaking when the user barges in.</p>
+<p>That path has its own waterfall:</p>
+<pre><code>user speech
+ -> VAD detects speech
+ -> interruption policy fires
+ -> generation cancelled
+ -> TTS cancelled
+ -> queued audio discarded
+ -> playout stops</code></pre>
+<p>A system can answer quickly and still feel terrible if it talks over the user for 800 ms after interruption.</p>
+<p>I would measure interruption-stop latency separately from reply-start latency.</p>
+<h2 id="instrument-boundaries-not-vendors">Instrument boundaries, not vendors<a class="heading-anchor" href="#instrument-boundaries-not-vendors" aria-label="Copy link to Instrument boundaries, not vendors">#</a></h2>
+<p>The best latency dashboard is usually a trace of the conversation turn.</p>
+<p>Give one turn an ID and timestamp every boundary:</p>
+<ul><li>speech start/end,</li><li>VAD end,</li><li>STT partial/final,</li><li>prompt dispatch,</li><li>LLM first token,</li><li>tool start/end,</li><li>TTS request/first byte,</li><li>RTP/media enqueue,</li><li>client playout start.</li></ul>
+<p>Then render the turn as a waterfall.</p>
+<p>Once you can see the empty spaces, optimization becomes much less mystical.</p>
+<h2 id="the-human-metric-is-turn-gap">The human metric is turn gap<a class="heading-anchor" href="#the-human-metric-is-turn-gap" aria-label="Copy link to The human metric is turn gap">#</a></h2>
+<p>Ultimately the most useful top-level number is simple:</p>
+<pre><code>first audible response
+-
+user's last audible speech</code></pre>
+<p>That is the silence the user experiences.</p>
+<p>Everything else exists to explain it.</p>
+<p>Voice AI latency is not an LLM benchmark. It is the sum of endpointing, recognition, generation, tools, synthesis, transport, buffering, and playout—plus every queue between them.</p><h2 id="sources-and-further-reading">Sources and further reading<a class="heading-anchor" href="#sources-and-further-reading" aria-label="Copy link to Sources and further reading">#</a></h2><ul><li><a href="https://docs.livekit.io/agents/models/realtime/" target="_blank" rel="noopener">LiveKit: Realtime models overview</a></li><li><a href="https://docs.livekit.io/reference/agents-js/interfaces/agents.voice.EndpointingOptions.html" target="_blank" rel="noopener">LiveKit: Endpointing options</a></li><li><a href="https://docs.livekit.io/reference/python/livekit/agents/voice/index.html" target="_blank" rel="noopener">LiveKit Agents voice API</a></li><li><a href="https://community.livekit.io/t/high-end-to-end-latency-asr-llm-tts-total-1s-but-speech-end-to-reply-takes-3-4s-livekit-agents/1277" target="_blank" rel="noopener">LiveKit community: component timings under 1s but 3–4s end-to-end</a></li></ul></div><section class="related-reading"><p class="eyebrow">RELATED ENGINEERING</p><div class="related-list"><a href="/posts/graphrag-relationships-not-similarity.html"><strong>GraphRAG Is Useful When the Question Is About Relationships, Not Similarity</strong><span>AI &amp; Automation</span></a><a href="/posts/webrtc-ice-candidate-selection-not-stun-turn.html"><strong>WebRTC Connectivity Is Not “STUN or TURN” — It Is an ICE Candidate Selection Problem</strong><span>Communications &amp; Voice</span></a></div></section><aside class="author-card"><div><p class="eyebrow">ABOUT THE AUTHOR</p><h3><a href="/author/reaz-romen.html">Reaz Romen</a></h3></div><p>Systems engineer working across embedded devices, networks, real-time communications, backend systems, Linux infrastructure, observability, and operational tooling.</p></aside></article></main><footer class="shell site-footer"><div><span class="status-dot"></span><strong>Reaz Romen — independent systems engineer.</strong></div><p>Firmware, real-time communications, infrastructure and field notes.</p><nav aria-label="Footer"><a href="/writing.html">Writing</a><a href="/systems.html">Systems</a><a href="/archive.html">Archive</a><a href="/author/reaz-romen.html">Author record</a></nav></footer><script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><div id="context-preview" class="context-preview" role="tooltip" hidden data-pagefind-ignore></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body></html>

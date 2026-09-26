@@ -1,0 +1,666 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Reaz Romen — Writing",
+  "home_page_url": "https://reazromen.com",
+  "feed_url": "https://reazromen.com/feed.json",
+  "items": [
+    {
+      "id": "https://reazromen.com/posts/pgvector-hnsw-fast-operationally-wrong.html",
+      "url": "https://reazromen.com/posts/pgvector-hnsw-fast-operationally-wrong.html",
+      "title": "pgvector HNSW Can Return Fast Answers That Are Operationally Wrong",
+      "summary": "Approximate nearest-neighbor search is allowed to trade recall for speed. Add tenant or metadata filters after the ANN scan and a fast query can return too few candidates without being a database error.",
+      "tags": [
+        "postgresql",
+        "pgvector",
+        "hnsw",
+        "rag"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/ebpf-xdp-verifier-operational-safety.html",
+      "url": "https://reazromen.com/posts/ebpf-xdp-verifier-operational-safety.html",
+      "title": "eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe",
+      "summary": "The verifier proves classes of memory and control-flow safety. It does not prove that returning the wrong XDP action, updating the wrong map, or attaching at the wrong hook will preserve network connectivity.",
+      "tags": [
+        "ebpf",
+        "xdp",
+        "linux",
+        "networking"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/zfs-scrub-resilver-snapshot-replication.html",
+      "url": "https://reazromen.com/posts/zfs-scrub-resilver-snapshot-replication.html",
+      "title": "ZFS Scrub, Resilver, Snapshot, and Replication Solve Different Failure Modes",
+      "summary": "A scrub detects latent corruption, a resilver reconstructs missing redundancy, a snapshot preserves an earlier dataset state, and replication puts that state somewhere else. Calling all four 'backup' hides the failures each one cannot solve.",
+      "tags": [
+        "zfs",
+        "storage",
+        "backup",
+        "recovery"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/wifi-csi-presence-calibration-drift-synchronization.html",
+      "url": "https://reazromen.com/posts/wifi-csi-presence-calibration-drift-synchronization.html",
+      "title": "Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization",
+      "summary": "CSI is extremely sensitive to the radio channel—which is why it can sense motion and why uncontrolled rooms, clocks, channels, furniture, fans, and hardware differences can swamp a naive detector.",
+      "tags": [
+        "wifi-csi",
+        "esp32",
+        "presence",
+        "signal-processing"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/why-observability-workloads-end-up-clickhouse.html",
+      "url": "https://reazromen.com/posts/why-observability-workloads-end-up-clickhouse.html",
+      "title": "Why Observability Workloads Keep Ending Up in ClickHouse",
+      "summary": "Logs and traces are wide, append-heavy events that are usually filtered by time and a few fields, then aggregated. That workload shape explains the attraction to a columnar analytical database better than any benchmark headline.",
+      "tags": [
+        "clickhouse",
+        "opentelemetry",
+        "logs",
+        "traces"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/webrtc-ice-candidate-selection-not-stun-turn.html",
+      "url": "https://reazromen.com/posts/webrtc-ice-candidate-selection-not-stun-turn.html",
+      "title": "WebRTC Connectivity Is Not “STUN or TURN” — It Is an ICE Candidate Selection Problem",
+      "summary": "STUN discovers reachability information and TURN provides a relay, but ICE is the algorithm that gathers candidates, checks candidate pairs, prioritizes working paths, and nominates the connection media actually uses.",
+      "tags": [
+        "webrtc",
+        "ice",
+        "stun",
+        "turn"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/voice-ai-latency-is-a-waterfall.html",
+      "url": "https://reazromen.com/posts/voice-ai-latency-is-a-waterfall.html",
+      "title": "Voice AI Latency Is a Waterfall, Not One Number",
+      "summary": "A voice agent can report fast STT, fast LLM, and fast TTS while still feeling slow because endpointing, network boundaries, tool calls, buffering, and playout delays accumulate between those component timers.",
+      "tags": [
+        "voice-ai",
+        "latency",
+        "webrtc",
+        "vad"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/nomad-stateful-failover-csi-boundary.html",
+      "url": "https://reazromen.com/posts/nomad-stateful-failover-csi-boundary.html",
+      "title": "Stateful Nomad Failover Gets Hard at the CSI Volume Boundary",
+      "summary": "Nomad can decide that an allocation belongs on another node before the storage system has safely detached, unpublished, and made its volume available there. Scheduler failover and storage failover are connected state machines.",
+      "tags": [
+        "nomad",
+        "csi",
+        "stateful",
+        "failover"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/split-horizon-dns-one-hostname-two-paths.html",
+      "url": "https://reazromen.com/posts/split-horizon-dns-one-hostname-two-paths.html",
+      "title": "Split-Horizon DNS: One Hostname, Two Network Paths, and a Lot of TLS Confusion",
+      "summary": "The same hostname can resolve to a local reverse proxy on LAN and a Cloudflare Tunnel externally. That is clean when DNS, SNI, certificates, and origin routing agree—and maddening when one layer quietly takes the other path.",
+      "tags": [
+        "dns",
+        "cloudflare",
+        "tls",
+        "reverse-proxy"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/secure-esp32-ota-chain-of-trust.html",
+      "url": "https://reazromen.com/posts/secure-esp32-ota-chain-of-trust.html",
+      "title": "Secure ESP32 OTA Is a Chain of Trust, Not an HTTPS Download",
+      "summary": "HTTPS protects a firmware transfer in transit. A production OTA design also has to prove image authenticity, select boot slots safely, confirm health, permit recovery, and prevent rollback to revoked vulnerable firmware.",
+      "tags": [
+        "esp32",
+        "ota",
+        "secure-boot",
+        "anti-rollback"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/rtp-timestamps-are-not-wall-clocks.html",
+      "url": "https://reazromen.com/posts/rtp-timestamps-are-not-wall-clocks.html",
+      "title": "RTP Timestamps Are Not Wall Clocks",
+      "summary": "RTP timestamps are media clocks, not wall clocks. That distinction explains jitter calculations, playout timing, clock drift, and a surprising number of real-time audio bugs.",
+      "tags": [
+        "rtp",
+        "audio",
+        "jitter",
+        "telephony",
+        "timing"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/postgres-vacuum-reuse-not-filesystem-shrink.html",
+      "url": "https://reazromen.com/posts/postgres-vacuum-reuse-not-filesystem-shrink.html",
+      "title": "PostgreSQL VACUUM Reclaims Space Without Giving the File Back to the Filesystem",
+      "summary": "Standard VACUUM makes dead-tuple space reusable inside a table. It usually does not shrink the table file, which is why a successful vacuum and unchanged disk usage can both be correct.",
+      "tags": [
+        "postgresql",
+        "vacuum",
+        "mvcc",
+        "bloat"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/passkeys-ux-state-machine-webauthn.html",
+      "url": "https://reazromen.com/posts/passkeys-ux-state-machine-webauthn.html",
+      "title": "Passkeys Are Cryptographically Simple Compared With Their UX State Machine",
+      "summary": "WebAuthn can prove possession of a scoped private key. The product still has to reason about synced credentials, discoverable accounts, conditional UI, recovery, re-registration, and what the browser chooses to show.",
+      "tags": [
+        "passkeys",
+        "webauthn",
+        "authentication",
+        "security"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/matter-thread-esp32-after-demo-board.html",
+      "url": "https://reazromen.com/posts/matter-thread-esp32-after-demo-board.html",
+      "title": "Matter-over-Thread on ESP32: The Hard Part Starts After the Demo Board Works",
+      "summary": "A Matter demo proves the SDK and radio can talk. A product has to survive commissioning, Thread topology, memory limits, power loss, manufacturing, OTA, and multiple ecosystems.",
+      "tags": [
+        "esp32",
+        "matter",
+        "thread",
+        "802.15.4"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/kubernetes-gateway-api-not-new-ingress-yaml.html",
+      "url": "https://reazromen.com/posts/kubernetes-gateway-api-not-new-ingress-yaml.html",
+      "title": "Kubernetes Gateway API Is Not Just a New Ingress YAML",
+      "summary": "Gateway API changes who owns the network boundary, how routes attach, and what a migration has to prove. Treating it as an Ingress syntax upgrade misses the important part.",
+      "tags": [
+        "kubernetes",
+        "gateway-api",
+        "ingress",
+        "platform-engineering"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/http3-quic-enterprise-inspection-assumptions.html",
+      "url": "https://reazromen.com/posts/http3-quic-enterprise-inspection-assumptions.html",
+      "title": "HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions",
+      "summary": "Blocking UDP/443 is not merely a firewall rule. QUIC moves transport, security, streams, and connection identity into a model that old TCP/TLS inspection architectures were not designed around.",
+      "tags": [
+        "http3",
+        "quic",
+        "tls",
+        "enterprise-networking"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/graphrag-relationships-not-similarity.html",
+      "url": "https://reazromen.com/posts/graphrag-relationships-not-similarity.html",
+      "title": "GraphRAG Is Useful When the Question Is About Relationships, Not Similarity",
+      "summary": "Vector retrieval is excellent when the answer lives near semantically similar text. Graph-oriented retrieval earns its cost when the answer depends on relationships, communities, or evidence spread across multiple parts of a corpus.",
+      "tags": [
+        "graphrag",
+        "rag",
+        "knowledge-graph",
+        "retrieval"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/cloudflare-kv-do-queues-d1-consistency.html",
+      "url": "https://reazromen.com/posts/cloudflare-kv-do-queues-d1-consistency.html",
+      "title": "Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their Consistency Models Differ",
+      "summary": "A lost counter, duplicate job, stale read, or runaway write bill is usually not 'a Cloudflare bug.' Each storage primitive makes different consistency and delivery promises, so the same application pattern fails differently on each one.",
+      "tags": [
+        "cloudflare",
+        "durable-objects",
+        "workers-kv",
+        "queues"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/sbom-does-not-prove-right-artifact.html",
+      "url": "https://reazromen.com/posts/sbom-does-not-prove-right-artifact.html",
+      "title": "An SBOM Tells You What You Shipped; It Does Not Prove You Shipped the Right Thing",
+      "summary": "An SBOM inventories components. Supply-chain trust also needs provenance, build identity, signatures, policy, artifact verification, and release evidence that connects source to the bytes actually deployed.",
+      "tags": [
+        "sbom",
+        "slsa",
+        "sigstore",
+        "provenance"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/distributed-lock-needs-fencing-token.html",
+      "url": "https://reazromen.com/posts/distributed-lock-needs-fencing-token.html",
+      "title": "A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt State",
+      "summary": "A lease can expire while its old owner is paused rather than dead. If that process later resumes, the lock service may have moved on—but the storage system can still accept stale writes unless it has a fencing mechanism.",
+      "tags": [
+        "distributed-lock",
+        "fencing",
+        "leases",
+        "consistency"
+      ],
+      "date_published": "2026-09-26T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/why-the-first-voiceware-web-service-used-clusterip.html",
+      "url": "https://reazromen.com/posts/why-the-first-voiceware-web-service-used-clusterip.html",
+      "title": "Why the First Voiceware Web Service Used ClusterIP",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "clusterip",
+        "kubernetes",
+        "networking"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/why-voiceware-needed-more-than-docker-compose-thinking.html",
+      "url": "https://reazromen.com/posts/why-voiceware-needed-more-than-docker-compose-thinking.html",
+      "title": "Why Voiceware Needed More Than Docker Compose Thinking",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "docker",
+        "kubernetes",
+        "platform-engineering"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/why-i-put-voiceware-runtime-knobs-in-values-yaml.html",
+      "url": "https://reazromen.com/posts/why-i-put-voiceware-runtime-knobs-in-values-yaml.html",
+      "title": "Why I Put Voiceware Runtime Knobs in values.yaml",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "helm",
+        "values",
+        "kubernetes"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/why-i-later-exposed-voiceware-on-nodeport-30080.html",
+      "url": "https://reazromen.com/posts/why-i-later-exposed-voiceware-on-nodeport-30080.html",
+      "title": "Why I Later Exposed Voiceware on NodePort 30080",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "nodeport",
+        "kubernetes",
+        "networking"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/why-i-kept-audio-workers-redis-nginx-and-the-web-app-separate.html",
+      "url": "https://reazromen.com/posts/why-i-kept-audio-workers-redis-nginx-and-the-web-app-separate.html",
+      "title": "Why I Kept Audio, Workers, Redis, Nginx, and the Web App Separate",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "architecture",
+        "fault-isolation",
+        "kubernetes"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/why-chart-name-was-a-useful-naming-primitive.html",
+      "url": "https://reazromen.com/posts/why-chart-name-was-a-useful-naming-primitive.html",
+      "title": "Why Chart.Name Was a Useful Naming Primitive",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "helm",
+        "kubernetes",
+        "naming"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/when-to-reuse-a-helm-template-and-when-to-fork-it.html",
+      "url": "https://reazromen.com/posts/when-to-reuse-a-helm-template-and-when-to-fork-it.html",
+      "title": "When to Reuse a Helm Template and When to Fork It",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "helm",
+        "architecture",
+        "templates"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/what-replicacount-really-means-in-a-voiceware-helm-chart.html",
+      "url": "https://reazromen.com/posts/what-replicacount-really-means-in-a-voiceware-helm-chart.html",
+      "title": "What replicaCount Really Means in a Voiceware Helm Chart",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "kubernetes",
+        "scaling",
+        "helm"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/what-a-deployment-platform-meant-in-voiceware.html",
+      "url": "https://reazromen.com/posts/what-a-deployment-platform-meant-in-voiceware.html",
+      "title": "What a “Deployment Platform” Meant in Voiceware",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "platform-engineering",
+        "helm",
+        "argocd"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/voiceware-started-with-one-deployable-service-not-a-platform.html",
+      "url": "https://reazromen.com/posts/voiceware-started-with-one-deployable-service-not-a-platform.html",
+      "title": "Voiceware Started With One Deployable Service, Not a “Platform”",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "kubernetes",
+        "platform-engineering",
+        "migration"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/the-voiceware-service-template-small-yaml-big-responsibility.html",
+      "url": "https://reazromen.com/posts/the-voiceware-service-template-small-yaml-big-responsibility.html",
+      "title": "The Voiceware Service Template: Small YAML, Big Responsibility",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "helm",
+        "kubernetes-service",
+        "networking"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/the-voiceware-deployment-template-and-the-value-of-boring-repetition.html",
+      "url": "https://reazromen.com/posts/the-voiceware-deployment-template-and-the-value-of-boring-repetition.html",
+      "title": "The Voiceware Deployment Template and the Value of Boring Repetition",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "helm",
+        "templates",
+        "platform-engineering"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/the-trade-off-of-deploying-voiceware-into-the-default-namespace.html",
+      "url": "https://reazromen.com/posts/the-trade-off-of-deploying-voiceware-into-the-default-namespace.html",
+      "title": "The Trade-Off of Deploying Voiceware Into the default Namespace",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "kubernetes",
+        "namespaces",
+        "argocd"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/the-repository-layout-that-made-voiceware-easier-to-reason-about.html",
+      "url": "https://reazromen.com/posts/the-repository-layout-that-made-voiceware-easier-to-reason-about.html",
+      "title": "The Repository Layout That Made Voiceware Easier to Reason About",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "repository-design",
+        "helm",
+        "argocd"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/the-real-architecture-work-was-finding-voiceware-s-runtime-boundaries.html",
+      "url": "https://reazromen.com/posts/the-real-architecture-work-was-finding-voiceware-s-runtime-boundaries.html",
+      "title": "The Real Architecture Work Was Finding Voiceware’s Runtime Boundaries",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "architecture",
+        "kubernetes",
+        "microservices"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/the-most-useful-artifact-in-voiceware-was-the-deployment-history.html",
+      "url": "https://reazromen.com/posts/the-most-useful-artifact-in-voiceware-was-the-deployment-history.html",
+      "title": "The Most Useful Artifact in Voiceware Was the Deployment History",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "git",
+        "debugging",
+        "devops"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/the-missing-service-port-bug-in-celery-low.html",
+      "url": "https://reazromen.com/posts/the-missing-service-port-bug-in-celery-low.html",
+      "title": "The Missing service.port Bug in celery-low",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "helm",
+        "celery",
+        "debugging"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/the-missing-celery-type-bug-and-what-it-says-about-configuration-contracts.html",
+      "url": "https://reazromen.com/posts/the-missing-celery-type-bug-and-what-it-says-about-configuration-contracts.html",
+      "title": "The Missing celery.type Bug and What It Says About Configuration Contracts",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "helm",
+        "configuration",
+        "celery"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/rendering-safely-when-some-voiceware-workers-are-optional.html",
+      "url": "https://reazromen.com/posts/rendering-safely-when-some-voiceware-workers-are-optional.html",
+      "title": "Rendering Safely When Some Voiceware Workers Are Optional",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "helm",
+        "optional-workloads",
+        "celery"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/labels-and-selectors-the-tiny-contract-that-can-break-an-entire-service.html",
+      "url": "https://reazromen.com/posts/labels-and-selectors-the-tiny-contract-that-can-break-an-entire-service.html",
+      "title": "Labels and Selectors: The Tiny Contract That Can Break an Entire Service",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "kubernetes",
+        "labels",
+        "service-discovery"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/internal-services-vs-external-services-in-voiceware.html",
+      "url": "https://reazromen.com/posts/internal-services-vs-external-services-in-voiceware.html",
+      "title": "Internal Services vs External Services in Voiceware",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "kubernetes",
+        "networking",
+        "security"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/how-a-missing-helm-value-turned-into-a-nil-pointer-problem.html",
+      "url": "https://reazromen.com/posts/how-a-missing-helm-value-turned-into-a-nil-pointer-problem.html",
+      "title": "How a Missing Helm Value Turned Into a Nil-Pointer Problem",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "helm",
+        "nil-pointer",
+        "debugging"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/how-voiceware-grew-from-a-web-app-chart-into-a-multi-service-deployment-repository.html",
+      "url": "https://reazromen.com/posts/how-voiceware-grew-from-a-web-app-chart-into-a-multi-service-deployment-repository.html",
+      "title": "How Voiceware Grew From a Web-App Chart Into a Multi-Service Deployment Repository",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "helm",
+        "repository-design",
+        "gitops"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/git-became-part-of-the-voiceware-control-plane.html",
+      "url": "https://reazromen.com/posts/git-became-part-of-the-voiceware-control-plane.html",
+      "title": "Git Became Part of the Voiceware Control Plane",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "gitops",
+        "argocd",
+        "operations"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/from-yaml-files-to-an-operating-model-the-voiceware-shift.html",
+      "url": "https://reazromen.com/posts/from-yaml-files-to-an-operating-model-the-voiceware-shift.html",
+      "title": "From YAML Files to an Operating Model: The Voiceware Shift",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "platform-engineering",
+        "gitops",
+        "architecture"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/deployment-vs-service-the-two-kubernetes-objects-voiceware-needed-first.html",
+      "url": "https://reazromen.com/posts/deployment-vs-service-the-two-kubernetes-objects-voiceware-needed-first.html",
+      "title": "Deployment vs Service: The Two Kubernetes Objects Voiceware Needed First",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "kubernetes",
+        "service",
+        "deployment"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/container-ports-are-documentation-and-a-runtime-contract.html",
+      "url": "https://reazromen.com/posts/container-ports-are-documentation-and-a-runtime-contract.html",
+      "title": "Container Ports Are Documentation and a Runtime Contract",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "ports",
+        "kubernetes",
+        "networking"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/conditional-helm-templates-are-powerful-and-easy-to-overcomplicate.html",
+      "url": "https://reazromen.com/posts/conditional-helm-templates-are-powerful-and-easy-to-overcomplicate.html",
+      "title": "Conditional Helm Templates Are Powerful—and Easy to Overcomplicate",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "helm",
+        "templating",
+        "celery"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/chart-yaml-is-small-but-it-gives-a-service-an-identity.html",
+      "url": "https://reazromen.com/posts/chart-yaml-is-small-but-it-gives-a-service-an-identity.html",
+      "title": "Chart.yaml Is Small, but It Gives a Service an Identity",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "helm",
+        "chart-yaml",
+        "packaging"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/a-kubernetes-service-can-be-healthy-while-the-app-is-broken.html",
+      "url": "https://reazromen.com/posts/a-kubernetes-service-can-be-healthy-while-the-app-is-broken.html",
+      "title": "A Kubernetes Service Can Be Healthy While the App Is Broken",
+      "summary": "Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.",
+      "tags": [
+        "voiceware",
+        "kubernetes",
+        "debugging",
+        "services"
+      ],
+      "date_published": "2026-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://reazromen.com/posts/opentelemetry-cardinality-data-model.html",
+      "url": "https://reazromen.com/posts/opentelemetry-cardinality-data-model.html",
+      "title": "OpenTelemetry Cardinality Is a Data-Model Problem, Not Just a Cost Problem",
+      "summary": "High-cardinality metrics are usually discussed as a billing problem. In OpenTelemetry they can also change what dashboards, alerts, and SLO queries are able to see.",
+      "tags": []
+    }
+  ]
+}

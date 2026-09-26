@@ -1,0 +1,16 @@
+{
+  "artifact_id": "VOIP-001",
+  "source_bundle": "WEB-V1.0-EVIDENCE-v1-20260921T171025Z",
+  "source_sha256": "4a1b15f5b7c8668b3bbe475f071d634f49bfaf064105c2c4763b98ce92724665",
+  "redaction_rule_ids": [
+    "R03",
+    "R04",
+    "R06",
+    "R14",
+    "R17"
+  ],
+  "derivative_sha256": "b2429322b80fb51e7ffb7960b08877ba90f494c1d4f4a034ffc5a875efc387a9",
+  "public_status": "PUBLIC APPROVED WITH RESTRICTIONS",
+  "claim_permitted": "INVITE reached 200 OK/SDP but BYE returned 481.",
+  "prohibited_claim": "Do not claim the September 13 intervention fixed the issue."
+}

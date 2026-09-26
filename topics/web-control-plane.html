@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../about.html">
+  <title>Web &amp; Control Plane — Reaz Romen — Systems Engineering</title>
+  <link rel="stylesheet" href="../static/css/site.css">
+<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
+
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<section class="page-head"><p class="eyebrow">TOPIC</p><h1>Web &amp; Control Plane</h1><p class="lede">Lessons, explainers, experiments, and implementation notes.</p></section>
+<div class="post-list">
+  <article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/csp-can-break-health-dashboard-without-breaking-server.html">A CSP Can Break a Health Dashboard Without Breaking the Server</a></h3>
+  <p>Browser security policy is part of application behavior; a blocked fetch can make a healthy backend look unreachable.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>CSP</span><span>browser</span><span>health checks</span><span>Caddy</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/evidence-freshness-belongs-in-operator-ui.html">Evidence Freshness Belongs in the Operator UI</a></h3>
+  <p>A production acceptance result should carry age and policy, not just a green badge.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SRE</span><span>evidence</span><span>Ops Portal</span><span>freshness</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/human-sso-and-machine-authentication-should-not-share-one-gate.html">Human SSO and Machine Authentication Should Not Share One Gate</a></h3>
+  <p>Firmware cannot complete an interactive Authelia login, but bypassing authentication entirely would expose the OTA control plane.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Authelia</span><span>OTA</span><span>Bearer token</span><span>ingress</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/authelia-sessions-needed-durable-state-not-just-longer-cookies.html">Authelia Sessions Needed Durable State, Not Just Longer Cookies</a></h3>
+  <p>A longer browser cookie does not help if the server forgets the session behind it.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Authelia</span><span>Redis</span><span>sessions</span><span>SSO</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/remember-me-is-security-policy-not-convenience-toggle.html">Remember-Me Is a Security Policy, Not a Convenience Toggle</a></h3>
+  <p>Long-lived trusted-browser sessions change the authentication risk model and should be chosen deliberately.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Authelia</span><span>session</span><span>2FA</span><span>security</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/cookie-domain-samesite-part-of-sso-architecture.html">Cookie Domain and SameSite Settings Are Part of SSO Architecture</a></h3>
+  <p>Cross-subdomain authentication only works predictably when cookie scope and redirect boundaries match the domain design.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>cookies</span><span>SameSite</span><span>Authelia</span><span>SSO</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/machine-apis-need-machine-credentials-not-browser-redirects.html">Machine APIs Need Machine Credentials, Not Browser Redirects</a></h3>
+  <p>A firmware client cannot solve an interactive login flow, and treating the redirect as success hides the real authentication failure.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>API</span><span>Authelia</span><span>Bearer</span><span>OTA</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/exact-route-allowlists-safer-than-bypassing-v1.html">Exact Route Allowlists Are Safer Than Bypassing Authentication for /v1</a></h3>
+  <p>A broad path prefix can expose future endpoints that did not exist when the exception was created.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>nginx</span><span>allowlist</span><span>API security</span><span>OTA</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/422-healthier-than-302-device-api.html">A 422 Can Be Healthier Than a 302 for a Device API</a></h3>
+  <p>For an intentionally invalid API payload, validation failure proves the request reached the correct application boundary.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>HTTP</span><span>API testing</span><span>status codes</span><span>OTA</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/internal-ca-trust-operator-onboarding-problem.html">Internal CA Trust Is an Operator Onboarding Problem</a></h3>
+  <p>A valid internal TLS certificate is still unusable on a new operator device until its trust root is installed correctly.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>TLS</span><span>CA</span><span>Caddy</span><span>operator access</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/csp-connect-src-small-network-allowlist.html">CSP connect-src Should Be a Small Network Allowlist</a></h3>
+  <p>Browser-side health checks needed cross-origin access, but the fix was two explicit origins rather than a broad wildcard.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>CSP</span><span>connect-src</span><span>browser security</span><span>least privilege</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/rate-limiting-is-not-authentication.html">Rate Limiting Is Not Authentication</a></h3>
+  <p>The public machine API uses request throttling as abuse resistance while retaining Bearer validation as the real identity check.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>rate limiting</span><span>authentication</span><span>nginx</span><span>API</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/operations-portal-should-not-become-web-terminal.html">An Operations Portal Should Not Become a Web Terminal</a></h3>
+  <p>Convenient arbitrary shell access would collapse the separation between reviewed operations and unrestricted host control.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Ops Portal</span><span>security</span><span>automation</span><span>least privilege</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/reviewed-job-catalog-infrastructure-code-for-operations.html">A Reviewed Job Catalog Is Infrastructure Code for Operations</a></h3>
+  <p>The safest operational button is one whose command, risk and parameters were already reviewed before the incident started.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>GitOps</span><span>job catalog</span><span>operations</span><span>review</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/green-badge-needs-expiration-time.html">A Green Badge Needs an Expiration Time</a></h3>
+  <p>Operational evidence should age out automatically rather than remaining green until someone notices it is old.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>freshness</span><span>UI</span><span>evidence</span><span>SRE</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/every-operations-job-needs-timeout.html">Every Operations Job Needs a Timeout</a></h3>
+  <p>A safe command can still become unsafe operationally if it can occupy the runner forever.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>timeout</span><span>runner</span><span>operations</span><span>reliability</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/approval-gates-belong-high-risk-operations.html">Approval Gates Belong on High-Risk Operations, Not Every Button</a></h3>
+  <p>Blanket approvals create friction; risk-based approvals preserve review where it actually reduces danger.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>approval</span><span>risk</span><span>change management</span><span>operations</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/append-only-audit-events-operational-history.html">Append-Only Audit Events Make Operational History Harder to Rewrite</a></h3>
+  <p>Control-plane actions are easier to trust when later updates cannot silently replace the original event record.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>audit</span><span>append-only</span><span>operations</span><span>security</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/read-only-posture-checks-safe-to-run-often.html">Read-Only Posture Checks Are Useful Because They Are Safe to Run Often</a></h3>
+  <p>Observability improves when operators can refresh evidence without opening a risky change window.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>posture check</span><span>read-only</span><span>SRE</span><span>operations</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="web-control-plane.html">Web &amp; Control Plane</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="../posts/missing-semicolon-broke-html-escaping-command-center.html">One Missing Semicolon Broke HTML Escaping in the Command Center</a></h3>
+  <p>Tiny output-encoding defects matter more in admin surfaces because they render operational data from many sources.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>HTML escaping</span><span>XSS</span><span>frontend</span><span>Ops Portal</span></div>
+</article>
+</div>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="/topics.html">Topics</a>
+    <a href="/systems.html">Systems</a>
+    <a href="/archive.html">Archive</a>
+    <a href="/author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

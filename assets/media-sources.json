@@ -1,0 +1,16 @@
+{
+  "default": "cloudinary",
+  "sources": {
+    "cloudinary": {
+      "enabled": true,
+      "storage": "external",
+      "delivery_host": "https://res.cloudinary.com",
+      "url_mode": "full_url",
+      "default_transformations": [
+        "f_auto",
+        "q_auto"
+      ],
+      "server_storage": false
+    }
+  }
+}

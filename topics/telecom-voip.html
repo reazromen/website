@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../about.html">
+  <title>Telecom &amp; VoIP — Reaz Romen — Systems Engineering</title>
+  <link rel="stylesheet" href="../static/css/site.css">
+
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/sitewide-v2.css">
+<link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/phase2.css"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed">
+<a class="skip-link" href="#rr-main">Skip to content</a>
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<section class="page-head"><p class="eyebrow">TOPIC</p><h1>Telecom &amp; VoIP</h1><p class="lede">Lessons, explainers, experiments, and implementation notes.</p></section>
+<div class="post-list">
+  <article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/field-note-2026-sip-registration-not-readiness.html">SIP Registration Success Does Not Mean Calls Will Work</a></h3>
+  <p>REGISTER proves one control-plane exchange; it does not prove two-way media, codecs or call-state behavior.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>RTP</span><span>Asterisk</span><span>VoIP</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/field-note-2026-rtp-range-contract.html">The RTP Port Range Is Part of the Deployment Contract</a></h3>
+  <p>Media ports must agree across PBX configuration, firewall policy, containers and the surrounding network.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>RTP</span><span>firewall</span><span>Docker</span><span>Asterisk</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/field-note-2026-pbx-agnostic-firmware.html">Keep Device Firmware PBX-Agnostic</a></h3>
+  <p>Firmware should consume SIP account and transport configuration without embedding one PBX vendor&#39;s deployment assumptions.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>firmware</span><span>PBX</span><span>configuration</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/field-note-2026-two-device-sanity.html">Two-Device Local Calling Is the Fastest Telephony Sanity Check</a></h3>
+  <p>A small closed call loop isolates core SIP/RTP behavior before carrier and DID complexity is introduced.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>RTP</span><span>test strategy</span><span>PBX</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/field-note-2026-contact-policy-backend.html">Contact Authorization Belongs to Backend Policy, Not Dialing Logic</a></h3>
+  <p>SIP addresses endpoints; the product still needs an explicit policy for who is allowed to contact whom.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>authorization</span><span>SIP</span><span>backend</span><span>contacts</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 29 min read · 2026-09-14</p>
+  <h3><a href="/posts/the-call-worked-until-bye-debugging-dialog-routing-opensips-drachtio.html">The Call Worked Until BYE: Debugging Dialog Routing in OpenSIPS and Drachtio</a></h3>
+  <p>A call can establish, carry clean audio, and still fail at BYE when the dialog route set, backend affinity, or media cleanup path is wrong.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>OpenSIPS</span><span>Drachtio</span><span>SIP</span><span>Record-Route</span><span>dialog routing</span><span>FreeSWITCH</span><span>RTPengine</span><span>481</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/wrong-container-name-fails-change-window.html">A Wrong Container Name Can Fail a Change Window Even When VoIP Is Healthy</a></h3>
+  <p>A preflight sentinel is only useful if it names the runtime object that actually exists today.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>RTPengine</span><span>preflight</span><span>Docker</span><span>VoIP</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/rtpengine-naming-drift-monitoring-bug-not-media-bug.html">RTPengine Naming Drift Was a Monitoring Bug, Not a Media Bug</a></h3>
+  <p>When a sentinel references yesterday&#39;s container name, the monitoring system becomes the failed component.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>RTPengine</span><span>monitoring</span><span>Docker</span><span>naming</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/process-health-and-protocol-health-different-voip.html">Process Health and Protocol Health Are Different in VoIP</a></h3>
+  <p>A running SIP or RTP process is necessary but not sufficient evidence that calls can establish and carry media.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>RTP</span><span>healthcheck</span><span>SRE</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/voip-change-window-prove-media-path-exists.html">A VoIP Change Window Should Prove the Media Path Still Exists</a></h3>
+  <p>Checking only the SIP proxy is not enough when a healthy call depends on signaling and media components staying aligned.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>VoIP</span><span>RTPengine</span><span>change window</span><span>preflight</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 1 min read · Lab period 2026-04</p>
+  <h3><a href="/posts/sip-load-balancing-became-an-architecture-problem-not-a-proxy-rule.html">SIP Load Balancing Became an Architecture Problem, Not a Proxy Rule</a></h3>
+  <p>Once dialog state, media anchoring and backend health mattered, forwarding INVITEs round-robin was the easy part.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>Drachtio</span><span>FreeSWITCH</span><span>load balancing</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 1 min read · Lab period 2025-05</p>
+  <h3><a href="/posts/rtp-jitter-over-wifi-was-mostly-about-bursts-not-average-packet-loss.html">RTP Jitter over Wi-Fi Was Mostly About Bursts, Not Average Packet Loss</a></h3>
+  <p>A low average loss rate can still sound terrible when packets arrive in short bursts separated by long gaps.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>RTP</span><span>Wi-Fi</span><span>jitter</span><span>audio</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 1 min read · Lab period 2025-11</p>
+  <h3><a href="/posts/freeswitch-capacity-testing-needed-more-than-a-calls-per-second-number.html">FreeSWITCH Capacity Testing Needed More Than a Calls-Per-Second Number</a></h3>
+  <p>Call setup rate, concurrent calls and media work stress different parts of a voice platform.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>FreeSWITCH</span><span>capacity</span><span>SIPp</span><span>performance</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 1 min read · Lab period 2025-10</p>
+  <h3><a href="/posts/rtp-relays-made-container-boundaries-easier-to-control.html">RTP Relays Made Container Boundaries Easier to Control</a></h3>
+  <p>Anchoring media at a deliberate boundary reduced the number of private addresses that leaked into SDP and simplified firewall policy.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>RTP</span><span>rtpengine</span><span>Docker</span><span>NAT</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 1 min read · Lab period 2025-08</p>
+  <h3><a href="/posts/a-sip-load-balancer-needs-dialog-awareness-somewhere.html">A SIP Load Balancer Needs Dialog Awareness Somewhere</a></h3>
+  <p>Distributing initial INVITEs is easy; keeping in-dialog requests on a valid path is where the architecture starts to matter.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>load balancing</span><span>Kamailio</span><span>FreeSWITCH</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 1 min read · Lab period 2025-02</p>
+  <h3><a href="/posts/cgrates-time-rules-taught-me-to-test-billing-schedules-like-code.html">CGrates Time Rules Taught Me to Test Billing Schedules Like Code</a></h3>
+  <p>Recurring charging rules look harmless until timezone, month-end and relative-time semantics collide.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>CGrates</span><span>billing</span><span>charging</span><span>time</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 1 min read · Lab period 2024-03</p>
+  <h3><a href="/posts/sip-ladder-diagrams-became-more-useful-when-i-added-media-events.html">SIP Ladder Diagrams Became More Useful When I Added Media Events</a></h3>
+  <p>A signalling-only ladder can say a call succeeded while the user heard silence; adding SDP and RTP events fixes that blind spot.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>SDP</span><span>RTP</span><span>troubleshooting</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 1 min read · Lab period 2024-11</p>
+  <h3><a href="/posts/jitter-buffers-are-a-trade-between-missing-audio-and-late-audio.html">Jitter Buffers Are a Trade Between Missing Audio and Late Audio</a></h3>
+  <p>A larger jitter buffer can hide network variation while quietly making conversation worse through extra delay.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>RTP</span><span>jitter buffer</span><span>latency</span><span>audio</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 1 min read · Lab period 2023-10</p>
+  <h3><a href="/posts/sip-and-5g-core-troubleshooting-started-converging-for-me.html">SIP and 5G Core Troubleshooting Started Converging for Me</a></h3>
+  <p>Different protocols, same debugging discipline: establish state, identify the boundary, then follow the next dependency.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>5G Core</span><span>troubleshooting</span><span>signalling</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2022-07</p>
+  <h3><a href="/posts/tracing-an-ims-register-showed-me-where-sip-meets-diameter.html">Tracing an IMS REGISTER Showed Me Where SIP Meets Diameter</a></h3>
+  <p>An IMS registration capture connected familiar SIP REGISTER messages with the less visible Diameter exchanges used to select and authorize serving functions.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>IMS</span><span>SIP</span><span>Diameter</span><span>REGISTER</span><span>Cx</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2022-06</p>
+  <h3><a href="/posts/ims-stopped-looking-like-a-pbx.html">IMS Stopped Looking Like a PBX Once I Split P-CSCF, I-CSCF and S-CSCF</a></h3>
+  <p>The three CSCF roles made IMS easier to understand when I treated them as separate signalling responsibilities instead of one oversized SIP server.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>IMS</span><span>P-CSCF</span><span>I-CSCF</span><span>S-CSCF</span><span>SIP</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2022-10</p>
+  <h3><a href="/posts/cgrates-first-serious-look-at-rating-calls-and-data.html">CGrates Was My First Serious Look at Rating Calls and Data Sessions</a></h3>
+  <p>Rating made telecom architecture feel less like packet forwarding and more like a business system where usage events, balances and policy all have to agree.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>CGrates</span><span>rating</span><span>charging</span><span>VoIP</span><span>Diameter</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2022-11</p>
+  <h3><a href="/posts/kamailio-diameter-integration-exposed-sip-assumptions.html">Kamailio Diameter Integration Exposed the Limits of Reusing SIP Assumptions</a></h3>
+  <p>Kamailio felt familiar on the SIP side, but Diameter peer state and application routing forced me to treat the second protocol on its own terms.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Kamailio</span><span>Diameter</span><span>IMS</span><span>DRA</span><span>SIP</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 3 min read · Lab period 2021-01</p>
+  <h3><a href="/posts/kamailio-transactions-why-stateful-forwarding-changed-my-sip-debugging.html">Kamailio Transactions: Why Stateful Forwarding Changed My SIP Debugging</a></h3>
+  <p>Once I separated stateless forwarding from transaction-aware forwarding, retransmissions, replies and failure handling in Kamailio became much easier to reason about.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Kamailio</span><span>SIP</span><span>transactions</span><span>tm</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2021-12</p>
+  <h3><a href="/posts/using-redis-beside-kamailio-without-making-redis-the-whole-architecture.html">Using Redis Beside Kamailio Without Making Redis the Whole Architecture</a></h3>
+  <p>Redis was useful for fast shared state in a SIP lab, but the important decision was which state belonged there and how the proxy behaved when it disappeared.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Kamailio</span><span>Redis</span><span>SIP</span><span>architecture</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2021-11</p>
+  <h3><a href="/posts/my-first-sipp-load-test-was-mostly-about-defining-a-useful-scenario.html">My First SIPp Load Test Was Mostly About Defining a Useful Scenario</a></h3>
+  <p>SIPp could generate a lot of calls, but the hard part was deciding what behavior to simulate and what failure actually meant.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIPp</span><span>SIP</span><span>load testing</span><span>performance</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2021-09</p>
+  <h3><a href="/posts/routing-calls-across-two-pbxs-without-turning-kamailio-into-a-pbx.html">Routing Calls Across Two PBXs Without Turning Kamailio into a PBX</a></h3>
+  <p>A two-PBX lab clarified the boundary between SIP routing at the proxy and dialplan or application behavior inside the PBX.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Kamailio</span><span>Asterisk</span><span>FreeSWITCH</span><span>routing</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2021-07</p>
+  <h3><a href="/posts/webrtc-added-more-than-a-browser-to-my-voip-lab.html">WebRTC Added More Than a Browser to My VoIP Lab</a></h3>
+  <p>WebRTC forced me to deal with WSS, ICE, DTLS-SRTP and browser security assumptions instead of treating a browser as just another SIP phone.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>WebRTC</span><span>WSS</span><span>ICE</span><span>FreeSWITCH</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2021-06</p>
+  <h3><a href="/posts/tls-protected-my-sip-signaling-not-my-rtp.html">TLS Protected My SIP Signaling, Not My RTP</a></h3>
+  <p>A secure SIP transport and encrypted media are separate decisions. TLS can protect signaling while RTP remains completely visible on the wire.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>TLS</span><span>SRTP</span><span>RTP</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2021-05</p>
+  <h3><a href="/posts/sip-over-tls-the-certificate-error-was-more-useful-than-the-green-lock.html">SIP over TLS: The Certificate Error Was More Useful Than the Green Lock</a></h3>
+  <p>Moving SIP signaling to TLS exposed certificate names, trust chains and transport assumptions that UDP had allowed me to ignore.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>TLS</span><span>certificates</span><span>Kamailio</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 3 min read · Lab period 2021-04</p>
+  <h3><a href="/posts/via-contact-and-nat-three-sip-addresses-i-kept-mixing-up.html">Via, Contact and NAT: Three SIP Addresses I Kept Mixing Up</a></h3>
+  <p>NAT problems became easier once I stopped treating every SIP URI and IP header as the same kind of return address.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>NAT</span><span>Via</span><span>Contact</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 3 min read · Lab period 2021-03</p>
+  <h3><a href="/posts/anchoring-rtp-with-rtpengine-solved-a-different-problem-than-sip-routing.html">Anchoring RTP with rtpengine Solved a Different Problem Than SIP Routing</a></h3>
+  <p>Kamailio could route the signaling perfectly while media still failed. rtpengine made the signaling path and media path explicit instead of treating them as one thing.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>RTP</span><span>rtpengine</span><span>Kamailio</span><span>SDP</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 3 min read · Lab period 2021-02</p>
+  <h3><a href="/posts/record-route-explained-why-my-bye-took-a-different-path.html">Record-Route Explained Why My BYE Took a Different Path</a></h3>
+  <p>Initial SIP routing and in-dialog routing are different problems. Record-Route was the mechanism that made the proxy stay on the path after the call was established.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>Kamailio</span><span>Record-Route</span><span>dialog</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2020-01</p>
+  <h3><a href="/posts/sip-transactions-and-dialogs-finally-made-call-flow-less-confusing.html">SIP Transactions and Dialogs Finally Made Call Flow Less Confusing</a></h3>
+  <p>SIP became easier to debug once I stopped treating an entire call as one exchange and separated individual transactions from the dialog that ties them together.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>VoIP</span><span>Asterisk</span><span>transactions</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2020-12</p>
+  <h3><a href="/posts/my-first-kamailio-lab-changed-how-i-thought-about-a-sip-server.html">My First Kamailio Lab Changed How I Thought About a SIP Server</a></h3>
+  <p>Kamailio made it obvious that SIP routing, registration and media handling do not have to live inside one PBX process.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Kamailio</span><span>SIP</span><span>proxy</span><span>VoIP</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2020-11</p>
+  <h3><a href="/posts/sip-registration-expiry-explained-why-phones-disappeared-after-a-while.html">SIP Registration Expiry Explained Why Phones Disappeared After a While</a></h3>
+  <p>A successful REGISTER is temporary state, so expiry, refresh timing and NAT mappings all matter if an endpoint is expected to remain reachable.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>REGISTER</span><span>NAT</span><span>Asterisk</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2020-08</p>
+  <h3><a href="/posts/my-first-freeswitch-lab-after-getting-comfortable-with-asterisk.html">My First FreeSWITCH Lab After Getting Comfortable with Asterisk</a></h3>
+  <p>FreeSWITCH forced me to separate the concepts I understood from Asterisk from the implementation details I had simply memorized.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>FreeSWITCH</span><span>SIP</span><span>RTP</span><span>PBX</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2020-06</p>
+  <h3><a href="/posts/why-a-sip-401-response-usually-did-not-mean-the-call-failed.html">Why a SIP 401 Response Usually Did Not Mean the Call Failed</a></h3>
+  <p>Digest authentication made much more sense once I saw 401 as part of a challenge-response exchange rather than a generic failure code.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>authentication</span><span>digest</span><span>Asterisk</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2020-05</p>
+  <h3><a href="/posts/asterisk-dialplan-started-making-sense-when-i-treated-it-as-routing.html">Asterisk Dialplan Started Making Sense When I Treated It as Routing</a></h3>
+  <p>The Asterisk dialplan felt less like telephony syntax once I treated contexts and extensions as a routing policy for calls.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Asterisk</span><span>dialplan</span><span>SIP</span><span>PBX</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2020-04</p>
+  <h3><a href="/posts/the-call-connected-but-only-one-side-had-audio.html">The Call Connected but Only One Side Had Audio</a></h3>
+  <p>One-way audio was my first VoIP problem where the signaling looked healthy and the real fault was the address and port information used for RTP.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>RTP</span><span>NAT</span><span>SIP</span><span>troubleshooting</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2020-03</p>
+  <h3><a href="/posts/rtp-is-not-sip-and-that-difference-explains-broken-calls.html">RTP Is Not SIP, and That Difference Explains a Lot of Broken Calls</a></h3>
+  <p>Signaling and media usually take different paths, use different ports and fail for different reasons, so a working SIP registration says very little about RTP health.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>RTP</span><span>SIP</span><span>UDP</span><span>VoIP</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 2 min read · Lab period 2020-02</p>
+  <h3><a href="/posts/sdp-was-the-part-of-sip-calls-i-had-been-ignoring.html">SDP Was the Part of SIP Calls I Had Been Ignoring</a></h3>
+  <p>A SIP call can signal perfectly and still have broken audio because SDP is where the endpoints describe media addresses, ports and codecs.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>SDP</span><span>RTP</span><span>codecs</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 3 min read · Lab period 2019-11</p>
+  <h3><a href="/posts/first-asterisk-lab-mostly-a-networking-lab.html">My First Asterisk Lab Was Mostly a Networking Lab</a></h3>
+  <p>Two softphones and one Asterisk server were enough to show that a phone call is really several network problems stacked together: registration, signaling, media and NAT.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Asterisk</span><span>VoIP</span><span>SIP</span><span>RTP</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="telecom-voip.html">Telecom &amp; VoIP</a> · 3 min read · Lab period 2019-12</p>
+  <h3><a href="/posts/reading-first-sip-register-and-invite-wireshark.html">Reading My First SIP REGISTER and INVITE in Wireshark</a></h3>
+  <p>SIP became much less mysterious once I stopped reading it as &#39;phone system traffic&#39; and followed it as a text-based request and response protocol with explicit state transitions.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SIP</span><span>Wireshark</span><span>Asterisk</span><span>VoIP</span></div>
+</article>
+</div>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="../topics.html">Topics</a>
+    <a href="../systems.html">Systems</a>
+    <a href="../archive.html">Archive</a>
+    <a href="../author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script>
+<dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><div id="context-preview" class="context-preview" role="tooltip" hidden data-pagefind-ignore></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

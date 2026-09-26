@@ -1,0 +1,21 @@
+/* Phase 2 — meaningful path tracing and contextual previews. */
+.trace-hint{display:flex;align-items:center;gap:.65rem;margin:0 0 .85rem;color:var(--muted);font:500 .68rem/1.4 var(--mono)}
+.trace-hint>span:first-child{color:var(--accent);font-weight:650;letter-spacing:.05em}
+.trace-hint>span:nth-child(2){flex:1}
+.trace-clear{border:0;background:transparent;color:var(--muted);padding:.2rem .35rem;cursor:pointer;font:inherit}
+.trace-clear:hover{color:var(--text-strong)}
+.network-node{cursor:pointer;transition:opacity .16s ease,border-color .16s ease,background .16s ease,transform .16s ease}
+.network-arrow{transition:opacity .16s ease,color .16s ease}
+.network-diagram.trace-active .network-node,.network-diagram.trace-active .network-arrow{opacity:.24}
+.network-diagram.trace-active .network-node.is-path,.network-diagram.trace-active .network-arrow.is-path{opacity:1}
+.network-diagram.trace-active .network-node.is-path{border-color:var(--tech-line)!important;background:var(--accent-soft)!important}
+.network-diagram.trace-active .network-node.is-focus{border-color:var(--accent)!important;transform:translateY(-2px)}
+.network-diagram.trace-active .network-arrow.is-path span{color:var(--accent)}
+.network-node:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.context-preview{position:fixed;z-index:500;width:min(320px,calc(100vw - 1.5rem));padding:.75rem .8rem;border:1px solid var(--line);border-radius:8px;background:var(--bg);box-shadow:0 14px 40px #0002;pointer-events:none}
+.context-preview[hidden]{display:none}
+.context-preview .context-meta{display:flex;flex-wrap:wrap;gap:.35rem .55rem;margin-bottom:.35rem;color:var(--accent);font:600 .61rem/1.4 var(--mono);letter-spacing:.04em;text-transform:uppercase}
+.context-preview strong{display:block;color:var(--text-strong);font-size:.9rem;line-height:1.35}
+.context-preview p{margin:.35rem 0 0!important;color:var(--muted)!important;font-size:.78rem!important;line-height:1.5!important}
+@media(max-width:720px){.trace-hint{align-items:flex-start;flex-wrap:wrap}.trace-hint>span:nth-child(2){flex-basis:calc(100% - 90px)}.network-node{cursor:default}.context-preview{display:none!important}}
+@media(prefers-reduced-motion:reduce){.network-node,.network-arrow{transition:none}}

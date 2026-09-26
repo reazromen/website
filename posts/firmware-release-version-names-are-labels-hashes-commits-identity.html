@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../about.html">
+  <title>Version Names Are Labels; Hashes and Commits Are Identity — Reaz Romen — Systems Engineering</title>
+  <link rel="stylesheet" href="../static/css/site.css">
+<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><meta data-pagefind-filter="type[content]" content="Writing"><meta data-pagefind-filter="domain[content]" content="Embedded &amp; Devices"><meta data-pagefind-filter="format[content]" content="Article"><meta data-pagefind-meta="type[content]" content="Writing"><meta data-pagefind-meta="domain[content]" content="Embedded &amp; Devices"><meta data-pagefind-meta="title[content]" content="Version Names Are Labels; Hashes and Commits Are Identity"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
+
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<article class="article" data-pagefind-body>
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../topics.html">Topics</a> / <a href="../topics/firmware-release-engineering.html">Firmware Release Engineering</a></nav>
+  <p class="eyebrow">Production Firmware: Golden Artifacts &amp; Identity · deep-dive</p>
+  <h1>Version Names Are Labels; Hashes and Commits Are Identity</h1>
+  <p class="lede">Names such as V132A and V133A were convenient in conversation but too weak to prove which bytes or source tree were actually under test.</p>
+  <div class="article-meta">
+    <address class="author-line">By <a href="../author/reaz-romen.html">Reaz Romen</a><span class="verified" title="Verified by this publication">✓ Site verified</span></address>
+    
+    <span>Published 2026-09-15</span>
+    
+    <span>9 min read</span>
+  </div>
+  <div class="tags"><span>ESP32-S3</span><span>firmware release engineering</span><span>LOUP</span></div>
+  <div class="provenance"><strong>Current.</strong> Current deep engineering note derived from LOUP ESP32-S3 golden-artifact preservation, clean-build recovery, rollback/partition design and production OTA acceptance evidence from 2026.</div>
+  <div class="prose"><h1>Version Names Are Labels; Hashes and Commits Are Identity</h1>
+<p>This part of the LOUP firmware work was less about adding code than deciding what I was allowed to call a release. Names such as V132A and V133A were convenient in conversation but too weak to prove which bytes or source tree were actually under test.</p>
+<p>The LOUP firmware path had a particularly unforgiving constraint: SIP/audio behavior already worked well enough to be valuable, so release work could not casually erase NVS, rewrite the flash layout, merge unrelated features or replace the rollback image. The goal was to make delivery safer without sacrificing the only known-good behavior.</p>
+<p>For this article, the key evidence is specific: The handoff required exact Git commit IDs and SHA-256 values and explicitly said version names alone were insufficient identity. The retained result was equally specific: The release process could compare a device artifact, Git state and delivery package without relying on memory. I treat both as observations from the documented release state, not as universal ESP32 rules.</p>
+<h2>Case notebook</h2>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Recorded conclusion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Release problem</td>
+<td>Names such as V132A and V133A were convenient in conversation but too weak to prove which bytes or source tree were actually under test.</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>The handoff required exact Git commit IDs and SHA-256 values and explicitly said version names alone were insufficient identity.</td>
+</tr>
+<tr>
+<td>Mechanism</td>
+<td>Human-readable versions describe intent; cryptographic hashes and immutable commits bind that intent to concrete content.</td>
+</tr>
+<tr>
+<td>Rejected shortcut</td>
+<td>Using a filename or marketing version as the only evidence in a regression report.</td>
+</tr>
+<tr>
+<td>Retained result</td>
+<td>The release process could compare a device artifact, Git state and delivery package without relying on memory.</td>
+</tr>
+<tr>
+<td>Rule carried forward</td>
+<td>Every acceptance result should point to immutable content identity.</td>
+</tr>
+</tbody>
+</table>
+<p>The table is intentionally stricter than a normal release note. A release note usually tells a reader what changed. This notebook also records what was <em>not</em> proven and which shortcut would have produced a misleading green status. That distinction mattered repeatedly in the LOUP work, especially while the golden V132A artifact, reconstructed source tree, V133A feature branch and later OTA control plane existed at different maturity levels.</p>
+<h2>Artifact identity is a multi-key problem</h2>
+<p>For a production firmware artifact I want enough information to distinguish four questions that are often collapsed: What bytes are on the device? What source state was intended to produce them? Which toolchain/dependencies produced the candidate? Which physical test proved the behavior? A binary SHA answers only the first. A Git commit answers only part of the second. A successful call answers the last but does not reconstruct source provenance.</p>
+<p>That is why the golden-image workflow preserved exact application bytes separately from source cleanup. The golden artifact could remain the rollback authority even while the repository was being repaired. This is not an admission that reproducibility does not matter; it is a way to avoid destroying the only trusted executable while reproducibility is being established.</p>
+<p>In a larger release system I would store this relationship explicitly rather than in filenames: artifact digest, source commit, build environment identity, hardware compatibility, signer key ID and acceptance record. The operational rule is that none of those fields silently substitutes for another.</p>
+<h2>A concrete scenario I use to test the rule</h2>
+<p>The practical reason for hashes is not cryptographic elegance. It is avoiding the sentence “I think this is the same binary.” A release process should make that sentence unnecessary.</p>
+<p>For this article, the scenario is useful because it targets the rejected shortcut directly: <strong>Using a filename or marketing version as the only evidence in a regression report.</strong>. I want the system to make that shortcut either impossible or obviously non-compliant with the release gate.</p>
+<p>The falsification question is equally important. If a future implementation can demonstrate the same safety property with a simpler mechanism, I would change the mechanism. What I would not change casually is the invariant: <strong>Every acceptance result should point to immutable content identity.</strong>. The release process exists to preserve that invariant while the implementation evolves.</p>
+<h2>The mechanism underneath the release decision</h2>
+<p>The first release problem was preservation. A voice build that users trusted was more valuable than a prettier repository if the repository could not yet prove it produced the same behavior. I therefore separate the golden binary, source provenance, hardware context and test evidence. That lets source recovery move forward without rewriting the operational truth that already exists on the device.</p>
+<p>For <strong>Version Names Are Labels; Hashes and Commits Are Identity</strong>, the important mechanism is this: Human-readable versions describe intent; cryptographic hashes and immutable commits bind that intent to concrete content.</p>
+<p>That mechanism tells me which evidence is relevant. If the question is artifact identity, a call test alone is not enough; I need a hash and source identity. If the question is rollback, a signature alone is not enough; I need partition and persistent-schema compatibility. If the question is promotion, a CI pass is not enough; I need observed device state tied to the same release ID.</p>
+<pre><code class="language-text">release_identity = {
+  binary_sha256,
+  git_commit,
+  hardware_revision,
+  flash_offset,
+  toolchain_identity,
+  acceptance_evidence
+}
+</code></pre>
+<p>A version string is metadata inside this record, not the primary key for truth.</p>
+<p>I use this model to stop release engineering from becoming a sequence of shell commands. The commands are implementation. The release contract is the set of invariants that must still be true when the commands finish.</p>
+<h2>The controls I would require before accepting this state</h2>
+<ul>
+<li>read back and hash the known-good application image</li>
+<li>record flash offset and image metadata</li>
+<li>pin the source commit separately from the binary hash</li>
+<li>keep golden tags immutable</li>
+<li>store acceptance notes beside the artifact</li>
+</ul>
+<p>The point is not to maximize checklist length. Each control closes a different ambiguity that appeared in the real work. For this case, the shortcut I reject is <strong>Using a filename or marketing version as the only evidence in a regression report.</strong>. If that shortcut is allowed, the release can look successful while the underlying recovery or provenance guarantee is false.</p>
+<p>I prefer a release gate that fails loudly and leaves the old artifact usable. That is why full-flash erasure, force-pushing golden tags, disabling certificate verification, or widening a rollout to compensate for unclear state are all wrong directions. They destroy evidence or increase blast radius exactly when uncertainty is highest.</p>
+<h2>How I would try to break this before trusting it</h2>
+<p>Release safety is difficult to prove with only the happy path. For this class of change I want at least one test that intentionally violates the assumption the release depends on.</p>
+<p>For <strong>Version Names Are Labels; Hashes and Commits Are Identity</strong>, I would construct a negative test around the mechanism: Human-readable versions describe intent; cryptographic hashes and immutable commits bind that intent to concrete content. That might mean removing a required source file from the clean checkout, presenting a wrong signature, assigning a release to the wrong hardware revision, forcing first-boot self-test failure, rolling back after a schema migration, or replaying a terminal OTA result for an older release ID.</p>
+<p>The expected behavior should be boring: reject the artifact or assignment, keep/restore the previous accepted image, preserve persistent state where promised, and surface an attributable failure state. A test is especially valuable when it proves the system does <em>not</em> accept a dangerous shortcut.</p>
+<p>This is why I distinguish recoverability tests from build tests. A compiler can prove syntax and linking. It cannot prove that a power interruption during slot write, a bad first boot or a stale heartbeat result leaves the fleet in a state the operator can understand.</p>
+<h2>Keep chronology honest</h2>
+<p>The V132A/V133A recovery documents are useful because they did not retroactively turn incomplete work into completed work. At the August handoff, the golden V132A rollback binary was proven, while the V133A feature branch had source work that still needed clean-build, flash, physical power and clear-audio regression evidence. Later fleet/OTA work added a different layer of production acceptance.</p>
+<p>That chronology matters for this topic because <strong>The release process could compare a device artifact, Git state and delivery package without relying on memory.</strong> should be read as the result of the evidence chain that actually existed at that stage. I do not use a later production capability to rewrite an earlier handoff as if it had already passed.</p>
+<p>This is also how I want release dashboards and articles to behave. A state such as <code>built</code>, <code>signed</code>, <code>assigned</code>, <code>booted</code>, <code>accepted</code>, <code>active</code> or <code>stable</code> should mean one thing and be backed by the evidence required for that state. The system becomes hard to operate when success words float free of their acceptance gates.</p>
+<h2>What this costs</h2>
+<p>The stricter release model adds work. Hashes, manifests, detached signatures, isolated builds, compatibility metadata, dual slots, schema versions and promotion gates all create operational surface area. On a small product team that overhead can feel disproportionate to one ESP32-S3 binary.</p>
+<p>The alternative cost is hidden. Without these controls, a good audio artifact can be overwritten, a feature branch can silently become the new baseline, an old image can be unable to read migrated NVS, a runtime server compromise can become signing compromise, or the fleet can report “failed” for the wrong release because one stale result had no causal identity.</p>
+<p>For this case the retained rule is <strong>Every acceptance result should point to immutable content identity.</strong>. I accept the additional release machinery when it closes a failure mode that would otherwise require physical recovery or make the operator unable to state which firmware is really running.</p>
+<h2>The lesson I keep</h2>
+<p>The result I keep from this case is: <strong>The release process could compare a device artifact, Git state and delivery package without relying on memory.</strong></p>
+<p>The deeper lesson is <strong>Every acceptance result should point to immutable content identity.</strong></p>
+<p>That is how I now define production firmware work. The release is not the moment a <code>.bin</code> file appears. It is the chain that connects source, artifact, signature, compatibility, flash topology, persistent state, real-device acceptance and observable running state—with a rollback path whose assumptions have actually been tested.</p></div>
+  <aside class="author-card">
+    <div><p class="eyebrow">ABOUT THE AUTHOR</p><h3><a href="../author/reaz-romen.html">Reaz Romen</a></h3></div>
+    <p>Systems engineer working across embedded devices, networks, real-time communications, backend systems, Linux infrastructure, observability, and operational tooling.</p>
+  </aside>
+</article>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="/topics.html">Topics</a>
+    <a href="/systems.html">Systems</a>
+    <a href="/archive.html">Archive</a>
+    <a href="/author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

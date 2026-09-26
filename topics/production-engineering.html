@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../about.html">
+  <title>Production Engineering — Reaz Romen — Systems Engineering</title>
+  <link rel="stylesheet" href="../static/css/site.css">
+
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/sitewide-v2.css">
+<link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/phase2.css"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed">
+<a class="skip-link" href="#rr-main">Skip to content</a>
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<section class="page-head"><p class="eyebrow">TOPIC</p><h1>Production Engineering</h1><p class="lede">Lessons, explainers, experiments, and implementation notes.</p></section>
+<div class="post-list">
+  <article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/container-entrypoint-can-break-validation-command.html">A Container Entrypoint Can Break a Perfectly Valid Validation Command</a></h3>
+  <p>CI failed because the image entrypoint changed how arguments were interpreted, not because the OpenBao configuration was invalid.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>CI</span><span>Docker</span><span>OpenBao</span><span>entrypoint</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 2 min read · 2026-09-14</p>
+  <h3><a href="/posts/compose-rendering-catches-expensive-deployment-mistakes.html">Compose Rendering Is a Cheap Test That Catches Expensive Deployment Mistakes</a></h3>
+  <p>A configuration should render successfully from a clean checkout before it is trusted on a production host.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Docker Compose</span><span>CI</span><span>validation</span><span>deployment</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/pinned-image-digests-reproducible-container-dependency.html">Pinned Image Digests Turn a Container Tag into a Reproducible Dependency</a></h3>
+  <p>A mutable tag tells you what to ask for; a digest tells you what bytes you actually accepted.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Docker</span><span>OCI</span><span>supply chain</span><span>GitOps</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/copy-permission-bug-can-make-image-non-reproducible.html">A One-Line COPY Permission Bug Can Make an Image Non-Reproducible</a></h3>
+  <p>A configuration file copied with the wrong mode can behave differently depending on the build context and base image defaults.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Dockerfile</span><span>permissions</span><span>supervisor</span><span>CI</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/clean-checkout-real-test-infrastructure-reproducibility.html">A Clean Checkout Is the Real Test of Infrastructure Reproducibility</a></h3>
+  <p>Live files that are absent from Git are technical debt even when the service is currently healthy.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>GitOps</span><span>observability</span><span>recovery</span><span>configuration</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/running-is-not-the-same-as-healthy.html">Running Is Not the Same as Healthy</a></h3>
+  <p>Container process state only proves that PID 1 exists; readiness has to test the behavior the dependency actually needs.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Docker</span><span>healthcheck</span><span>readiness</span><span>Compose</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/mutable-tags-make-rollback-ambiguous.html">Mutable Tags Make Rollback Ambiguous</a></h3>
+  <p>You cannot reliably roll back to yesterday&#39;s image if the tag you used yesterday points somewhere else today.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>rollback</span><span>Docker</span><span>OCI</span><span>release engineering</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/entrypoint-assumptions-hidden-dependencies.html">Entrypoint Assumptions Are Hidden Dependencies</a></h3>
+  <p>A container command is only reproducible when you know whether the image entrypoint wraps, replaces or transforms it.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Docker</span><span>entrypoint</span><span>CI</span><span>debugging</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/build-release-run-fail-differently.html">Build, Release and Run Fail Differently</a></h3>
+  <p>Separating image construction, configuration injection and runtime startup makes failures easier to localize.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Twelve-Factor</span><span>deployment</span><span>Docker</span><span>debugging</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/git-safe-directory-can-turn-provenance-unknown.html">Git safe.directory Can Turn Provenance into UNKNOWN</a></h3>
+  <p>A production checkout owned by another identity can be readable on disk while Git refuses to trust it.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Git</span><span>safe.directory</span><span>provenance</span><span>permissions</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/unknown-better-than-false-fail-restricted-metadata.html">UNKNOWN Is Better Than a False FAIL When Metadata Is Restricted</a></h3>
+  <p>A posture check should distinguish evidence it cannot read from evidence that proves the system is wrong.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>observability</span><span>Git</span><span>UNKNOWN</span><span>SRE</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/remote-tracking-ref-can-be-stale.html">A Local Remote-Tracking Ref Can Be Stale While Git Says You Match Upstream</a></h3>
+  <p>Comparing HEAD with origin/main proves consistency with the last fetched view, not with the current remote repository.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Git</span><span>fetch</span><span>provenance</span><span>drift</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/clean-git-tree-does-not-prove-latest-code.html">A Clean Git Tree Does Not Prove You Deployed the Latest Code</a></h3>
+  <p>Cleanliness answers whether local tracked files changed; freshness answers whether the revision is the one you intended to run.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Git</span><span>deployment</span><span>clean tree</span><span>provenance</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/deployment-records-without-commit-shas-operational-debt.html">Deployment Records Without Commit SHAs Are Operational Debt</a></h3>
+  <p>When a deployment fails later, the first forensic question is which reviewed source revision actually produced it.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Git</span><span>audit</span><span>deployment</span><span>Ops Portal</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/git-runtime-state-secrets-different-jobs.html">Git, Runtime State and Secrets Need Different Jobs</a></h3>
+  <p>Operational confusion falls when desired configuration, mutable data and confidential values stop competing to be one source of truth.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>GitOps</span><span>state</span><span>secrets</span><span>architecture</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/source-ownership-manifest-solves-container-ownership.html">A Source-Ownership Manifest Solved the &#39;Who Owns This Container?&#39; Problem</a></h3>
+  <p>Seeing a service in Portainer does not tell you which repository, runbook or backup path can recreate it.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>ownership</span><span>GitOps</span><span>inventory</span><span>documentation</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/external-runtimes-still-need-owner.html">External Runtimes Still Need an Owner Even If They Live in Another Repository</a></h3>
+  <p>Repository boundaries should not become operational blind spots on a shared production host.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>ownership</span><span>VoIP</span><span>inventory</span><span>multi-repo</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/reconcile-concurrent-git-changes-without-force-push.html">Reconciling Concurrent Git Changes Without Force Push</a></h3>
+  <p>Production work continued in multiple streams, so safe synchronization had to preserve both histories rather than overwrite whichever side moved first.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Git</span><span>merge</span><span>production</span><span>change management</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/primary-key-typo-broke-model-before-business-logic.html">A Typo in primary_key=True Broke the Model Before Any Business Logic Ran</a></h3>
+  <p>Schema declarations are executable code; a one-word typo can prevent the application model from initializing correctly.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>SQLAlchemy</span><span>schema</span><span>CI</span><span>Python</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/migration-tests-catch-different-failures-than-unit-tests.html">Migration Tests Catch a Different Class of Failure Than Unit Tests</a></h3>
+  <p>An application can pass isolated logic tests while its database schema still fails to create, upgrade or enforce the intended constraint.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>database migration</span><span>PostgreSQL</span><span>CI</span><span>testing</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/publisher-retries-need-idempotency.html">Publisher Retries Need Idempotency or They Create Duplicate Posts</a></h3>
+  <p>When a network response is lost, retrying a create request can duplicate the side effect even if the first request succeeded remotely.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>idempotency</span><span>publisher</span><span>HTTP</span><span>retries</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/find-existing-before-create-reconciliation-pattern.html">Find Existing Before Create Is a Practical Reconciliation Pattern</a></h3>
+  <p>When the remote API lacks your preferred idempotency primitive, deterministic discovery can recover an uncertain previous attempt.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>reconciliation</span><span>API</span><span>publisher</span><span>idempotency</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/delivery-state-needs-own-table.html">Delivery State Needs Its Own Table</a></h3>
+  <p>Content intent and remote-delivery progress are different state machines and should not be collapsed into one post status.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>state machine</span><span>publisher</span><span>database</span><span>delivery</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/background-dispatch-needs-reconciliation-after-restart.html">Background Dispatch Needs Reconciliation After Restart</a></h3>
+  <p>A scheduler can enqueue work before crashing; recovery logic must discover incomplete deliveries after the process returns.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>scheduler</span><span>reconciliation</span><span>publisher</span><span>recovery</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/remote-terminal-states-stop-republishing-logic.html">Remote Terminal States Should Stop Re-Publishing Logic</a></h3>
+  <p>If the provider already reports scheduled, publishing or published, the reconciler should observe rather than repeat the side effect.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>publisher</span><span>terminal state</span><span>idempotency</span><span>API</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/queue-retry-policy-part-of-data-integrity.html">Queue Retry Policy Is Part of Data Integrity</a></h3>
+  <p>Retry counts and backoff are not just performance settings when the job performs external side effects.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>queue</span><span>retry</span><span>idempotency</span><span>backoff</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/content-not-same-as-delivery-state.html">Content Is Not the Same Thing as Delivery State</a></h3>
+  <p>The authoritative article text can remain stable while each destination has its own mutable publishing lifecycle.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>content system</span><span>source of truth</span><span>publisher</span><span>architecture</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/audit-tables-must-be-boring-and-correct.html">Audit Tables Must Be Boring and Correct</a></h3>
+  <p>An audit trail is only useful if its schema is simpler and more dependable than the systems it records.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>audit</span><span>database</span><span>integrity</span><span>operations</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/canary-checks-protect-unrelated-critical-services.html">Canary Checks Should Protect Unrelated Critical Services Too</a></h3>
+  <p>A successful target deployment is not a full success if the change quietly damages another workload on the same host.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>canary</span><span>blast radius</span><span>VoIP</span><span>deployment</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/http-status-semantics-part-production-acceptance.html">HTTP Status Semantics Are Part of Production Acceptance</a></h3>
+  <p>A service can be reachable and still be routed through the wrong authentication or application layer.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>HTTP</span><span>acceptance</span><span>ingress</span><span>contract testing</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/production-acceptance-requires-live-evidence.html">Production Acceptance Requires Live Evidence, Not Code Review Alone</a></h3>
+  <p>A reviewed repository can still be disconnected from the state actually running on the host.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>acceptance</span><span>GitOps</span><span>runtime evidence</span><span>SRE</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/clean-checkout-must-contain-every-local-reference.html">A Clean Checkout Must Contain Every Local Build and Config Reference</a></h3>
+  <p>Infrastructure source is incomplete if Compose points at files that only exist on the current server.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>reproducibility</span><span>Compose</span><span>CI</span><span>Git</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/backup-and-rollback-before-touch-production.html">Back Up and Define Rollback Before You Touch Production</a></h3>
+  <p>The safest time to decide how to recover is before the change has modified the evidence you depend on.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>change management</span><span>rollback</span><span>backup</span><span>deployment</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/post-deploy-inventory-snapshot-forensic-evidence.html">A Post-Deploy Inventory Snapshot Is Forensic Evidence</a></h3>
+  <p>Recording containers, ports and revisions after deployment gives future incident response a known-good comparison point.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>inventory</span><span>forensics</span><span>deployment</span><span>baseline</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="production-engineering.html">Production Engineering</a> · 1 min read · 2026-09-14</p>
+  <h3><a href="/posts/best-postmortem-output-is-new-invariant.html">The Best Postmortem Output Is a New Invariant</a></h3>
+  <p>Fixing one incident is useful; changing the system so the same class of failure becomes detectable or impossible is more valuable.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>postmortem</span><span>SRE</span><span>invariant</span><span>continuous improvement</span></div>
+</article>
+</div>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="../topics.html">Topics</a>
+    <a href="../systems.html">Systems</a>
+    <a href="../archive.html">Archive</a>
+    <a href="../author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script>
+<dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><div id="context-preview" class="context-preview" role="tooltip" hidden data-pagefind-ignore></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

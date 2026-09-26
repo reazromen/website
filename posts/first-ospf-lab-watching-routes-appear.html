@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../about.html">
+  <title>My First OSPF Lab: Watching Routes Appear Instead of Typing Them — Reaz Romen — Systems Engineering</title>
+  <link rel="stylesheet" href="../static/css/site.css">
+<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><meta data-pagefind-filter="type[content]" content="Writing"><meta data-pagefind-filter="domain[content]" content="Networks"><meta data-pagefind-filter="format[content]" content="Article"><meta data-pagefind-meta="type[content]" content="Writing"><meta data-pagefind-meta="domain[content]" content="Networks"><meta data-pagefind-meta="title[content]" content="My First OSPF Lab: Watching Routes Appear Instead of Typing Them"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
+
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<article class="article" data-pagefind-body>
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../topics.html">Topics</a> / <a href="../topics/networking.html">Networking</a></nav>
+  <p class="eyebrow">2019 Routing, Linux &amp; First VoIP · intermediate</p>
+  <h1>My First OSPF Lab: Watching Routes Appear Instead of Typing Them</h1>
+  <p class="lede">OSPF became useful when I compared it directly with the static routes I had been maintaining by hand and watched neighbors and learned routes change with the topology.</p>
+  <div class="article-meta">
+    <address class="author-line">By <a href="../author/reaz-romen.html">Reaz Romen</a><span class="verified" title="Verified by this publication">✓ Site verified</span></address>
+    <span>Lab period April 2019</span>
+    <span>Published 2026-09-14</span>
+    
+    <span>3 min read</span>
+  </div>
+  <div class="tags"><span>CCNA</span><span>OSPF</span><span>routing</span><span>dynamic routing</span></div>
+  <div class="provenance"><strong>Lab Note.</strong> Reconstructed in 2026 as a lab note from the 2019 networking and early VoIP study period. The archive date indicates the period covered; the current site publication date is shown separately.</div>
+  <div class="prose"><p>Static routing taught me what a routing table needs, but it also made the maintenance problem obvious. In a three-router lab I could type every route myself. Add more routers or change a transit network and the amount of manual state grows quickly. OSPF was the first routing protocol I studied where I could watch routers discover neighbors and calculate reachability instead of entering every remote prefix by hand.</p>
+<p>I kept the first topology small: three routers connected in a line, with a /24 LAN behind each edge and point-to-point networks between the routers. I enabled OSPF on the relevant interfaces in area 0 and then checked neighbor state before looking at the routing table. That order mattered. If the routers do not become neighbors, there is no point wondering why the remote routes are missing.</p>
+<p><code>show ip ospf neighbor</code> gave me a direct view of adjacency. I started paying attention to router IDs, neighbor state and the interface where each neighbor was seen. Once the adjacency reached the expected full state, <code>show ip route ospf</code> or the OSPF-marked entries in the full routing table showed the remote networks. The routes were not magic additions; they were the result of exchanged link-state information and a shortest-path calculation.</p>
+<p>The area concept took longer to appreciate because a tiny lab does not need multiple areas. Area 0 feels like another number to memorize until the network is large enough for hierarchy to matter. For the small exercise, I treated area 0 simply as the common link-state domain and focused on getting the interfaces, network statements and addressing right.</p>
+<p>I deliberately broke the adjacency in a few ways. A mismatched area prevented normal neighbor formation. An interface with the wrong IP subnet meant the routers were not actually Layer 3 neighbors even if the cable was correct. Passive-interface configuration could stop OSPF hellos where I expected a peer. Those failures were more useful than a clean configuration because each one showed which assumptions OSPF makes before it can exchange topology information.</p>
+<p>Then I shut one transit link in a topology that had an alternate path. The routing table changed without me editing remote routes. That was the point where dynamic routing stopped being an exam topic and started looking operationally useful. The routers already had a model of the topology and could recalculate when an interface state changed.</p>
+<p>I still checked the data plane separately. An OSPF neighbor can be up and a route can exist while an access-list, wrong host gateway or return-path problem breaks the actual application traffic. Routing protocol health is evidence about the control plane, not proof that every end-to-end flow works. Keeping those checks separate became increasingly important as the labs got more complicated.</p></div>
+  <aside class="author-card">
+    <div><p class="eyebrow">ABOUT THE AUTHOR</p><h3><a href="../author/reaz-romen.html">Reaz Romen</a></h3></div>
+    <p>Systems engineer working across embedded devices, networks, real-time communications, backend systems, Linux infrastructure, observability, and operational tooling.</p>
+  </aside>
+</article>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="/topics.html">Topics</a>
+    <a href="/systems.html">Systems</a>
+    <a href="/archive.html">Archive</a>
+    <a href="/author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

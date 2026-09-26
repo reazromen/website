@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../about.html">
+  <title>Caddy &amp; Reverse Proxy — Reaz Romen — Systems Engineering</title>
+  <link rel="stylesheet" href="../static/css/site.css">
+
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/sitewide-v2.css">
+<link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/phase2.css"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed">
+<a class="skip-link" href="#rr-main">Skip to content</a>
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<section class="page-head"><p class="eyebrow">TOPIC</p><h1>Caddy &amp; Reverse Proxy</h1><p class="lede">Lessons, explainers, experiments, and implementation notes.</p></section>
+<div class="post-list">
+  <article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-502-backend-works-by-ip.html">Why Caddy Gives 502 When the Backend Works Fine by IP</a></h3>
+  <p>A 502 usually means the browser-to-Caddy leg worked and the Caddy-to-upstream leg did not.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>502</span><span>reverse proxy</span><span>troubleshooting</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-docker-localhost-is-caddy.html">Inside a Caddy Container, localhost Is Caddy — Not Your App</a></h3>
+  <p>The most common Docker reverse-proxy mistake is technically valid networking aimed at the wrong namespace.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>Docker</span><span>localhost</span><span>502</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 17 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-docker-service-name-does-not-resolve.html">When a Docker Service Name Does Not Resolve from Caddy</a></h3>
+  <p>Docker DNS only resolves service names inside the networks where those services actually meet.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>Docker DNS</span><span>Compose</span><span>networking</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-https-upstream-sni-mismatch.html">Caddy Can Reach the HTTPS Upstream and Still Fail the TLS Handshake</a></h3>
+  <p>An IP can be the correct route to an upstream while being the wrong identity for its certificate.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>TLS</span><span>SNI</span><span>private CA</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 17 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-v211-host-header-surprise.html">After a Caddy Upgrade, Why Did My HTTPS Upstream Start Seeing a Different Host?</a></h3>
+  <p>Caddy 2.11 changed default Host behavior for HTTPS upstreams, exposing apps that relied on the old value.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy 2.11</span><span>Host header</span><span>HTTPS upstream</span><span>redirect</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-websocket-ui-works-live-updates-fail.html">The Web UI Loads Through Caddy but Live Updates Never Connect</a></h3>
+  <p>Normal HTTP can succeed while a WebSocket upgrade fails on the same application.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>WebSocket</span><span>HTTP upgrade</span><span>real-time</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-subfolder-problem.html">Why an App Works on a Subdomain but Breaks Under /app</a></h3>
+  <p>Stripping a prefix is easy; making the application believe it lives under that prefix is harder.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>handle_path</span><span>subfolder problem</span><span>reverse proxy</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-spa-deep-link-404.html">Your SPA Homepage Works Through Caddy, but Refreshing /settings Returns 404</a></h3>
+  <p>Client-side routes exist only after index.html loads; the server still needs a fallback for direct requests.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>SPA</span><span>try_files</span><span>404</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 17 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-api-swallowed-by-spa.html">Why Your API Suddenly Returns index.html Through Caddy</a></h3>
+  <p>A catch-all frontend fallback can hide backend routing mistakes behind a successful HTML response.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>SPA</span><span>API</span><span>handle</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-trailing-slash-loop.html">The Tiny Trailing-Slash Rule That Creates Big Redirect Loops</a></h3>
+  <p>External redirects, internal rewrites and upstream canonicalization are different tools even when they change the same path.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>redirect</span><span>rewrite</span><span>trailing slash</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-cloudflare-tunnel-502-origin-tls.html">Cloudflare Tunnel Reaches Caddy but Still Returns 502</a></h3>
+  <p>The failing TLS identity may be on the Cloudflare-to-origin leg rather than in Caddy&#39;s upstream proxy.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>Cloudflare Tunnel</span><span>502</span><span>TLS origin</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 18 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-real-client-ip-cloudflare.html">Why Every Request Looks Like It Came from Cloudflare Instead of the User</a></h3>
+  <p>Original client IP is trustworthy only when Caddy knows which proxy was allowed to write it.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>Cloudflare</span><span>client IP</span><span>trusted proxies</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-wildcard-cert-dns-challenge.html">Why Caddy Will Not Issue a Wildcard Certificate with the Normal HTTP Challenge</a></h3>
+  <p>Wildcard ACME certificates require DNS validation of the parent zone.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>wildcard certificate</span><span>ACME</span><span>DNS challenge</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-cloudflare-dns-plugin-missing.html">The Caddyfile Says dns cloudflare, but Caddy Says the Module Does Not Exist</a></h3>
+  <p>DNS challenge syntax only works when the running binary contains that provider module.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>Cloudflare DNS</span><span>xcaddy</span><span>Docker</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 18 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-automatic-https-ports-80-443.html">Caddy Automatic HTTPS Cannot Fix a Port 80/443 Ownership Problem</a></h3>
+  <p>ACME automation still depends on the challenge traffic reaching the Caddy instance that requested the certificate.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>Automatic HTTPS</span><span>ACME</span><span>ports 80 443</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-tls-internal-browser-untrusted.html">Caddy tls internal Works — So Why Does the Browser Still Say Untrusted?</a></h3>
+  <p>Private TLS is only trusted by clients that possess and trust the private root CA.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>tls internal</span><span>private CA</span><span>browser</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 17 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-private-ca-upstream.html">How I Proxy from One Caddy to Another Without tls_insecure_skip_verify</a></h3>
+  <p>Internal HTTPS between proxies is useful only when the caller can verify the upstream identity.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>private CA</span><span>reverse proxy</span><span>SNI</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-maintenance-page-upstream-502.html">Why handle_errors Does Not Catch the 502 Your Upstream Returned</a></h3>
+  <p>A proxied 5xx status is a response, not automatically a Caddy handler error.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>502</span><span>maintenance page</span><span>handle_response</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-forward-auth-loop.html">Forward Auth Works, Then the Browser Gets Stuck in a Login Redirect Loop</a></h3>
+  <p>Auth gateways need the original request context to decide and redirect correctly.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>forward_auth</span><span>SSO</span><span>redirect loop</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 17 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-auth-header-spoofing.html">Do Not Trust a User Identity Header Just Because Caddy Forwarded It</a></h3>
+  <p>Identity headers are safe only when clients cannot inject equivalent values around the auth boundary.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>headers</span><span>forward_auth</span><span>security</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-public-private-routes.html">One Hostname, Some Public Paths, Some Private Paths: Make the Boundary Obvious</a></h3>
+  <p>Path-based access control is safest when protected and public branches cannot accidentally fall through.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>matchers</span><span>authorization</span><span>routing</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-admin-api-exposure.html">Your Caddy Admin API Is a Deployment Interface - Treat It Like Root</a></h3>
+  <p>The admin endpoint can replace active configuration, so broad exposure changes the security boundary of the edge.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>admin API</span><span>security</span><span>configuration</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddyfile-too-big-import-snippets.html">When the Caddyfile Becomes Copy-Paste Infrastructure</a></h3>
+  <p>Repeated auth, TLS and header policy drifts when every site block is cloned by hand.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>Caddyfile</span><span>import</span><span>snippets</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-health-check-false-negative.html">Caddy Says My Upstream Is Unhealthy, but the App Is Fine</a></h3>
+  <p>A synthetic health request measures the service only if it looks like a request the service considers valid.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>health checks</span><span>reverse proxy</span><span>503</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 17 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-retries-post-requests.html">Proxy Retries Can Save a GET and Duplicate a POST</a></h3>
+  <p>Retry policy is also application semantics: replaying a write may repeat a side effect.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>retries</span><span>POST</span><span>load balancing</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-keepalive-intermittent-502.html">The Intermittent 502 That Appears Only After a Connection Has Been Idle</a></h3>
+  <p>Keepalive timeout mismatches can fail a request even while proxy and backend are otherwise healthy.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>keepalive</span><span>502</span><span>HTTP</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 17 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-multiple-instances-ingress-owner.html">Three Caddy Instances Can All Be Healthy While Nobody Knows Which One Owns the Request</a></h3>
+  <p>Multiple proxies are fine when each boundary has one explicit owner.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>ingress</span><span>architecture</span><span>homelab</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 18 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-reload-not-restart.html">Stop Restarting Caddy to Apply a Caddyfile Change</a></h3>
+  <p>Caddy has graceful config reloads; restarting the process turns a routing edit into avoidable downtime.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>reload</span><span>zero downtime</span><span>deployment</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 16 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-logs-no-context.html">Caddy Logs Exist, but They Still Do Not Answer Which User Request Failed</a></h3>
+  <p>Logs become useful when access records, proxy errors and request identity can be correlated.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>logs</span><span>JSON</span><span>troubleshooting</span></div>
+</article><article class="post-card">
+  <p class="meta"><a href="caddy-reverse-proxy.html">Caddy &amp; Reverse Proxy</a> · 17 min read · Lab period 2026-09</p>
+  <h3><a href="/posts/caddy-prometheus-upstream-health.html">How I Know Caddy Is Healthy but One Upstream Is Not</a></h3>
+  <p>The edge process can be green while one proxied service is failing behind it.</p>
+  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
+  <div class="tags"><span>Caddy</span><span>Prometheus</span><span>metrics</span><span>upstream health</span></div>
+</article>
+</div>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="../topics.html">Topics</a>
+    <a href="../systems.html">Systems</a>
+    <a href="../archive.html">Archive</a>
+    <a href="../author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script>
+<dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><div id="context-preview" class="context-preview" role="tooltip" hidden data-pagefind-ignore></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../about.html">
+  <title>“Stub Is Already Running” Was Evidence About the Flash Path — Reaz Romen — Systems Engineering</title>
+  <link rel="stylesheet" href="../static/css/site.css">
+<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><meta data-pagefind-filter="type[content]" content="Writing"><meta data-pagefind-filter="domain[content]" content="Sensing &amp; RF"><meta data-pagefind-filter="format[content]" content="Article"><meta data-pagefind-meta="type[content]" content="Writing"><meta data-pagefind-meta="domain[content]" content="Sensing &amp; RF"><meta data-pagefind-meta="title[content]" content="“Stub Is Already Running” Was Evidence About the Flash Path"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
+
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<article class="article" data-pagefind-body>
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../topics.html">Topics</a> / <a href="../topics/lora-reticulum.html">LoRa &amp; Reticulum</a></nav>
+  <p class="eyebrow">LoRa &amp; Reticulum: Hardware and Host Bring-Up · deep-dive</p>
+  <h1>“Stub Is Already Running” Was Evidence About the Flash Path</h1>
+  <p class="lede">Flashing through the bridge looked ambiguous because the USB side and target side were different MCUs.</p>
+  <div class="article-meta">
+    <address class="author-line">By <a href="../author/reaz-romen.html">Reaz Romen</a><span class="verified" title="Verified by this publication">✓ Site verified</span></address>
+    
+    <span>Published 2026-09-15</span>
+    
+    <span>9 min read</span>
+  </div>
+  <div class="tags"><span>LoRa</span><span>Reticulum</span><span>RNode</span></div>
+  <div class="provenance"><strong>Current.</strong> Current engineering retrospective derived from the 2026 LOUP lab work with Reticulum, RNode-class radios, Waveshare ESP32-S3/LR1121 hardware and EBYTE E22/EWM diagnostics.</div>
+  <div class="prose"><h1>“Stub Is Already Running” Was Evidence About the Flash Path</h1>
+<p>One of the fastest ways to get lost in LoRa debugging is to treat silence as one failure mode. Here, Flashing through the bridge looked ambiguous because the USB side and target side were different MCUs.</p>
+<p>This series comes from a small hands-on LoRa/Reticulum lab rather than a commercial coverage benchmark. The working set included Reticulum on Linux, RNode-class devices, a Waveshare ESP32-S3/LR1121 board, an ESP32-C6 bridge, an SX1262-class RNode, and EBYTE E22/EWM modules. Different devices used different bands and profiles; I keep those experiments separate instead of merging them into one imaginary “LoRa setup.”</p>
+<p>The evidence for this case was specific: <strong>esptool communication with the ESP32-S3 target succeeded through the bridge path and reported an already-running stub during repeated operations.</strong> I use it as evidence from that test topology, not as a universal radio claim.</p>
+<p>The retained result was: <strong>Target-chip identity became part of every flash/monitor step.</strong></p>
+<h2>How I framed the problem</h2>
+<p>I wrote down what the local node could prove and what it could not prove. The problem was Flashing through the bridge looked ambiguous because the USB side and target side were different MCUs. The observation esptool communication with the ESP32-S3 target succeeded through the bridge path and reported an already-running stub during repeated operations. covered one side of the path. Because The ROM/stub protocol response comes from the selected target chip; it is stronger evidence than the USB bridge product name alone., it did not justify Assuming a successful USB connection means the firmware was written to the intended MCU.. The useful result was Target-chip identity became part of every flash/monitor step.</p>
+<p>The first layer of a radio network is often not RF at all. USB enumeration, bridge firmware, target-chip identity, Linux device ownership and serial stability can fail before a LoRa symbol is transmitted. I therefore bring the hardware up from the host inward: identify every MCU, prove the programming endpoint, stabilize the serial path, remove competing host services and only then interpret radio logs.</p>
+<p>The rule I carried forward was: <strong>In multi-MCU boards, prove the endpoint of the programming protocol, not just the cable path.</strong> That rule is more useful than remembering one working frequency or one USB device name because it changes how the next experiment is designed.</p>
+<h2>Evidence matrix</h2>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Recorded answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Observed problem</td>
+<td>Flashing through the bridge looked ambiguous because the USB side and target side were different MCUs.</td>
+</tr>
+<tr>
+<td>Strongest evidence</td>
+<td>esptool communication with the ESP32-S3 target succeeded through the bridge path and reported an already-running stub during repeated operations.</td>
+</tr>
+<tr>
+<td>Mechanism</td>
+<td>The ROM/stub protocol response comes from the selected target chip; it is stronger evidence than the USB bridge product name alone.</td>
+</tr>
+<tr>
+<td>Rejected shortcut</td>
+<td>Assuming a successful USB connection means the firmware was written to the intended MCU.</td>
+</tr>
+<tr>
+<td>Retained result</td>
+<td>Target-chip identity became part of every flash/monitor step.</td>
+</tr>
+<tr>
+<td>Carry-forward rule</td>
+<td>In multi-MCU boards, prove the endpoint of the programming protocol, not just the cable path.</td>
+</tr>
+</tbody>
+</table>
+<p>I keep this table because radio work is unusually vulnerable to folklore. A missing packet can become “bad antenna,” “wrong SF,” “dead module” or “too close” depending on which theory is most convenient. Writing the evidence beside the theory forces the conclusion to remain narrower than the timeout.</p>
+<h2>The boundary I wanted to prove</h2>
+<pre><code class="language-text">Linux host / Docker
+   |
+   +--&gt; Reticulum rnsd
+   |      |-- RNodeInterface -&gt; /dev/rnode -&gt; USB/UART -&gt; radio MCU
+   |      `-- TCPServerInterface -&gt; LAN peers
+   |
+radio firmware
+   -&gt; frequency + BW + SF + CR + sync word + power
+   -&gt; RF front end
+   -&gt; matched antenna
+   -&gt; propagation path
+   -&gt; remote radio profile/mode
+   -&gt; remote host / Reticulum
+</code></pre>
+<p>For this layer I wanted these checks before changing another parameter:</p>
+<ul>
+<li>identify every MCU/bridge in the path</li>
+<li>prove the target chip before flashing</li>
+<li>resolve the host serial identity</li>
+<li>confirm exclusive serial ownership</li>
+<li>capture boot identity from the radio application</li>
+</ul>
+<p>The experiment-specific mechanism was: The ROM/stub protocol response comes from the selected target chip; it is stronger evidence than the USB bridge product name alone. That sentence tells me where the next measurement belongs. If the disputed state is host serial ownership, changing LoRa SF is irrelevant. If the disputed state is remote Mode 0, increasing TX power is not the first diagnostic. If a preamble IRQ fires without a header, the receiver is telling me more than a binary “no packet” counter would.</p>
+<h2>Investigation sequence</h2>
+<p>I separate configuration from reception. A local register read proves the local module. A local AUX transition proves local work. A preamble IRQ proves partial RF recognition. A valid header/CRC/RX proves more. A Reticulum announcement proves more again. Each layer earns a different claim.</p>
+<p>The shortcut I avoided was <strong>Assuming a successful USB connection means the firmware was written to the intended MCU.</strong> That shortcut would have changed a convenient variable without increasing observability. In radio debugging, a new parameter is not automatically a new experiment; it is only useful if the expected evidence is written down first.</p>
+<h2>What would falsify the conclusion</h2>
+<p>The retained result is <strong>Target-chip identity became part of every flash/monitor step.</strong> A useful conclusion must say what future observation would force me to revisit it.</p>
+<p>If the same controlled topology produced evidence inconsistent with <strong>esptool communication with the ESP32-S3 target succeeded through the bridge path and reported an already-running stub during repeated operations.</strong>, I would reopen the diagnosis. If a wired recovery read showed the remote module was already in the expected state, the fault domain would move back toward RF/profile compatibility. If a matched antenna and known-good peer produced clean packets, the earlier silence could not be used as proof that the local modem was defective. If Reticulum failed while direct packet exchange remained clean, the investigation would move up the stack.</p>
+<p>This is how I keep RF work from turning into stories about invisible signals. The hypothesis has to predict an observable difference.</p>
+<h2>Instrumentation I would keep</h2>
+<pre><code class="language-text">USB cable -&gt; bridge MCU -&gt; target programming protocol -&gt; radio MCU -&gt; modem
+       ^           ^                ^                    ^
+    enumerate    forward         identify            run app
+</code></pre>
+<p>The instrumentation should make state transitions explicit rather than print only final success. For serial/host work I want device identity, open failures and interface initialization. For LoRa PHY work I want the full profile plus preamble/header/header-error/CRC/RX counters. For E22/EWM I want UART writes, AUX timing and remote reply counts separated. For Reticulum I want interface state and rnstatus-visible behavior.</p>
+<p>The reason is simple: <strong>esptool communication with the ESP32-S3 target succeeded through the bridge path and reported an already-running stub during repeated operations.</strong> was useful because it exposed an intermediate state. If I had recorded only “packet received = 0,” several very different failure modes would have looked identical.</p>
+<p>I also preserve units and topology. Frequency is recorded in Hz or MHz explicitly, TX power in dBm, bandwidth in Hz/kHz, and distance only when the antenna/environment are controlled enough for the number to mean something. A number without its observation boundary is usually weaker evidence than it looks.</p>
+<h2>Acceptance test</h2>
+<p>For a host/interface article, acceptance means the service survives restart and re-enumeration without silently binding to the wrong device. For a PHY article, it means two endpoints agree on the complete packet profile and produce valid RX evidence rather than only RF activity.</p>
+<p>For this case the pass condition follows directly from the retained result: <strong>Target-chip identity became part of every flash/monitor step.</strong> The test should observe that state, not infer it from a neighboring LED, process or log line.</p>
+<h2>What I would do next at larger scale</h2>
+<p>I would stop treating every node as an interactive lab device. Radio identity, firmware identity, interface type and accepted PHY profiles would become inventory. A deployment test would validate the host serial mapping, interface initialization, pairwise packet exchange and Reticulum reachability before the node was allowed to act as transport.</p>
+<p>For RF planning I would add a real link-budget worksheet and measured site data instead of extrapolating from desk tests. The question would become required margin for a defined path rather than “how far can LoRa go?” For mixed hardware, I would maintain compatibility profiles so a 433 MHz LR1121 experiment could never be confused with an 867 MHz SX1262 RNode configuration.</p>
+<p>For <strong>“Stub Is Already Running” Was Evidence About the Flash Path</strong>, the mechanism still scales: The ROM/stub protocol response comes from the selected target chip; it is stronger evidence than the USB bridge product name alone. Scaling adds automation; it does not remove the need to know which layer a PASS actually proves.</p>
+<h2>The next experiment I would run</h2>
+<p>The next test should try to break the conclusion on purpose. Keep the known-good side fixed, alter only the state described by the mechanism, and ask whether the evidence moves with it: The ROM/stub protocol response comes from the selected target chip; it is stronger evidence than the USB bridge product name alone.</p>
+<p>The purpose is not to collect more logs. It is to remove one ambiguity. If the new test cannot distinguish two competing explanations, it is not yet the right next test.</p>
+<h2>The rule I kept</h2>
+<p><strong>In multi-MCU boards, prove the endpoint of the programming protocol, not just the cable path.</strong></p>
+<p>The retained result was: Target-chip identity became part of every flash/monitor step.</p>
+<p>The main thing I learned from this radio work is that “no packet” is not a diagnosis. The host, bridge, target MCU, local modem, PHY, antenna, path, remote mode and overlay protocol can all fail independently. The productive debugging loop is to expose one boundary at a time and make each experiment answer a question that the previous one could not.</p>
+<p>That is also what made Reticulum useful as an engineering exercise. It forced the radio to become part of a network system rather than an isolated demo. Once the interface has a role, a health state, a recovery path and reproducible configuration, the lab starts becoming infrastructure.</p></div>
+  <aside class="author-card">
+    <div><p class="eyebrow">ABOUT THE AUTHOR</p><h3><a href="../author/reaz-romen.html">Reaz Romen</a></h3></div>
+    <p>Systems engineer working across embedded devices, networks, real-time communications, backend systems, Linux infrastructure, observability, and operational tooling.</p>
+  </aside>
+</article>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="/topics.html">Topics</a>
+    <a href="/systems.html">Systems</a>
+    <a href="/archive.html">Archive</a>
+    <a href="/author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

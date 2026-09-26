@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Testing whether monitoring detects real failure, including deliberately creating load and proving the complete alert path rather than trusting dashboards.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../about.html">
+  <title>Production Observability &amp; Alert Validation — Reaz Romen</title>
+  <link rel="stylesheet" href="../static/css/site.css">
+
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/sitewide-v2.css">
+<link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><meta data-pagefind-filter="type[content]" content="Work"><meta data-pagefind-filter="domain[content]" content="Infrastructure & Reliability"><meta data-pagefind-filter="format[content]" content="Case study"><meta data-pagefind-meta="type[content]" content="Work"><meta data-pagefind-meta="domain[content]" content="Infrastructure & Reliability"><link rel="stylesheet" href="/assets/phase2.css"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed">
+<a class="skip-link" href="#rr-main">Skip to content</a>
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main data-pagefind-body id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<article class="case-study">
+  <header class="case-hero">
+    <a class="back-link" href="../portfolio.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg><span>Work</span></a>
+    <div class="case-hero-grid">
+      <div>
+        <p class="eyebrow">CASE 03 / Prometheus / Grafana / failure simulation</p>
+        <h1>Production Observability &amp; Alert Validation</h1>
+        <p class="lede">Testing whether monitoring detects real failure, including deliberately creating load and proving the complete alert path rather than trusting dashboards.</p>
+      </div>
+      <aside class="case-facts"><span>TECHNOLOGY SURFACE</span><div class="tech-cloud"><b>Prometheus</b><b>PromQL</b><b>Grafana</b><b>Alertmanager</b><b>Blackbox Exporter</b><b>node_exporter</b><b>cAdvisor</b><b>Loki</b><b>Alloy</b><b>OpenObserve</b><b>Linux</b><b>Docker</b></div></aside>
+    </div>
+  </header>
+  <section class="case-section case-intro"><div class="section-label">CONTEXT</div><div class="case-copy"><p class="large-copy">Installing Prometheus and Grafana is easy. Knowing whether the monitoring system will detect a real failure is a different problem. I built coverage across hosts, containers, endpoints, databases and logs, then deliberately created failure conditions.</p></div></section>
+  <section class="case-section"><div class="section-label">THE ENGINEERING PROBLEM</div><div class="case-copy"><h2>The symptom is not the layer.</h2><p>During one high-CPU test, metrics correctly showed the load but the expected alert did not fire. That distinction mattered: metric collection was working, while the alerting logic was not. PromQL label matching prevented the rule from evaluating as intended.</p></div></section>
+  
+  <section class="case-section"><div class="section-label">INVESTIGATION</div><div class="case-copy"><h2>How I worked the problem.</h2><ol class="approach-list"><li><span>01</span><p>Generated a controlled failure instead of waiting for an incident.</p></li><li><span>02</span><p>Verified the underlying metrics before blaming the alert delivery path.</p></li><li><span>03</span><p>Diagnosed the PromQL rule, corrected label matching and repeated the same failure.</p></li><li><span>04</span><p>Validated the full chain from failure generation through metrics, rule evaluation and alert firing.</p></li><li><span>05</span><p>Used blackbox-style probes so application reachability is checked from outside rather than inferred from process state alone.</p></li></ol></div></section>
+  <section class="case-section result-section"><div class="section-label">RESULT</div><div class="case-copy"><h2>Make the system observable enough to explain.</h2><p class="large-copy">The monitoring system became testable infrastructure rather than a collection of dashboards. The core principle is that observability itself needs controlled tests, expected behavior, reproducible failure and verification.</p></div></section>
+  <section class="case-section evidence-section"><div class="section-label">ENGINEERING EVIDENCE</div><div class="case-copy">
+    <h2>Artifacts that carry the technical story.</h2><p class="muted-copy">The case study is structured around real engineering evidence rather than generic product imagery.</p>
+    <div class="evidence-grid"><div><span>01</span><strong>CPU load graph</strong></div><div><span>02</span><strong>Alert rule before correction</strong></div><div><span>03</span><strong>Failed evaluation</strong></div><div><span>04</span><strong>Corrected PromQL</strong></div><div><span>05</span><strong>Firing alert after retest</strong></div><div><span>06</span><strong>Monitoring architecture</strong></div><div><span>07</span><strong>Log / metric correlation</strong></div></div>
+  </div></section>
+  <nav class="case-next" aria-label="Case study navigation"><a href="../portfolio.html">← Work</a><a href="../writing.html">Technical writing →</a></nav>
+</article>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="../topics.html">Topics</a>
+    <a href="../systems.html">Systems</a>
+    <a href="../archive.html">Archive</a>
+    <a href="../author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script>
+<dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><div id="context-preview" class="context-preview" role="tooltip" hidden data-pagefind-ignore></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

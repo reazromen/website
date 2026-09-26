@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
+  <meta name="author" content="Reaz Romen">
+  <link rel="author" href="../about.html">
+  <title>The Schematic, BOM and Firmware Must Describe the Same Product — Reaz Romen — Systems Engineering</title>
+  <link rel="stylesheet" href="../static/css/site.css">
+<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><meta data-pagefind-filter="type[content]" content="Writing"><meta data-pagefind-filter="domain[content]" content="Embedded &amp; Devices"><meta data-pagefind-filter="format[content]" content="Article"><meta data-pagefind-meta="type[content]" content="Writing"><meta data-pagefind-meta="domain[content]" content="Embedded &amp; Devices"><meta data-pagefind-meta="title[content]" content="The Schematic, BOM and Firmware Must Describe the Same Product"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
+
+<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
+<main id="rr-main" class="shell site-main">
+  
+    
+  
+  
+<article class="article" data-pagefind-body>
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../topics.html">Topics</a> / <a href="../topics/pcb-bringup-hardware.html">PCB Bring-Up &amp; Hardware</a></nav>
+  <p class="eyebrow">PCB Bring-Up: Evidence &amp; Source of Truth · deep-dive</p>
+  <h1>The Schematic, BOM and Firmware Must Describe the Same Product</h1>
+  <p class="lede">Board bring-up became risky whenever the schematic, BOM, datasheet package and firmware assumptions described different parts or behaviors.</p>
+  <div class="article-meta">
+    <address class="author-line">By <a href="../author/reaz-romen.html">Reaz Romen</a><span class="verified" title="Verified by this publication">✓ Site verified</span></address>
+    
+    <span>Published 2026-09-15</span>
+    
+    <span>9 min read</span>
+  </div>
+  <div class="tags"><span>ESP32-S3</span><span>PCB bring-up</span><span>hardware</span></div>
+  <div class="provenance"><strong>Current.</strong> Current deep engineering note derived from LOUP Minewing V1.6 schematic review, runtime bring-up, audio/power/display investigation and factory acceptance evidence from 2026.</div>
+  <div class="prose"><h1>The Schematic, BOM and Firmware Must Describe the Same Product</h1>
+<p>This was not primarily a firmware problem or a hardware problem. It was an interface problem: Board bring-up became risky whenever the schematic, BOM, datasheet package and firmware assumptions described different parts or behaviors.</p>
+<p>The board context for this series is LOUP's Minewing V1.6 ESP32-S3 hardware: ESP32-S3 N16R8-class memory configuration, ES8311 playback, ES7210 capture, AXP2101 power management, e-paper display, physical controls and factory/recovery interfaces. I use those identifiers only where they help explain the engineering boundary; the larger lesson is about how firmware, schematic and physical assembly have to agree.</p>
+<p>The evidence for this case was specific: <strong>During Minewing review, the RTC documentation was inconsistent and the hardware review explicitly required schematic, preliminary BOM, datasheet and firmware requirements to be made consistent before PCB release.</strong> I treat that as evidence from this board/revision and investigation, not as a universal statement about every ESP32-S3 design.</p>
+<p>The result I retained was equally narrow: <strong>The review process required cross-document consistency before final Gerber release instead of accepting one artifact in isolation.</strong></p>
+<h2>How I framed the problem</h2>
+<p>I treated the issue as a source-of-truth conflict. The symptom was Board bring-up became risky whenever the schematic, BOM, datasheet package and firmware assumptions described different parts or behaviors. The strongest evidence was During Minewing review, the RTC documentation was inconsistent and the hardware review explicitly required schematic, preliminary BOM, datasheet and firmware requirements to be made consistent before PCB release. The mechanism was Hardware behavior is defined by the assembled circuit, but engineers reason from documents and code; disagreement between those representations creates false debugging paths. That made the tempting alternative—Treating the newest PDF or the current firmware constant as automatically authoritative.—something I could test instead of a story I had to believe. The retained result was The review process required cross-document consistency before final Gerber release instead of accepting one artifact in isolation.</p>
+<p>The bring-up problem is epistemic before it is electrical: which artifact deserves to be believed? A schematic can be stale, firmware can carry a previous board's GPIO map, a datasheet can describe the right family but the wrong exact part, and a runtime label can assign a friendly channel name to the wrong halfword. I therefore treat the board as the final physical truth and use documents, source and probes as competing representations that must converge.</p>
+<p>The practical rule that came out of the case was: <strong>A hardware source of truth is a reconciled contract, not a filename.</strong> I prefer a rule like that over a one-off patch because it changes the next bring-up decision before another board is modified.</p>
+<h2>Evidence matrix</h2>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Observed problem</td>
+<td>Board bring-up became risky whenever the schematic, BOM, datasheet package and firmware assumptions described different parts or behaviors.</td>
+</tr>
+<tr>
+<td>Strongest evidence</td>
+<td>During Minewing review, the RTC documentation was inconsistent and the hardware review explicitly required schematic, preliminary BOM, datasheet and firmware requirements to be made consistent before PCB release.</td>
+</tr>
+<tr>
+<td>Mechanism</td>
+<td>Hardware behavior is defined by the assembled circuit, but engineers reason from documents and code; disagreement between those representations creates false debugging paths.</td>
+</tr>
+<tr>
+<td>Rejected shortcut</td>
+<td>Treating the newest PDF or the current firmware constant as automatically authoritative.</td>
+</tr>
+<tr>
+<td>Retained result</td>
+<td>The review process required cross-document consistency before final Gerber release instead of accepting one artifact in isolation.</td>
+</tr>
+<tr>
+<td>Carry-forward rule</td>
+<td>A hardware source of truth is a reconciled contract, not a filename.</td>
+</tr>
+</tbody>
+</table>
+<p>I keep this table because board bring-up narratives become unreliable very quickly. A working prototype encourages retrospective certainty: once the device boots, it is easy to rewrite every earlier guess as if it had been obvious. The matrix preserves the difference between what the board actually demonstrated and what I merely considered plausible.</p>
+<h2>The boundary I wanted to prove</h2>
+<pre><code class="language-text">claim from schematic ----+
+claim from firmware -----+--&gt; reconcile --&gt; probe physical board
+claim from datasheet ----+                    |
+runtime labels ----------+                    v
+                                      accepted hardware contract
+</code></pre>
+<p>For this layer I wanted at least these checks before changing the design:</p>
+<ul>
+<li>board revision and exact schematic revision</li>
+<li>BOM/datasheet identity</li>
+<li>firmware pin/channel constants</li>
+<li>runtime probe at the physical boundary</li>
+<li>documented owner for any unresolved mismatch</li>
+</ul>
+<p>The important part is ordering. I do not start with the last item just because firmware is the easiest thing for me to edit. If the rail is absent, a driver rewrite is irrelevant. If the exact part differs from the assumed part, a timing tweak may only hide the mismatch. If the physical channel is wrong, the DSP can be perfectly stable while processing the wrong signal.</p>
+<p>For this case, <strong>Hardware behavior is defined by the assembled circuit, but engineers reason from documents and code; disagreement between those representations creates false debugging paths.</strong> That mechanism defines which measurement belongs before the patch and which measurement should change afterward.</p>
+<h2>Investigation method</h2>
+<p>My investigation sequence is intentionally boring: freeze the board revision, record the exact artifact versions, inspect the electrical path, instrument the nearest software boundary, then change one variable. On hardware problems, “boring” is useful because every uncontrolled substitution—a different speaker, FPC, battery state, USB supply or firmware branch—creates another possible explanation.</p>
+<p>The shortcut I deliberately avoided here was <strong>Treating the newest PDF or the current firmware constant as automatically authoritative.</strong> That shortcut is attractive because it converts a cross-disciplinary problem into something one person can edit immediately. It is also how firmware becomes a compensation layer for an electrical problem that nobody has actually measured.</p>
+<h2>What firmware can prove—and what it cannot</h2>
+<p>Firmware can prove that it configured a peripheral, observed an I2C ACK, selected a pin mux, received DMA data, read a status bit or saw a button transition. Those are useful facts. They are not substitutes for physical measurements when the disputed state exists outside the MCU.</p>
+<p>For <strong>The Schematic, BOM and Firmware Must Describe the Same Product</strong>, the relevant distinction is that Hardware behavior is defined by the assembled circuit, but engineers reason from documents and code; disagreement between those representations creates false debugging paths. A log can expose the software side of that relationship, but the electrical/mechanical side still needs the appropriate observation point.</p>
+<p>This matters most when a diagnostic success is weaker than the product claim. An I2C scan cannot prove microphone quality. A BUSY transition cannot prove display alignment or long-term FPC reliability. A GPIO write cannot prove the amplifier enable pin actually changed if an expander or transistor sits between them. A factory programming command cannot prove traceability unless the result is tied to the unit identity.</p>
+<p>I therefore write two columns in bring-up notes: “software evidence” and “physical evidence.” A fix is stronger when both point at the same mechanism.</p>
+<h2>Acceptance test I would keep</h2>
+<p>The acceptance test should recreate the exact boundary that failed. I want a precondition, a stimulus, a measurable physical/software response and a pass/fail threshold. If the issue is power, test battery and USB transitions. If it is display, prove the rail, connector and render path. If it is audio routing, inject or capture a known signal. If it is a control, verify both electrical pulses and physical feel.</p>
+<p>For this case the acceptance target is derived from the retained result: <strong>The review process required cross-document consistency before final Gerber release instead of accepting one artifact in isolation.</strong> The test should prove that result directly rather than infer it from a neighboring signal.</p>
+<h2>What this changes before PCB release</h2>
+<p>The lesson is not only about debugging the current EVT. It changes the release package. <strong>A hardware source of truth is a reconciled contract, not a filename.</strong></p>
+<p>For a board revision, I want the schematic revision, BOM identity, power-tree assumptions, pin map, factory/recovery interfaces and firmware hardware contract to move together. If one changes, the others should either change or explicitly state why they do not. This is especially important around programmable parts such as the PMIC and around signals whose semantics are created jointly by analog routing and software mapping.</p>
+<p>I also want unresolved questions to remain visible. “Works on EVT” should not silently close an electrical-margin question, a tactile-control mismatch or an acoustic uncertainty. A production decision needs evidence appropriate to the risk. That may be a reset-time voltage analysis, a fixture measurement, a component supplier confirmation, an enclosed-device acoustic test or a repeated assembly trial.</p>
+<p>The factory benefits from the same clarity. A deterministic test path reduces rework and makes a failed unit diagnosable instead of merely rejected.</p>
+<h2>What I would change on the next board</h2>
+<p>I would make more of these boundaries explicit before layout. Each programmable power rail would have a table with voltage, owner, default state and test point. Boot-sensitive GPIOs would be reviewed as a separate checklist before peripheral placement is frozen. Codec and ADC channel mapping would be documented from schematic net to DMA representation. Recovery pads would be designed with the fixture, not added after the board already existed.</p>
+<p>For human-interface parts, I would require an exact supplier variant and physical sample whenever the requirement contains a tactile or acoustic adjective. “Detented,” “loud,” “clear,” “thin,” “clicky” and “stable” cannot be accepted from a symbol or generic family datasheet alone.</p>
+<p>For <strong>The Schematic, BOM and Firmware Must Describe the Same Product</strong>, I would carry forward the mechanism directly: Hardware behavior is defined by the assembled circuit, but engineers reason from documents and code; disagreement between those representations creates false debugging paths. That turns this incident into a design-review question instead of another bring-up surprise.</p>
+<h2>The rule I kept</h2>
+<p><strong>A hardware source of truth is a reconciled contract, not a filename.</strong></p>
+<p>The retained result from this case was: The review process required cross-document consistency before final Gerber release instead of accepting one artifact in isolation.</p>
+<p>That is how I now approach PCB bring-up. I do not ask firmware to compensate for an unmeasured electrical problem, and I do not ask hardware engineers to redesign a circuit because a software label looked wrong. I locate the boundary, choose an observation point that can actually see it, reconcile the authoritative artifacts, and only then change the layer that owns the failure.</p>
+<p>The process feels slower than immediately editing code. Across multiple board revisions it is much faster, because every confirmed boundary becomes reusable evidence for the next failure.</p></div>
+  <aside class="author-card">
+    <div><p class="eyebrow">ABOUT THE AUTHOR</p><h3><a href="../author/reaz-romen.html">Reaz Romen</a></h3></div>
+    <p>Systems engineer working across embedded devices, networks, real-time communications, backend systems, Linux infrastructure, observability, and operational tooling.</p>
+  </aside>
+</article>
+
+</main>
+<footer class="shell site-footer">
+  <div>
+    <span class="status-dot"></span>
+    <strong>Reaz Romen — independent systems engineer.</strong>
+  </div>
+  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+  <nav aria-label="Footer">
+    <a href="/topics.html">Topics</a>
+    <a href="/systems.html">Systems</a>
+    <a href="/archive.html">Archive</a>
+    <a href="/author/reaz-romen.html">Author record</a>
+  </nav>
+</footer>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<div class="command-shell">
+<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav class="command-shortcuts" aria-label="Quick navigation">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div id="command-results" class="command-results" aria-live="polite"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>
