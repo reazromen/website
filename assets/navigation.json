@@ -1,0 +1,29 @@
+{
+  "main": [
+    {
+      "label": "Work",
+      "href": "/portfolio.html"
+    },
+    {
+      "label": "Perspectives",
+      "href": "/perspectives.html"
+    },
+    {
+      "label": "Music",
+      "href": "/music.html"
+    },
+    {
+      "label": "বাংলা",
+      "href": "/bangla.html",
+      "lang": "bn"
+    },
+    {
+      "label": "About",
+      "href": "/about.html"
+    },
+    {
+      "label": "Stack",
+      "href": "/systems.html"
+    }
+  ]
+}
