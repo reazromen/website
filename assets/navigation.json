@@ -2,28 +2,34 @@
   "main": [
     {
       "label": "Work",
-      "href": "/portfolio.html"
+      "href": "/portfolio.html",
+      "enabled": true
     },
     {
       "label": "Perspectives",
-      "href": "/perspectives.html"
+      "href": "/perspectives.html",
+      "enabled": true
     },
     {
       "label": "Music",
-      "href": "/music.html"
+      "href": "/music.html",
+      "enabled": true
     },
     {
       "label": "বাংলা",
       "href": "/bangla.html",
-      "lang": "bn"
+      "lang": "bn",
+      "enabled": true
     },
     {
       "label": "About",
-      "href": "/about.html"
+      "href": "/about.html",
+      "enabled": true
     },
     {
       "label": "Stack",
-      "href": "/systems.html"
+      "href": "/systems.html",
+      "enabled": true
     }
   ]
 }
