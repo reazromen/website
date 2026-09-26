@@ -26,30 +26,75 @@ document.addEventListener('DOMContentLoaded', async () => {
         ? a.setAttribute('aria-current', 'page')
         : a.removeAttribute('aria-current');
     });
+    document.querySelectorAll('.rr-global-header .nav-group').forEach((group) => {
+      group.toggleAttribute('data-current', Boolean(group.querySelector('a[aria-current="page"]')));
+    });
+  };
+
+  const createLink = (item, labelOverride = '') => {
+    if (!item || item.enabled === false || !item.href)
+      return null;
+    const a = document.createElement('a');
+    a.href = item.href;
+    a.textContent = labelOverride || item.label || item.href;
+    if (item.lang)
+      a.lang = item.lang;
+    if (item.target) {
+      a.target = item.target;
+      if (item.target === '_blank')
+        a.rel = 'noopener';
+    }
+    return a;
+  };
+
+  const createNavigationNode = (item) => {
+    if (!item || item.enabled === false || !item.label)
+      return null;
+
+    const children = Array.isArray(item.children)
+      ? item.children.filter((child) => child && child.enabled !== false && child.label && child.href)
+      : [];
+
+    if (!children.length)
+      return createLink(item);
+
+    const group = document.createElement('details');
+    group.className = 'nav-group';
+    const summary = document.createElement('summary');
+    summary.textContent = item.label;
+    if (item.lang)
+      summary.lang = item.lang;
+
+    const submenu = document.createElement('div');
+    submenu.className = 'nav-submenu';
+
+    if (item.href) {
+      const overview = createLink(item, 'Overview');
+      if (overview) {
+        overview.classList.add('nav-submenu-overview');
+        submenu.append(overview);
+      }
+    }
+
+    children.forEach((child) => {
+      const link = createLink(child);
+      if (link)
+        submenu.append(link);
+    });
+
+    group.append(summary, submenu);
+    return group;
   };
 
   const renderNavigation = (items) => {
     if (!Array.isArray(items) || !items.length)
       return;
     document.querySelectorAll('.rr-global-header .nav-scroll, .rr-global-header .nav-right').forEach((container) => {
-      const links = items.map((item) => {
-        if (!item || !item.label || !item.href)
-          return null;
-        const a = document.createElement('a');
-        a.href = item.href;
-        a.textContent = item.label;
-        if (item.lang)
-          a.lang = item.lang;
-        if (item.target) {
-          a.target = item.target;
-          if (item.target === '_blank')
-            a.rel = 'noopener';
-        }
-        return a;
-      }).filter(Boolean);
-      if (!links.length)
+      const nodes = items.map(createNavigationNode).filter(Boolean);
+      if (!nodes.length)
         return;
-      container.replaceChildren(...links);
+      container.replaceChildren(...nodes);
+      container.dataset.navigationSource = 'central';
     });
   };
 
@@ -65,6 +110,16 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   markActiveNavigation();
+
+  document.addEventListener('click', (event) => {
+    document.querySelectorAll('.rr-global-header .nav-group[open]').forEach((group) => {
+      if (!group.contains(event.target))
+        group.removeAttribute('open');
+    });
+  });
+  document.querySelectorAll('.rr-global-header .nav-submenu a').forEach((a) => {
+    a.addEventListener('click', () => a.closest('.nav-group')?.removeAttribute('open'));
+  });
 
   document.querySelectorAll('main a[target="_blank"]:not(.icon-link)').forEach((a) => {
     if (a.querySelector('.ext-icon'))
