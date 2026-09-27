@@ -1,71 +1,59 @@
 # Website content management
 
-The public site stays static. Editing is Git-backed.
+## Canonical production model
 
-## Primary GUI
+The public website is Git-backed and static.
 
-Pages CMS uses the repository-root `.pages.yml` file.
+```
+Pages CMS or GitHub editor
+→ reazromen/website (main)
+→ repository verification / Pagefind rebuild when needed
+→ GitHub Pages
+→ Cloudflare Pages edge router
+→ reazromen.com
+```
 
-Hosted editor:
-https://app.pagescms.org
+The canonical production source is the public repository `reazromen/website`, branch `main`. The hserver is not required for normal publishing.
 
-Initial account setup requires signing in with GitHub and installing the Pages CMS GitHub App for `reazromen/website`. After that, edits made in Pages CMS are commits to this repository and the existing GitHub Pages deployment publishes them.
+## Primary CMS
 
-Official configuration documentation:
-https://pagescms.org/docs/configuration/
+Pages CMS reads the repository-root `.pages.yml` configuration.
 
-## What is manageable
+Hosted editor: https://app.pagescms.org
 
-### Global controls
-- Main navigation: `assets/navigation.json`
-- Menu ordering and visibility
-- Optional submenus
-- Redirects
+First-time use requires signing in with GitHub and granting the Pages CMS GitHub App access to `reazromen/website`. That authorization is the only account-side step; the CMS configuration is already versioned in the repository.
 
-### Core pages
-Homepage, About, Work, Perspectives, Music, Bangla, Stack, Writing, Topics, Archive, Search, Now, Notes and Services are available as code editors.
+Pages CMS edits are Git commits, so CMS changes and direct code changes share the same history and rollback model.
 
-### Content collections
+## Managed content
+
+- Navigation and submenus: `assets/navigation.json`
+- Core pages: Homepage, About, Work, Perspectives, Music, Bangla, Stack, Writing, Topics, Archive, Search, Now, Notes and Services
 - Articles: `posts/`
 - Topics: `topics/`
 - Domains: `domains/`
 - Portfolio: `portfolio/`
 - Music: `music/`
-- Archive and author pages
+- Media uploads: `static/uploads/`
+- Advanced theme/behavior files are exposed separately and should only be changed deliberately
 
-### Tags
-Article tags already use Pagefind `topic` filters.
-Editing article HTML and committing it triggers `.github/workflows/rebuild-pagefind.yml`, which rebuilds the search/tag index automatically.
+Article HTML commits trigger `.github/workflows/rebuild-pagefind.yml`, which refreshes the Pagefind search and tag index and commits the generated index back to `main`.
 
-### Advanced
-Theme CSS, global behavior JS, responsive assets, tag/search behavior and HTTP headers are exposed under an Advanced group. Use these only for deliberate site-wide changes.
+## Cloudflare role
 
-## Publication path
+Cloudflare Pages project `reazromen-static` is the edge/router, not the public content source. Normal public requests are proxied to `https://reazromen.github.io/website/`. The authenticated `/admin` surface is served by the Cloudflare edge package.
 
-Pages CMS or GitHub web editor
-→ commit to `main`
-→ repository verification
-→ Pagefind rebuild when HTML changed
-→ GitHub Pages
-→ Cloudflare edge
-→ reazromen.com
+## Legacy hserver editor
 
-The hserver is not required for normal content publishing.
+`studio.reazromen.com/website-editor/` is retained only as a rollback/reference editor for the local hserver copy. Its preview and production deployment actions are disabled after the GitHub Pages cutover.
 
-## Safety
-
-- Existing hardcoded navigation remains in HTML as fallback.
-- `assets/navigation.json` is the live central navigation source.
-- Core pages cannot be deleted from the Pages CMS UI.
-- Generated `pagefind/` files are not edited manually.
-- Cloudflare admin/runtime files are not stored in this public CMS repository.
+Do not use the old `reazromen-antfu-live/deploy.sh` or `deploy-preview.sh` direct-upload path for production. Those scripts are guarded and exit intentionally.
 
 ## GitHub-only editing
 
-Pages CMS is optional. Every source remains editable from GitHub:
-1. Open `reazromen/website`.
-2. Open the file.
-3. Click Edit.
-4. Commit to `main`.
+Pages CMS is optional. Every source file remains editable directly in GitHub:
 
-For multiple files, press `.` on the repository page to open github.dev.
+1. Open `reazromen/website`.
+2. Edit the required file, or press `.` to use github.dev for multi-file changes.
+3. Commit to `main`.
+4. GitHub Pages republishes the repository; Cloudflare continues to serve it through the production domain.
