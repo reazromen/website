@@ -1,38 +1,70 @@
 # reazromen.com Deployment Architecture
 
-Status: production cutover completed 2026-09-26.
+Status: production Git-backed delivery active.
 
-## Canonical public source
-- Repository: reazromen/website
-- Branch: main
-- Public source is the repository root.
-- GitHub Pages builds and publishes every push to main.
-- GitHub-hosted runners are used for repository verification; hserver is not required for normal public-site deployment.
+## Canonical source
+- Repository: `reazromen/website`
+- Branch: `main`
+- Public source: repository root
+- GitHub Pages publishes `main`
+- Cloudflare Pages provides the public edge/router and authenticated `/admin`
+
+## Operational authoring path
+The verified workstation path is LOUP:
+- clone: `/home/loup/projects/reazromen-website`
+- GitHub account: `reazromen`
+- Git transport: SSH
+- helper command: `website-publish`
+
+Routine commands:
+
+```bash
+website-publish status
+website-publish sync
+website-publish verify
+website-publish release "content: describe the change" path/to/file
+```
+
+The release command stages only the explicit file paths provided. It refuses to publish if the branch is not `main`, if unrelated staged changes already exist, or if local `main` is not synchronized with `origin/main`.
 
 ## Delivery path
-git push -> GitHub main -> GitHub Pages -> Cloudflare Pages edge router -> reazromen.com
+```
+LOUP terminal or GitHub editor
+→ reazromen/website:main
+→ GitHub Pages
+→ Cloudflare Pages edge router
+→ reazromen.com
+```
 
 GitHub Pages origin:
-https://reazromen.github.io/website/
+`https://reazromen.github.io/website/`
 
 Cloudflare Pages project:
-reazromen-static
+`reazromen-static`
 
-The Cloudflare Pages project contains a small _worker.js edge router.
-- Public paths are fetched from GitHub Pages.
-- /admin and /admin/* remain served by the Cloudflare Pages ASSETS binding and existing Basic-auth protection.
-- Clean URL fallbacks preserve /about, /writing, /systems and similar routes.
+The Cloudflare worker:
+- proxies public paths to GitHub Pages,
+- serves `/admin` from Cloudflare assets behind Basic Auth,
+- preserves clean URL fallbacks such as `/about` and `/portfolio`,
+- adds `X-Reaz-Delivery: github-pages-via-cloudflare-pages`.
+
+## Optional Pages CMS
+The repository still contains `.pages.yml`. Pages CMS can be authorized later as an optional Git-backed GUI, but it is not required for production publishing.
 
 ## Production rules
-1. Public content changes happen in this repository.
-2. Push/merge to main publishes through GitHub Pages automatically.
-3. Do not deploy the old hserver static tree for normal content changes.
-4. Do not commit admin runtime, _worker.js, _routes.json, passwords, API tokens or private configuration into this public repository.
-5. The old Cloudflare Pages static deployment remains the rollback baseline only.
-6. The private reazromen/reaz-portfolio-webapp repository remains the Payload/CMS migration workspace, not the current public deployment source.
+1. Public content changes land in this repository.
+2. Pushes to `main` publish through GitHub Pages.
+3. LOUP or direct GitHub editing are canonical production-authoring paths.
+4. Do not deploy the old hserver static tree for normal content changes.
+5. Do not commit edge secrets, Basic Auth credentials, API tokens, or private runtime configuration.
+6. The hserver website editor and old direct-upload scripts are rollback/reference only and cannot publish production.
 
-## Cutover proof
-Production edge deployment after cutover: cedd77d2 on reazromen-static.
-Git bootstrap commit: c73de17acdc5d406438ed2ffa0be0525b55e2750.
-Homepage, About, Writing, Systems, a representative article, feed.xml and site.css matched the locked pre-cutover production body hashes.
-Admin continued to return HTTP 401 without credentials.
+## Verification
+On 2026-09-28 a temporary file was committed and pushed from LOUP, appeared on both GitHub Pages and `reazromen.com`, then was deleted by a cleanup commit and disappeared from both origins.
+
+Use `website-publish verify` to check:
+- homepage,
+- About,
+- Portfolio,
+- GitHub Pages origin,
+- Cloudflare delivery header.
