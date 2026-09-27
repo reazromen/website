@@ -2,58 +2,55 @@
 
 ## Canonical production model
 
-The public website is Git-backed and static.
+Production source: `reazromen/website`, branch `main`.
 
-```
-Pages CMS or GitHub editor
+GitHub web editor or authenticated LOUP terminal
 → reazromen/website (main)
-→ repository verification / Pagefind rebuild when needed
+→ repository checks / Pagefind rebuild when applicable
 → GitHub Pages
 → Cloudflare Pages edge router
 → reazromen.com
-```
 
-The canonical production source is the public repository `reazromen/website`, branch `main`. The hserver is not required for normal publishing.
+## Operational publishing
 
-## Primary CMS
+The verified operational publishing path is the LOUP workstation:
+- local clone: `/home/loup/projects/reazromen-website`
+- GitHub account: `reazromen`
+- Git transport: SSH
+- push target: `origin/main`
 
-Pages CMS reads the repository-root `.pages.yml` configuration.
+A live smoke test on 2026-09-28 pushed a temporary static file from LOUP, verified it on both GitHub Pages and `reazromen.com`, then removed it with a cleanup commit.
 
-Hosted editor: https://app.pagescms.org
+Routine workflow:
 
-First-time use requires signing in with GitHub and granting the Pages CMS GitHub App access to `reazromen/website`. That authorization is the only account-side step; the CMS configuration is already versioned in the repository.
+    cd /home/loup/projects/reazromen-website
+    git pull --ff-only origin main
+    # edit content
+    git add <files>
+    git commit -m "content: describe the change"
+    git push origin main
 
-Pages CMS edits are Git commits, so CMS changes and direct code changes share the same history and rollback model.
+Direct editing in GitHub or github.dev is equally canonical.
+
+## Optional Pages CMS
+
+The repository includes `.pages.yml`, so Pages CMS remains available as an optional Git-backed GUI. It is not required for production publishing. If authorized later, Pages CMS commits must still land in `reazromen/website` and use the same GitHub Pages → Cloudflare delivery path.
 
 ## Managed content
 
-- Navigation and submenus: `assets/navigation.json`
-- Core pages: Homepage, About, Work, Perspectives, Music, Bangla, Stack, Writing, Topics, Archive, Search, Now, Notes and Services
+- Navigation: `assets/navigation.json`
+- Core pages: repository-root HTML files
 - Articles: `posts/`
 - Topics: `topics/`
 - Domains: `domains/`
 - Portfolio: `portfolio/`
 - Music: `music/`
-- Media uploads: `static/uploads/`
-- Advanced theme/behavior files are exposed separately and should only be changed deliberately
+- Media: `static/uploads/`
 
-Article HTML commits trigger `.github/workflows/rebuild-pagefind.yml`, which refreshes the Pagefind search and tag index and commits the generated index back to `main`.
+HTML commits trigger `.github/workflows/rebuild-pagefind.yml`, which refreshes the Pagefind search/tag index.
 
-## Cloudflare role
+## Cloudflare and hserver
 
-Cloudflare Pages project `reazromen-static` is the edge/router, not the public content source. Normal public requests are proxied to `https://reazromen.github.io/website/`. The authenticated `/admin` surface is served by the Cloudflare edge package.
+Cloudflare Pages project `reazromen-static` is the production edge/router, not the content source. Normal public requests are proxied to GitHub Pages. The authenticated `/admin` surface is served by Cloudflare edge assets.
 
-## Legacy hserver editor
-
-`studio.reazromen.com/website-editor/` is retained only as a rollback/reference editor for the local hserver copy. Its preview and production deployment actions are disabled after the GitHub Pages cutover.
-
-Do not use the old `reazromen-antfu-live/deploy.sh` or `deploy-preview.sh` direct-upload path for production. Those scripts are guarded and exit intentionally.
-
-## GitHub-only editing
-
-Pages CMS is optional. Every source file remains editable directly in GitHub:
-
-1. Open `reazromen/website`.
-2. Edit the required file, or press `.` to use github.dev for multi-file changes.
-3. Commit to `main`.
-4. GitHub Pages republishes the repository; Cloudflare continues to serve it through the production domain.
+The hserver `reazromen-antfu-live` tree and legacy website editor are rollback/reference only. Their preview/production deploy paths remain disabled.
