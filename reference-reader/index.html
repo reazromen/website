@@ -47,12 +47,9 @@ iframe{display:block;width:100%;height:76vh;border:0;background:white}
 
 <main>
   <div class="reader">
-    <iframe id="reader" referrerpolicy="no-referrer" title="Readable portfolio page"></iframe>
+    <iframe id="reader" referrerpolicy="no-referrer" title="Portfolio homepage preview"></iframe>
   </div>
-  <div class="source"><a id="original" target="_blank" rel="noopener">Open original page ↗</a></div>
-  <div class="note">Readable view is fetched from the public page through Jina Reader. It avoids iframe blocking by the original site and keeps this interface simple.</div>
-
-  <section class="list">
+    <section class="list">
     <h2>All writers / engineers</h2>
     <div class="names" id="names"></div>
   </section>
@@ -66,17 +63,13 @@ if(!Number.isFinite(current)||current<0||current>=items.length) current=0;
 const nameEl=document.getElementById("name");
 const countEl=document.getElementById("count");
 const frame=document.getElementById("reader");
-const original=document.getElementById("original");
 const names=document.getElementById("names");
-
-function readerUrl(url){ return "https://r.jina.ai/" + url; }
 
 function render(){
   const item=items[current];
   nameEl.textContent=item.name;
   countEl.textContent=(current+1)+" of "+items.length;
-  frame.src=readerUrl(item.url);
-  original.href=item.url;
+  frame.src="/reference-reader/proxy?i="+current;
   [...names.children].forEach((b,i)=>b.classList.toggle("active",i===current));
   history.replaceState(null,"","?i="+current);
   scrollTo({top:0,behavior:"instant"});
