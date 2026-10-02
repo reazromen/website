@@ -1,0 +1,702 @@
+[
+  {
+    "url": "/posts/bn-call-connected-media-journey.html",
+    "title": "কল কানেক্ট হওয়া আর কথা পৌঁছানো আলাদা ঘটনা",
+    "section": "writing",
+    "words": 236,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-jitter-buffer-waiting-price.html",
+    "title": "জিটার বাফার: একটু অপেক্ষা করে ধারাবাহিক শব্দ পাওয়া",
+    "section": "writing",
+    "words": 229,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-codec-conversion-hidden-work.html",
+    "title": "কোডেক বদলালে অডিওর সঙ্গে কাজও বদলায়",
+    "section": "writing",
+    "words": 209,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-sip-registration-expiry-liveness.html",
+    "title": "রেজিস্ট্রেশন একটা ঠিকানা, জীবিত থাকার পূর্ণ প্রমাণ না",
+    "section": "writing",
+    "words": 204,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-rtp-timestamp-not-wall-clock.html",
+    "title": "আরটিপির টাইমস্ট্যাম্প ঘড়ির সময় না",
+    "section": "writing",
+    "words": 209,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-dtmf-button-and-event.html",
+    "title": "ডিটিএমএফ: বোতামের শব্দ আর বোতামের ঘটনা",
+    "section": "writing",
+    "words": 204,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-call-id-story-boundary.html",
+    "title": "একটা কলের গল্প কোন পরিচয় ধরে অনুসরণ করবেন",
+    "section": "writing",
+    "words": 211,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-inbound-outbound-different-contracts.html",
+    "title": "ইনবাউন্ড আর আউটবাউন্ড কল একই পরীক্ষার দুই নাম না",
+    "section": "writing",
+    "words": 203,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-voice-agent-turn-taking.html",
+    "title": "ভয়েস এজেন্টের গতি শুধু মডেলের গতি না",
+    "section": "writing",
+    "words": 211,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-phone-number-identity-limit.html",
+    "title": "ফোন নম্বর যোগাযোগের ঠিকানা, পূর্ণ পরিচয় না",
+    "section": "perspectives",
+    "words": 217,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-ota-download-not-update.html",
+    "title": "ফার্মওয়্যার ডাউনলোড শেষ হলেই আপডেট শেষ না",
+    "section": "writing",
+    "words": 173,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-watchdog-progress-not-timer.html",
+    "title": "ওয়াচডগকে সময়ের বদলে অগ্রগতি দেখতে দেওয়া",
+    "section": "writing",
+    "words": 165,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-ring-buffer-ownership.html",
+    "title": "রিং বাফারে জায়গার চেয়ে মালিকানা বেশি জরুরি",
+    "section": "writing",
+    "words": 161,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-i2s-clock-format-boundary.html",
+    "title": "আইটুএসে শব্দ না এলে প্রথমে ভাষাটা মিলিয়ে দেখুন",
+    "section": "writing",
+    "words": 141,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-device-config-version.html",
+    "title": "ফার্মওয়্যারের ভার্সন আছে, কনফিগেরও দরকার",
+    "section": "writing",
+    "words": 147,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-firmware-release-device-evidence.html",
+    "title": "রিলিজের সত্য ডিভাইসের কাছেই থাকে",
+    "section": "writing",
+    "words": 137,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-power-failure-writing-flash.html",
+    "title": "ফ্ল্যাশে লেখা চলার সময় বিদ্যুৎ গেলে",
+    "section": "writing",
+    "words": 145,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-serial-log-realtime-cost.html",
+    "title": "সিরিয়াল লগও প্রসেসরের কাছে একটা কাজ",
+    "section": "writing",
+    "words": 151,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-calibration-environment-contract.html",
+    "title": "ক্যালিব্রেশন একটা সংখ্যা না, পরিবেশের সঙ্গে চুক্তি",
+    "section": "writing",
+    "words": 137,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-evt-question-before-success.html",
+    "title": "ইভিটিতে সফলতার আগে প্রশ্নগুলো ঠিক করা",
+    "section": "writing",
+    "words": 136,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-rf-strength-is-not-quality.html",
+    "title": "রেডিও সিগন্যাল শক্ত হলেই যোগাযোগ ভালো হয় না",
+    "section": "writing",
+    "words": 138,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-lora-lorawan-stack-boundary.html",
+    "title": "লোরার রেডিও আর লোরাওয়ানের নেটওয়ার্ক",
+    "section": "writing",
+    "words": 138,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-mesh-hop-hidden-cost.html",
+    "title": "মেশ নেটওয়ার্কে আরেকটা হপের দাম",
+    "section": "writing",
+    "words": 148,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-radio-airtime-budget.html",
+    "title": "রেডিওতে সময়ও একটা বাজেট",
+    "section": "writing",
+    "words": 138,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-antenna-physical-context.html",
+    "title": "অ্যান্টেনা বোর্ডের বাইরে শেষ হয় না",
+    "section": "writing",
+    "words": 121,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-csi-presence-repetition-test.html",
+    "title": "প্রেজেন্স ডিটেকশনে একটা ডেমোর চেয়ে পুনরাবৃত্তি জরুরি",
+    "section": "writing",
+    "words": 117,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-channel-width-shared-medium.html",
+    "title": "চ্যানেল চওড়া করলে জায়গা কার সঙ্গে ভাগ হচ্ছে",
+    "section": "writing",
+    "words": 126,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-reticulum-interface-not-internet.html",
+    "title": "রেটিকুলামের ইন্টারফেস আর ইন্টারনেট এক জিনিস না",
+    "section": "writing",
+    "words": 135,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-radio-offline-store-forward.html",
+    "title": "অফলাইন নোডের জন্য বার্তা অপেক্ষা করবে কোথায়",
+    "section": "writing",
+    "words": 124,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-rf-learning-layer-map.html",
+    "title": "আরএফ শেখার সময় স্তরের একটা মানচিত্র রাখা",
+    "section": "perspectives",
+    "words": 126,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-linux-ram-pressure-question.html",
+    "title": "র‍্যাম ভরা আর র‍্যামের চাপে কাজ থামা আলাদা",
+    "section": "writing",
+    "words": 140,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-swap-time-tradeoff.html",
+    "title": "সোয়াপ জায়গা দেয়, কিন্তু সময়ের দাম আছে",
+    "section": "writing",
+    "words": 129,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-systemd-mask-disable-stop.html",
+    "title": "স্টপ, ডিসেবল আর মাস্ক কেন আলাদা",
+    "section": "writing",
+    "words": 141,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-process-running-service-useful.html",
+    "title": "প্রসেস চলছে, কিন্তু সার্ভিস কী করছে",
+    "section": "writing",
+    "words": 130,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-container-memory-budget.html",
+    "title": "কনটেইনারের সংখ্যা দিয়ে মেমোরির বাজেট হয় না",
+    "section": "writing",
+    "words": 132,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-disk-slow-read-path.html",
+    "title": "ডিস্ক ধীর হলে পুরো পড়ার পথ দেখতে হয়",
+    "section": "writing",
+    "words": 130,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-logs-retention-disk-budget.html",
+    "title": "লগের ইতিহাস রাখতে গিয়ে বর্তমান কাজ আটকে দেওয়া",
+    "section": "writing",
+    "words": 124,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-ssh-network-service-auth-layers.html",
+    "title": "এসএসএইচ না খুললে ব্যর্থতার স্তর আলাদা করা",
+    "section": "writing",
+    "words": 129,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-backup-restore-rehearsal.html",
+    "title": "ব্যাকআপের বিশ্বাস রিস্টোরে পরীক্ষা হয়",
+    "section": "writing",
+    "words": 121,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-linux-small-parts-understanding.html",
+    "title": "লিনাক্সের ছোট অংশগুলো বুঝলে বড় সিস্টেম পড়া যায়",
+    "section": "perspectives",
+    "words": 131,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-cache-new-source-old-response.html",
+    "title": "সোর্স বদলেছে, কিন্তু মানুষ পুরোনো পেজ দেখছে কেন",
+    "section": "writing",
+    "words": 132,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-static-site-origin-offline.html",
+    "title": "স্ট্যাটিক সাইটে অরিজিন বন্ধ থাকলেও কী বাঁচে",
+    "section": "writing",
+    "words": 132,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-deployment-artifact-identity.html",
+    "title": "ডিপ্লয়মেন্টে ফাইলের পরিচয় ধরে রাখা",
+    "section": "writing",
+    "words": 130,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-git-content-history-not-cms-database.html",
+    "title": "গিটে ব্লগ রাখলে ইতিহাসটা কীভাবে কাজে লাগে",
+    "section": "writing",
+    "words": 131,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-idempotent-button-retry.html",
+    "title": "একই বোতাম দুইবার চাপলে কাজ দুইবার হবে কি",
+    "section": "writing",
+    "words": 133,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-queue-backpressure-contract.html",
+    "title": "কিউ বড় হচ্ছে মানে কাজের ঋণ বাড়ছে",
+    "section": "writing",
+    "words": 129,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-health-check-dependency-cascade.html",
+    "title": "হেলথ চেকে সব ডিপেনডেন্সি ফেল করালে",
+    "section": "writing",
+    "words": 128,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-dns-path-not-application-health.html",
+    "title": "ডিএনএস ঠিক মানেই অ্যাপ্লিকেশন ঠিক না",
+    "section": "writing",
+    "words": 125,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-rollback-data-direction.html",
+    "title": "পুরোনো কোডে ফেরা আর পুরোনো ডেটায় ফেরা",
+    "section": "writing",
+    "words": 130,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-distributed-state-reconcile.html",
+    "title": "রিকনসাইল: ইচ্ছা আর বাস্তবতার মধ্যে বারবার ফিরে যাওয়া",
+    "section": "perspectives",
+    "words": 131,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-dashboard-action-question.html",
+    "title": "ড্যাশবোর্ডের আগে সিদ্ধান্তের প্রশ্ন",
+    "section": "writing",
+    "words": 126,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-metric-label-cardinality.html",
+    "title": "লেবেলের স্বাধীনতার সঙ্গে সিরিজের খরচ",
+    "section": "writing",
+    "words": 125,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-average-tail-experience.html",
+    "title": "গড়ের মধ্যে ধীর মানুষগুলো হারিয়ে যায়",
+    "section": "writing",
+    "words": 124,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-alert-owner-action.html",
+    "title": "অ্যালার্ট বাজলে কে কী করবেন",
+    "section": "writing",
+    "words": 117,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-no-data-not-zero.html",
+    "title": "নো ডেটা আর শূন্য এক না",
+    "section": "writing",
+    "words": 118,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-counter-reset-rate.html",
+    "title": "কাউন্টার রিসেট হলে গ্রাফের গল্প বদলায়",
+    "section": "writing",
+    "words": 120,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-monitoring-monitor-itself.html",
+    "title": "মনিটরিংকে কে মনিটর করবে",
+    "section": "writing",
+    "words": 114,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-clock-drift-incident-order.html",
+    "title": "ঘড়ি না মিললে ঘটনার ক্রমও গুলিয়ে যায়",
+    "section": "writing",
+    "words": 122,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-sampling-missing-trace.html",
+    "title": "সব ট্রেস না রাখলে কী হারায়",
+    "section": "writing",
+    "words": 120,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-observation-is-model.html",
+    "title": "যা মাপছি তা পুরো সিস্টেম না",
+    "section": "perspectives",
+    "words": 125,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-weather-observation-model.html",
+    "title": "আবহাওয়ার মডেল আর মাঠের মাপ আলাদা তথ্য",
+    "section": "writing",
+    "words": 118,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-river-discharge-water-level.html",
+    "title": "নদীর ডিসচার্জ আর পানির উচ্চতা এক না",
+    "section": "writing",
+    "words": 133,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-rain-river-time-delay.html",
+    "title": "বৃষ্টি আর নদীর সাড়ার মাঝখানে সময় আছে",
+    "section": "perspectives",
+    "words": 130,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-ensemble-forecast-range.html",
+    "title": "পূর্বাভাসের একটা সংখ্যার বদলে সম্ভাবনার পরিসর",
+    "section": "writing",
+    "words": 120,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-satellite-pixel-local-event.html",
+    "title": "স্যাটেলাইটের একটা পিক্সেল মাঠের একটা ঘটনা না",
+    "section": "writing",
+    "words": 120,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-environment-data-age.html",
+    "title": "পরিবেশের ডেটায় লাইভ শব্দের বয়স",
+    "section": "writing",
+    "words": 125,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-upazila-dashboard-decision.html",
+    "title": "উপজেলার ড্যাশবোর্ডে মানচিত্রের পরে কাজ",
+    "section": "perspectives",
+    "words": 133,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-river-history-point-identity.html",
+    "title": "নদীর ইতিহাস দেখতে পয়েন্টের পরিচয় দরকার",
+    "section": "writing",
+    "words": 123,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-unit-label-human-error.html",
+    "title": "এককের লেবেল ছোট, ভুলের পরিধি বড়",
+    "section": "writing",
+    "words": 123,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-open-data-license-provenance.html",
+    "title": "ওপেন ডেটা ব্যবহারেও উৎসের দায়িত্ব থাকে",
+    "section": "perspectives",
+    "words": 121,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-cell-computer-analogy-limit.html",
+    "title": "সেলকে কম্পিউটার বললে কোথায় তুলনাটা থামে",
+    "section": "perspectives",
+    "words": 134,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-feedback-stability-living-system.html",
+    "title": "ফিডব্যাক থাকলেই স্থিরতা আসে না",
+    "section": "perspectives",
+    "words": 125,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-evolution-not-roadmap.html",
+    "title": "ইভলিউশনের কোনো প্রোডাক্ট রোডম্যাপ নেই",
+    "section": "perspectives",
+    "words": 122,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-biology-redundancy-cost.html",
+    "title": "একাধিক পথ থাকা মানেই বিনা খরচে নিরাপত্তা না",
+    "section": "perspectives",
+    "words": 123,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-nature-digital-model.html",
+    "title": "প্রকৃতিকে বাইনারিতে লিখলে প্রকৃতি বাইনারি হয়ে যায় না",
+    "section": "perspectives",
+    "words": 131,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-geometry-coordinate-choice.html",
+    "title": "একই জায়গা, আলাদা কোঅর্ডিনেট",
+    "section": "perspectives",
+    "words": 113,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-scale-similarity-not-same-system.html",
+    "title": "দেখতে একই প্যাটার্ন মানেই একই প্রক্রিয়া না",
+    "section": "perspectives",
+    "words": 119,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-information-not-meaning.html",
+    "title": "ইনফরমেশন আর অর্থ একই মাপ না",
+    "section": "perspectives",
+    "words": 127,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-energy-computation-boundary.html",
+    "title": "কম্পিউটেশন ভৌত জগতের বাইরে না",
+    "section": "perspectives",
+    "words": 117,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-boundary-defines-system.html",
+    "title": "সিস্টেমের সীমানা কোথায় আঁকছেন",
+    "section": "perspectives",
+    "words": 120,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-writing-thought-external-memory.html",
+    "title": "লেখা মানে চিন্তাকে নিজের মাথার বাইরে রাখা",
+    "section": "perspectives",
+    "words": 131,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-blog-links-scale-metaphor.html",
+    "title": "একটা ছোট ব্লগের লিংক কত দূর নিয়ে যায়",
+    "section": "perspectives",
+    "words": 131,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-programming-communication-system.html",
+    "title": "প্রোগ্রামিং শেখা শুরু হতে পারে একটা যোগাযোগ দিয়ে",
+    "section": "writing",
+    "words": 135,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-variable-name-state-meaning.html",
+    "title": "ভেরিয়েবলের নাম অবস্থার অর্থ ধরে রাখে",
+    "section": "writing",
+    "words": 124,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-error-assumption-revealed.html",
+    "title": "এরর আমাদের লুকানো অনুমান দেখায়",
+    "section": "perspectives",
+    "words": 124,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-reading-notes-question-bank.html",
+    "title": "পড়ার নোটে উত্তরের পাশাপাশি প্রশ্ন রাখা",
+    "section": "perspectives",
+    "words": 134,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-reuse-first-engineering-business.html",
+    "title": "রিইউজের সিদ্ধান্তও ইঞ্জিনিয়ারিংয়ের কাজ",
+    "section": "perspectives",
+    "words": 135,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-documentation-evidence-chain.html",
+    "title": "ডকুমেন্টেশনে ফলের সঙ্গে প্রমাণের পথ রাখা",
+    "section": "writing",
+    "words": 120,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-maintenance-future-reader.html",
+    "title": "কোডের ভবিষ্যৎ পাঠকও একজন ব্যবহারকারী",
+    "section": "perspectives",
+    "words": 130,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-archive-date-three-clocks.html",
+    "title": "লেখার তারিখ, স্মৃতির বছর আর প্রকাশের দিন",
+    "section": "perspectives",
+    "words": 137,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-music-question-title-opening.html",
+    "title": "কোয়েশ্চেন: একটা প্রশ্ন কতক্ষণ খোলা থাকতে পারে",
+    "section": "music",
+    "words": 146,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-music-soad-contrast-grammar.html",
+    "title": "সিস্টেম অব আ ডাউনের পরিবর্তনে নিয়ম খোঁজা",
+    "section": "music",
+    "words": 138,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-music-mezmerize-album-sequence.html",
+    "title": "মেজমারাইজকে তালিকা না, ক্রম হিসেবে শোনা",
+    "section": "music",
+    "words": 131,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-music-intensity-volume-difference.html",
+    "title": "তীব্রতা শুধু ভলিউমে থাকে না",
+    "section": "music",
+    "words": 119,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-music-comfortably-numb-distance.html",
+    "title": "কমফর্টেবলি নাম্ব: স্বস্তি আর দূরত্বের একটা পাঠ",
+    "section": "music",
+    "words": 132,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-music-wall-brick-individual-system.html",
+    "title": "দ্য ওয়াল: ব্যক্তি আর কাঠামোর সম্পর্কের প্রশ্ন",
+    "section": "music",
+    "words": 137,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-music-time-song-real-duration.html",
+    "title": "টাইম নিয়ে গান শোনা মানেও সময় খরচ করা",
+    "section": "music",
+    "words": 135,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-music-album-art-not-evidence.html",
+    "title": "অ্যালবামের ছবি ব্যাখ্যার দরজা, প্রমাণের শেষ না",
+    "section": "music",
+    "words": 125,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-music-engineering-metaphor-limit.html",
+    "title": "গানকে সিগন্যাল বললে কতটা বোঝা যায়",
+    "section": "music",
+    "words": 121,
+    "date": "2026-10-02"
+  },
+  {
+    "url": "/posts/bn-music-listening-archive-changing-question.html",
+    "title": "লিসেনিং আর্কাইভে একই গানের নতুন প্রশ্ন",
+    "section": "music",
+    "words": 129,
+    "date": "2026-10-02"
+  }
+]

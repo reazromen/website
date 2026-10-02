@@ -97,6 +97,7 @@ def select(entries,rule):
         if 'section' in rule and m['section'] not in (rule['section'] if isinstance(rule['section'],list) else [rule['section']]):continue
         if 'topic' in rule and m.get('topic')!=rule['topic']:continue
         if 'tag' in rule and rule['tag'] not in m.get('tags',[]):continue
+        if 'language' in rule and m.get('language')!=rule['language']:continue
         if 'artist' in rule and m.get('artist')!=rule['artist']:continue
         if 'kind' in rule and m.get('kind','song')!=rule['kind']:continue
         result.append(m)
@@ -195,6 +196,14 @@ def main():
                 if s.find('main'):s.find('main')['data-pagefind-body']=''
                 raw=html_string(s)
             outputs[m['url']]=finalize(raw,m['url'],nav)
+    # New research notes stay distinct from personal listening memories.
+    new_music=[m for m in public if m.get('section')=='music' and m.get('editorial_batch')=='20261003-100-niches']
+    for music_url in ('/music.html','/music/index.html'):
+        if music_url in outputs and new_music:
+            s=soup(outputs[music_url]); main=s.find('main')
+            section=soup('<section class="section-block music-notes-section" id="new-listening-notes"><h2>নতুন লিসেনিং নোট</h2><p>গান, অ্যালবাম ও শোনার পদ্ধতি নিয়ে বিশ্লেষণ।</p><div class="music-bridge-list">'+''.join(card(m,tax,'music',i) for i,m in enumerate(new_music,1))+'</div></section>')
+            if main:main.append(section)
+            outputs[music_url]=finalize(html_string(s),music_url,nav)
     for kind in ('topics','tags'):
         for ident,t in tax[kind].items():
             url='/'+kind+'/'+ident+'.html';rows=select(entries,{kind[:-1]:ident})
@@ -232,6 +241,8 @@ def main():
             grid.insert_before(control)
             s.body.append(s.new_tag('script',src='/assets/taxonomy-v1.js'))
             outputs[url]=finalize(html_string(s),url,nav)
+    from year_archives import render_archives
+    render_archives(entries,outputs,nav,ROOT,shell,finalize,esc)
     # No mutations happen above this line. All output collisions are detected first.
     previous_path=ROOT/'cms/generated-manifest.json'
     if previous_path.exists():previous=json.loads(previous_path.read_text())

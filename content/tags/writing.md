@@ -1,0 +1,5 @@
+---
+id: writing
+title: Writing
+---
+

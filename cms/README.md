@@ -56,3 +56,7 @@ The migration baseline commit and URL map are recorded in `content/migration.jso
 
 To roll back an editorial change, revert its Git commit and allow the publishing workflow to run. To restore the former publishing architecture, restore the pre-migration Git revision and its workflow files, set GitHub Pages to its former branch source, and restore the backed-up admin config and Git sync script on hserver.
 
+
+## Publication year archives
+
+The Archive now groups published posts by the recorded Date field. The year links cover 2017–2026 and update on each publish. Empty historical years remain empty until dated original material is supplied. Never change a publication date merely to fill a year. Bangla articles appear on the Bangla page across writing collections. The October 2 batch contains 100 short Bangla posts: 65 engineering notes, 25 essays and 10 research listening notes.

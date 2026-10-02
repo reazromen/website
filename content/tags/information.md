@@ -1,0 +1,5 @@
+---
+id: information
+title: Information
+---
+

@@ -40,7 +40,7 @@ blocks:
 lists:
 - key: LIST0
   filter:
-    section: bangla
+    language: bn
   style: cards
 template: cms/templates/pages/bangla.tpl
 source: cms/templates/pages/bangla.json
