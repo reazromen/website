@@ -1,0 +1,570 @@
+title: LOUP ESP32-S3 Connected Voice Device
+browser_title: LOUP ESP32-S3 Connected Voice Device — Reaz Romen Portfolio
+description: Custom ESP32-S3 voice device spanning codec bring-up, I2S audio, AEC,
+  jitter/playout, SIP/RTP, e-paper UI, controls, provisioning and OTA.
+url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Embedded & Devices / Built / prototype
+  body: Embedded & Devices / Built / prototype
+- id: BLOCK1
+  label: LOUP ESP32-S3 Connected Voice Device
+  body: LOUP ESP32-S3 Connected Voice Device
+- id: BLOCK2
+  label: 'Custom ESP32-S3 voice device spanning codec bring-up, I2S audio, AEC, jitter/playout,
+    SIP/RTP, '
+  body: Custom ESP32-S3 voice device spanning codec bring-up, I2S audio, AEC, jitter/playout,
+    SIP/RTP, e-paper UI, controls, provisioning and OTA.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: 'Custom ESP32-S3 voice device spanning codec bring-up, I2S audio, AEC, jitter/playout,
+    SIP/RTP, '
+  body: Custom ESP32-S3 voice device spanning codec bring-up, I2S audio, AEC, jitter/playout,
+    SIP/RTP, e-paper UI, controls, provisioning and OTA.
+- id: BLOCK7
+  label: 'Owned the ESP32-S3 firmware path across audio capture/playback, device controls,
+    provisioning, '
+  body: Owned the ESP32-S3 firmware path across audio capture/playback, device controls,
+    provisioning, SIP/RTP integration and OTA.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Integrated the ES7210 microphone path and ES8311 speaker path over I2S/I2C,
+    including channel m
+  body: Integrated the ES7210 microphone path and ES8311 speaker path over I2S/I2C,
+    including channel mapping and AEC-reference work.
+- id: BLOCK10
+  label: Built and preserved known-good firmware releases while debugging crackle,
+    jitter, echo, clockin
+  body: Built and preserved known-good firmware releases while debugging crackle,
+    jitter, echo, clocking and PBX interactions.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: ESP32-S3 device firmware -> Wi-Fi -> SIP/PBX signaling -> RTP media -> remote
+    endpoint.
+  body: ESP32-S3 device firmware -> Wi-Fi -> SIP/PBX signaling -> RTP media -> remote
+    endpoint.
+- id: BLOCK14
+  label: Microphone/codec -> I2S -> audio processing/AEC -> RTP uplink; RTP downlink
+    -> jitter/playout -
+  body: Microphone/codec -> I2S -> audio processing/AEC -> RTP uplink; RTP downlink
+    -> jitter/playout -> I2S -> speaker codec.
+- id: BLOCK15
+  label: Parent/backend control plane remains separate from device SIP credentials
+    and firmware ownershi
+  body: Parent/backend control plane remains separate from device SIP credentials
+    and firmware ownership.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 ESP32-S3 device firmware -> Wi-Fi -> SIP/PBX signaling -> RTP media ->
+    remote endpoint.
+  body: '01
+
+
+    ESP32-S3 device firmware -> Wi-Fi -> SIP/PBX signaling -> RTP media -> remote
+    endpoint.'
+- id: BLOCK23
+  label: ESP32-S3 device firmware -> Wi-Fi -> SIP/PBX signaling -> RTP media -> remote
+    endpoint.
+  body: ESP32-S3 device firmware -> Wi-Fi -> SIP/PBX signaling -> RTP media -> remote
+    endpoint.
+- id: BLOCK24
+  label: 02 Microphone/codec -> I2S -> audio processing/AEC -> RTP uplink; RTP downlink
+    -> jitter/playou
+  body: '02
+
+
+    Microphone/codec -> I2S -> audio processing/AEC -> RTP uplink; RTP downlink ->
+    jitter/playout -> I2S -> speaker codec.'
+- id: BLOCK25
+  label: Microphone/codec -> I2S -> audio processing/AEC -> RTP uplink; RTP downlink
+    -> jitter/playout -
+  body: Microphone/codec -> I2S -> audio processing/AEC -> RTP uplink; RTP downlink
+    -> jitter/playout -> I2S -> speaker codec.
+- id: BLOCK26
+  label: 03 Parent/backend control plane remains separate from device SIP credentials
+    and firmware owner
+  body: '03
+
+
+    Parent/backend control plane remains separate from device SIP credentials and
+    firmware ownership.'
+- id: BLOCK27
+  label: Parent/backend control plane remains separate from device SIP credentials
+    and firmware ownershi
+  body: Parent/backend control plane remains separate from device SIP credentials
+    and firmware ownership.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Codec detection and I2S bring-up on EVT hardware
+  body: Codec detection and I2S bring-up on EVT hardware
+- id: BLOCK31
+  label: Controlled A/B firmware builds with known-good rollback points
+  body: Controlled A/B firmware builds with known-good rollback points
+- id: BLOCK32
+  label: Serial timing/log analysis during live calls
+  body: Serial timing/log analysis during live calls
+- id: BLOCK33
+  label: Wireshark/RTP packet inspection for burst, gap and sequence behavior
+  body: Wireshark/RTP packet inspection for burst, gap and sequence behavior
+- id: BLOCK34
+  label: Long-call stability tests plus echo checks at multiple speaker levels
+  body: Long-call stability tests plus echo checks at multiple speaker levels
+- id: BLOCK35
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK36
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK37
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK38
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK39
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK40
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK41
+  label: — Real-time audio deadlines on ESP32-S3
+  body: —Real-time audio deadlines on ESP32-S3
+- id: BLOCK42
+  label: — 8 kHz telephony vs 16 kHz playback path
+  body: —8 kHz telephony vs 16 kHz playback path
+- id: BLOCK43
+  label: — Acoustic echo depends on physical enclosure and gain
+  body: —Acoustic echo depends on physical enclosure and gain
+- id: BLOCK44
+  label: — Firmware must remain manufacturer-independent
+  body: —Firmware must remain manufacturer-independent
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A working connected voice-device platform with stable two-way calling, a
+    preserved firmware bas
+  body: A working connected voice-device platform with stable two-way calling, a preserved
+    firmware baseline, device lifecycle planning and a path toward production provisioning
+    and OTA.
+- id: BLOCK48
+  label: DEEP CASE STUDY AVAILABLE
+  body: DEEP CASE STUDY AVAILABLE
+- id: BLOCK49
+  label: Failure modes, investigation path and engineering evidence.
+  body: Failure modes, investigation path and engineering evidence.
+- id: BLOCK50
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK51
+  label: Deep engineering case study
+  body: Deep engineering case study
+- id: BLOCK52
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK53
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK54
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK55
+  label: ESP-IDF
+  body: ESP-IDF
+- id: BLOCK56
+  label: ES7210
+  body: ES7210
+- id: BLOCK57
+  label: ES8311
+  body: ES8311
+- id: BLOCK58
+  label: SIP
+  body: SIP
+- id: BLOCK59
+  label: RTP
+  body: RTP
+- id: BLOCK60
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK61
+  label: STATUS
+  body: STATUS
+- id: BLOCK62
+  label: Built / prototype
+  body: Built / prototype
+- id: BLOCK63
+  label: AREA
+  body: AREA
+- id: BLOCK64
+  label: Embedded & Devices
+  body: Embedded & Devices
+- id: BLOCK65
+  label: STACK
+  body: STACK
+- id: BLOCK66
+  label: 6 documented technologies
+  body: 6 documented technologies
+- id: BLOCK67
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK68
+  label: 4 connected / bounded services
+  body: 4 connected / bounded services
+- id: BLOCK69
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK70
+  label: '01'
+  body: '01'
+- id: BLOCK71
+  label: '01'
+  body: '01'
+- id: BLOCK72
+  label: A Kubernetes Service Can Be Healthy While the App Is Broken
+  body: A Kubernetes Service Can Be Healthy While the App Is Broken
+- id: BLOCK73
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK74
+  label: Chart.yaml Is Small, but It Gives a Service an Identity
+  body: Chart.yaml Is Small, but It Gives a Service an Identity
+- id: BLOCK75
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK76
+  label: Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+  body: Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+- id: BLOCK77
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK78
+  label: '02'
+  body: '02'
+- id: BLOCK79
+  label: '03'
+  body: '03'
+- id: BLOCK80
+  label: '02'
+  body: '02'
+- id: BLOCK81
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK82
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK83
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK84
+  label: '03'
+  body: '03'
+- id: BLOCK85
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK86
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK87
+  label: Microphones
+  body: Microphones
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: ES7210 / I2S
+  body: ES7210 / I2S
+- id: BLOCK90
+  label: →
+  body: →
+- id: BLOCK91
+  label: ESP32-S3 audio pipeline
+  body: ESP32-S3 audio pipeline
+- id: BLOCK92
+  label: →
+  body: →
+- id: BLOCK93
+  label: SIP + RTP over Wi-Fi
+  body: SIP + RTP over Wi-Fi
+- id: BLOCK94
+  label: →
+  body: →
+- id: BLOCK95
+  label: Asterisk PBX
+  body: Asterisk PBX
+- id: BLOCK96
+  label: →
+  body: →
+- id: BLOCK97
+  label: Remote endpoint
+  body: Remote endpoint
+- id: BLOCK98
+  label: '04'
+  body: '04'
+- id: BLOCK99
+  label: '01'
+  body: '01'
+- id: BLOCK100
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK101
+  label: '02'
+  body: '02'
+- id: BLOCK102
+  label: ESP-IDF
+  body: ESP-IDF
+- id: BLOCK103
+  label: '03'
+  body: '03'
+- id: BLOCK104
+  label: ES7210
+  body: ES7210
+- id: BLOCK105
+  label: '04'
+  body: '04'
+- id: BLOCK106
+  label: ES8311
+  body: ES8311
+- id: BLOCK107
+  label: '05'
+  body: '05'
+- id: BLOCK108
+  label: SIP
+  body: SIP
+- id: BLOCK109
+  label: '06'
+  body: '06'
+- id: BLOCK110
+  label: RTP
+  body: RTP
+- id: BLOCK111
+  label: '05'
+  body: '05'
+- id: BLOCK112
+  label: '06'
+  body: '06'
+- id: BLOCK113
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK114
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK115
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK116
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK117
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK118
+  label: '07'
+  body: '07'
+- id: BLOCK119
+  label: LOUP ESP32-S3 Connected Voice Device
+  body: LOUP ESP32-S3 Connected Voice Device
+- id: BLOCK120
+  label: ↔
+  body: ↔
+- id: BLOCK121
+  label: Asterisk PBX testbed
+  body: Asterisk PBX testbed
+- id: BLOCK122
+  label: ↔
+  body: ↔
+- id: BLOCK123
+  label: Linphone test endpoint
+  body: Linphone test endpoint
+- id: BLOCK124
+  label: ↔
+  body: ↔
+- id: BLOCK125
+  label: Wi-Fi network
+  body: Wi-Fi network
+- id: BLOCK126
+  label: ↔
+  body: ↔
+- id: BLOCK127
+  label: LOUP provisioning/backend boundary
+  body: LOUP provisioning/backend boundary
+- id: BLOCK128
+  label: 08
+  body: 08
+- id: BLOCK129
+  label: '01'
+  body: '01'
+- id: BLOCK130
+  label: FIRMWARE
+  body: FIRMWARE
+- id: BLOCK131
+  label: Preserved V115 and V132A firmware artifacts
+  body: Preserved V115 and V132A firmware artifacts
+- id: BLOCK132
+  label: '02'
+  body: '02'
+- id: BLOCK133
+  label: SERIAL
+  body: SERIAL
+- id: BLOCK134
+  label: ESP-IDF serial logs
+  body: ESP-IDF serial logs
+- id: BLOCK135
+  label: '03'
+  body: '03'
+- id: BLOCK136
+  label: PCAP
+  body: PCAP
+- id: BLOCK137
+  label: RTP packet captures
+  body: RTP packet captures
+- id: BLOCK138
+  label: '04'
+  body: '04'
+- id: BLOCK139
+  label: AUDIO
+  body: AUDIO
+- id: BLOCK140
+  label: Audio path/channel mapping
+  body: Audio path/channel mapping
+- id: BLOCK141
+  label: '05'
+  body: '05'
+- id: BLOCK142
+  label: TEST
+  body: TEST
+- id: BLOCK143
+  label: Two-way call tests
+  body: Two-way call tests
+- id: BLOCK144
+  label: '06'
+  body: '06'
+- id: BLOCK145
+  label: NOTE
+  body: NOTE
+- id: BLOCK146
+  label: PCB and codec bring-up notes
+  body: PCB and codec bring-up notes
+- id: BLOCK147
+  label: 09
+  body: 09
+- id: BLOCK148
+  label: '10'
+  body: '10'
+- id: BLOCK149
+  label: Next project →
+  body: Next project →
+- id: BLOCK150
+  label: LOUP Parent Android App
+  body: LOUP Parent Android App
+lists: []
+template: cms/templates/pages/portfolio--projects--loup-esp32-s3-connected-voice-device.tpl
+source: cms/templates/pages/portfolio--projects--loup-esp32-s3-connected-voice-device.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK50}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK51}}'
+  url: /portfolio/esp32-voice-device.html
+- id: LINK2
+  label: '{{RR_BLOCK52}}'
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html#architecture
+- id: LINK3
+  label: Architecture
+  url: '#architecture'
+- id: LINK4
+  label: Signal / request path
+  url: '#network'
+- id: LINK5
+  label: Verification
+  url: '#testing'
+- id: LINK6
+  label: Evidence
+  url: '#evidence'
+- id: LINK7
+  label: 01 / Overview
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html#overview
+- id: LINK8
+  label: 02 / Architecture
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html#architecture
+- id: LINK9
+  label: 03 / Network & data flow
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html#network
+- id: LINK10
+  label: 04 / Stack
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html#stack
+- id: LINK11
+  label: 05 / How I built it
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html#implementation
+- id: LINK12
+  label: 06 / Testing
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html#testing
+- id: LINK13
+  label: 07 / Integrations
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html#integrations
+- id: LINK14
+  label: 08 / Evidence
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html#evidence
+- id: LINK15
+  label: 09 / Constraints
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html#constraints
+- id: LINK16
+  label: 10 / Result
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html#result
+- id: LINK17
+  label: '{{RR_BLOCK72}} {{RR_BLOCK73}}'
+  url: /posts/a-kubernetes-service-can-be-healthy-while-the-app-is-broken.html
+- id: LINK18
+  label: '{{RR_BLOCK74}} {{RR_BLOCK75}}'
+  url: /posts/chart-yaml-is-small-but-it-gives-a-service-an-identity.html
+- id: LINK19
+  label: '{{RR_BLOCK76}} {{RR_BLOCK77}}'
+  url: /posts/conditional-helm-templates-are-powerful-and-easy-to-overcomplicate.html
+- id: LINK20
+  label: Open full case study →
+  url: /portfolio/esp32-voice-device.html
+- id: LINK21
+  label: '{{RR_BLOCK149}} {{RR_BLOCK150}}'
+  url: /portfolio/projects/loup-parent-android-app.html

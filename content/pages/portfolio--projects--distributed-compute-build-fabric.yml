@@ -1,0 +1,513 @@
+title: Distributed Compute & Build Fabric
+browser_title: Distributed Compute & Build Fabric — Reaz Romen Portfolio
+description: Nomad-based compute path across multiple machines with deterministic
+  build execution and fallback capacity rather than tying jobs to one workstation.
+url: /portfolio/projects/distributed-compute-build-fabric.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Infrastructure & Operations / Built / working
+  body: Infrastructure & Operations / Built / working
+- id: BLOCK1
+  label: Distributed Compute & Build Fabric
+  body: Distributed Compute & Build Fabric
+- id: BLOCK2
+  label: Nomad-based compute path across multiple machines with deterministic build
+    execution and fallba
+  body: Nomad-based compute path across multiple machines with deterministic build
+    execution and fallback capacity rather than tying jobs to one workstation.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: Nomad-based compute path across multiple machines with deterministic build
+    execution and fallba
+  body: Nomad-based compute path across multiple machines with deterministic build
+    execution and fallback capacity rather than tying jobs to one workstation.
+- id: BLOCK7
+  label: Built a Nomad-based execution path across the laptop, desktop and home server
+    environment.
+  body: Built a Nomad-based execution path across the laptop, desktop and home server
+    environment.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Used Tailscale connectivity and worker selection so jobs are not permanently
+    tied to one machin
+  body: Used Tailscale connectivity and worker selection so jobs are not permanently
+    tied to one machine.
+- id: BLOCK10
+  label: Applied it to repeatable build/deployment work where fallback compute is
+    useful.
+  body: Applied it to repeatable build/deployment work where fallback compute is useful.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Controller/scheduler -> Nomad clients on available machines -> isolated job
+    execution.
+  body: Controller/scheduler -> Nomad clients on available machines -> isolated job
+    execution.
+- id: BLOCK14
+  label: Tailscale provides stable private reachability between participating hosts.
+  body: Tailscale provides stable private reachability between participating hosts.
+- id: BLOCK15
+  label: Work can move between eligible nodes while state/intent remains in the control
+    layer.
+  body: Work can move between eligible nodes while state/intent remains in the control
+    layer.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Controller/scheduler -> Nomad clients on available machines -> isolated
+    job execution.
+  body: '01
+
+
+    Controller/scheduler -> Nomad clients on available machines -> isolated job execution.'
+- id: BLOCK23
+  label: Controller/scheduler -> Nomad clients on available machines -> isolated job
+    execution.
+  body: Controller/scheduler -> Nomad clients on available machines -> isolated job
+    execution.
+- id: BLOCK24
+  label: 02 Tailscale provides stable private reachability between participating hosts.
+  body: '02
+
+
+    Tailscale provides stable private reachability between participating hosts.'
+- id: BLOCK25
+  label: Tailscale provides stable private reachability between participating hosts.
+  body: Tailscale provides stable private reachability between participating hosts.
+- id: BLOCK26
+  label: 03 Work can move between eligible nodes while state/intent remains in the
+    control layer.
+  body: '03
+
+
+    Work can move between eligible nodes while state/intent remains in the control
+    layer.'
+- id: BLOCK27
+  label: Work can move between eligible nodes while state/intent remains in the control
+    layer.
+  body: Work can move between eligible nodes while state/intent remains in the control
+    layer.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Nomad client registration on multiple machines
+  body: Nomad client registration on multiple machines
+- id: BLOCK31
+  label: Controller/compute smoke tests
+  body: Controller/compute smoke tests
+- id: BLOCK32
+  label: Cross-node reachability over Tailscale
+  body: Cross-node reachability over Tailscale
+- id: BLOCK33
+  label: Fallback node behavior
+  body: Fallback node behavior
+- id: BLOCK34
+  label: Build/deployment task execution
+  body: Build/deployment task execution
+- id: BLOCK35
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK36
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK37
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK38
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK39
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK40
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK41
+  label: — Capacity depends on which machines are online
+  body: —Capacity depends on which machines are online
+- id: BLOCK42
+  label: — State should live in the control layer rather than a transient worker
+  body: —State should live in the control layer rather than a transient worker
+- id: BLOCK43
+  label: — Not every workload is suitable for every node
+  body: —Not every workload is suitable for every node
+- id: BLOCK44
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK45
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK46
+  label: A small distributed execution fabric that reduces dependence on a single
+    always-on workstation.
+  body: A small distributed execution fabric that reduces dependence on a single always-on
+    workstation.
+- id: BLOCK47
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK48
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK49
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK50
+  label: Nomad
+  body: Nomad
+- id: BLOCK51
+  label: Linux
+  body: Linux
+- id: BLOCK52
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK53
+  label: Build automation
+  body: Build automation
+- id: BLOCK54
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK55
+  label: STATUS
+  body: STATUS
+- id: BLOCK56
+  label: Built / working
+  body: Built / working
+- id: BLOCK57
+  label: AREA
+  body: AREA
+- id: BLOCK58
+  label: Infrastructure & Operations
+  body: Infrastructure & Operations
+- id: BLOCK59
+  label: STACK
+  body: STACK
+- id: BLOCK60
+  label: 4 documented technologies
+  body: 4 documented technologies
+- id: BLOCK61
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK62
+  label: 3 connected / bounded services
+  body: 3 connected / bounded services
+- id: BLOCK63
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK64
+  label: '01'
+  body: '01'
+- id: BLOCK65
+  label: '01'
+  body: '01'
+- id: BLOCK66
+  label: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+  body: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+- id: BLOCK67
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK68
+  label: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+  body: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+- id: BLOCK69
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK70
+  label: Kubernetes Gateway API Is Not Just a New Ingress YAML
+  body: Kubernetes Gateway API Is Not Just a New Ingress YAML
+- id: BLOCK71
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK72
+  label: '02'
+  body: '02'
+- id: BLOCK73
+  label: '03'
+  body: '03'
+- id: BLOCK74
+  label: '02'
+  body: '02'
+- id: BLOCK75
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK76
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK77
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK78
+  label: '03'
+  body: '03'
+- id: BLOCK79
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK80
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK81
+  label: Job/control intent
+  body: Job/control intent
+- id: BLOCK82
+  label: →
+  body: →
+- id: BLOCK83
+  label: Nomad scheduler
+  body: Nomad scheduler
+- id: BLOCK84
+  label: →
+  body: →
+- id: BLOCK85
+  label: Available client node
+  body: Available client node
+- id: BLOCK86
+  label: →
+  body: →
+- id: BLOCK87
+  label: Isolated build/run task
+  body: Isolated build/run task
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: Artifact / result
+  body: Artifact / result
+- id: BLOCK90
+  label: '04'
+  body: '04'
+- id: BLOCK91
+  label: '01'
+  body: '01'
+- id: BLOCK92
+  label: Nomad
+  body: Nomad
+- id: BLOCK93
+  label: '02'
+  body: '02'
+- id: BLOCK94
+  label: Linux
+  body: Linux
+- id: BLOCK95
+  label: '03'
+  body: '03'
+- id: BLOCK96
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK97
+  label: '04'
+  body: '04'
+- id: BLOCK98
+  label: Build automation
+  body: Build automation
+- id: BLOCK99
+  label: '05'
+  body: '05'
+- id: BLOCK100
+  label: '06'
+  body: '06'
+- id: BLOCK101
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK102
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK103
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK104
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK105
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK106
+  label: '07'
+  body: '07'
+- id: BLOCK107
+  label: Distributed Compute & Build Fabric
+  body: Distributed Compute & Build Fabric
+- id: BLOCK108
+  label: ↔
+  body: ↔
+- id: BLOCK109
+  label: Nomad
+  body: Nomad
+- id: BLOCK110
+  label: ↔
+  body: ↔
+- id: BLOCK111
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK112
+  label: ↔
+  body: ↔
+- id: BLOCK113
+  label: Laptop / desktop / home-server nodes
+  body: Laptop / desktop / home-server nodes
+- id: BLOCK114
+  label: 08
+  body: 08
+- id: BLOCK115
+  label: '01'
+  body: '01'
+- id: BLOCK116
+  label: NOTE
+  body: NOTE
+- id: BLOCK117
+  label: Nomad client installs
+  body: Nomad client installs
+- id: BLOCK118
+  label: '02'
+  body: '02'
+- id: BLOCK119
+  label: TEST
+  body: TEST
+- id: BLOCK120
+  label: Smoke-test runs
+  body: Smoke-test runs
+- id: BLOCK121
+  label: '03'
+  body: '03'
+- id: BLOCK122
+  label: NOTE
+  body: NOTE
+- id: BLOCK123
+  label: Multi-host topology
+  body: Multi-host topology
+- id: BLOCK124
+  label: '04'
+  body: '04'
+- id: BLOCK125
+  label: NOTE
+  body: NOTE
+- id: BLOCK126
+  label: Fallback execution policy
+  body: Fallback execution policy
+- id: BLOCK127
+  label: '05'
+  body: '05'
+- id: BLOCK128
+  label: NOTE
+  body: NOTE
+- id: BLOCK129
+  label: Build-worktree usage
+  body: Build-worktree usage
+- id: BLOCK130
+  label: 09
+  body: 09
+- id: BLOCK131
+  label: '10'
+  body: '10'
+- id: BLOCK132
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK133
+  label: Network Payload Capture Pipeline
+  body: Network Payload Capture Pipeline
+- id: BLOCK134
+  label: Next project →
+  body: Next project →
+- id: BLOCK135
+  label: Ambient Signal Observatory
+  body: Ambient Signal Observatory
+lists: []
+template: cms/templates/pages/portfolio--projects--distributed-compute-build-fabric.tpl
+source: cms/templates/pages/portfolio--projects--distributed-compute-build-fabric.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK47}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio/projects/distributed-compute-build-fabric.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/distributed-compute-build-fabric.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/distributed-compute-build-fabric.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/distributed-compute-build-fabric.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/distributed-compute-build-fabric.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/distributed-compute-build-fabric.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/distributed-compute-build-fabric.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/distributed-compute-build-fabric.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/distributed-compute-build-fabric.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/distributed-compute-build-fabric.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/distributed-compute-build-fabric.html#result
+- id: LINK16
+  label: '{{RR_BLOCK66}} {{RR_BLOCK67}}'
+  url: /posts/ebpf-xdp-verifier-operational-safety.html
+- id: LINK17
+  label: '{{RR_BLOCK68}} {{RR_BLOCK69}}'
+  url: /posts/http3-quic-enterprise-inspection-assumptions.html
+- id: LINK18
+  label: '{{RR_BLOCK70}} {{RR_BLOCK71}}'
+  url: /posts/kubernetes-gateway-api-not-new-ingress-yaml.html
+- id: LINK19
+  label: '{{RR_BLOCK132}} {{RR_BLOCK133}}'
+  url: /portfolio/projects/network-payload-capture-pipeline.html
+- id: LINK20
+  label: '{{RR_BLOCK134}} {{RR_BLOCK135}}'
+  url: /portfolio/projects/ambient-signal-observatory.html

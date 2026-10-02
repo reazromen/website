@@ -1,0 +1,303 @@
+title: Hands-on engineering across the whole path.
+browser_title: Services — Reaz Romen
+description: Systems engineering services across connected device firmware, SIP/RTP
+  voice systems, Linux infrastructure, observability and cross-layer debugging.
+url: /services.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: SERVICES / SYSTEMS ENGINEERING
+  body: SERVICES / SYSTEMS ENGINEERING
+- id: BLOCK1
+  label: Hands-on engineering across the whole path.
+  body: Hands-on engineering across the whole path.
+- id: BLOCK2
+  label: I work best where a product or failure crosses boundaries — firmware and
+    hardware, endpoint and
+  body: I work best where a product or failure crosses boundaries — firmware and hardware,
+    endpoint and PBX, application and infrastructure, service state and user-visible
+    behavior.
+- id: BLOCK3
+  label: Connected Device Firmware
+  body: Connected Device Firmware
+- id: BLOCK4
+  label: Firmware for connected products where the device, hardware interfaces, network
+    behavior and lif
+  body: Firmware for connected products where the device, hardware interfaces, network
+    behavior and lifecycle all have to agree.
+- id: BLOCK5
+  label: Voice & Real-Time Communications
+  body: Voice & Real-Time Communications
+- id: BLOCK6
+  label: SIP/RTP systems from endpoint behavior through PBX and media paths, including
+    the failures that
+  body: SIP/RTP systems from endpoint behavior through PBX and media paths, including
+    the failures that only appear during real calls.
+- id: BLOCK7
+  label: Infrastructure & Operations
+  body: Infrastructure & Operations
+- id: BLOCK8
+  label: Linux and container infrastructure with clear ingress, health, observability,
+    service state and
+  body: Linux and container infrastructure with clear ingress, health, observability,
+    service state and recovery paths.
+- id: BLOCK9
+  label: Cross-Layer Debugging
+  body: Cross-Layer Debugging
+- id: BLOCK10
+  label: 'For problems that refuse to stay in one box: audio that is really timing,
+    calls that connect wi'
+  body: 'For problems that refuse to stay in one box: audio that is really timing,
+    calls that connect without media, or healthy processes behind broken services.'
+- id: BLOCK11
+  label: Frame the system
+  body: Frame the system
+- id: BLOCK12
+  label: Map boundaries, clocks, dependencies, data paths and the exact failure before
+    changing behavior
+  body: Map boundaries, clocks, dependencies, data paths and the exact failure before
+    changing behavior.
+- id: BLOCK13
+  label: Make it observable
+  body: Make it observable
+- id: BLOCK14
+  label: 'Collect the evidence the system already has: logs, packets, timing, state,
+    metrics and hardware'
+  body: 'Collect the evidence the system already has: logs, packets, timing, state,
+    metrics and hardware behavior.'
+- id: BLOCK15
+  label: Isolate one boundary
+  body: Isolate one boundary
+- id: BLOCK16
+  label: Preserve a known-good control and change one part of the path at a time.
+  body: Preserve a known-good control and change one part of the path at a time.
+- id: BLOCK17
+  label: Build and retest
+  body: Build and retest
+- id: BLOCK18
+  label: Turn the hypothesis into the smallest useful change, then repeat the same
+    failure test.
+  body: Turn the hypothesis into the smallest useful change, then repeat the same
+    failure test.
+- id: BLOCK19
+  label: Leave a trail
+  body: Leave a trail
+- id: BLOCK20
+  label: Document architecture, verification and recovery so the system is easier
+    to operate after the f
+  body: Document architecture, verification and recovery so the system is easier to
+    operate after the fix.
+- id: BLOCK21
+  label: GOOD FIT
+  body: GOOD FIT
+- id: BLOCK22
+  label: You already have a real system, a real product, or a real failure.
+  body: You already have a real system, a real product, or a real failure.
+- id: BLOCK23
+  label: Connected device firmware that has to integrate with the rest of the product.
+  body: Connected device firmware that has to integrate with the rest of the product.
+- id: BLOCK24
+  label: Voice or SIP/RTP behavior that needs endpoint-to-media-path debugging.
+  body: Voice or SIP/RTP behavior that needs endpoint-to-media-path debugging.
+- id: BLOCK25
+  label: Linux/container infrastructure that needs clearer state, health and operational
+    control.
+  body: Linux/container infrastructure that needs clearer state, health and operational
+    control.
+- id: BLOCK26
+  label: A problem that keeps bouncing between teams because no single layer explains
+    it.
+  body: A problem that keeps bouncing between teams because no single layer explains
+    it.
+- id: BLOCK27
+  label: Embedded firmware / real-time audio / SIP-RTP
+  body: Embedded firmware / real-time audio / SIP-RTP
+- id: BLOCK28
+  label: ESP32-S3 Connected Voice Device
+  body: ESP32-S3 Connected Voice Device
+- id: BLOCK29
+  label: Building and debugging a real-time voice device across firmware, codecs,
+    audio timing, packet t
+  body: Building and debugging a real-time voice device across firmware, codecs, audio
+    timing, packet transport, PBX integration and hardware behavior.
+- id: BLOCK30
+  label: Linux / Docker / secure ingress / operations
+  body: Linux / Docker / secure ingress / operations
+- id: BLOCK31
+  label: Infrastructure Operations Platform
+  body: Infrastructure Operations Platform
+- id: BLOCK32
+  label: An operations layer for a multi-service Linux environment where runtime state,
+    health, dependen
+  body: An operations layer for a multi-service Linux environment where runtime state,
+    health, dependencies, access and recovery need to be understood together.
+- id: BLOCK33
+  label: Prometheus / Grafana / failure simulation
+  body: Prometheus / Grafana / failure simulation
+- id: BLOCK34
+  label: Production Observability & Alert Validation
+  body: Production Observability & Alert Validation
+- id: BLOCK35
+  label: Testing whether monitoring detects real failure, including deliberately creating
+    load and provi
+  body: Testing whether monitoring detects real failure, including deliberately creating
+    load and proving the complete alert path rather than trusting dashboards.
+- id: BLOCK36
+  label: SIP signaling / RTP media / distributed debugging
+  body: SIP signaling / RTP media / distributed debugging
+- id: BLOCK37
+  label: VoIP & Real-Time Communications Infrastructure
+  body: VoIP & Real-Time Communications Infrastructure
+- id: BLOCK38
+  label: Building and debugging signaling, routing, media, endpoints and infrastructure
+    around real-time
+  body: Building and debugging signaling, routing, media, endpoints and infrastructure
+    around real-time communications rather than treating the PBX as the whole system.
+- id: BLOCK39
+  label: ESP32-S3 / ESP-IDF
+  body: ESP32-S3 / ESP-IDF
+- id: BLOCK40
+  label: Audio & codec integration
+  body: Audio & codec integration
+- id: BLOCK41
+  label: Provisioning
+  body: Provisioning
+- id: BLOCK42
+  label: OTA
+  body: OTA
+- id: BLOCK43
+  label: Hardware bring-up
+  body: Hardware bring-up
+- id: BLOCK44
+  label: Controls & e-paper
+  body: Controls & e-paper
+- id: BLOCK45
+  label: SIP / SDP
+  body: SIP / SDP
+- id: BLOCK46
+  label: RTP media
+  body: RTP media
+- id: BLOCK47
+  label: Asterisk
+  body: Asterisk
+- id: BLOCK48
+  label: FreeSWITCH
+  body: FreeSWITCH
+- id: BLOCK49
+  label: OpenSIPS
+  body: OpenSIPS
+- id: BLOCK50
+  label: Drachtio
+  body: Drachtio
+- id: BLOCK51
+  label: Packet analysis
+  body: Packet analysis
+- id: BLOCK52
+  label: Linux
+  body: Linux
+- id: BLOCK53
+  label: Docker
+  body: Docker
+- id: BLOCK54
+  label: Caddy
+  body: Caddy
+- id: BLOCK55
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK56
+  label: Prometheus
+  body: Prometheus
+- id: BLOCK57
+  label: Grafana
+  body: Grafana
+- id: BLOCK58
+  label: Logs
+  body: Logs
+- id: BLOCK59
+  label: Control planes
+  body: Control planes
+- id: BLOCK60
+  label: A/B testing
+  body: A/B testing
+- id: BLOCK61
+  label: Serial logs
+  body: Serial logs
+- id: BLOCK62
+  label: Packet captures
+  body: Packet captures
+- id: BLOCK63
+  label: Timing
+  body: Timing
+- id: BLOCK64
+  label: Metrics
+  body: Metrics
+- id: BLOCK65
+  label: Failure reproduction
+  body: Failure reproduction
+- id: BLOCK66
+  label: Root-cause isolation
+  body: Root-cause isolation
+- id: BLOCK67
+  label: HOW AN ENGAGEMENT MOVES
+  body: HOW AN ENGAGEMENT MOVES
+- id: BLOCK68
+  label: '01'
+  body: '01'
+- id: BLOCK69
+  label: '02'
+  body: '02'
+- id: BLOCK70
+  label: '03'
+  body: '03'
+- id: BLOCK71
+  label: '04'
+  body: '04'
+- id: BLOCK72
+  label: '05'
+  body: '05'
+- id: BLOCK73
+  label: RELATED CASE STUDIES
+  body: RELATED CASE STUDIES
+- id: BLOCK74
+  label: '01'
+  body: '01'
+- id: BLOCK75
+  label: ↗
+  body: ↗
+- id: BLOCK76
+  label: '02'
+  body: '02'
+- id: BLOCK77
+  label: ↗
+  body: ↗
+- id: BLOCK78
+  label: '03'
+  body: '03'
+- id: BLOCK79
+  label: ↗
+  body: ↗
+- id: BLOCK80
+  label: '04'
+  body: '04'
+- id: BLOCK81
+  label: ↗
+  body: ↗
+lists: []
+template: cms/templates/pages/services.tpl
+source: cms/templates/pages/services.json
+links:
+- id: LINK0
+  label: All work →
+  url: /portfolio.html
+- id: LINK1
+  label: '{{RR_BLOCK74}} {{RR_BLOCK27}} {{RR_BLOCK28}} {{RR_BLOCK29}} {{RR_BLOCK75}}'
+  url: /portfolio/esp32-voice-device.html
+- id: LINK2
+  label: '{{RR_BLOCK76}} {{RR_BLOCK30}} {{RR_BLOCK31}} {{RR_BLOCK32}} {{RR_BLOCK77}}'
+  url: /portfolio/platform-infrastructure.html
+- id: LINK3
+  label: '{{RR_BLOCK78}} {{RR_BLOCK33}} {{RR_BLOCK34}} {{RR_BLOCK35}} {{RR_BLOCK79}}'
+  url: /portfolio/prometheus-observability.html
+- id: LINK4
+  label: '{{RR_BLOCK80}} {{RR_BLOCK36}} {{RR_BLOCK37}} {{RR_BLOCK38}} {{RR_BLOCK81}}'
+  url: /portfolio/voip-sip-rtp.html

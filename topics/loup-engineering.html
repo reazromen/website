@@ -1,652 +1,140 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
-  <meta name="author" content="Reaz Romen">
-  <link rel="author" href="../about.html">
-  <title>LOUP Engineering — Reaz Romen — Systems Engineering</title>
-  <link rel="stylesheet" href="../static/css/site.css">
-
-<link rel="stylesheet" href="/assets/site.css">
-<link rel="stylesheet" href="/assets/sitewide-v2.css">
-<link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/phase2.css"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability." name="description"/>
+<meta content="Reaz Romen" name="author"/>
+<link href="../about.html" rel="author"/>
+<title>LOUP Engineering — Reaz Romen</title>
+<link href="../static/css/site.css" rel="stylesheet"/>
+<link href="/assets/site.css" rel="stylesheet"/>
+<link href="/assets/sitewide-v2.css" rel="stylesheet"/>
+<link href="/assets/phase1.css" rel="stylesheet"/><link href="/feed.xml" rel="alternate" title="Reaz Romen — Writing" type="application/rss+xml"/><link href="/atom.xml" rel="alternate" title="Reaz Romen — Writing" type="application/atom+xml"/><link href="/assets/phase2.css" rel="stylesheet"/><link href="/assets/responsive-v3.css" rel="stylesheet"/><link href="https://reazromen.com/topics/loup-engineering.html" rel="canonical"/></head>
 <body class="rr-themed">
 <a class="skip-link" href="#rr-main">Skip to content</a>
-<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
-<main id="rr-main" class="shell site-main">
-  
-    
-  
-  
+<header class="site-header rr-global-header"><div class="site-header-inner"><a aria-label="Reaz Romen home" class="brand" href="/">RR</a><nav aria-label="Main navigation" class="nav"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button aria-label="Search and quick navigation" class="icon-link search-action" data-open-command="" title="Search (Ctrl/⌘ K)" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg></button><a aria-label="GitHub" class="icon-link github-action" href="https://github.com/reazromen" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon icon-fill" viewbox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"></path></svg></a><button aria-label="Toggle color scheme" class="theme-toggle" onclick="toggleTheme()" type="button"><svg aria-hidden="true" class="icon" data-theme-icon="moon" viewbox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"></path></svg><svg aria-hidden="true" class="icon" data-theme-icon="sun" hidden="" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></svg></button></div></nav></div></header>
+<main class="shell site-main" id="rr-main">
 <section class="page-head"><p class="eyebrow">TOPIC</p><h1>LOUP Engineering</h1><p class="lede">Lessons, explainers, experiments, and implementation notes.</p></section>
 <div class="post-list">
-  <article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/why-loup-is-speakerphone-first-instead-of-a-small-smartphone.html">Why LOUP Is Speakerphone-First Instead of a Small Smartphone</a></h3>
-  <p>Removing the browser, camera and text stack changes both the product and the firmware architecture.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>LOUP</span><span>product architecture</span><span>voice device</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/parent-approved-contacts-are-an-architecture-rule-not-a-ui-filter.html">Parent-Approved Contacts Are an Architecture Rule, Not a UI Filter</a></h3>
-  <p>Contact approval has to be enforced by backend identity and call routing, not only hidden buttons.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>contacts</span><span>backend</span><span>authorization</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/why-the-firmware-has-to-stay-pbx-agnostic.html">Why the Firmware Has to Stay PBX-Agnostic</a></h3>
-  <p>Hard-coding one PBX would turn infrastructure choice into a firmware release dependency.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>SIP</span><span>PBX</span><span>configuration</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/one-device-one-sip-identity.html">One Device, One SIP Identity</a></h3>
-  <p>Sharing SIP credentials across devices makes revocation, auditing and fleet diagnosis ambiguous.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>SIP identity</span><span>device identity</span><span>security</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/the-device-state-machine-is-part-of-the-product-contract.html">The Device State Machine Is Part of the Product Contract</a></h3>
-  <p>Factory, pairing, active, blocked and retired are operational states with different permissions.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>state machine</span><span>pairing</span><span>device lifecycle</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/why-the-backend-and-pbx-need-an-adapter-boundary.html">Why the Backend and PBX Need an Adapter Boundary</a></h3>
-  <p>Identity and parental policy should not be embedded inside SIP routing rules.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>backend</span><span>PBX adapter</span><span>architecture</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/removing-text-and-social-features-also-reduces-the-security-surface.html">Removing Text and Social Features Also Reduces the Security Surface</a></h3>
-  <p>Product restraint changes threat modeling as much as it changes UX.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>security</span><span>product scope</span><span>attack surface</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/physical-controls-are-part-of-the-reliability-model.html">Physical Controls Are Part of the Reliability Model</a></h3>
-  <p>A voice device should remain operable when the display is slow or partially refreshing.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>controls</span><span>reliability</span><span>UX</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/why-firmware-ownership-stays-separate-from-the-manufacturer.html">Why Firmware Ownership Stays Separate from the Manufacturer</a></h3>
-  <p>Hardware development and firmware product logic have different long-term ownership requirements.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>firmware ownership</span><span>manufacturer</span><span>product engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/preserve-working-audio-before-adding-product-features.html">Preserve Working Audio Before Adding Product Features</a></h3>
-  <p>A stable voice path is more valuable than several new features built on a regression.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>release discipline</span><span>audio</span><span>known-good</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/reading-the-esp32-s3-memory-map-before-blaming-firmware.html">Reading the ESP32-S3 Memory Map Before Blaming Firmware</a></h3>
-  <p>Observed flash and PSRAM capacity define what the build and runtime can actually support.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>ESP32-S3</span><span>flash</span><span>PSRAM</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/es8311-and-es7210-split-the-audio-problem-in-two.html">ES8311 and ES7210 Split the Audio Problem in Two</a></h3>
-  <p>Speaker output and microphone capture travel through different codec responsibilities.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>ES8311</span><span>ES7210</span><span>audio codec</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/the-es7210-channel-map-matters-more-than-the-channel-number-in-code.html">The ES7210 Channel Map Matters More Than the Channel Number in Code</a></h3>
-  <p>AEC depends on what signal actually lands in each TDM slot.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>ES7210</span><span>TDM</span><span>channel mapping</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/unused-axp2101-rails-should-be-explicitly-disabled.html">Unused AXP2101 Rails Should Be Explicitly Disabled</a></h3>
-  <p>Power rails that are not part of the design should not be left in an accidental state.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>AXP2101</span><span>PMIC</span><span>power</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/vsys-bulk-capacitance-shows-up-as-a-system-problem.html">VSYS Bulk Capacitance Shows Up as a System Problem</a></h3>
-  <p>Short current transients can make a stable-looking digital design fail under real audio and radio load.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>power integrity</span><span>VSYS</span><span>capacitance</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/a-ws2812-on-a-3-3-v-gpio-needs-a-real-logic-level-decision.html">A WS2812 on a 3.3 V GPIO Needs a Real Logic-Level Decision</a></h3>
-  <p>A digital LED can still sit on an analog margin problem.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>WS2812</span><span>GPIO</span><span>logic level</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/a-service-replaceable-battery-changes-mechanical-and-firmware-assumptions.html">A Service-Replaceable Battery Changes Mechanical and Firmware Assumptions</a></h3>
-  <p>A screwed back plate makes battery replacement possible but also affects sealing, state retention and service procedure.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>battery</span><span>mechanical</span><span>serviceability</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/usb-c-is-not-the-same-thing-as-a-factory-debug-strategy.html">USB-C Is Not the Same Thing as a Factory Debug Strategy</a></h3>
-  <p>One external connector does not remove the need for reliable programming and recovery access.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>USB-C</span><span>debug pads</span><span>factory</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/pin-maps-belong-in-the-bring-up-evidence.html">Pin Maps Belong in the Bring-Up Evidence</a></h3>
-  <p>One wrong GPIO can imitate a codec, driver or clocking failure.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>ESP32-S3</span><span>I2S</span><span>pin map</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/a-tinny-speaker-is-not-automatically-a-codec-bug.html">A Tinny Speaker Is Not Automatically a Codec Bug</a></h3>
-  <p>Acoustic complaints have to be separated into source, amplifier, transducer and enclosure effects.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>speaker</span><span>acoustics</span><span>ES8311</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/i2s-clocking-is-the-backbone-of-the-loup-audio-path.html">I2S Clocking Is the Backbone of the LOUP Audio Path</a></h3>
-  <p>MCLK, BCLK and LRCK have to agree before higher-level audio debugging means anything.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>I2S</span><span>clocking</span><span>ESP32-S3</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/upsampling-8-khz-voice-to-16-khz-can-add-its-own-grit.html">Upsampling 8 kHz Voice to 16 kHz Can Add Its Own Grit</a></h3>
-  <p>Sample-rate conversion is audible when the implementation is crude or placed in the wrong part of the pipeline.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>upsampling</span><span>8kHz</span><span>16kHz</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/a-jitter-buffer-should-absorb-arrival-variation-not-become-a-delay-bucket.html">A Jitter Buffer Should Absorb Arrival Variation, Not Become a Delay Bucket</a></h3>
-  <p>More buffering reduces underruns until it starts creating latency and hiding drift.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>RTP</span><span>jitter buffer</span><span>latency</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/clocked-playout-fixed-a-class-of-problems-packet-driven-playback-could-not.html">Clocked Playout Fixed a Class of Problems Packet-Driven Playback Could Not</a></h3>
-  <p>RTP arrival time should not directly schedule the speaker.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>RTP</span><span>playout</span><span>clock</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/i2s-auto-clear-prevented-old-samples-from-becoming-new-noise.html">I2S Auto-Clear Prevented Old Samples from Becoming New Noise</a></h3>
-  <p>DMA behavior after underrun can shape what a user hears during gaps.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>I2S</span><span>DMA</span><span>underrun</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/volume-stuck-near-80-percent-was-a-gain-path-problem-not-a-ui-problem.html">Volume Stuck Near 80 Percent Was a Gain-Path Problem, Not a UI Problem</a></h3>
-  <p>A slider value is meaningless until every digital and analog gain stage is mapped.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>volume</span><span>gain staging</span><span>codec</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/eliminating-the-downlink-stall-was-more-important-than-tuning-tone.html">Eliminating the Downlink Stall Was More Important Than Tuning Tone</a></h3>
-  <p>A clean frequency response is irrelevant if the playback path periodically stops feeding samples.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>downlink</span><span>I2S</span><span>real-time audio</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/long-calls-expose-drift-that-short-calls-hide.html">Long Calls Expose Drift That Short Calls Hide</a></h3>
-  <p>A 30-second audio test can pass while two clocks slowly walk apart over several minutes.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>clock drift</span><span>long call</span><span>audio</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/the-80-to-240-millisecond-bursts-needed-packet-and-audio-timelines-together.html">The 80 to 240 Millisecond Bursts Needed Packet and Audio Timelines Together</a></h3>
-  <p>Short audible failures can be network gaps, scheduling gaps or local conversion artifacts.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>RTP</span><span>burst</span><span>timeline</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/speaker-quality-needs-a-reference-signal-before-subjective-listening.html">Speaker Quality Needs a Reference Signal Before Subjective Listening</a></h3>
-  <p>Listening tests become more useful when the input and operating point are controlled.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>speaker test</span><span>reference signal</span><span>acoustics</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/aec-starts-with-the-correct-far-end-reference.html">AEC Starts with the Correct Far-End Reference</a></h3>
-  <p>An echo canceller cannot remove playback it never receives as a reference signal.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>AEC</span><span>reference channel</span><span>ES7210</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/bypassing-aec-was-a-diagnostic-tool-not-a-product-direction.html">Bypassing AEC Was a Diagnostic Tool, Not a Product Direction</a></h3>
-  <p>Turning processing off can reveal whether the artifact is created before, inside or after the algorithm.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>AEC</span><span>A/B test</span><span>diagnostics</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/v117-was-useful-because-it-failed-clearly.html">V117 Was Useful Because It Failed Clearly</a></h3>
-  <p>A bad experimental build can be valuable when it changes a small set of variables and is easy to revert.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>V117</span><span>regression</span><span>AEC</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/removing-the-downlink-suppressor-improved-the-stable-build.html">Removing the Downlink Suppressor Improved the Stable Build</a></h3>
-  <p>More signal processing is not automatically better audio.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>suppressor</span><span>downlink</span><span>DSP</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/echo-at-high-volume-is-partly-an-acoustic-design-problem.html">Echo at High Volume Is Partly an Acoustic Design Problem</a></h3>
-  <p>AEC has finite cancellation authority when the speaker physically couples strongly into the microphones.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>echo</span><span>acoustics</span><span>volume</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/echo-and-feedback-are-not-the-same-failure.html">Echo and Feedback Are Not the Same Failure</a></h3>
-  <p>A delayed copy of far-end speech and an unstable acoustic loop require different diagnosis.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>echo</span><span>feedback</span><span>acoustics</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/latency-can-break-aec-even-when-the-signals-are-correct.html">Latency Can Break AEC Even When the Signals Are Correct</a></h3>
-  <p>A valid reference that arrives at the wrong time can be almost as useless as the wrong reference.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>AEC</span><span>latency</span><span>alignment</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/aec-startup-needs-a-defined-state.html">AEC Startup Needs a Defined State</a></h3>
-  <p>The first seconds of a call should not depend on whatever history remains in DSP buffers.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>AEC</span><span>startup</span><span>state</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/raw-multichannel-capture-is-the-ground-truth-for-aec-debugging.html">Raw Multichannel Capture Is the Ground Truth for AEC Debugging</a></h3>
-  <p>Processed audio alone hides whether the wrong signal entered the algorithm.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>AEC</span><span>raw capture</span><span>multichannel</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/aec-acceptance-should-include-double-talk.html">AEC Acceptance Should Include Double-Talk</a></h3>
-  <p>A speakerphone must handle the user talking while the far end is also active.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>AEC</span><span>double-talk</span><span>speech</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/sip-registration-is-a-device-identity-checkpoint.html">SIP Registration Is a Device-Identity Checkpoint</a></h3>
-  <p>A successful REGISTER proves more than network reachability because it joins device credentials to PBX state.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>SIP</span><span>REGISTER</span><span>identity</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/an-invite-is-only-the-start-of-the-call-contract.html">An INVITE Is Only the Start of the Call Contract</a></h3>
-  <p>Call setup includes dialog state, SDP negotiation and route continuity after the first request.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>SIP</span><span>INVITE</span><span>dialog</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/sdp-is-where-signalling-hands-the-call-to-media.html">SDP Is Where Signalling Hands the Call to Media</a></h3>
-  <p>A SIP call can connect perfectly and still carry no useful audio if the negotiated media description is wrong.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>SDP</span><span>RTP</span><span>codec</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/rtp-port-ranges-belong-in-the-network-design.html">RTP Port Ranges Belong in the Network Design</a></h3>
-  <p>Media cannot be debugged reliably if the firewall and PBX disagree on where RTP is allowed.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>RTP</span><span>ports</span><span>firewall</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/one-way-audio-is-usually-a-directional-problem.html">One-Way Audio Is Usually a Directional Problem</a></h3>
-  <p>If one side hears audio, several parts of the media path are already proven.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>RTP</span><span>one-way audio</span><span>NAT</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/low-packet-loss-does-not-mean-smooth-audio.html">Low Packet Loss Does Not Mean Smooth Audio</a></h3>
-  <p>Burst timing can hurt a speakerphone even when aggregate RTP loss is close to zero.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>RTP</span><span>jitter</span><span>packet loss</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/udp-was-a-deliberate-starting-point-for-the-pbx-mvp.html">UDP Was a Deliberate Starting Point for the PBX MVP</a></h3>
-  <p>Transport choice should match the test objective before adding more complexity.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>SIP</span><span>UDP</span><span>transport</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/bye-handling-is-part-of-resource-correctness.html">BYE Handling Is Part of Resource Correctness</a></h3>
-  <p>A call that starts and carries audio but does not terminate cleanly can leak state across the device and PBX.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>SIP</span><span>BYE</span><span>dialog state</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/a-device-sip-account-should-be-rotatable-without-reflashing-firmware.html">A Device SIP Account Should Be Rotatable Without Reflashing Firmware</a></h3>
-  <p>Telephony credentials are runtime configuration, not compiled product identity.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>SIP credentials</span><span>rotation</span><span>backend</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/two-device-local-calls-are-a-better-milestone-than-a-single-loopback-test.html">Two-Device Local Calls Are a Better Milestone Than a Single Loopback Test</a></h3>
-  <p>A real endpoint pair exposes assumptions hidden by softphones and local echo tests.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>SIP</span><span>two-device test</span><span>RTP</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/why-asterisk-was-the-right-pbx-for-the-loup-mvp.html">Why Asterisk Was the Right PBX for the LOUP MVP</a></h3>
-  <p>The first PBX needed to be inspectable, scriptable and easy to correlate with packet captures.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Asterisk</span><span>PBX</span><span>MVP</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/extension-3004-and-3005-became-reference-endpoints.html">Extension 3004 and 3005 Became Reference Endpoints</a></h3>
-  <p>Named test identities make repeatable call scenarios easier to describe and automate.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Asterisk</span><span>extensions</span><span>testbed</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/inbound-did-testing-proves-a-different-route-than-extension-to-extension-calls.html">Inbound DID Testing Proves a Different Route Than Extension-to-Extension Calls</a></h3>
-  <p>External ingress adds routing and policy that a local PBX call does not exercise.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>DID</span><span>Asterisk</span><span>inbound call</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/pbx-timer-underrun-can-sound-like-an-endpoint-bug.html">PBX Timer Underrun Can Sound Like an Endpoint Bug</a></h3>
-  <p>Server scheduling can inject media timing problems even when embedded firmware has not changed.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Asterisk</span><span>timer</span><span>RTP</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/rtp-burst-measurements-need-the-network-and-the-playout-buffer-in-the-same-report.html">RTP Burst Measurements Need the Network and the Playout Buffer in the Same Report</a></h3>
-  <p>Packet timing only becomes actionable when it is tied to endpoint tolerance.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>RTP</span><span>network</span><span>jitter buffer</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/local-pbx-testing-removes-the-internet-before-it-removes-complexity.html">Local PBX Testing Removes the Internet Before It Removes Complexity</a></h3>
-  <p>A LAN test still exercises SIP, RTP, codecs and clocks while excluding WAN variability.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>LAN</span><span>PBX</span><span>test strategy</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/pbx-registration-health-is-not-call-health.html">PBX Registration Health Is Not Call Health</a></h3>
-  <p>A green registration table can coexist with broken dialog routing or media.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>PBX</span><span>registration</span><span>health</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/the-pbx-adapter-keeps-product-identity-out-of-dialplan-files.html">The PBX Adapter Keeps Product Identity Out of Dialplan Files</a></h3>
-  <p>Asterisk should route calls, not become the only database of parent-approved relationships.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>PBX adapter</span><span>dialplan</span><span>backend</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/five-devices-and-twenty-devices-are-different-tests.html">Five Devices and Twenty Devices Are Different Tests</a></h3>
-  <p>Fleet size introduces registration churn, simultaneous calls and operational visibility that a pair cannot show.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>fleet test</span><span>PBX</span><span>scale</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/a-reference-softphone-is-valuable-because-it-is-not-the-device-under-test.html">A Reference Softphone Is Valuable Because It Is Not the Device Under Test</a></h3>
-  <p>Linphone provides a known endpoint for separating PBX problems from embedded endpoint problems.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Linphone</span><span>reference endpoint</span><span>SIP</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/wi-fi-provisioning-is-the-first-real-device-onboarding-boundary.html">Wi-Fi Provisioning Is the First Real Device-Onboarding Boundary</a></h3>
-  <p>A factory-fresh device has to join a trusted network before any cloud or PBX workflow can begin.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Wi-Fi</span><span>provisioning</span><span>onboarding</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/qr-pairing-should-bind-a-physical-device-to-a-backend-identity.html">QR Pairing Should Bind a Physical Device to a Backend Identity</a></h3>
-  <p>Scanning a code is useful only if the backend can prove which unit and account the ceremony joins.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>QR pairing</span><span>identity</span><span>backend</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/backend-delivered-sip-configuration-keeps-secrets-out-of-factory-images.html">Backend-Delivered SIP Configuration Keeps Secrets Out of Factory Images</a></h3>
-  <p>Per-device PBX credentials should be provisioned after identity is established, not cloned into every unit.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>backend</span><span>SIP config</span><span>secrets</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/factory-and-unpaired-are-different-states.html">Factory and Unpaired Are Different States</a></h3>
-  <p>A board leaving production and a consumer device waiting for ownership are not the same operational condition.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>factory state</span><span>pairing</span><span>lifecycle</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/blocked-has-to-override-normal-device-behaviour.html">Blocked Has to Override Normal Device Behaviour</a></h3>
-  <p>A backend revocation is ineffective if the device keeps registering and calling because local state still says active.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>block</span><span>revocation</span><span>backend</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/transfer-pending-prevents-ownership-change-from-becoming-a-race.html">Transfer Pending Prevents Ownership Change from Becoming a Race</a></h3>
-  <p>Moving a device between accounts needs an intermediate state while old and new authority are resolved.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>device transfer</span><span>ownership</span><span>state machine</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/ota-required-is-a-policy-state-not-just-a-notification.html">OTA Required Is a Policy State, Not Just a Notification</a></h3>
-  <p>Some firmware updates are optional improvements; others must gate service because compatibility or security changed.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA required</span><span>policy</span><span>firmware</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/status-heartbeats-need-identity-version-and-health-context.html">Status Heartbeats Need Identity, Version and Health Context</a></h3>
-  <p>A backend cannot manage a fleet from a last-seen timestamp alone.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>heartbeat</span><span>fleet</span><span>telemetry</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/global-factory-credentials-would-turn-one-leak-into-a-fleet-incident.html">Global Factory Credentials Would Turn One Leak into a Fleet Incident</a></h3>
-  <p>Convenient shared bootstrap secrets create the largest possible blast radius.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>credentials</span><span>factory</span><span>fleet security</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/provisioning-failure-needs-a-recoverable-path.html">Provisioning Failure Needs a Recoverable Path</a></h3>
-  <p>A device that loses power or Wi-Fi halfway through setup should not become permanently ambiguous.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>provisioning</span><span>recovery</span><span>state machine</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/v115-stayed-valuable-because-it-was-preserved-as-a-known-good-artifact.html">V115 Stayed Valuable Because It Was Preserved as a Known-Good Artifact</a></h3>
-  <p>An old build can be more useful than a new branch when a regression removes the reference point.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>V115</span><span>release</span><span>known-good</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/v132a-became-golden-because-it-was-reproducible-in-binary-and-source.html">V132A Became Golden Because It Was Reproducible in Binary and Source</a></h3>
-  <p>A release is stronger when the exact app image and the source snapshot both survive.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>V132A</span><span>golden build</span><span>release</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/app-only-flashing-at-0x20000-made-audio-iteration-faster.html">App-Only Flashing at 0x20000 Made Audio Iteration Faster</a></h3>
-  <p>Updating only the application partition avoids rewriting unrelated state during tight firmware experiments.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>ESP32-S3</span><span>flash</span><span>app partition</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/dual-ota-slots-need-an-acceptance-state.html">Dual OTA Slots Need an Acceptance State</a></h3>
-  <p>Booting the new partition once is not enough to declare it safe.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>rollback</span><span>acceptance</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/ecdsa-signing-makes-the-device-verify-who-produced-the-firmware.html">ECDSA Signing Makes the Device Verify Who Produced the Firmware</a></h3>
-  <p>Transport security alone does not prove an artifact should be trusted after download.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>ECDSA</span><span>signed OTA</span><span>firmware</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/rollback-has-to-include-persistent-state-compatibility.html">Rollback Has to Include Persistent-State Compatibility</a></h3>
-  <p>Returning to an older binary is unsafe if the newer release already changed data the old code cannot read.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>NVS</span><span>schema migration</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/canary-and-stable-are-different-release-states.html">Canary and Stable Are Different Release States</a></h3>
-  <p>A release that works on one device should not silently become the fleet default.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>canary</span><span>stable</span><span>fleet OTA</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/sticky-heartbeat-results-must-not-rewrite-a-new-ota-assignment.html">Sticky Heartbeat Results Must Not Rewrite a New OTA Assignment</a></h3>
-  <p>Old local status text can outlive the release that originally produced it.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>heartbeat</span><span>OTA state</span><span>release identity</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/release-channels-have-to-follow-promotion-state.html">Release Channels Have to Follow Promotion State</a></h3>
-  <p>Calling a release STABLE while its channel remains canary creates two sources of truth.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>release channel</span><span>OTA</span><span>state machine</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/firmware-acceptance-should-end-in-an-observable-active-state.html">Firmware Acceptance Should End in an Observable ACTIVE State</a></h3>
-  <p>A successful download is not the same thing as a successful deployment.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ACTIVE</span><span>fleet</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/a-168-by-384-e-paper-screen-changes-the-ui-grammar.html">A 168 by 384 E-Paper Screen Changes the UI Grammar</a></h3>
-  <p>Portrait monochrome e-paper rewards stable hierarchy and punishes unnecessary redraws.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>e-paper</span><span>GDEY029T71H</span><span>UI</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/partial-refresh-is-a-product-resource.html">Partial Refresh Is a Product Resource</a></h3>
-  <p>A UI transition has a display cost, so redraw scope becomes part of firmware design.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>e-paper</span><span>partial refresh</span><span>SSD1685</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/the-rotary-encoder-makes-lists-work-without-a-touchscreen.html">The Rotary Encoder Makes Lists Work Without a Touchscreen</a></h3>
-  <p>Infinite scroll plus push maps naturally to small menu selection when the display is not interactive.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>rotary encoder</span><span>input</span><span>UI</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/call-volume-and-mute-deserve-dedicated-controls.html">Call, Volume and Mute Deserve Dedicated Controls</a></h3>
-  <p>Critical in-call actions should not require navigating back to a menu.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>buttons</span><span>call control</span><span>mute</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/one-rgb-led-is-enough-when-its-states-are-designed.html">One RGB LED Is Enough When Its States Are Designed</a></h3>
-  <p>A single status light can become confusing if color, blink and priority are not treated as a protocol.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>RGB LED</span><span>status</span><span>UX</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/incoming-call-ui-has-a-hard-timing-requirement-even-on-e-paper.html">Incoming Call UI Has a Hard Timing Requirement Even on E-Paper</a></h3>
-  <p>The user must see caller identity before deciding whether to answer, despite slow display behavior.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>incoming call</span><span>e-paper</span><span>latency</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/active-call-ui-should-show-state-without-competing-with-the-conversation.html">Active Call UI Should Show State Without Competing with the Conversation</a></h3>
-  <p>During a call, the screen is for confirmation and control feedback rather than continuous content.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>active call</span><span>UI</span><span>voice device</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/volume-feedback-can-be-a-small-partial-refresh-overlay.html">Volume Feedback Can Be a Small Partial-Refresh Overlay</a></h3>
-  <p>A physical button needs visible confirmation without forcing a page transition.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>volume</span><span>partial refresh</span><span>UI</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/battery-and-signal-indicators-need-honest-granularity.html">Battery and Signal Indicators Need Honest Granularity</a></h3>
-  <p>Tiny icons can imply precision the underlying measurements do not actually support.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>battery</span><span>Wi-Fi signal</span><span>UI</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/the-evt-toggle-switch-should-not-define-the-production-power-ux.html">The EVT Toggle Switch Should Not Define the Production Power UX</a></h3>
-  <p>Prototype hardware can be adapted in firmware without turning the prototype limitation into the final product.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>power button</span><span>EVT</span><span>controls</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/one-microphone-or-two-is-a-system-decision.html">One Microphone or Two Is a System Decision</a></h3>
-  <p>Microphone count changes acoustics, PCB, enclosure, DSP assumptions and factory test.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>microphone</span><span>acoustics</span><span>DFM</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/ipx4-has-to-be-designed-around-openings-not-added-at-certification.html">IPX4 Has to Be Designed Around Openings, Not Added at Certification</a></h3>
-  <p>Speaker, microphone, buttons and battery access all create splash-resistance paths.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>IPX4</span><span>mechanical</span><span>validation</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/cad-for-presell-and-evt-for-engineering-solve-different-problems.html">CAD for Presell and EVT for Engineering Solve Different Problems</a></h3>
-  <p>A polished render can validate product communication while an ugly prototype answers technical questions.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CAD</span><span>EVT</span><span>prototype</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/evt-dvt-and-pvt-need-different-acceptance-questions.html">EVT, DVT and PVT Need Different Acceptance Questions</a></h3>
-  <p>A prototype phase name is useful only when the team knows what evidence graduates the build.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>EVT</span><span>DVT</span><span>PVT</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/factory-programming-should-produce-traceable-device-identity.html">Factory Programming Should Produce Traceable Device Identity</a></h3>
-  <p>Flashing firmware is only one step in turning a PCB into a managed product.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>factory programming</span><span>identity</span><span>traceability</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/debug-pads-are-insurance-for-the-units-that-do-not-boot.html">Debug Pads Are Insurance for the Units That Do Not Boot</a></h3>
-  <p>Production fixtures need a recovery path below the application firmware.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>debug pads</span><span>factory test</span><span>recovery</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/returning-the-tinny-evt-unit-is-part-of-root-cause-control.html">Returning the Tinny EVT Unit Is Part of Root-Cause Control</a></h3>
-  <p>Remote descriptions of sound are not enough when hardware, assembly and enclosure can all differ.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>speaker</span><span>RMA</span><span>failure analysis</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/a-two-device-pass-should-precede-the-five-and-twenty-device-ramp.html">A Two-Device Pass Should Precede the Five- and Twenty-Device Ramp</a></h3>
-  <p>Fleet growth should happen after the representative call path is stable on real hardware.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>fleet ramp</span><span>validation</span><span>test plan</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/factory-audio-test-needs-objective-signals-before-human-listening.html">Factory Audio Test Needs Objective Signals Before Human Listening</a></h3>
-  <p>A worker saying a unit sounds fine cannot be the only acoustic acceptance criterion.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>factory audio</span><span>test fixture</span><span>quality</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="loup-engineering.html">LOUP Engineering</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="/posts/manufacturer-scope-and-firmware-scope-need-a-written-interface.html">Manufacturer Scope and Firmware Scope Need a Written Interface</a></h3>
-  <p>Teams move faster when hardware decisions and application decisions meet at explicit contracts.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>manufacturer</span><span>firmware</span><span>interface contract</span></div>
-</article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/wi-fi-provisioning-is-the-first-real-device-onboarding-boundary.html">Wi-Fi Provisioning Is the First Real Device-Onboarding Boundary</a></h3><p>A factory-fresh device has to join a trusted network before any cloud or PBX workflow can begin.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/wi-fi.html">Wi-Fi</a><a data-pagefind-filter="tag" href="/tags/provisioning.html">provisioning</a><a data-pagefind-filter="tag" href="/tags/onboarding.html">onboarding</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/why-the-firmware-has-to-stay-pbx-agnostic.html">Why the Firmware Has to Stay PBX-Agnostic</a></h3><p>Hard-coding one PBX would turn infrastructure choice into a firmware release dependency.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/sip.html">SIP</a><a data-pagefind-filter="tag" href="/tags/pbx.html">PBX</a><a data-pagefind-filter="tag" href="/tags/configuration.html">configuration</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/why-the-backend-and-pbx-need-an-adapter-boundary.html">Why the Backend and PBX Need an Adapter Boundary</a></h3><p>Identity and parental policy should not be embedded inside SIP routing rules.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/backend.html">backend</a><a data-pagefind-filter="tag" href="/tags/pbx-adapter.html">PBX adapter</a><a data-pagefind-filter="tag" href="/tags/architecture.html">architecture</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/why-loup-is-speakerphone-first-instead-of-a-small-smartphone.html">Why LOUP Is Speakerphone-First Instead of a Small Smartphone</a></h3><p>Removing the browser, camera and text stack changes both the product and the firmware architecture.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/loup.html">LOUP</a><a data-pagefind-filter="tag" href="/tags/product-architecture.html">product architecture</a><a data-pagefind-filter="tag" href="/tags/voice-device.html">voice device</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/why-firmware-ownership-stays-separate-from-the-manufacturer.html">Why Firmware Ownership Stays Separate from the Manufacturer</a></h3><p>Hardware development and firmware product logic have different long-term ownership requirements.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/firmware-ownership.html">firmware ownership</a><a data-pagefind-filter="tag" href="/tags/manufacturer.html">manufacturer</a><a data-pagefind-filter="tag" href="/tags/product-engineering.html">product engineering</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/why-asterisk-was-the-right-pbx-for-the-loup-mvp.html">Why Asterisk Was the Right PBX for the LOUP MVP</a></h3><p>The first PBX needed to be inspectable, scriptable and easy to correlate with packet captures.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/asterisk.html">Asterisk</a><a data-pagefind-filter="tag" href="/tags/pbx.html">PBX</a><a data-pagefind-filter="tag" href="/tags/mvp.html">MVP</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/vsys-bulk-capacitance-shows-up-as-a-system-problem.html">VSYS Bulk Capacitance Shows Up as a System Problem</a></h3><p>Short current transients can make a stable-looking digital design fail under real audio and radio load.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/power-integrity.html">power integrity</a><a data-pagefind-filter="tag" href="/tags/vsys.html">VSYS</a><a data-pagefind-filter="tag" href="/tags/capacitance.html">capacitance</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/volume-stuck-near-80-percent-was-a-gain-path-problem-not-a-ui-problem.html">Volume Stuck Near 80 Percent Was a Gain-Path Problem, Not a UI Problem</a></h3><p>A slider value is meaningless until every digital and analog gain stage is mapped.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/volume.html">volume</a><a data-pagefind-filter="tag" href="/tags/gain-staging.html">gain staging</a><a data-pagefind-filter="tag" href="/tags/codec.html">codec</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/volume-feedback-can-be-a-small-partial-refresh-overlay.html">Volume Feedback Can Be a Small Partial-Refresh Overlay</a></h3><p>A physical button needs visible confirmation without forcing a page transition.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/volume.html">volume</a><a data-pagefind-filter="tag" href="/tags/partial-refresh.html">partial refresh</a><a data-pagefind-filter="tag" href="/tags/ui.html">UI</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/v132a-became-golden-because-it-was-reproducible-in-binary-and-source.html">V132A Became Golden Because It Was Reproducible in Binary and Source</a></h3><p>A release is stronger when the exact app image and the source snapshot both survive.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/v132a.html">V132A</a><a data-pagefind-filter="tag" href="/tags/golden-build.html">golden build</a><a data-pagefind-filter="tag" href="/tags/release.html">release</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/v117-was-useful-because-it-failed-clearly.html">V117 Was Useful Because It Failed Clearly</a></h3><p>A bad experimental build can be valuable when it changes a small set of variables and is easy to revert.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/v117.html">V117</a><a data-pagefind-filter="tag" href="/tags/regression.html">regression</a><a data-pagefind-filter="tag" href="/tags/aec.html">AEC</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/v115-stayed-valuable-because-it-was-preserved-as-a-known-good-artifact.html">V115 Stayed Valuable Because It Was Preserved as a Known-Good Artifact</a></h3><p>An old build can be more useful than a new branch when a regression removes the reference point.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/v115.html">V115</a><a data-pagefind-filter="tag" href="/tags/release.html">release</a><a data-pagefind-filter="tag" href="/tags/known-good.html">known-good</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/usb-c-is-not-the-same-thing-as-a-factory-debug-strategy.html">USB-C Is Not the Same Thing as a Factory Debug Strategy</a></h3><p>One external connector does not remove the need for reliable programming and recovery access.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/usb-c.html">USB-C</a><a data-pagefind-filter="tag" href="/tags/debug-pads.html">debug pads</a><a data-pagefind-filter="tag" href="/tags/factory.html">factory</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/upsampling-8-khz-voice-to-16-khz-can-add-its-own-grit.html">Upsampling 8 kHz Voice to 16 kHz Can Add Its Own Grit</a></h3><p>Sample-rate conversion is audible when the implementation is crude or placed in the wrong part of the pipeline.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/upsampling.html">upsampling</a><a data-pagefind-filter="tag" href="/tags/8khz.html">8kHz</a><a data-pagefind-filter="tag" href="/tags/16khz.html">16kHz</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/unused-axp2101-rails-should-be-explicitly-disabled.html">Unused AXP2101 Rails Should Be Explicitly Disabled</a></h3><p>Power rails that are not part of the design should not be left in an accidental state.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/axp2101.html">AXP2101</a><a data-pagefind-filter="tag" href="/tags/pmic.html">PMIC</a><a data-pagefind-filter="tag" href="/tags/power.html">power</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/udp-was-a-deliberate-starting-point-for-the-pbx-mvp.html">UDP Was a Deliberate Starting Point for the PBX MVP</a></h3><p>Transport choice should match the test objective before adding more complexity.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/sip.html">SIP</a><a data-pagefind-filter="tag" href="/tags/udp.html">UDP</a><a data-pagefind-filter="tag" href="/tags/transport.html">transport</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/two-device-local-calls-are-a-better-milestone-than-a-single-loopback-test.html">Two-Device Local Calls Are a Better Milestone Than a Single Loopback Test</a></h3><p>A real endpoint pair exposes assumptions hidden by softphones and local echo tests.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/sip.html">SIP</a><a data-pagefind-filter="tag" href="/tags/two-device-test.html">two-device test</a><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/transfer-pending-prevents-ownership-change-from-becoming-a-race.html">Transfer Pending Prevents Ownership Change from Becoming a Race</a></h3><p>Moving a device between accounts needs an intermediate state while old and new authority are resolved.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/device-transfer.html">device transfer</a><a data-pagefind-filter="tag" href="/tags/ownership.html">ownership</a><a data-pagefind-filter="tag" href="/tags/state-machine.html">state machine</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/the-rotary-encoder-makes-lists-work-without-a-touchscreen.html">The Rotary Encoder Makes Lists Work Without a Touchscreen</a></h3><p>Infinite scroll plus push maps naturally to small menu selection when the display is not interactive.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/rotary-encoder.html">rotary encoder</a><a data-pagefind-filter="tag" href="/tags/input.html">input</a><a data-pagefind-filter="tag" href="/tags/ui.html">UI</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/the-pbx-adapter-keeps-product-identity-out-of-dialplan-files.html">The PBX Adapter Keeps Product Identity Out of Dialplan Files</a></h3><p>Asterisk should route calls, not become the only database of parent-approved relationships.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/pbx-adapter.html">PBX adapter</a><a data-pagefind-filter="tag" href="/tags/dialplan.html">dialplan</a><a data-pagefind-filter="tag" href="/tags/backend.html">backend</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/the-evt-toggle-switch-should-not-define-the-production-power-ux.html">The EVT Toggle Switch Should Not Define the Production Power UX</a></h3><p>Prototype hardware can be adapted in firmware without turning the prototype limitation into the final product.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/power-button.html">power button</a><a data-pagefind-filter="tag" href="/tags/evt.html">EVT</a><a data-pagefind-filter="tag" href="/tags/controls.html">controls</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/the-es7210-channel-map-matters-more-than-the-channel-number-in-code.html">The ES7210 Channel Map Matters More Than the Channel Number in Code</a></h3><p>AEC depends on what signal actually lands in each TDM slot.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/es7210.html">ES7210</a><a data-pagefind-filter="tag" href="/tags/tdm.html">TDM</a><a data-pagefind-filter="tag" href="/tags/channel-mapping.html">channel mapping</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/the-device-state-machine-is-part-of-the-product-contract.html">The Device State Machine Is Part of the Product Contract</a></h3><p>Factory, pairing, active, blocked and retired are operational states with different permissions.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/state-machine.html">state machine</a><a data-pagefind-filter="tag" href="/tags/pairing.html">pairing</a><a data-pagefind-filter="tag" href="/tags/device-lifecycle.html">device lifecycle</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/the-80-to-240-millisecond-bursts-needed-packet-and-audio-timelines-together.html">The 80 to 240 Millisecond Bursts Needed Packet and Audio Timelines Together</a></h3><p>Short audible failures can be network gaps, scheduling gaps or local conversion artifacts.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a><a data-pagefind-filter="tag" href="/tags/burst.html">burst</a><a data-pagefind-filter="tag" href="/tags/timeline.html">timeline</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/sticky-heartbeat-results-must-not-rewrite-a-new-ota-assignment.html">Sticky Heartbeat Results Must Not Rewrite a New OTA Assignment</a></h3><p>Old local status text can outlive the release that originally produced it.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/heartbeat.html">heartbeat</a><a data-pagefind-filter="tag" href="/tags/ota-state.html">OTA state</a><a data-pagefind-filter="tag" href="/tags/release-identity.html">release identity</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/status-heartbeats-need-identity-version-and-health-context.html">Status Heartbeats Need Identity, Version and Health Context</a></h3><p>A backend cannot manage a fleet from a last-seen timestamp alone.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/heartbeat.html">heartbeat</a><a data-pagefind-filter="tag" href="/tags/fleet.html">fleet</a><a data-pagefind-filter="tag" href="/tags/telemetry.html">telemetry</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/speaker-quality-needs-a-reference-signal-before-subjective-listening.html">Speaker Quality Needs a Reference Signal Before Subjective Listening</a></h3><p>Listening tests become more useful when the input and operating point are controlled.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/speaker-test.html">speaker test</a><a data-pagefind-filter="tag" href="/tags/reference-signal.html">reference signal</a><a data-pagefind-filter="tag" href="/tags/acoustics.html">acoustics</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/sip-registration-is-a-device-identity-checkpoint.html">SIP Registration Is a Device-Identity Checkpoint</a></h3><p>A successful REGISTER proves more than network reachability because it joins device credentials to PBX state.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/sip.html">SIP</a><a data-pagefind-filter="tag" href="/tags/register.html">REGISTER</a><a data-pagefind-filter="tag" href="/tags/identity.html">identity</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/sdp-is-where-signalling-hands-the-call-to-media.html">SDP Is Where Signalling Hands the Call to Media</a></h3><p>A SIP call can connect perfectly and still carry no useful audio if the negotiated media description is wrong.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/sdp.html">SDP</a><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a><a data-pagefind-filter="tag" href="/tags/codec.html">codec</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/rtp-port-ranges-belong-in-the-network-design.html">RTP Port Ranges Belong in the Network Design</a></h3><p>Media cannot be debugged reliably if the firewall and PBX disagree on where RTP is allowed.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a><a data-pagefind-filter="tag" href="/tags/ports.html">ports</a><a data-pagefind-filter="tag" href="/tags/firewall.html">firewall</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/rtp-burst-measurements-need-the-network-and-the-playout-buffer-in-the-same-report.html">RTP Burst Measurements Need the Network and the Playout Buffer in the Same Report</a></h3><p>Packet timing only becomes actionable when it is tied to endpoint tolerance.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a><a data-pagefind-filter="tag" href="/tags/network.html">network</a><a data-pagefind-filter="tag" href="/tags/jitter-buffer.html">jitter buffer</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/rollback-has-to-include-persistent-state-compatibility.html">Rollback Has to Include Persistent-State Compatibility</a></h3><p>Returning to an older binary is unsafe if the newer release already changed data the old code cannot read.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/nvs.html">NVS</a><a data-pagefind-filter="tag" href="/tags/schema-migration.html">schema migration</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/returning-the-tinny-evt-unit-is-part-of-root-cause-control.html">Returning the Tinny EVT Unit Is Part of Root-Cause Control</a></h3><p>Remote descriptions of sound are not enough when hardware, assembly and enclosure can all differ.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/speaker.html">speaker</a><a data-pagefind-filter="tag" href="/tags/rma.html">RMA</a><a data-pagefind-filter="tag" href="/tags/failure-analysis.html">failure analysis</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/removing-the-downlink-suppressor-improved-the-stable-build.html">Removing the Downlink Suppressor Improved the Stable Build</a></h3><p>More signal processing is not automatically better audio.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/suppressor.html">suppressor</a><a data-pagefind-filter="tag" href="/tags/downlink.html">downlink</a><a data-pagefind-filter="tag" href="/tags/dsp.html">DSP</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/removing-text-and-social-features-also-reduces-the-security-surface.html">Removing Text and Social Features Also Reduces the Security Surface</a></h3><p>Product restraint changes threat modeling as much as it changes UX.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/security.html">security</a><a data-pagefind-filter="tag" href="/tags/product-scope.html">product scope</a><a data-pagefind-filter="tag" href="/tags/attack-surface.html">attack surface</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/release-channels-have-to-follow-promotion-state.html">Release Channels Have to Follow Promotion State</a></h3><p>Calling a release STABLE while its channel remains canary creates two sources of truth.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/release-channel.html">release channel</a><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/state-machine.html">state machine</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/reading-the-esp32-s3-memory-map-before-blaming-firmware.html">Reading the ESP32-S3 Memory Map Before Blaming Firmware</a></h3><p>Observed flash and PSRAM capacity define what the build and runtime can actually support.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/flash.html">flash</a><a data-pagefind-filter="tag" href="/tags/psram.html">PSRAM</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/raw-multichannel-capture-is-the-ground-truth-for-aec-debugging.html">Raw Multichannel Capture Is the Ground Truth for AEC Debugging</a></h3><p>Processed audio alone hides whether the wrong signal entered the algorithm.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/aec.html">AEC</a><a data-pagefind-filter="tag" href="/tags/raw-capture.html">raw capture</a><a data-pagefind-filter="tag" href="/tags/multichannel.html">multichannel</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/qr-pairing-should-bind-a-physical-device-to-a-backend-identity.html">QR Pairing Should Bind a Physical Device to a Backend Identity</a></h3><p>Scanning a code is useful only if the backend can prove which unit and account the ceremony joins.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/qr-pairing.html">QR pairing</a><a data-pagefind-filter="tag" href="/tags/identity.html">identity</a><a data-pagefind-filter="tag" href="/tags/backend.html">backend</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/provisioning-failure-needs-a-recoverable-path.html">Provisioning Failure Needs a Recoverable Path</a></h3><p>A device that loses power or Wi-Fi halfway through setup should not become permanently ambiguous.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/provisioning.html">provisioning</a><a data-pagefind-filter="tag" href="/tags/recovery.html">recovery</a><a data-pagefind-filter="tag" href="/tags/state-machine.html">state machine</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/preserve-working-audio-before-adding-product-features.html">Preserve Working Audio Before Adding Product Features</a></h3><p>A stable voice path is more valuable than several new features built on a regression.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/release-discipline.html">release discipline</a><a data-pagefind-filter="tag" href="/tags/audio.html">audio</a><a data-pagefind-filter="tag" href="/tags/known-good.html">known-good</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/pin-maps-belong-in-the-bring-up-evidence.html">Pin Maps Belong in the Bring-Up Evidence</a></h3><p>One wrong GPIO can imitate a codec, driver or clocking failure.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/i2s.html">I2S</a><a data-pagefind-filter="tag" href="/tags/pin-map.html">pin map</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/physical-controls-are-part-of-the-reliability-model.html">Physical Controls Are Part of the Reliability Model</a></h3><p>A voice device should remain operable when the display is slow or partially refreshing.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/controls.html">controls</a><a data-pagefind-filter="tag" href="/tags/reliability.html">reliability</a><a data-pagefind-filter="tag" href="/tags/ux.html">UX</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/pbx-timer-underrun-can-sound-like-an-endpoint-bug.html">PBX Timer Underrun Can Sound Like an Endpoint Bug</a></h3><p>Server scheduling can inject media timing problems even when embedded firmware has not changed.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/asterisk.html">Asterisk</a><a data-pagefind-filter="tag" href="/tags/timer.html">timer</a><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/pbx-registration-health-is-not-call-health.html">PBX Registration Health Is Not Call Health</a></h3><p>A green registration table can coexist with broken dialog routing or media.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/pbx.html">PBX</a><a data-pagefind-filter="tag" href="/tags/registration.html">registration</a><a data-pagefind-filter="tag" href="/tags/health.html">health</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/partial-refresh-is-a-product-resource.html">Partial Refresh Is a Product Resource</a></h3><p>A UI transition has a display cost, so redraw scope becomes part of firmware design.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/e-paper.html">e-paper</a><a data-pagefind-filter="tag" href="/tags/partial-refresh.html">partial refresh</a><a data-pagefind-filter="tag" href="/tags/ssd1685.html">SSD1685</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/parent-approved-contacts-are-an-architecture-rule-not-a-ui-filter.html">Parent-Approved Contacts Are an Architecture Rule, Not a UI Filter</a></h3><p>Contact approval has to be enforced by backend identity and call routing, not only hidden buttons.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/contacts.html">contacts</a><a data-pagefind-filter="tag" href="/tags/backend.html">backend</a><a data-pagefind-filter="tag" href="/tags/authorization.html">authorization</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/ota-required-is-a-policy-state-not-just-a-notification.html">OTA Required Is a Policy State, Not Just a Notification</a></h3><p>Some firmware updates are optional improvements; others must gate service because compatibility or security changed.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota-required.html">OTA required</a><a data-pagefind-filter="tag" href="/tags/policy.html">policy</a><a data-pagefind-filter="tag" href="/tags/firmware.html">firmware</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/one-way-audio-is-usually-a-directional-problem.html">One-Way Audio Is Usually a Directional Problem</a></h3><p>If one side hears audio, several parts of the media path are already proven.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a><a data-pagefind-filter="tag" href="/tags/one-way-audio.html">one-way audio</a><a data-pagefind-filter="tag" href="/tags/nat.html">NAT</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/one-rgb-led-is-enough-when-its-states-are-designed.html">One RGB LED Is Enough When Its States Are Designed</a></h3><p>A single status light can become confusing if color, blink and priority are not treated as a protocol.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/rgb-led.html">RGB LED</a><a data-pagefind-filter="tag" href="/tags/status.html">status</a><a data-pagefind-filter="tag" href="/tags/ux.html">UX</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/one-microphone-or-two-is-a-system-decision.html">One Microphone or Two Is a System Decision</a></h3><p>Microphone count changes acoustics, PCB, enclosure, DSP assumptions and factory test.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/microphone.html">microphone</a><a data-pagefind-filter="tag" href="/tags/acoustics.html">acoustics</a><a data-pagefind-filter="tag" href="/tags/dfm.html">DFM</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/one-device-one-sip-identity.html">One Device, One SIP Identity</a></h3><p>Sharing SIP credentials across devices makes revocation, auditing and fleet diagnosis ambiguous.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/sip-identity.html">SIP identity</a><a data-pagefind-filter="tag" href="/tags/device-identity.html">device identity</a><a data-pagefind-filter="tag" href="/tags/security.html">security</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/manufacturer-scope-and-firmware-scope-need-a-written-interface.html">Manufacturer Scope and Firmware Scope Need a Written Interface</a></h3><p>Teams move faster when hardware decisions and application decisions meet at explicit contracts.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/manufacturer.html">manufacturer</a><a data-pagefind-filter="tag" href="/tags/firmware.html">firmware</a><a data-pagefind-filter="tag" href="/tags/interface-contract.html">interface contract</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/low-packet-loss-does-not-mean-smooth-audio.html">Low Packet Loss Does Not Mean Smooth Audio</a></h3><p>Burst timing can hurt a speakerphone even when aggregate RTP loss is close to zero.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a><a data-pagefind-filter="tag" href="/tags/jitter.html">jitter</a><a data-pagefind-filter="tag" href="/tags/packet-loss.html">packet loss</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/long-calls-expose-drift-that-short-calls-hide.html">Long Calls Expose Drift That Short Calls Hide</a></h3><p>A 30-second audio test can pass while two clocks slowly walk apart over several minutes.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/clock-drift.html">clock drift</a><a data-pagefind-filter="tag" href="/tags/long-call.html">long call</a><a data-pagefind-filter="tag" href="/tags/audio.html">audio</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/local-pbx-testing-removes-the-internet-before-it-removes-complexity.html">Local PBX Testing Removes the Internet Before It Removes Complexity</a></h3><p>A LAN test still exercises SIP, RTP, codecs and clocks while excluding WAN variability.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/lan.html">LAN</a><a data-pagefind-filter="tag" href="/tags/pbx.html">PBX</a><a data-pagefind-filter="tag" href="/tags/test-strategy.html">test strategy</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/latency-can-break-aec-even-when-the-signals-are-correct.html">Latency Can Break AEC Even When the Signals Are Correct</a></h3><p>A valid reference that arrives at the wrong time can be almost as useless as the wrong reference.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/aec.html">AEC</a><a data-pagefind-filter="tag" href="/tags/latency.html">latency</a><a data-pagefind-filter="tag" href="/tags/alignment.html">alignment</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/ipx4-has-to-be-designed-around-openings-not-added-at-certification.html">IPX4 Has to Be Designed Around Openings, Not Added at Certification</a></h3><p>Speaker, microphone, buttons and battery access all create splash-resistance paths.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ipx4.html">IPX4</a><a data-pagefind-filter="tag" href="/tags/mechanical.html">mechanical</a><a data-pagefind-filter="tag" href="/tags/validation.html">validation</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/incoming-call-ui-has-a-hard-timing-requirement-even-on-e-paper.html">Incoming Call UI Has a Hard Timing Requirement Even on E-Paper</a></h3><p>The user must see caller identity before deciding whether to answer, despite slow display behavior.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/incoming-call.html">incoming call</a><a data-pagefind-filter="tag" href="/tags/e-paper.html">e-paper</a><a data-pagefind-filter="tag" href="/tags/latency.html">latency</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/inbound-did-testing-proves-a-different-route-than-extension-to-extension-calls.html">Inbound DID Testing Proves a Different Route Than Extension-to-Extension Calls</a></h3><p>External ingress adds routing and policy that a local PBX call does not exercise.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/did.html">DID</a><a data-pagefind-filter="tag" href="/tags/asterisk.html">Asterisk</a><a data-pagefind-filter="tag" href="/tags/inbound-call.html">inbound call</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/i2s-clocking-is-the-backbone-of-the-loup-audio-path.html">I2S Clocking Is the Backbone of the LOUP Audio Path</a></h3><p>MCLK, BCLK and LRCK have to agree before higher-level audio debugging means anything.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/i2s.html">I2S</a><a data-pagefind-filter="tag" href="/tags/clocking.html">clocking</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/i2s-auto-clear-prevented-old-samples-from-becoming-new-noise.html">I2S Auto-Clear Prevented Old Samples from Becoming New Noise</a></h3><p>DMA behavior after underrun can shape what a user hears during gaps.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/i2s.html">I2S</a><a data-pagefind-filter="tag" href="/tags/dma.html">DMA</a><a data-pagefind-filter="tag" href="/tags/underrun.html">underrun</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/global-factory-credentials-would-turn-one-leak-into-a-fleet-incident.html">Global Factory Credentials Would Turn One Leak into a Fleet Incident</a></h3><p>Convenient shared bootstrap secrets create the largest possible blast radius.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/credentials.html">credentials</a><a data-pagefind-filter="tag" href="/tags/factory.html">factory</a><a data-pagefind-filter="tag" href="/tags/fleet-security.html">fleet security</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/five-devices-and-twenty-devices-are-different-tests.html">Five Devices and Twenty Devices Are Different Tests</a></h3><p>Fleet size introduces registration churn, simultaneous calls and operational visibility that a pair cannot show.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/fleet-test.html">fleet test</a><a data-pagefind-filter="tag" href="/tags/pbx.html">PBX</a><a data-pagefind-filter="tag" href="/tags/scale.html">scale</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/firmware-acceptance-should-end-in-an-observable-active-state.html">Firmware Acceptance Should End in an Observable ACTIVE State</a></h3><p>A successful download is not the same thing as a successful deployment.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/active.html">ACTIVE</a><a data-pagefind-filter="tag" href="/tags/fleet.html">fleet</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/factory-programming-should-produce-traceable-device-identity.html">Factory Programming Should Produce Traceable Device Identity</a></h3><p>Flashing firmware is only one step in turning a PCB into a managed product.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/factory-programming.html">factory programming</a><a data-pagefind-filter="tag" href="/tags/identity.html">identity</a><a data-pagefind-filter="tag" href="/tags/traceability.html">traceability</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/factory-audio-test-needs-objective-signals-before-human-listening.html">Factory Audio Test Needs Objective Signals Before Human Listening</a></h3><p>A worker saying a unit sounds fine cannot be the only acoustic acceptance criterion.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/factory-audio.html">factory audio</a><a data-pagefind-filter="tag" href="/tags/test-fixture.html">test fixture</a><a data-pagefind-filter="tag" href="/tags/quality.html">quality</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/factory-and-unpaired-are-different-states.html">Factory and Unpaired Are Different States</a></h3><p>A board leaving production and a consumer device waiting for ownership are not the same operational condition.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/factory-state.html">factory state</a><a data-pagefind-filter="tag" href="/tags/pairing.html">pairing</a><a data-pagefind-filter="tag" href="/tags/lifecycle.html">lifecycle</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/extension-3004-and-3005-became-reference-endpoints.html">Extension 3004 and 3005 Became Reference Endpoints</a></h3><p>Named test identities make repeatable call scenarios easier to describe and automate.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/asterisk.html">Asterisk</a><a data-pagefind-filter="tag" href="/tags/extensions.html">extensions</a><a data-pagefind-filter="tag" href="/tags/testbed.html">testbed</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/evt-dvt-and-pvt-need-different-acceptance-questions.html">EVT, DVT and PVT Need Different Acceptance Questions</a></h3><p>A prototype phase name is useful only when the team knows what evidence graduates the build.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/evt.html">EVT</a><a data-pagefind-filter="tag" href="/tags/dvt.html">DVT</a><a data-pagefind-filter="tag" href="/tags/pvt.html">PVT</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/es8311-and-es7210-split-the-audio-problem-in-two.html">ES8311 and ES7210 Split the Audio Problem in Two</a></h3><p>Speaker output and microphone capture travel through different codec responsibilities.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/es8311.html">ES8311</a><a data-pagefind-filter="tag" href="/tags/es7210.html">ES7210</a><a data-pagefind-filter="tag" href="/tags/audio-codec.html">audio codec</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/eliminating-the-downlink-stall-was-more-important-than-tuning-tone.html">Eliminating the Downlink Stall Was More Important Than Tuning Tone</a></h3><p>A clean frequency response is irrelevant if the playback path periodically stops feeding samples.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/downlink.html">downlink</a><a data-pagefind-filter="tag" href="/tags/i2s.html">I2S</a><a data-pagefind-filter="tag" href="/tags/real-time-audio.html">real-time audio</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/echo-at-high-volume-is-partly-an-acoustic-design-problem.html">Echo at High Volume Is Partly an Acoustic Design Problem</a></h3><p>AEC has finite cancellation authority when the speaker physically couples strongly into the microphones.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/echo.html">echo</a><a data-pagefind-filter="tag" href="/tags/acoustics.html">acoustics</a><a data-pagefind-filter="tag" href="/tags/volume.html">volume</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/echo-and-feedback-are-not-the-same-failure.html">Echo and Feedback Are Not the Same Failure</a></h3><p>A delayed copy of far-end speech and an unstable acoustic loop require different diagnosis.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/echo.html">echo</a><a data-pagefind-filter="tag" href="/tags/feedback.html">feedback</a><a data-pagefind-filter="tag" href="/tags/acoustics.html">acoustics</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/ecdsa-signing-makes-the-device-verify-who-produced-the-firmware.html">ECDSA Signing Makes the Device Verify Who Produced the Firmware</a></h3><p>Transport security alone does not prove an artifact should be trusted after download.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ecdsa.html">ECDSA</a><a data-pagefind-filter="tag" href="/tags/signed-ota.html">signed OTA</a><a data-pagefind-filter="tag" href="/tags/firmware.html">firmware</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/dual-ota-slots-need-an-acceptance-state.html">Dual OTA Slots Need an Acceptance State</a></h3><p>Booting the new partition once is not enough to declare it safe.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/rollback.html">rollback</a><a data-pagefind-filter="tag" href="/tags/acceptance.html">acceptance</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/debug-pads-are-insurance-for-the-units-that-do-not-boot.html">Debug Pads Are Insurance for the Units That Do Not Boot</a></h3><p>Production fixtures need a recovery path below the application firmware.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/debug-pads.html">debug pads</a><a data-pagefind-filter="tag" href="/tags/factory-test.html">factory test</a><a data-pagefind-filter="tag" href="/tags/recovery.html">recovery</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/clocked-playout-fixed-a-class-of-problems-packet-driven-playback-could-not.html">Clocked Playout Fixed a Class of Problems Packet-Driven Playback Could Not</a></h3><p>RTP arrival time should not directly schedule the speaker.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a><a data-pagefind-filter="tag" href="/tags/playout.html">playout</a><a data-pagefind-filter="tag" href="/tags/clock.html">clock</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/canary-and-stable-are-different-release-states.html">Canary and Stable Are Different Release States</a></h3><p>A release that works on one device should not silently become the fleet default.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/canary.html">canary</a><a data-pagefind-filter="tag" href="/tags/stable.html">stable</a><a data-pagefind-filter="tag" href="/tags/fleet-ota.html">fleet OTA</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/call-volume-and-mute-deserve-dedicated-controls.html">Call, Volume and Mute Deserve Dedicated Controls</a></h3><p>Critical in-call actions should not require navigating back to a menu.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/buttons.html">buttons</a><a data-pagefind-filter="tag" href="/tags/call-control.html">call control</a><a data-pagefind-filter="tag" href="/tags/mute.html">mute</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/cad-for-presell-and-evt-for-engineering-solve-different-problems.html">CAD for Presell and EVT for Engineering Solve Different Problems</a></h3><p>A polished render can validate product communication while an ugly prototype answers technical questions.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/cad.html">CAD</a><a data-pagefind-filter="tag" href="/tags/evt.html">EVT</a><a data-pagefind-filter="tag" href="/tags/prototype.html">prototype</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/bypassing-aec-was-a-diagnostic-tool-not-a-product-direction.html">Bypassing AEC Was a Diagnostic Tool, Not a Product Direction</a></h3><p>Turning processing off can reveal whether the artifact is created before, inside or after the algorithm.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/aec.html">AEC</a><a data-pagefind-filter="tag" href="/tags/a-b-test.html">A/B test</a><a data-pagefind-filter="tag" href="/tags/diagnostics.html">diagnostics</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/bye-handling-is-part-of-resource-correctness.html">BYE Handling Is Part of Resource Correctness</a></h3><p>A call that starts and carries audio but does not terminate cleanly can leak state across the device and PBX.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/sip.html">SIP</a><a data-pagefind-filter="tag" href="/tags/bye.html">BYE</a><a data-pagefind-filter="tag" href="/tags/dialog-state.html">dialog state</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/blocked-has-to-override-normal-device-behaviour.html">Blocked Has to Override Normal Device Behaviour</a></h3><p>A backend revocation is ineffective if the device keeps registering and calling because local state still says active.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/block.html">block</a><a data-pagefind-filter="tag" href="/tags/revocation.html">revocation</a><a data-pagefind-filter="tag" href="/tags/backend.html">backend</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/battery-and-signal-indicators-need-honest-granularity.html">Battery and Signal Indicators Need Honest Granularity</a></h3><p>Tiny icons can imply precision the underlying measurements do not actually support.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/battery.html">battery</a><a data-pagefind-filter="tag" href="/tags/wi-fi-signal.html">Wi-Fi signal</a><a data-pagefind-filter="tag" href="/tags/ui.html">UI</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/backend-delivered-sip-configuration-keeps-secrets-out-of-factory-images.html">Backend-Delivered SIP Configuration Keeps Secrets Out of Factory Images</a></h3><p>Per-device PBX credentials should be provisioned after identity is established, not cloned into every unit.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/backend.html">backend</a><a data-pagefind-filter="tag" href="/tags/sip-config.html">SIP config</a><a data-pagefind-filter="tag" href="/tags/secrets.html">secrets</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/app-only-flashing-at-0x20000-made-audio-iteration-faster.html">App-Only Flashing at 0x20000 Made Audio Iteration Faster</a></h3><p>Updating only the application partition avoids rewriting unrelated state during tight firmware experiments.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/flash.html">flash</a><a data-pagefind-filter="tag" href="/tags/app-partition.html">app partition</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/an-invite-is-only-the-start-of-the-call-contract.html">An INVITE Is Only the Start of the Call Contract</a></h3><p>Call setup includes dialog state, SDP negotiation and route continuity after the first request.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/sip.html">SIP</a><a data-pagefind-filter="tag" href="/tags/invite.html">INVITE</a><a data-pagefind-filter="tag" href="/tags/dialog.html">dialog</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/aec-startup-needs-a-defined-state.html">AEC Startup Needs a Defined State</a></h3><p>The first seconds of a call should not depend on whatever history remains in DSP buffers.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/aec.html">AEC</a><a data-pagefind-filter="tag" href="/tags/startup.html">startup</a><a data-pagefind-filter="tag" href="/tags/state.html">state</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/aec-starts-with-the-correct-far-end-reference.html">AEC Starts with the Correct Far-End Reference</a></h3><p>An echo canceller cannot remove playback it never receives as a reference signal.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/aec.html">AEC</a><a data-pagefind-filter="tag" href="/tags/reference-channel.html">reference channel</a><a data-pagefind-filter="tag" href="/tags/es7210.html">ES7210</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/aec-acceptance-should-include-double-talk.html">AEC Acceptance Should Include Double-Talk</a></h3><p>A speakerphone must handle the user talking while the far end is also active.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/aec.html">AEC</a><a data-pagefind-filter="tag" href="/tags/double-talk.html">double-talk</a><a data-pagefind-filter="tag" href="/tags/speech.html">speech</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/active-call-ui-should-show-state-without-competing-with-the-conversation.html">Active Call UI Should Show State Without Competing with the Conversation</a></h3><p>During a call, the screen is for confirmation and control feedback rather than continuous content.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/active-call.html">active call</a><a data-pagefind-filter="tag" href="/tags/ui.html">UI</a><a data-pagefind-filter="tag" href="/tags/voice-device.html">voice device</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/a-ws2812-on-a-3-3-v-gpio-needs-a-real-logic-level-decision.html">A WS2812 on a 3.3 V GPIO Needs a Real Logic-Level Decision</a></h3><p>A digital LED can still sit on an analog margin problem.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ws2812.html">WS2812</a><a data-pagefind-filter="tag" href="/tags/gpio.html">GPIO</a><a data-pagefind-filter="tag" href="/tags/logic-level.html">logic level</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/a-two-device-pass-should-precede-the-five-and-twenty-device-ramp.html">A Two-Device Pass Should Precede the Five- and Twenty-Device Ramp</a></h3><p>Fleet growth should happen after the representative call path is stable on real hardware.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/fleet-ramp.html">fleet ramp</a><a data-pagefind-filter="tag" href="/tags/validation.html">validation</a><a data-pagefind-filter="tag" href="/tags/test-plan.html">test plan</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/a-tinny-speaker-is-not-automatically-a-codec-bug.html">A Tinny Speaker Is Not Automatically a Codec Bug</a></h3><p>Acoustic complaints have to be separated into source, amplifier, transducer and enclosure effects.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/speaker.html">speaker</a><a data-pagefind-filter="tag" href="/tags/acoustics.html">acoustics</a><a data-pagefind-filter="tag" href="/tags/es8311.html">ES8311</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/a-service-replaceable-battery-changes-mechanical-and-firmware-assumptions.html">A Service-Replaceable Battery Changes Mechanical and Firmware Assumptions</a></h3><p>A screwed back plate makes battery replacement possible but also affects sealing, state retention and service procedure.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/battery.html">battery</a><a data-pagefind-filter="tag" href="/tags/mechanical.html">mechanical</a><a data-pagefind-filter="tag" href="/tags/serviceability.html">serviceability</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/a-reference-softphone-is-valuable-because-it-is-not-the-device-under-test.html">A Reference Softphone Is Valuable Because It Is Not the Device Under Test</a></h3><p>Linphone provides a known endpoint for separating PBX problems from embedded endpoint problems.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/linphone.html">Linphone</a><a data-pagefind-filter="tag" href="/tags/reference-endpoint.html">reference endpoint</a><a data-pagefind-filter="tag" href="/tags/sip.html">SIP</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/a-jitter-buffer-should-absorb-arrival-variation-not-become-a-delay-bucket.html">A Jitter Buffer Should Absorb Arrival Variation, Not Become a Delay Bucket</a></h3><p>More buffering reduces underruns until it starts creating latency and hiding drift.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a><a data-pagefind-filter="tag" href="/tags/jitter-buffer.html">jitter buffer</a><a data-pagefind-filter="tag" href="/tags/latency.html">latency</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/a-device-sip-account-should-be-rotatable-without-reflashing-firmware.html">A Device SIP Account Should Be Rotatable Without Reflashing Firmware</a></h3><p>Telephony credentials are runtime configuration, not compiled product identity.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/sip-credentials.html">SIP credentials</a><a data-pagefind-filter="tag" href="/tags/rotation.html">rotation</a><a data-pagefind-filter="tag" href="/tags/backend.html">backend</a></div></article>
+<article class="post-card"><p class="meta">LOUP Engineering · 1 min read · 2026-09-14</p><h3><a href="/posts/a-168-by-384-e-paper-screen-changes-the-ui-grammar.html">A 168 by 384 E-Paper Screen Changes the UI Grammar</a></h3><p>Portrait monochrome e-paper rewards stable hierarchy and punishes unnecessary redraws.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/e-paper.html">e-paper</a><a data-pagefind-filter="tag" href="/tags/gdey029t71h.html">GDEY029T71H</a><a data-pagefind-filter="tag" href="/tags/ui.html">UI</a></div></article>
 </div>
-
 </main>
 <footer class="shell site-footer">
-  <div>
-    <span class="status-dot"></span>
-    <strong>Reaz Romen — independent systems engineer.</strong>
-  </div>
-  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
-  <nav aria-label="Footer">
-    <a href="../topics.html">Topics</a>
-    <a href="../systems.html">Systems</a>
-    <a href="../archive.html">Archive</a>
-    <a href="../author/reaz-romen.html">Author record</a>
-  </nav>
+<div>
+<span class="status-dot"></span>
+<strong>Reaz Romen — independent systems engineer.</strong>
+</div>
+<p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+<nav aria-label="Footer"><a href="/tags.html">Tags</a></nav>
 </footer>
-
 <script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script>
-<dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<dialog aria-label="Search and quick navigation" class="command-palette" data-pagefind-ignore="" id="command-palette">
 <div class="command-shell">
-<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-input-row"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input aria-label="Search site" autocomplete="off" id="command-input" placeholder="Search writing, work, topics…" type="search"/><button aria-label="Close" class="command-close" data-close-command="" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div>
 <div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
-<nav class="command-shortcuts" aria-label="Quick navigation">
+<nav aria-label="Quick navigation" class="command-shortcuts">
 <a href="/portfolio.html">Work <span>Projects and systems</span></a>
 <a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
 <a href="/domains/">Domains <span>Browse engineering areas</span></a>
@@ -654,7 +142,7 @@
 <a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
 <a href="/about.html">About <span>Background and approach</span></a>
 </nav>
-<div id="command-results" class="command-results" aria-live="polite"></div>
+<div aria-live="polite" class="command-results" id="command-results"></div>
 <div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
-</div></dialog><script src="/assets/phase1.js"></script><div id="context-preview" class="context-preview" role="tooltip" hidden data-pagefind-ignore></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</div></dialog><script src="/assets/phase1.js"></script><div class="context-preview" data-pagefind-ignore="" hidden="" id="context-preview" role="tooltip"></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body>
 </html>

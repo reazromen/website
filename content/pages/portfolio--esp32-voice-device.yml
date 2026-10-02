@@ -1,0 +1,221 @@
+title: ESP32-S3 Connected Voice Device
+browser_title: ESP32-S3 Connected Voice Device — Reaz Romen
+description: Building and debugging a real-time voice device across firmware, codecs,
+  audio timing, packet transport, PBX integration and hardware behavior.
+url: /portfolio/esp32-voice-device.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: CASE 01 / Embedded firmware / real-time audio / SIP-RTP
+  body: CASE 01 / Embedded firmware / real-time audio / SIP-RTP
+- id: BLOCK1
+  label: ESP32-S3 Connected Voice Device
+  body: ESP32-S3 Connected Voice Device
+- id: BLOCK2
+  label: Building and debugging a real-time voice device across firmware, codecs,
+    audio timing, packet t
+  body: Building and debugging a real-time voice device across firmware, codecs, audio
+    timing, packet transport, PBX integration and hardware behavior.
+- id: BLOCK3
+  label: This project sits at the intersection of embedded firmware, audio engineering,
+    networking, VoIP
+  body: This project sits at the intersection of embedded firmware, audio engineering,
+    networking, VoIP, hardware integration, and product engineering. The device uses
+    an ESP32-S3 with ES7210 microphone and ES8311 speaker codecs, communicates over
+    SIP/RTP, and connects to a PBX-based telephony backend.
+- id: BLOCK4
+  label: The symptom is not the layer.
+  body: The symptom is not the layer.
+- id: BLOCK5
+  label: A call that connects is not necessarily a usable voice system. Crackle can
+    originate in I2S sch
+  body: A call that connects is not necessarily a usable voice system. Crackle can
+    originate in I2S scheduling, buffer starvation, sample-rate conversion, clocking,
+    RTP jitter, packet timing, codec configuration or playback. Echo can originate
+    in acoustic coupling, AEC reference routing, channel mapping, gain or processing
+    configuration.
+- id: BLOCK6
+  label: Trace the complete path.
+  body: Trace the complete path.
+- id: BLOCK7
+  label: How I worked the problem.
+  body: How I worked the problem.
+- id: BLOCK8
+  label: 01 Separated capture, processing, transport, timing and playback instead
+    of treating every symp
+  body: '01
+
+
+    Separated capture, processing, transport, timing and playback instead of treating
+    every symptom as a generic audio-quality problem.'
+- id: BLOCK9
+  label: Separated capture, processing, transport, timing and playback instead of
+    treating every symptom
+  body: Separated capture, processing, transport, timing and playback instead of treating
+    every symptom as a generic audio-quality problem.
+- id: BLOCK10
+  label: 02 Used controlled A/B firmware builds, serial logs, packet captures and
+    repeated calls to isol
+  body: '02
+
+
+    Used controlled A/B firmware builds, serial logs, packet captures and repeated
+    calls to isolate one section of the media path at a time.'
+- id: BLOCK11
+  label: Used controlled A/B firmware builds, serial logs, packet captures and repeated
+    calls to isolate
+  body: Used controlled A/B firmware builds, serial logs, packet captures and repeated
+    calls to isolate one section of the media path at a time.
+- id: BLOCK12
+  label: 03 Worked across I2S audio, codec integration, microphone/reference routing,
+    AEC, jitter buffer
+  body: '03
+
+
+    Worked across I2S audio, codec integration, microphone/reference routing, AEC,
+    jitter buffering, clocked playback, SIP registration and PBX behavior.'
+- id: BLOCK13
+  label: Worked across I2S audio, codec integration, microphone/reference routing,
+    AEC, jitter buffering
+  body: Worked across I2S audio, codec integration, microphone/reference routing,
+    AEC, jitter buffering, clocked playback, SIP registration and PBX behavior.
+- id: BLOCK14
+  label: 04 Extended the work into Wi-Fi provisioning, device identity, OTA architecture,
+    power behavior
+  body: '04
+
+
+    Extended the work into Wi-Fi provisioning, device identity, OTA architecture,
+    power behavior, e-paper UI, physical controls and schematic review.'
+- id: BLOCK15
+  label: Extended the work into Wi-Fi provisioning, device identity, OTA architecture,
+    power behavior, e
+  body: Extended the work into Wi-Fi provisioning, device identity, OTA architecture,
+    power behavior, e-paper UI, physical controls and schematic review.
+- id: BLOCK16
+  label: Make the system observable enough to explain.
+  body: Make the system observable enough to explain.
+- id: BLOCK17
+  label: The work produced a stable ESP32-S3 SIP/RTP voice path after iterating through
+    audio timing, ch
+  body: The work produced a stable ESP32-S3 SIP/RTP voice path after iterating through
+    audio timing, channel routing, AEC, buffering and playback problems. The important
+    result was not merely placing a call; it was making the complete media path observable
+    enough to diagnose failures across layers.
+- id: BLOCK18
+  label: Artifacts that carry the technical story.
+  body: Artifacts that carry the technical story.
+- id: BLOCK19
+  label: The case study is structured around real engineering evidence rather than
+    generic product image
+  body: The case study is structured around real engineering evidence rather than
+    generic product imagery.
+- id: BLOCK20
+  label: Work
+  body: Work
+- id: BLOCK21
+  label: TECHNOLOGY SURFACE
+  body: TECHNOLOGY SURFACE
+- id: BLOCK22
+  label: microphone
+  body: microphone
+- id: BLOCK23
+  label: codec
+  body: codec
+- id: BLOCK24
+  label: I2S
+  body: I2S
+- id: BLOCK25
+  label: firmware processing
+  body: firmware processing
+- id: BLOCK26
+  label: packetization
+  body: packetization
+- id: BLOCK27
+  label: RTP / network
+  body: RTP / network
+- id: BLOCK28
+  label: PBX
+  body: PBX
+- id: BLOCK29
+  label: remote endpoint
+  body: remote endpoint
+- id: BLOCK30
+  label: remote endpoint
+  body: remote endpoint
+- id: BLOCK31
+  label: PBX
+  body: PBX
+- id: BLOCK32
+  label: RTP receive
+  body: RTP receive
+- id: BLOCK33
+  label: buffering
+  body: buffering
+- id: BLOCK34
+  label: playout clock
+  body: playout clock
+- id: BLOCK35
+  label: I2S
+  body: I2S
+- id: BLOCK36
+  label: codec
+  body: codec
+- id: BLOCK37
+  label: speaker
+  body: speaker
+- id: BLOCK38
+  label: '01'
+  body: '01'
+- id: BLOCK39
+  label: Device / PCB photography
+  body: Device / PCB photography
+- id: BLOCK40
+  label: '02'
+  body: '02'
+- id: BLOCK41
+  label: Audio pipeline architecture
+  body: Audio pipeline architecture
+- id: BLOCK42
+  label: '03'
+  body: '03'
+- id: BLOCK43
+  label: SIP/RTP call flow
+  body: SIP/RTP call flow
+- id: BLOCK44
+  label: '04'
+  body: '04'
+- id: BLOCK45
+  label: ESP-IDF serial logs
+  body: ESP-IDF serial logs
+- id: BLOCK46
+  label: '05'
+  body: '05'
+- id: BLOCK47
+  label: RTP packet captures
+  body: RTP packet captures
+- id: BLOCK48
+  label: '06'
+  body: '06'
+- id: BLOCK49
+  label: AEC channel-routing diagram
+  body: AEC channel-routing diagram
+- id: BLOCK50
+  label: '07'
+  body: '07'
+- id: BLOCK51
+  label: Firmware verification timeline
+  body: Firmware verification timeline
+lists: []
+template: cms/templates/pages/portfolio--esp32-voice-device.tpl
+source: cms/templates/pages/portfolio--esp32-voice-device.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK20}}'
+  url: /portfolio.html
+- id: LINK1
+  label: ← Work
+  url: /portfolio.html
+- id: LINK2
+  label: Technical writing →
+  url: /writing.html

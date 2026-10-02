@@ -1,0 +1,104 @@
+title: Engineering domains
+browser_title: Engineering domains — Reaz Romen
+description: A compact map of the technical areas connecting projects, protocols and
+  writing.
+url: /domains/index.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: MAP / SYSTEMS / WRITING
+  body: MAP / SYSTEMS / WRITING
+- id: BLOCK1
+  label: Engineering domains
+  body: Engineering domains
+- id: BLOCK2
+  label: A compact map of the technical areas connecting projects, protocols and writing.
+  body: A compact map of the technical areas connecting projects, protocols and writing.
+- id: BLOCK3
+  label: Firmware, microcontrollers, device I/O, audio hardware and OTA.
+  body: Firmware, microcontrollers, device I/O, audio hardware and OTA.
+- id: BLOCK4
+  label: SIP, RTP, PBX systems, media paths, WebRTC and real-time audio.
+  body: SIP, RTP, PBX systems, media paths, WebRTC and real-time audio.
+- id: BLOCK5
+  label: Routing, DNS, transport protocols, secure connectivity and packet behavior.
+  body: Routing, DNS, transport protocols, secure connectivity and packet behavior.
+- id: BLOCK6
+  label: Linux, orchestration, deployment systems, observability and platform operations.
+  body: Linux, orchestration, deployment systems, observability and platform operations.
+- id: BLOCK7
+  label: Databases, storage systems, indexing and data infrastructure.
+  body: Databases, storage systems, indexing and data infrastructure.
+- id: BLOCK8
+  label: Wi-Fi CSI, radio systems, GNSS and signal-derived sensing.
+  body: Wi-Fi CSI, radio systems, GNSS and signal-derived sensing.
+- id: BLOCK9
+  label: AI systems, voice AI, retrieval, automation and control-plane integration.
+  body: AI systems, voice AI, retrieval, automation and control-plane integration.
+- id: BLOCK10
+  label: Embedded & Devices
+  body: Embedded & Devices
+- id: BLOCK11
+  label: 6 projects · 15 writing
+  body: 6 projects · 15 writing
+- id: BLOCK12
+  label: Communications & Voice
+  body: Communications & Voice
+- id: BLOCK13
+  label: 4 projects · 2 writing
+  body: 4 projects · 2 writing
+- id: BLOCK14
+  label: Networks
+  body: Networks
+- id: BLOCK15
+  label: 8 projects · 4 writing
+  body: 8 projects · 4 writing
+- id: BLOCK16
+  label: Infrastructure & Reliability
+  body: Infrastructure & Reliability
+- id: BLOCK17
+  label: 1 projects · 21 writing
+  body: 1 projects · 21 writing
+- id: BLOCK18
+  label: Data & Storage
+  body: Data & Storage
+- id: BLOCK19
+  label: 5 projects · 6 writing
+  body: 5 projects · 6 writing
+- id: BLOCK20
+  label: Sensing & RF
+  body: Sensing & RF
+- id: BLOCK21
+  label: 4 projects · 1 writing
+  body: 4 projects · 1 writing
+- id: BLOCK22
+  label: AI & Automation
+  body: AI & Automation
+- id: BLOCK23
+  label: 0 projects · 2 writing
+  body: 0 projects · 2 writing
+lists: []
+template: cms/templates/pages/domains--index.tpl
+source: cms/templates/pages/domains--index.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK10}} {{RR_BLOCK11}} {{RR_BLOCK3}}'
+  url: /domains/embedded-devices.html
+- id: LINK1
+  label: '{{RR_BLOCK12}} {{RR_BLOCK13}} {{RR_BLOCK4}}'
+  url: /domains/communications-voice.html
+- id: LINK2
+  label: '{{RR_BLOCK14}} {{RR_BLOCK15}} {{RR_BLOCK5}}'
+  url: /domains/networks.html
+- id: LINK3
+  label: '{{RR_BLOCK16}} {{RR_BLOCK17}} {{RR_BLOCK6}}'
+  url: /domains/infrastructure-reliability.html
+- id: LINK4
+  label: '{{RR_BLOCK18}} {{RR_BLOCK19}} {{RR_BLOCK7}}'
+  url: /domains/data-storage.html
+- id: LINK5
+  label: '{{RR_BLOCK20}} {{RR_BLOCK21}} {{RR_BLOCK8}}'
+  url: /domains/sensing-rf.html
+- id: LINK6
+  label: '{{RR_BLOCK22}} {{RR_BLOCK23}} {{RR_BLOCK9}}'
+  url: /domains/ai-automation.html

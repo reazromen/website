@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Portfolio Reference Reader</title>
+<style>
+:root{color-scheme:light;--bg:#f7f7f4;--paper:#fff;--text:#171717;--muted:#76766f;--line:#deded8}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.top{position:sticky;top:0;z-index:20;background:rgba(247,247,244,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.topin{max-width:980px;margin:auto;padding:12px 16px;display:flex;align-items:center;gap:12px}
+.who{min-width:0;flex:1}
+.name{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.meta{font-size:12px;color:var(--muted);margin-top:2px}
+button{border:0;border-radius:9px;background:#171717;color:#fff;padding:10px 16px;font:inherit;font-weight:650;cursor:pointer}
+main{max-width:980px;margin:auto;padding:16px}
+.reader{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;min-height:76vh}
+iframe{display:block;width:100%;height:76vh;border:0;background:white}
+.note{font-size:12px;color:var(--muted);margin:10px 2px 28px}
+.list{border-top:1px solid var(--line);padding-top:26px;margin-top:24px}
+.list h2{font-size:16px;margin:0 0 14px}
+.names{display:flex;flex-wrap:wrap;gap:8px}
+.names button{background:#fff;color:#171717;border:1px solid var(--line);font-size:13px;font-weight:500;padding:7px 10px}
+.names button.active{background:#171717;color:#fff;border-color:#171717}
+.source{font-size:12px;margin-top:10px}
+.source a{color:inherit}
+@media(max-width:640px){
+ .topin{padding:10px 12px}
+ main{padding:10px}
+ iframe{height:72vh}
+ .reader{min-height:72vh}
+ button{padding:9px 13px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+<div class="topin">
+<div class="who">
+<div class="name" id="name"></div>
+<div class="meta" id="count"></div>
+</div>
+<button id="next">Next →</button>
+</div>
+</header>
+<main>
+<div class="reader">
+<iframe id="reader" referrerpolicy="no-referrer" title="Portfolio homepage preview"></iframe>
+</div>
+<section class="list">
+<h2>{{RR_BLOCK0}}</h2>
+<div class="names" id="names"></div>
+</section>
+</main>
+<script>
+const items=[{"name":"Anthony Fu","url":"https://antfu.me/"},{"name":"Mitchell Hashimoto","url":"https://mitchellh.com/"},{"name":"Simon Willison","url":"https://simonwillison.net/"},{"name":"Julia Evans","url":"https://jvns.ca/"},{"name":"Brendan Gregg","url":"https://www.brendangregg.com/"},{"name":"Bert Hubert","url":"https://berthub.eu/"},{"name":"Drew DeVault","url":"https://drewdevault.com/"},{"name":"Filippo Valsorda","url":"https://filippo.io/"},{"name":"Geoffrey Litt","url":"https://www.geoffreylitt.com/"},{"name":"Jeff Geerling","url":"https://www.jeffgeerling.com/"},{"name":"Cliff Biffle","url":"https://cliffle.com/"},{"name":"Thorsten Ball","url":"https://thorstenball.com/"},{"name":"Dan Luu","url":"https://danluu.com/"},{"name":"Ned Batchelder","url":"https://nedbatchelder.com/"},{"name":"Hillel Wayne","url":"https://www.hillelwayne.com/"},{"name":"Hynek Schlawack","url":"https://hynek.me/"},{"name":"Brad Fitzpatrick","url":"https://bradfitz.com/"},{"name":"Russ Cox","url":"https://swtch.com/~rsc/"},{"name":"Lea Verou","url":"https://lea.verou.me/"},{"name":"Armin Ronacher","url":"https://lucumr.pocoo.org/"},{"name":"Steve Klabnik","url":"https://steveklabnik.com/"},{"name":"Maggie Appleton","url":"https://maggieappleton.com/"},{"name":"Peter Bourgon","url":"https://peter.bourgon.org/"},{"name":"Nelson Elhage","url":"https://blog.nelhage.com/"},{"name":"Andrew Kelley","url":"https://andrewkelley.me/"},{"name":"Brandur Leach","url":"https://brandur.org/"},{"name":"Fabrice Bellard","url":"https://bellard.org/"},{"name":"fasterthanlime","url":"https://fasterthanli.me/"},{"name":"Daniel Stenberg","url":"https://daniel.haxx.se/"},{"name":"Jacob Kaplan-Moss","url":"https://jacobian.org/"},{"name":"Tom Verbeure","url":"https://tomverbeure.github.io/"},{"name":"Josh W. Comeau","url":"https://www.joshwcomeau.com/"},{"name":"Rauno Freiberg","url":"https://rauno.me/"},{"name":"Emil Kowalski","url":"https://emilkowal.ski/"},{"name":"Steph Ango","url":"https://stephango.com/"},{"name":"Lee Robinson","url":"https://leerob.com/"},{"name":"Addy Osmani","url":"https://addyosmani.com/"},{"name":"Evan You","url":"https://evanyou.me/"},{"name":"Ken Shirriff","url":"https://www.righto.com/"},{"name":"Bret Victor","url":"https://worrydream.com/"},{"name":"Hakim El Hattab","url":"https://hakim.se/"},{"name":"Bruno Simon","url":"https://bruno-simon.com/"},{"name":"Shawn Wang (swyx)","url":"https://www.swyx.io/"},{"name":"Tonsky","url":"https://tonsky.me/"},{"name":"Brittany Chiang","url":"https://brittanychiang.com/"},{"name":"Jhey Tompkins","url":"https://jhey.dev/"},{"name":"Paco Coursey","url":"https://paco.me/"},{"name":"Tania Rascia","url":"https://www.taniarascia.com/"},{"name":"Bartosz Ciechanowski","url":"https://ciechanow.ski/"},{"name":"Steven Wittens / Acko","url":"https://acko.net/"},{"name":"Maxime Heckel","url":"https://blog.maximeheckel.com/"},{"name":"Eva Decker","url":"https://eva.town/"},{"name":"Elle","url":"https://ellesho.me/"},{"name":"Joseph Ma","url":"https://joseph-ma.com/"},{"name":"Yuna Park","url":"https://yunapark.tech/"},{"name":"Muhammad Saad","url":"https://portfolio-saad.com/"},{"name":"Harsha Gundala","url":"https://harshag.com/"},{"name":"Shenal Ranasinghe","url":"https://shenalranasinghe.com/"},{"name":"Aryan Shakya","url":"https://aryanshakya.in/"},{"name":"Jayma","url":"https://thisisjayma.com/"},{"name":"ITom / Tomasz Szmajda","url":"https://itomdev.com/"},{"name":"Mumeyong Dev","url":"https://www.mumeyong.dev/"},{"name":"Viram Choksi","url":"https://www.viram-choksi.in/os-theme-portfolio"},{"name":"Houlihan Gavin","url":"https://houlihangavin.com/"},{"name":"Mahendra","url":"https://mhndra.com/"},{"name":"Yaad Nahshon","url":"https://yaadnahshon.com/"},{"name":"Thakr","url":"https://thakr.io/"},{"name":"Liz Rice","url":"https://www.lizrice.com/"},{"name":"Alex Ellis","url":"https://alexellis.io/"},{"name":"Ivan Velichko","url":"https://iximiuz.com/"},{"name":"Charity Majors","url":"https://charity.wtf/"},{"name":"Kelsey Hightower","url":"https://kelseyhightower.com/"},{"name":"Jessie Frazelle","url":"https://blog.jessfraz.com/"},{"name":"Michael Stapelberg","url":"https://michael.stapelberg.ch/"},{"name":"Kris Nóva","url":"https://krisnova.net/"},{"name":"Alice Goldfuss","url":"https://blog.alicegoldfuss.com/"},{"name":"Joe Beda","url":"https://joe.dev/"},{"name":"Bryan Cantrill","url":"https://bcantrill.dtrace.org/"},{"name":"Adam Jacob","url":"https://www.adamhjk.com/"},{"name":"Bojan Gavrilovic","url":"https://gavrilovic.ca/"},{"name":"Jay Carlson","url":"https://jaycarlson.net/"},{"name":"Erich Styger","url":"https://mcuoneclipse.com/"},{"name":"Chris Gammell","url":"https://chrisgammell.com/"},{"name":"Jared Wolff","url":"https://www.jaredwolff.com/"},{"name":"Geoffrey Hunter","url":"https://blog.mbedded.ninja/"},{"name":"Phillip Johnston","url":"https://phillipjohnston.net/"},{"name":"Utkarsh Verma","url":"https://utkarshverma.me/"},{"name":"PZX","url":"https://pengzixuan.me/"},{"name":"Jakob Frenzel","url":"https://www.jakobfrenzel.com/"},{"name":"Tom Igoe","url":"https://tigoe.com/"},{"name":"Nadya Peek","url":"https://www.hcde.washington.edu/peek"},{"name":"David Mellis","url":"http://dam.mellis.org/"},{"name":"Leah Buechley","url":"http://leahbuechley.com/"},{"name":"Andrew 'bunnie' Huang","url":"https://www.bunniestudios.com/"},{"name":"Jeroen Domburg / Sprite_tm","url":"https://spritesmods.com/"},{"name":"Ben Krasnow","url":"https://benkrasnow.blogspot.com/"},{"name":"Simone Giertz","url":"https://www.simonegiertz.com/"},{"name":"Neil Gershenfeld","url":"https://cba.mit.edu/"},{"name":"Chris Coleman","url":"https://interrupt.memfault.com/authors/chris/"}];
+let current=Number(new URLSearchParams(location.search).get("i")||0);
+if(!Number.isFinite(current)||current<0||current>=items.length) current=0;
+
+const nameEl=document.getElementById("name");
+const countEl=document.getElementById("count");
+const frame=document.getElementById("reader");
+const names=document.getElementById("names");
+
+function render(){
+  const item=items[current];
+  nameEl.textContent=item.name;
+  countEl.textContent=(current+1)+" of "+items.length;
+  frame.src="/reference-reader/proxy?i="+current;
+  [...names.children].forEach((b,i)=>b.classList.toggle("active",i===current));
+  history.replaceState(null,"","?i="+current);
+  scrollTo({top:0,behavior:"instant"});
+}
+
+items.forEach((item,i)=>{
+  const b=document.createElement("button");
+  b.textContent=item.name;
+  b.onclick=()=>{current=i;render()};
+  names.appendChild(b);
+});
+
+document.getElementById("next").onclick=()=>{
+  current=(current+1)%items.length;
+  render();
+};
+
+document.addEventListener("keydown",e=>{
+  if(e.key==="ArrowRight"){current=(current+1)%items.length;render()}
+});
+
+render();
+</script>
+</body>
+</html>

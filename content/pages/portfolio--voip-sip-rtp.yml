@@ -1,0 +1,199 @@
+title: VoIP & Real-Time Communications Infrastructure
+browser_title: VoIP & Real-Time Communications Infrastructure — Reaz Romen
+description: Building and debugging signaling, routing, media, endpoints and infrastructure
+  around real-time communications rather than treating the PBX as the whole system.
+url: /portfolio/voip-sip-rtp.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: CASE 04 / SIP signaling / RTP media / distributed debugging
+  body: CASE 04 / SIP signaling / RTP media / distributed debugging
+- id: BLOCK1
+  label: VoIP & Real-Time Communications Infrastructure
+  body: VoIP & Real-Time Communications Infrastructure
+- id: BLOCK2
+  label: Building and debugging signaling, routing, media, endpoints and infrastructure
+    around real-time
+  body: Building and debugging signaling, routing, media, endpoints and infrastructure
+    around real-time communications rather than treating the PBX as the whole system.
+- id: BLOCK3
+  label: My VoIP work covers more than PBX configuration. A call crosses independent
+    signaling, routing,
+  body: My VoIP work covers more than PBX configuration. A call crosses independent
+    signaling, routing, media, network and endpoint components. SIP signaling and
+    RTP media often follow different paths, so a successful INVITE does not prove
+    working audio.
+- id: BLOCK4
+  label: The symptom is not the layer.
+  body: The symptom is not the layer.
+- id: BLOCK5
+  label: Troubleshooting requires separating registration, authentication, SIP routing,
+    SDP negotiation,
+  body: Troubleshooting requires separating registration, authentication, SIP routing,
+    SDP negotiation, codec selection, NAT, RTP ports, packet flow, jitter, media timing
+    and endpoint behavior. A system can be correct at one layer and broken at another.
+- id: BLOCK6
+  label: Trace the complete path.
+  body: Trace the complete path.
+- id: BLOCK7
+  label: How I worked the problem.
+  body: How I worked the problem.
+- id: BLOCK8
+  label: 01 Worked with endpoint provisioning, PBX configuration, registration debugging
+    and inbound/out
+  body: '01
+
+
+    Worked with endpoint provisioning, PBX configuration, registration debugging and
+    inbound/outbound call flows.'
+- id: BLOCK9
+  label: Worked with endpoint provisioning, PBX configuration, registration debugging
+    and inbound/outbou
+  body: Worked with endpoint provisioning, PBX configuration, registration debugging
+    and inbound/outbound call flows.
+- id: BLOCK10
+  label: 02 Used packet captures and RTP analysis to inspect media independently from
+    SIP signaling.
+  body: '02
+
+
+    Used packet captures and RTP analysis to inspect media independently from SIP
+    signaling.'
+- id: BLOCK11
+  label: Used packet captures and RTP analysis to inspect media independently from
+    SIP signaling.
+  body: Used packet captures and RTP analysis to inspect media independently from
+    SIP signaling.
+- id: BLOCK12
+  label: 03 Worked across Asterisk, FreeSWITCH, OpenSIPS, RTPengine, Drachtio, Linphone
+    and custom SIP e
+  body: '03
+
+
+    Worked across Asterisk, FreeSWITCH, OpenSIPS, RTPengine, Drachtio, Linphone and
+    custom SIP endpoints.'
+- id: BLOCK13
+  label: Worked across Asterisk, FreeSWITCH, OpenSIPS, RTPengine, Drachtio, Linphone
+    and custom SIP endp
+  body: Worked across Asterisk, FreeSWITCH, OpenSIPS, RTPengine, Drachtio, Linphone
+    and custom SIP endpoints.
+- id: BLOCK14
+  label: 04 Connected telephony debugging to health and operational tooling around
+    the services that sup
+  body: '04
+
+
+    Connected telephony debugging to health and operational tooling around the services
+    that support a call.'
+- id: BLOCK15
+  label: Connected telephony debugging to health and operational tooling around the
+    services that suppor
+  body: Connected telephony debugging to health and operational tooling around the
+    services that support a call.
+- id: BLOCK16
+  label: '05 Debugged embedded and infrastructure sides together: firmware behavior,
+    RTP traffic, SIP sig'
+  body: '05
+
+
+    Debugged embedded and infrastructure sides together: firmware behavior, RTP traffic,
+    SIP signaling, PBX configuration, network timing and remote endpoint behavior.'
+- id: BLOCK17
+  label: 'Debugged embedded and infrastructure sides together: firmware behavior,
+    RTP traffic, SIP signal'
+  body: 'Debugged embedded and infrastructure sides together: firmware behavior, RTP
+    traffic, SIP signaling, PBX configuration, network timing and remote endpoint
+    behavior.'
+- id: BLOCK18
+  label: Make the system observable enough to explain.
+  body: Make the system observable enough to explain.
+- id: BLOCK19
+  label: The useful capability is cross-layer visibility. Instead of treating the
+    endpoint and telephony
+  body: The useful capability is cross-layer visibility. Instead of treating the endpoint
+    and telephony backend as independent black boxes, the signaling and media path
+    can be traced across firmware, packets, routing and infrastructure.
+- id: BLOCK20
+  label: Artifacts that carry the technical story.
+  body: Artifacts that carry the technical story.
+- id: BLOCK21
+  label: The case study is structured around real engineering evidence rather than
+    generic product image
+  body: The case study is structured around real engineering evidence rather than
+    generic product imagery.
+- id: BLOCK22
+  label: Work
+  body: Work
+- id: BLOCK23
+  label: TECHNOLOGY SURFACE
+  body: TECHNOLOGY SURFACE
+- id: BLOCK24
+  label: endpoint
+  body: endpoint
+- id: BLOCK25
+  label: SIP infrastructure
+  body: SIP infrastructure
+- id: BLOCK26
+  label: routing / PBX
+  body: routing / PBX
+- id: BLOCK27
+  label: media infrastructure
+  body: media infrastructure
+- id: BLOCK28
+  label: destination endpoint
+  body: destination endpoint
+- id: BLOCK29
+  label: '01'
+  body: '01'
+- id: BLOCK30
+  label: SIP sequence diagram
+  body: SIP sequence diagram
+- id: BLOCK31
+  label: '02'
+  body: '02'
+- id: BLOCK32
+  label: RTP media path
+  body: RTP media path
+- id: BLOCK33
+  label: '03'
+  body: '03'
+- id: BLOCK34
+  label: Wireshark SIP trace
+  body: Wireshark SIP trace
+- id: BLOCK35
+  label: '04'
+  body: '04'
+- id: BLOCK36
+  label: RTP stream analysis
+  body: RTP stream analysis
+- id: BLOCK37
+  label: '05'
+  body: '05'
+- id: BLOCK38
+  label: PBX architecture
+  body: PBX architecture
+- id: BLOCK39
+  label: '06'
+  body: '06'
+- id: BLOCK40
+  label: Embedded-to-PBX architecture
+  body: Embedded-to-PBX architecture
+- id: BLOCK41
+  label: '07'
+  body: '07'
+- id: BLOCK42
+  label: Service health dashboard
+  body: Service health dashboard
+lists: []
+template: cms/templates/pages/portfolio--voip-sip-rtp.tpl
+source: cms/templates/pages/portfolio--voip-sip-rtp.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK22}}'
+  url: /portfolio.html
+- id: LINK1
+  label: ← Work
+  url: /portfolio.html
+- id: LINK2
+  label: Technical writing →
+  url: /writing.html

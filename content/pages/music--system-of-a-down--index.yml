@@ -1,0 +1,37 @@
+title: System of a Down
+browser_title: System of a Down — Research Listening Archive — Reaz Romen
+description: System of a Down — Research Listening Archive — research listening note
+  in the Reaz Romen music archive.
+url: /music/system-of-a-down/index.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: RESEARCH LISTENING ARCHIVE
+  body: RESEARCH LISTENING ARCHIVE
+- id: BLOCK1
+  label: System of a Down
+  body: System of a Down
+- id: BLOCK2
+  label: '100 research listening notes. These are separated from personal listening-memory
+    essays and do '
+  body: 100 research listening notes. These are separated from personal listening-memory
+    essays and do not invent first-person experience.
+- id: BLOCK3
+  label: ← Back to Music
+  body: '[← Back to Music](/music.html)'
+- id: BLOCK4
+  label: NOTES
+  body: NOTES
+- id: BLOCK5
+  label: 100 ENTRIES
+  body: 100 ENTRIES
+lists:
+- key: LIST0
+  filter:
+    section: music
+    artist: System of a Down
+    kind: research
+  style: music
+template: cms/templates/pages/music--system-of-a-down--index.tpl
+source: cms/templates/pages/music--system-of-a-down--index.json
+links: []

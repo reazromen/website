@@ -1,0 +1,41 @@
+title: বাংলায় আমার লেখালেখি।
+browser_title: বাংলা — Reaz Romen
+description: Reaz Romen-এর বাংলা লেখা—engineering, technology, systems, music এবং
+  অন্যান্য বিষয়।
+url: /bangla/index.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: বাংলা
+  body: বাংলা
+- id: BLOCK1
+  label: বাংলায় আমার লেখালেখি।
+  body: বাংলায় আমার লেখালেখি।
+- id: BLOCK2
+  label: Engineering থেকে music—বাংলায় লেখা সবকিছুর language archive।
+  body: Engineering থেকে music—বাংলায় লেখা সবকিছুর language archive।
+- id: BLOCK3
+  label: বাংলায় প্রকাশিত সব লেখা এখানে একসাথে থাকবে। এটা আলাদা duplicate content section
+    না—একই লেখা তার
+  body: বাংলায় প্রকাশিত সব লেখা এখানে একসাথে থাকবে। এটা আলাদা duplicate content section
+    না—একই লেখা তার মূল topic বা section-এ থাকবে, আর language বাংলা হলে এই archive-এও
+    দেখা যাবে।
+- id: BLOCK4
+  label: এখানে engineering, technology, systems, music এবং অন্য বিষয়েও বাংলা লেখা
+    থাকতে পারবে।
+  body: এখানে engineering, technology, systems, music এবং অন্য বিষয়েও বাংলা লেখা থাকতে
+    পারবে।
+- id: BLOCK5
+  label: বাংলা
+  body: বাংলা
+- id: BLOCK6
+  label: LANGUAGE ARCHIVE
+  body: LANGUAGE ARCHIVE
+lists:
+- key: LIST0
+  filter:
+    section: bangla
+  style: cards
+template: cms/templates/pages/bangla--index.tpl
+source: cms/templates/pages/bangla--index.json
+links: []

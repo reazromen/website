@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="Building and debugging a real-time voice device across firmware, codecs, audio timing, packet transport, PBX integration and hardware behavior." name="description"/>
+<meta content="Reaz Romen" name="author"/>
+<link href="../about.html" rel="author"/>
+<title>ESP32-S3 Connected Voice Device — Reaz Romen</title>
+<link href="../static/css/site.css" rel="stylesheet"/>
+<link href="/assets/site.css" rel="stylesheet"/>
+<link href="/assets/sitewide-v2.css" rel="stylesheet"/>
+<link href="/assets/phase1.css" rel="stylesheet"/><link href="/feed.xml" rel="alternate" title="Reaz Romen — Writing" type="application/rss+xml"/><link href="/atom.xml" rel="alternate" title="Reaz Romen — Writing" type="application/atom+xml"/><meta content="Work" data-pagefind-filter="type[content]"/><meta content="Embedded &amp; Devices" data-pagefind-filter="domain[content]"/><meta content="Case study" data-pagefind-filter="format[content]"/><meta content="Work" data-pagefind-meta="type[content]"/><meta content="Embedded &amp; Devices" data-pagefind-meta="domain[content]"/><link href="/assets/phase2.css" rel="stylesheet"/><link href="/assets/responsive-v3.css" rel="stylesheet"/></head>
+<body class="rr-themed">
+<a class="skip-link" href="#rr-main">Skip to content</a>
+<header class="site-header rr-global-header"><div class="site-header-inner"><a aria-label="Reaz Romen home" class="brand" href="/">RR</a><nav aria-label="Main navigation" class="nav"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button aria-label="Search and quick navigation" class="icon-link search-action" data-open-command="" title="Search (Ctrl/⌘ K)" type="button"><svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg></button><a aria-label="GitHub" class="icon-link github-action" href="https://github.com/reazromen" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon icon-fill" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"></path></svg></a><button aria-label="Toggle color scheme" class="theme-toggle" onclick="toggleTheme()" type="button"><svg aria-hidden="true" class="icon" data-theme-icon="moon" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"></path></svg><svg aria-hidden="true" class="icon" data-theme-icon="sun" hidden="" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></svg></button></div></nav></div></header>
+<main class="shell site-main" data-pagefind-body="" id="rr-main">
+<article class="case-study">
+<header class="case-hero">
+<a class="back-link" href="{{RR_LINK0}}"><svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"></path></svg><span>{{RR_BLOCK20}}</span></a>
+<div class="case-hero-grid">
+<div>
+<p class="eyebrow">{{RR_BLOCK0}}</p>
+<h1>{{RR_BLOCK1}}</h1>
+<p class="lede">{{RR_BLOCK2}}</p>
+</div>
+<aside class="case-facts"><span>{{RR_BLOCK21}}</span><div class="tech-cloud"><b>ESP32-S3</b><b>ESP-IDF</b><b>ESP-ADF</b><b>FreeRTOS</b><b>C/C++</b><b>ES7210</b><b>ES8311</b><b>I2S</b><b>I2C</b><b>SIP</b><b>RTP</b><b>Asterisk</b><b>Linphone</b><b>Wireshark</b></div></aside>
+</div>
+</header>
+<section class="case-section case-intro"><div class="section-label">CONTEXT</div><div class="case-copy"><p class="large-copy">{{RR_BLOCK3}}</p></div></section>
+<section class="case-section"><div class="section-label">THE ENGINEERING PROBLEM</div><div class="case-copy"><h2>{{RR_BLOCK4}}</h2><p>{{RR_BLOCK5}}</p></div></section>
+<section class="case-section"><div class="section-label">SYSTEM PATH</div><div class="case-copy">
+<h2>{{RR_BLOCK6}}</h2>
+<div class="flow-pair">
+<div><small>FORWARD</small><span>{{RR_BLOCK22}}</span><i>↓</i><span>{{RR_BLOCK23}}</span><i>↓</i><span>{{RR_BLOCK24}}</span><i>↓</i><span>{{RR_BLOCK25}}</span><i>↓</i><span>{{RR_BLOCK26}}</span><i>↓</i><span>{{RR_BLOCK27}}</span><i>↓</i><span>{{RR_BLOCK28}}</span><i>↓</i><span>{{RR_BLOCK29}}</span></div>
+<div><small>RETURN</small><span>{{RR_BLOCK30}}</span><i>↓</i><span>{{RR_BLOCK31}}</span><i>↓</i><span>{{RR_BLOCK32}}</span><i>↓</i><span>{{RR_BLOCK33}}</span><i>↓</i><span>{{RR_BLOCK34}}</span><i>↓</i><span>{{RR_BLOCK35}}</span><i>↓</i><span>{{RR_BLOCK36}}</span><i>↓</i><span>{{RR_BLOCK37}}</span></div>
+</div>
+</div></section>
+<section class="case-section"><div class="section-label">INVESTIGATION</div><div class="case-copy"><h2>{{RR_BLOCK7}}</h2><ol class="approach-list"><li>{{RR_BLOCK8}}</li><li>{{RR_BLOCK10}}</li><li>{{RR_BLOCK12}}</li><li>{{RR_BLOCK14}}</li></ol></div></section>
+<section class="case-section result-section"><div class="section-label">RESULT</div><div class="case-copy"><h2>{{RR_BLOCK16}}</h2><p class="large-copy">{{RR_BLOCK17}}</p></div></section>
+<section class="case-section evidence-section"><div class="section-label">ENGINEERING EVIDENCE</div><div class="case-copy">
+<h2>{{RR_BLOCK18}}</h2><p class="muted-copy">{{RR_BLOCK19}}</p>
+<div class="evidence-grid"><div><span>{{RR_BLOCK38}}</span><strong>{{RR_BLOCK39}}</strong></div><div><span>{{RR_BLOCK40}}</span><strong>{{RR_BLOCK41}}</strong></div><div><span>{{RR_BLOCK42}}</span><strong>{{RR_BLOCK43}}</strong></div><div><span>{{RR_BLOCK44}}</span><strong>{{RR_BLOCK45}}</strong></div><div><span>{{RR_BLOCK46}}</span><strong>{{RR_BLOCK47}}</strong></div><div><span>{{RR_BLOCK48}}</span><strong>{{RR_BLOCK49}}</strong></div><div><span>{{RR_BLOCK50}}</span><strong>{{RR_BLOCK51}}</strong></div></div>
+</div></section>
+<nav aria-label="Case study navigation" class="case-next"><a href="{{RR_LINK1}}">← Work</a><a href="{{RR_LINK2}}">Technical writing →</a></nav>
+</article>
+</main>
+<footer class="shell site-footer">
+<div>
+<span class="status-dot"></span>
+<strong>Reaz Romen — independent systems engineer.</strong>
+</div>
+<p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+<nav aria-label="Footer">
+<a href="../topics.html">Topics</a>
+<a href="../systems.html">Systems</a>
+<a href="../archive.html">Archive</a>
+<a href="../author/reaz-romen.html">Author record</a>
+</nav>
+</footer>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script>
+<dialog aria-label="Search and quick navigation" class="command-palette" data-pagefind-ignore="" id="command-palette">
+<div class="command-shell">
+<div class="command-input-row"><svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input aria-label="Search site" autocomplete="off" id="command-input" placeholder="Search writing, work, topics…" type="search"/><button aria-label="Close" class="command-close" data-close-command="" type="button"><svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav aria-label="Quick navigation" class="command-shortcuts">
+<a href="/portfolio.html">Work <span>Projects and systems</span></a>
+<a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
+<a href="/domains/">Domains <span>Browse engineering areas</span></a>
+<a href="/now.html">Now <span>Current public focus</span></a>
+<a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
+<a href="/about.html">About <span>Background and approach</span></a>
+</nav>
+<div aria-live="polite" class="command-results" id="command-results"></div>
+<div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
+</div></dialog><script src="/assets/phase1.js"></script><div class="context-preview" data-pagefind-ignore="" hidden="" id="context-preview" role="tooltip"></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</html>

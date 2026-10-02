@@ -1,0 +1,112 @@
+title: Now
+browser_title: Now — Reaz Romen
+description: What I am currently building, improving and writing about, without exposing
+  operational infrastructure details.
+url: /now/index.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: CURRENT / PUBLIC SNAPSHOT
+  body: CURRENT / PUBLIC SNAPSHOT
+- id: BLOCK1
+  label: Now
+  body: Now
+- id: BLOCK2
+  label: What I am currently building, improving and writing about, without exposing
+    operational infrast
+  body: What I am currently building, improving and writing about, without exposing
+    operational infrastructure details.
+- id: BLOCK3
+  label: BUILDING / IMPROVING
+  body: BUILDING / IMPROVING
+- id: BLOCK4
+  label: RECENT WRITING
+  body: RECENT WRITING
+- id: BLOCK5
+  label: Public snapshot · updated 26 Sep 2026
+  body: Public snapshot · updated 26 Sep 2026
+- id: BLOCK6
+  label: LOUP Connected Voice Device
+  body: LOUP Connected Voice Device
+- id: BLOCK7
+  label: Embedded · Voice
+  body: Embedded · Voice
+- id: BLOCK8
+  label: Telephony / SIP / RTP Infrastructure
+  body: Telephony / SIP / RTP Infrastructure
+- id: BLOCK9
+  label: Telephony
+  body: Telephony
+- id: BLOCK10
+  label: OTA Fleet Control Plane
+  body: OTA Fleet Control Plane
+- id: BLOCK11
+  label: Infrastructure · Embedded
+  body: Infrastructure · Embedded
+- id: BLOCK12
+  label: Wi-Fi CSI Presence Sensing
+  body: Wi-Fi CSI Presence Sensing
+- id: BLOCK13
+  label: RF · Data
+  body: RF · Data
+- id: BLOCK14
+  label: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+  body: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+- id: BLOCK15
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK16
+  label: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+  body: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+- id: BLOCK17
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK18
+  label: ZFS Scrub, Resilver, Snapshot, and Replication Solve Different Failure Modes
+  body: ZFS Scrub, Resilver, Snapshot, and Replication Solve Different Failure Modes
+- id: BLOCK19
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK20
+  label: Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization
+  body: Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization
+- id: BLOCK21
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK22
+  label: Why Observability Workloads Keep Ending Up in ClickHouse
+  body: Why Observability Workloads Keep Ending Up in ClickHouse
+- id: BLOCK23
+  label: '2026-09-26'
+  body: '2026-09-26'
+lists: []
+template: cms/templates/pages/now--index.tpl
+source: cms/templates/pages/now--index.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK6}} {{RR_BLOCK7}}'
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html
+- id: LINK1
+  label: '{{RR_BLOCK8}} {{RR_BLOCK9}}'
+  url: /portfolio/voip-sip-rtp.html
+- id: LINK2
+  label: '{{RR_BLOCK10}} {{RR_BLOCK11}}'
+  url: /portfolio/projects/ota-fleet-control-plane.html
+- id: LINK3
+  label: '{{RR_BLOCK12}} {{RR_BLOCK13}}'
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html
+- id: LINK4
+  label: '{{RR_BLOCK14}} {{RR_BLOCK15}}'
+  url: /posts/pgvector-hnsw-fast-operationally-wrong.html
+- id: LINK5
+  label: '{{RR_BLOCK16}} {{RR_BLOCK17}}'
+  url: /posts/ebpf-xdp-verifier-operational-safety.html
+- id: LINK6
+  label: '{{RR_BLOCK18}} {{RR_BLOCK19}}'
+  url: /posts/zfs-scrub-resilver-snapshot-replication.html
+- id: LINK7
+  label: '{{RR_BLOCK20}} {{RR_BLOCK21}}'
+  url: /posts/wifi-csi-presence-calibration-drift-synchronization.html
+- id: LINK8
+  label: '{{RR_BLOCK22}} {{RR_BLOCK23}}'
+  url: /posts/why-observability-workloads-end-up-clickhouse.html

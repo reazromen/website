@@ -1,0 +1,473 @@
+title: An old Mac mini became my private infrastructure platform.
+browser_title: Home Server — Living Infrastructure Notebook | Reaz Romen
+description: A living engineering notebook documenting how an old Mac mini evolved
+  into a private infrastructure platform for networking, observability, device infrastructure,
+  sensing, environmental data and telephony R&D.
+url: /homeserver/index.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Home Server / living infrastructure notebook
+  body: Home Server / living infrastructure notebook
+- id: BLOCK1
+  label: An old Mac mini became my private infrastructure platform.
+  body: An old Mac mini became my private infrastructure platform.
+- id: BLOCK2
+  label: What started as Ubuntu, Docker and SSH gradually became the control plane
+    behind observability,
+  body: What started as Ubuntu, Docker and SSH gradually became the control plane
+    behind observability, networking, storage continuity, embedded-device work, sensing,
+    environmental data and telephony R&D.
+- id: BLOCK3
+  label: 'This page is intentionally not a finished case study. It is the canonical
+    public place for the '
+  body: This page is intentionally not a finished case study. It is the canonical
+    public place for the architecture, current state, active technical discussions
+    and the decisions that keep changing the system.
+- id: BLOCK4
+  label: Current status
+  body: Current status
+- id: BLOCK5
+  label: Living system, not a museum.
+  body: Living system, not a museum.
+- id: BLOCK6
+  label: State
+  body: State
+- id: BLOCK7
+  label: Ongoing engineering and R&D platform.
+  body: Ongoing engineering and R&D platform.
+- id: BLOCK8
+  label: Core host
+  body: Core host
+- id: BLOCK9
+  label: Older Mac mini running Ubuntu and containerized services.
+  body: Older Mac mini running Ubuntu and containerized services.
+- id: BLOCK10
+  label: Primary role
+  body: Primary role
+- id: BLOCK11
+  label: Stable coordination point for services, data, dashboards and remote operations.
+  body: Stable coordination point for services, data, dashboards and remote operations.
+- id: BLOCK12
+  label: Updated
+  body: Updated
+- id: BLOCK13
+  label: 25 Sep 2026
+  body: 25 Sep 2026
+- id: BLOCK14
+  label: Why this page exists
+  body: Why this page exists
+- id: BLOCK15
+  label: I did not start by designing a “homelab architecture.” Wi-Fi failed, so I
+    needed recovery. Remo
+  body: I did not start by designing a “homelab architecture.” Wi-Fi failed, so I
+    needed recovery. Remote access mattered, so I needed a private network. Too many
+    services appeared, so I needed observability. Too many dashboards appeared, so
+    I needed a control surface. Devices started producing data, so the server became
+    a data backend. Firmware and telephony work needed infrastructure, so they joined
+    the same platform.
+- id: BLOCK16
+  label: 'The page therefore doubles as a living engineering notebook: when a homeserver
+    discussion chang'
+  body: 'The page therefore doubles as a living engineering notebook: when a homeserver
+    discussion changes the architecture, creates a new operational rule, or closes
+    an open problem, the durable result belongs here.'
+- id: BLOCK17
+  label: Evolution
+  body: Evolution
+- id: BLOCK18
+  label: Problems became architecture.
+  body: Problems became architecture.
+- id: BLOCK19
+  label: An always-on Mac mini for containers, files, SSH access and experiments.
+  body: An always-on Mac mini for containers, files, SSH access and experiments.
+- id: BLOCK20
+  label: Broadcom Wi-Fi, routing and availability problems forced watchdog logic,
+    NetworkManager recover
+  body: Broadcom Wi-Fi, routing and availability problems forced watchdog logic, NetworkManager
+    recovery and a more explicit failure model.
+- id: BLOCK21
+  label: Tailscale made the host a persistent private node. Cloudflare and Caddy separated
+    controlled we
+  body: Tailscale made the host a persistent private node. Cloudflare and Caddy separated
+    controlled web ingress from private management paths.
+- id: BLOCK22
+  label: Desktop, laptop and hserver became nodes with different capabilities and
+    availability. Workload
+  body: Desktop, laptop and hserver became nodes with different capabilities and availability.
+    Workload placement and Nomad experiments followed.
+- id: BLOCK23
+  label: Prometheus and Grafana grew from host metrics into service state, network
+    relationships, failur
+  body: Prometheus and Grafana grew from host metrics into service state, network
+    relationships, failure validation and operational evidence.
+- id: BLOCK24
+  label: Homarr, ingress, authentication, service-group controls and recovery views
+    turned many independ
+  body: Homarr, ingress, authentication, service-group controls and recovery views
+    turned many independent tools into one operational surface.
+- id: BLOCK25
+  label: Architecture now
+  body: Architecture now
+- id: BLOCK26
+  label: Stable center, replaceable edges.
+  body: Stable center, replaceable edges.
+- id: BLOCK27
+  label: Cloudflare for selected public services; Tailscale for private management
+    and node-to-node reac
+  body: Cloudflare for selected public services; Tailscale for private management
+    and node-to-node reachability.
+- id: BLOCK28
+  label: Ubuntu, Docker, ingress, service coordination, operational dashboards, collectors
+    and continuit
+  body: Ubuntu, Docker, ingress, service coordination, operational dashboards, collectors
+    and continuity services.
+- id: BLOCK29
+  label: More capable machines can take heavier workloads while the home server remains
+    the persistent c
+  body: More capable machines can take heavier workloads while the home server remains
+    the persistent coordination point.
+- id: BLOCK30
+  label: Prometheus, Grafana, service state, logs and experiments around network-path
+    visibility.
+  body: Prometheus, Grafana, service state, logs and experiments around network-path
+    visibility.
+- id: BLOCK31
+  label: Embedded firmware, OTA experiments, Wi-Fi CSI, GNSS/GSM and other physical-world
+    telemetry.
+  body: Embedded firmware, OTA experiments, Wi-Fi CSI, GNSS/GSM and other physical-world
+    telemetry.
+- id: BLOCK32
+  label: SIP/RTP infrastructure, environmental observatories, presence experiments
+    and data services sha
+  body: SIP/RTP infrastructure, environmental observatories, presence experiments
+    and data services share the same underlying platform patterns.
+- id: BLOCK33
+  label: Current discussion threads
+  body: Current discussion threads
+- id: BLOCK34
+  label: What is still moving.
+  body: What is still moving.
+- id: BLOCK35
+  label: Chat-driven operations path
+  body: Chat-driven operations path
+- id: BLOCK36
+  label: The weakest boundary is still AI/agent → MCP → hserver → other nodes. The
+    work is around reliab
+  body: The weakest boundary is still AI/agent → MCP → hserver → other nodes. The
+    work is around reliable access, authorization, auditability, safe execution and
+    recovery when one machine disappears.
+- id: BLOCK37
+  label: Master operations surface
+  body: Master operations surface
+- id: BLOCK38
+  label: Homarr and Grafana are being consolidated so infrastructure, environmental
+    data, presence/RF, t
+  body: Homarr and Grafana are being consolidated so infrastructure, environmental
+    data, presence/RF, telephony, storage and recovery remain discoverable from one
+    place.
+- id: BLOCK39
+  label: Network observability
+  body: Network observability
+- id: BLOCK40
+  label: Moving beyond container lists toward service groups, traffic relationships,
+    timeline views, pat
+  body: Moving beyond container lists toward service groups, traffic relationships,
+    timeline views, path tracing and better visibility into the whole LAN.
+- id: BLOCK41
+  label: Service lifecycle control
+  body: Service lifecycle control
+- id: BLOCK42
+  label: Heavy stacks should not run forever. Service-group toggles, maintenance windows
+    and resource-aw
+  body: Heavy stacks should not run forever. Service-group toggles, maintenance windows
+    and resource-aware operation are replacing permanent-on assumptions.
+- id: BLOCK43
+  label: Sensor + CSI platform
+  body: Sensor + CSI platform
+- id: BLOCK44
+  label: Wi-Fi CSI, Android radio/GNSS data and calibration workflows are turning
+    the server into a back
+  body: Wi-Fi CSI, Android radio/GNSS data and calibration workflows are turning the
+    server into a backend for physical-world sensing experiments.
+- id: BLOCK45
+  label: Device + telephony infrastructure
+  body: Device + telephony infrastructure
+- id: BLOCK46
+  label: OTA fleet ideas, ESP32 development, SIP/RTP testing and PBX work continue
+    to use the same serve
+  body: OTA fleet ideas, ESP32 development, SIP/RTP testing and PBX work continue
+    to use the same server as a shared engineering lab.
+- id: BLOCK47
+  label: What runs through it
+  body: What runs through it
+- id: BLOCK48
+  label: One platform, several engineering domains.
+  body: One platform, several engineering domains.
+- id: BLOCK49
+  label: Infrastructure
+  body: Infrastructure
+- id: BLOCK50
+  label: Linux hosts, Docker services, ingress, identity, service state and recovery.
+  body: Linux hosts, Docker services, ingress, identity, service state and recovery.
+- id: BLOCK51
+  label: Observability
+  body: Observability
+- id: BLOCK52
+  label: System metrics, dashboards, alert validation, service health and network
+    behavior.
+  body: System metrics, dashboards, alert validation, service health and network behavior.
+- id: BLOCK53
+  label: Device infrastructure
+  body: Device infrastructure
+- id: BLOCK54
+  label: Firmware lifecycle, provisioning, release states and embedded-device experiments.
+  body: Firmware lifecycle, provisioning, release states and embedded-device experiments.
+- id: BLOCK55
+  label: Sensing
+  body: Sensing
+- id: BLOCK56
+  label: Wi-Fi CSI, Android GNSS/GSM collection, calibration and time-series analysis.
+  body: Wi-Fi CSI, Android GNSS/GSM collection, calibration and time-series analysis.
+- id: BLOCK57
+  label: Environment
+  body: Environment
+- id: BLOCK58
+  label: Weather, river, flood, satellite and other public-data integrations.
+  body: Weather, river, flood, satellite and other public-data integrations.
+- id: BLOCK59
+  label: Telephony
+  body: Telephony
+- id: BLOCK60
+  label: SIP signaling, RTP media, PBX integration, call-flow debugging and embedded
+    voice.
+  body: SIP signaling, RTP media, PBX integration, call-flow debugging and embedded
+    voice.
+- id: BLOCK61
+  label: Change log
+  body: Change log
+- id: BLOCK62
+  label: Recent evolution.
+  body: Recent evolution.
+- id: BLOCK63
+  label: Consolidated operations around a master dashboard, Grafana hub, Caddy ingress
+    and authenticatio
+  body: Consolidated operations around a master dashboard, Grafana hub, Caddy ingress
+    and authentication instead of treating every dashboard as an isolated destination.
+- id: BLOCK64
+  label: 'Expanded the server into an environmental and sensing backend: river/weather
+    observatories, sat'
+  body: 'Expanded the server into an environmental and sensing backend: river/weather
+    observatories, satellite integrations, Wi-Fi CSI and Android radio/GNSS collectors.'
+- id: BLOCK65
+  label: Started treating expensive stacks as service groups with explicit on/off
+    and maintenance behavi
+  body: Started treating expensive stacks as service groups with explicit on/off and
+    maintenance behavior after resource and log-pressure problems exposed the cost
+    of leaving everything running.
+- id: BLOCK66
+  label: Made OTA/device lifecycle and telephony labs part of the same infrastructure
+    rather than separa
+  body: Made OTA/device lifecycle and telephony labs part of the same infrastructure
+    rather than separate one-off development environments.
+- id: BLOCK67
+  label: Moved from local-only SSH toward Tailscale, watchdog recovery and remote
+    operational access, ch
+  body: Moved from local-only SSH toward Tailscale, watchdog recovery and remote operational
+    access, changing the Mac mini from a nearby computer into a persistent infrastructure
+    node.
+- id: BLOCK68
+  label: Next engineering questions
+  body: Next engineering questions
+- id: BLOCK69
+  label: 01 How should machine selection and failover work when desktop, laptop or
+    hserver disappears?
+  body: 01How should machine selection and failover work when desktop, laptop or hserver
+    disappears?
+- id: BLOCK70
+  label: 02 How much authority should a conversational operations layer have, and
+    how should every actio
+  body: 02How much authority should a conversational operations layer have, and how
+    should every action be auditable?
+- id: BLOCK71
+  label: 03 Which data belongs in long-term storage versus short-lived experimental
+    telemetry?
+  body: 03Which data belongs in long-term storage versus short-lived experimental
+    telemetry?
+- id: BLOCK72
+  label: 04 How do I keep the control plane understandable as more projects attach
+    to it?
+  body: 04How do I keep the control plane understandable as more projects attach to
+    it?
+- id: BLOCK73
+  label: Working principle
+  body: Working principle
+- id: BLOCK74
+  label: Operate the system, not just the containers.
+  body: Operate the system, not just the containers.
+- id: BLOCK75
+  label: The goal is not to collect self-hosted software. The goal is to make a small
+    infrastructure env
+  body: The goal is not to collect self-hosted software. The goal is to make a small
+    infrastructure environment explainable, recoverable and useful for real engineering
+    work.
+- id: BLOCK76
+  label: 01 → 06
+  body: 01 → 06
+- id: BLOCK77
+  label: '01'
+  body: '01'
+- id: BLOCK78
+  label: '02'
+  body: '02'
+- id: BLOCK79
+  label: '03'
+  body: '03'
+- id: BLOCK80
+  label: '04'
+  body: '04'
+- id: BLOCK81
+  label: '05'
+  body: '05'
+- id: BLOCK82
+  label: '06'
+  body: '06'
+- id: BLOCK83
+  label: Access
+  body: Access
+- id: BLOCK84
+  label: Core
+  body: Core
+- id: BLOCK85
+  label: Compute
+  body: Compute
+- id: BLOCK86
+  label: Observe
+  body: Observe
+- id: BLOCK87
+  label: Devices
+  body: Devices
+- id: BLOCK88
+  label: Labs
+  body: Labs
+- id: BLOCK89
+  label: Ongoing
+  body: Ongoing
+- id: BLOCK90
+  label: stabilizing
+  body: stabilizing
+- id: BLOCK91
+  label: active
+  body: active
+- id: BLOCK92
+  label: evolving
+  body: evolving
+- id: BLOCK93
+  label: active
+  body: active
+- id: BLOCK94
+  label: experimental
+  body: experimental
+- id: BLOCK95
+  label: active
+  body: active
+- id: BLOCK96
+  label: '01'
+  body: '01'
+- id: BLOCK97
+  label: Ubuntu
+  body: Ubuntu
+- id: BLOCK98
+  label: Docker
+  body: Docker
+- id: BLOCK99
+  label: Caddy
+  body: Caddy
+- id: BLOCK100
+  label: Authelia
+  body: Authelia
+- id: BLOCK101
+  label: '02'
+  body: '02'
+- id: BLOCK102
+  label: Prometheus
+  body: Prometheus
+- id: BLOCK103
+  label: Grafana
+  body: Grafana
+- id: BLOCK104
+  label: Telemetry
+  body: Telemetry
+- id: BLOCK105
+  label: '03'
+  body: '03'
+- id: BLOCK106
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK107
+  label: OTA
+  body: OTA
+- id: BLOCK108
+  label: Provisioning
+  body: Provisioning
+- id: BLOCK109
+  label: '04'
+  body: '04'
+- id: BLOCK110
+  label: CSI
+  body: CSI
+- id: BLOCK111
+  label: GNSS
+  body: GNSS
+- id: BLOCK112
+  label: RF
+  body: RF
+- id: BLOCK113
+  label: '05'
+  body: '05'
+- id: BLOCK114
+  label: APIs
+  body: APIs
+- id: BLOCK115
+  label: Time series
+  body: Time series
+- id: BLOCK116
+  label: Dashboards
+  body: Dashboards
+- id: BLOCK117
+  label: '06'
+  body: '06'
+- id: BLOCK118
+  label: SIP
+  body: SIP
+- id: BLOCK119
+  label: RTP
+  body: RTP
+- id: BLOCK120
+  label: Asterisk
+  body: Asterisk
+- id: BLOCK121
+  label: OpenSIPS
+  body: OpenSIPS
+lists: []
+template: cms/templates/pages/homeserver--index.tpl
+source: cms/templates/pages/homeserver--index.json
+links:
+- id: LINK0
+  label: Current work
+  url: '#current'
+- id: LINK1
+  label: Evolution
+  url: '#evolution'
+- id: LINK2
+  label: Change log
+  url: '#changelog'
+- id: LINK3
+  label: Portfolio
+  url: /portfolio
+- id: LINK4
+  label: Systems
+  url: /systems
+- id: LINK5
+  label: Field notes
+  url: /writing

@@ -1,0 +1,531 @@
+title: Technical Publishing & Portfolio Stack
+browser_title: Technical Publishing & Portfolio Stack — Reaz Romen Portfolio
+description: First-party Flask/PostgreSQL publishing system powering the technical
+  archive, case studies, admin workflow and public portfolio, with a parallel Tor
+  v3 publishing path.
+url: /portfolio/projects/technical-publishing-portfolio-stack.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Web & Data Systems / Built / deployed
+  body: Web & Data Systems / Built / deployed
+- id: BLOCK1
+  label: Technical Publishing & Portfolio Stack
+  body: Technical Publishing & Portfolio Stack
+- id: BLOCK2
+  label: First-party Flask/PostgreSQL publishing system powering the technical archive,
+    case studies, ad
+  body: First-party Flask/PostgreSQL publishing system powering the technical archive,
+    case studies, admin workflow and public portfolio, with a parallel Tor v3 publishing
+    path.
+- id: BLOCK3
+  label: Technical Publishing & Portfolio Stack — live portfolio capture.
+  body: Technical Publishing & Portfolio Stack — live portfolio capture.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: First-party Flask/PostgreSQL publishing system powering the technical archive,
+    case studies, ad
+  body: First-party Flask/PostgreSQL publishing system powering the technical archive,
+    case studies, admin workflow and public portfolio, with a parallel Tor v3 publishing
+    path.
+- id: BLOCK7
+  label: Built the publishing application that powers the technical archive, portfolio,
+    case studies and
+  body: Built the publishing application that powers the technical archive, portfolio,
+    case studies and admin workflows.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Used first-party Flask/Jinja/CSS with PostgreSQL-backed posts and Markdown
+    rendering.
+  body: Used first-party Flask/Jinja/CSS with PostgreSQL-backed posts and Markdown
+    rendering.
+- id: BLOCK10
+  label: Maintained a separate Tor v3 publishing topology alongside the public clearnet
+    site.
+  body: Maintained a separate Tor v3 publishing topology alongside the public clearnet
+    site.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Public web -> edge/ingress -> Flask/Gunicorn -> PostgreSQL.
+  body: Public web -> edge/ingress -> Flask/Gunicorn -> PostgreSQL.
+- id: BLOCK14
+  label: Tor v3 path -> Tor onion service -> Nginx -> Flask/Gunicorn -> PostgreSQL.
+  body: Tor v3 path -> Tor onion service -> Nginx -> Flask/Gunicorn -> PostgreSQL.
+- id: BLOCK15
+  label: Admin publishing uses authenticated sessions and sanitized Markdown rather
+    than raw HTML storag
+  body: Admin publishing uses authenticated sessions and sanitized Markdown rather
+    than raw HTML storage.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Public web -> edge/ingress -> Flask/Gunicorn -> PostgreSQL.
+  body: '01
+
+
+    Public web -> edge/ingress -> Flask/Gunicorn -> PostgreSQL.'
+- id: BLOCK23
+  label: Public web -> edge/ingress -> Flask/Gunicorn -> PostgreSQL.
+  body: Public web -> edge/ingress -> Flask/Gunicorn -> PostgreSQL.
+- id: BLOCK24
+  label: 02 Tor v3 path -> Tor onion service -> Nginx -> Flask/Gunicorn -> PostgreSQL.
+  body: '02
+
+
+    Tor v3 path -> Tor onion service -> Nginx -> Flask/Gunicorn -> PostgreSQL.'
+- id: BLOCK25
+  label: Tor v3 path -> Tor onion service -> Nginx -> Flask/Gunicorn -> PostgreSQL.
+  body: Tor v3 path -> Tor onion service -> Nginx -> Flask/Gunicorn -> PostgreSQL.
+- id: BLOCK26
+  label: 03 Admin publishing uses authenticated sessions and sanitized Markdown rather
+    than raw HTML sto
+  body: '03
+
+
+    Admin publishing uses authenticated sessions and sanitized Markdown rather than
+    raw HTML storage.'
+- id: BLOCK27
+  label: Admin publishing uses authenticated sessions and sanitized Markdown rather
+    than raw HTML storag
+  body: Admin publishing uses authenticated sessions and sanitized Markdown rather
+    than raw HTML storage.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Public route HTTP checks
+  body: Public route HTTP checks
+- id: BLOCK31
+  label: Tor stack health/deploy checks
+  body: Tor stack health/deploy checks
+- id: BLOCK32
+  label: Admin authentication and redirect behavior
+  body: Admin authentication and redirect behavior
+- id: BLOCK33
+  label: Markdown sanitization path
+  body: Markdown sanitization path
+- id: BLOCK34
+  label: Database backup
+  body: Database backup
+- id: BLOCK35
+  label: Portfolio/project route crawl
+  body: Portfolio/project route crawl
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — No third-party analytics/scripts on the public portfolio
+  body: —No third-party analytics/scripts on the public portfolio
+- id: BLOCK43
+  label: — Secrets and onion identity remain outside Git
+  body: —Secrets and onion identity remain outside Git
+- id: BLOCK44
+  label: — Clearnet and onion ingress are separate operational paths
+  body: —Clearnet and onion ingress are separate operational paths
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A self-hosted publishing and portfolio system that can present deep engineering
+    work and long-f
+  body: A self-hosted publishing and portfolio system that can present deep engineering
+    work and long-form technical notes across public and onion access paths.
+- id: BLOCK48
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK49
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK50
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK51
+  label: STATUS
+  body: STATUS
+- id: BLOCK52
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK53
+  label: AREA
+  body: AREA
+- id: BLOCK54
+  label: Web & Data Systems
+  body: Web & Data Systems
+- id: BLOCK55
+  label: STACK
+  body: STACK
+- id: BLOCK56
+  label: 6 documented technologies
+  body: 6 documented technologies
+- id: BLOCK57
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK58
+  label: 4 connected / bounded services
+  body: 4 connected / bounded services
+- id: BLOCK59
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK60
+  label: '01'
+  body: '01'
+- id: BLOCK61
+  label: '01'
+  body: '01'
+- id: BLOCK62
+  label: Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their
+    Consistency Model
+  body: Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their
+    Consistency Models Differ
+- id: BLOCK63
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK64
+  label: A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt
+    State
+  body: A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt
+    State
+- id: BLOCK65
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK66
+  label: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+  body: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+- id: BLOCK67
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK68
+  label: '02'
+  body: '02'
+- id: BLOCK69
+  label: '03'
+  body: '03'
+- id: BLOCK70
+  label: '02'
+  body: '02'
+- id: BLOCK71
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK72
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK73
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK74
+  label: '03'
+  body: '03'
+- id: BLOCK75
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK76
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK77
+  label: Reader / admin
+  body: Reader / admin
+- id: BLOCK78
+  label: →
+  body: →
+- id: BLOCK79
+  label: Public edge or Tor v3
+  body: Public edge or Tor v3
+- id: BLOCK80
+  label: →
+  body: →
+- id: BLOCK81
+  label: Nginx / Caddy path
+  body: Nginx / Caddy path
+- id: BLOCK82
+  label: →
+  body: →
+- id: BLOCK83
+  label: Flask + Gunicorn
+  body: Flask + Gunicorn
+- id: BLOCK84
+  label: →
+  body: →
+- id: BLOCK85
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK86
+  label: →
+  body: →
+- id: BLOCK87
+  label: Rendered portfolio / articles
+  body: Rendered portfolio / articles
+- id: BLOCK88
+  label: '04'
+  body: '04'
+- id: BLOCK89
+  label: '01'
+  body: '01'
+- id: BLOCK90
+  label: Flask
+  body: Flask
+- id: BLOCK91
+  label: '02'
+  body: '02'
+- id: BLOCK92
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK93
+  label: '03'
+  body: '03'
+- id: BLOCK94
+  label: Gunicorn
+  body: Gunicorn
+- id: BLOCK95
+  label: '04'
+  body: '04'
+- id: BLOCK96
+  label: Nginx
+  body: Nginx
+- id: BLOCK97
+  label: '05'
+  body: '05'
+- id: BLOCK98
+  label: Tor
+  body: Tor
+- id: BLOCK99
+  label: '06'
+  body: '06'
+- id: BLOCK100
+  label: Markdown
+  body: Markdown
+- id: BLOCK101
+  label: '05'
+  body: '05'
+- id: BLOCK102
+  label: '06'
+  body: '06'
+- id: BLOCK103
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK104
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK105
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK106
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK107
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK108
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK109
+  label: '07'
+  body: '07'
+- id: BLOCK110
+  label: Technical Publishing & Portfolio Stack
+  body: Technical Publishing & Portfolio Stack
+- id: BLOCK111
+  label: ↔
+  body: ↔
+- id: BLOCK112
+  label: Cloudflare edge/tunnel
+  body: Cloudflare edge/tunnel
+- id: BLOCK113
+  label: ↔
+  body: ↔
+- id: BLOCK114
+  label: Tor v3 Onion Service
+  body: Tor v3 Onion Service
+- id: BLOCK115
+  label: ↔
+  body: ↔
+- id: BLOCK116
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK117
+  label: ↔
+  body: ↔
+- id: BLOCK118
+  label: Nginx / Gunicorn
+  body: Nginx / Gunicorn
+- id: BLOCK119
+  label: 08
+  body: 08
+- id: BLOCK120
+  label: '01'
+  body: '01'
+- id: BLOCK121
+  label: NOTE
+  body: NOTE
+- id: BLOCK122
+  label: Live reazromen.com
+  body: Live reazromen.com
+- id: BLOCK123
+  label: '02'
+  body: '02'
+- id: BLOCK124
+  label: NOTE
+  body: NOTE
+- id: BLOCK125
+  label: Portfolio pages
+  body: Portfolio pages
+- id: BLOCK126
+  label: '03'
+  body: '03'
+- id: BLOCK127
+  label: NOTE
+  body: NOTE
+- id: BLOCK128
+  label: Technical archive
+  body: Technical archive
+- id: BLOCK129
+  label: '04'
+  body: '04'
+- id: BLOCK130
+  label: NOTE
+  body: NOTE
+- id: BLOCK131
+  label: Admin publishing UI
+  body: Admin publishing UI
+- id: BLOCK132
+  label: '05'
+  body: '05'
+- id: BLOCK133
+  label: NOTE
+  body: NOTE
+- id: BLOCK134
+  label: PostgreSQL schema
+  body: PostgreSQL schema
+- id: BLOCK135
+  label: '06'
+  body: '06'
+- id: BLOCK136
+  label: NOTE
+  body: NOTE
+- id: BLOCK137
+  label: Tor v3 deployment
+  body: Tor v3 deployment
+- id: BLOCK138
+  label: 09
+  body: 09
+- id: BLOCK139
+  label: '10'
+  body: '10'
+- id: BLOCK140
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK141
+  label: Khulna Satellite Weather
+  body: Khulna Satellite Weather
+lists: []
+template: cms/templates/pages/portfolio--projects--technical-publishing-portfolio-stack.tpl
+source: cms/templates/pages/portfolio--projects--technical-publishing-portfolio-stack.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html#result
+- id: LINK16
+  label: '{{RR_BLOCK62}} {{RR_BLOCK63}}'
+  url: /posts/cloudflare-kv-do-queues-d1-consistency.html
+- id: LINK17
+  label: '{{RR_BLOCK64}} {{RR_BLOCK65}}'
+  url: /posts/distributed-lock-needs-fencing-token.html
+- id: LINK18
+  label: '{{RR_BLOCK66}} {{RR_BLOCK67}}'
+  url: /posts/pgvector-hnsw-fast-operationally-wrong.html
+- id: LINK19
+  label: '{{RR_BLOCK140}} {{RR_BLOCK141}}'
+  url: /portfolio/projects/khulna-satellite-weather.html

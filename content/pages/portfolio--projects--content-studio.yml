@@ -1,0 +1,568 @@
+title: Content Studio
+browser_title: Content Studio — Reaz Romen Portfolio
+description: Self-hosted content operations platform for drafting, review, approval,
+  scheduling, workspace isolation, audit history and durable AI generation workflows.
+url: /portfolio/projects/content-studio.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Apps & Control Planes / Built / deployed
+  body: Apps & Control Planes / Built / deployed
+- id: BLOCK1
+  label: Content Studio
+  body: Content Studio
+- id: BLOCK2
+  label: Self-hosted content operations platform for drafting, review, approval, scheduling,
+    workspace i
+  body: Self-hosted content operations platform for drafting, review, approval, scheduling,
+    workspace isolation, audit history and durable AI generation workflows.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: Self-hosted content operations platform for drafting, review, approval, scheduling,
+    workspace i
+  body: Self-hosted content operations platform for drafting, review, approval, scheduling,
+    workspace isolation, audit history and durable AI generation workflows.
+- id: BLOCK7
+  label: Built a self-hosted content operations platform around workspaces, roles,
+    profiles, generation,
+  body: Built a self-hosted content operations platform around workspaces, roles,
+    profiles, generation, review, approval and scheduling.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Added durable AI-generation workflows with provider gating, typed output
+    and fail-closed behavi
+  body: Added durable AI-generation workflows with provider gating, typed output and
+    fail-closed behavior when no eligible model provider exists.
+- id: BLOCK10
+  label: Kept auto-approval and publishing disabled by default so human review remains
+    an explicit bound
+  body: Kept auto-approval and publishing disabled by default so human review remains
+    an explicit boundary.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Browser -> application/API -> PostgreSQL workspace/content state.
+  body: Browser -> application/API -> PostgreSQL workspace/content state.
+- id: BLOCK14
+  label: DBOS checkpoints generation workflows; Pydantic AI structures provider output.
+  body: DBOS checkpoints generation workflows; Pydantic AI structures provider output.
+- id: BLOCK15
+  label: Approved content hands off to a separate publisher service instead of coupling
+    generation and e
+  body: Approved content hands off to a separate publisher service instead of coupling
+    generation and external posting.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Browser -> application/API -> PostgreSQL workspace/content state.
+  body: '01
+
+
+    Browser -> application/API -> PostgreSQL workspace/content state.'
+- id: BLOCK23
+  label: Browser -> application/API -> PostgreSQL workspace/content state.
+  body: Browser -> application/API -> PostgreSQL workspace/content state.
+- id: BLOCK24
+  label: 02 DBOS checkpoints generation workflows; Pydantic AI structures provider
+    output.
+  body: '02
+
+
+    DBOS checkpoints generation workflows; Pydantic AI structures provider output.'
+- id: BLOCK25
+  label: DBOS checkpoints generation workflows; Pydantic AI structures provider output.
+  body: DBOS checkpoints generation workflows; Pydantic AI structures provider output.
+- id: BLOCK26
+  label: 03 Approved content hands off to a separate publisher service instead of
+    coupling generation an
+  body: '03
+
+
+    Approved content hands off to a separate publisher service instead of coupling
+    generation and external posting.'
+- id: BLOCK27
+  label: Approved content hands off to a separate publisher service instead of coupling
+    generation and e
+  body: Approved content hands off to a separate publisher service instead of coupling
+    generation and external posting.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Authentication/CSRF behavior
+  body: Authentication/CSRF behavior
+- id: BLOCK31
+  label: Workspace isolation
+  body: Workspace isolation
+- id: BLOCK32
+  label: Draft→review→schedule state transitions
+  body: Draft→review→schedule state transitions
+- id: BLOCK33
+  label: Provider-gating/fail-closed generation
+  body: Provider-gating/fail-closed generation
+- id: BLOCK34
+  label: DBOS durable checkpoint behavior
+  body: DBOS durable checkpoint behavior
+- id: BLOCK35
+  label: Publisher dispatch kept disarmed by default
+  body: Publisher dispatch kept disarmed by default
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — No placeholder content when all AI providers are unavailable
+  body: —No placeholder content when all AI providers are unavailable
+- id: BLOCK43
+  label: — AUTO_APPROVE is false by default
+  body: —AUTO\_APPROVE is false by default
+- id: BLOCK44
+  label: — External publishing is a separate service and explicit gate
+  body: —External publishing is a separate service and explicit gate
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A durable editorial control plane where AI generation, human approval and
+    publishing are separa
+  body: A durable editorial control plane where AI generation, human approval and
+    publishing are separate operational stages.
+- id: BLOCK48
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK49
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK50
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK51
+  label: Python
+  body: Python
+- id: BLOCK52
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK53
+  label: DBOS
+  body: DBOS
+- id: BLOCK54
+  label: Pydantic AI
+  body: Pydantic AI
+- id: BLOCK55
+  label: Docker
+  body: Docker
+- id: BLOCK56
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK57
+  label: STATUS
+  body: STATUS
+- id: BLOCK58
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK59
+  label: AREA
+  body: AREA
+- id: BLOCK60
+  label: Apps & Control Planes
+  body: Apps & Control Planes
+- id: BLOCK61
+  label: STACK
+  body: STACK
+- id: BLOCK62
+  label: 5 documented technologies
+  body: 5 documented technologies
+- id: BLOCK63
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK64
+  label: 6 connected / bounded services
+  body: 6 connected / bounded services
+- id: BLOCK65
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK66
+  label: '01'
+  body: '01'
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their
+    Consistency Model
+  body: Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their
+    Consistency Models Differ
+- id: BLOCK69
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK70
+  label: A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt
+    State
+  body: A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt
+    State
+- id: BLOCK71
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK72
+  label: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+  body: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+- id: BLOCK73
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK74
+  label: '02'
+  body: '02'
+- id: BLOCK75
+  label: '03'
+  body: '03'
+- id: BLOCK76
+  label: '02'
+  body: '02'
+- id: BLOCK77
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK78
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK79
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK80
+  label: '03'
+  body: '03'
+- id: BLOCK81
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK82
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK83
+  label: Editor browser
+  body: Editor browser
+- id: BLOCK84
+  label: →
+  body: →
+- id: BLOCK85
+  label: Content Studio
+  body: Content Studio
+- id: BLOCK86
+  label: →
+  body: →
+- id: BLOCK87
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: DBOS workflow
+  body: DBOS workflow
+- id: BLOCK90
+  label: →
+  body: →
+- id: BLOCK91
+  label: AI provider adapter
+  body: AI provider adapter
+- id: BLOCK92
+  label: →
+  body: →
+- id: BLOCK93
+  label: Review / approval
+  body: Review / approval
+- id: BLOCK94
+  label: →
+  body: →
+- id: BLOCK95
+  label: Publisher boundary
+  body: Publisher boundary
+- id: BLOCK96
+  label: '04'
+  body: '04'
+- id: BLOCK97
+  label: '01'
+  body: '01'
+- id: BLOCK98
+  label: Python
+  body: Python
+- id: BLOCK99
+  label: '02'
+  body: '02'
+- id: BLOCK100
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK101
+  label: '03'
+  body: '03'
+- id: BLOCK102
+  label: DBOS
+  body: DBOS
+- id: BLOCK103
+  label: '04'
+  body: '04'
+- id: BLOCK104
+  label: Pydantic AI
+  body: Pydantic AI
+- id: BLOCK105
+  label: '05'
+  body: '05'
+- id: BLOCK106
+  label: Docker
+  body: Docker
+- id: BLOCK107
+  label: '05'
+  body: '05'
+- id: BLOCK108
+  label: '06'
+  body: '06'
+- id: BLOCK109
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK110
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK111
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK112
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK113
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK114
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK115
+  label: '07'
+  body: '07'
+- id: BLOCK116
+  label: Content Studio
+  body: Content Studio
+- id: BLOCK117
+  label: ↔
+  body: ↔
+- id: BLOCK118
+  label: Optional Mistral
+  body: Optional Mistral
+- id: BLOCK119
+  label: ↔
+  body: ↔
+- id: BLOCK120
+  label: Optional Cloudflare Workers AI
+  body: Optional Cloudflare Workers AI
+- id: BLOCK121
+  label: ↔
+  body: ↔
+- id: BLOCK122
+  label: Optional Groq
+  body: Optional Groq
+- id: BLOCK123
+  label: ↔
+  body: ↔
+- id: BLOCK124
+  label: Optional Gemini
+  body: Optional Gemini
+- id: BLOCK125
+  label: ↔
+  body: ↔
+- id: BLOCK126
+  label: Optional OpenRouter
+  body: Optional OpenRouter
+- id: BLOCK127
+  label: ↔
+  body: ↔
+- id: BLOCK128
+  label: Social Publisher
+  body: Social Publisher
+- id: BLOCK129
+  label: 08
+  body: 08
+- id: BLOCK130
+  label: '01'
+  body: '01'
+- id: BLOCK131
+  label: NOTE
+  body: NOTE
+- id: BLOCK132
+  label: Workspace/role model
+  body: Workspace/role model
+- id: BLOCK133
+  label: '02'
+  body: '02'
+- id: BLOCK134
+  label: NOTE
+  body: NOTE
+- id: BLOCK135
+  label: Content calendar
+  body: Content calendar
+- id: BLOCK136
+  label: '03'
+  body: '03'
+- id: BLOCK137
+  label: NOTE
+  body: NOTE
+- id: BLOCK138
+  label: Generation workflow
+  body: Generation workflow
+- id: BLOCK139
+  label: '04'
+  body: '04'
+- id: BLOCK140
+  label: NOTE
+  body: NOTE
+- id: BLOCK141
+  label: Provider budget/cooldown state
+  body: Provider budget/cooldown state
+- id: BLOCK142
+  label: '05'
+  body: '05'
+- id: BLOCK143
+  label: NOTE
+  body: NOTE
+- id: BLOCK144
+  label: Audit history
+  body: Audit history
+- id: BLOCK145
+  label: '06'
+  body: '06'
+- id: BLOCK146
+  label: NOTE
+  body: NOTE
+- id: BLOCK147
+  label: Delivery worker
+  body: Delivery worker
+- id: BLOCK148
+  label: 09
+  body: 09
+- id: BLOCK149
+  label: '10'
+  body: '10'
+- id: BLOCK150
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK151
+  label: Fimi Access
+  body: Fimi Access
+- id: BLOCK152
+  label: Next project →
+  body: Next project →
+- id: BLOCK153
+  label: Social Publisher
+  body: Social Publisher
+lists: []
+template: cms/templates/pages/portfolio--projects--content-studio.tpl
+source: cms/templates/pages/portfolio--projects--content-studio.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio/projects/content-studio.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/content-studio.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/content-studio.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/content-studio.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/content-studio.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/content-studio.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/content-studio.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/content-studio.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/content-studio.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/content-studio.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/content-studio.html#result
+- id: LINK16
+  label: '{{RR_BLOCK68}} {{RR_BLOCK69}}'
+  url: /posts/cloudflare-kv-do-queues-d1-consistency.html
+- id: LINK17
+  label: '{{RR_BLOCK70}} {{RR_BLOCK71}}'
+  url: /posts/distributed-lock-needs-fencing-token.html
+- id: LINK18
+  label: '{{RR_BLOCK72}} {{RR_BLOCK73}}'
+  url: /posts/pgvector-hnsw-fast-operationally-wrong.html
+- id: LINK19
+  label: '{{RR_BLOCK150}} {{RR_BLOCK151}}'
+  url: /portfolio/projects/fimi-access.html
+- id: LINK20
+  label: '{{RR_BLOCK152}} {{RR_BLOCK153}}'
+  url: /portfolio/projects/social-publisher.html

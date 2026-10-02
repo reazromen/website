@@ -1,0 +1,540 @@
+title: Drachtio + FreeSWITCH SIP Edge
+browser_title: Drachtio + FreeSWITCH SIP Edge — Reaz Romen Portfolio
+description: SIP edge and FreeSWITCH load-balancing layer with ESL health checks,
+  REGISTER/INVITE proxying, round-robin routing, config reload and Prometheus health
+  surfaces.
+url: /portfolio/projects/drachtio-freeswitch-sip-edge.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Voice & Telecom / Built / deployed
+  body: Voice & Telecom / Built / deployed
+- id: BLOCK1
+  label: Drachtio + FreeSWITCH SIP Edge
+  body: Drachtio + FreeSWITCH SIP Edge
+- id: BLOCK2
+  label: 'SIP edge and FreeSWITCH load-balancing layer with ESL health checks, REGISTER/INVITE
+    proxying, '
+  body: SIP edge and FreeSWITCH load-balancing layer with ESL health checks, REGISTER/INVITE
+    proxying, round-robin routing, config reload and Prometheus health surfaces.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: 'SIP edge and FreeSWITCH load-balancing layer with ESL health checks, REGISTER/INVITE
+    proxying, '
+  body: SIP edge and FreeSWITCH load-balancing layer with ESL health checks, REGISTER/INVITE
+    proxying, round-robin routing, config reload and Prometheus health surfaces.
+- id: BLOCK7
+  label: Built a modern Drachtio-based SIP edge around a pool of FreeSWITCH nodes.
+  body: Built a modern Drachtio-based SIP edge around a pool of FreeSWITCH nodes.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: 'Added ESL health monitoring, REGISTER/INVITE proxying, round-robin target
+    ordering and runtime '
+  body: Added ESL health monitoring, REGISTER/INVITE proxying, round-robin target
+    ordering and runtime node reload.
+- id: BLOCK10
+  label: Exposed local health and Prometheus surfaces while keeping the Drachtio control
+    port private.
+  body: Exposed local health and Prometheus surfaces while keeping the Drachtio control
+    port private.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: SIP clients -> Drachtio server -> Node.js routing application -> healthy
+    FreeSWITCH node.
+  body: SIP clients -> Drachtio server -> Node.js routing application -> healthy FreeSWITCH
+    node.
+- id: BLOCK14
+  label: ESL health checks determine eligible FreeSWITCH destinations.
+  body: ESL health checks determine eligible FreeSWITCH destinations.
+- id: BLOCK15
+  label: Operational metrics are local/private while SIP 5060 is the intentionally
+    published service sur
+  body: Operational metrics are local/private while SIP 5060 is the intentionally
+    published service surface.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 SIP clients -> Drachtio server -> Node.js routing application -> healthy
+    FreeSWITCH node.
+  body: '01
+
+
+    SIP clients -> Drachtio server -> Node.js routing application -> healthy FreeSWITCH
+    node.'
+- id: BLOCK23
+  label: SIP clients -> Drachtio server -> Node.js routing application -> healthy
+    FreeSWITCH node.
+  body: SIP clients -> Drachtio server -> Node.js routing application -> healthy FreeSWITCH
+    node.
+- id: BLOCK24
+  label: 02 ESL health checks determine eligible FreeSWITCH destinations.
+  body: '02
+
+
+    ESL health checks determine eligible FreeSWITCH destinations.'
+- id: BLOCK25
+  label: ESL health checks determine eligible FreeSWITCH destinations.
+  body: ESL health checks determine eligible FreeSWITCH destinations.
+- id: BLOCK26
+  label: '03 Operational metrics are local/private while SIP 5060 is the intentionally
+    published service '
+  body: '03
+
+
+    Operational metrics are local/private while SIP 5060 is the intentionally published
+    service surface.'
+- id: BLOCK27
+  label: Operational metrics are local/private while SIP 5060 is the intentionally
+    published service sur
+  body: Operational metrics are local/private while SIP 5060 is the intentionally
+    published service surface.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Docker Compose deployment check
+  body: Docker Compose deployment check
+- id: BLOCK31
+  label: Drachtio connectivity health
+  body: Drachtio connectivity health
+- id: BLOCK32
+  label: FreeSWITCH ESL health polling
+  body: FreeSWITCH ESL health polling
+- id: BLOCK33
+  label: Round-robin target ordering
+  body: Round-robin target ordering
+- id: BLOCK34
+  label: Runtime node-config reconciliation
+  body: Runtime node-config reconciliation
+- id: BLOCK35
+  label: Prometheus/health endpoint validation
+  body: Prometheus/health endpoint validation
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — FreeSWITCH ESL must stay private
+  body: —FreeSWITCH ESL must stay private
+- id: BLOCK43
+  label: — Drachtio control port is not a public surface
+  body: —Drachtio control port is not a public surface
+- id: BLOCK44
+  label: — Routing eligibility depends on health evidence
+  body: —Routing eligibility depends on health evidence
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A health-aware SIP ingress/load-balancing layer that can route around unhealthy
+    FreeSWITCH node
+  body: A health-aware SIP ingress/load-balancing layer that can route around unhealthy
+    FreeSWITCH nodes.
+- id: BLOCK48
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK49
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK50
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK51
+  label: Drachtio
+  body: Drachtio
+- id: BLOCK52
+  label: FreeSWITCH
+  body: FreeSWITCH
+- id: BLOCK53
+  label: Node.js
+  body: Node.js
+- id: BLOCK54
+  label: ESL
+  body: ESL
+- id: BLOCK55
+  label: SIP
+  body: SIP
+- id: BLOCK56
+  label: Prometheus
+  body: Prometheus
+- id: BLOCK57
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK58
+  label: STATUS
+  body: STATUS
+- id: BLOCK59
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK60
+  label: AREA
+  body: AREA
+- id: BLOCK61
+  label: Voice & Telecom
+  body: Voice & Telecom
+- id: BLOCK62
+  label: STACK
+  body: STACK
+- id: BLOCK63
+  label: 6 documented technologies
+  body: 6 documented technologies
+- id: BLOCK64
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK65
+  label: 3 connected / bounded services
+  body: 3 connected / bounded services
+- id: BLOCK66
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: '01'
+  body: '01'
+- id: BLOCK69
+  label: RTP Timestamps Are Not Wall Clocks
+  body: RTP Timestamps Are Not Wall Clocks
+- id: BLOCK70
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK71
+  label: WebRTC Connectivity Is Not “STUN or TURN” — It Is an ICE Candidate Selection
+    Problem
+  body: WebRTC Connectivity Is Not “STUN or TURN” — It Is an ICE Candidate Selection
+    Problem
+- id: BLOCK72
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK73
+  label: '02'
+  body: '02'
+- id: BLOCK74
+  label: '03'
+  body: '03'
+- id: BLOCK75
+  label: '02'
+  body: '02'
+- id: BLOCK76
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK77
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK78
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK79
+  label: '03'
+  body: '03'
+- id: BLOCK80
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK81
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK82
+  label: SIP client
+  body: SIP client
+- id: BLOCK83
+  label: →
+  body: →
+- id: BLOCK84
+  label: Drachtio server
+  body: Drachtio server
+- id: BLOCK85
+  label: →
+  body: →
+- id: BLOCK86
+  label: Node.js routing app
+  body: Node.js routing app
+- id: BLOCK87
+  label: →
+  body: →
+- id: BLOCK88
+  label: ESL health state
+  body: ESL health state
+- id: BLOCK89
+  label: →
+  body: →
+- id: BLOCK90
+  label: Healthy FreeSWITCH node
+  body: Healthy FreeSWITCH node
+- id: BLOCK91
+  label: '04'
+  body: '04'
+- id: BLOCK92
+  label: '01'
+  body: '01'
+- id: BLOCK93
+  label: Drachtio
+  body: Drachtio
+- id: BLOCK94
+  label: '02'
+  body: '02'
+- id: BLOCK95
+  label: FreeSWITCH
+  body: FreeSWITCH
+- id: BLOCK96
+  label: '03'
+  body: '03'
+- id: BLOCK97
+  label: Node.js
+  body: Node.js
+- id: BLOCK98
+  label: '04'
+  body: '04'
+- id: BLOCK99
+  label: ESL
+  body: ESL
+- id: BLOCK100
+  label: '05'
+  body: '05'
+- id: BLOCK101
+  label: SIP
+  body: SIP
+- id: BLOCK102
+  label: '06'
+  body: '06'
+- id: BLOCK103
+  label: Prometheus
+  body: Prometheus
+- id: BLOCK104
+  label: '05'
+  body: '05'
+- id: BLOCK105
+  label: '06'
+  body: '06'
+- id: BLOCK106
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK107
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK108
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK109
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK110
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK111
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK112
+  label: '07'
+  body: '07'
+- id: BLOCK113
+  label: Drachtio + FreeSWITCH SIP Edge
+  body: Drachtio + FreeSWITCH SIP Edge
+- id: BLOCK114
+  label: ↔
+  body: ↔
+- id: BLOCK115
+  label: FreeSWITCH nodes
+  body: FreeSWITCH nodes
+- id: BLOCK116
+  label: ↔
+  body: ↔
+- id: BLOCK117
+  label: Drachtio server
+  body: Drachtio server
+- id: BLOCK118
+  label: ↔
+  body: ↔
+- id: BLOCK119
+  label: Prometheus
+  body: Prometheus
+- id: BLOCK120
+  label: 08
+  body: 08
+- id: BLOCK121
+  label: '01'
+  body: '01'
+- id: BLOCK122
+  label: NOTE
+  body: NOTE
+- id: BLOCK123
+  label: Compose stack
+  body: Compose stack
+- id: BLOCK124
+  label: '02'
+  body: '02'
+- id: BLOCK125
+  label: NOTE
+  body: NOTE
+- id: BLOCK126
+  label: Health endpoint
+  body: Health endpoint
+- id: BLOCK127
+  label: '03'
+  body: '03'
+- id: BLOCK128
+  label: NOTE
+  body: NOTE
+- id: BLOCK129
+  label: Metrics endpoint
+  body: Metrics endpoint
+- id: BLOCK130
+  label: '04'
+  body: '04'
+- id: BLOCK131
+  label: NOTE
+  body: NOTE
+- id: BLOCK132
+  label: FreeSWITCH node config
+  body: FreeSWITCH node config
+- id: BLOCK133
+  label: '05'
+  body: '05'
+- id: BLOCK134
+  label: NOTE
+  body: NOTE
+- id: BLOCK135
+  label: Bootstrap script
+  body: Bootstrap script
+- id: BLOCK136
+  label: '06'
+  body: '06'
+- id: BLOCK137
+  label: NOTE
+  body: NOTE
+- id: BLOCK138
+  label: Security surface documentation
+  body: Security surface documentation
+- id: BLOCK139
+  label: 09
+  body: 09
+- id: BLOCK140
+  label: '10'
+  body: '10'
+- id: BLOCK141
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK142
+  label: FIMI VoIP Protocol Demo
+  body: FIMI VoIP Protocol Demo
+- id: BLOCK143
+  label: Next project →
+  body: Next project →
+- id: BLOCK144
+  label: Infrastructure Operations Platform
+  body: Infrastructure Operations Platform
+lists: []
+template: cms/templates/pages/portfolio--projects--drachtio-freeswitch-sip-edge.tpl
+source: cms/templates/pages/portfolio--projects--drachtio-freeswitch-sip-edge.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html#result
+- id: LINK16
+  label: '{{RR_BLOCK69}} {{RR_BLOCK70}}'
+  url: /posts/rtp-timestamps-are-not-wall-clocks.html
+- id: LINK17
+  label: '{{RR_BLOCK71}} {{RR_BLOCK72}}'
+  url: /posts/webrtc-ice-candidate-selection-not-stun-turn.html
+- id: LINK18
+  label: '{{RR_BLOCK141}} {{RR_BLOCK142}}'
+  url: /portfolio/projects/fimi-voip-protocol-demo.html
+- id: LINK19
+  label: '{{RR_BLOCK143}} {{RR_BLOCK144}}'
+  url: /portfolio/projects/infrastructure-operations-platform.html

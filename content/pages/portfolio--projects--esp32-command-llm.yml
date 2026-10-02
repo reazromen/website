@@ -1,0 +1,520 @@
+title: ESP32 Command LLM
+browser_title: ESP32 Command LLM — Reaz Romen Portfolio
+description: A 580K-parameter transformer trained from scratch to turn English and
+  Spanish commands into GPIO, PWM and servo actions entirely on an ESP32-S3.
+url: /portfolio/projects/esp32-command-llm.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Embedded & Devices / Built
+  body: Embedded & Devices / Built
+- id: BLOCK1
+  label: ESP32 Command LLM
+  body: ESP32 Command LLM
+- id: BLOCK2
+  label: A 580K-parameter transformer trained from scratch to turn English and Spanish
+    commands into GPI
+  body: A 580K-parameter transformer trained from scratch to turn English and Spanish
+    commands into GPIO, PWM and servo actions entirely on an ESP32-S3.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: A 580K-parameter transformer trained from scratch to turn English and Spanish
+    commands into GPI
+  body: A 580K-parameter transformer trained from scratch to turn English and Spanish
+    commands into GPIO, PWM and servo actions entirely on an ESP32-S3.
+- id: BLOCK7
+  label: Trained a domain-specific 580K-parameter transformer from scratch for device-control
+    commands.
+  body: Trained a domain-specific 580K-parameter transformer from scratch for device-control
+    commands.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Implemented on-device inference that maps English and Spanish sentences into
+    GPIO, PWM and serv
+  body: Implemented on-device inference that maps English and Spanish sentences into
+    GPIO, PWM and servo actions.
+- id: BLOCK10
+  label: Designed the model around a constrained command DSL rather than general-purpose
+    language genera
+  body: Designed the model around a constrained command DSL rather than general-purpose
+    language generation.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Natural-language command -> tokenizer/model in PSRAM -> structured command
+    -> GPIO/PWM/servo ex
+  body: Natural-language command -> tokenizer/model in PSRAM -> structured command
+    -> GPIO/PWM/servo executor.
+- id: BLOCK14
+  label: Inference runs entirely on the ESP32-S3 with no cloud API and no PC in the
+    loop.
+  body: Inference runs entirely on the ESP32-S3 with no cloud API and no PC in the
+    loop.
+- id: BLOCK15
+  label: The project targets one known hardware profile instead of pretending to be
+    universally portable
+  body: The project targets one known hardware profile instead of pretending to be
+    universally portable.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Natural-language command -> tokenizer/model in PSRAM -> structured command
+    -> GPIO/PWM/servo
+  body: '01
+
+
+    Natural-language command -> tokenizer/model in PSRAM -> structured command ->
+    GPIO/PWM/servo executor.'
+- id: BLOCK23
+  label: Natural-language command -> tokenizer/model in PSRAM -> structured command
+    -> GPIO/PWM/servo ex
+  body: Natural-language command -> tokenizer/model in PSRAM -> structured command
+    -> GPIO/PWM/servo executor.
+- id: BLOCK24
+  label: 02 Inference runs entirely on the ESP32-S3 with no cloud API and no PC in
+    the loop.
+  body: '02
+
+
+    Inference runs entirely on the ESP32-S3 with no cloud API and no PC in the loop.'
+- id: BLOCK25
+  label: Inference runs entirely on the ESP32-S3 with no cloud API and no PC in the
+    loop.
+  body: Inference runs entirely on the ESP32-S3 with no cloud API and no PC in the
+    loop.
+- id: BLOCK26
+  label: 03 The project targets one known hardware profile instead of pretending to
+    be universally porta
+  body: '03
+
+
+    The project targets one known hardware profile instead of pretending to be universally
+    portable.'
+- id: BLOCK27
+  label: The project targets one known hardware profile instead of pretending to be
+    universally portable
+  body: The project targets one known hardware profile instead of pretending to be
+    universally portable.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Held-out validation for English and Spanish command sets
+  body: Held-out validation for English and Spanish command sets
+- id: BLOCK31
+  label: Exact-match validation reported by the project
+  body: Exact-match validation reported by the project
+- id: BLOCK32
+  label: On-device inference on ESP32-S3-WROOM-1-N16R8
+  body: On-device inference on ESP32-S3-WROOM-1-N16R8
+- id: BLOCK33
+  label: Real GPIO/PWM/servo action execution
+  body: Real GPIO/PWM/servo action execution
+- id: BLOCK34
+  label: Negative boundary documented for unsupported boards/domains
+  body: Negative boundary documented for unsupported boards/domains
+- id: BLOCK35
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK36
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK37
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK38
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK39
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK40
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK41
+  label: — Closed-domain model, not a general-purpose LLM
+  body: —Closed-domain model, not a general-purpose LLM
+- id: BLOCK42
+  label: — Requires PSRAM
+  body: —Requires PSRAM
+- id: BLOCK43
+  label: — Pin map targets one known module profile
+  body: —Pin map targets one known module profile
+- id: BLOCK44
+  label: — No cloud fallback by design
+  body: —No cloud fallback by design
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A working proof that a small closed-domain language model can provide useful
+    natural-language c
+  body: A working proof that a small closed-domain language model can provide useful
+    natural-language control entirely on a low-cost microcontroller.
+- id: BLOCK48
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK49
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK50
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK51
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK52
+  label: Transformer
+  body: Transformer
+- id: BLOCK53
+  label: C/C++
+  body: C/C++
+- id: BLOCK54
+  label: PSRAM
+  body: PSRAM
+- id: BLOCK55
+  label: TinyML
+  body: TinyML
+- id: BLOCK56
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK57
+  label: STATUS
+  body: STATUS
+- id: BLOCK58
+  label: Built
+  body: Built
+- id: BLOCK59
+  label: AREA
+  body: AREA
+- id: BLOCK60
+  label: Embedded & Devices
+  body: Embedded & Devices
+- id: BLOCK61
+  label: STACK
+  body: STACK
+- id: BLOCK62
+  label: 5 documented technologies
+  body: 5 documented technologies
+- id: BLOCK63
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK64
+  label: 1 connected / bounded services
+  body: 1 connected / bounded services
+- id: BLOCK65
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK66
+  label: '01'
+  body: '01'
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: A Kubernetes Service Can Be Healthy While the App Is Broken
+  body: A Kubernetes Service Can Be Healthy While the App Is Broken
+- id: BLOCK69
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK70
+  label: Chart.yaml Is Small, but It Gives a Service an Identity
+  body: Chart.yaml Is Small, but It Gives a Service an Identity
+- id: BLOCK71
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK72
+  label: Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+  body: Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+- id: BLOCK73
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK74
+  label: '02'
+  body: '02'
+- id: BLOCK75
+  label: '03'
+  body: '03'
+- id: BLOCK76
+  label: '02'
+  body: '02'
+- id: BLOCK77
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK78
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK79
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK80
+  label: '03'
+  body: '03'
+- id: BLOCK81
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK82
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK83
+  label: Natural-language command
+  body: Natural-language command
+- id: BLOCK84
+  label: →
+  body: →
+- id: BLOCK85
+  label: Tokenizer
+  body: Tokenizer
+- id: BLOCK86
+  label: →
+  body: →
+- id: BLOCK87
+  label: 580K transformer in PSRAM
+  body: 580K transformer in PSRAM
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: Structured device command
+  body: Structured device command
+- id: BLOCK90
+  label: →
+  body: →
+- id: BLOCK91
+  label: GPIO / PWM / servo executor
+  body: GPIO / PWM / servo executor
+- id: BLOCK92
+  label: '04'
+  body: '04'
+- id: BLOCK93
+  label: '01'
+  body: '01'
+- id: BLOCK94
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK95
+  label: '02'
+  body: '02'
+- id: BLOCK96
+  label: Transformer
+  body: Transformer
+- id: BLOCK97
+  label: '03'
+  body: '03'
+- id: BLOCK98
+  label: C/C++
+  body: C/C++
+- id: BLOCK99
+  label: '04'
+  body: '04'
+- id: BLOCK100
+  label: PSRAM
+  body: PSRAM
+- id: BLOCK101
+  label: '05'
+  body: '05'
+- id: BLOCK102
+  label: TinyML
+  body: TinyML
+- id: BLOCK103
+  label: '05'
+  body: '05'
+- id: BLOCK104
+  label: '06'
+  body: '06'
+- id: BLOCK105
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK106
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK107
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK108
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK109
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK110
+  label: '07'
+  body: '07'
+- id: BLOCK111
+  label: ESP32 Command LLM
+  body: ESP32 Command LLM
+- id: BLOCK112
+  label: ↔
+  body: ↔
+- id: BLOCK113
+  label: None required at runtime
+  body: None required at runtime
+- id: BLOCK114
+  label: 08
+  body: 08
+- id: BLOCK115
+  label: '01'
+  body: '01'
+- id: BLOCK116
+  label: NOTE
+  body: NOTE
+- id: BLOCK117
+  label: Training pipeline
+  body: Training pipeline
+- id: BLOCK118
+  label: '02'
+  body: '02'
+- id: BLOCK119
+  label: NOTE
+  body: NOTE
+- id: BLOCK120
+  label: English and Spanish models
+  body: English and Spanish models
+- id: BLOCK121
+  label: '03'
+  body: '03'
+- id: BLOCK122
+  label: FIRMWARE
+  body: FIRMWARE
+- id: BLOCK123
+  label: On-device inference firmware
+  body: On-device inference firmware
+- id: BLOCK124
+  label: '04'
+  body: '04'
+- id: BLOCK125
+  label: NOTE
+  body: NOTE
+- id: BLOCK126
+  label: Validation results
+  body: Validation results
+- id: BLOCK127
+  label: '05'
+  body: '05'
+- id: BLOCK128
+  label: NOTE
+  body: NOTE
+- id: BLOCK129
+  label: GPIO command examples
+  body: GPIO command examples
+- id: BLOCK130
+  label: 09
+  body: 09
+- id: BLOCK131
+  label: '10'
+  body: '10'
+- id: BLOCK132
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK133
+  label: Pocket Dial
+  body: Pocket Dial
+- id: BLOCK134
+  label: Next project →
+  body: Next project →
+- id: BLOCK135
+  label: Fimi Cam ESP-IDF
+  body: Fimi Cam ESP-IDF
+lists: []
+template: cms/templates/pages/portfolio--projects--esp32-command-llm.tpl
+source: cms/templates/pages/portfolio--projects--esp32-command-llm.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio/projects/esp32-command-llm.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/esp32-command-llm.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/esp32-command-llm.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/esp32-command-llm.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/esp32-command-llm.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/esp32-command-llm.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/esp32-command-llm.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/esp32-command-llm.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/esp32-command-llm.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/esp32-command-llm.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/esp32-command-llm.html#result
+- id: LINK16
+  label: '{{RR_BLOCK68}} {{RR_BLOCK69}}'
+  url: /posts/a-kubernetes-service-can-be-healthy-while-the-app-is-broken.html
+- id: LINK17
+  label: '{{RR_BLOCK70}} {{RR_BLOCK71}}'
+  url: /posts/chart-yaml-is-small-but-it-gives-a-service-an-identity.html
+- id: LINK18
+  label: '{{RR_BLOCK72}} {{RR_BLOCK73}}'
+  url: /posts/conditional-helm-templates-are-powerful-and-easy-to-overcomplicate.html
+- id: LINK19
+  label: '{{RR_BLOCK132}} {{RR_BLOCK133}}'
+  url: /portfolio/projects/pocket-dial.html
+- id: LINK20
+  label: '{{RR_BLOCK134}} {{RR_BLOCK135}}'
+  url: /portfolio/projects/fimi-cam-esp-idf.html

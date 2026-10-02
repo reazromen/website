@@ -1,0 +1,534 @@
+title: Wi-Fi CSI Presence Sensing System
+browser_title: Wi-Fi CSI Presence Sensing System — Reaz Romen Portfolio
+description: ESP32 CSI collector, server-side signal processing and live dashboard
+  for room calibration, motion and presence experiments using Wi-Fi channel-state
+  changes.
+url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Wireless & Sensing / Working prototype
+  body: Wireless & Sensing / Working prototype
+- id: BLOCK1
+  label: Wi-Fi CSI Presence Sensing System
+  body: Wi-Fi CSI Presence Sensing System
+- id: BLOCK2
+  label: ESP32 CSI collector, server-side signal processing and live dashboard for
+    room calibration, mot
+  body: ESP32 CSI collector, server-side signal processing and live dashboard for
+    room calibration, motion and presence experiments using Wi-Fi channel-state changes.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: ESP32 CSI collector, server-side signal processing and live dashboard for
+    room calibration, mot
+  body: ESP32 CSI collector, server-side signal processing and live dashboard for
+    room calibration, motion and presence experiments using Wi-Fi channel-state changes.
+- id: BLOCK7
+  label: Built the end-to-end path from ESP32 CSI collection through server processing
+    to a live browser
+  body: Built the end-to-end path from ESP32 CSI collection through server processing
+    to a live browser dashboard.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Implemented calibration behavior so normal room conditions become the baseline
+    and later deviat
+  body: Implemented calibration behavior so normal room conditions become the baseline
+    and later deviation drives presence/motion signals.
+- id: BLOCK10
+  label: Iterated on live logs and time-series behavior to diagnose missed detections
+    and false signal i
+  body: Iterated on live logs and time-series behavior to diagnose missed detections
+    and false signal interpretation.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: 'ESP32-S3 CSI collector -> network telemetry -> hserver processing service
+    -> time-series state '
+  body: ESP32-S3 CSI collector -> network telemetry -> hserver processing service
+    -> time-series state -> live dashboard.
+- id: BLOCK14
+  label: Calibration defines the environmental zero/baseline; inference works from
+    deviation rather than
+  body: Calibration defines the environmental zero/baseline; inference works from
+    deviation rather than absolute raw values.
+- id: BLOCK15
+  label: The sensing UI separates signal evidence from higher-level presence labels.
+  body: The sensing UI separates signal evidence from higher-level presence labels.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 ESP32-S3 CSI collector -> network telemetry -> hserver processing service
+    -> time-series sta
+  body: '01
+
+
+    ESP32-S3 CSI collector -> network telemetry -> hserver processing service -> time-series
+    state -> live dashboard.'
+- id: BLOCK23
+  label: 'ESP32-S3 CSI collector -> network telemetry -> hserver processing service
+    -> time-series state '
+  body: ESP32-S3 CSI collector -> network telemetry -> hserver processing service
+    -> time-series state -> live dashboard.
+- id: BLOCK24
+  label: 02 Calibration defines the environmental zero/baseline; inference works from
+    deviation rather t
+  body: '02
+
+
+    Calibration defines the environmental zero/baseline; inference works from deviation
+    rather than absolute raw values.'
+- id: BLOCK25
+  label: Calibration defines the environmental zero/baseline; inference works from
+    deviation rather than
+  body: Calibration defines the environmental zero/baseline; inference works from
+    deviation rather than absolute raw values.
+- id: BLOCK26
+  label: 03 The sensing UI separates signal evidence from higher-level presence labels.
+  body: '03
+
+
+    The sensing UI separates signal evidence from higher-level presence labels.'
+- id: BLOCK27
+  label: The sensing UI separates signal evidence from higher-level presence labels.
+  body: The sensing UI separates signal evidence from higher-level presence labels.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Room calibration under normal operating conditions
+  body: Room calibration under normal operating conditions
+- id: BLOCK31
+  label: Walk-in / walk-out and still-presence trials
+  body: Walk-in / walk-out and still-presence trials
+- id: BLOCK32
+  label: Recent-log inspection when detections were missing
+  body: Recent-log inspection when detections were missing
+- id: BLOCK33
+  label: Baseline/deviation behavior checked after reconnect/recalibration
+  body: Baseline/deviation behavior checked after reconnect/recalibration
+- id: BLOCK34
+  label: Dashboard time-series compared against known room activity
+  body: Dashboard time-series compared against known room activity
+- id: BLOCK35
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK36
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK37
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK38
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK39
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK40
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK41
+  label: — Performance is environment-dependent
+  body: —Performance is environment-dependent
+- id: BLOCK42
+  label: — Baseline must represent the room's normal state
+  body: —Baseline must represent the room's normal state
+- id: BLOCK43
+  label: — CSI is sensitive to layout, multipath and radio changes
+  body: —CSI is sensitive to layout, multipath and radio changes
+- id: BLOCK44
+  label: — Presence labels are derived from signal evidence
+  body: —Presence labels are derived from signal evidence
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A working lab platform for room-scale CSI presence and motion experiments
+    with live calibration
+  body: A working lab platform for room-scale CSI presence and motion experiments
+    with live calibration and diagnostics.
+- id: BLOCK48
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK49
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK50
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK51
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK52
+  label: CSI
+  body: CSI
+- id: BLOCK53
+  label: DSP
+  body: DSP
+- id: BLOCK54
+  label: Docker
+  body: Docker
+- id: BLOCK55
+  label: Time series
+  body: Time series
+- id: BLOCK56
+  label: Web UI
+  body: Web UI
+- id: BLOCK57
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK58
+  label: STATUS
+  body: STATUS
+- id: BLOCK59
+  label: Working prototype
+  body: Working prototype
+- id: BLOCK60
+  label: AREA
+  body: AREA
+- id: BLOCK61
+  label: Wireless & Sensing
+  body: Wireless & Sensing
+- id: BLOCK62
+  label: STACK
+  body: STACK
+- id: BLOCK63
+  label: 6 documented technologies
+  body: 6 documented technologies
+- id: BLOCK64
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK65
+  label: 3 connected / bounded services
+  body: 3 connected / bounded services
+- id: BLOCK66
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: '01'
+  body: '01'
+- id: BLOCK69
+  label: Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization
+  body: Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization
+- id: BLOCK70
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK71
+  label: '02'
+  body: '02'
+- id: BLOCK72
+  label: '03'
+  body: '03'
+- id: BLOCK73
+  label: '02'
+  body: '02'
+- id: BLOCK74
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK75
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK76
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK77
+  label: '03'
+  body: '03'
+- id: BLOCK78
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK79
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK80
+  label: Room Wi-Fi channel
+  body: Room Wi-Fi channel
+- id: BLOCK81
+  label: →
+  body: →
+- id: BLOCK82
+  label: ESP32 CSI collector
+  body: ESP32 CSI collector
+- id: BLOCK83
+  label: →
+  body: →
+- id: BLOCK84
+  label: Network transport
+  body: Network transport
+- id: BLOCK85
+  label: →
+  body: →
+- id: BLOCK86
+  label: hserver signal processor
+  body: hserver signal processor
+- id: BLOCK87
+  label: →
+  body: →
+- id: BLOCK88
+  label: Calibration / inference
+  body: Calibration / inference
+- id: BLOCK89
+  label: →
+  body: →
+- id: BLOCK90
+  label: Live dashboard
+  body: Live dashboard
+- id: BLOCK91
+  label: '04'
+  body: '04'
+- id: BLOCK92
+  label: '01'
+  body: '01'
+- id: BLOCK93
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK94
+  label: '02'
+  body: '02'
+- id: BLOCK95
+  label: CSI
+  body: CSI
+- id: BLOCK96
+  label: '03'
+  body: '03'
+- id: BLOCK97
+  label: DSP
+  body: DSP
+- id: BLOCK98
+  label: '04'
+  body: '04'
+- id: BLOCK99
+  label: Docker
+  body: Docker
+- id: BLOCK100
+  label: '05'
+  body: '05'
+- id: BLOCK101
+  label: Time series
+  body: Time series
+- id: BLOCK102
+  label: '06'
+  body: '06'
+- id: BLOCK103
+  label: Web UI
+  body: Web UI
+- id: BLOCK104
+  label: '05'
+  body: '05'
+- id: BLOCK105
+  label: '06'
+  body: '06'
+- id: BLOCK106
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK107
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK108
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK109
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK110
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK111
+  label: '07'
+  body: '07'
+- id: BLOCK112
+  label: Wi-Fi CSI Presence Sensing System
+  body: Wi-Fi CSI Presence Sensing System
+- id: BLOCK113
+  label: ↔
+  body: ↔
+- id: BLOCK114
+  label: Local Wi-Fi router
+  body: Local Wi-Fi router
+- id: BLOCK115
+  label: ↔
+  body: ↔
+- id: BLOCK116
+  label: hserver Docker runtime
+  body: hserver Docker runtime
+- id: BLOCK117
+  label: ↔
+  body: ↔
+- id: BLOCK118
+  label: Browser dashboard
+  body: Browser dashboard
+- id: BLOCK119
+  label: 08
+  body: 08
+- id: BLOCK120
+  label: '01'
+  body: '01'
+- id: BLOCK121
+  label: FIRMWARE
+  body: FIRMWARE
+- id: BLOCK122
+  label: Collector firmware
+  body: Collector firmware
+- id: BLOCK123
+  label: '02'
+  body: '02'
+- id: BLOCK124
+  label: NOTE
+  body: NOTE
+- id: BLOCK125
+  label: Live telemetry logs
+  body: Live telemetry logs
+- id: BLOCK126
+  label: '03'
+  body: '03'
+- id: BLOCK127
+  label: NOTE
+  body: NOTE
+- id: BLOCK128
+  label: Calibration state
+  body: Calibration state
+- id: BLOCK129
+  label: '04'
+  body: '04'
+- id: BLOCK130
+  label: NOTE
+  body: NOTE
+- id: BLOCK131
+  label: Time-series dashboard
+  body: Time-series dashboard
+- id: BLOCK132
+  label: '05'
+  body: '05'
+- id: BLOCK133
+  label: NOTE
+  body: NOTE
+- id: BLOCK134
+  label: Presence/activity labels
+  body: Presence/activity labels
+- id: BLOCK135
+  label: '06'
+  body: '06'
+- id: BLOCK136
+  label: NOTE
+  body: NOTE
+- id: BLOCK137
+  label: Deployment on home network
+  body: Deployment on home network
+- id: BLOCK138
+  label: 09
+  body: 09
+- id: BLOCK139
+  label: '10'
+  body: '10'
+- id: BLOCK140
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK141
+  label: Grander CSI ESP32-S3 Firmware
+  body: Grander CSI ESP32-S3 Firmware
+- id: BLOCK142
+  label: Next project →
+  body: Next project →
+- id: BLOCK143
+  label: Reticulum / RNode Mesh Prototype
+  body: Reticulum / RNode Mesh Prototype
+lists: []
+template: cms/templates/pages/portfolio--projects--wi-fi-csi-presence-sensing-system.tpl
+source: cms/templates/pages/portfolio--projects--wi-fi-csi-presence-sensing-system.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html#result
+- id: LINK16
+  label: '{{RR_BLOCK69}} {{RR_BLOCK70}}'
+  url: /posts/wifi-csi-presence-calibration-drift-synchronization.html
+- id: LINK17
+  label: '{{RR_BLOCK140}} {{RR_BLOCK141}}'
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html
+- id: LINK18
+  label: '{{RR_BLOCK142}} {{RR_BLOCK143}}'
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html

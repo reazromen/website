@@ -1,13 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Home Server — Living Infrastructure Notebook | Reaz Romen</title>
-  <meta name="description" content="A living engineering notebook documenting how an old Mac mini evolved into a private infrastructure platform for networking, observability, device infrastructure, sensing, environmental data and telephony R&D.">
-  <meta name="color-scheme" content="light dark">
-  <link rel="canonical" href="https://reazromen.com/homeserver/">
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Home Server — Living Infrastructure Notebook | Reaz Romen</title>
+<meta content="A living engineering notebook documenting how an old Mac mini evolved into a private infrastructure platform for networking, observability, device infrastructure, sensing, environmental data and telephony R&amp;D." name="description"/>
+<meta content="light dark" name="color-scheme"/>
+<link href="https://reazromen.com/homeserver/index.html" rel="canonical"/>
+<style>
     :root{--bg:#070a08;--panel:#0b100d;--text:#edf5ef;--soft:#aab8ae;--muted:#748179;--line:#1d2821;--line2:#2b3a30;--accent:#91f3a7}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 16% 0%,rgba(73,157,92,.11),transparent 34rem),linear-gradient(rgba(145,243,167,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(145,243,167,.025) 1px,transparent 1px),var(--bg);background-size:auto,72px 72px,72px 72px,auto;color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
     a{color:inherit;text-decoration:none}a:hover{color:var(--accent)}.shell{width:min(1180px,calc(100% - 44px));margin:0 auto}.mono,.kicker{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;text-transform:uppercase;letter-spacing:.11em;font-size:.68rem;font-weight:800}.kicker{color:var(--accent)}
@@ -25,122 +26,111 @@
     footer{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;padding:2rem 0 3rem;color:var(--muted);font-size:.78rem}
     @media(max-width:900px){.shell{width:min(100% - 28px,760px)}header{align-items:flex-start;flex-direction:column}.hero,.why,.next{grid-template-columns:1fr;gap:2.4rem}.hero{padding:4.3rem 0 3.3rem}.step{grid-template-columns:44px 1fr}.step p{grid-column:2}.arch,.domains{grid-template-columns:1fr}.threads{grid-template-columns:1fr}.thread,.thread:nth-child(odd),.thread:nth-child(even){padding:1.25rem 0;border-right:0}.logrow{grid-template-columns:1fr;gap:.4rem}}
   </style>
-
-<link rel="stylesheet" href="/assets/site.css">
-<link rel="stylesheet" href="/assets/sitewide-v2.css">
-<link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/phase2.css"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<link href="/assets/site.css" rel="stylesheet"/>
+<link href="/assets/sitewide-v2.css" rel="stylesheet"/>
+<link href="/assets/phase1.css" rel="stylesheet"/><link href="/feed.xml" rel="alternate" title="Reaz Romen — Writing" type="application/rss+xml"/><link href="/atom.xml" rel="alternate" title="Reaz Romen — Writing" type="application/atom+xml"/><link href="/assets/phase2.css" rel="stylesheet"/><link href="/assets/responsive-v3.css" rel="stylesheet"/></head>
 <body class="rr-themed">
 <a class="skip-link" href="#rr-main">Skip to content</a>
-<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
-  <div class="shell">
-    <header>
-      <a class="brand" href="/"><span class="mark">RR</span><span class="brandcopy"><b>Reaz Romen</b><span>Systems · Embedded · Voice · Infrastructure</span></span></a>
-      <nav class="nav" aria-label="Main navigation"><a href="/portfolio">Portfolio</a><a href="/services">Services</a><a href="/about">About</a><a href="/writing">Writing</a><a href="/systems">Systems</a><a href="/archive">Archive</a><a href="/homeserver/" aria-current="page">Home Server</a></nav>
-    </header>
-
-    <main id="rr-main">
-      <section class="hero">
-        <div>
-          <p class="kicker">Home Server / living infrastructure notebook</p>
-          <h1>An old Mac mini became my private infrastructure platform.</h1>
-          <p class="lede">What started as Ubuntu, Docker and SSH gradually became the control plane behind observability, networking, storage continuity, embedded-device work, sensing, environmental data and telephony R&amp;D.</p>
-          <p class="note">This page is intentionally not a finished case study. It is the canonical public place for the architecture, current state, active technical discussions and the decisions that keep changing the system.</p>
-          <div class="actions"><a class="button primary" href="#current">Current work</a><a class="button" href="#evolution">Evolution</a><a class="button" href="#changelog">Change log</a></div>
-        </div>
-        <aside class="status">
-          <p class="kicker">Current status</p><h2>Living system, not a museum.</h2>
-          <dl>
-            <div><dt>State</dt><dd>Ongoing engineering and R&amp;D platform.</dd></div>
-            <div><dt>Core host</dt><dd>Older Mac mini running Ubuntu and containerized services.</dd></div>
-            <div><dt>Primary role</dt><dd>Stable coordination point for services, data, dashboards and remote operations.</dd></div>
-            <div><dt>Updated</dt><dd>25 Sep 2026</dd></div>
-          </dl>
-        </aside>
-      </section>
-
-      <section class="section why">
-        <div><p class="kicker">Why this page exists</p><blockquote>Every useful layer was added because the previous layer eventually became insufficient.</blockquote></div>
-        <div><p>I did not start by designing a “homelab architecture.” Wi-Fi failed, so I needed recovery. Remote access mattered, so I needed a private network. Too many services appeared, so I needed observability. Too many dashboards appeared, so I needed a control surface. Devices started producing data, so the server became a data backend. Firmware and telephony work needed infrastructure, so they joined the same platform.</p><p style="margin-top:1rem">The page therefore doubles as a living engineering notebook: when a homeserver discussion changes the architecture, creates a new operational rule, or closes an open problem, the durable result belongs here.</p></div>
-      </section>
-
-      <section class="section" id="evolution">
-        <div class="section-head"><div><p class="kicker">Evolution</p><h2>Problems became architecture.</h2></div><span class="mono">01 → 06</span></div>
-        <div class="timeline">
-          <div class="step"><span class="mono">01</span><b>Ubuntu + Docker</b><p>An always-on Mac mini for containers, files, SSH access and experiments.</p></div>
-          <div class="step"><span class="mono">02</span><b>Network recovery</b><p>Broadcom Wi-Fi, routing and availability problems forced watchdog logic, NetworkManager recovery and a more explicit failure model.</p></div>
-          <div class="step"><span class="mono">03</span><b>Private + public access</b><p>Tailscale made the host a persistent private node. Cloudflare and Caddy separated controlled web ingress from private management paths.</p></div>
-          <div class="step"><span class="mono">04</span><b>Multi-machine compute</b><p>Desktop, laptop and hserver became nodes with different capabilities and availability. Workload placement and Nomad experiments followed.</p></div>
-          <div class="step"><span class="mono">05</span><b>Observability</b><p>Prometheus and Grafana grew from host metrics into service state, network relationships, failure validation and operational evidence.</p></div>
-          <div class="step"><span class="mono">06</span><b>Control plane</b><p>Homarr, ingress, authentication, service-group controls and recovery views turned many independent tools into one operational surface.</p></div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-head"><div><p class="kicker">Architecture now</p><h2>Stable center, replaceable edges.</h2></div></div>
-        <div class="arch">
-          <div class="node"><span class="mono">Access</span><b>Internet + private network</b><p>Cloudflare for selected public services; Tailscale for private management and node-to-node reachability.</p></div>
-          <div class="node core"><span class="mono">Core</span><b>hserver</b><p>Ubuntu, Docker, ingress, service coordination, operational dashboards, collectors and continuity services.</p></div>
-          <div class="node"><span class="mono">Compute</span><b>Desktop + laptop</b><p>More capable machines can take heavier workloads while the home server remains the persistent coordination point.</p></div>
-          <div class="node"><span class="mono">Observe</span><b>Metrics + flows</b><p>Prometheus, Grafana, service state, logs and experiments around network-path visibility.</p></div>
-          <div class="node"><span class="mono">Devices</span><b>ESP32 + Android collectors</b><p>Embedded firmware, OTA experiments, Wi-Fi CSI, GNSS/GSM and other physical-world telemetry.</p></div>
-          <div class="node"><span class="mono">Labs</span><b>Voice + environment + sensing</b><p>SIP/RTP infrastructure, environmental observatories, presence experiments and data services share the same underlying platform patterns.</p></div>
-        </div>
-      </section>
-
-      <section class="section" id="current">
-        <div class="section-head"><div><p class="kicker">Current discussion threads</p><h2>What is still moving.</h2></div><span class="mono">Ongoing</span></div>
-        <div class="threads">
-          <article class="thread"><span class="state">stabilizing</span><h3>Chat-driven operations path</h3><p>The weakest boundary is still AI/agent → MCP → hserver → other nodes. The work is around reliable access, authorization, auditability, safe execution and recovery when one machine disappears.</p></article>
-          <article class="thread"><span class="state">active</span><h3>Master operations surface</h3><p>Homarr and Grafana are being consolidated so infrastructure, environmental data, presence/RF, telephony, storage and recovery remain discoverable from one place.</p></article>
-          <article class="thread"><span class="state">evolving</span><h3>Network observability</h3><p>Moving beyond container lists toward service groups, traffic relationships, timeline views, path tracing and better visibility into the whole LAN.</p></article>
-          <article class="thread"><span class="state">active</span><h3>Service lifecycle control</h3><p>Heavy stacks should not run forever. Service-group toggles, maintenance windows and resource-aware operation are replacing permanent-on assumptions.</p></article>
-          <article class="thread"><span class="state">experimental</span><h3>Sensor + CSI platform</h3><p>Wi-Fi CSI, Android radio/GNSS data and calibration workflows are turning the server into a backend for physical-world sensing experiments.</p></article>
-          <article class="thread"><span class="state">active</span><h3>Device + telephony infrastructure</h3><p>OTA fleet ideas, ESP32 development, SIP/RTP testing and PBX work continue to use the same server as a shared engineering lab.</p></article>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-head"><div><p class="kicker">What runs through it</p><h2>One platform, several engineering domains.</h2></div></div>
-        <div class="domains">
-          <article class="domain"><span class="mono">01</span><h3>Infrastructure</h3><p>Linux hosts, Docker services, ingress, identity, service state and recovery.</p><div class="tags"><span>Ubuntu</span><span>Docker</span><span>Caddy</span><span>Authelia</span></div></article>
-          <article class="domain"><span class="mono">02</span><h3>Observability</h3><p>System metrics, dashboards, alert validation, service health and network behavior.</p><div class="tags"><span>Prometheus</span><span>Grafana</span><span>Telemetry</span></div></article>
-          <article class="domain"><span class="mono">03</span><h3>Device infrastructure</h3><p>Firmware lifecycle, provisioning, release states and embedded-device experiments.</p><div class="tags"><span>ESP32-S3</span><span>OTA</span><span>Provisioning</span></div></article>
-          <article class="domain"><span class="mono">04</span><h3>Sensing</h3><p>Wi-Fi CSI, Android GNSS/GSM collection, calibration and time-series analysis.</p><div class="tags"><span>CSI</span><span>GNSS</span><span>RF</span></div></article>
-          <article class="domain"><span class="mono">05</span><h3>Environment</h3><p>Weather, river, flood, satellite and other public-data integrations.</p><div class="tags"><span>APIs</span><span>Time series</span><span>Dashboards</span></div></article>
-          <article class="domain"><span class="mono">06</span><h3>Telephony</h3><p>SIP signaling, RTP media, PBX integration, call-flow debugging and embedded voice.</p><div class="tags"><span>SIP</span><span>RTP</span><span>Asterisk</span><span>OpenSIPS</span></div></article>
-        </div>
-        <div class="principle">The same pattern keeps repeating: source → collector → storage → query → visualization → alert or action.</div>
-      </section>
-
-      <section class="section" id="changelog">
-        <div class="section-head"><div><p class="kicker">Change log</p><h2>Recent evolution.</h2></div></div>
-        <div class="log">
-          <div class="logrow"><time>Sep 2026</time><p>Consolidated operations around a master dashboard, Grafana hub, Caddy ingress and authentication instead of treating every dashboard as an isolated destination.</p></div>
-          <div class="logrow"><time>Sep 2026</time><p>Expanded the server into an environmental and sensing backend: river/weather observatories, satellite integrations, Wi-Fi CSI and Android radio/GNSS collectors.</p></div>
-          <div class="logrow"><time>Sep 2026</time><p>Started treating expensive stacks as service groups with explicit on/off and maintenance behavior after resource and log-pressure problems exposed the cost of leaving everything running.</p></div>
-          <div class="logrow"><time>Sep 2026</time><p>Made OTA/device lifecycle and telephony labs part of the same infrastructure rather than separate one-off development environments.</p></div>
-          <div class="logrow"><time>Earlier</time><p>Moved from local-only SSH toward Tailscale, watchdog recovery and remote operational access, changing the Mac mini from a nearby computer into a persistent infrastructure node.</p></div>
-        </div>
-      </section>
-
-      <section class="section next">
-        <div>
-          <p class="kicker">Next engineering questions</p>
-          <ul><li><span>01</span>How should machine selection and failover work when desktop, laptop or hserver disappears?</li><li><span>02</span>How much authority should a conversational operations layer have, and how should every action be auditable?</li><li><span>03</span>Which data belongs in long-term storage versus short-lived experimental telemetry?</li><li><span>04</span>How do I keep the control plane understandable as more projects attach to it?</li></ul>
-        </div>
-        <aside class="callout"><p class="kicker">Working principle</p><h2 style="font-size:2.1rem">Operate the system, not just the containers.</h2><p>The goal is not to collect self-hosted software. The goal is to make a small infrastructure environment explainable, recoverable and useful for real engineering work.</p><div class="actions"><a class="button primary" href="/portfolio">Portfolio</a><a class="button" href="/systems">Systems</a><a class="button" href="/writing">Field notes</a></div></aside>
-      </section>
-    </main>
-
-    <footer><span>Reaz Romen — independent systems engineer.</span><span>Home Server / living infrastructure notebook · updated 25 Sep 2026</span></footer>
-  </div>
-
+<header class="site-header rr-global-header"><div class="site-header-inner"><a aria-label="Reaz Romen home" class="brand" href="/">RR</a><nav aria-label="Main navigation" class="nav"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button aria-label="Search and quick navigation" class="icon-link search-action" data-open-command="" title="Search (Ctrl/⌘ K)" type="button"><svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg></button><a aria-label="GitHub" class="icon-link github-action" href="https://github.com/reazromen" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon icon-fill" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"></path></svg></a><button aria-label="Toggle color scheme" class="theme-toggle" onclick="toggleTheme()" type="button"><svg aria-hidden="true" class="icon" data-theme-icon="moon" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"></path></svg><svg aria-hidden="true" class="icon" data-theme-icon="sun" hidden="" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></svg></button></div></nav></div></header>
+<div class="shell">
+<header>
+<a class="brand" href="/"><span class="mark">RR</span><span class="brandcopy"><b>Reaz Romen</b><span>Systems · Embedded · Voice · Infrastructure</span></span></a>
+<nav aria-label="Main navigation" class="nav"><a href="/portfolio">Portfolio</a><a href="/services">Services</a><a href="/about">About</a><a href="/writing">Writing</a><a href="/systems">Systems</a><a href="/archive">Archive</a><a aria-current="page" href="/homeserver/">Home Server</a></nav>
+</header>
+<main data-pagefind-body="" id="rr-main">
+<section class="hero">
+<div>
+<p class="kicker">Home Server / living infrastructure notebook</p>
+<h1>An old Mac mini became my private infrastructure platform.</h1>
+<p class="lede">What started as Ubuntu, Docker and SSH gradually became the control plane behind observability, networking, storage continuity, embedded-device work, sensing, environmental data and telephony R&amp;D.</p>
+<p class="note">This page is intentionally not a finished case study. It is the canonical public place for the architecture, current state, active technical discussions and the decisions that keep changing the system.</p>
+<div class="actions"><a class="button primary" href="#current">Current work</a><a class="button" href="#evolution">Evolution</a><a class="button" href="#changelog">Change log</a></div>
+</div>
+<aside class="status">
+<p class="kicker">Current status</p><h2>Living system, not a museum.</h2>
+<dl>
+<div><dt>State</dt><dd>Ongoing engineering and R&amp;D platform.</dd></div>
+<div><dt>Core host</dt><dd>Older Mac mini running Ubuntu and containerized services.</dd></div>
+<div><dt>Primary role</dt><dd>Stable coordination point for services, data, dashboards and remote operations.</dd></div>
+<div><dt>Updated</dt><dd>25 Sep 2026</dd></div>
+</dl>
+</aside>
+</section>
+<section class="section why">
+<div><p class="kicker">Why this page exists</p><blockquote>Every useful layer was added because the previous layer eventually became insufficient.</blockquote></div>
+<div><p>I did not start by designing a “homelab architecture.” Wi-Fi failed, so I needed recovery. Remote access mattered, so I needed a private network. Too many services appeared, so I needed observability. Too many dashboards appeared, so I needed a control surface. Devices started producing data, so the server became a data backend. Firmware and telephony work needed infrastructure, so they joined the same platform.</p><p style="margin-top:1rem">The page therefore doubles as a living engineering notebook: when a homeserver discussion changes the architecture, creates a new operational rule, or closes an open problem, the durable result belongs here.</p></div>
+</section>
+<section class="section" id="evolution">
+<div class="section-head"><div><p class="kicker">Evolution</p><h2>Problems became architecture.</h2></div><span class="mono">01 → 06</span></div>
+<div class="timeline">
+<div class="step"><span class="mono">01</span><b>Ubuntu + Docker</b><p>An always-on Mac mini for containers, files, SSH access and experiments.</p></div>
+<div class="step"><span class="mono">02</span><b>Network recovery</b><p>Broadcom Wi-Fi, routing and availability problems forced watchdog logic, NetworkManager recovery and a more explicit failure model.</p></div>
+<div class="step"><span class="mono">03</span><b>Private + public access</b><p>Tailscale made the host a persistent private node. Cloudflare and Caddy separated controlled web ingress from private management paths.</p></div>
+<div class="step"><span class="mono">04</span><b>Multi-machine compute</b><p>Desktop, laptop and hserver became nodes with different capabilities and availability. Workload placement and Nomad experiments followed.</p></div>
+<div class="step"><span class="mono">05</span><b>Observability</b><p>Prometheus and Grafana grew from host metrics into service state, network relationships, failure validation and operational evidence.</p></div>
+<div class="step"><span class="mono">06</span><b>Control plane</b><p>Homarr, ingress, authentication, service-group controls and recovery views turned many independent tools into one operational surface.</p></div>
+</div>
+</section>
+<section class="section">
+<div class="section-head"><div><p class="kicker">Architecture now</p><h2>Stable center, replaceable edges.</h2></div></div>
+<div class="arch">
+<div class="node"><span class="mono">Access</span><b>Internet + private network</b><p>Cloudflare for selected public services; Tailscale for private management and node-to-node reachability.</p></div>
+<div class="node core"><span class="mono">Core</span><b>hserver</b><p>Ubuntu, Docker, ingress, service coordination, operational dashboards, collectors and continuity services.</p></div>
+<div class="node"><span class="mono">Compute</span><b>Desktop + laptop</b><p>More capable machines can take heavier workloads while the home server remains the persistent coordination point.</p></div>
+<div class="node"><span class="mono">Observe</span><b>Metrics + flows</b><p>Prometheus, Grafana, service state, logs and experiments around network-path visibility.</p></div>
+<div class="node"><span class="mono">Devices</span><b>ESP32 + Android collectors</b><p>Embedded firmware, OTA experiments, Wi-Fi CSI, GNSS/GSM and other physical-world telemetry.</p></div>
+<div class="node"><span class="mono">Labs</span><b>Voice + environment + sensing</b><p>SIP/RTP infrastructure, environmental observatories, presence experiments and data services share the same underlying platform patterns.</p></div>
+</div>
+</section>
+<section class="section" id="current">
+<div class="section-head"><div><p class="kicker">Current discussion threads</p><h2>What is still moving.</h2></div><span class="mono">Ongoing</span></div>
+<div class="threads">
+<article class="thread"><span class="state">stabilizing</span><h3>Chat-driven operations path</h3><p>The weakest boundary is still AI/agent → MCP → hserver → other nodes. The work is around reliable access, authorization, auditability, safe execution and recovery when one machine disappears.</p></article>
+<article class="thread"><span class="state">active</span><h3>Master operations surface</h3><p>Homarr and Grafana are being consolidated so infrastructure, environmental data, presence/RF, telephony, storage and recovery remain discoverable from one place.</p></article>
+<article class="thread"><span class="state">evolving</span><h3>Network observability</h3><p>Moving beyond container lists toward service groups, traffic relationships, timeline views, path tracing and better visibility into the whole LAN.</p></article>
+<article class="thread"><span class="state">active</span><h3>Service lifecycle control</h3><p>Heavy stacks should not run forever. Service-group toggles, maintenance windows and resource-aware operation are replacing permanent-on assumptions.</p></article>
+<article class="thread"><span class="state">experimental</span><h3>Sensor + CSI platform</h3><p>Wi-Fi CSI, Android radio/GNSS data and calibration workflows are turning the server into a backend for physical-world sensing experiments.</p></article>
+<article class="thread"><span class="state">active</span><h3>Device + telephony infrastructure</h3><p>OTA fleet ideas, ESP32 development, SIP/RTP testing and PBX work continue to use the same server as a shared engineering lab.</p></article>
+</div>
+</section>
+<section class="section">
+<div class="section-head"><div><p class="kicker">What runs through it</p><h2>One platform, several engineering domains.</h2></div></div>
+<div class="domains">
+<article class="domain"><span class="mono">01</span><h3>Infrastructure</h3><p>Linux hosts, Docker services, ingress, identity, service state and recovery.</p><div class="tags"><span>Ubuntu</span><span>Docker</span><span>Caddy</span><span>Authelia</span></div></article>
+<article class="domain"><span class="mono">02</span><h3>Observability</h3><p>System metrics, dashboards, alert validation, service health and network behavior.</p><div class="tags"><span>Prometheus</span><span>Grafana</span><span>Telemetry</span></div></article>
+<article class="domain"><span class="mono">03</span><h3>Device infrastructure</h3><p>Firmware lifecycle, provisioning, release states and embedded-device experiments.</p><div class="tags"><span>ESP32-S3</span><span>OTA</span><span>Provisioning</span></div></article>
+<article class="domain"><span class="mono">04</span><h3>Sensing</h3><p>Wi-Fi CSI, Android GNSS/GSM collection, calibration and time-series analysis.</p><div class="tags"><span>CSI</span><span>GNSS</span><span>RF</span></div></article>
+<article class="domain"><span class="mono">05</span><h3>Environment</h3><p>Weather, river, flood, satellite and other public-data integrations.</p><div class="tags"><span>APIs</span><span>Time series</span><span>Dashboards</span></div></article>
+<article class="domain"><span class="mono">06</span><h3>Telephony</h3><p>SIP signaling, RTP media, PBX integration, call-flow debugging and embedded voice.</p><div class="tags"><span>SIP</span><span>RTP</span><span>Asterisk</span><span>OpenSIPS</span></div></article>
+</div>
+<div class="principle">The same pattern keeps repeating: source → collector → storage → query → visualization → alert or action.</div>
+</section>
+<section class="section" id="changelog">
+<div class="section-head"><div><p class="kicker">Change log</p><h2>Recent evolution.</h2></div></div>
+<div class="log">
+<div class="logrow"><time>Sep 2026</time><p>Consolidated operations around a master dashboard, Grafana hub, Caddy ingress and authentication instead of treating every dashboard as an isolated destination.</p></div>
+<div class="logrow"><time>Sep 2026</time><p>Expanded the server into an environmental and sensing backend: river/weather observatories, satellite integrations, Wi-Fi CSI and Android radio/GNSS collectors.</p></div>
+<div class="logrow"><time>Sep 2026</time><p>Started treating expensive stacks as service groups with explicit on/off and maintenance behavior after resource and log-pressure problems exposed the cost of leaving everything running.</p></div>
+<div class="logrow"><time>Sep 2026</time><p>Made OTA/device lifecycle and telephony labs part of the same infrastructure rather than separate one-off development environments.</p></div>
+<div class="logrow"><time>Earlier</time><p>Moved from local-only SSH toward Tailscale, watchdog recovery and remote operational access, changing the Mac mini from a nearby computer into a persistent infrastructure node.</p></div>
+</div>
+</section>
+<section class="section next">
+<div>
+<p class="kicker">Next engineering questions</p>
+<ul><li><span>01</span>How should machine selection and failover work when desktop, laptop or hserver disappears?</li><li><span>02</span>How much authority should a conversational operations layer have, and how should every action be auditable?</li><li><span>03</span>Which data belongs in long-term storage versus short-lived experimental telemetry?</li><li><span>04</span>How do I keep the control plane understandable as more projects attach to it?</li></ul>
+</div>
+<aside class="callout"><p class="kicker">Working principle</p><h2 style="font-size:2.1rem">Operate the system, not just the containers.</h2><p>The goal is not to collect self-hosted software. The goal is to make a small infrastructure environment explainable, recoverable and useful for real engineering work.</p><div class="actions"><a class="button primary" href="/portfolio">Portfolio</a><a class="button" href="/systems">Systems</a><a class="button" href="/writing">Field notes</a></div></aside>
+</section>
+</main>
+<footer><span>Reaz Romen — independent systems engineer.</span><span>Home Server / living infrastructure notebook · updated 25 Sep 2026</span></footer>
+</div>
 <script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script>
-<dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<dialog aria-label="Search and quick navigation" class="command-palette" data-pagefind-ignore="" id="command-palette">
 <div class="command-shell">
-<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-input-row"><svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input aria-label="Search site" autocomplete="off" id="command-input" placeholder="Search writing, work, topics…" type="search"/><button aria-label="Close" class="command-close" data-close-command="" type="button"><svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div>
 <div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
-<nav class="command-shortcuts" aria-label="Quick navigation">
+<nav aria-label="Quick navigation" class="command-shortcuts">
 <a href="/portfolio.html">Work <span>Projects and systems</span></a>
 <a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
 <a href="/domains/">Domains <span>Browse engineering areas</span></a>
@@ -148,7 +138,7 @@
 <a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
 <a href="/about.html">About <span>Background and approach</span></a>
 </nav>
-<div id="command-results" class="command-results" aria-live="polite"></div>
+<div aria-live="polite" class="command-results" id="command-results"></div>
 <div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
-</div></dialog><script src="/assets/phase1.js"></script><div id="context-preview" class="context-preview" role="tooltip" hidden data-pagefind-ignore></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</div></dialog><script src="/assets/phase1.js"></script><div class="context-preview" data-pagefind-ignore="" hidden="" id="context-preview" role="tooltip"></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body>
 </html>

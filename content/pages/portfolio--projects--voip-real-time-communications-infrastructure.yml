@@ -1,0 +1,580 @@
+title: VoIP & Real-Time Communications Infrastructure
+browser_title: VoIP & Real-Time Communications Infrastructure — Reaz Romen Portfolio
+description: SIP/RTP infrastructure and debugging across endpoints, PBXs, routing,
+  media, packet captures, NAT and service health.
+url: /portfolio/projects/voip-real-time-communications-infrastructure.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Voice & Telecom / Built / operated
+  body: Voice & Telecom / Built / operated
+- id: BLOCK1
+  label: VoIP & Real-Time Communications Infrastructure
+  body: VoIP & Real-Time Communications Infrastructure
+- id: BLOCK2
+  label: SIP/RTP infrastructure and debugging across endpoints, PBXs, routing, media,
+    packet captures, N
+  body: SIP/RTP infrastructure and debugging across endpoints, PBXs, routing, media,
+    packet captures, NAT and service health.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: SIP/RTP infrastructure and debugging across endpoints, PBXs, routing, media,
+    packet captures, N
+  body: SIP/RTP infrastructure and debugging across endpoints, PBXs, routing, media,
+    packet captures, NAT and service health.
+- id: BLOCK7
+  label: Built and debugged SIP/RTP systems across endpoint provisioning, PBX behavior,
+    routing, NAT and
+  body: Built and debugged SIP/RTP systems across endpoint provisioning, PBX behavior,
+    routing, NAT and media.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Worked with Asterisk, FreeSWITCH, OpenSIPS, RTPengine, Drachtio and Linphone
+    in different parts
+  body: Worked with Asterisk, FreeSWITCH, OpenSIPS, RTPengine, Drachtio and Linphone
+    in different parts of the stack.
+- id: BLOCK10
+  label: Used packet captures and RTP timing analysis to separate signaling success
+    from media quality.
+  body: Used packet captures and RTP timing analysis to separate signaling success
+    from media quality.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Endpoint -> SIP edge/PBX/routing -> destination endpoint for signaling.
+  body: Endpoint -> SIP edge/PBX/routing -> destination endpoint for signaling.
+- id: BLOCK14
+  label: RTP media can take a different network path and is analyzed independently
+    from SIP.
+  body: RTP media can take a different network path and is analyzed independently
+    from SIP.
+- id: BLOCK15
+  label: Observability spans process health, registration state, packet flow and user-visible
+    call behav
+  body: Observability spans process health, registration state, packet flow and user-visible
+    call behavior.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Endpoint -> SIP edge/PBX/routing -> destination endpoint for signaling.
+  body: '01
+
+
+    Endpoint -> SIP edge/PBX/routing -> destination endpoint for signaling.'
+- id: BLOCK23
+  label: Endpoint -> SIP edge/PBX/routing -> destination endpoint for signaling.
+  body: Endpoint -> SIP edge/PBX/routing -> destination endpoint for signaling.
+- id: BLOCK24
+  label: 02 RTP media can take a different network path and is analyzed independently
+    from SIP.
+  body: '02
+
+
+    RTP media can take a different network path and is analyzed independently from
+    SIP.'
+- id: BLOCK25
+  label: RTP media can take a different network path and is analyzed independently
+    from SIP.
+  body: RTP media can take a different network path and is analyzed independently
+    from SIP.
+- id: BLOCK26
+  label: 03 Observability spans process health, registration state, packet flow and
+    user-visible call be
+  body: '03
+
+
+    Observability spans process health, registration state, packet flow and user-visible
+    call behavior.'
+- id: BLOCK27
+  label: Observability spans process health, registration state, packet flow and user-visible
+    call behav
+  body: Observability spans process health, registration state, packet flow and user-visible
+    call behavior.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Registration and authentication tests
+  body: Registration and authentication tests
+- id: BLOCK31
+  label: SIP ladder inspection
+  body: SIP ladder inspection
+- id: BLOCK32
+  label: SDP/codec verification
+  body: SDP/codec verification
+- id: BLOCK33
+  label: RTP sequence/timestamp/jitter analysis
+  body: RTP sequence/timestamp/jitter analysis
+- id: BLOCK34
+  label: Inbound and two-way call testing
+  body: Inbound and two-way call testing
+- id: BLOCK35
+  label: Service health correlation with user-visible call behavior
+  body: Service health correlation with user-visible call behavior
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — Successful signaling does not prove working media
+  body: —Successful signaling does not prove working media
+- id: BLOCK43
+  label: — SIP and RTP may take different network paths
+  body: —SIP and RTP may take different network paths
+- id: BLOCK44
+  label: — NAT/timing/codec failures can live outside the PBX
+  body: —NAT/timing/codec failures can live outside the PBX
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A reusable cross-layer VoIP engineering environment where signaling and media
+    failures can be t
+  body: A reusable cross-layer VoIP engineering environment where signaling and media
+    failures can be traced rather than treated as PBX-only problems.
+- id: BLOCK48
+  label: DEEP CASE STUDY AVAILABLE
+  body: DEEP CASE STUDY AVAILABLE
+- id: BLOCK49
+  label: Failure modes, investigation path and engineering evidence.
+  body: Failure modes, investigation path and engineering evidence.
+- id: BLOCK50
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK51
+  label: Deep engineering case study
+  body: Deep engineering case study
+- id: BLOCK52
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK53
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK54
+  label: SIP
+  body: SIP
+- id: BLOCK55
+  label: RTP
+  body: RTP
+- id: BLOCK56
+  label: Asterisk
+  body: Asterisk
+- id: BLOCK57
+  label: FreeSWITCH
+  body: FreeSWITCH
+- id: BLOCK58
+  label: OpenSIPS
+  body: OpenSIPS
+- id: BLOCK59
+  label: RTPengine
+  body: RTPengine
+- id: BLOCK60
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK61
+  label: STATUS
+  body: STATUS
+- id: BLOCK62
+  label: Built / operated
+  body: Built / operated
+- id: BLOCK63
+  label: AREA
+  body: AREA
+- id: BLOCK64
+  label: Voice & Telecom
+  body: Voice & Telecom
+- id: BLOCK65
+  label: STACK
+  body: STACK
+- id: BLOCK66
+  label: 6 documented technologies
+  body: 6 documented technologies
+- id: BLOCK67
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK68
+  label: 6 connected / bounded services
+  body: 6 connected / bounded services
+- id: BLOCK69
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK70
+  label: '01'
+  body: '01'
+- id: BLOCK71
+  label: '01'
+  body: '01'
+- id: BLOCK72
+  label: RTP Timestamps Are Not Wall Clocks
+  body: RTP Timestamps Are Not Wall Clocks
+- id: BLOCK73
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK74
+  label: WebRTC Connectivity Is Not “STUN or TURN” — It Is an ICE Candidate Selection
+    Problem
+  body: WebRTC Connectivity Is Not “STUN or TURN” — It Is an ICE Candidate Selection
+    Problem
+- id: BLOCK75
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK76
+  label: '02'
+  body: '02'
+- id: BLOCK77
+  label: '03'
+  body: '03'
+- id: BLOCK78
+  label: '02'
+  body: '02'
+- id: BLOCK79
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK80
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK81
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK82
+  label: '03'
+  body: '03'
+- id: BLOCK83
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK84
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK85
+  label: Endpoint
+  body: Endpoint
+- id: BLOCK86
+  label: →
+  body: →
+- id: BLOCK87
+  label: SIP edge / registrar
+  body: SIP edge / registrar
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: PBX / routing
+  body: PBX / routing
+- id: BLOCK90
+  label: →
+  body: →
+- id: BLOCK91
+  label: SDP negotiation
+  body: SDP negotiation
+- id: BLOCK92
+  label: →
+  body: →
+- id: BLOCK93
+  label: RTP media path
+  body: RTP media path
+- id: BLOCK94
+  label: →
+  body: →
+- id: BLOCK95
+  label: Destination endpoint
+  body: Destination endpoint
+- id: BLOCK96
+  label: '04'
+  body: '04'
+- id: BLOCK97
+  label: '01'
+  body: '01'
+- id: BLOCK98
+  label: SIP
+  body: SIP
+- id: BLOCK99
+  label: '02'
+  body: '02'
+- id: BLOCK100
+  label: RTP
+  body: RTP
+- id: BLOCK101
+  label: '03'
+  body: '03'
+- id: BLOCK102
+  label: Asterisk
+  body: Asterisk
+- id: BLOCK103
+  label: '04'
+  body: '04'
+- id: BLOCK104
+  label: FreeSWITCH
+  body: FreeSWITCH
+- id: BLOCK105
+  label: '05'
+  body: '05'
+- id: BLOCK106
+  label: OpenSIPS
+  body: OpenSIPS
+- id: BLOCK107
+  label: '06'
+  body: '06'
+- id: BLOCK108
+  label: RTPengine
+  body: RTPengine
+- id: BLOCK109
+  label: '05'
+  body: '05'
+- id: BLOCK110
+  label: '06'
+  body: '06'
+- id: BLOCK111
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK112
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK113
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK114
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK115
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK116
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK117
+  label: '07'
+  body: '07'
+- id: BLOCK118
+  label: VoIP & Real-Time Communications Infrastructure
+  body: VoIP & Real-Time Communications Infrastructure
+- id: BLOCK119
+  label: ↔
+  body: ↔
+- id: BLOCK120
+  label: Asterisk
+  body: Asterisk
+- id: BLOCK121
+  label: ↔
+  body: ↔
+- id: BLOCK122
+  label: FreeSWITCH
+  body: FreeSWITCH
+- id: BLOCK123
+  label: ↔
+  body: ↔
+- id: BLOCK124
+  label: OpenSIPS
+  body: OpenSIPS
+- id: BLOCK125
+  label: ↔
+  body: ↔
+- id: BLOCK126
+  label: RTPengine
+  body: RTPengine
+- id: BLOCK127
+  label: ↔
+  body: ↔
+- id: BLOCK128
+  label: Drachtio
+  body: Drachtio
+- id: BLOCK129
+  label: ↔
+  body: ↔
+- id: BLOCK130
+  label: Linphone
+  body: Linphone
+- id: BLOCK131
+  label: 08
+  body: 08
+- id: BLOCK132
+  label: '01'
+  body: '01'
+- id: BLOCK133
+  label: PCAP
+  body: PCAP
+- id: BLOCK134
+  label: SIP packet captures
+  body: SIP packet captures
+- id: BLOCK135
+  label: '02'
+  body: '02'
+- id: BLOCK136
+  label: NOTE
+  body: NOTE
+- id: BLOCK137
+  label: RTP stream analysis
+  body: RTP stream analysis
+- id: BLOCK138
+  label: '03'
+  body: '03'
+- id: BLOCK139
+  label: NOTE
+  body: NOTE
+- id: BLOCK140
+  label: PBX configuration
+  body: PBX configuration
+- id: BLOCK141
+  label: '04'
+  body: '04'
+- id: BLOCK142
+  label: TEST
+  body: TEST
+- id: BLOCK143
+  label: Call test traces
+  body: Call test traces
+- id: BLOCK144
+  label: '05'
+  body: '05'
+- id: BLOCK145
+  label: NOTE
+  body: NOTE
+- id: BLOCK146
+  label: Health dashboards
+  body: Health dashboards
+- id: BLOCK147
+  label: '06'
+  body: '06'
+- id: BLOCK148
+  label: NOTE
+  body: NOTE
+- id: BLOCK149
+  label: Embedded-to-PBX integration
+  body: Embedded-to-PBX integration
+- id: BLOCK150
+  label: 09
+  body: 09
+- id: BLOCK151
+  label: '10'
+  body: '10'
+- id: BLOCK152
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK153
+  label: E22 / EWM Wireless Configuration Test Harness
+  body: E22 / EWM Wireless Configuration Test Harness
+- id: BLOCK154
+  label: Next project →
+  body: Next project →
+- id: BLOCK155
+  label: FIMI VoIP Protocol Demo
+  body: FIMI VoIP Protocol Demo
+lists: []
+template: cms/templates/pages/portfolio--projects--voip-real-time-communications-infrastructure.tpl
+source: cms/templates/pages/portfolio--projects--voip-real-time-communications-infrastructure.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK50}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK51}}'
+  url: /portfolio/voip-sip-rtp.html
+- id: LINK2
+  label: '{{RR_BLOCK52}}'
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html#architecture
+- id: LINK3
+  label: Architecture
+  url: '#architecture'
+- id: LINK4
+  label: Signal / request path
+  url: '#network'
+- id: LINK5
+  label: Verification
+  url: '#testing'
+- id: LINK6
+  label: Evidence
+  url: '#evidence'
+- id: LINK7
+  label: 01 / Overview
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html#overview
+- id: LINK8
+  label: 02 / Architecture
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html#architecture
+- id: LINK9
+  label: 03 / Network & data flow
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html#network
+- id: LINK10
+  label: 04 / Stack
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html#stack
+- id: LINK11
+  label: 05 / How I built it
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html#implementation
+- id: LINK12
+  label: 06 / Testing
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html#testing
+- id: LINK13
+  label: 07 / Integrations
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html#integrations
+- id: LINK14
+  label: 08 / Evidence
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html#evidence
+- id: LINK15
+  label: 09 / Constraints
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html#constraints
+- id: LINK16
+  label: 10 / Result
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html#result
+- id: LINK17
+  label: '{{RR_BLOCK72}} {{RR_BLOCK73}}'
+  url: /posts/rtp-timestamps-are-not-wall-clocks.html
+- id: LINK18
+  label: '{{RR_BLOCK74}} {{RR_BLOCK75}}'
+  url: /posts/webrtc-ice-candidate-selection-not-stun-turn.html
+- id: LINK19
+  label: Open full case study →
+  url: /portfolio/voip-sip-rtp.html
+- id: LINK20
+  label: '{{RR_BLOCK152}} {{RR_BLOCK153}}'
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html
+- id: LINK21
+  label: '{{RR_BLOCK154}} {{RR_BLOCK155}}'
+  url: /portfolio/projects/fimi-voip-protocol-demo.html

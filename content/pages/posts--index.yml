@@ -1,0 +1,56 @@
+title: Writing
+browser_title: Writing — Reaz Romen
+description: Engineering notes and investigations by Reaz Romen.
+url: /posts/index.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Writing
+  body: Writing
+- id: BLOCK1
+  label: Engineering notes, investigations, and things learned while building.
+  body: '*Engineering notes, investigations, and things learned while building.*'
+- id: BLOCK2
+  label: Communications
+  body: Communications
+- id: BLOCK3
+  label: SIP, RTP, PBX architecture, carrier infrastructure, call flows, audio paths,
+    jitter, echo cance
+  body: SIP, RTP, PBX architecture, carrier infrastructure, call flows, audio paths,
+    jitter, echo cancellation, and real-time media.
+- id: BLOCK4
+  label: Embedded Systems
+  body: Embedded Systems
+- id: BLOCK5
+  label: ESP32-S3, firmware bring-up, audio codecs, I²S, device provisioning, OTA,
+    hardware integration,
+  body: ESP32-S3, firmware bring-up, audio codecs, I²S, device provisioning, OTA,
+    hardware integration, and production debugging.
+- id: BLOCK6
+  label: Infrastructure & Reliability
+  body: Infrastructure & Reliability
+- id: BLOCK7
+  label: 'Linux, containers, distributed workloads, networking, observability, failure
+    recovery, service '
+  body: Linux, containers, distributed workloads, networking, observability, failure
+    recovery, service ownership, and production operations.
+- id: BLOCK8
+  label: RF & Physical Computing
+  body: RF & Physical Computing
+- id: BLOCK9
+  label: Wi-Fi CSI, RF sensing, GNSS, Doppler measurements, wireless telemetry, and
+    turning physical-wor
+  body: Wi-Fi CSI, RF sensing, GNSS, Doppler measurements, wireless telemetry, and
+    turning physical-world signals into useful data.
+- id: BLOCK10
+  label: AI Systems
+  body: AI Systems
+- id: BLOCK11
+  label: MCP, tool-connected agents, voice AI, local models, automation, and the infrastructure
+    required
+  body: MCP, tool-connected agents, voice AI, local models, automation, and the infrastructure
+    required to operate AI systems.
+lists: []
+template: cms/templates/pages/posts--index.tpl
+source: cms/templates/pages/posts--index.json
+links: []

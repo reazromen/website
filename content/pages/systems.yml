@@ -1,0 +1,219 @@
+title: Depth at the boundaries between systems.
+browser_title: Systems & Capabilities — Reaz Romen
+description: Embedded firmware, real-time communications, Linux infrastructure and
+  observability capability map.
+url: /systems.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: SYSTEMS / CAPABILITY MAP
+  body: SYSTEMS / CAPABILITY MAP
+- id: BLOCK1
+  label: Depth at the boundaries between systems.
+  body: Depth at the boundaries between systems.
+- id: BLOCK2
+  label: The useful part is not a list of tools. It is being able to follow a failure
+    as it moves from o
+  body: The useful part is not a list of tools. It is being able to follow a failure
+    as it moves from one layer into another.
+- id: BLOCK3
+  label: Embedded & Firmware
+  body: Embedded & Firmware
+- id: BLOCK4
+  label: Device firmware, audio pipelines, hardware integration, provisioning and
+    lifecycle engineering.
+  body: Device firmware, audio pipelines, hardware integration, provisioning and lifecycle
+    engineering.
+- id: BLOCK5
+  label: Real-Time Communications
+  body: Real-Time Communications
+- id: BLOCK6
+  label: Signaling, media paths and distributed call debugging across endpoints and
+    telephony infrastruc
+  body: Signaling, media paths and distributed call debugging across endpoints and
+    telephony infrastructure.
+- id: BLOCK7
+  label: Infrastructure & Platform
+  body: Infrastructure & Platform
+- id: BLOCK8
+  label: Linux and container platforms, access paths, stateful services and operational
+    control planes.
+  body: Linux and container platforms, access paths, stateful services and operational
+    control planes.
+- id: BLOCK9
+  label: Observability & Operations
+  body: Observability & Operations
+- id: BLOCK10
+  label: Monitoring that is tested against real failure conditions rather than judged
+    by dashboard appea
+  body: Monitoring that is tested against real failure conditions rather than judged
+    by dashboard appearance.
+- id: BLOCK11
+  label: '01'
+  body: '01'
+- id: BLOCK12
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK13
+  label: ESP-IDF
+  body: ESP-IDF
+- id: BLOCK14
+  label: ESP-ADF
+  body: ESP-ADF
+- id: BLOCK15
+  label: FreeRTOS
+  body: FreeRTOS
+- id: BLOCK16
+  label: C/C++
+  body: C/C++
+- id: BLOCK17
+  label: I2S / I2C
+  body: I2S / I2C
+- id: BLOCK18
+  label: Audio codecs
+  body: Audio codecs
+- id: BLOCK19
+  label: Wi-Fi provisioning
+  body: Wi-Fi provisioning
+- id: BLOCK20
+  label: OTA
+  body: OTA
+- id: BLOCK21
+  label: E-paper
+  body: E-paper
+- id: BLOCK22
+  label: Hardware bring-up
+  body: Hardware bring-up
+- id: BLOCK23
+  label: '02'
+  body: '02'
+- id: BLOCK24
+  label: SIP
+  body: SIP
+- id: BLOCK25
+  label: RTP
+  body: RTP
+- id: BLOCK26
+  label: SDP
+  body: SDP
+- id: BLOCK27
+  label: Asterisk
+  body: Asterisk
+- id: BLOCK28
+  label: FreeSWITCH
+  body: FreeSWITCH
+- id: BLOCK29
+  label: OpenSIPS
+  body: OpenSIPS
+- id: BLOCK30
+  label: RTPengine
+  body: RTPengine
+- id: BLOCK31
+  label: Drachtio
+  body: Drachtio
+- id: BLOCK32
+  label: Linphone
+  body: Linphone
+- id: BLOCK33
+  label: G.711
+  body: G.711
+- id: BLOCK34
+  label: Packet captures
+  body: Packet captures
+- id: BLOCK35
+  label: Media-path debugging
+  body: Media-path debugging
+- id: BLOCK36
+  label: '03'
+  body: '03'
+- id: BLOCK37
+  label: Linux
+  body: Linux
+- id: BLOCK38
+  label: Docker
+  body: Docker
+- id: BLOCK39
+  label: Docker Compose
+  body: Docker Compose
+- id: BLOCK40
+  label: systemd
+  body: systemd
+- id: BLOCK41
+  label: Caddy
+  body: Caddy
+- id: BLOCK42
+  label: Cloudflare Tunnel
+  body: Cloudflare Tunnel
+- id: BLOCK43
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK44
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK45
+  label: MySQL
+  body: MySQL
+- id: BLOCK46
+  label: Redis
+  body: Redis
+- id: BLOCK47
+  label: MongoDB
+  body: MongoDB
+- id: BLOCK48
+  label: AWS
+  body: AWS
+- id: BLOCK49
+  label: '04'
+  body: '04'
+- id: BLOCK50
+  label: Prometheus
+  body: Prometheus
+- id: BLOCK51
+  label: PromQL
+  body: PromQL
+- id: BLOCK52
+  label: Grafana
+  body: Grafana
+- id: BLOCK53
+  label: Alertmanager
+  body: Alertmanager
+- id: BLOCK54
+  label: Blackbox Exporter
+  body: Blackbox Exporter
+- id: BLOCK55
+  label: node_exporter
+  body: node\_exporter
+- id: BLOCK56
+  label: cAdvisor
+  body: cAdvisor
+- id: BLOCK57
+  label: Loki
+  body: Loki
+- id: BLOCK58
+  label: Alloy
+  body: Alloy
+- id: BLOCK59
+  label: OpenObserve
+  body: OpenObserve
+- id: BLOCK60
+  label: Load testing
+  body: Load testing
+- id: BLOCK61
+  label: Failure validation
+  body: Failure validation
+- id: BLOCK62
+  label: DEVICE
+  body: DEVICE
+- id: BLOCK63
+  label: NETWORK
+  body: NETWORK
+- id: BLOCK64
+  label: PLATFORM
+  body: PLATFORM
+- id: BLOCK65
+  label: OPERATIONS
+  body: OPERATIONS
+lists: []
+template: cms/templates/pages/systems.tpl
+source: cms/templates/pages/systems.json
+links: []

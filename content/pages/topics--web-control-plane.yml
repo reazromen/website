@@ -1,0 +1,24 @@
+title: Web & Control Plane
+browser_title: Web & Control Plane — Reaz Romen — Systems Engineering
+description: Systems engineering across embedded firmware, real-time communications,
+  Linux infrastructure, networking and observability.
+url: /topics/web-control-plane.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: TOPIC
+  body: TOPIC
+- id: BLOCK1
+  label: Web & Control Plane
+  body: Web & Control Plane
+- id: BLOCK2
+  label: Lessons, explainers, experiments, and implementation notes.
+  body: Lessons, explainers, experiments, and implementation notes.
+lists:
+- key: LIST0
+  filter:
+    topic: web-control-plane
+  style: cards
+template: cms/templates/pages/topics--web-control-plane.tpl
+source: cms/templates/pages/topics--web-control-plane.json
+links: []

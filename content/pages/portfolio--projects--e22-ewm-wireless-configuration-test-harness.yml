@@ -1,0 +1,511 @@
+title: E22 / EWM Wireless Configuration Test Harness
+browser_title: E22 / EWM Wireless Configuration Test Harness — Reaz Romen Portfolio
+description: Repeatable serial/radio test workflow for E22 and EWM modules covering
+  local configuration reads, temperature profiles, OTA initiator behavior and wired
+  recovery tests.
+url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Wireless & Sensing / Built test tooling
+  body: Wireless & Sensing / Built test tooling
+- id: BLOCK1
+  label: E22 / EWM Wireless Configuration Test Harness
+  body: E22 / EWM Wireless Configuration Test Harness
+- id: BLOCK2
+  label: Repeatable serial/radio test workflow for E22 and EWM modules covering local
+    configuration read
+  body: Repeatable serial/radio test workflow for E22 and EWM modules covering local
+    configuration reads, temperature profiles, OTA initiator behavior and wired recovery
+    tests.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: Repeatable serial/radio test workflow for E22 and EWM modules covering local
+    configuration read
+  body: Repeatable serial/radio test workflow for E22 and EWM modules covering local
+    configuration reads, temperature profiles, OTA initiator behavior and wired recovery
+    tests.
+- id: BLOCK7
+  label: 'Built repeatable tests around E22 and EWM modules rather than relying on
+    manual one-off serial '
+  body: Built repeatable tests around E22 and EWM modules rather than relying on manual
+    one-off serial commands.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Validated local configuration reads, temperature/profile behavior and Mode-2
+    OTA initiator beha
+  body: Validated local configuration reads, temperature/profile behavior and Mode-2
+    OTA initiator behavior.
+- id: BLOCK10
+  label: Used a hard wired RS485 recovery path to separate UART/protocol problems
+    from RF-link problems.
+  body: Used a hard wired RS485 recovery path to separate UART/protocol problems from
+    RF-link problems.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Host/test script -> UART/RS485 -> E22/EWM configuration interface -> optional
+    RF OTA path.
+  body: Host/test script -> UART/RS485 -> E22/EWM configuration interface -> optional
+    RF OTA path.
+- id: BLOCK14
+  label: Local read/write evidence is separated from remote OTA acknowledgement evidence.
+  body: Local read/write evidence is separated from remote OTA acknowledgement evidence.
+- id: BLOCK15
+  label: Counters and exact command bytes are captured so failure states remain reproducible.
+  body: Counters and exact command bytes are captured so failure states remain reproducible.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Host/test script -> UART/RS485 -> E22/EWM configuration interface -> optional
+    RF OTA path.
+  body: '01
+
+
+    Host/test script -> UART/RS485 -> E22/EWM configuration interface -> optional
+    RF OTA path.'
+- id: BLOCK23
+  label: Host/test script -> UART/RS485 -> E22/EWM configuration interface -> optional
+    RF OTA path.
+  body: Host/test script -> UART/RS485 -> E22/EWM configuration interface -> optional
+    RF OTA path.
+- id: BLOCK24
+  label: 02 Local read/write evidence is separated from remote OTA acknowledgement
+    evidence.
+  body: '02
+
+
+    Local read/write evidence is separated from remote OTA acknowledgement evidence.'
+- id: BLOCK25
+  label: Local read/write evidence is separated from remote OTA acknowledgement evidence.
+  body: Local read/write evidence is separated from remote OTA acknowledgement evidence.
+- id: BLOCK26
+  label: 03 Counters and exact command bytes are captured so failure states remain
+    reproducible.
+  body: '03
+
+
+    Counters and exact command bytes are captured so failure states remain reproducible.'
+- id: BLOCK27
+  label: Counters and exact command bytes are captured so failure states remain reproducible.
+  body: Counters and exact command bytes are captured so failure states remain reproducible.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Local configuration read verification
+  body: Local configuration read verification
+- id: BLOCK31
+  label: Temperature profile test
+  body: Temperature profile test
+- id: BLOCK32
+  label: Mode-2 OTA initiator test
+  body: Mode-2 OTA initiator test
+- id: BLOCK33
+  label: Exact command-byte probes
+  body: Exact command-byte probes
+- id: BLOCK34
+  label: Hard RS485 loop planned/used to isolate serial protocol from RF path
+  body: Hard RS485 loop planned/used to isolate serial protocol from RF path
+- id: BLOCK35
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK36
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK37
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK38
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK39
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK40
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK41
+  label: — Local module success does not prove remote RF success
+  body: —Local module success does not prove remote RF success
+- id: BLOCK42
+  label: — No-reply is inconclusive without a wired protocol check
+  body: —No-reply is inconclusive without a wired protocol check
+- id: BLOCK43
+  label: — Mode/state mismatches can look like range failures
+  body: —Mode/state mismatches can look like range failures
+- id: BLOCK44
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK45
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK46
+  label: A structured radio/configuration troubleshooting harness that distinguishes
+    local module health
+  body: A structured radio/configuration troubleshooting harness that distinguishes
+    local module health from remote-link success.
+- id: BLOCK47
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK48
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK49
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK50
+  label: E22
+  body: E22
+- id: BLOCK51
+  label: UART
+  body: UART
+- id: BLOCK52
+  label: RS485
+  body: RS485
+- id: BLOCK53
+  label: LoRa
+  body: LoRa
+- id: BLOCK54
+  label: Autotest
+  body: Autotest
+- id: BLOCK55
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK56
+  label: STATUS
+  body: STATUS
+- id: BLOCK57
+  label: Built test tooling
+  body: Built test tooling
+- id: BLOCK58
+  label: AREA
+  body: AREA
+- id: BLOCK59
+  label: Wireless & Sensing
+  body: Wireless & Sensing
+- id: BLOCK60
+  label: STACK
+  body: STACK
+- id: BLOCK61
+  label: 5 documented technologies
+  body: 5 documented technologies
+- id: BLOCK62
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK63
+  label: 3 connected / bounded services
+  body: 3 connected / bounded services
+- id: BLOCK64
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK65
+  label: '01'
+  body: '01'
+- id: BLOCK66
+  label: '01'
+  body: '01'
+- id: BLOCK67
+  label: Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization
+  body: Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization
+- id: BLOCK68
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK69
+  label: '02'
+  body: '02'
+- id: BLOCK70
+  label: '03'
+  body: '03'
+- id: BLOCK71
+  label: '02'
+  body: '02'
+- id: BLOCK72
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK73
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK74
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK75
+  label: '03'
+  body: '03'
+- id: BLOCK76
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK77
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK78
+  label: Autotest host
+  body: Autotest host
+- id: BLOCK79
+  label: →
+  body: →
+- id: BLOCK80
+  label: UART / RS485
+  body: UART / RS485
+- id: BLOCK81
+  label: →
+  body: →
+- id: BLOCK82
+  label: Local E22
+  body: Local E22
+- id: BLOCK83
+  label: →
+  body: →
+- id: BLOCK84
+  label: RF / Mode-2 OTA path
+  body: RF / Mode-2 OTA path
+- id: BLOCK85
+  label: →
+  body: →
+- id: BLOCK86
+  label: Remote EWM
+  body: Remote EWM
+- id: BLOCK87
+  label: →
+  body: →
+- id: BLOCK88
+  label: Reply counters / logs
+  body: Reply counters / logs
+- id: BLOCK89
+  label: '04'
+  body: '04'
+- id: BLOCK90
+  label: '01'
+  body: '01'
+- id: BLOCK91
+  label: E22
+  body: E22
+- id: BLOCK92
+  label: '02'
+  body: '02'
+- id: BLOCK93
+  label: UART
+  body: UART
+- id: BLOCK94
+  label: '03'
+  body: '03'
+- id: BLOCK95
+  label: RS485
+  body: RS485
+- id: BLOCK96
+  label: '04'
+  body: '04'
+- id: BLOCK97
+  label: LoRa
+  body: LoRa
+- id: BLOCK98
+  label: '05'
+  body: '05'
+- id: BLOCK99
+  label: Autotest
+  body: Autotest
+- id: BLOCK100
+  label: '05'
+  body: '05'
+- id: BLOCK101
+  label: '06'
+  body: '06'
+- id: BLOCK102
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK103
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK104
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK105
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK106
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK107
+  label: '07'
+  body: '07'
+- id: BLOCK108
+  label: E22 / EWM Wireless Configuration Test Harness
+  body: E22 / EWM Wireless Configuration Test Harness
+- id: BLOCK109
+  label: ↔
+  body: ↔
+- id: BLOCK110
+  label: E22 radio module
+  body: E22 radio module
+- id: BLOCK111
+  label: ↔
+  body: ↔
+- id: BLOCK112
+  label: EWM device
+  body: EWM device
+- id: BLOCK113
+  label: ↔
+  body: ↔
+- id: BLOCK114
+  label: RS485/UART interface
+  body: RS485/UART interface
+- id: BLOCK115
+  label: 08
+  body: 08
+- id: BLOCK116
+  label: '01'
+  body: '01'
+- id: BLOCK117
+  label: NOTE
+  body: NOTE
+- id: BLOCK118
+  label: E22_LOCAL_READ_PASS
+  body: E22\_LOCAL\_READ\_PASS
+- id: BLOCK119
+  label: '02'
+  body: '02'
+- id: BLOCK120
+  label: NOTE
+  body: NOTE
+- id: BLOCK121
+  label: E22_TEMP_PROFILE_PASS
+  body: E22\_TEMP\_PROFILE\_PASS
+- id: BLOCK122
+  label: '03'
+  body: '03'
+- id: BLOCK123
+  label: NOTE
+  body: NOTE
+- id: BLOCK124
+  label: Exact CF CF C0 05 01 17 probe
+  body: Exact CF CF C0 05 01 17 probe
+- id: BLOCK125
+  label: '04'
+  body: '04'
+- id: BLOCK126
+  label: NOTE
+  body: NOTE
+- id: BLOCK127
+  label: Reply counters
+  body: Reply counters
+- id: BLOCK128
+  label: '05'
+  body: '05'
+- id: BLOCK129
+  label: TEST
+  body: TEST
+- id: BLOCK130
+  label: Distance-repeat tests
+  body: Distance-repeat tests
+- id: BLOCK131
+  label: 09
+  body: 09
+- id: BLOCK132
+  label: '10'
+  body: '10'
+- id: BLOCK133
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK134
+  label: Reticulum / RNode Mesh Prototype
+  body: Reticulum / RNode Mesh Prototype
+- id: BLOCK135
+  label: Next project →
+  body: Next project →
+- id: BLOCK136
+  label: VoIP & Real-Time Communications Infrastructure
+  body: VoIP & Real-Time Communications Infrastructure
+lists: []
+template: cms/templates/pages/portfolio--projects--e22-ewm-wireless-configuration-test-harness.tpl
+source: cms/templates/pages/portfolio--projects--e22-ewm-wireless-configuration-test-harness.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK47}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html#result
+- id: LINK16
+  label: '{{RR_BLOCK67}} {{RR_BLOCK68}}'
+  url: /posts/wifi-csi-presence-calibration-drift-synchronization.html
+- id: LINK17
+  label: '{{RR_BLOCK133}} {{RR_BLOCK134}}'
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html
+- id: LINK18
+  label: '{{RR_BLOCK135}} {{RR_BLOCK136}}'
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html

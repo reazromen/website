@@ -1,0 +1,24 @@
+main:
+- label: Work
+  href: /portfolio.html
+  enabled: true
+- label: Perspectives
+  href: /perspectives.html
+  enabled: true
+- label: Music
+  href: /music.html
+  enabled: true
+- label: বাংলা
+  href: /bangla.html
+  lang: bn
+  enabled: true
+- label: About
+  href: /about.html
+  enabled: true
+- label: Stack
+  href: /systems.html
+  enabled: true
+footer:
+- label: Tags
+  href: /tags.html
+  enabled: true

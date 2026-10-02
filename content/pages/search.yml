@@ -1,0 +1,25 @@
+title: Search
+browser_title: Search — Reaz Romen
+description: Search projects, articles, notes and engineering topics without leaving
+  the static site.
+url: /search.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: FULL-TEXT / STATIC
+  body: FULL-TEXT / STATIC
+- id: BLOCK1
+  label: Search
+  body: Search
+- id: BLOCK2
+  label: Search projects, articles, notes and engineering topics without leaving the
+    static site.
+  body: Search projects, articles, notes and engineering topics without leaving the
+    static site.
+- id: BLOCK3
+  label: Start typing to search the technical archive.
+  body: Start typing to search the technical archive.
+lists: []
+template: cms/templates/pages/search.tpl
+source: cms/templates/pages/search.json
+links: []

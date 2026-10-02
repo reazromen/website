@@ -1,0 +1,520 @@
+title: Reticulum / RNode Mesh Prototype
+browser_title: Reticulum / RNode Mesh Prototype — Reaz Romen Portfolio
+description: Multi-node Reticulum setup with RNode radio interfaces, LAN TCP transport
+  and ESP32/LR1121 experiments for resilient local messaging.
+url: /portfolio/projects/reticulum-rnode-mesh-prototype.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Wireless & Sensing / Working prototype
+  body: Wireless & Sensing / Working prototype
+- id: BLOCK1
+  label: Reticulum / RNode Mesh Prototype
+  body: Reticulum / RNode Mesh Prototype
+- id: BLOCK2
+  label: Multi-node Reticulum setup with RNode radio interfaces, LAN TCP transport
+    and ESP32/LR1121 expe
+  body: Multi-node Reticulum setup with RNode radio interfaces, LAN TCP transport
+    and ESP32/LR1121 experiments for resilient local messaging.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: Multi-node Reticulum setup with RNode radio interfaces, LAN TCP transport
+    and ESP32/LR1121 expe
+  body: Multi-node Reticulum setup with RNode radio interfaces, LAN TCP transport
+    and ESP32/LR1121 experiments for resilient local messaging.
+- id: BLOCK7
+  label: Built a local Reticulum lab with multiple RNode/radio paths and a LAN TCP
+    transport.
+  body: Built a local Reticulum lab with multiple RNode/radio paths and a LAN TCP
+    transport.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Worked with ESP32-S3/LR1121 hardware, RNode serial interfaces and Reticulum
+    configuration.
+  body: Worked with ESP32-S3/LR1121 hardware, RNode serial interfaces and Reticulum
+    configuration.
+- id: BLOCK10
+  label: Tested transport behavior, radio parameters and host/container device mapping.
+  body: Tested transport behavior, radio parameters and host/container device mapping.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Reticulum daemon -> RNodeInterface -> serial-attached radio -> LoRa RF link.
+  body: Reticulum daemon -> RNodeInterface -> serial-attached radio -> LoRa RF link.
+- id: BLOCK14
+  label: A separate TCPServerInterface provides LAN transport so RF and wired paths
+    can coexist.
+  body: A separate TCPServerInterface provides LAN transport so RF and wired paths
+    can coexist.
+- id: BLOCK15
+  label: Radio frequency, bandwidth, spreading factor and coding rate are explicit
+    link parameters rathe
+  body: Radio frequency, bandwidth, spreading factor and coding rate are explicit
+    link parameters rather than hidden defaults.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Reticulum daemon -> RNodeInterface -> serial-attached radio -> LoRa RF
+    link.
+  body: '01
+
+
+    Reticulum daemon -> RNodeInterface -> serial-attached radio -> LoRa RF link.'
+- id: BLOCK23
+  label: Reticulum daemon -> RNodeInterface -> serial-attached radio -> LoRa RF link.
+  body: Reticulum daemon -> RNodeInterface -> serial-attached radio -> LoRa RF link.
+- id: BLOCK24
+  label: 02 A separate TCPServerInterface provides LAN transport so RF and wired paths
+    can coexist.
+  body: '02
+
+
+    A separate TCPServerInterface provides LAN transport so RF and wired paths can
+    coexist.'
+- id: BLOCK25
+  label: A separate TCPServerInterface provides LAN transport so RF and wired paths
+    can coexist.
+  body: A separate TCPServerInterface provides LAN transport so RF and wired paths
+    can coexist.
+- id: BLOCK26
+  label: 03 Radio frequency, bandwidth, spreading factor and coding rate are explicit
+    link parameters ra
+  body: '03
+
+
+    Radio frequency, bandwidth, spreading factor and coding rate are explicit link
+    parameters rather than hidden defaults.'
+- id: BLOCK27
+  label: Radio frequency, bandwidth, spreading factor and coding rate are explicit
+    link parameters rathe
+  body: Radio frequency, bandwidth, spreading factor and coding rate are explicit
+    link parameters rather than hidden defaults.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Serial/RNode device mapping checks
+  body: Serial/RNode device mapping checks
+- id: BLOCK31
+  label: Radio console verification of frequency/SF/BW/CR
+  body: Radio console verification of frequency/SF/BW/CR
+- id: BLOCK32
+  label: Multi-node lab tests
+  body: Multi-node lab tests
+- id: BLOCK33
+  label: LAN TCPServerInterface tested separately from RF transport
+  body: LAN TCPServerInterface tested separately from RF transport
+- id: BLOCK34
+  label: Container health and /dev/rnode mapping diagnostics
+  body: Container health and /dev/rnode mapping diagnostics
+- id: BLOCK35
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK36
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK37
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK38
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK39
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK40
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK41
+  label: — RF range requires the correct antenna and legal regional parameters
+  body: —RF range requires the correct antenna and legal regional parameters
+- id: BLOCK42
+  label: — A LAN transport working does not prove the LoRa path
+  body: —A LAN transport working does not prove the LoRa path
+- id: BLOCK43
+  label: — Radio parameters must match at both ends
+  body: —Radio parameters must match at both ends
+- id: BLOCK44
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK45
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK46
+  label: A functional multi-node Reticulum test environment for experimenting with
+    resilient local messa
+  body: A functional multi-node Reticulum test environment for experimenting with
+    resilient local messaging and radio transport.
+- id: BLOCK47
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK48
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK49
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK50
+  label: Reticulum
+  body: Reticulum
+- id: BLOCK51
+  label: RNode
+  body: RNode
+- id: BLOCK52
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK53
+  label: LR1121
+  body: LR1121
+- id: BLOCK54
+  label: LoRa
+  body: LoRa
+- id: BLOCK55
+  label: TCP
+  body: TCP
+- id: BLOCK56
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK57
+  label: STATUS
+  body: STATUS
+- id: BLOCK58
+  label: Working prototype
+  body: Working prototype
+- id: BLOCK59
+  label: AREA
+  body: AREA
+- id: BLOCK60
+  label: Wireless & Sensing
+  body: Wireless & Sensing
+- id: BLOCK61
+  label: STACK
+  body: STACK
+- id: BLOCK62
+  label: 6 documented technologies
+  body: 6 documented technologies
+- id: BLOCK63
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK64
+  label: 3 connected / bounded services
+  body: 3 connected / bounded services
+- id: BLOCK65
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK66
+  label: '01'
+  body: '01'
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization
+  body: Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization
+- id: BLOCK69
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK70
+  label: '02'
+  body: '02'
+- id: BLOCK71
+  label: '03'
+  body: '03'
+- id: BLOCK72
+  label: '02'
+  body: '02'
+- id: BLOCK73
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK74
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK75
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK76
+  label: '03'
+  body: '03'
+- id: BLOCK77
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK78
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK79
+  label: Reticulum application
+  body: Reticulum application
+- id: BLOCK80
+  label: →
+  body: →
+- id: BLOCK81
+  label: rnsd
+  body: rnsd
+- id: BLOCK82
+  label: →
+  body: →
+- id: BLOCK83
+  label: RNodeInterface
+  body: RNodeInterface
+- id: BLOCK84
+  label: →
+  body: →
+- id: BLOCK85
+  label: ESP32 / LR1121 radio
+  body: ESP32 / LR1121 radio
+- id: BLOCK86
+  label: →
+  body: →
+- id: BLOCK87
+  label: LoRa RF
+  body: LoRa RF
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: Remote node
+  body: Remote node
+- id: BLOCK90
+  label: '04'
+  body: '04'
+- id: BLOCK91
+  label: '01'
+  body: '01'
+- id: BLOCK92
+  label: Reticulum
+  body: Reticulum
+- id: BLOCK93
+  label: '02'
+  body: '02'
+- id: BLOCK94
+  label: RNode
+  body: RNode
+- id: BLOCK95
+  label: '03'
+  body: '03'
+- id: BLOCK96
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK97
+  label: '04'
+  body: '04'
+- id: BLOCK98
+  label: LR1121
+  body: LR1121
+- id: BLOCK99
+  label: '05'
+  body: '05'
+- id: BLOCK100
+  label: LoRa
+  body: LoRa
+- id: BLOCK101
+  label: '06'
+  body: '06'
+- id: BLOCK102
+  label: TCP
+  body: TCP
+- id: BLOCK103
+  label: '05'
+  body: '05'
+- id: BLOCK104
+  label: '06'
+  body: '06'
+- id: BLOCK105
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK106
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK107
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK108
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK109
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK110
+  label: '07'
+  body: '07'
+- id: BLOCK111
+  label: Reticulum / RNode Mesh Prototype
+  body: Reticulum / RNode Mesh Prototype
+- id: BLOCK112
+  label: ↔
+  body: ↔
+- id: BLOCK113
+  label: Reticulum stack
+  body: Reticulum stack
+- id: BLOCK114
+  label: ↔
+  body: ↔
+- id: BLOCK115
+  label: RNode firmware
+  body: RNode firmware
+- id: BLOCK116
+  label: ↔
+  body: ↔
+- id: BLOCK117
+  label: LAN TCP peers
+  body: LAN TCP peers
+- id: BLOCK118
+  label: 08
+  body: 08
+- id: BLOCK119
+  label: '01'
+  body: '01'
+- id: BLOCK120
+  label: NOTE
+  body: NOTE
+- id: BLOCK121
+  label: Reticulum config
+  body: Reticulum config
+- id: BLOCK122
+  label: '02'
+  body: '02'
+- id: BLOCK123
+  label: NOTE
+  body: NOTE
+- id: BLOCK124
+  label: RNode console output
+  body: RNode console output
+- id: BLOCK125
+  label: '03'
+  body: '03'
+- id: BLOCK126
+  label: NOTE
+  body: NOTE
+- id: BLOCK127
+  label: Three-node lab state
+  body: Three-node lab state
+- id: BLOCK128
+  label: '04'
+  body: '04'
+- id: BLOCK129
+  label: NOTE
+  body: NOTE
+- id: BLOCK130
+  label: Container diagnostics
+  body: Container diagnostics
+- id: BLOCK131
+  label: '05'
+  body: '05'
+- id: BLOCK132
+  label: NOTE
+  body: NOTE
+- id: BLOCK133
+  label: Frequency/link parameter experiments
+  body: Frequency/link parameter experiments
+- id: BLOCK134
+  label: 09
+  body: 09
+- id: BLOCK135
+  label: '10'
+  body: '10'
+- id: BLOCK136
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK137
+  label: Wi-Fi CSI Presence Sensing System
+  body: Wi-Fi CSI Presence Sensing System
+- id: BLOCK138
+  label: Next project →
+  body: Next project →
+- id: BLOCK139
+  label: E22 / EWM Wireless Configuration Test Harness
+  body: E22 / EWM Wireless Configuration Test Harness
+lists: []
+template: cms/templates/pages/portfolio--projects--reticulum-rnode-mesh-prototype.tpl
+source: cms/templates/pages/portfolio--projects--reticulum-rnode-mesh-prototype.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK47}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html#result
+- id: LINK16
+  label: '{{RR_BLOCK68}} {{RR_BLOCK69}}'
+  url: /posts/wifi-csi-presence-calibration-drift-synchronization.html
+- id: LINK17
+  label: '{{RR_BLOCK136}} {{RR_BLOCK137}}'
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html
+- id: LINK18
+  label: '{{RR_BLOCK138}} {{RR_BLOCK139}}'
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html

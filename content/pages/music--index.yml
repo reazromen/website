@@ -1,0 +1,132 @@
+title: Songs I keep coming back to.
+browser_title: Music — Reaz Romen
+description: Writing about music, listening, production, sound, recording and musical
+  culture.
+url: /music/index.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: MUSIC · LISTENING NOTES
+  body: MUSIC · LISTENING NOTES
+- id: BLOCK1
+  label: Songs I keep coming back to.
+  body: Songs I keep coming back to.
+- id: BLOCK2
+  label: A personal archive of songs, albums and performances I love—and the small
+    things in them that m
+  body: A personal archive of songs, albums and performances I love—and the small
+    things in them that make me return.
+- id: BLOCK3
+  label: No ratings, no “best of” lists, and no attempt to review everything. Just
+    music I care about, w
+  body: No ratings, no “best of” lists, and no attempt to review everything. Just
+    music I care about, written down while it still means something to me.
+- id: BLOCK4
+  label: THE ARCHIVE
+  body: THE ARCHIVE
+- id: BLOCK5
+  label: Song notes
+  body: Song notes
+- id: BLOCK6
+  label: 'Most entries begin with one simple question: why did this song stay with
+    me?'
+  body: 'Most entries begin with one simple question: why did this song stay with
+    me?'
+- id: BLOCK7
+  label: Sometimes the answer is a lyric, a voice, a guitar part, a strange production
+    choice, a memory,
+  body: Sometimes the answer is a lyric, a voice, a guitar part, a strange production
+    choice, a memory, or just a few seconds I want to hear again. That is enough reason
+    to write about it.
+- id: BLOCK8
+  label: Editorial separation. These batch notes use verified catalog context and
+    editorial interpretati
+  body: '**Editorial separation.** These batch notes use verified catalog context
+    and editorial interpretation. They do not claim personal listening memories unless
+    a separate personal note exists.'
+- id: BLOCK9
+  label: A SMALL NOTE ON SOUND
+  body: A SMALL NOTE ON SOUND
+- id: BLOCK10
+  label: Music first. Engineering when it belongs.
+  body: Music first. Engineering when it belongs.
+- id: BLOCK11
+  label: Sometimes a recording, mix, microphone, codec, speaker or playback detail
+    is part of why a song
+  body: Sometimes a recording, mix, microphone, codec, speaker or playback detail
+    is part of why a song sounds the way it does. When that matters, I’ll follow it
+    briefly. The song stays at the center.
+- id: BLOCK12
+  label: LISTENING SIGNAL
+  body: LISTENING SIGNAL
+- id: BLOCK13
+  label: 01 / MUSIC
+  body: 01 / MUSIC
+- id: BLOCK14
+  label: SONGS
+  body: SONGS
+- id: BLOCK15
+  label: ALBUMS
+  body: ALBUMS
+- id: BLOCK16
+  label: PERFORMANCES
+  body: PERFORMANCES
+- id: BLOCK17
+  label: NOTES
+  body: NOTES
+- id: BLOCK18
+  label: NOTES
+  body: NOTES
+- id: BLOCK19
+  label: GROWING ARCHIVE
+  body: GROWING ARCHIVE
+- id: BLOCK20
+  label: RESEARCH LISTENING ARCHIVE
+  body: RESEARCH LISTENING ARCHIVE
+- id: BLOCK21
+  label: 200 NEW NOTES
+  body: 200 NEW NOTES
+- id: BLOCK22
+  label: PF
+  body: PF
+- id: BLOCK23
+  label: Pink Floyd — 100 research listening notes
+  body: Pink Floyd — 100 research listening notes
+- id: BLOCK24
+  label: OFFICIAL CATALOG →
+  body: OFFICIAL CATALOG →
+- id: BLOCK25
+  label: SO
+  body: SO
+- id: BLOCK26
+  label: System of a Down — 100 research listening notes
+  body: System of a Down — 100 research listening notes
+- id: BLOCK27
+  label: OFFICIAL CATALOG →
+  body: OFFICIAL CATALOG →
+- id: BLOCK28
+  label: ALBUM NOTES
+  body: ALBUM NOTES
+- id: BLOCK29
+  label: LONGER LISTENING
+  body: LONGER LISTENING
+lists:
+- key: LIST0
+  filter:
+    section: music
+    kind: song
+  style: music
+- key: LIST1
+  filter:
+    section: music
+    kind: album
+  style: music
+template: cms/templates/pages/music--index.tpl
+source: cms/templates/pages/music--index.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK22}} {{RR_BLOCK23}} {{RR_BLOCK24}}'
+  url: /music/pink-floyd/index.html
+- id: LINK1
+  label: '{{RR_BLOCK25}} {{RR_BLOCK26}} {{RR_BLOCK27}}'
+  url: /music/system-of-a-down/index.html

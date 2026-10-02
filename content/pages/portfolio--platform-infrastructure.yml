@@ -1,0 +1,187 @@
+title: Infrastructure Operations Platform
+browser_title: Infrastructure Operations Platform — Reaz Romen
+description: An operations layer for a multi-service Linux environment where runtime
+  state, health, dependencies, access and recovery need to be understood together.
+url: /portfolio/platform-infrastructure.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: CASE 02 / Linux / Docker / secure ingress / operations
+  body: CASE 02 / Linux / Docker / secure ingress / operations
+- id: BLOCK1
+  label: Infrastructure Operations Platform
+  body: Infrastructure Operations Platform
+- id: BLOCK2
+  label: An operations layer for a multi-service Linux environment where runtime state,
+    health, dependen
+  body: An operations layer for a multi-service Linux environment where runtime state,
+    health, dependencies, access and recovery need to be understood together.
+- id: BLOCK3
+  label: As the number of services increased, managing the environment through individual
+    Docker command
+  body: 'As the number of services increased, managing the environment through individual
+    Docker commands, dashboards and authentication flows stopped being efficient.
+    The problem became operational: how to understand the state of the system and
+    control it without manually visiting every service.'
+- id: BLOCK4
+  label: The symptom is not the layer.
+  body: The symptom is not the layer.
+- id: BLOCK5
+  label: A running container is only one signal. The process can exist while the HTTP
+    endpoint is unreac
+  body: A running container is only one signal. The process can exist while the HTTP
+    endpoint is unreachable, a dependency has failed, DNS is broken, storage is inaccessible,
+    ingress is wrong, or authentication prevents the application from being useful.
+- id: BLOCK6
+  label: How I worked the problem.
+  body: How I worked the problem.
+- id: BLOCK7
+  label: 01 Built centralized service inventory and stack lifecycle controls around
+    Docker and Docker Co
+  body: '01
+
+
+    Built centralized service inventory and stack lifecycle controls around Docker
+    and Docker Compose.'
+- id: BLOCK8
+  label: Built centralized service inventory and stack lifecycle controls around Docker
+    and Docker Compo
+  body: Built centralized service inventory and stack lifecycle controls around Docker
+    and Docker Compose.
+- id: BLOCK9
+  label: 02 Treated infrastructure state, application health, connectivity, dependencies,
+    monitoring dat
+  body: '02
+
+
+    Treated infrastructure state, application health, connectivity, dependencies,
+    monitoring data, logs and external reachability as separate signals.'
+- id: BLOCK10
+  label: 'Treated infrastructure state, application health, connectivity, dependencies,
+    monitoring data, '
+  body: Treated infrastructure state, application health, connectivity, dependencies,
+    monitoring data, logs and external reachability as separate signals.
+- id: BLOCK11
+  label: 03 Integrated secure ingress and private access through Caddy, Cloudflare
+    Tunnel and Tailscale.
+  body: '03
+
+
+    Integrated secure ingress and private access through Caddy, Cloudflare Tunnel
+    and Tailscale.'
+- id: BLOCK12
+  label: Integrated secure ingress and private access through Caddy, Cloudflare Tunnel
+    and Tailscale.
+  body: Integrated secure ingress and private access through Caddy, Cloudflare Tunnel
+    and Tailscale.
+- id: BLOCK13
+  label: 04 Distinguished intentionally disabled workloads from failed workloads so
+    the control plane re
+  body: '04
+
+
+    Distinguished intentionally disabled workloads from failed workloads so the control
+    plane represents operator intent rather than just process state.'
+- id: BLOCK14
+  label: Distinguished intentionally disabled workloads from failed workloads so the
+    control plane repre
+  body: Distinguished intentionally disabled workloads from failed workloads so the
+    control plane represents operator intent rather than just process state.
+- id: BLOCK15
+  label: 05 Added Prometheus metrics, Grafana views, centralized logging, alerting,
+    topology visualizati
+  body: '05
+
+
+    Added Prometheus metrics, Grafana views, centralized logging, alerting, topology
+    visualization, documentation and recovery workflows.'
+- id: BLOCK16
+  label: Added Prometheus metrics, Grafana views, centralized logging, alerting, topology
+    visualization,
+  body: Added Prometheus metrics, Grafana views, centralized logging, alerting, topology
+    visualization, documentation and recovery workflows.
+- id: BLOCK17
+  label: Make the system observable enough to explain.
+  body: Make the system observable enough to explain.
+- id: BLOCK18
+  label: The result is a centralized operational layer for inspecting and controlling
+    a multi-service Li
+  body: The result is a centralized operational layer for inspecting and controlling
+    a multi-service Linux environment while retaining the underlying Docker and Linux
+    tooling. It also serves as an engineering platform for testing infrastructure,
+    networking, monitoring and service-control patterns.
+- id: BLOCK19
+  label: Artifacts that carry the technical story.
+  body: Artifacts that carry the technical story.
+- id: BLOCK20
+  label: The case study is structured around real engineering evidence rather than
+    generic product image
+  body: The case study is structured around real engineering evidence rather than
+    generic product imagery.
+- id: BLOCK21
+  label: Work
+  body: Work
+- id: BLOCK22
+  label: TECHNOLOGY SURFACE
+  body: TECHNOLOGY SURFACE
+- id: BLOCK23
+  label: '01'
+  body: '01'
+- id: BLOCK24
+  label: Infrastructure architecture
+  body: Infrastructure architecture
+- id: BLOCK25
+  label: '02'
+  body: '02'
+- id: BLOCK26
+  label: Service dependency map
+  body: Service dependency map
+- id: BLOCK27
+  label: '03'
+  body: '03'
+- id: BLOCK28
+  label: Operations dashboard
+  body: Operations dashboard
+- id: BLOCK29
+  label: '04'
+  body: '04'
+- id: BLOCK30
+  label: Access-flow architecture
+  body: Access-flow architecture
+- id: BLOCK31
+  label: '05'
+  body: '05'
+- id: BLOCK32
+  label: Prometheus targets
+  body: Prometheus targets
+- id: BLOCK33
+  label: '06'
+  body: '06'
+- id: BLOCK34
+  label: Central log search
+  body: Central log search
+- id: BLOCK35
+  label: '07'
+  body: '07'
+- id: BLOCK36
+  label: Stack controls
+  body: Stack controls
+- id: BLOCK37
+  label: 08
+  body: 08
+- id: BLOCK38
+  label: Failure / recovery workflow
+  body: Failure / recovery workflow
+lists: []
+template: cms/templates/pages/portfolio--platform-infrastructure.tpl
+source: cms/templates/pages/portfolio--platform-infrastructure.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK21}}'
+  url: /portfolio.html
+- id: LINK1
+  label: ← Work
+  url: /portfolio.html
+- id: LINK2
+  label: Technical writing →
+  url: /writing.html

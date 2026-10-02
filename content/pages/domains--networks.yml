@@ -1,0 +1,197 @@
+title: Networks
+browser_title: Networks — Reaz Romen
+description: Routing, DNS, transport protocols, secure connectivity and packet behavior.
+url: /domains/networks.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: ENGINEERING DOMAIN
+  body: ENGINEERING DOMAIN
+- id: BLOCK1
+  label: Networks
+  body: Networks
+- id: BLOCK2
+  label: Routing, DNS, transport protocols, secure connectivity and packet behavior.
+  body: Routing, DNS, transport protocols, secure connectivity and packet behavior.
+- id: BLOCK3
+  label: Routing, DNS, transport protocols, secure connectivity and packet behavior.
+  body: Routing, DNS, transport protocols, secure connectivity and packet behavior.
+- id: BLOCK4
+  label: 8 projects · 4 pieces of writing
+  body: 8 projects · 4 pieces of writing
+- id: BLOCK5
+  label: Caddy Gateway & Secure Ingress
+  body: Caddy Gateway & Secure Ingress
+- id: BLOCK6
+  label: 'Canonical L7 ingress joining Cloudflare Tunnel, Caddy, Authelia and Tailscale
+    with per-service '
+  body: Canonical L7 ingress joining Cloudflare Tunnel, Caddy, Authelia and Tailscale
+    with per-service sessions, server-side credentials and private/public routes.
+- id: BLOCK7
+  label: WORK
+  body: WORK
+- id: BLOCK8
+  label: Central Secret Lifecycle / OpenBao
+  body: Central Secret Lifecycle / OpenBao
+- id: BLOCK9
+  label: Two-tier OpenBao secret authority with Raft state, Transit auto-unseal, TLS,
+    AppRole and a migr
+  body: Two-tier OpenBao secret authority with Raft state, Transit auto-unseal, TLS,
+    AppRole and a migration path away from filesystem secrets.
+- id: BLOCK10
+  label: WORK
+  body: WORK
+- id: BLOCK11
+  label: Distributed Compute & Build Fabric
+  body: Distributed Compute & Build Fabric
+- id: BLOCK12
+  label: Nomad-based compute path across multiple machines with deterministic build
+    execution and fallba
+  body: Nomad-based compute path across multiple machines with deterministic build
+    execution and fallback capacity rather than tying jobs to one workstation.
+- id: BLOCK13
+  label: WORK
+  body: WORK
+- id: BLOCK14
+  label: Fimi Access
+  body: Fimi Access
+- id: BLOCK15
+  label: Browser infrastructure workspace built from a pinned Termix base with a custom
+    Fimi brand layer
+  body: Browser infrastructure workspace built from a pinned Termix base with a custom
+    Fimi brand layer, reproducible patch set, SSH agent integration and gateway access.
+- id: BLOCK16
+  label: WORK
+  body: WORK
+- id: BLOCK17
+  label: Khulna Satellite Weather
+  body: Khulna Satellite Weather
+- id: BLOCK18
+  label: 'Live Khulna weather dashboard combining Himawari-9 South Asia imagery, local
+    forecast data and '
+  body: Live Khulna weather dashboard combining Himawari-9 South Asia imagery, local
+    forecast data and a six-hour satellite animation.
+- id: BLOCK19
+  label: WORK
+  body: WORK
+- id: BLOCK20
+  label: Network Flow Visualization
+  body: Network Flow Visualization
+- id: BLOCK21
+  label: 'Interactive topology and packet-path view that maps hosts, DNS, ingress,
+    services and observed '
+  body: Interactive topology and packet-path view that maps hosts, DNS, ingress, services
+    and observed flows into drill-down network views.
+- id: BLOCK22
+  label: WORK
+  body: WORK
+- id: BLOCK23
+  label: Network Payload Capture Pipeline
+  body: Network Payload Capture Pipeline
+- id: BLOCK24
+  label: Minimal capability-bounded packet capture path that parses a live tcpdump
+    stream into bounded p
+  body: Minimal capability-bounded packet capture path that parses a live tcpdump
+    stream into bounded payload snapshots consumed by the operations UI.
+- id: BLOCK25
+  label: WORK
+  body: WORK
+- id: BLOCK26
+  label: Private Alert Delivery
+  body: Private Alert Delivery
+- id: BLOCK27
+  label: Self-hosted ntfy alert path from Alertmanager to a private Tailscale HTTPS
+    endpoint with isolat
+  body: Self-hosted ntfy alert path from Alertmanager to a private Tailscale HTTPS
+    endpoint with isolated publisher/subscriber identities and no public push dependency.
+- id: BLOCK28
+  label: WORK
+  body: WORK
+- id: BLOCK29
+  label: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+  body: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+- id: BLOCK30
+  label: The verifier proves classes of memory and control-flow safety. It does not
+    prove that returning
+  body: The verifier proves classes of memory and control-flow safety. It does not
+    prove that returning the wrong XDP action, updating the wrong map, or attaching
+    at the wrong hook will preserve network connectivity.
+- id: BLOCK31
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK32
+  label: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+  body: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+- id: BLOCK33
+  label: Blocking UDP/443 is not merely a firewall rule. QUIC moves transport, security,
+    streams, and co
+  body: Blocking UDP/443 is not merely a firewall rule. QUIC moves transport, security,
+    streams, and connection identity into a model that old TCP/TLS inspection architectures
+    were not designed around.
+- id: BLOCK34
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK35
+  label: Kubernetes Gateway API Is Not Just a New Ingress YAML
+  body: Kubernetes Gateway API Is Not Just a New Ingress YAML
+- id: BLOCK36
+  label: 'Gateway API changes who owns the network boundary, how routes attach, and
+    what a migration has '
+  body: Gateway API changes who owns the network boundary, how routes attach, and
+    what a migration has to prove. Treating it as an Ingress syntax upgrade misses
+    the important part.
+- id: BLOCK37
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK38
+  label: 'Split-Horizon DNS: One Hostname, Two Network Paths, and a Lot of TLS Confusion'
+  body: 'Split-Horizon DNS: One Hostname, Two Network Paths, and a Lot of TLS Confusion'
+- id: BLOCK39
+  label: The same hostname can resolve to a local reverse proxy on LAN and a Cloudflare
+    Tunnel externall
+  body: The same hostname can resolve to a local reverse proxy on LAN and a Cloudflare
+    Tunnel externally. That is clean when DNS, SNI, certificates, and origin routing
+    agree—and maddening when one layer quietly takes the other path.
+- id: BLOCK40
+  label: '2026-09-26'
+  body: '2026-09-26'
+lists: []
+template: cms/templates/pages/domains--networks.tpl
+source: cms/templates/pages/domains--networks.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK5}} {{RR_BLOCK6}} {{RR_BLOCK7}}'
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html
+- id: LINK1
+  label: '{{RR_BLOCK8}} {{RR_BLOCK9}} {{RR_BLOCK10}}'
+  url: /portfolio/projects/central-secret-lifecycle-openbao.html
+- id: LINK2
+  label: '{{RR_BLOCK11}} {{RR_BLOCK12}} {{RR_BLOCK13}}'
+  url: /portfolio/projects/distributed-compute-build-fabric.html
+- id: LINK3
+  label: '{{RR_BLOCK14}} {{RR_BLOCK15}} {{RR_BLOCK16}}'
+  url: /portfolio/projects/fimi-access.html
+- id: LINK4
+  label: '{{RR_BLOCK17}} {{RR_BLOCK18}} {{RR_BLOCK19}}'
+  url: /portfolio/projects/khulna-satellite-weather.html
+- id: LINK5
+  label: '{{RR_BLOCK20}} {{RR_BLOCK21}} {{RR_BLOCK22}}'
+  url: /portfolio/projects/network-flow-visualization.html
+- id: LINK6
+  label: '{{RR_BLOCK23}} {{RR_BLOCK24}} {{RR_BLOCK25}}'
+  url: /portfolio/projects/network-payload-capture-pipeline.html
+- id: LINK7
+  label: '{{RR_BLOCK26}} {{RR_BLOCK27}} {{RR_BLOCK28}}'
+  url: /portfolio/projects/private-alert-delivery.html
+- id: LINK8
+  label: '{{RR_BLOCK29}} {{RR_BLOCK30}} {{RR_BLOCK31}}'
+  url: /posts/ebpf-xdp-verifier-operational-safety.html
+- id: LINK9
+  label: '{{RR_BLOCK32}} {{RR_BLOCK33}} {{RR_BLOCK34}}'
+  url: /posts/http3-quic-enterprise-inspection-assumptions.html
+- id: LINK10
+  label: '{{RR_BLOCK35}} {{RR_BLOCK36}} {{RR_BLOCK37}}'
+  url: /posts/kubernetes-gateway-api-not-new-ingress-yaml.html
+- id: LINK11
+  label: '{{RR_BLOCK38}} {{RR_BLOCK39}} {{RR_BLOCK40}}'
+  url: /posts/split-horizon-dns-one-hostname-two-paths.html

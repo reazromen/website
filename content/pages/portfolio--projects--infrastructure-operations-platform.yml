@@ -1,0 +1,590 @@
+title: Infrastructure Operations Platform
+browser_title: Infrastructure Operations Platform — Reaz Romen Portfolio
+description: Central service, deployment, policy, storage and execution control plane
+  with RBAC, audit events, read-only command views and guarded host execution.
+url: /portfolio/projects/infrastructure-operations-platform.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Infrastructure & Operations / Built / deployed
+  body: Infrastructure & Operations / Built / deployed
+- id: BLOCK1
+  label: Infrastructure Operations Platform
+  body: Infrastructure Operations Platform
+- id: BLOCK2
+  label: Central service, deployment, policy, storage and execution control plane
+    with RBAC, audit event
+  body: Central service, deployment, policy, storage and execution control plane with
+    RBAC, audit events, read-only command views and guarded host execution.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: Central service, deployment, policy, storage and execution control plane
+    with RBAC, audit event
+  body: Central service, deployment, policy, storage and execution control plane with
+    RBAC, audit events, read-only command views and guarded host execution.
+- id: BLOCK7
+  label: Built a central operations portal for services, deployments, policy, storage,
+    documentation and
+  body: Built a central operations portal for services, deployments, policy, storage,
+    documentation and reviewed execution jobs.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Added local users, Argon2id authentication, RBAC, audit events and read-only
+    command/fleet view
+  body: Added local users, Argon2id authentication, RBAC, audit events and read-only
+    command/fleet views.
+- id: BLOCK10
+  label: Separated the web application from privileged host execution through a reviewed
+    job catalog and
+  body: Separated the web application from privileged host execution through a reviewed
+    job catalog and runner.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Browser -> authenticated portal/API -> PostgreSQL operational state.
+  body: Browser -> authenticated portal/API -> PostgreSQL operational state.
+- id: BLOCK14
+  label: Reviewed Git job definitions -> independent host runner -> controlled execution.
+  body: Reviewed Git job definitions -> independent host runner -> controlled execution.
+- id: BLOCK15
+  label: Command Center and Fleet Center are read-only views; mutations remain in
+    audited/operator paths
+  body: Command Center and Fleet Center are read-only views; mutations remain in audited/operator
+    paths.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Browser -> authenticated portal/API -> PostgreSQL operational state.
+  body: '01
+
+
+    Browser -> authenticated portal/API -> PostgreSQL operational state.'
+- id: BLOCK23
+  label: Browser -> authenticated portal/API -> PostgreSQL operational state.
+  body: Browser -> authenticated portal/API -> PostgreSQL operational state.
+- id: BLOCK24
+  label: 02 Reviewed Git job definitions -> independent host runner -> controlled
+    execution.
+  body: '02
+
+
+    Reviewed Git job definitions -> independent host runner -> controlled execution.'
+- id: BLOCK25
+  label: Reviewed Git job definitions -> independent host runner -> controlled execution.
+  body: Reviewed Git job definitions -> independent host runner -> controlled execution.
+- id: BLOCK26
+  label: 03 Command Center and Fleet Center are read-only views; mutations remain
+    in audited/operator pa
+  body: '03
+
+
+    Command Center and Fleet Center are read-only views; mutations remain in audited/operator
+    paths.'
+- id: BLOCK27
+  label: Command Center and Fleet Center are read-only views; mutations remain in
+    audited/operator paths
+  body: Command Center and Fleet Center are read-only views; mutations remain in audited/operator
+    paths.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: API/read-only dashboard failure visibility
+  body: API/read-only dashboard failure visibility
+- id: BLOCK31
+  label: Reviewed low-risk posture/health jobs
+  body: Reviewed low-risk posture/health jobs
+- id: BLOCK32
+  label: RBAC/session behavior
+  body: RBAC/session behavior
+- id: BLOCK33
+  label: Catalog synchronization
+  body: Catalog synchronization
+- id: BLOCK34
+  label: Execution runner validation against reviewed job definitions
+  body: Execution runner validation against reviewed job definitions
+- id: BLOCK35
+  label: Audit-event inspection
+  body: Audit-event inspection
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — Web container has no Docker socket
+  body: —Web container has no Docker socket
+- id: BLOCK43
+  label: — No arbitrary host command execution from the browser
+  body: —No arbitrary host command execution from the browser
+- id: BLOCK44
+  label: — Read-only dashboards cannot mutate production
+  body: —Read-only dashboards cannot mutate production
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A centralized control plane that makes a multi-service home/production lab
+    understandable and o
+  body: A centralized control plane that makes a multi-service home/production lab
+    understandable and operable without handing arbitrary host execution to the web
+    UI.
+- id: BLOCK48
+  label: DEEP CASE STUDY AVAILABLE
+  body: DEEP CASE STUDY AVAILABLE
+- id: BLOCK49
+  label: Failure modes, investigation path and engineering evidence.
+  body: Failure modes, investigation path and engineering evidence.
+- id: BLOCK50
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK51
+  label: Deep engineering case study
+  body: Deep engineering case study
+- id: BLOCK52
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK53
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK54
+  label: Linux
+  body: Linux
+- id: BLOCK55
+  label: Docker
+  body: Docker
+- id: BLOCK56
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK57
+  label: RBAC
+  body: RBAC
+- id: BLOCK58
+  label: Python
+  body: Python
+- id: BLOCK59
+  label: Caddy
+  body: Caddy
+- id: BLOCK60
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK61
+  label: STATUS
+  body: STATUS
+- id: BLOCK62
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK63
+  label: AREA
+  body: AREA
+- id: BLOCK64
+  label: Infrastructure & Operations
+  body: Infrastructure & Operations
+- id: BLOCK65
+  label: STACK
+  body: STACK
+- id: BLOCK66
+  label: 6 documented technologies
+  body: 6 documented technologies
+- id: BLOCK67
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK68
+  label: 5 connected / bounded services
+  body: 5 connected / bounded services
+- id: BLOCK69
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK70
+  label: '01'
+  body: '01'
+- id: BLOCK71
+  label: '01'
+  body: '01'
+- id: BLOCK72
+  label: Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their
+    Consistency Model
+  body: Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their
+    Consistency Models Differ
+- id: BLOCK73
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK74
+  label: A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt
+    State
+  body: A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt
+    State
+- id: BLOCK75
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK76
+  label: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+  body: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+- id: BLOCK77
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK78
+  label: '02'
+  body: '02'
+- id: BLOCK79
+  label: '03'
+  body: '03'
+- id: BLOCK80
+  label: '02'
+  body: '02'
+- id: BLOCK81
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK82
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK83
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK84
+  label: '03'
+  body: '03'
+- id: BLOCK85
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK86
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK87
+  label: Operator browser
+  body: Operator browser
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: Authenticated Ops Portal
+  body: Authenticated Ops Portal
+- id: BLOCK90
+  label: →
+  body: →
+- id: BLOCK91
+  label: PostgreSQL state
+  body: PostgreSQL state
+- id: BLOCK92
+  label: →
+  body: →
+- id: BLOCK93
+  label: Reviewed Git job catalog
+  body: Reviewed Git job catalog
+- id: BLOCK94
+  label: →
+  body: →
+- id: BLOCK95
+  label: Independent host runner
+  body: Independent host runner
+- id: BLOCK96
+  label: →
+  body: →
+- id: BLOCK97
+  label: Docker / services
+  body: Docker / services
+- id: BLOCK98
+  label: '04'
+  body: '04'
+- id: BLOCK99
+  label: '01'
+  body: '01'
+- id: BLOCK100
+  label: Linux
+  body: Linux
+- id: BLOCK101
+  label: '02'
+  body: '02'
+- id: BLOCK102
+  label: Docker
+  body: Docker
+- id: BLOCK103
+  label: '03'
+  body: '03'
+- id: BLOCK104
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK105
+  label: '04'
+  body: '04'
+- id: BLOCK106
+  label: RBAC
+  body: RBAC
+- id: BLOCK107
+  label: '05'
+  body: '05'
+- id: BLOCK108
+  label: Python
+  body: Python
+- id: BLOCK109
+  label: '06'
+  body: '06'
+- id: BLOCK110
+  label: Caddy
+  body: Caddy
+- id: BLOCK111
+  label: '05'
+  body: '05'
+- id: BLOCK112
+  label: '06'
+  body: '06'
+- id: BLOCK113
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK114
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK115
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK116
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK117
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK118
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK119
+  label: '07'
+  body: '07'
+- id: BLOCK120
+  label: Infrastructure Operations Platform
+  body: Infrastructure Operations Platform
+- id: BLOCK121
+  label: ↔
+  body: ↔
+- id: BLOCK122
+  label: Docker / Compose
+  body: Docker / Compose
+- id: BLOCK123
+  label: ↔
+  body: ↔
+- id: BLOCK124
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK125
+  label: ↔
+  body: ↔
+- id: BLOCK126
+  label: Caddy ingress
+  body: Caddy ingress
+- id: BLOCK127
+  label: ↔
+  body: ↔
+- id: BLOCK128
+  label: OTA Fleet
+  body: OTA Fleet
+- id: BLOCK129
+  label: ↔
+  body: ↔
+- id: BLOCK130
+  label: Observability stack
+  body: Observability stack
+- id: BLOCK131
+  label: 08
+  body: 08
+- id: BLOCK132
+  label: '01'
+  body: '01'
+- id: BLOCK133
+  label: NOTE
+  body: NOTE
+- id: BLOCK134
+  label: Command Center
+  body: Command Center
+- id: BLOCK135
+  label: '02'
+  body: '02'
+- id: BLOCK136
+  label: NOTE
+  body: NOTE
+- id: BLOCK137
+  label: Fleet Center
+  body: Fleet Center
+- id: BLOCK138
+  label: '03'
+  body: '03'
+- id: BLOCK139
+  label: NOTE
+  body: NOTE
+- id: BLOCK140
+  label: Service/deployment registry
+  body: Service/deployment registry
+- id: BLOCK141
+  label: '04'
+  body: '04'
+- id: BLOCK142
+  label: NOTE
+  body: NOTE
+- id: BLOCK143
+  label: Audit log
+  body: Audit log
+- id: BLOCK144
+  label: '05'
+  body: '05'
+- id: BLOCK145
+  label: NOTE
+  body: NOTE
+- id: BLOCK146
+  label: Storage inventory
+  body: Storage inventory
+- id: BLOCK147
+  label: '06'
+  body: '06'
+- id: BLOCK148
+  label: NOTE
+  body: NOTE
+- id: BLOCK149
+  label: Execution catalog
+  body: Execution catalog
+- id: BLOCK150
+  label: '07'
+  body: '07'
+- id: BLOCK151
+  label: NOTE
+  body: NOTE
+- id: BLOCK152
+  label: Network map
+  body: Network map
+- id: BLOCK153
+  label: 09
+  body: 09
+- id: BLOCK154
+  label: '10'
+  body: '10'
+- id: BLOCK155
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK156
+  label: Drachtio + FreeSWITCH SIP Edge
+  body: Drachtio + FreeSWITCH SIP Edge
+- id: BLOCK157
+  label: Next project →
+  body: Next project →
+- id: BLOCK158
+  label: Network Flow Visualization
+  body: Network Flow Visualization
+lists: []
+template: cms/templates/pages/portfolio--projects--infrastructure-operations-platform.tpl
+source: cms/templates/pages/portfolio--projects--infrastructure-operations-platform.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK50}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK51}}'
+  url: /portfolio/platform-infrastructure.html
+- id: LINK2
+  label: '{{RR_BLOCK52}}'
+  url: /portfolio/projects/infrastructure-operations-platform.html#architecture
+- id: LINK3
+  label: Architecture
+  url: '#architecture'
+- id: LINK4
+  label: Signal / request path
+  url: '#network'
+- id: LINK5
+  label: Verification
+  url: '#testing'
+- id: LINK6
+  label: Evidence
+  url: '#evidence'
+- id: LINK7
+  label: 01 / Overview
+  url: /portfolio/projects/infrastructure-operations-platform.html#overview
+- id: LINK8
+  label: 02 / Architecture
+  url: /portfolio/projects/infrastructure-operations-platform.html#architecture
+- id: LINK9
+  label: 03 / Network & data flow
+  url: /portfolio/projects/infrastructure-operations-platform.html#network
+- id: LINK10
+  label: 04 / Stack
+  url: /portfolio/projects/infrastructure-operations-platform.html#stack
+- id: LINK11
+  label: 05 / How I built it
+  url: /portfolio/projects/infrastructure-operations-platform.html#implementation
+- id: LINK12
+  label: 06 / Testing
+  url: /portfolio/projects/infrastructure-operations-platform.html#testing
+- id: LINK13
+  label: 07 / Integrations
+  url: /portfolio/projects/infrastructure-operations-platform.html#integrations
+- id: LINK14
+  label: 08 / Evidence
+  url: /portfolio/projects/infrastructure-operations-platform.html#evidence
+- id: LINK15
+  label: 09 / Constraints
+  url: /portfolio/projects/infrastructure-operations-platform.html#constraints
+- id: LINK16
+  label: 10 / Result
+  url: /portfolio/projects/infrastructure-operations-platform.html#result
+- id: LINK17
+  label: '{{RR_BLOCK72}} {{RR_BLOCK73}}'
+  url: /posts/cloudflare-kv-do-queues-d1-consistency.html
+- id: LINK18
+  label: '{{RR_BLOCK74}} {{RR_BLOCK75}}'
+  url: /posts/distributed-lock-needs-fencing-token.html
+- id: LINK19
+  label: '{{RR_BLOCK76}} {{RR_BLOCK77}}'
+  url: /posts/pgvector-hnsw-fast-operationally-wrong.html
+- id: LINK20
+  label: Open full case study →
+  url: /portfolio/platform-infrastructure.html
+- id: LINK21
+  label: '{{RR_BLOCK155}} {{RR_BLOCK156}}'
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html
+- id: LINK22
+  label: '{{RR_BLOCK157}} {{RR_BLOCK158}}'
+  url: /portfolio/projects/network-flow-visualization.html

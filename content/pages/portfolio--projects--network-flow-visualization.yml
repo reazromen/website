@@ -1,0 +1,549 @@
+title: Network Flow Visualization
+browser_title: Network Flow Visualization — Reaz Romen Portfolio
+description: Interactive topology and packet-path view that maps hosts, DNS, ingress,
+  services and observed flows into drill-down network views.
+url: /portfolio/projects/network-flow-visualization.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Infrastructure & Operations / Built / deployed
+  body: Infrastructure & Operations / Built / deployed
+- id: BLOCK1
+  label: Network Flow Visualization
+  body: Network Flow Visualization
+- id: BLOCK2
+  label: 'Interactive topology and packet-path view that maps hosts, DNS, ingress,
+    services and observed '
+  body: Interactive topology and packet-path view that maps hosts, DNS, ingress, services
+    and observed flows into drill-down network views.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: 'Interactive topology and packet-path view that maps hosts, DNS, ingress,
+    services and observed '
+  body: Interactive topology and packet-path view that maps hosts, DNS, ingress, services
+    and observed flows into drill-down network views.
+- id: BLOCK7
+  label: Built an interactive network topology view around actual hosts, DNS, ingress,
+    services and obse
+  body: Built an interactive network topology view around actual hosts, DNS, ingress,
+    services and observed connections.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Added overview, section drill-down and live packet-path views instead of
+    one permanently crowde
+  body: Added overview, section drill-down and live packet-path views instead of one
+    permanently crowded graph.
+- id: BLOCK10
+  label: Connected topology rendering to network telemetry and packet/payload evidence.
+  body: Connected topology rendering to network telemetry and packet/payload evidence.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Network/flow collectors -> normalized topology model -> operations API ->
+    Cytoscape.js visualiz
+  body: Network/flow collectors -> normalized topology model -> operations API ->
+    Cytoscape.js visualization.
+- id: BLOCK14
+  label: Views separate stable architecture from live/ephemeral flow state.
+  body: Views separate stable architecture from live/ephemeral flow state.
+- id: BLOCK15
+  label: Host boundaries, service groups and packet routes are represented as distinct
+    semantic layers.
+  body: Host boundaries, service groups and packet routes are represented as distinct
+    semantic layers.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Network/flow collectors -> normalized topology model -> operations API
+    -> Cytoscape.js visua
+  body: '01
+
+
+    Network/flow collectors -> normalized topology model -> operations API -> Cytoscape.js
+    visualization.'
+- id: BLOCK23
+  label: Network/flow collectors -> normalized topology model -> operations API ->
+    Cytoscape.js visualiz
+  body: Network/flow collectors -> normalized topology model -> operations API ->
+    Cytoscape.js visualization.
+- id: BLOCK24
+  label: 02 Views separate stable architecture from live/ephemeral flow state.
+  body: '02
+
+
+    Views separate stable architecture from live/ephemeral flow state.'
+- id: BLOCK25
+  label: Views separate stable architecture from live/ephemeral flow state.
+  body: Views separate stable architecture from live/ephemeral flow state.
+- id: BLOCK26
+  label: 03 Host boundaries, service groups and packet routes are represented as distinct
+    semantic layer
+  body: '03
+
+
+    Host boundaries, service groups and packet routes are represented as distinct
+    semantic layers.'
+- id: BLOCK27
+  label: Host boundaries, service groups and packet routes are represented as distinct
+    semantic layers.
+  body: Host boundaries, service groups and packet routes are represented as distinct
+    semantic layers.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Synthetic topology fixture tests
+  body: Synthetic topology fixture tests
+- id: BLOCK31
+  label: Production feed contract review
+  body: Production feed contract review
+- id: BLOCK32
+  label: JavaScript syntax checks
+  body: JavaScript syntax checks
+- id: BLOCK33
+  label: Live deployment verification
+  body: Live deployment verification
+- id: BLOCK34
+  label: Flow/route selection and drill-down behavior
+  body: Flow/route selection and drill-down behavior
+- id: BLOCK35
+  label: Packet/payload evidence correlation
+  body: Packet/payload evidence correlation
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — Synthetic fixtures do not prove production ingress wiring
+  body: —Synthetic fixtures do not prove production ingress wiring
+- id: BLOCK43
+  label: — Ephemeral flows must not distort stable topology
+  body: —Ephemeral flows must not distort stable topology
+- id: BLOCK44
+  label: — Layout should remain readable at low complexity
+  body: —Layout should remain readable at low complexity
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A network UI that explains how traffic moves through the environment instead
+    of showing an undi
+  body: A network UI that explains how traffic moves through the environment instead
+    of showing an undifferentiated graph.
+- id: BLOCK48
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK49
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK50
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK51
+  label: Cytoscape.js
+  body: Cytoscape.js
+- id: BLOCK52
+  label: Network telemetry
+  body: Network telemetry
+- id: BLOCK53
+  label: Docker
+  body: Docker
+- id: BLOCK54
+  label: JavaScript
+  body: JavaScript
+- id: BLOCK55
+  label: Topology
+  body: Topology
+- id: BLOCK56
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK57
+  label: STATUS
+  body: STATUS
+- id: BLOCK58
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK59
+  label: AREA
+  body: AREA
+- id: BLOCK60
+  label: Infrastructure & Operations
+  body: Infrastructure & Operations
+- id: BLOCK61
+  label: STACK
+  body: STACK
+- id: BLOCK62
+  label: 5 documented technologies
+  body: 5 documented technologies
+- id: BLOCK63
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK64
+  label: 4 connected / bounded services
+  body: 4 connected / bounded services
+- id: BLOCK65
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK66
+  label: '01'
+  body: '01'
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+  body: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+- id: BLOCK69
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK70
+  label: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+  body: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+- id: BLOCK71
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK72
+  label: Kubernetes Gateway API Is Not Just a New Ingress YAML
+  body: Kubernetes Gateway API Is Not Just a New Ingress YAML
+- id: BLOCK73
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK74
+  label: '02'
+  body: '02'
+- id: BLOCK75
+  label: '03'
+  body: '03'
+- id: BLOCK76
+  label: '02'
+  body: '02'
+- id: BLOCK77
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK78
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK79
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK80
+  label: '03'
+  body: '03'
+- id: BLOCK81
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK82
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK83
+  label: Host / client
+  body: Host / client
+- id: BLOCK84
+  label: →
+  body: →
+- id: BLOCK85
+  label: Gateway / DNS
+  body: Gateway / DNS
+- id: BLOCK86
+  label: →
+  body: →
+- id: BLOCK87
+  label: Ingress
+  body: Ingress
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: Service boundary
+  body: Service boundary
+- id: BLOCK90
+  label: →
+  body: →
+- id: BLOCK91
+  label: Container / backend
+  body: Container / backend
+- id: BLOCK92
+  label: →
+  body: →
+- id: BLOCK93
+  label: Observed return path
+  body: Observed return path
+- id: BLOCK94
+  label: '04'
+  body: '04'
+- id: BLOCK95
+  label: '01'
+  body: '01'
+- id: BLOCK96
+  label: Cytoscape.js
+  body: Cytoscape.js
+- id: BLOCK97
+  label: '02'
+  body: '02'
+- id: BLOCK98
+  label: Network telemetry
+  body: Network telemetry
+- id: BLOCK99
+  label: '03'
+  body: '03'
+- id: BLOCK100
+  label: Docker
+  body: Docker
+- id: BLOCK101
+  label: '04'
+  body: '04'
+- id: BLOCK102
+  label: JavaScript
+  body: JavaScript
+- id: BLOCK103
+  label: '05'
+  body: '05'
+- id: BLOCK104
+  label: Topology
+  body: Topology
+- id: BLOCK105
+  label: '05'
+  body: '05'
+- id: BLOCK106
+  label: '06'
+  body: '06'
+- id: BLOCK107
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK108
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK109
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK110
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK111
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK112
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK113
+  label: '07'
+  body: '07'
+- id: BLOCK114
+  label: Network Flow Visualization
+  body: Network Flow Visualization
+- id: BLOCK115
+  label: ↔
+  body: ↔
+- id: BLOCK116
+  label: Ops Portal API
+  body: Ops Portal API
+- id: BLOCK117
+  label: ↔
+  body: ↔
+- id: BLOCK118
+  label: Network/payload collectors
+  body: Network/payload collectors
+- id: BLOCK119
+  label: ↔
+  body: ↔
+- id: BLOCK120
+  label: Caddy ingress
+  body: Caddy ingress
+- id: BLOCK121
+  label: ↔
+  body: ↔
+- id: BLOCK122
+  label: DNS resolver
+  body: DNS resolver
+- id: BLOCK123
+  label: 08
+  body: 08
+- id: BLOCK124
+  label: '01'
+  body: '01'
+- id: BLOCK125
+  label: NOTE
+  body: NOTE
+- id: BLOCK126
+  label: Overview mode
+  body: Overview mode
+- id: BLOCK127
+  label: '02'
+  body: '02'
+- id: BLOCK128
+  label: NOTE
+  body: NOTE
+- id: BLOCK129
+  label: Service-section mode
+  body: Service-section mode
+- id: BLOCK130
+  label: '03'
+  body: '03'
+- id: BLOCK131
+  label: PCAP
+  body: PCAP
+- id: BLOCK132
+  label: Live packet-path mode
+  body: Live packet-path mode
+- id: BLOCK133
+  label: '04'
+  body: '04'
+- id: BLOCK134
+  label: NOTE
+  body: NOTE
+- id: BLOCK135
+  label: Observed flows
+  body: Observed flows
+- id: BLOCK136
+  label: '05'
+  body: '05'
+- id: BLOCK137
+  label: NOTE
+  body: NOTE
+- id: BLOCK138
+  label: Topology model
+  body: Topology model
+- id: BLOCK139
+  label: '06'
+  body: '06'
+- id: BLOCK140
+  label: NOTE
+  body: NOTE
+- id: BLOCK141
+  label: Payload snapshots
+  body: Payload snapshots
+- id: BLOCK142
+  label: 09
+  body: 09
+- id: BLOCK143
+  label: '10'
+  body: '10'
+- id: BLOCK144
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK145
+  label: Infrastructure Operations Platform
+  body: Infrastructure Operations Platform
+- id: BLOCK146
+  label: Next project →
+  body: Next project →
+- id: BLOCK147
+  label: Caddy Gateway & Secure Ingress
+  body: Caddy Gateway & Secure Ingress
+lists: []
+template: cms/templates/pages/portfolio--projects--network-flow-visualization.tpl
+source: cms/templates/pages/portfolio--projects--network-flow-visualization.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio/projects/network-flow-visualization.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/network-flow-visualization.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/network-flow-visualization.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/network-flow-visualization.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/network-flow-visualization.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/network-flow-visualization.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/network-flow-visualization.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/network-flow-visualization.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/network-flow-visualization.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/network-flow-visualization.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/network-flow-visualization.html#result
+- id: LINK16
+  label: '{{RR_BLOCK68}} {{RR_BLOCK69}}'
+  url: /posts/ebpf-xdp-verifier-operational-safety.html
+- id: LINK17
+  label: '{{RR_BLOCK70}} {{RR_BLOCK71}}'
+  url: /posts/http3-quic-enterprise-inspection-assumptions.html
+- id: LINK18
+  label: '{{RR_BLOCK72}} {{RR_BLOCK73}}'
+  url: /posts/kubernetes-gateway-api-not-new-ingress-yaml.html
+- id: LINK19
+  label: '{{RR_BLOCK144}} {{RR_BLOCK145}}'
+  url: /portfolio/projects/infrastructure-operations-platform.html
+- id: LINK20
+  label: '{{RR_BLOCK146}} {{RR_BLOCK147}}'
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html

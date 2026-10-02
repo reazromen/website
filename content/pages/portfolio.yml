@@ -1,0 +1,1136 @@
+title: Problems that did not fit inside one layer.
+browser_title: Work — Reaz Romen
+description: Case studies across embedded voice devices, Linux infrastructure, observability
+  validation and SIP/RTP systems.
+url: /portfolio.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: WORK / SYSTEMS CASE STUDIES
+  body: WORK / SYSTEMS CASE STUDIES
+- id: BLOCK1
+  label: Problems that did not fit inside one layer.
+  body: Problems that did not fit inside one layer.
+- id: BLOCK2
+  label: 'These case studies focus on the engineering path: what failed, which boundaries
+    mattered, how t'
+  body: 'These case studies focus on the engineering path: what failed, which boundaries
+    mattered, how the system was isolated, and what made the result verifiable.'
+- id: BLOCK3
+  label: Embedded firmware / real-time audio / SIP-RTP
+  body: Embedded firmware / real-time audio / SIP-RTP
+- id: BLOCK4
+  label: ESP32-S3 Connected Voice Device
+  body: ESP32-S3 Connected Voice Device
+- id: BLOCK5
+  label: Building and debugging a real-time voice device across firmware, codecs,
+    audio timing, packet t
+  body: Building and debugging a real-time voice device across firmware, codecs, audio
+    timing, packet transport, PBX integration and hardware behavior.
+- id: BLOCK6
+  label: SIP signaling / RTP media / distributed debugging
+  body: SIP signaling / RTP media / distributed debugging
+- id: BLOCK7
+  label: VoIP & Real-Time Communications Infrastructure
+  body: VoIP & Real-Time Communications Infrastructure
+- id: BLOCK8
+  label: Building and debugging signaling, routing, media, endpoints and infrastructure
+    around real-time
+  body: Building and debugging signaling, routing, media, endpoints and infrastructure
+    around real-time communications rather than treating the PBX as the whole system.
+- id: BLOCK9
+  label: Linux / Docker / secure ingress / operations
+  body: Linux / Docker / secure ingress / operations
+- id: BLOCK10
+  label: Infrastructure Operations Platform
+  body: Infrastructure Operations Platform
+- id: BLOCK11
+  label: An operations layer for a multi-service Linux environment where runtime state,
+    health, dependen
+  body: An operations layer for a multi-service Linux environment where runtime state,
+    health, dependencies, access and recovery need to be understood together.
+- id: BLOCK12
+  label: Prometheus / Grafana / failure simulation
+  body: Prometheus / Grafana / failure simulation
+- id: BLOCK13
+  label: Production Observability & Alert Validation
+  body: Production Observability & Alert Validation
+- id: BLOCK14
+  label: Testing whether monitoring detects real failure, including deliberately creating
+    load and provi
+  body: Testing whether monitoring detects real failure, including deliberately creating
+    load and proving the complete alert path rather than trusting dashboards.
+- id: BLOCK15
+  label: Everything here is something I actually built, deployed, integrated or prototyped.
+  body: Everything here is something I actually built, deployed, integrated or prototyped.
+- id: BLOCK16
+  label: 'The four case studies above go deep. This index is intentionally broader:
+    devices, firmware, te'
+  body: 'The four case studies above go deep. This index is intentionally broader:
+    devices, firmware, telecom systems, infrastructure, sensing experiments, control
+    planes and web/data tools. Derived systems are described as integrations rather
+    than claimed as original upstream software.'
+- id: BLOCK17
+  label: Apps & Control Planes
+  body: Apps & Control Planes
+- id: BLOCK18
+  label: LOUP Parent Android App
+  body: LOUP Parent Android App
+- id: BLOCK19
+  label: Kotlin/Compose guardian app with pairing, QR scanning, device state, approved
+    contacts, call hi
+  body: Kotlin/Compose guardian app with pairing, QR scanning, device state, approved
+    contacts, call history and the LOUP lifecycle model.
+- id: BLOCK20
+  label: OTA Fleet Control Plane
+  body: OTA Fleet Control Plane
+- id: BLOCK21
+  label: ESP device fleet service with unique device credentials, immutable firmware
+    artifacts, compatib
+  body: ESP device fleet service with unique device credentials, immutable firmware
+    artifacts, compatibility gates, rollout state and authenticated operator control.
+- id: BLOCK22
+  label: Fimi Access
+  body: Fimi Access
+- id: BLOCK23
+  label: Browser infrastructure workspace built from a pinned Termix base with a custom
+    Fimi brand layer
+  body: Browser infrastructure workspace built from a pinned Termix base with a custom
+    Fimi brand layer, reproducible patch set, SSH agent integration and gateway access.
+- id: BLOCK24
+  label: Content Studio
+  body: Content Studio
+- id: BLOCK25
+  label: Self-hosted content operations platform for drafting, review, approval, scheduling,
+    workspace i
+  body: Self-hosted content operations platform for drafting, review, approval, scheduling,
+    workspace isolation, audit history and durable AI generation workflows.
+- id: BLOCK26
+  label: Social Publisher
+  body: Social Publisher
+- id: BLOCK27
+  label: 'Dedicated publishing engine with scheduler, queue worker, PostgreSQL/Redis
+    state, reproducible '
+  body: Dedicated publishing engine with scheduler, queue worker, PostgreSQL/Redis
+    state, reproducible source pinning and restore-tested backups; external publishing
+    remains deliberately disarmed until credentials are configured.
+- id: BLOCK28
+  label: Embedded & Devices
+  body: Embedded & Devices
+- id: BLOCK29
+  label: LOUP ESP32-S3 Connected Voice Device
+  body: LOUP ESP32-S3 Connected Voice Device
+- id: BLOCK30
+  label: 'Custom ESP32-S3 voice device spanning codec bring-up, I2S audio, AEC, jitter/playout,
+    SIP/RTP, '
+  body: Custom ESP32-S3 voice device spanning codec bring-up, I2S audio, AEC, jitter/playout,
+    SIP/RTP, e-paper UI, controls, provisioning and OTA.
+- id: BLOCK31
+  label: Pocket Dial
+  body: Pocket Dial
+- id: BLOCK32
+  label: A SIP registrar and PBX that runs on an ESP32-S3, with extension calling,
+    peer-to-peer RTP, cal
+  body: A SIP registrar and PBX that runs on an ESP32-S3, with extension calling,
+    peer-to-peer RTP, call features, web administration, optional LVGL UI and dual-OTA.
+- id: BLOCK33
+  label: ESP32 Command LLM
+  body: ESP32 Command LLM
+- id: BLOCK34
+  label: A 580K-parameter transformer trained from scratch to turn English and Spanish
+    commands into GPI
+  body: A 580K-parameter transformer trained from scratch to turn English and Spanish
+    commands into GPIO, PWM and servo actions entirely on an ESP32-S3.
+- id: BLOCK35
+  label: Fimi Cam ESP-IDF
+  body: Fimi Cam ESP-IDF
+- id: BLOCK36
+  label: ESP32-S3 camera firmware with Wi-Fi bring-up, browser live view, MJPEG streaming
+    and still-imag
+  body: ESP32-S3 camera firmware with Wi-Fi bring-up, browser live view, MJPEG streaming
+    and still-image capture for an OV2640-class camera board.
+- id: BLOCK37
+  label: Infrastructure & Operations
+  body: Infrastructure & Operations
+- id: BLOCK38
+  label: Infrastructure Operations Platform
+  body: Infrastructure Operations Platform
+- id: BLOCK39
+  label: Central service, deployment, policy, storage and execution control plane
+    with RBAC, audit event
+  body: Central service, deployment, policy, storage and execution control plane with
+    RBAC, audit events, read-only command views and guarded host execution.
+- id: BLOCK40
+  label: Network Flow Visualization
+  body: Network Flow Visualization
+- id: BLOCK41
+  label: 'Interactive topology and packet-path view that maps hosts, DNS, ingress,
+    services and observed '
+  body: Interactive topology and packet-path view that maps hosts, DNS, ingress, services
+    and observed flows into drill-down network views.
+- id: BLOCK42
+  label: Caddy Gateway & Secure Ingress
+  body: Caddy Gateway & Secure Ingress
+- id: BLOCK43
+  label: 'Canonical L7 ingress joining Cloudflare Tunnel, Caddy, Authelia and Tailscale
+    with per-service '
+  body: Canonical L7 ingress joining Cloudflare Tunnel, Caddy, Authelia and Tailscale
+    with per-service sessions, server-side credentials and private/public routes.
+- id: BLOCK44
+  label: Production Observability & Alert Validation
+  body: Production Observability & Alert Validation
+- id: BLOCK45
+  label: Metrics, logs, probes and alerting validated by controlled failures instead
+    of dashboard appear
+  body: Metrics, logs, probes and alerting validated by controlled failures instead
+    of dashboard appearance alone.
+- id: BLOCK46
+  label: Central Secret Lifecycle / OpenBao
+  body: Central Secret Lifecycle / OpenBao
+- id: BLOCK47
+  label: Two-tier OpenBao secret authority with Raft state, Transit auto-unseal, TLS,
+    AppRole and a migr
+  body: Two-tier OpenBao secret authority with Raft state, Transit auto-unseal, TLS,
+    AppRole and a migration path away from filesystem secrets.
+- id: BLOCK48
+  label: Disaster Recovery & Restore Verification
+  body: Disaster Recovery & Restore Verification
+- id: BLOCK49
+  label: Encrypted backup and recovery system spanning local rsync, off-site object
+    storage, checksums a
+  body: Encrypted backup and recovery system spanning local rsync, off-site object
+    storage, checksums and disposable restore verification rather than backup-success
+    alone.
+- id: BLOCK50
+  label: Private Alert Delivery
+  body: Private Alert Delivery
+- id: BLOCK51
+  label: Self-hosted ntfy alert path from Alertmanager to a private Tailscale HTTPS
+    endpoint with isolat
+  body: Self-hosted ntfy alert path from Alertmanager to a private Tailscale HTTPS
+    endpoint with isolated publisher/subscriber identities and no public push dependency.
+- id: BLOCK52
+  label: Network Payload Capture Pipeline
+  body: Network Payload Capture Pipeline
+- id: BLOCK53
+  label: Minimal capability-bounded packet capture path that parses a live tcpdump
+    stream into bounded p
+  body: Minimal capability-bounded packet capture path that parses a live tcpdump
+    stream into bounded payload snapshots consumed by the operations UI.
+- id: BLOCK54
+  label: Distributed Compute & Build Fabric
+  body: Distributed Compute & Build Fabric
+- id: BLOCK55
+  label: Nomad-based compute path across multiple machines with deterministic build
+    execution and fallba
+  body: Nomad-based compute path across multiple machines with deterministic build
+    execution and fallback capacity rather than tying jobs to one workstation.
+- id: BLOCK56
+  label: Voice & Telecom
+  body: Voice & Telecom
+- id: BLOCK57
+  label: VoIP & Real-Time Communications Infrastructure
+  body: VoIP & Real-Time Communications Infrastructure
+- id: BLOCK58
+  label: SIP/RTP infrastructure and debugging across endpoints, PBXs, routing, media,
+    packet captures, N
+  body: SIP/RTP infrastructure and debugging across endpoints, PBXs, routing, media,
+    packet captures, NAT and service health.
+- id: BLOCK59
+  label: FIMI VoIP Protocol Demo
+  body: FIMI VoIP Protocol Demo
+- id: BLOCK60
+  label: Small end-to-end protocol implementation using custom TCP signaling, SDP
+    offer/answer, direct R
+  body: Small end-to-end protocol implementation using custom TCP signaling, SDP offer/answer,
+    direct RTP media and RTCP receiver reports.
+- id: BLOCK61
+  label: Drachtio + FreeSWITCH SIP Edge
+  body: Drachtio + FreeSWITCH SIP Edge
+- id: BLOCK62
+  label: 'SIP edge and FreeSWITCH load-balancing layer with ESL health checks, REGISTER/INVITE
+    proxying, '
+  body: SIP edge and FreeSWITCH load-balancing layer with ESL health checks, REGISTER/INVITE
+    proxying, round-robin routing, config reload and Prometheus health surfaces.
+- id: BLOCK63
+  label: Web & Data Systems
+  body: Web & Data Systems
+- id: BLOCK64
+  label: Ambient Signal Observatory
+  body: Ambient Signal Observatory
+- id: BLOCK65
+  label: 'Public RF and satellite observatory using SatNOGS, CelesTrak and NOAA data,
+    with cache/failure '
+  body: Public RF and satellite observatory using SatNOGS, CelesTrak and NOAA data,
+    with cache/failure isolation and bounded satellite decode tooling.
+- id: BLOCK66
+  label: Khulna Satellite Weather
+  body: Khulna Satellite Weather
+- id: BLOCK67
+  label: 'Live Khulna weather dashboard combining Himawari-9 South Asia imagery, local
+    forecast data and '
+  body: Live Khulna weather dashboard combining Himawari-9 South Asia imagery, local
+    forecast data and a six-hour satellite animation.
+- id: BLOCK68
+  label: Technical Publishing & Portfolio Stack
+  body: Technical Publishing & Portfolio Stack
+- id: BLOCK69
+  label: First-party Flask/PostgreSQL publishing system powering the technical archive,
+    case studies, ad
+  body: First-party Flask/PostgreSQL publishing system powering the technical archive,
+    case studies, admin workflow and public portfolio, with a parallel Tor v3 publishing
+    path.
+- id: BLOCK70
+  label: Wireless & Sensing
+  body: Wireless & Sensing
+- id: BLOCK71
+  label: Grander CSI ESP32-S3 Firmware
+  body: Grander CSI ESP32-S3 Firmware
+- id: BLOCK72
+  label: ESP32-S3 CSI telemetry firmware that streams channel-state data over UDP
+    and supports persisten
+  body: ESP32-S3 CSI telemetry firmware that streams channel-state data over UDP and
+    supports persistent configuration plus signed A/B OTA through the fleet service.
+- id: BLOCK73
+  label: Wi-Fi CSI Presence Sensing System
+  body: Wi-Fi CSI Presence Sensing System
+- id: BLOCK74
+  label: ESP32 CSI collector, server-side signal processing and live dashboard for
+    room calibration, mot
+  body: ESP32 CSI collector, server-side signal processing and live dashboard for
+    room calibration, motion and presence experiments using Wi-Fi channel-state changes.
+- id: BLOCK75
+  label: Reticulum / RNode Mesh Prototype
+  body: Reticulum / RNode Mesh Prototype
+- id: BLOCK76
+  label: Multi-node Reticulum setup with RNode radio interfaces, LAN TCP transport
+    and ESP32/LR1121 expe
+  body: Multi-node Reticulum setup with RNode radio interfaces, LAN TCP transport
+    and ESP32/LR1121 experiments for resilient local messaging.
+- id: BLOCK77
+  label: E22 / EWM Wireless Configuration Test Harness
+  body: E22 / EWM Wireless Configuration Test Harness
+- id: BLOCK78
+  label: Repeatable serial/radio test workflow for E22 and EWM modules covering local
+    configuration read
+  body: Repeatable serial/radio test workflow for E22 and EWM modules covering local
+    configuration reads, temperature profiles, OTA initiator behavior and wired recovery
+    tests.
+- id: BLOCK79
+  label: TIER 1
+  body: TIER 1
+- id: BLOCK80
+  label: SIGNATURE CASE
+  body: SIGNATURE CASE
+- id: BLOCK81
+  label: '01'
+  body: '01'
+- id: BLOCK82
+  label: ↗
+  body: ↗
+- id: BLOCK83
+  label: TIER 2
+  body: TIER 2
+- id: BLOCK84
+  label: SUPPORTING FLAGSHIPS
+  body: SUPPORTING FLAGSHIPS
+- id: BLOCK85
+  label: '04'
+  body: '04'
+- id: BLOCK86
+  label: ↗
+  body: ↗
+- id: BLOCK87
+  label: '02'
+  body: '02'
+- id: BLOCK88
+  label: ↗
+  body: ↗
+- id: BLOCK89
+  label: '03'
+  body: '03'
+- id: BLOCK90
+  label: ↗
+  body: ↗
+- id: BLOCK91
+  label: TIER 3
+  body: TIER 3
+- id: BLOCK92
+  label: COMPLETE ENGINEERING INVENTORY
+  body: COMPLETE ENGINEERING INVENTORY
+- id: BLOCK93
+  label: COMPLETE PROJECT INDEX
+  body: COMPLETE PROJECT INDEX
+- id: BLOCK94
+  label: '01'
+  body: '01'
+- id: BLOCK95
+  label: Runnable prototype
+  body: Runnable prototype
+- id: BLOCK96
+  label: Kotlin
+  body: Kotlin
+- id: BLOCK97
+  label: Jetpack Compose
+  body: Jetpack Compose
+- id: BLOCK98
+  label: CameraX
+  body: CameraX
+- id: BLOCK99
+  label: ML Kit
+  body: ML Kit
+- id: BLOCK100
+  label: Android
+  body: Android
+- id: BLOCK101
+  label: View project
+  body: View project
+- id: BLOCK102
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK103
+  label: ESP32
+  body: ESP32
+- id: BLOCK104
+  label: OTA
+  body: OTA
+- id: BLOCK105
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK106
+  label: Caddy
+  body: Caddy
+- id: BLOCK107
+  label: Device identity
+  body: Device identity
+- id: BLOCK108
+  label: View project
+  body: View project
+- id: BLOCK109
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK110
+  label: TypeScript
+  body: TypeScript
+- id: BLOCK111
+  label: Docker
+  body: Docker
+- id: BLOCK112
+  label: SSH
+  body: SSH
+- id: BLOCK113
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK114
+  label: Caddy
+  body: Caddy
+- id: BLOCK115
+  label: Termix
+  body: Termix
+- id: BLOCK116
+  label: View project
+  body: View project
+- id: BLOCK117
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK118
+  label: Python
+  body: Python
+- id: BLOCK119
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK120
+  label: DBOS
+  body: DBOS
+- id: BLOCK121
+  label: Pydantic AI
+  body: Pydantic AI
+- id: BLOCK122
+  label: Docker
+  body: Docker
+- id: BLOCK123
+  label: View project
+  body: View project
+- id: BLOCK124
+  label: Built / integrated
+  body: Built / integrated
+- id: BLOCK125
+  label: Docker
+  body: Docker
+- id: BLOCK126
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK127
+  label: Redis
+  body: Redis
+- id: BLOCK128
+  label: Queues
+  body: Queues
+- id: BLOCK129
+  label: Backup/restore
+  body: Backup/restore
+- id: BLOCK130
+  label: View project
+  body: View project
+- id: BLOCK131
+  label: '02'
+  body: '02'
+- id: BLOCK132
+  label: Built / prototype
+  body: Built / prototype
+- id: BLOCK133
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK134
+  label: ESP-IDF
+  body: ESP-IDF
+- id: BLOCK135
+  label: ES7210
+  body: ES7210
+- id: BLOCK136
+  label: ES8311
+  body: ES8311
+- id: BLOCK137
+  label: SIP
+  body: SIP
+- id: BLOCK138
+  label: RTP
+  body: RTP
+- id: BLOCK139
+  label: View project
+  body: View project
+- id: BLOCK140
+  label: Built
+  body: Built
+- id: BLOCK141
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK142
+  label: C++17
+  body: C++17
+- id: BLOCK143
+  label: SIP
+  body: SIP
+- id: BLOCK144
+  label: RTP
+  body: RTP
+- id: BLOCK145
+  label: LVGL
+  body: LVGL
+- id: BLOCK146
+  label: OTA
+  body: OTA
+- id: BLOCK147
+  label: View project
+  body: View project
+- id: BLOCK148
+  label: Built
+  body: Built
+- id: BLOCK149
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK150
+  label: Transformer
+  body: Transformer
+- id: BLOCK151
+  label: C/C++
+  body: C/C++
+- id: BLOCK152
+  label: PSRAM
+  body: PSRAM
+- id: BLOCK153
+  label: TinyML
+  body: TinyML
+- id: BLOCK154
+  label: View project
+  body: View project
+- id: BLOCK155
+  label: Built
+  body: Built
+- id: BLOCK156
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK157
+  label: ESP-IDF
+  body: ESP-IDF
+- id: BLOCK158
+  label: OV2640
+  body: OV2640
+- id: BLOCK159
+  label: Wi-Fi
+  body: Wi-Fi
+- id: BLOCK160
+  label: HTTP
+  body: HTTP
+- id: BLOCK161
+  label: MJPEG
+  body: MJPEG
+- id: BLOCK162
+  label: View project
+  body: View project
+- id: BLOCK163
+  label: '03'
+  body: '03'
+- id: BLOCK164
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK165
+  label: Linux
+  body: Linux
+- id: BLOCK166
+  label: Docker
+  body: Docker
+- id: BLOCK167
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK168
+  label: RBAC
+  body: RBAC
+- id: BLOCK169
+  label: Python
+  body: Python
+- id: BLOCK170
+  label: Caddy
+  body: Caddy
+- id: BLOCK171
+  label: View project
+  body: View project
+- id: BLOCK172
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK173
+  label: Cytoscape.js
+  body: Cytoscape.js
+- id: BLOCK174
+  label: Network telemetry
+  body: Network telemetry
+- id: BLOCK175
+  label: Docker
+  body: Docker
+- id: BLOCK176
+  label: JavaScript
+  body: JavaScript
+- id: BLOCK177
+  label: Topology
+  body: Topology
+- id: BLOCK178
+  label: View project
+  body: View project
+- id: BLOCK179
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK180
+  label: Caddy
+  body: Caddy
+- id: BLOCK181
+  label: Cloudflare Tunnel
+  body: Cloudflare Tunnel
+- id: BLOCK182
+  label: Authelia
+  body: Authelia
+- id: BLOCK183
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK184
+  label: TLS
+  body: TLS
+- id: BLOCK185
+  label: View project
+  body: View project
+- id: BLOCK186
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK187
+  label: Prometheus
+  body: Prometheus
+- id: BLOCK188
+  label: Grafana
+  body: Grafana
+- id: BLOCK189
+  label: Alertmanager
+  body: Alertmanager
+- id: BLOCK190
+  label: Loki
+  body: Loki
+- id: BLOCK191
+  label: Alloy
+  body: Alloy
+- id: BLOCK192
+  label: Blackbox
+  body: Blackbox
+- id: BLOCK193
+  label: View project
+  body: View project
+- id: BLOCK194
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK195
+  label: OpenBao
+  body: OpenBao
+- id: BLOCK196
+  label: Raft
+  body: Raft
+- id: BLOCK197
+  label: Transit
+  body: Transit
+- id: BLOCK198
+  label: TLS
+  body: TLS
+- id: BLOCK199
+  label: AppRole
+  body: AppRole
+- id: BLOCK200
+  label: Docker
+  body: Docker
+- id: BLOCK201
+  label: View project
+  body: View project
+- id: BLOCK202
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK203
+  label: rsync
+  body: rsync
+- id: BLOCK204
+  label: Backblaze B2
+  body: Backblaze B2
+- id: BLOCK205
+  label: Encryption
+  body: Encryption
+- id: BLOCK206
+  label: Checksums
+  body: Checksums
+- id: BLOCK207
+  label: Restore tests
+  body: Restore tests
+- id: BLOCK208
+  label: View project
+  body: View project
+- id: BLOCK209
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK210
+  label: ntfy
+  body: ntfy
+- id: BLOCK211
+  label: Alertmanager
+  body: Alertmanager
+- id: BLOCK212
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK213
+  label: TLS
+  body: TLS
+- id: BLOCK214
+  label: Docker
+  body: Docker
+- id: BLOCK215
+  label: View project
+  body: View project
+- id: BLOCK216
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK217
+  label: tcpdump
+  body: tcpdump
+- id: BLOCK218
+  label: PCAP
+  body: PCAP
+- id: BLOCK219
+  label: Linux capabilities
+  body: Linux capabilities
+- id: BLOCK220
+  label: JSON
+  body: JSON
+- id: BLOCK221
+  label: Docker
+  body: Docker
+- id: BLOCK222
+  label: View project
+  body: View project
+- id: BLOCK223
+  label: Built / working
+  body: Built / working
+- id: BLOCK224
+  label: Nomad
+  body: Nomad
+- id: BLOCK225
+  label: Linux
+  body: Linux
+- id: BLOCK226
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK227
+  label: Build automation
+  body: Build automation
+- id: BLOCK228
+  label: View project
+  body: View project
+- id: BLOCK229
+  label: '04'
+  body: '04'
+- id: BLOCK230
+  label: Built / operated
+  body: Built / operated
+- id: BLOCK231
+  label: SIP
+  body: SIP
+- id: BLOCK232
+  label: RTP
+  body: RTP
+- id: BLOCK233
+  label: Asterisk
+  body: Asterisk
+- id: BLOCK234
+  label: FreeSWITCH
+  body: FreeSWITCH
+- id: BLOCK235
+  label: OpenSIPS
+  body: OpenSIPS
+- id: BLOCK236
+  label: RTPengine
+  body: RTPengine
+- id: BLOCK237
+  label: View project
+  body: View project
+- id: BLOCK238
+  label: Built
+  body: Built
+- id: BLOCK239
+  label: Python
+  body: Python
+- id: BLOCK240
+  label: SDP
+  body: SDP
+- id: BLOCK241
+  label: RTP
+  body: RTP
+- id: BLOCK242
+  label: RTCP
+  body: RTCP
+- id: BLOCK243
+  label: TCP
+  body: TCP
+- id: BLOCK244
+  label: UDP
+  body: UDP
+- id: BLOCK245
+  label: View project
+  body: View project
+- id: BLOCK246
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK247
+  label: Drachtio
+  body: Drachtio
+- id: BLOCK248
+  label: FreeSWITCH
+  body: FreeSWITCH
+- id: BLOCK249
+  label: Node.js
+  body: Node.js
+- id: BLOCK250
+  label: ESL
+  body: ESL
+- id: BLOCK251
+  label: SIP
+  body: SIP
+- id: BLOCK252
+  label: Prometheus
+  body: Prometheus
+- id: BLOCK253
+  label: View project
+  body: View project
+- id: BLOCK254
+  label: '05'
+  body: '05'
+- id: BLOCK255
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK256
+  label: SatNOGS
+  body: SatNOGS
+- id: BLOCK257
+  label: CelesTrak
+  body: CelesTrak
+- id: BLOCK258
+  label: NOAA SWPC
+  body: NOAA SWPC
+- id: BLOCK259
+  label: Python
+  body: Python
+- id: BLOCK260
+  label: Docker
+  body: Docker
+- id: BLOCK261
+  label: DSP
+  body: DSP
+- id: BLOCK262
+  label: View project
+  body: View project
+- id: BLOCK263
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK264
+  label: Himawari-9
+  body: Himawari-9
+- id: BLOCK265
+  label: JMA
+  body: JMA
+- id: BLOCK266
+  label: Open-Meteo
+  body: Open-Meteo
+- id: BLOCK267
+  label: Docker
+  body: Docker
+- id: BLOCK268
+  label: JavaScript
+  body: JavaScript
+- id: BLOCK269
+  label: View project
+  body: View project
+- id: BLOCK270
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK271
+  label: Flask
+  body: Flask
+- id: BLOCK272
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK273
+  label: Gunicorn
+  body: Gunicorn
+- id: BLOCK274
+  label: Nginx
+  body: Nginx
+- id: BLOCK275
+  label: Tor
+  body: Tor
+- id: BLOCK276
+  label: Markdown
+  body: Markdown
+- id: BLOCK277
+  label: View project
+  body: View project
+- id: BLOCK278
+  label: '06'
+  body: '06'
+- id: BLOCK279
+  label: Built / accepted baseline
+  body: Built / accepted baseline
+- id: BLOCK280
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK281
+  label: Wi-Fi CSI
+  body: Wi-Fi CSI
+- id: BLOCK282
+  label: UDP
+  body: UDP
+- id: BLOCK283
+  label: Signed OTA
+  body: Signed OTA
+- id: BLOCK284
+  label: ESP-IDF
+  body: ESP-IDF
+- id: BLOCK285
+  label: View project
+  body: View project
+- id: BLOCK286
+  label: Working prototype
+  body: Working prototype
+- id: BLOCK287
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK288
+  label: CSI
+  body: CSI
+- id: BLOCK289
+  label: DSP
+  body: DSP
+- id: BLOCK290
+  label: Docker
+  body: Docker
+- id: BLOCK291
+  label: Time series
+  body: Time series
+- id: BLOCK292
+  label: Web UI
+  body: Web UI
+- id: BLOCK293
+  label: View project
+  body: View project
+- id: BLOCK294
+  label: Working prototype
+  body: Working prototype
+- id: BLOCK295
+  label: Reticulum
+  body: Reticulum
+- id: BLOCK296
+  label: RNode
+  body: RNode
+- id: BLOCK297
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK298
+  label: LR1121
+  body: LR1121
+- id: BLOCK299
+  label: LoRa
+  body: LoRa
+- id: BLOCK300
+  label: TCP
+  body: TCP
+- id: BLOCK301
+  label: View project
+  body: View project
+- id: BLOCK302
+  label: Built test tooling
+  body: Built test tooling
+- id: BLOCK303
+  label: E22
+  body: E22
+- id: BLOCK304
+  label: UART
+  body: UART
+- id: BLOCK305
+  label: RS485
+  body: RS485
+- id: BLOCK306
+  label: LoRa
+  body: LoRa
+- id: BLOCK307
+  label: Autotest
+  body: Autotest
+- id: BLOCK308
+  label: View project
+  body: View project
+lists: []
+template: cms/templates/pages/portfolio.tpl
+source: cms/templates/pages/portfolio.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK81}} {{RR_BLOCK3}} {{RR_BLOCK4}} {{RR_BLOCK5}} {{RR_BLOCK82}}'
+  url: /portfolio/esp32-voice-device.html
+- id: LINK1
+  label: '{{RR_BLOCK85}} {{RR_BLOCK6}} {{RR_BLOCK7}} {{RR_BLOCK8}} {{RR_BLOCK86}}'
+  url: /portfolio/voip-sip-rtp.html
+- id: LINK2
+  label: '{{RR_BLOCK87}} {{RR_BLOCK9}} {{RR_BLOCK10}} {{RR_BLOCK11}} {{RR_BLOCK88}}'
+  url: /portfolio/platform-infrastructure.html
+- id: LINK3
+  label: '{{RR_BLOCK89}} {{RR_BLOCK12}} {{RR_BLOCK13}} {{RR_BLOCK14}} {{RR_BLOCK90}}'
+  url: /portfolio/prometheus-observability.html
+- id: LINK4
+  label: '{{RR_BLOCK95}} {{RR_BLOCK18}} {{RR_BLOCK19}} {{RR_BLOCK96}} {{RR_BLOCK97}}
+    {{RR_BLOCK98}} '
+  url: /portfolio/projects/loup-parent-android-app.html
+- id: LINK5
+  label: '{{RR_BLOCK102}} {{RR_BLOCK20}} {{RR_BLOCK21}} {{RR_BLOCK103}} {{RR_BLOCK104}}
+    {{RR_BLOCK10'
+  url: /portfolio/projects/ota-fleet-control-plane.html
+- id: LINK6
+  label: '{{RR_BLOCK109}} {{RR_BLOCK22}} {{RR_BLOCK23}} {{RR_BLOCK110}} {{RR_BLOCK111}}
+    {{RR_BLOCK11'
+  url: /portfolio/projects/fimi-access.html
+- id: LINK7
+  label: '{{RR_BLOCK117}} {{RR_BLOCK24}} {{RR_BLOCK25}} {{RR_BLOCK118}} {{RR_BLOCK119}}
+    {{RR_BLOCK12'
+  url: /portfolio/projects/content-studio.html
+- id: LINK8
+  label: '{{RR_BLOCK124}} {{RR_BLOCK26}} {{RR_BLOCK27}} {{RR_BLOCK125}} {{RR_BLOCK126}}
+    {{RR_BLOCK12'
+  url: /portfolio/projects/social-publisher.html
+- id: LINK9
+  label: '{{RR_BLOCK132}} DEEP CASE STUDY {{RR_BLOCK29}} {{RR_BLOCK30}} {{RR_BLOCK133}}
+    {{RR_BLOCK13'
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html
+- id: LINK10
+  label: '{{RR_BLOCK140}} {{RR_BLOCK31}} {{RR_BLOCK32}} {{RR_BLOCK141}} {{RR_BLOCK142}}
+    {{RR_BLOCK14'
+  url: /portfolio/projects/pocket-dial.html
+- id: LINK11
+  label: '{{RR_BLOCK148}} {{RR_BLOCK33}} {{RR_BLOCK34}} {{RR_BLOCK149}} {{RR_BLOCK150}}
+    {{RR_BLOCK15'
+  url: /portfolio/projects/esp32-command-llm.html
+- id: LINK12
+  label: '{{RR_BLOCK155}} {{RR_BLOCK35}} {{RR_BLOCK36}} {{RR_BLOCK156}} {{RR_BLOCK157}}
+    {{RR_BLOCK15'
+  url: /portfolio/projects/fimi-cam-esp-idf.html
+- id: LINK13
+  label: '{{RR_BLOCK164}} DEEP CASE STUDY {{RR_BLOCK38}} {{RR_BLOCK39}} {{RR_BLOCK165}}
+    {{RR_BLOCK16'
+  url: /portfolio/projects/infrastructure-operations-platform.html
+- id: LINK14
+  label: '{{RR_BLOCK172}} {{RR_BLOCK40}} {{RR_BLOCK41}} {{RR_BLOCK173}} {{RR_BLOCK174}}
+    {{RR_BLOCK17'
+  url: /portfolio/projects/network-flow-visualization.html
+- id: LINK15
+  label: '{{RR_BLOCK179}} {{RR_BLOCK42}} {{RR_BLOCK43}} {{RR_BLOCK180}} {{RR_BLOCK181}}
+    {{RR_BLOCK18'
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html
+- id: LINK16
+  label: '{{RR_BLOCK186}} DEEP CASE STUDY {{RR_BLOCK44}} {{RR_BLOCK45}} {{RR_BLOCK187}}
+    {{RR_BLOCK18'
+  url: /portfolio/projects/production-observability-alert-validation.html
+- id: LINK17
+  label: '{{RR_BLOCK194}} {{RR_BLOCK46}} {{RR_BLOCK47}} {{RR_BLOCK195}} {{RR_BLOCK196}}
+    {{RR_BLOCK19'
+  url: /portfolio/projects/central-secret-lifecycle-openbao.html
+- id: LINK18
+  label: '{{RR_BLOCK202}} {{RR_BLOCK48}} {{RR_BLOCK49}} {{RR_BLOCK203}} {{RR_BLOCK204}}
+    {{RR_BLOCK20'
+  url: /portfolio/projects/disaster-recovery-restore-verification.html
+- id: LINK19
+  label: '{{RR_BLOCK209}} {{RR_BLOCK50}} {{RR_BLOCK51}} {{RR_BLOCK210}} {{RR_BLOCK211}}
+    {{RR_BLOCK21'
+  url: /portfolio/projects/private-alert-delivery.html
+- id: LINK20
+  label: '{{RR_BLOCK216}} {{RR_BLOCK52}} {{RR_BLOCK53}} {{RR_BLOCK217}} {{RR_BLOCK218}}
+    {{RR_BLOCK21'
+  url: /portfolio/projects/network-payload-capture-pipeline.html
+- id: LINK21
+  label: '{{RR_BLOCK223}} {{RR_BLOCK54}} {{RR_BLOCK55}} {{RR_BLOCK224}} {{RR_BLOCK225}}
+    {{RR_BLOCK22'
+  url: /portfolio/projects/distributed-compute-build-fabric.html
+- id: LINK22
+  label: '{{RR_BLOCK230}} DEEP CASE STUDY {{RR_BLOCK57}} {{RR_BLOCK58}} {{RR_BLOCK231}}
+    {{RR_BLOCK23'
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html
+- id: LINK23
+  label: '{{RR_BLOCK238}} {{RR_BLOCK59}} {{RR_BLOCK60}} {{RR_BLOCK239}} {{RR_BLOCK240}}
+    {{RR_BLOCK24'
+  url: /portfolio/projects/fimi-voip-protocol-demo.html
+- id: LINK24
+  label: '{{RR_BLOCK246}} {{RR_BLOCK61}} {{RR_BLOCK62}} {{RR_BLOCK247}} {{RR_BLOCK248}}
+    {{RR_BLOCK24'
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html
+- id: LINK25
+  label: '{{RR_BLOCK255}} {{RR_BLOCK64}} {{RR_BLOCK65}} {{RR_BLOCK256}} {{RR_BLOCK257}}
+    {{RR_BLOCK25'
+  url: /portfolio/projects/ambient-signal-observatory.html
+- id: LINK26
+  label: '{{RR_BLOCK263}} {{RR_BLOCK66}} {{RR_BLOCK67}} {{RR_BLOCK264}} {{RR_BLOCK265}}
+    {{RR_BLOCK26'
+  url: /portfolio/projects/khulna-satellite-weather.html
+- id: LINK27
+  label: '{{RR_BLOCK270}} {{RR_BLOCK68}} {{RR_BLOCK69}} {{RR_BLOCK271}} {{RR_BLOCK272}}
+    {{RR_BLOCK27'
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html
+- id: LINK28
+  label: '{{RR_BLOCK279}} {{RR_BLOCK71}} {{RR_BLOCK72}} {{RR_BLOCK280}} {{RR_BLOCK281}}
+    {{RR_BLOCK28'
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html
+- id: LINK29
+  label: '{{RR_BLOCK286}} {{RR_BLOCK73}} {{RR_BLOCK74}} {{RR_BLOCK287}} {{RR_BLOCK288}}
+    {{RR_BLOCK28'
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html
+- id: LINK30
+  label: '{{RR_BLOCK294}} {{RR_BLOCK75}} {{RR_BLOCK76}} {{RR_BLOCK295}} {{RR_BLOCK296}}
+    {{RR_BLOCK29'
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html
+- id: LINK31
+  label: '{{RR_BLOCK302}} {{RR_BLOCK77}} {{RR_BLOCK78}} {{RR_BLOCK303}} {{RR_BLOCK304}}
+    {{RR_BLOCK30'
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html

@@ -1,0 +1,37 @@
+title: Pink Floyd
+browser_title: Pink Floyd — Research Listening Archive — Reaz Romen
+description: Pink Floyd — Research Listening Archive — research listening note in
+  the Reaz Romen music archive.
+url: /music/pink-floyd/index.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: RESEARCH LISTENING ARCHIVE
+  body: RESEARCH LISTENING ARCHIVE
+- id: BLOCK1
+  label: Pink Floyd
+  body: Pink Floyd
+- id: BLOCK2
+  label: '100 research listening notes. These are separated from personal listening-memory
+    essays and do '
+  body: 100 research listening notes. These are separated from personal listening-memory
+    essays and do not invent first-person experience.
+- id: BLOCK3
+  label: ← Back to Music
+  body: '[← Back to Music](/music.html)'
+- id: BLOCK4
+  label: NOTES
+  body: NOTES
+- id: BLOCK5
+  label: 100 ENTRIES
+  body: 100 ENTRIES
+lists:
+- key: LIST0
+  filter:
+    section: music
+    artist: Pink Floyd
+    kind: research
+  style: music
+template: cms/templates/pages/music--pink-floyd--index.tpl
+source: cms/templates/pages/music--pink-floyd--index.json
+links: []

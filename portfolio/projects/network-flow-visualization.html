@@ -1,278 +1,201 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Interactive topology and packet-path view that maps hosts, DNS, ingress, services and observed flows into drill-down network views.">
-  <meta name="author" content="Reaz Romen">
-  <link rel="author" href="../../about.html">
-  <title>Network Flow Visualization — Reaz Romen Portfolio</title>
-  <link rel="stylesheet" href="../../static/css/site.css">
-
-<link rel="stylesheet" href="/assets/site.css">
-<link rel="stylesheet" href="/assets/sitewide-v2.css">
-<meta data-pagefind-filter="type[content]" content="Work"><meta data-pagefind-filter="domain[content]" content="Networks"><meta data-pagefind-meta="domain[content]" content="Networks"><meta data-pagefind-meta="type[content]" content="Work"><meta data-pagefind-filter="format[content]" content="Project"><meta data-pagefind-meta="format[content]" content="Project"><meta data-pagefind-meta="title[content]" content="Network Flow Visualization"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/phase2.css"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="Interactive topology and packet-path view that maps hosts, DNS, ingress, services and observed flows into drill-down network views." name="description"/>
+<meta content="Reaz Romen" name="author"/>
+<link href="../../about.html" rel="author"/>
+<title>Network Flow Visualization — Reaz Romen Portfolio</title>
+<link href="../../static/css/site.css" rel="stylesheet"/>
+<link href="/assets/site.css" rel="stylesheet"/>
+<link href="/assets/sitewide-v2.css" rel="stylesheet"/>
+<meta content="Work" data-pagefind-filter="type[content]"/><meta content="Networks" data-pagefind-filter="domain[content]"/><meta content="Networks" data-pagefind-meta="domain[content]"/><meta content="Work" data-pagefind-meta="type[content]"/><meta content="Project" data-pagefind-filter="format[content]"/><meta content="Project" data-pagefind-meta="format[content]"/><meta content="Network Flow Visualization" data-pagefind-meta="title[content]"/><link href="/assets/phase1.css" rel="stylesheet"/><link href="/feed.xml" rel="alternate" title="Reaz Romen — Writing" type="application/rss+xml"/><link href="/atom.xml" rel="alternate" title="Reaz Romen — Writing" type="application/atom+xml"/><link href="/assets/phase2.css" rel="stylesheet"/><link href="/assets/responsive-v3.css" rel="stylesheet"/><link href="https://reazromen.com/portfolio/projects/network-flow-visualization.html" rel="canonical"/></head>
 <body class="rr-themed">
 <a class="skip-link" href="#rr-main">Skip to content</a>
-<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
-<main id="rr-main" class="shell site-main">
-  
-    
-  
-  
-<article class="project-dossier" data-pagefind-body>
-  <header class="dossier-hero">
-    <a class="back-link" href="../../portfolio.html#all-builds"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg><span>Complete project index</span></a>
-    <div class="dossier-hero-grid">
-      <div class="dossier-hero-copy">
-        <p class="eyebrow">Infrastructure &amp; Operations / Built / deployed</p>
-        <h1>Network Flow Visualization</h1>
-        <p class="lede">Interactive topology and packet-path view that maps hosts, DNS, ingress, services and observed flows into drill-down network views.</p>
-        <div class="project-hero-actions">
-          
-          <a class="button secondary" href="network-flow-visualization.html#architecture"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="5" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/><path d="M12 7v5M5 17v-3h14v3"/></svg><span>Explore architecture</span></a>
-        </div>
-      </div>
-      <aside class="product-visual">
-        
-          <div class="visual-blueprint" aria-label="Network Flow Visualization system visual">
-            <div class="visual-blueprint-head"><span>PRODUCT / SYSTEM VISUAL</span><b>Built / deployed</b></div>
-            <div class="visual-core">Network Flow Visualization</div>
-            <div class="visual-orbit">
-              <span>Cytoscape.js</span><span>Network telemetry</span><span>Docker</span><span>JavaScript</span><span>Topology</span>
-            </div>
-            <div class="visual-flow-mini">
-              <i>Host / client</i><em>→</em><i>Gateway / DNS</i><em>→</em><i>Ingress</i><em>→</em><i>Service boundary</i>
-            </div>
-          </div>
-          <p>Live system blueprint generated from the documented project topology.</p>
-        
-      </aside>
-    </div>
-  </header><nav class="project-record-bar" aria-label="Project engineering record"><span>ENGINEERING RECORD</span><a href="#architecture">Architecture</a><a href="#network">Signal / request path</a><a href="#testing">Verification</a><a href="#evidence">Evidence</a></nav>
-
-  <section class="dossier-facts">
-    <div><span class="fact-label"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12h4l2.2-6 4.2 12 2.2-6H21"/></svg><span>STATUS</span></span><strong>Built / deployed</strong></div>
-    <div><span class="fact-label"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 12 9 5 9-5M3 16l9 5 9-5"/></svg><span>AREA</span></span><strong>Infrastructure &amp; Operations</strong></div>
-    <div><span class="fact-label"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="m7 9 3 3-3 3M13 15h4"/></svg><span>STACK</span></span><strong>5 documented technologies</strong></div>
-    <div><span class="fact-label"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="5" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/><path d="M12 7v5M5 17v-3h14v3"/></svg><span>INTEGRATIONS</span></span><strong>4 connected / bounded services</strong></div>
-  </section>
-
-  <div class="dossier-layout">
-    <aside class="dossier-toc" aria-label="Project documentation">
-      <span>PROJECT DOCUMENTATION</span>
-      <a href="network-flow-visualization.html#overview">01 / Overview</a>
-      <a href="network-flow-visualization.html#architecture">02 / Architecture</a>
-      <a href="network-flow-visualization.html#network">03 / Network & data flow</a>
-      <a href="network-flow-visualization.html#stack">04 / Stack</a>
-      <a href="network-flow-visualization.html#implementation">05 / How I built it</a>
-      <a href="network-flow-visualization.html#testing">06 / Testing</a>
-      <a href="network-flow-visualization.html#integrations">07 / Integrations</a>
-      <a href="network-flow-visualization.html#evidence">08 / Evidence</a>
-      <a href="network-flow-visualization.html#constraints">09 / Constraints</a>
-      <a href="network-flow-visualization.html#result">10 / Result</a>
-    </aside>
-
-    <div class="dossier-main">
-      <section class="dossier-section" id="overview">
-        <div class="section-heading"><span>01</span><div><p class="eyebrow">OVERVIEW</p><h2>What I built.</h2></div></div>
-        <p class="large-copy">Interactive topology and packet-path view that maps hosts, DNS, ingress, services and observed flows into drill-down network views.</p>
-        <div class="scope-grid">
-          
-          <article><span>01</span><p>Built an interactive network topology view around actual hosts, DNS, ingress, services and observed connections.</p><section class="project-related"><p class="eyebrow">RELATED WRITING</p><div class="related-list"><a href="/posts/ebpf-xdp-verifier-operational-safety.html"><strong>eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe</strong><span>2026-09-26</span></a><a href="/posts/http3-quic-enterprise-inspection-assumptions.html"><strong>HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions</strong><span>2026-09-26</span></a><a href="/posts/kubernetes-gateway-api-not-new-ingress-yaml.html"><strong>Kubernetes Gateway API Is Not Just a New Ingress YAML</strong><span>2026-09-26</span></a></div></section></article>
-          
-          <article><span>02</span><p>Added overview, section drill-down and live packet-path views instead of one permanently crowded graph.</p></article>
-          
-          <article><span>03</span><p>Connected topology rendering to network telemetry and packet/payload evidence.</p></article>
-          
-        </div>
-      </section>
-
-      <section class="dossier-section" id="architecture">
-        <div class="section-heading"><span>02</span><div><p class="eyebrow">SYSTEM ARCHITECTURE</p><h2>How the system is divided.</h2></div></div>
-        <div class="architecture-map">
-          
-          <article>
-            <div class="arch-node-index">01</div>
-            <strong>Architecture boundary</strong>
-            <p>Network/flow collectors -&gt; normalized topology model -&gt; operations API -&gt; Cytoscape.js visualization.</p>
-          </article>
-          
-          <article>
-            <div class="arch-node-index">02</div>
-            <strong>Architecture boundary</strong>
-            <p>Views separate stable architecture from live/ephemeral flow state.</p>
-          </article>
-          
-          <article>
-            <div class="arch-node-index">03</div>
-            <strong>Architecture boundary</strong>
-            <p>Host boundaries, service groups and packet routes are represented as distinct semantic layers.</p>
-          </article>
-          
-        </div>
-      </section>
-
-      <section class="dossier-section" id="network">
-        <div class="section-heading"><span>03</span><div><p class="eyebrow">NETWORK / DATA FLOW</p><h2>What talks to what.</h2></div></div>
-        <div class="trace-hint"><span>TRACE PATH</span><span>Focus or tap a stage to trace the flow from source to that point.</span><button type="button" class="trace-clear" hidden>Clear</button></div><div class="network-diagram" role="img" aria-label="Network Flow Visualization network and data flow">
-          
-          <div class="network-node" tabindex="0" role="button" aria-pressed="false" data-trace-index="1"><small>01</small><strong>Host / client</strong></div>
-          <div class="network-arrow"><span>→</span><i>data / control</i></div>
-          
-          <div class="network-node" tabindex="0" role="button" aria-pressed="false" data-trace-index="2"><small>02</small><strong>Gateway / DNS</strong></div>
-          <div class="network-arrow"><span>→</span><i>data / control</i></div>
-          
-          <div class="network-node" tabindex="0" role="button" aria-pressed="false" data-trace-index="3"><small>03</small><strong>Ingress</strong></div>
-          <div class="network-arrow"><span>→</span><i>data / control</i></div>
-          
-          <div class="network-node" tabindex="0" role="button" aria-pressed="false" data-trace-index="4"><small>04</small><strong>Service boundary</strong></div>
-          <div class="network-arrow"><span>→</span><i>data / control</i></div>
-          
-          <div class="network-node" tabindex="0" role="button" aria-pressed="false" data-trace-index="5"><small>05</small><strong>Container / backend</strong></div>
-          <div class="network-arrow"><span>→</span><i>data / control</i></div>
-          
-          <div class="network-node" tabindex="0" role="button" aria-pressed="false" data-trace-index="6"><small>06</small><strong>Observed return path</strong></div>
-          
-          
-        </div>
-      </section>
-
-      <section class="dossier-section" id="stack">
-        <div class="section-heading"><span>04</span><div><p class="eyebrow">TECHNOLOGY STACK</p><h2>The technical surface.</h2></div></div>
-        <div class="stack-board">
-          
-          <div><span>01</span><strong>Cytoscape.js</strong></div>
-          
-          <div><span>02</span><strong>Network telemetry</strong></div>
-          
-          <div><span>03</span><strong>Docker</strong></div>
-          
-          <div><span>04</span><strong>JavaScript</strong></div>
-          
-          <div><span>05</span><strong>Topology</strong></div>
-          
-        </div>
-      </section>
-
-      <section class="dossier-section" id="implementation">
-        <div class="section-heading"><span>05</span><div><p class="eyebrow">IMPLEMENTATION</p><h2>How it works in practice.</h2></div></div>
-        <ol class="implementation-list">
-          
-          <li><span>01</span><p>Network/flow collectors -&gt; normalized topology model -&gt; operations API -&gt; Cytoscape.js visualization.</p></li>
-          
-          <li><span>02</span><p>Views separate stable architecture from live/ephemeral flow state.</p></li>
-          
-          <li><span>03</span><p>Host boundaries, service groups and packet routes are represented as distinct semantic layers.</p></li>
-          
-        </ol>
-      </section>
-
-      <section class="dossier-section" id="testing">
-        <div class="section-heading"><span>06</span><div><p class="eyebrow">TESTING & VALIDATION</p><h2>How I know it works.</h2></div></div>
-        <div class="validation-grid">
-          
-          <article><span>TEST 01</span><p>Synthetic topology fixture tests</p></article>
-          
-          <article><span>TEST 02</span><p>Production feed contract review</p></article>
-          
-          <article><span>TEST 03</span><p>JavaScript syntax checks</p></article>
-          
-          <article><span>TEST 04</span><p>Live deployment verification</p></article>
-          
-          <article><span>TEST 05</span><p>Flow/route selection and drill-down behavior</p></article>
-          
-          <article><span>TEST 06</span><p>Packet/payload evidence correlation</p></article>
-          
-        </div>
-      </section>
-
-      <section class="dossier-section" id="integrations">
-        <div class="section-heading"><span>07</span><div><p class="eyebrow">EXTERNAL SERVICES & DEPENDENCIES</p><h2>What sits outside the core.</h2></div></div>
-        <div class="integration-board">
-          <div class="integration-core"><small>CORE</small><strong>Network Flow Visualization</strong></div>
-          <div class="integration-links">
-            
-            <div><span>↔</span><strong>Ops Portal API</strong></div>
-            
-            <div><span>↔</span><strong>Network/payload collectors</strong></div>
-            
-            <div><span>↔</span><strong>Caddy ingress</strong></div>
-            
-            <div><span>↔</span><strong>DNS resolver</strong></div>
-            
-          </div>
-        </div>
-      </section>
-
-      <section class="dossier-section" id="evidence">
-        <div class="section-heading"><span>08</span><div><p class="eyebrow">ENGINEERING EVIDENCE</p><h2>Artifacts behind the claims.</h2></div></div>
-        <div class="evidence-board">
-          
-          <div class="evidence-item" id="evidence-01"><span>01</span><span class="evidence-type">NOTE</span><strong>Overview mode</strong></div>
-          
-          <div class="evidence-item" id="evidence-02"><span>02</span><span class="evidence-type">NOTE</span><strong>Service-section mode</strong></div>
-          
-          <div class="evidence-item" id="evidence-03"><span>03</span><span class="evidence-type">PCAP</span><strong>Live packet-path mode</strong></div>
-          
-          <div class="evidence-item" id="evidence-04"><span>04</span><span class="evidence-type">NOTE</span><strong>Observed flows</strong></div>
-          
-          <div class="evidence-item" id="evidence-05"><span>05</span><span class="evidence-type">NOTE</span><strong>Topology model</strong></div>
-          
-          <div class="evidence-item" id="evidence-06"><span>06</span><span class="evidence-type">NOTE</span><strong>Payload snapshots</strong></div>
-          
-        </div>
-      </section>
-
-      <section class="dossier-section" id="constraints">
-        <div class="section-heading"><span>09</span><div><p class="eyebrow">BOUNDARIES / CONSTRAINTS</p><h2>What the project does not pretend to solve.</h2></div></div>
-        <div class="constraint-list">
-          
-          <p><span>—</span>Synthetic fixtures do not prove production ingress wiring</p>
-          
-          <p><span>—</span>Ephemeral flows must not distort stable topology</p>
-          
-          <p><span>—</span>Layout should remain readable at low complexity</p>
-          
-        </div>
-      </section>
-
-      <section class="dossier-section dossier-result" id="result">
-        <div class="section-heading"><span>10</span><div><p class="eyebrow">RESULT / CURRENT STATE</p><h2>What this produced.</h2></div></div>
-        <p class="result-copy">A network UI that explains how traffic moves through the environment instead of showing an undifferentiated graph.</p>
-        
-      </section>
-    </div>
-  </div>
-
-  <nav class="project-pagination" aria-label="Project navigation">
-    <a href="infrastructure-operations-platform.html"><span>← Previous project</span><strong>Infrastructure Operations Platform</strong></a>
-    <a class="next" href="caddy-gateway-secure-ingress.html"><span>Next project →</span><strong>Caddy Gateway &amp; Secure Ingress</strong></a>
-  </nav>
+<header class="site-header rr-global-header"><div class="site-header-inner"><a aria-label="Reaz Romen home" class="brand" href="/">RR</a><nav aria-label="Main navigation" class="nav"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button aria-label="Search and quick navigation" class="icon-link search-action" data-open-command="" title="Search (Ctrl/⌘ K)" type="button"><svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg></button><a aria-label="GitHub" class="icon-link github-action" href="https://github.com/reazromen" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon icon-fill" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"></path></svg></a><button aria-label="Toggle color scheme" class="theme-toggle" onclick="toggleTheme()" type="button"><svg aria-hidden="true" class="icon" data-theme-icon="moon" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"></path></svg><svg aria-hidden="true" class="icon" data-theme-icon="sun" hidden="" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></svg></button></div></nav></div></header>
+<main class="shell site-main" data-pagefind-body="" id="rr-main">
+<article class="project-dossier" data-pagefind-body="">
+<header class="dossier-hero">
+<a class="back-link" href="/portfolio.html#all-builds"><svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"></path></svg><span>Complete project index</span></a>
+<div class="dossier-hero-grid">
+<div class="dossier-hero-copy">
+<p class="eyebrow">Infrastructure &amp; Operations / Built / deployed</p>
+<h1>Network Flow Visualization</h1>
+<p class="lede">Interactive topology and packet-path view that maps hosts, DNS, ingress, services and observed flows into drill-down network views.</p>
+<div class="project-hero-actions">
+<a class="button secondary" href="/portfolio/projects/network-flow-visualization.html#architecture"><svg aria-hidden="true" class="tech-icon" viewBox="0 0 24 24"><rect height="5" rx="1" width="6" x="9" y="2"></rect><rect height="5" rx="1" width="6" x="2" y="17"></rect><rect height="5" rx="1" width="6" x="16" y="17"></rect><path d="M12 7v5M5 17v-3h14v3"></path></svg><span>Explore architecture</span></a>
+</div>
+</div>
+<aside class="product-visual">
+<div aria-label="Network Flow Visualization system visual" class="visual-blueprint">
+<div class="visual-blueprint-head"><span>PRODUCT / SYSTEM VISUAL</span><b>Built / deployed</b></div>
+<div class="visual-core">Network Flow Visualization</div>
+<div class="visual-orbit">
+<span>Cytoscape.js</span><span>Network telemetry</span><span>Docker</span><span>JavaScript</span><span>Topology</span>
+</div>
+<div class="visual-flow-mini">
+<i>Host / client</i><em>→</em><i>Gateway / DNS</i><em>→</em><i>Ingress</i><em>→</em><i>Service boundary</i>
+</div>
+</div>
+<p>Live system blueprint generated from the documented project topology.</p>
+</aside>
+</div>
+</header><nav aria-label="Project engineering record" class="project-record-bar"><span>ENGINEERING RECORD</span><a href="#architecture">Architecture</a><a href="#network">Signal / request path</a><a href="#testing">Verification</a><a href="#evidence">Evidence</a></nav>
+<section class="dossier-facts">
+<div><span class="fact-label"><svg aria-hidden="true" class="tech-icon" viewBox="0 0 24 24"><path d="M3 12h4l2.2-6 4.2 12 2.2-6H21"></path></svg><span>STATUS</span></span><strong>Built / deployed</strong></div>
+<div><span class="fact-label"><svg aria-hidden="true" class="tech-icon" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"></path><path d="m3 12 9 5 9-5M3 16l9 5 9-5"></path></svg><span>AREA</span></span><strong>Infrastructure &amp; Operations</strong></div>
+<div><span class="fact-label"><svg aria-hidden="true" class="tech-icon" viewBox="0 0 24 24"><rect height="16" rx="2" width="18" x="3" y="4"></rect><path d="m7 9 3 3-3 3M13 15h4"></path></svg><span>STACK</span></span><strong>5 documented technologies</strong></div>
+<div><span class="fact-label"><svg aria-hidden="true" class="tech-icon" viewBox="0 0 24 24"><rect height="5" rx="1" width="6" x="9" y="2"></rect><rect height="5" rx="1" width="6" x="2" y="17"></rect><rect height="5" rx="1" width="6" x="16" y="17"></rect><path d="M12 7v5M5 17v-3h14v3"></path></svg><span>INTEGRATIONS</span></span><strong>4 connected / bounded services</strong></div>
+</section>
+<div class="dossier-layout">
+<aside aria-label="Project documentation" class="dossier-toc">
+<span>PROJECT DOCUMENTATION</span>
+<a href="/portfolio/projects/network-flow-visualization.html#overview">01 / Overview</a>
+<a href="/portfolio/projects/network-flow-visualization.html#architecture">02 / Architecture</a>
+<a href="/portfolio/projects/network-flow-visualization.html#network">03 / Network &amp; data flow</a>
+<a href="/portfolio/projects/network-flow-visualization.html#stack">04 / Stack</a>
+<a href="/portfolio/projects/network-flow-visualization.html#implementation">05 / How I built it</a>
+<a href="/portfolio/projects/network-flow-visualization.html#testing">06 / Testing</a>
+<a href="/portfolio/projects/network-flow-visualization.html#integrations">07 / Integrations</a>
+<a href="/portfolio/projects/network-flow-visualization.html#evidence">08 / Evidence</a>
+<a href="/portfolio/projects/network-flow-visualization.html#constraints">09 / Constraints</a>
+<a href="/portfolio/projects/network-flow-visualization.html#result">10 / Result</a>
+</aside>
+<div class="dossier-main">
+<section class="dossier-section" id="overview">
+<div class="section-heading"><span>01</span><div><p class="eyebrow">OVERVIEW</p><h2>What I built.</h2></div></div>
+<p class="large-copy">Interactive topology and packet-path view that maps hosts, DNS, ingress, services and observed flows into drill-down network views.</p>
+<div class="scope-grid">
+<article><span>01</span><p>Built an interactive network topology view around actual hosts, DNS, ingress, services and observed connections.</p><section class="project-related"><p class="eyebrow">RELATED WRITING</p><div class="related-list"><a href="/posts/ebpf-xdp-verifier-operational-safety.html"><strong>eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe</strong><span>2026-09-26</span></a><a href="/posts/http3-quic-enterprise-inspection-assumptions.html"><strong>HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions</strong><span>2026-09-26</span></a><a href="/posts/kubernetes-gateway-api-not-new-ingress-yaml.html"><strong>Kubernetes Gateway API Is Not Just a New Ingress YAML</strong><span>2026-09-26</span></a></div></section></article>
+<article><span>02</span><p>Added overview, section drill-down and live packet-path views instead of one permanently crowded graph.</p></article>
+<article><span>03</span><p>Connected topology rendering to network telemetry and packet/payload evidence.</p></article>
+</div>
+</section>
+<section class="dossier-section" id="architecture">
+<div class="section-heading"><span>02</span><div><p class="eyebrow">SYSTEM ARCHITECTURE</p><h2>How the system is divided.</h2></div></div>
+<div class="architecture-map">
+<article>
+<div class="arch-node-index">01</div>
+<strong>Architecture boundary</strong>
+<p>Network/flow collectors -&gt; normalized topology model -&gt; operations API -&gt; Cytoscape.js visualization.</p>
 </article>
-
+<article>
+<div class="arch-node-index">02</div>
+<strong>Architecture boundary</strong>
+<p>Views separate stable architecture from live/ephemeral flow state.</p>
+</article>
+<article>
+<div class="arch-node-index">03</div>
+<strong>Architecture boundary</strong>
+<p>Host boundaries, service groups and packet routes are represented as distinct semantic layers.</p>
+</article>
+</div>
+</section>
+<section class="dossier-section" id="network">
+<div class="section-heading"><span>03</span><div><p class="eyebrow">NETWORK / DATA FLOW</p><h2>What talks to what.</h2></div></div>
+<div class="trace-hint"><span>TRACE PATH</span><span>Focus or tap a stage to trace the flow from source to that point.</span><button class="trace-clear" hidden="" type="button">Clear</button></div><div aria-label="Network Flow Visualization network and data flow" class="network-diagram" role="img">
+<div aria-pressed="false" class="network-node" data-trace-index="1" role="button" tabindex="0"><small>01</small><strong>Host / client</strong></div>
+<div class="network-arrow"><span>→</span><i>data / control</i></div>
+<div aria-pressed="false" class="network-node" data-trace-index="2" role="button" tabindex="0"><small>02</small><strong>Gateway / DNS</strong></div>
+<div class="network-arrow"><span>→</span><i>data / control</i></div>
+<div aria-pressed="false" class="network-node" data-trace-index="3" role="button" tabindex="0"><small>03</small><strong>Ingress</strong></div>
+<div class="network-arrow"><span>→</span><i>data / control</i></div>
+<div aria-pressed="false" class="network-node" data-trace-index="4" role="button" tabindex="0"><small>04</small><strong>Service boundary</strong></div>
+<div class="network-arrow"><span>→</span><i>data / control</i></div>
+<div aria-pressed="false" class="network-node" data-trace-index="5" role="button" tabindex="0"><small>05</small><strong>Container / backend</strong></div>
+<div class="network-arrow"><span>→</span><i>data / control</i></div>
+<div aria-pressed="false" class="network-node" data-trace-index="6" role="button" tabindex="0"><small>06</small><strong>Observed return path</strong></div>
+</div>
+</section>
+<section class="dossier-section" id="stack">
+<div class="section-heading"><span>04</span><div><p class="eyebrow">TECHNOLOGY STACK</p><h2>The technical surface.</h2></div></div>
+<div class="stack-board">
+<div><span>01</span><strong>Cytoscape.js</strong></div>
+<div><span>02</span><strong>Network telemetry</strong></div>
+<div><span>03</span><strong>Docker</strong></div>
+<div><span>04</span><strong>JavaScript</strong></div>
+<div><span>05</span><strong>Topology</strong></div>
+</div>
+</section>
+<section class="dossier-section" id="implementation">
+<div class="section-heading"><span>05</span><div><p class="eyebrow">IMPLEMENTATION</p><h2>How it works in practice.</h2></div></div>
+<ol class="implementation-list">
+<li><span>01</span><p>Network/flow collectors -&gt; normalized topology model -&gt; operations API -&gt; Cytoscape.js visualization.</p></li>
+<li><span>02</span><p>Views separate stable architecture from live/ephemeral flow state.</p></li>
+<li><span>03</span><p>Host boundaries, service groups and packet routes are represented as distinct semantic layers.</p></li>
+</ol>
+</section>
+<section class="dossier-section" id="testing">
+<div class="section-heading"><span>06</span><div><p class="eyebrow">TESTING &amp; VALIDATION</p><h2>How I know it works.</h2></div></div>
+<div class="validation-grid">
+<article><span>TEST 01</span><p>Synthetic topology fixture tests</p></article>
+<article><span>TEST 02</span><p>Production feed contract review</p></article>
+<article><span>TEST 03</span><p>JavaScript syntax checks</p></article>
+<article><span>TEST 04</span><p>Live deployment verification</p></article>
+<article><span>TEST 05</span><p>Flow/route selection and drill-down behavior</p></article>
+<article><span>TEST 06</span><p>Packet/payload evidence correlation</p></article>
+</div>
+</section>
+<section class="dossier-section" id="integrations">
+<div class="section-heading"><span>07</span><div><p class="eyebrow">EXTERNAL SERVICES &amp; DEPENDENCIES</p><h2>What sits outside the core.</h2></div></div>
+<div class="integration-board">
+<div class="integration-core"><small>CORE</small><strong>Network Flow Visualization</strong></div>
+<div class="integration-links">
+<div><span>↔</span><strong>Ops Portal API</strong></div>
+<div><span>↔</span><strong>Network/payload collectors</strong></div>
+<div><span>↔</span><strong>Caddy ingress</strong></div>
+<div><span>↔</span><strong>DNS resolver</strong></div>
+</div>
+</div>
+</section>
+<section class="dossier-section" id="evidence">
+<div class="section-heading"><span>08</span><div><p class="eyebrow">ENGINEERING EVIDENCE</p><h2>Artifacts behind the claims.</h2></div></div>
+<div class="evidence-board">
+<div class="evidence-item" id="evidence-01"><span>01</span><span class="evidence-type">NOTE</span><strong>Overview mode</strong></div>
+<div class="evidence-item" id="evidence-02"><span>02</span><span class="evidence-type">NOTE</span><strong>Service-section mode</strong></div>
+<div class="evidence-item" id="evidence-03"><span>03</span><span class="evidence-type">PCAP</span><strong>Live packet-path mode</strong></div>
+<div class="evidence-item" id="evidence-04"><span>04</span><span class="evidence-type">NOTE</span><strong>Observed flows</strong></div>
+<div class="evidence-item" id="evidence-05"><span>05</span><span class="evidence-type">NOTE</span><strong>Topology model</strong></div>
+<div class="evidence-item" id="evidence-06"><span>06</span><span class="evidence-type">NOTE</span><strong>Payload snapshots</strong></div>
+</div>
+</section>
+<section class="dossier-section" id="constraints">
+<div class="section-heading"><span>09</span><div><p class="eyebrow">BOUNDARIES / CONSTRAINTS</p><h2>What the project does not pretend to solve.</h2></div></div>
+<div class="constraint-list">
+<p><span>—</span>Synthetic fixtures do not prove production ingress wiring</p>
+<p><span>—</span>Ephemeral flows must not distort stable topology</p>
+<p><span>—</span>Layout should remain readable at low complexity</p>
+</div>
+</section>
+<section class="dossier-section dossier-result" id="result">
+<div class="section-heading"><span>10</span><div><p class="eyebrow">RESULT / CURRENT STATE</p><h2>What this produced.</h2></div></div>
+<p class="result-copy">A network UI that explains how traffic moves through the environment instead of showing an undifferentiated graph.</p>
+</section>
+</div>
+</div>
+<nav aria-label="Project navigation" class="project-pagination">
+<a href="/portfolio/projects/infrastructure-operations-platform.html"><span>← Previous project</span><strong>Infrastructure Operations Platform</strong></a>
+<a class="next" href="/portfolio/projects/caddy-gateway-secure-ingress.html"><span>Next project →</span><strong>Caddy Gateway &amp; Secure Ingress</strong></a>
+</nav>
+</article>
 </main>
 <footer class="shell site-footer">
-  <div>
-    <span class="status-dot"></span>
-    <strong>Reaz Romen — independent systems engineer.</strong>
-  </div>
-  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
-  <nav aria-label="Footer">
-    <a href="../../topics.html">Topics</a>
-    <a href="../../systems.html">Systems</a>
-    <a href="../../archive.html">Archive</a>
-    <a href="../../author/reaz-romen.html">Author record</a>
-  </nav>
+<div>
+<span class="status-dot"></span>
+<strong>Reaz Romen — independent systems engineer.</strong>
+</div>
+<p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+<nav aria-label="Footer"><a href="/tags.html">Tags</a></nav>
 </footer>
-
 <script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script>
-<dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<dialog aria-label="Search and quick navigation" class="command-palette" data-pagefind-ignore="" id="command-palette">
 <div class="command-shell">
-<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-input-row"><svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input aria-label="Search site" autocomplete="off" id="command-input" placeholder="Search writing, work, topics…" type="search"/><button aria-label="Close" class="command-close" data-close-command="" type="button"><svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div>
 <div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
-<nav class="command-shortcuts" aria-label="Quick navigation">
+<nav aria-label="Quick navigation" class="command-shortcuts">
 <a href="/portfolio.html">Work <span>Projects and systems</span></a>
 <a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
 <a href="/domains/">Domains <span>Browse engineering areas</span></a>
@@ -280,7 +203,7 @@
 <a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
 <a href="/about.html">About <span>Background and approach</span></a>
 </nav>
-<div id="command-results" class="command-results" aria-live="polite"></div>
+<div aria-live="polite" class="command-results" id="command-results"></div>
 <div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
-</div></dialog><script src="/assets/phase1.js"></script><div id="context-preview" class="context-preview" role="tooltip" hidden data-pagefind-ignore></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body>
+</div></dialog><script src="/assets/phase1.js"></script><div class="context-preview" data-pagefind-ignore="" hidden="" id="context-preview" role="tooltip"></div><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script></body>
 </html>

@@ -1,0 +1,172 @@
+title: Production Observability & Alert Validation
+browser_title: Production Observability & Alert Validation — Reaz Romen
+description: Testing whether monitoring detects real failure, including deliberately
+  creating load and proving the complete alert path rather than trusting dashboards.
+url: /portfolio/prometheus-observability.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: CASE 03 / Prometheus / Grafana / failure simulation
+  body: CASE 03 / Prometheus / Grafana / failure simulation
+- id: BLOCK1
+  label: Production Observability & Alert Validation
+  body: Production Observability & Alert Validation
+- id: BLOCK2
+  label: Testing whether monitoring detects real failure, including deliberately creating
+    load and provi
+  body: Testing whether monitoring detects real failure, including deliberately creating
+    load and proving the complete alert path rather than trusting dashboards.
+- id: BLOCK3
+  label: 'Installing Prometheus and Grafana is easy. Knowing whether the monitoring
+    system will detect a '
+  body: Installing Prometheus and Grafana is easy. Knowing whether the monitoring
+    system will detect a real failure is a different problem. I built coverage across
+    hosts, containers, endpoints, databases and logs, then deliberately created failure
+    conditions.
+- id: BLOCK4
+  label: The symptom is not the layer.
+  body: The symptom is not the layer.
+- id: BLOCK5
+  label: During one high-CPU test, metrics correctly showed the load but the expected
+    alert did not fire
+  body: 'During one high-CPU test, metrics correctly showed the load but the expected
+    alert did not fire. That distinction mattered: metric collection was working,
+    while the alerting logic was not. PromQL label matching prevented the rule from
+    evaluating as intended.'
+- id: BLOCK6
+  label: How I worked the problem.
+  body: How I worked the problem.
+- id: BLOCK7
+  label: 01 Generated a controlled failure instead of waiting for an incident.
+  body: '01
+
+
+    Generated a controlled failure instead of waiting for an incident.'
+- id: BLOCK8
+  label: Generated a controlled failure instead of waiting for an incident.
+  body: Generated a controlled failure instead of waiting for an incident.
+- id: BLOCK9
+  label: 02 Verified the underlying metrics before blaming the alert delivery path.
+  body: '02
+
+
+    Verified the underlying metrics before blaming the alert delivery path.'
+- id: BLOCK10
+  label: Verified the underlying metrics before blaming the alert delivery path.
+  body: Verified the underlying metrics before blaming the alert delivery path.
+- id: BLOCK11
+  label: 03 Diagnosed the PromQL rule, corrected label matching and repeated the same
+    failure.
+  body: '03
+
+
+    Diagnosed the PromQL rule, corrected label matching and repeated the same failure.'
+- id: BLOCK12
+  label: Diagnosed the PromQL rule, corrected label matching and repeated the same
+    failure.
+  body: Diagnosed the PromQL rule, corrected label matching and repeated the same
+    failure.
+- id: BLOCK13
+  label: '04 Validated the full chain from failure generation through metrics, rule
+    evaluation and alert '
+  body: '04
+
+
+    Validated the full chain from failure generation through metrics, rule evaluation
+    and alert firing.'
+- id: BLOCK14
+  label: Validated the full chain from failure generation through metrics, rule evaluation
+    and alert fir
+  body: Validated the full chain from failure generation through metrics, rule evaluation
+    and alert firing.
+- id: BLOCK15
+  label: 05 Used blackbox-style probes so application reachability is checked from
+    outside rather than i
+  body: '05
+
+
+    Used blackbox-style probes so application reachability is checked from outside
+    rather than inferred from process state alone.'
+- id: BLOCK16
+  label: Used blackbox-style probes so application reachability is checked from outside
+    rather than infe
+  body: Used blackbox-style probes so application reachability is checked from outside
+    rather than inferred from process state alone.
+- id: BLOCK17
+  label: Make the system observable enough to explain.
+  body: Make the system observable enough to explain.
+- id: BLOCK18
+  label: The monitoring system became testable infrastructure rather than a collection
+    of dashboards. Th
+  body: The monitoring system became testable infrastructure rather than a collection
+    of dashboards. The core principle is that observability itself needs controlled
+    tests, expected behavior, reproducible failure and verification.
+- id: BLOCK19
+  label: Artifacts that carry the technical story.
+  body: Artifacts that carry the technical story.
+- id: BLOCK20
+  label: The case study is structured around real engineering evidence rather than
+    generic product image
+  body: The case study is structured around real engineering evidence rather than
+    generic product imagery.
+- id: BLOCK21
+  label: Work
+  body: Work
+- id: BLOCK22
+  label: TECHNOLOGY SURFACE
+  body: TECHNOLOGY SURFACE
+- id: BLOCK23
+  label: '01'
+  body: '01'
+- id: BLOCK24
+  label: CPU load graph
+  body: CPU load graph
+- id: BLOCK25
+  label: '02'
+  body: '02'
+- id: BLOCK26
+  label: Alert rule before correction
+  body: Alert rule before correction
+- id: BLOCK27
+  label: '03'
+  body: '03'
+- id: BLOCK28
+  label: Failed evaluation
+  body: Failed evaluation
+- id: BLOCK29
+  label: '04'
+  body: '04'
+- id: BLOCK30
+  label: Corrected PromQL
+  body: Corrected PromQL
+- id: BLOCK31
+  label: '05'
+  body: '05'
+- id: BLOCK32
+  label: Firing alert after retest
+  body: Firing alert after retest
+- id: BLOCK33
+  label: '06'
+  body: '06'
+- id: BLOCK34
+  label: Monitoring architecture
+  body: Monitoring architecture
+- id: BLOCK35
+  label: '07'
+  body: '07'
+- id: BLOCK36
+  label: Log / metric correlation
+  body: Log / metric correlation
+lists: []
+template: cms/templates/pages/portfolio--prometheus-observability.tpl
+source: cms/templates/pages/portfolio--prometheus-observability.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK21}}'
+  url: /portfolio.html
+- id: LINK1
+  label: ← Work
+  url: /portfolio.html
+- id: LINK2
+  label: Technical writing →
+  url: /writing.html

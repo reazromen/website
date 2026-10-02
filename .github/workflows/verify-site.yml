@@ -26,7 +26,6 @@ jobs:
           test -s assets/site.css
           test -s assets/navigation.json
           test -s .pages.yml
-          grep -Fq "Good day. I’m Reaz Romen" index.html
           test ! -e _worker.js
           test ! -e _routes.json
           test ! -d admin

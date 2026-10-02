@@ -1,0 +1,500 @@
+title: FIMI VoIP Protocol Demo
+browser_title: FIMI VoIP Protocol Demo — Reaz Romen Portfolio
+description: Small end-to-end protocol implementation using custom TCP signaling,
+  SDP offer/answer, direct RTP media and RTCP receiver reports.
+url: /portfolio/projects/fimi-voip-protocol-demo.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Voice & Telecom / Built
+  body: Voice & Telecom / Built
+- id: BLOCK1
+  label: FIMI VoIP Protocol Demo
+  body: FIMI VoIP Protocol Demo
+- id: BLOCK2
+  label: Small end-to-end protocol implementation using custom TCP signaling, SDP
+    offer/answer, direct R
+  body: Small end-to-end protocol implementation using custom TCP signaling, SDP offer/answer,
+    direct RTP media and RTCP receiver reports.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: Small end-to-end protocol implementation using custom TCP signaling, SDP
+    offer/answer, direct R
+  body: Small end-to-end protocol implementation using custom TCP signaling, SDP offer/answer,
+    direct RTP media and RTCP receiver reports.
+- id: BLOCK7
+  label: Built a small educational call stack without SIP to expose the underlying
+    concepts directly.
+  body: Built a small educational call stack without SIP to expose the underlying
+    concepts directly.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Implemented custom JSON/TCP signaling, SDP offer/answer, RTP media and minimal
+    RTCP receiver re
+  body: Implemented custom JSON/TCP signaling, SDP offer/answer, RTP media and minimal
+    RTCP receiver reports.
+- id: BLOCK10
+  label: Kept media peer-to-peer instead of proxying it through the signaling server.
+  body: Kept media peer-to-peer instead of proxying it through the signaling server.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Alice/Bob -> TCP signaling server for REGISTER/CALL/RINGING/ACCEPT/HANGUP.
+  body: Alice/Bob -> TCP signaling server for REGISTER/CALL/RINGING/ACCEPT/HANGUP.
+- id: BLOCK14
+  label: SDP exchanges each endpoint's media address and ports.
+  body: SDP exchanges each endpoint's media address and ports.
+- id: BLOCK15
+  label: RTP/RTCP flow directly over UDP between endpoints after call acceptance.
+  body: RTP/RTCP flow directly over UDP between endpoints after call acceptance.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Alice/Bob -> TCP signaling server for REGISTER/CALL/RINGING/ACCEPT/HANGUP.
+  body: '01
+
+
+    Alice/Bob -> TCP signaling server for REGISTER/CALL/RINGING/ACCEPT/HANGUP.'
+- id: BLOCK23
+  label: Alice/Bob -> TCP signaling server for REGISTER/CALL/RINGING/ACCEPT/HANGUP.
+  body: Alice/Bob -> TCP signaling server for REGISTER/CALL/RINGING/ACCEPT/HANGUP.
+- id: BLOCK24
+  label: 02 SDP exchanges each endpoint's media address and ports.
+  body: '02
+
+
+    SDP exchanges each endpoint''s media address and ports.'
+- id: BLOCK25
+  label: SDP exchanges each endpoint's media address and ports.
+  body: SDP exchanges each endpoint's media address and ports.
+- id: BLOCK26
+  label: 03 RTP/RTCP flow directly over UDP between endpoints after call acceptance.
+  body: '03
+
+
+    RTP/RTCP flow directly over UDP between endpoints after call acceptance.'
+- id: BLOCK27
+  label: RTP/RTCP flow directly over UDP between endpoints after call acceptance.
+  body: RTP/RTCP flow directly over UDP between endpoints after call acceptance.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Three-process local demo
+  body: Three-process local demo
+- id: BLOCK31
+  label: REGISTER/CALL/RINGING/ACCEPT/HANGUP flow
+  body: REGISTER/CALL/RINGING/ACCEPT/HANGUP flow
+- id: BLOCK32
+  label: SDP port exchange
+  body: SDP port exchange
+- id: BLOCK33
+  label: Direct RTP packet exchange
+  body: Direct RTP packet exchange
+- id: BLOCK34
+  label: Minimal RTCP Receiver Report generation
+  body: Minimal RTCP Receiver Report generation
+- id: BLOCK35
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK36
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK37
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK38
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK39
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK40
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK41
+  label: — Intentionally not SIP
+  body: —Intentionally not SIP
+- id: BLOCK42
+  label: — Designed as a learning/protocol lab
+  body: —Designed as a learning/protocol lab
+- id: BLOCK43
+  label: — Minimal RTCP rather than a complete production implementation
+  body: —Minimal RTCP rather than a complete production implementation
+- id: BLOCK44
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK45
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK46
+  label: A compact protocol lab that makes the separation between signaling, session
+    description and med
+  body: A compact protocol lab that makes the separation between signaling, session
+    description and media transport explicit.
+- id: BLOCK47
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK48
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK49
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK50
+  label: Python
+  body: Python
+- id: BLOCK51
+  label: SDP
+  body: SDP
+- id: BLOCK52
+  label: RTP
+  body: RTP
+- id: BLOCK53
+  label: RTCP
+  body: RTCP
+- id: BLOCK54
+  label: TCP
+  body: TCP
+- id: BLOCK55
+  label: UDP
+  body: UDP
+- id: BLOCK56
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK57
+  label: STATUS
+  body: STATUS
+- id: BLOCK58
+  label: Built
+  body: Built
+- id: BLOCK59
+  label: AREA
+  body: AREA
+- id: BLOCK60
+  label: Voice & Telecom
+  body: Voice & Telecom
+- id: BLOCK61
+  label: STACK
+  body: STACK
+- id: BLOCK62
+  label: 6 documented technologies
+  body: 6 documented technologies
+- id: BLOCK63
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK64
+  label: 1 connected / bounded services
+  body: 1 connected / bounded services
+- id: BLOCK65
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK66
+  label: '01'
+  body: '01'
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: RTP Timestamps Are Not Wall Clocks
+  body: RTP Timestamps Are Not Wall Clocks
+- id: BLOCK69
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK70
+  label: WebRTC Connectivity Is Not “STUN or TURN” — It Is an ICE Candidate Selection
+    Problem
+  body: WebRTC Connectivity Is Not “STUN or TURN” — It Is an ICE Candidate Selection
+    Problem
+- id: BLOCK71
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK72
+  label: '02'
+  body: '02'
+- id: BLOCK73
+  label: '03'
+  body: '03'
+- id: BLOCK74
+  label: '02'
+  body: '02'
+- id: BLOCK75
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK76
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK77
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK78
+  label: '03'
+  body: '03'
+- id: BLOCK79
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK80
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK81
+  label: Alice endpoint
+  body: Alice endpoint
+- id: BLOCK82
+  label: →
+  body: →
+- id: BLOCK83
+  label: JSON/TCP signaling server
+  body: JSON/TCP signaling server
+- id: BLOCK84
+  label: →
+  body: →
+- id: BLOCK85
+  label: Bob endpoint
+  body: Bob endpoint
+- id: BLOCK86
+  label: →
+  body: →
+- id: BLOCK87
+  label: SDP offer/answer
+  body: SDP offer/answer
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: Direct RTP + RTCP over UDP
+  body: Direct RTP + RTCP over UDP
+- id: BLOCK90
+  label: '04'
+  body: '04'
+- id: BLOCK91
+  label: '01'
+  body: '01'
+- id: BLOCK92
+  label: Python
+  body: Python
+- id: BLOCK93
+  label: '02'
+  body: '02'
+- id: BLOCK94
+  label: SDP
+  body: SDP
+- id: BLOCK95
+  label: '03'
+  body: '03'
+- id: BLOCK96
+  label: RTP
+  body: RTP
+- id: BLOCK97
+  label: '04'
+  body: '04'
+- id: BLOCK98
+  label: RTCP
+  body: RTCP
+- id: BLOCK99
+  label: '05'
+  body: '05'
+- id: BLOCK100
+  label: TCP
+  body: TCP
+- id: BLOCK101
+  label: '06'
+  body: '06'
+- id: BLOCK102
+  label: UDP
+  body: UDP
+- id: BLOCK103
+  label: '05'
+  body: '05'
+- id: BLOCK104
+  label: '06'
+  body: '06'
+- id: BLOCK105
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK106
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK107
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK108
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK109
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK110
+  label: '07'
+  body: '07'
+- id: BLOCK111
+  label: FIMI VoIP Protocol Demo
+  body: FIMI VoIP Protocol Demo
+- id: BLOCK112
+  label: ↔
+  body: ↔
+- id: BLOCK113
+  label: None; local Python processes only
+  body: None; local Python processes only
+- id: BLOCK114
+  label: 08
+  body: 08
+- id: BLOCK115
+  label: '01'
+  body: '01'
+- id: BLOCK116
+  label: NOTE
+  body: NOTE
+- id: BLOCK117
+  label: signal_server.py
+  body: signal\_server.py
+- id: BLOCK118
+  label: '02'
+  body: '02'
+- id: BLOCK119
+  label: NOTE
+  body: NOTE
+- id: BLOCK120
+  label: endpoint.py
+  body: endpoint.py
+- id: BLOCK121
+  label: '03'
+  body: '03'
+- id: BLOCK122
+  label: NOTE
+  body: NOTE
+- id: BLOCK123
+  label: SDP example
+  body: SDP example
+- id: BLOCK124
+  label: '04'
+  body: '04'
+- id: BLOCK125
+  label: NOTE
+  body: NOTE
+- id: BLOCK126
+  label: RTP/RTCP port layout
+  body: RTP/RTCP port layout
+- id: BLOCK127
+  label: '05'
+  body: '05'
+- id: BLOCK128
+  label: NOTE
+  body: NOTE
+- id: BLOCK129
+  label: Expected terminal flow
+  body: Expected terminal flow
+- id: BLOCK130
+  label: 09
+  body: 09
+- id: BLOCK131
+  label: '10'
+  body: '10'
+- id: BLOCK132
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK133
+  label: VoIP & Real-Time Communications Infrastructure
+  body: VoIP & Real-Time Communications Infrastructure
+- id: BLOCK134
+  label: Next project →
+  body: Next project →
+- id: BLOCK135
+  label: Drachtio + FreeSWITCH SIP Edge
+  body: Drachtio + FreeSWITCH SIP Edge
+lists: []
+template: cms/templates/pages/portfolio--projects--fimi-voip-protocol-demo.tpl
+source: cms/templates/pages/portfolio--projects--fimi-voip-protocol-demo.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK47}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio/projects/fimi-voip-protocol-demo.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/fimi-voip-protocol-demo.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/fimi-voip-protocol-demo.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/fimi-voip-protocol-demo.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/fimi-voip-protocol-demo.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/fimi-voip-protocol-demo.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/fimi-voip-protocol-demo.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/fimi-voip-protocol-demo.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/fimi-voip-protocol-demo.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/fimi-voip-protocol-demo.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/fimi-voip-protocol-demo.html#result
+- id: LINK16
+  label: '{{RR_BLOCK68}} {{RR_BLOCK69}}'
+  url: /posts/rtp-timestamps-are-not-wall-clocks.html
+- id: LINK17
+  label: '{{RR_BLOCK70}} {{RR_BLOCK71}}'
+  url: /posts/webrtc-ice-candidate-selection-not-stun-turn.html
+- id: LINK18
+  label: '{{RR_BLOCK132}} {{RR_BLOCK133}}'
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html
+- id: LINK19
+  label: '{{RR_BLOCK134}} {{RR_BLOCK135}}'
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html

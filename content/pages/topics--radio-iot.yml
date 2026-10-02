@@ -1,0 +1,24 @@
+title: Radio & IoT
+browser_title: Radio & IoT — Reaz Romen — Systems Engineering
+description: Systems engineering across embedded firmware, real-time communications,
+  Linux infrastructure, networking and observability.
+url: /topics/radio-iot.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: TOPIC
+  body: TOPIC
+- id: BLOCK1
+  label: Radio & IoT
+  body: Radio & IoT
+- id: BLOCK2
+  label: Lessons, explainers, experiments, and implementation notes.
+  body: Lessons, explainers, experiments, and implementation notes.
+lists:
+- key: LIST0
+  filter:
+    topic: radio-iot
+  style: cards
+template: cms/templates/pages/topics--radio-iot.tpl
+source: cms/templates/pages/topics--radio-iot.json
+links: []

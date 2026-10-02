@@ -1,0 +1,43 @@
+title: About
+browser_title: About — Reaz Romen
+description: About Reaz Romen.
+url: /about/index.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: About
+  body: About
+- id: BLOCK1
+  label: I'm Reaz Romen, a CTO and systems engineer working across embedded computing,
+    communications, i
+  body: I'm Reaz Romen, a CTO and systems engineer working across embedded computing,
+    communications, infrastructure, and applied AI.
+- id: BLOCK2
+  label: 'My work often starts below the application layer: firmware, audio paths,
+    network protocols, dev'
+  body: 'My work often starts below the application layer: firmware, audio paths,
+    network protocols, device telemetry, distributed services, and the infrastructure
+    required to operate them reliably.'
+- id: BLOCK3
+  label: I like systems where hardware, networks, and software meet. That might mean
+    tracing an RTP stre
+  body: I like systems where hardware, networks, and software meet. That might mean
+    tracing an RTP stream, debugging an ESP32 audio path, designing a backend control
+    plane, instrumenting a distributed service, or following a signal from a physical
+    sensor all the way to an operational dashboard.
+- id: BLOCK4
+  label: For me, programming is less about a particular language and more about building
+    systems that so
+  body: For me, programming is less about a particular language and more about building
+    systems that solve real problems. Code is one layer. The interesting part is understanding
+    how the layers interact, where they fail, and how to make the whole system dependable.
+- id: BLOCK5
+  label: I currently work as CTO at LOUPKIDS , where my work spans embedded firmware,
+    real-time communic
+  body: I currently work as CTO at **LOUPKIDS**, where my work spans embedded firmware,
+    real-time communications, backend architecture, device infrastructure, and production
+    operations.
+lists: []
+template: cms/templates/pages/about--index.tpl
+source: cms/templates/pages/about--index.json
+links: []

@@ -1,0 +1,537 @@
+title: Caddy Gateway & Secure Ingress
+browser_title: Caddy Gateway & Secure Ingress — Reaz Romen Portfolio
+description: Canonical L7 ingress joining Cloudflare Tunnel, Caddy, Authelia and Tailscale
+  with per-service sessions, server-side credentials and private/public routes.
+url: /portfolio/projects/caddy-gateway-secure-ingress.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Infrastructure & Operations / Built / deployed
+  body: Infrastructure & Operations / Built / deployed
+- id: BLOCK1
+  label: Caddy Gateway & Secure Ingress
+  body: Caddy Gateway & Secure Ingress
+- id: BLOCK2
+  label: 'Canonical L7 ingress joining Cloudflare Tunnel, Caddy, Authelia and Tailscale
+    with per-service '
+  body: Canonical L7 ingress joining Cloudflare Tunnel, Caddy, Authelia and Tailscale
+    with per-service sessions, server-side credentials and private/public routes.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: 'Canonical L7 ingress joining Cloudflare Tunnel, Caddy, Authelia and Tailscale
+    with per-service '
+  body: Canonical L7 ingress joining Cloudflare Tunnel, Caddy, Authelia and Tailscale
+    with per-service sessions, server-side credentials and private/public routes.
+- id: BLOCK7
+  label: Consolidated HTTP/HTTPS ingress around Caddy as the canonical L7 router.
+  body: Consolidated HTTP/HTTPS ingress around Caddy as the canonical L7 router.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Integrated Cloudflare Tunnel for public transport, Tailscale for private
+    reachability and Authe
+  body: Integrated Cloudflare Tunnel for public transport, Tailscale for private reachability
+    and Authelia for authentication.
+- id: BLOCK10
+  label: Added per-service launch/session handling so browser users do not carry backend
+    admin tokens.
+  body: Added per-service launch/session handling so browser users do not carry backend
+    admin tokens.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: 'Public: Internet -> Cloudflare Tunnel -> Caddy -> authentication/service
+    gate -> application.'
+  body: 'Public: Internet -> Cloudflare Tunnel -> Caddy -> authentication/service
+    gate -> application.'
+- id: BLOCK14
+  label: 'Private: trusted device -> Tailscale -> Caddy -> private application.'
+  body: 'Private: trusted device -> Tailscale -> Caddy -> private application.'
+- id: BLOCK15
+  label: SIP/RTP remains outside the HTTP gateway and uses the dedicated VoIP path.
+  body: SIP/RTP remains outside the HTTP gateway and uses the dedicated VoIP path.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: '01 Public: Internet -> Cloudflare Tunnel -> Caddy -> authentication/service
+    gate -> application'
+  body: '01
+
+
+    Public: Internet -> Cloudflare Tunnel -> Caddy -> authentication/service gate
+    -> application.'
+- id: BLOCK23
+  label: 'Public: Internet -> Cloudflare Tunnel -> Caddy -> authentication/service
+    gate -> application.'
+  body: 'Public: Internet -> Cloudflare Tunnel -> Caddy -> authentication/service
+    gate -> application.'
+- id: BLOCK24
+  label: '02 Private: trusted device -> Tailscale -> Caddy -> private application.'
+  body: '02
+
+
+    Private: trusted device -> Tailscale -> Caddy -> private application.'
+- id: BLOCK25
+  label: 'Private: trusted device -> Tailscale -> Caddy -> private application.'
+  body: 'Private: trusted device -> Tailscale -> Caddy -> private application.'
+- id: BLOCK26
+  label: 03 SIP/RTP remains outside the HTTP gateway and uses the dedicated VoIP path.
+  body: '03
+
+
+    SIP/RTP remains outside the HTTP gateway and uses the dedicated VoIP path.'
+- id: BLOCK27
+  label: SIP/RTP remains outside the HTTP gateway and uses the dedicated VoIP path.
+  body: SIP/RTP remains outside the HTTP gateway and uses the dedicated VoIP path.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Public HTTPS probes
+  body: Public HTTPS probes
+- id: BLOCK31
+  label: Private Tailscale route checks
+  body: Private Tailscale route checks
+- id: BLOCK32
+  label: Caddy config/reload validation
+  body: Caddy config/reload validation
+- id: BLOCK33
+  label: Service-session launch flow
+  body: Service-session launch flow
+- id: BLOCK34
+  label: Backend health checks
+  body: Backend health checks
+- id: BLOCK35
+  label: Ingress/DNS verification during migrations
+  body: Ingress/DNS verification during migrations
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — SIP/RTP intentionally bypasses the HTTP gateway
+  body: —SIP/RTP intentionally bypasses the HTTP gateway
+- id: BLOCK43
+  label: — Browser users should not handle backend admin tokens
+  body: —Browser users should not handle backend admin tokens
+- id: BLOCK44
+  label: — Tunnel transport was moved to HTTP/2 after QUIC instability
+  body: —Tunnel transport was moved to HTTP/2 after QUIC instability
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A single understandable ingress boundary with explicit public/private paths
+    and reduced credent
+  body: A single understandable ingress boundary with explicit public/private paths
+    and reduced credential exposure.
+- id: BLOCK48
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK49
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK50
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK51
+  label: Caddy
+  body: Caddy
+- id: BLOCK52
+  label: Cloudflare Tunnel
+  body: Cloudflare Tunnel
+- id: BLOCK53
+  label: Authelia
+  body: Authelia
+- id: BLOCK54
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK55
+  label: TLS
+  body: TLS
+- id: BLOCK56
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK57
+  label: STATUS
+  body: STATUS
+- id: BLOCK58
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK59
+  label: AREA
+  body: AREA
+- id: BLOCK60
+  label: Infrastructure & Operations
+  body: Infrastructure & Operations
+- id: BLOCK61
+  label: STACK
+  body: STACK
+- id: BLOCK62
+  label: 5 documented technologies
+  body: 5 documented technologies
+- id: BLOCK63
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK64
+  label: 4 connected / bounded services
+  body: 4 connected / bounded services
+- id: BLOCK65
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK66
+  label: '01'
+  body: '01'
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+  body: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+- id: BLOCK69
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK70
+  label: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+  body: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+- id: BLOCK71
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK72
+  label: Kubernetes Gateway API Is Not Just a New Ingress YAML
+  body: Kubernetes Gateway API Is Not Just a New Ingress YAML
+- id: BLOCK73
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK74
+  label: '02'
+  body: '02'
+- id: BLOCK75
+  label: '03'
+  body: '03'
+- id: BLOCK76
+  label: '02'
+  body: '02'
+- id: BLOCK77
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK78
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK79
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK80
+  label: '03'
+  body: '03'
+- id: BLOCK81
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK82
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK83
+  label: Internet
+  body: Internet
+- id: BLOCK84
+  label: →
+  body: →
+- id: BLOCK85
+  label: Cloudflare Tunnel
+  body: Cloudflare Tunnel
+- id: BLOCK86
+  label: →
+  body: →
+- id: BLOCK87
+  label: Caddy
+  body: Caddy
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: Authelia / service gate
+  body: Authelia / service gate
+- id: BLOCK90
+  label: →
+  body: →
+- id: BLOCK91
+  label: Application
+  body: Application
+- id: BLOCK92
+  label: '04'
+  body: '04'
+- id: BLOCK93
+  label: '01'
+  body: '01'
+- id: BLOCK94
+  label: Caddy
+  body: Caddy
+- id: BLOCK95
+  label: '02'
+  body: '02'
+- id: BLOCK96
+  label: Cloudflare Tunnel
+  body: Cloudflare Tunnel
+- id: BLOCK97
+  label: '03'
+  body: '03'
+- id: BLOCK98
+  label: Authelia
+  body: Authelia
+- id: BLOCK99
+  label: '04'
+  body: '04'
+- id: BLOCK100
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK101
+  label: '05'
+  body: '05'
+- id: BLOCK102
+  label: TLS
+  body: TLS
+- id: BLOCK103
+  label: '05'
+  body: '05'
+- id: BLOCK104
+  label: '06'
+  body: '06'
+- id: BLOCK105
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK106
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK107
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK108
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK109
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK110
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK111
+  label: '07'
+  body: '07'
+- id: BLOCK112
+  label: Caddy Gateway & Secure Ingress
+  body: Caddy Gateway & Secure Ingress
+- id: BLOCK113
+  label: ↔
+  body: ↔
+- id: BLOCK114
+  label: Cloudflare Tunnel
+  body: Cloudflare Tunnel
+- id: BLOCK115
+  label: ↔
+  body: ↔
+- id: BLOCK116
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK117
+  label: ↔
+  body: ↔
+- id: BLOCK118
+  label: Authelia
+  body: Authelia
+- id: BLOCK119
+  label: ↔
+  body: ↔
+- id: BLOCK120
+  label: Application backends
+  body: Application backends
+- id: BLOCK121
+  label: 08
+  body: 08
+- id: BLOCK122
+  label: '01'
+  body: '01'
+- id: BLOCK123
+  label: NOTE
+  body: NOTE
+- id: BLOCK124
+  label: Caddyfile
+  body: Caddyfile
+- id: BLOCK125
+  label: '02'
+  body: '02'
+- id: BLOCK126
+  label: NOTE
+  body: NOTE
+- id: BLOCK127
+  label: Tunnel desired state
+  body: Tunnel desired state
+- id: BLOCK128
+  label: '03'
+  body: '03'
+- id: BLOCK129
+  label: NOTE
+  body: NOTE
+- id: BLOCK130
+  label: Launch broker
+  body: Launch broker
+- id: BLOCK131
+  label: '04'
+  body: '04'
+- id: BLOCK132
+  label: NOTE
+  body: NOTE
+- id: BLOCK133
+  label: Health writer
+  body: Health writer
+- id: BLOCK134
+  label: '05'
+  body: '05'
+- id: BLOCK135
+  label: NOTE
+  body: NOTE
+- id: BLOCK136
+  label: Public/private route model
+  body: Public/private route model
+- id: BLOCK137
+  label: '06'
+  body: '06'
+- id: BLOCK138
+  label: NOTE
+  body: NOTE
+- id: BLOCK139
+  label: Legacy ingress retirement
+  body: Legacy ingress retirement
+- id: BLOCK140
+  label: 09
+  body: 09
+- id: BLOCK141
+  label: '10'
+  body: '10'
+- id: BLOCK142
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK143
+  label: Network Flow Visualization
+  body: Network Flow Visualization
+- id: BLOCK144
+  label: Next project →
+  body: Next project →
+- id: BLOCK145
+  label: OTA Fleet Control Plane
+  body: OTA Fleet Control Plane
+lists: []
+template: cms/templates/pages/portfolio--projects--caddy-gateway-secure-ingress.tpl
+source: cms/templates/pages/portfolio--projects--caddy-gateway-secure-ingress.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/caddy-gateway-secure-ingress.html#result
+- id: LINK16
+  label: '{{RR_BLOCK68}} {{RR_BLOCK69}}'
+  url: /posts/ebpf-xdp-verifier-operational-safety.html
+- id: LINK17
+  label: '{{RR_BLOCK70}} {{RR_BLOCK71}}'
+  url: /posts/http3-quic-enterprise-inspection-assumptions.html
+- id: LINK18
+  label: '{{RR_BLOCK72}} {{RR_BLOCK73}}'
+  url: /posts/kubernetes-gateway-api-not-new-ingress-yaml.html
+- id: LINK19
+  label: '{{RR_BLOCK142}} {{RR_BLOCK143}}'
+  url: /portfolio/projects/network-flow-visualization.html
+- id: LINK20
+  label: '{{RR_BLOCK144}} {{RR_BLOCK145}}'
+  url: /portfolio/projects/ota-fleet-control-plane.html

@@ -1,203 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
-  <meta name="author" content="Reaz Romen">
-  <link rel="author" href="../about.html">
-  <title>Linux &amp; Homelab — Reaz Romen — Systems Engineering</title>
-  <link rel="stylesheet" href="../static/css/site.css">
-<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability." name="description"/>
+<meta content="Reaz Romen" name="author"/>
+<link href="../about.html" rel="author"/>
+<title>Linux &amp; Homelab — Reaz Romen</title>
+<link href="../static/css/site.css" rel="stylesheet"/>
+<link href="/assets/site.css" rel="stylesheet"/><link href="/assets/sitewide-v2.css" rel="stylesheet"/><link href="/assets/phase1.css" rel="stylesheet"/><link href="/feed.xml" rel="alternate" title="Reaz Romen — Writing" type="application/rss+xml"/><link href="/atom.xml" rel="alternate" title="Reaz Romen — Writing" type="application/atom+xml"/><link href="/assets/responsive-v3.css" rel="stylesheet"/><link href="https://reazromen.com/topics/linux-homelab.html" rel="canonical"/></head>
 <body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
-
-<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
-<main id="rr-main" class="shell site-main">
-  
-    
-  
-  
+<header class="site-header rr-global-header"><div class="site-header-inner"><a aria-label="Reaz Romen home" class="brand" href="/">RR</a><nav aria-label="Main navigation" class="nav"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button aria-label="Search and quick navigation" class="icon-link search-action" data-open-command="" title="Search (Ctrl/⌘ K)" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg></button><a aria-label="GitHub" class="icon-link github-action" href="https://github.com/reazromen" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon icon-fill" viewbox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"></path></svg></a><button aria-label="Toggle color scheme" class="theme-toggle" onclick="toggleTheme()" type="button"><svg aria-hidden="true" class="icon" data-theme-icon="moon" viewbox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"></path></svg><svg aria-hidden="true" class="icon" data-theme-icon="sun" hidden="" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></svg></button></div></nav></div></header>
+<main class="shell site-main" id="rr-main">
 <section class="page-head"><p class="eyebrow">TOPIC</p><h1>Linux &amp; Homelab</h1><p class="lede">Lessons, explainers, experiments, and implementation notes.</p></section>
 <div class="post-list">
-  <article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/tailscale-home-infra-control-plane.html">Why Tailscale Became the Control Plane for My Home Infrastructure</a></h3>
-  <p>I do not use Tailscale as a generic VPN. I use it as the stable identity and reachability layer between my laptop, desktop and home server.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Tailscale</span><span>homelab</span><span>WireGuard</span><span>home server</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/tailscale-join-linux-node.html">How I Add a Linux Machine to My Tailnet Without Turning It into a Snowflake</a></h3>
-  <p>Joining a machine is easy; making its identity, hostname, access and role predictable is the part that matters later.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Tailscale</span><span>Linux</span><span>tailnet</span><span>operations</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/tailscale-docker-host-vs-sidecar.html">Tailscale with Docker: Host-Level Tailnet or Per-Container Sidecar?</a></h3>
-  <p>I choose the networking boundary before I add Tailscale to a Docker stack, because the two patterns create different operational models.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Tailscale</span><span>Docker</span><span>containers</span><span>networking</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/tailscale-serve-vs-caddy-cloudflare.html">Where Tailscale Serve Fits Beside Caddy and a Public Cloudflare Tunnel</a></h3>
-  <p>Private tailnet publishing and public internet publishing are different ingress jobs, even when they reach the same container.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Tailscale Serve</span><span>Caddy</span><span>Cloudflare Tunnel</span><span>ingress</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/tailscale-home-server-continuity.html">How Tailscale Keeps My Home Server Reachable When the Operator Machine Changes</a></h3>
-  <p>The server stays the service anchor while the laptop or desktop can change; the tailnet keeps the relationship stable.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Tailscale</span><span>home server</span><span>failover</span><span>automation</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-one-ingress.html">One Ingress Is Easier to Reason About Than Three</a></h3>
-  <p>Every extra reverse proxy adds another place for routing, TLS and headers to disagree.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Caddy</span><span>ingress</span><span>Docker</span><span>homelab</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-mdns-vs-tailscale.html">mDNS and Tailscale Fail in Different Ways</a></h3>
-  <p>A .local name and a Tailscale peer can refer to the same host while depending on different discovery systems.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>mDNS</span><span>Tailscale</span><span>DNS</span><span>SSH</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-healthcheck-real-dependency.html">A Docker Healthcheck Must Test the Dependency You Actually Need</a></h3>
-  <p>A process can be alive while the service contract its neighbors depend on is broken.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Docker</span><span>healthcheck</span><span>HTTP</span><span>database</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-ssh-is-infrastructure.html">SSH Access Is Infrastructure, Not a Deployment Step</a></h3>
-  <p>Remote deployment is unreliable when host identity, user and access policy are rediscovered every time.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>SSH</span><span>Tailscale</span><span>automation</span><span>operations</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-failover-agent-state.html">Laptop-to-Desktop Failover Needs Agent State, Not Hope</a></h3>
-  <p>A second worker is useful only if it knows what the first worker already changed.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>failover</span><span>automation</span><span>state</span><span>homelab</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/directory-execute-bit-is-path-permission.html">The Execute Bit on a Directory Is Really a Path Permission</a></h3>
-  <p>A protected parent directory can block a perfectly readable child file because directory execute controls traversal.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Linux</span><span>ACL</span><span>permissions</span><span>debugging</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 1 min read · Lab period 2026-05</p>
-  <h3><a href="../posts/a-home-server-became-production-the-day-i-needed-a-recovery-time.html">A Home Server Became Production the Day I Needed a Recovery Time</a></h3>
-  <p>The difference between a lab box and production infrastructure is not the hardware; it is whether failure has a documented recovery path.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>disaster recovery</span><span>Docker</span><span>backup</span><span>homelab</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 1 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/production-infrastructure-became-easier-once-git-runtime-state-and-secrets-had-different-jobs.html">Production Infrastructure Became Easier Once Git, Runtime State and Secrets Had Different Jobs</a></h3>
-  <p>Most operational confusion came from mixing desired configuration, live state and credentials into the same place.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>GitOps</span><span>secrets</span><span>Docker</span><span>operations</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 1 min read · Lab period 2025-06</p>
-  <h3><a href="../posts/observability-became-useful-when-every-graph-had-an-operational-question.html">Observability Became Useful When Every Graph Had an Operational Question</a></h3>
-  <p>Dashboards improved once I stopped collecting attractive metrics and started collecting evidence for specific failure modes.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Prometheus</span><span>Grafana</span><span>observability</span><span>Linux</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 1 min read · Lab period 2024-04</p>
-  <h3><a href="../posts/docker-networks-hid-less-once-i-drew-the-packet-path.html">Docker Networks Hid Less Once I Drew the Packet Path</a></h3>
-  <p>Container networking stopped feeling magical when I separated host routing, bridge interfaces, NAT and the application socket.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Docker</span><span>Linux</span><span>networking</span><span>VoIP</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 1 min read · Lab period 2023-07</p>
-  <h3><a href="../posts/prometheus-metrics-changed-how-i-looked-at-a-mobile-core-lab.html">Prometheus Metrics Changed How I Looked at a Mobile Core Lab</a></h3>
-  <p>Logs explain individual failures; metrics show whether the system is drifting before the failures become obvious.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Prometheus</span><span>monitoring</span><span>Open5GS</span><span>metrics</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2021-10</p>
-  <h3><a href="../posts/sngrep-became-the-fastest-way-to-answer-the-first-sip-question.html">sngrep Became the Fastest Way to Answer the First SIP Question</a></h3>
-  <p>Before opening a full packet capture, sngrep gave me a quick view of call legs, response codes and dialog timing directly on the server.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>sngrep</span><span>SIP</span><span>Linux</span><span>troubleshooting</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2020-09</p>
-  <h3><a href="../posts/putting-a-pbx-in-docker-did-not-remove-the-networking.html">Putting a PBX in Docker Did Not Remove the Networking</a></h3>
-  <p>Containerizing a SIP service added another address and NAT boundary, which made port publishing, advertised addresses and RTP ranges more important rather than less important.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Docker</span><span>SIP</span><span>RTP</span><span>Linux</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2020-10</p>
-  <h3><a href="../posts/systemd-logs-became-part-of-my-voip-troubleshooting.html">systemd Logs Became Part of My VoIP Troubleshooting</a></h3>
-  <p>Service state, bind failures and restart loops often explained a broken PBX before I needed to inspect a single SIP packet.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>systemd</span><span>journalctl</span><span>Linux</span><span>Asterisk</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 2 min read · Lab period 2020-07</p>
-  <h3><a href="../posts/tcpdump-on-a-pbx-taught-me-to-trust-the-wire-before-the-gui.html">tcpdump on a PBX Taught Me to Trust the Wire Before the GUI</a></h3>
-  <p>On a headless PBX, a narrow tcpdump capture often answered the important question faster than a full GUI trace: did the signaling or media packet actually reach the server?</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>tcpdump</span><span>SIP</span><span>RTP</span><span>Linux</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 3 min read · Lab period 2019-10</p>
-  <h3><a href="../posts/tcpdump-became-my-first-tool-before-wireshark.html">tcpdump Became My First Tool Before Wireshark</a></h3>
-  <p>On a headless Linux box, tcpdump was faster than moving captures around blindly. A narrow capture at the right interface often answered the question immediately.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>tcpdump</span><span>Linux</span><span>packet capture</span><span>troubleshooting</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 3 min read · Lab period 2019-09</p>
-  <h3><a href="../posts/using-dig-to-stop-treating-dns-like-a-black-box.html">Using `dig` to Stop Treating DNS Like a Black Box</a></h3>
-  <p>`dig` gave me a way to separate resolver configuration, authoritative answers, record types and response timing instead of reducing DNS to &#39;name works&#39; or &#39;name fails&#39;.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>DNS</span><span>Linux</span><span>dig</span><span>troubleshooting</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 3 min read · Lab period 2019-08</p>
-  <h3><a href="../posts/ssh-keys-made-my-home-lab-feel-like-a-real-network.html">SSH Keys Made My Home Lab Feel Like a Real Network</a></h3>
-  <p>Moving from local console access to SSH keys changed the lab from a collection of machines into something I could actually operate and troubleshoot remotely.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Linux</span><span>SSH</span><span>homelab</span><span>security</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 3 min read · Lab period 2019-07</p>
-  <h3><a href="../posts/linux-routing-tables-ip-route-replaced-guessing.html">Linux Routing Tables: The Moment `ip route` Replaced Guessing</a></h3>
-  <p>Once I started reading Linux routes as prefix decisions instead of interface settings, multi-interface hosts and lab gateways became much easier to debug.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Linux</span><span>iproute2</span><span>routing</span><span>homelab</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 3 min read · Lab period 2018-05</p>
-  <h3><a href="../posts/ubuntu-18-04-lab-machine-networking-commands.html">Ubuntu 18.04 on a Lab Machine: The Networking Commands I Kept Reusing</a></h3>
-  <p>Ubuntu 18.04 was a good excuse to stop relying on desktop network icons and start reading interface state, routes, sockets and DNS configuration directly from the system.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Ubuntu</span><span>Linux</span><span>networking</span><span>Netplan</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="linux-homelab.html">Linux &amp; Homelab</a> · 3 min read · Lab period 2018-04</p>
-  <h3><a href="../posts/building-a-small-home-lab-from-an-old-pc-and-a-cheap-switch.html">Building a Small Home Lab from an Old PC and a Cheap Switch</a></h3>
-  <p>A useful home lab does not need enterprise hardware. A spare PC, a small switch and a few isolated network experiments are enough to learn a lot about real interfaces, routes and services.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>homelab</span><span>Linux</span><span>Ethernet</span><span>CCNA</span></div>
-</article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-18</p><h3><a href="/posts/tailscale-serve-vs-caddy-cloudflare.html">Where Tailscale Serve Fits Beside Caddy and a Public Cloudflare Tunnel</a></h3><p>Private tailnet publishing and public internet publishing are different ingress jobs, even when they reach the same container.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tailscale-serve.html">Tailscale Serve</a><a data-pagefind-filter="tag" href="/tags/caddy.html">Caddy</a><a data-pagefind-filter="tag" href="/tags/cloudflare-tunnel.html">Cloudflare Tunnel</a><a data-pagefind-filter="tag" href="/tags/ingress.html">ingress</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-18</p><h3><a href="/posts/tailscale-join-linux-node.html">How I Add a Linux Machine to My Tailnet Without Turning It into a Snowflake</a></h3><p>Joining a machine is easy; making its identity, hostname, access and role predictable is the part that matters later.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tailscale.html">Tailscale</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a><a data-pagefind-filter="tag" href="/tags/tailnet.html">tailnet</a><a data-pagefind-filter="tag" href="/tags/operations.html">operations</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-18</p><h3><a href="/posts/tailscale-home-server-continuity.html">How Tailscale Keeps My Home Server Reachable When the Operator Machine Changes</a></h3><p>The server stays the service anchor while the laptop or desktop can change; the tailnet keeps the relationship stable.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tailscale.html">Tailscale</a><a data-pagefind-filter="tag" href="/tags/home-server.html">home server</a><a data-pagefind-filter="tag" href="/tags/failover.html">failover</a><a data-pagefind-filter="tag" href="/tags/automation.html">automation</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-18</p><h3><a href="/posts/tailscale-home-infra-control-plane.html">Why Tailscale Became the Control Plane for My Home Infrastructure</a></h3><p>I do not use Tailscale as a generic VPN. I use it as the stable identity and reachability layer between my laptop, desktop and home server.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tailscale.html">Tailscale</a><a data-pagefind-filter="tag" href="/tags/homelab.html">homelab</a><a data-pagefind-filter="tag" href="/tags/wireguard.html">WireGuard</a><a data-pagefind-filter="tag" href="/tags/home-server.html">home server</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-18</p><h3><a href="/posts/tailscale-docker-host-vs-sidecar.html">Tailscale with Docker: Host-Level Tailnet or Per-Container Sidecar?</a></h3><p>I choose the networking boundary before I add Tailscale to a Docker stack, because the two patterns create different operational models.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tailscale.html">Tailscale</a><a data-pagefind-filter="tag" href="/tags/docker.html">Docker</a><a data-pagefind-filter="tag" href="/tags/containers.html">containers</a><a data-pagefind-filter="tag" href="/tags/networking.html">networking</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-ssh-is-infrastructure.html">SSH Access Is Infrastructure, Not a Deployment Step</a></h3><p>Remote deployment is unreliable when host identity, user and access policy are rediscovered every time.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ssh.html">SSH</a><a data-pagefind-filter="tag" href="/tags/tailscale.html">Tailscale</a><a data-pagefind-filter="tag" href="/tags/automation.html">automation</a><a data-pagefind-filter="tag" href="/tags/operations.html">operations</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-one-ingress.html">One Ingress Is Easier to Reason About Than Three</a></h3><p>Every extra reverse proxy adds another place for routing, TLS and headers to disagree.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/caddy.html">Caddy</a><a data-pagefind-filter="tag" href="/tags/ingress.html">ingress</a><a data-pagefind-filter="tag" href="/tags/docker.html">Docker</a><a data-pagefind-filter="tag" href="/tags/homelab.html">homelab</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-mdns-vs-tailscale.html">mDNS and Tailscale Fail in Different Ways</a></h3><p>A .local name and a Tailscale peer can refer to the same host while depending on different discovery systems.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/mdns.html">mDNS</a><a data-pagefind-filter="tag" href="/tags/tailscale.html">Tailscale</a><a data-pagefind-filter="tag" href="/tags/dns.html">DNS</a><a data-pagefind-filter="tag" href="/tags/ssh.html">SSH</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-healthcheck-real-dependency.html">A Docker Healthcheck Must Test the Dependency You Actually Need</a></h3><p>A process can be alive while the service contract its neighbors depend on is broken.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/docker.html">Docker</a><a data-pagefind-filter="tag" href="/tags/healthcheck.html">healthcheck</a><a data-pagefind-filter="tag" href="/tags/http.html">HTTP</a><a data-pagefind-filter="tag" href="/tags/database.html">database</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-failover-agent-state.html">Laptop-to-Desktop Failover Needs Agent State, Not Hope</a></h3><p>A second worker is useful only if it knows what the first worker already changed.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/failover.html">failover</a><a data-pagefind-filter="tag" href="/tags/automation.html">automation</a><a data-pagefind-filter="tag" href="/tags/state.html">state</a><a data-pagefind-filter="tag" href="/tags/homelab.html">homelab</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 3 min read · 2026-09-14</p><h3><a href="/posts/using-dig-to-stop-treating-dns-like-a-black-box.html">Using `dig` to Stop Treating DNS Like a Black Box</a></h3><p>`dig` gave me a way to separate resolver configuration, authoritative answers, record types and response timing instead of reducing DNS to 'name works' or 'name fails'.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/dns.html">DNS</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a><a data-pagefind-filter="tag" href="/tags/dig.html">dig</a><a data-pagefind-filter="tag" href="/tags/troubleshooting.html">troubleshooting</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 3 min read · 2026-09-14</p><h3><a href="/posts/ubuntu-18-04-lab-machine-networking-commands.html">Ubuntu 18.04 on a Lab Machine: The Networking Commands I Kept Reusing</a></h3><p>Ubuntu 18.04 was a good excuse to stop relying on desktop network icons and start reading interface state, routes, sockets and DNS configuration directly from the system.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ubuntu.html">Ubuntu</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a><a data-pagefind-filter="tag" href="/tags/networking.html">networking</a><a data-pagefind-filter="tag" href="/tags/netplan.html">Netplan</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-14</p><h3><a href="/posts/tcpdump-on-a-pbx-taught-me-to-trust-the-wire-before-the-gui.html">tcpdump on a PBX Taught Me to Trust the Wire Before the GUI</a></h3><p>On a headless PBX, a narrow tcpdump capture often answered the important question faster than a full GUI trace: did the signaling or media packet actually reach the server?</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tcpdump.html">tcpdump</a><a data-pagefind-filter="tag" href="/tags/sip.html">SIP</a><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 3 min read · 2026-09-14</p><h3><a href="/posts/tcpdump-became-my-first-tool-before-wireshark.html">tcpdump Became My First Tool Before Wireshark</a></h3><p>On a headless Linux box, tcpdump was faster than moving captures around blindly. A narrow capture at the right interface often answered the question immediately.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tcpdump.html">tcpdump</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a><a data-pagefind-filter="tag" href="/tags/packet-capture.html">packet capture</a><a data-pagefind-filter="tag" href="/tags/troubleshooting.html">troubleshooting</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-14</p><h3><a href="/posts/systemd-logs-became-part-of-my-voip-troubleshooting.html">systemd Logs Became Part of My VoIP Troubleshooting</a></h3><p>Service state, bind failures and restart loops often explained a broken PBX before I needed to inspect a single SIP packet.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/systemd.html">systemd</a><a data-pagefind-filter="tag" href="/tags/journalctl.html">journalctl</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a><a data-pagefind-filter="tag" href="/tags/asterisk.html">Asterisk</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 3 min read · 2026-09-14</p><h3><a href="/posts/ssh-keys-made-my-home-lab-feel-like-a-real-network.html">SSH Keys Made My Home Lab Feel Like a Real Network</a></h3><p>Moving from local console access to SSH keys changed the lab from a collection of machines into something I could actually operate and troubleshoot remotely.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a><a data-pagefind-filter="tag" href="/tags/ssh.html">SSH</a><a data-pagefind-filter="tag" href="/tags/homelab.html">homelab</a><a data-pagefind-filter="tag" href="/tags/security.html">security</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-14</p><h3><a href="/posts/sngrep-became-the-fastest-way-to-answer-the-first-sip-question.html">sngrep Became the Fastest Way to Answer the First SIP Question</a></h3><p>Before opening a full packet capture, sngrep gave me a quick view of call legs, response codes and dialog timing directly on the server.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/sngrep.html">sngrep</a><a data-pagefind-filter="tag" href="/tags/sip.html">SIP</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a><a data-pagefind-filter="tag" href="/tags/troubleshooting.html">troubleshooting</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 2 min read · 2026-09-14</p><h3><a href="/posts/putting-a-pbx-in-docker-did-not-remove-the-networking.html">Putting a PBX in Docker Did Not Remove the Networking</a></h3><p>Containerizing a SIP service added another address and NAT boundary, which made port publishing, advertised addresses and RTP ranges more important rather than less important.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/docker.html">Docker</a><a data-pagefind-filter="tag" href="/tags/sip.html">SIP</a><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 1 min read · 2026-09-14</p><h3><a href="/posts/prometheus-metrics-changed-how-i-looked-at-a-mobile-core-lab.html">Prometheus Metrics Changed How I Looked at a Mobile Core Lab</a></h3><p>Logs explain individual failures; metrics show whether the system is drifting before the failures become obvious.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/prometheus.html">Prometheus</a><a data-pagefind-filter="tag" href="/tags/monitoring.html">monitoring</a><a data-pagefind-filter="tag" href="/tags/open5gs.html">Open5GS</a><a data-pagefind-filter="tag" href="/tags/metrics.html">metrics</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 1 min read · 2026-09-14</p><h3><a href="/posts/production-infrastructure-became-easier-once-git-runtime-state-and-secrets-had-different-jobs.html">Production Infrastructure Became Easier Once Git, Runtime State and Secrets Had Different Jobs</a></h3><p>Most operational confusion came from mixing desired configuration, live state and credentials into the same place.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/gitops.html">GitOps</a><a data-pagefind-filter="tag" href="/tags/secrets.html">secrets</a><a data-pagefind-filter="tag" href="/tags/docker.html">Docker</a><a data-pagefind-filter="tag" href="/tags/operations.html">operations</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 1 min read · 2026-09-14</p><h3><a href="/posts/observability-became-useful-when-every-graph-had-an-operational-question.html">Observability Became Useful When Every Graph Had an Operational Question</a></h3><p>Dashboards improved once I stopped collecting attractive metrics and started collecting evidence for specific failure modes.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/prometheus.html">Prometheus</a><a data-pagefind-filter="tag" href="/tags/grafana.html">Grafana</a><a data-pagefind-filter="tag" href="/tags/observability.html">observability</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 3 min read · 2026-09-14</p><h3><a href="/posts/linux-routing-tables-ip-route-replaced-guessing.html">Linux Routing Tables: The Moment `ip route` Replaced Guessing</a></h3><p>Once I started reading Linux routes as prefix decisions instead of interface settings, multi-interface hosts and lab gateways became much easier to debug.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a><a data-pagefind-filter="tag" href="/tags/iproute2.html">iproute2</a><a data-pagefind-filter="tag" href="/tags/routing.html">routing</a><a data-pagefind-filter="tag" href="/tags/homelab.html">homelab</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 1 min read · 2026-09-14</p><h3><a href="/posts/docker-networks-hid-less-once-i-drew-the-packet-path.html">Docker Networks Hid Less Once I Drew the Packet Path</a></h3><p>Container networking stopped feeling magical when I separated host routing, bridge interfaces, NAT and the application socket.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/docker.html">Docker</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a><a data-pagefind-filter="tag" href="/tags/networking.html">networking</a><a data-pagefind-filter="tag" href="/tags/voip.html">VoIP</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 1 min read · 2026-09-14</p><h3><a href="/posts/directory-execute-bit-is-path-permission.html">The Execute Bit on a Directory Is Really a Path Permission</a></h3><p>A protected parent directory can block a perfectly readable child file because directory execute controls traversal.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a><a data-pagefind-filter="tag" href="/tags/acl.html">ACL</a><a data-pagefind-filter="tag" href="/tags/permissions.html">permissions</a><a data-pagefind-filter="tag" href="/tags/debugging.html">debugging</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 3 min read · 2026-09-14</p><h3><a href="/posts/building-a-small-home-lab-from-an-old-pc-and-a-cheap-switch.html">Building a Small Home Lab from an Old PC and a Cheap Switch</a></h3><p>A useful home lab does not need enterprise hardware. A spare PC, a small switch and a few isolated network experiments are enough to learn a lot about real interfaces, routes and services.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/homelab.html">homelab</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a><a data-pagefind-filter="tag" href="/tags/ethernet.html">Ethernet</a><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a></div></article>
+<article class="post-card"><p class="meta">Linux &amp; Homelab · 1 min read · 2026-09-14</p><h3><a href="/posts/a-home-server-became-production-the-day-i-needed-a-recovery-time.html">A Home Server Became Production the Day I Needed a Recovery Time</a></h3><p>The difference between a lab box and production infrastructure is not the hardware; it is whether failure has a documented recovery path.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/disaster-recovery.html">disaster recovery</a><a data-pagefind-filter="tag" href="/tags/docker.html">Docker</a><a data-pagefind-filter="tag" href="/tags/backup.html">backup</a><a data-pagefind-filter="tag" href="/tags/homelab.html">homelab</a></div></article>
 </div>
-
 </main>
 <footer class="shell site-footer">
-  <div>
-    <span class="status-dot"></span>
-    <strong>Reaz Romen — independent systems engineer.</strong>
-  </div>
-  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
-  <nav aria-label="Footer">
-    <a href="/topics.html">Topics</a>
-    <a href="/systems.html">Systems</a>
-    <a href="/archive.html">Archive</a>
-    <a href="/author/reaz-romen.html">Author record</a>
-  </nav>
+<div>
+<span class="status-dot"></span>
+<strong>Reaz Romen — independent systems engineer.</strong>
+</div>
+<p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+<nav aria-label="Footer"><a href="/tags.html">Tags</a></nav>
 </footer>
-<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog aria-label="Search and quick navigation" class="command-palette" data-pagefind-ignore="" id="command-palette">
 <div class="command-shell">
-<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-input-row"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input aria-label="Search site" autocomplete="off" id="command-input" placeholder="Search writing, work, topics…" type="search"/><button aria-label="Close" class="command-close" data-close-command="" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div>
 <div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
-<nav class="command-shortcuts" aria-label="Quick navigation">
+<nav aria-label="Quick navigation" class="command-shortcuts">
 <a href="/portfolio.html">Work <span>Projects and systems</span></a>
 <a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
 <a href="/domains/">Domains <span>Browse engineering areas</span></a>
@@ -205,7 +64,7 @@
 <a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
 <a href="/about.html">About <span>Background and approach</span></a>
 </nav>
-<div id="command-results" class="command-results" aria-live="polite"></div>
+<div aria-live="polite" class="command-results" id="command-results"></div>
 <div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
 </div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
 </html>

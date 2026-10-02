@@ -1,0 +1,55 @@
+---
+title: 'How I Read Tailscale Status: Direct Paths, Relays and What They Actually Tell
+  Me'
+url: /posts/tailscale-direct-vs-derp.html
+date: '2026-09-18'
+read_time: 2
+excerpt: A peer marked online is only the start. I also care whether the path is direct,
+  relayed and stable enough for the workload.
+topic: networking
+tags:
+- tailscale
+- derp
+- nat-traversal
+- networking
+draft: false
+featured: false
+language: en
+eyebrow: Tailscale in My Home Infrastructure · intermediate
+outputs:
+- url: /posts/tailscale-direct-vs-derp.html
+  template: cms/templates/posts/posts--tailscale-direct-vs-derp.tpl
+  source: cms/templates/posts/posts--tailscale-direct-vs-derp.json
+---
+
+# How I Read Tailscale Status: Direct Paths, Relays and What They Actually Tell Me
+
+A peer marked online is only the start. I also care whether the path is direct, relayed and stable enough for the workload.
+
+When I troubleshoot a home-server connection, I start with Tailscale status because it tells me more than simple presence. A direct path means the peers found a usable peer-to-peer route through the underlay. A relay path means traffic is still connected, but through Tailscale's relay infrastructure.
+
+## The setup I use
+
+For shell access and normal admin work, either path can be perfectly usable. For sustained transfers, latency-sensitive work or diagnosing why one location feels slower, the distinction matters. I compare the path before blaming Docker or the application.
+
+## Commands and configuration
+
+```
+tailscale status
+tailscale ping hserver
+```
+
+## Where this usually fails
+
+A dangerous interpretation is direct equals healthy and relay equals broken. That is too simple. The service can be broken over a direct path, and a relayed path can be completely functional. The path type is transport evidence, not an application verdict.
+
+## The rule I keep
+
+**Use direct-versus-relay state to explain the network path, not to replace service-level health checks.**
+
+That rule is more useful to me than memorising one command because it identifies which layer owns the decision. Tailscale is excellent at creating a private, authenticated IP network between machines, but I still keep application state, Reticulum state, SSH authorization and public ingress as explicit layers.
+
+## References
+
+- https://tailscale.com/docs/reference/tailscale-cli/status
+- https://tailscale.com/docs/reference/tailscale-cli/ping

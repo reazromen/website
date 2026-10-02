@@ -1,0 +1,552 @@
+title: Social Publisher
+browser_title: Social Publisher — Reaz Romen Portfolio
+description: Dedicated publishing engine with scheduler, queue worker, PostgreSQL/Redis
+  state, reproducible source pinning and restore-tested backups; external publishing
+  remains deliberately disarmed until credentials are configured.
+url: /portfolio/projects/social-publisher.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Apps & Control Planes / Built / integrated
+  body: Apps & Control Planes / Built / integrated
+- id: BLOCK1
+  label: Social Publisher
+  body: Social Publisher
+- id: BLOCK2
+  label: 'Dedicated publishing engine with scheduler, queue worker, PostgreSQL/Redis
+    state, reproducible '
+  body: Dedicated publishing engine with scheduler, queue worker, PostgreSQL/Redis
+    state, reproducible source pinning and restore-tested backups; external publishing
+    remains deliberately disarmed until credentials are configured.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: 'Dedicated publishing engine with scheduler, queue worker, PostgreSQL/Redis
+    state, reproducible '
+  body: Dedicated publishing engine with scheduler, queue worker, PostgreSQL/Redis
+    state, reproducible source pinning and restore-tested backups; external publishing
+    remains deliberately disarmed until credentials are configured.
+- id: BLOCK7
+  label: Integrated a dedicated publishing runtime around a pinned upstream base rather
+    than embedding s
+  body: Integrated a dedicated publishing runtime around a pinned upstream base rather
+    than embedding social delivery into Content Studio.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Configured scheduler, queue worker, PostgreSQL/Redis state, reproducible
+    builds and backup/rest
+  body: Configured scheduler, queue worker, PostgreSQL/Redis state, reproducible builds
+    and backup/restore verification.
+- id: BLOCK10
+  label: Kept external Meta connectivity intentionally disarmed until credentials
+    and dispatch are expli
+  body: Kept external Meta connectivity intentionally disarmed until credentials and
+    dispatch are explicitly enabled.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Approved content -> publisher dispatch boundary -> scheduler/queue worker
+    -> external network a
+  body: Approved content -> publisher dispatch boundary -> scheduler/queue worker
+    -> external network adapter.
+- id: BLOCK14
+  label: PostgreSQL and Redis hold durable/queue state.
+  body: PostgreSQL and Redis hold durable/queue state.
+- id: BLOCK15
+  label: Backups include database and application storage and are validated with disposable
+    restore test
+  body: Backups include database and application storage and are validated with disposable
+    restore tests.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Approved content -> publisher dispatch boundary -> scheduler/queue worker
+    -> external networ
+  body: '01
+
+
+    Approved content -> publisher dispatch boundary -> scheduler/queue worker -> external
+    network adapter.'
+- id: BLOCK23
+  label: Approved content -> publisher dispatch boundary -> scheduler/queue worker
+    -> external network a
+  body: Approved content -> publisher dispatch boundary -> scheduler/queue worker
+    -> external network adapter.
+- id: BLOCK24
+  label: 02 PostgreSQL and Redis hold durable/queue state.
+  body: '02
+
+
+    PostgreSQL and Redis hold durable/queue state.'
+- id: BLOCK25
+  label: PostgreSQL and Redis hold durable/queue state.
+  body: PostgreSQL and Redis hold durable/queue state.
+- id: BLOCK26
+  label: 03 Backups include database and application storage and are validated with
+    disposable restore t
+  body: '03
+
+
+    Backups include database and application storage and are validated with disposable
+    restore tests.'
+- id: BLOCK27
+  label: Backups include database and application storage and are validated with disposable
+    restore test
+  body: Backups include database and application storage and are validated with disposable
+    restore tests.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Pinned upstream reproducible build
+  body: Pinned upstream reproducible build
+- id: BLOCK31
+  label: Container health endpoint
+  body: Container health endpoint
+- id: BLOCK32
+  label: Scheduler/worker runtime check
+  body: Scheduler/worker runtime check
+- id: BLOCK33
+  label: Database/storage backup
+  body: Database/storage backup
+- id: BLOCK34
+  label: Disposable PostgreSQL restore verification
+  body: Disposable PostgreSQL restore verification
+- id: BLOCK35
+  label: External dispatch deliberately disabled without credentials
+  body: External dispatch deliberately disabled without credentials
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — Meta credentials currently intentionally blank
+  body: —Meta credentials currently intentionally blank
+- id: BLOCK43
+  label: — Publishing must remain disarmed until explicitly enabled
+  body: —Publishing must remain disarmed until explicitly enabled
+- id: BLOCK44
+  label: — Derived upstream code is not claimed as original
+  body: —Derived upstream code is not claimed as original
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A separately operable publishing layer that can be tested safely without
+    accidentally posting t
+  body: A separately operable publishing layer that can be tested safely without accidentally
+    posting to external platforms.
+- id: BLOCK48
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK49
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK50
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK51
+  label: Docker
+  body: Docker
+- id: BLOCK52
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK53
+  label: Redis
+  body: Redis
+- id: BLOCK54
+  label: Queues
+  body: Queues
+- id: BLOCK55
+  label: Backup/restore
+  body: Backup/restore
+- id: BLOCK56
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK57
+  label: STATUS
+  body: STATUS
+- id: BLOCK58
+  label: Built / integrated
+  body: Built / integrated
+- id: BLOCK59
+  label: AREA
+  body: AREA
+- id: BLOCK60
+  label: Apps & Control Planes
+  body: Apps & Control Planes
+- id: BLOCK61
+  label: STACK
+  body: STACK
+- id: BLOCK62
+  label: 5 documented technologies
+  body: 5 documented technologies
+- id: BLOCK63
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK64
+  label: 4 connected / bounded services
+  body: 4 connected / bounded services
+- id: BLOCK65
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK66
+  label: '01'
+  body: '01'
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their
+    Consistency Model
+  body: Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their
+    Consistency Models Differ
+- id: BLOCK69
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK70
+  label: A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt
+    State
+  body: A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt
+    State
+- id: BLOCK71
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK72
+  label: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+  body: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+- id: BLOCK73
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK74
+  label: '02'
+  body: '02'
+- id: BLOCK75
+  label: '03'
+  body: '03'
+- id: BLOCK76
+  label: '02'
+  body: '02'
+- id: BLOCK77
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK78
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK79
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK80
+  label: '03'
+  body: '03'
+- id: BLOCK81
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK82
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK83
+  label: Approved content
+  body: Approved content
+- id: BLOCK84
+  label: →
+  body: →
+- id: BLOCK85
+  label: Publisher dispatch
+  body: Publisher dispatch
+- id: BLOCK86
+  label: →
+  body: →
+- id: BLOCK87
+  label: Scheduler / queue worker
+  body: Scheduler / queue worker
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: Redis + PostgreSQL
+  body: Redis + PostgreSQL
+- id: BLOCK90
+  label: →
+  body: →
+- id: BLOCK91
+  label: External network adapter
+  body: External network adapter
+- id: BLOCK92
+  label: '04'
+  body: '04'
+- id: BLOCK93
+  label: '01'
+  body: '01'
+- id: BLOCK94
+  label: Docker
+  body: Docker
+- id: BLOCK95
+  label: '02'
+  body: '02'
+- id: BLOCK96
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK97
+  label: '03'
+  body: '03'
+- id: BLOCK98
+  label: Redis
+  body: Redis
+- id: BLOCK99
+  label: '04'
+  body: '04'
+- id: BLOCK100
+  label: Queues
+  body: Queues
+- id: BLOCK101
+  label: '05'
+  body: '05'
+- id: BLOCK102
+  label: Backup/restore
+  body: Backup/restore
+- id: BLOCK103
+  label: '05'
+  body: '05'
+- id: BLOCK104
+  label: '06'
+  body: '06'
+- id: BLOCK105
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK106
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK107
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK108
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK109
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK110
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK111
+  label: '07'
+  body: '07'
+- id: BLOCK112
+  label: Social Publisher
+  body: Social Publisher
+- id: BLOCK113
+  label: ↔
+  body: ↔
+- id: BLOCK114
+  label: Pinned Shoutrrr upstream source
+  body: Pinned Shoutrrr upstream source
+- id: BLOCK115
+  label: ↔
+  body: ↔
+- id: BLOCK116
+  label: PostgreSQL
+  body: PostgreSQL
+- id: BLOCK117
+  label: ↔
+  body: ↔
+- id: BLOCK118
+  label: Redis
+  body: Redis
+- id: BLOCK119
+  label: ↔
+  body: ↔
+- id: BLOCK120
+  label: Optional Meta adapter
+  body: Optional Meta adapter
+- id: BLOCK121
+  label: 08
+  body: 08
+- id: BLOCK122
+  label: '01'
+  body: '01'
+- id: BLOCK123
+  label: NOTE
+  body: NOTE
+- id: BLOCK124
+  label: Deploy script
+  body: Deploy script
+- id: BLOCK125
+  label: '02'
+  body: '02'
+- id: BLOCK126
+  label: NOTE
+  body: NOTE
+- id: BLOCK127
+  label: Pinned upstream commit
+  body: Pinned upstream commit
+- id: BLOCK128
+  label: '03'
+  body: '03'
+- id: BLOCK129
+  label: NOTE
+  body: NOTE
+- id: BLOCK130
+  label: Health endpoint
+  body: Health endpoint
+- id: BLOCK131
+  label: '04'
+  body: '04'
+- id: BLOCK132
+  label: NOTE
+  body: NOTE
+- id: BLOCK133
+  label: Backup script
+  body: Backup script
+- id: BLOCK134
+  label: '05'
+  body: '05'
+- id: BLOCK135
+  label: TEST
+  body: TEST
+- id: BLOCK136
+  label: Restore test
+  body: Restore test
+- id: BLOCK137
+  label: '06'
+  body: '06'
+- id: BLOCK138
+  label: NOTE
+  body: NOTE
+- id: BLOCK139
+  label: Feature-gated external connectivity
+  body: Feature-gated external connectivity
+- id: BLOCK140
+  label: 09
+  body: 09
+- id: BLOCK141
+  label: '10'
+  body: '10'
+- id: BLOCK142
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK143
+  label: Content Studio
+  body: Content Studio
+- id: BLOCK144
+  label: Next project →
+  body: Next project →
+- id: BLOCK145
+  label: Production Observability & Alert Validation
+  body: Production Observability & Alert Validation
+lists: []
+template: cms/templates/pages/portfolio--projects--social-publisher.tpl
+source: cms/templates/pages/portfolio--projects--social-publisher.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio/projects/social-publisher.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/social-publisher.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/social-publisher.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/social-publisher.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/social-publisher.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/social-publisher.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/social-publisher.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/social-publisher.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/social-publisher.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/social-publisher.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/social-publisher.html#result
+- id: LINK16
+  label: '{{RR_BLOCK68}} {{RR_BLOCK69}}'
+  url: /posts/cloudflare-kv-do-queues-d1-consistency.html
+- id: LINK17
+  label: '{{RR_BLOCK70}} {{RR_BLOCK71}}'
+  url: /posts/distributed-lock-needs-fencing-token.html
+- id: LINK18
+  label: '{{RR_BLOCK72}} {{RR_BLOCK73}}'
+  url: /posts/pgvector-hnsw-fast-operationally-wrong.html
+- id: LINK19
+  label: '{{RR_BLOCK142}} {{RR_BLOCK143}}'
+  url: /portfolio/projects/content-studio.html
+- id: LINK20
+  label: '{{RR_BLOCK144}} {{RR_BLOCK145}}'
+  url: /portfolio/projects/production-observability-alert-validation.html

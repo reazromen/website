@@ -1,0 +1,533 @@
+title: Disaster Recovery & Restore Verification
+browser_title: Disaster Recovery & Restore Verification — Reaz Romen Portfolio
+description: Encrypted backup and recovery system spanning local rsync, off-site object
+  storage, checksums and disposable restore verification rather than backup-success
+  alone.
+url: /portfolio/projects/disaster-recovery-restore-verification.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Infrastructure & Operations / Built / deployed
+  body: Infrastructure & Operations / Built / deployed
+- id: BLOCK1
+  label: Disaster Recovery & Restore Verification
+  body: Disaster Recovery & Restore Verification
+- id: BLOCK2
+  label: Encrypted backup and recovery system spanning local rsync, off-site object
+    storage, checksums a
+  body: Encrypted backup and recovery system spanning local rsync, off-site object
+    storage, checksums and disposable restore verification rather than backup-success
+    alone.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: Encrypted backup and recovery system spanning local rsync, off-site object
+    storage, checksums a
+  body: Encrypted backup and recovery system spanning local rsync, off-site object
+    storage, checksums and disposable restore verification rather than backup-success
+    alone.
+- id: BLOCK7
+  label: Built local and off-site backup paths with encryption, checksums and policy
+    checks.
+  body: Built local and off-site backup paths with encryption, checksums and policy
+    checks.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Added immutable/off-site storage handling instead of relying on a single
+    machine copy.
+  body: Added immutable/off-site storage handling instead of relying on a single machine
+    copy.
+- id: BLOCK10
+  label: Made restore verification a first-class test instead of treating a successful
+    backup command as
+  body: Made restore verification a first-class test instead of treating a successful
+    backup command as proof of recoverability.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Production data -> local staged backup -> encrypted/off-site B2 tier.
+  body: Production data -> local staged backup -> encrypted/off-site B2 tier.
+- id: BLOCK14
+  label: Checksums and policy checks verify backup artifacts.
+  body: Checksums and policy checks verify backup artifacts.
+- id: BLOCK15
+  label: Disposable restore jobs validate that selected data can actually be recovered.
+  body: Disposable restore jobs validate that selected data can actually be recovered.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Production data -> local staged backup -> encrypted/off-site B2 tier.
+  body: '01
+
+
+    Production data -> local staged backup -> encrypted/off-site B2 tier.'
+- id: BLOCK23
+  label: Production data -> local staged backup -> encrypted/off-site B2 tier.
+  body: Production data -> local staged backup -> encrypted/off-site B2 tier.
+- id: BLOCK24
+  label: 02 Checksums and policy checks verify backup artifacts.
+  body: '02
+
+
+    Checksums and policy checks verify backup artifacts.'
+- id: BLOCK25
+  label: Checksums and policy checks verify backup artifacts.
+  body: Checksums and policy checks verify backup artifacts.
+- id: BLOCK26
+  label: 03 Disposable restore jobs validate that selected data can actually be recovered.
+  body: '03
+
+
+    Disposable restore jobs validate that selected data can actually be recovered.'
+- id: BLOCK27
+  label: Disposable restore jobs validate that selected data can actually be recovered.
+  body: Disposable restore jobs validate that selected data can actually be recovered.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Backup artifact generation
+  body: Backup artifact generation
+- id: BLOCK31
+  label: SHA-256 verification
+  body: SHA-256 verification
+- id: BLOCK32
+  label: Retention/policy checks
+  body: Retention/policy checks
+- id: BLOCK33
+  label: Off-site transfer
+  body: Off-site transfer
+- id: BLOCK34
+  label: Disposable restore verification
+  body: Disposable restore verification
+- id: BLOCK35
+  label: Recovery runbook exercises
+  body: Recovery runbook exercises
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — Backup success alone is not treated as recoverability
+  body: —Backup success alone is not treated as recoverability
+- id: BLOCK43
+  label: — Credentials stay runtime-only
+  body: —Credentials stay runtime-only
+- id: BLOCK44
+  label: — Off-site copies are immutable/isolated by design where supported
+  body: —Off-site copies are immutable/isolated by design where supported
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A DR workflow focused on recoverability evidence, not merely backup-file
+    existence.
+  body: A DR workflow focused on recoverability evidence, not merely backup-file existence.
+- id: BLOCK48
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK49
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK50
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK51
+  label: rsync
+  body: rsync
+- id: BLOCK52
+  label: Backblaze B2
+  body: Backblaze B2
+- id: BLOCK53
+  label: Encryption
+  body: Encryption
+- id: BLOCK54
+  label: Checksums
+  body: Checksums
+- id: BLOCK55
+  label: Restore tests
+  body: Restore tests
+- id: BLOCK56
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK57
+  label: STATUS
+  body: STATUS
+- id: BLOCK58
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK59
+  label: AREA
+  body: AREA
+- id: BLOCK60
+  label: Infrastructure & Operations
+  body: Infrastructure & Operations
+- id: BLOCK61
+  label: STACK
+  body: STACK
+- id: BLOCK62
+  label: 5 documented technologies
+  body: 5 documented technologies
+- id: BLOCK63
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK64
+  label: 2 connected / bounded services
+  body: 2 connected / bounded services
+- id: BLOCK65
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK66
+  label: '01'
+  body: '01'
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their
+    Consistency Model
+  body: Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their
+    Consistency Models Differ
+- id: BLOCK69
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK70
+  label: A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt
+    State
+  body: A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt
+    State
+- id: BLOCK71
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK72
+  label: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+  body: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+- id: BLOCK73
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK74
+  label: '02'
+  body: '02'
+- id: BLOCK75
+  label: '03'
+  body: '03'
+- id: BLOCK76
+  label: '02'
+  body: '02'
+- id: BLOCK77
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK78
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK79
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK80
+  label: '03'
+  body: '03'
+- id: BLOCK81
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK82
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK83
+  label: Production data
+  body: Production data
+- id: BLOCK84
+  label: →
+  body: →
+- id: BLOCK85
+  label: Local backup/staging
+  body: Local backup/staging
+- id: BLOCK86
+  label: →
+  body: →
+- id: BLOCK87
+  label: Checksums + policy checks
+  body: Checksums + policy checks
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: Encrypted off-site transfer
+  body: Encrypted off-site transfer
+- id: BLOCK90
+  label: →
+  body: →
+- id: BLOCK91
+  label: Backblaze B2
+  body: Backblaze B2
+- id: BLOCK92
+  label: →
+  body: →
+- id: BLOCK93
+  label: Disposable restore test
+  body: Disposable restore test
+- id: BLOCK94
+  label: '04'
+  body: '04'
+- id: BLOCK95
+  label: '01'
+  body: '01'
+- id: BLOCK96
+  label: rsync
+  body: rsync
+- id: BLOCK97
+  label: '02'
+  body: '02'
+- id: BLOCK98
+  label: Backblaze B2
+  body: Backblaze B2
+- id: BLOCK99
+  label: '03'
+  body: '03'
+- id: BLOCK100
+  label: Encryption
+  body: Encryption
+- id: BLOCK101
+  label: '04'
+  body: '04'
+- id: BLOCK102
+  label: Checksums
+  body: Checksums
+- id: BLOCK103
+  label: '05'
+  body: '05'
+- id: BLOCK104
+  label: Restore tests
+  body: Restore tests
+- id: BLOCK105
+  label: '05'
+  body: '05'
+- id: BLOCK106
+  label: '06'
+  body: '06'
+- id: BLOCK107
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK108
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK109
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK110
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK111
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK112
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK113
+  label: '07'
+  body: '07'
+- id: BLOCK114
+  label: Disaster Recovery & Restore Verification
+  body: Disaster Recovery & Restore Verification
+- id: BLOCK115
+  label: ↔
+  body: ↔
+- id: BLOCK116
+  label: Backblaze B2
+  body: Backblaze B2
+- id: BLOCK117
+  label: ↔
+  body: ↔
+- id: BLOCK118
+  label: rsync target
+  body: rsync target
+- id: BLOCK119
+  label: 08
+  body: 08
+- id: BLOCK120
+  label: '01'
+  body: '01'
+- id: BLOCK121
+  label: NOTE
+  body: NOTE
+- id: BLOCK122
+  label: Backup scripts
+  body: Backup scripts
+- id: BLOCK123
+  label: '02'
+  body: '02'
+- id: BLOCK124
+  label: NOTE
+  body: NOTE
+- id: BLOCK125
+  label: Policy checker
+  body: Policy checker
+- id: BLOCK126
+  label: '03'
+  body: '03'
+- id: BLOCK127
+  label: NOTE
+  body: NOTE
+- id: BLOCK128
+  label: Checksums
+  body: Checksums
+- id: BLOCK129
+  label: '04'
+  body: '04'
+- id: BLOCK130
+  label: NOTE
+  body: NOTE
+- id: BLOCK131
+  label: Off-site object tier
+  body: Off-site object tier
+- id: BLOCK132
+  label: '05'
+  body: '05'
+- id: BLOCK133
+  label: NOTE
+  body: NOTE
+- id: BLOCK134
+  label: Restore-verification jobs
+  body: Restore-verification jobs
+- id: BLOCK135
+  label: '06'
+  body: '06'
+- id: BLOCK136
+  label: NOTE
+  body: NOTE
+- id: BLOCK137
+  label: Recovery documentation
+  body: Recovery documentation
+- id: BLOCK138
+  label: 09
+  body: 09
+- id: BLOCK139
+  label: '10'
+  body: '10'
+- id: BLOCK140
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK141
+  label: Central Secret Lifecycle / OpenBao
+  body: Central Secret Lifecycle / OpenBao
+- id: BLOCK142
+  label: Next project →
+  body: Next project →
+- id: BLOCK143
+  label: Private Alert Delivery
+  body: Private Alert Delivery
+lists: []
+template: cms/templates/pages/portfolio--projects--disaster-recovery-restore-verification.tpl
+source: cms/templates/pages/portfolio--projects--disaster-recovery-restore-verification.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio/projects/disaster-recovery-restore-verification.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/disaster-recovery-restore-verification.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/disaster-recovery-restore-verification.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/disaster-recovery-restore-verification.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/disaster-recovery-restore-verification.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/disaster-recovery-restore-verification.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/disaster-recovery-restore-verification.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/disaster-recovery-restore-verification.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/disaster-recovery-restore-verification.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/disaster-recovery-restore-verification.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/disaster-recovery-restore-verification.html#result
+- id: LINK16
+  label: '{{RR_BLOCK68}} {{RR_BLOCK69}}'
+  url: /posts/cloudflare-kv-do-queues-d1-consistency.html
+- id: LINK17
+  label: '{{RR_BLOCK70}} {{RR_BLOCK71}}'
+  url: /posts/distributed-lock-needs-fencing-token.html
+- id: LINK18
+  label: '{{RR_BLOCK72}} {{RR_BLOCK73}}'
+  url: /posts/pgvector-hnsw-fast-operationally-wrong.html
+- id: LINK19
+  label: '{{RR_BLOCK140}} {{RR_BLOCK141}}'
+  url: /portfolio/projects/central-secret-lifecycle-openbao.html
+- id: LINK20
+  label: '{{RR_BLOCK142}} {{RR_BLOCK143}}'
+  url: /portfolio/projects/private-alert-delivery.html

@@ -1,0 +1,79 @@
+title: Selected Work
+browser_title: Work — Reaz Romen
+description: Selected engineering systems built and operated by Reaz Romen.
+url: /projects/index.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Selected Work
+  body: Selected Work
+- id: BLOCK1
+  label: Systems I build, operate, and keep improving.
+  body: '*Systems I build, operate, and keep improving.*'
+- id: BLOCK2
+  label: 'Each system will expand into an engineering record: problem, architecture,
+    what I built, what o'
+  body: 'Each system will expand into an engineering record: problem, architecture,
+    what I built, what others built, difficult failures, evidence, and current production
+    state.'
+- id: BLOCK3
+  label: Systems
+  body: Systems
+- id: BLOCK4
+  label: LOUP Voice Device
+  body: LOUP Voice Device
+- id: BLOCK5
+  label: ESP32-S3 · SIP/RTP · real-time audio · OTA
+  body: ESP32-S3 · SIP/RTP · real-time audio · OTA
+- id: BLOCK6
+  label: Voice Infrastructure
+  body: Voice Infrastructure
+- id: BLOCK7
+  label: Asterisk · OpenSIPS · FreeSWITCH · Telnyx
+  body: Asterisk · OpenSIPS · FreeSWITCH · Telnyx
+- id: BLOCK8
+  label: Distributed Infrastructure
+  body: Distributed Infrastructure
+- id: BLOCK9
+  label: Linux · Docker · Nomad · Tailscale · Grafana
+  body: Linux · Docker · Nomad · Tailscale · Grafana
+- id: BLOCK10
+  label: RF & Presence Intelligence
+  body: RF & Presence Intelligence
+- id: BLOCK11
+  label: Wi-Fi CSI · RF · signal processing · ClickHouse
+  body: Wi-Fi CSI · RF · signal processing · ClickHouse
+- id: BLOCK12
+  label: Environmental Intelligence
+  body: Environmental Intelligence
+- id: BLOCK13
+  label: Weather · hydrology · satellite · GNSS
+  body: Weather · hydrology · satellite · GNSS
+- id: BLOCK14
+  label: Device & Firmware Operations
+  body: Device & Firmware Operations
+- id: BLOCK15
+  label: Fleet OTA · enrollment · provisioning · release control
+  body: Fleet OTA · enrollment · provisioning · release control
+lists: []
+template: cms/templates/pages/projects--index.tpl
+source: cms/templates/pages/projects--index.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK4}} {{RR_BLOCK5}}'
+  url: '#'
+- id: LINK1
+  label: '{{RR_BLOCK6}} {{RR_BLOCK7}}'
+  url: '#'
+- id: LINK2
+  label: '{{RR_BLOCK8}} {{RR_BLOCK9}}'
+  url: '#'
+- id: LINK3
+  label: '{{RR_BLOCK10}} {{RR_BLOCK11}}'
+  url: '#'
+- id: LINK4
+  label: '{{RR_BLOCK12}} {{RR_BLOCK13}}'
+  url: '#'
+- id: LINK5
+  label: '{{RR_BLOCK14}} {{RR_BLOCK15}}'
+  url: '#'

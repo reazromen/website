@@ -1,0 +1,162 @@
+title: Writing from the actual system.
+browser_title: Writing — Reaz Romen
+description: Technical notes on embedded firmware, SIP/RTP, Linux infrastructure,
+  observability, networking and systems engineering.
+url: /writing.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: TECHNICAL WRITING / LAB NOTES
+  body: TECHNICAL WRITING / LAB NOTES
+- id: BLOCK1
+  label: Writing from the actual system.
+  body: Writing from the actual system.
+- id: BLOCK2
+  label: Long-form engineering notes built from debugging sessions, code, packet captures,
+    hardware beha
+  body: Long-form engineering notes built from debugging sessions, code, packet captures,
+    hardware behavior, measurements and failure reconstruction.
+- id: BLOCK3
+  label: ARCHIVE
+  body: ARCHIVE
+- id: BLOCK4
+  label: Search
+  body: Search
+- id: BLOCK5
+  label: FEATURED
+  body: FEATURED
+- id: BLOCK6
+  label: CURATION PENDING QUILL
+  body: CURATION PENDING QUILL
+- id: BLOCK7
+  label: TOPIC INDEX
+  body: TOPIC INDEX
+- id: BLOCK8
+  label: Terraform Systems
+  body: Terraform Systems
+- id: BLOCK9
+  label: 25 articles
+  body: 25 articles
+- id: BLOCK10
+  label: Redis Systems
+  body: Redis Systems
+- id: BLOCK11
+  label: 10 articles
+  body: 10 articles
+- id: BLOCK12
+  label: Observability & Monitoring
+  body: Observability & Monitoring
+- id: BLOCK13
+  label: 205 articles
+  body: 205 articles
+- id: BLOCK14
+  label: LOUP Engineering
+  body: LOUP Engineering
+- id: BLOCK15
+  label: 100 articles
+  body: 100 articles
+- id: BLOCK16
+  label: Voiceware Engineering
+  body: Voiceware Engineering
+- id: BLOCK17
+  label: 100 articles
+  body: 100 articles
+- id: BLOCK18
+  label: Telecom & VoIP
+  body: Telecom & VoIP
+- id: BLOCK19
+  label: 44 articles
+  body: 44 articles
+- id: BLOCK20
+  label: Embedded Audio & Voice
+  body: Embedded Audio & Voice
+- id: BLOCK21
+  label: 35 articles
+  body: 35 articles
+- id: BLOCK22
+  label: Production Engineering
+  body: Production Engineering
+- id: BLOCK23
+  label: 35 articles
+  body: 35 articles
+- id: BLOCK24
+  label: LoRa & Reticulum
+  body: LoRa & Reticulum
+- id: BLOCK25
+  label: 34 articles
+  body: 34 articles
+- id: BLOCK26
+  label: Caddy & Reverse Proxy
+  body: Caddy & Reverse Proxy
+- id: BLOCK27
+  label: 30 articles
+  body: 30 articles
+- id: BLOCK28
+  label: LATEST
+  body: LATEST
+- id: BLOCK29
+  label: 152 items
+  body: 152 items
+- id: BLOCK30
+  label: '2026'
+  body: '2026'
+- id: BLOCK31
+  label: September
+  body: September
+- id: BLOCK32
+  label: Chronological writing archive
+  body: Chronological writing archive
+lists:
+- key: LIST0
+  filter:
+    section:
+    - writing
+    - perspectives
+    - bangla
+  style: cards
+- key: LIST1
+  filter:
+    section:
+    - writing
+    - perspectives
+    - bangla
+  style: cards
+template: cms/templates/pages/writing.tpl
+source: cms/templates/pages/writing.json
+links:
+- id: LINK0
+  label: All topics →
+  url: /topics.html
+- id: LINK1
+  label: '{{RR_BLOCK8}} {{RR_BLOCK9}}'
+  url: /topics/terraform-systems/index.html
+- id: LINK2
+  label: '{{RR_BLOCK10}} {{RR_BLOCK11}}'
+  url: /topics/redis-systems/index.html
+- id: LINK3
+  label: '{{RR_BLOCK12}} {{RR_BLOCK13}}'
+  url: /topics/observability-monitoring.html
+- id: LINK4
+  label: '{{RR_BLOCK14}} {{RR_BLOCK15}}'
+  url: /topics/loup-engineering.html
+- id: LINK5
+  label: '{{RR_BLOCK16}} {{RR_BLOCK17}}'
+  url: /topics/voiceware-engineering.html
+- id: LINK6
+  label: '{{RR_BLOCK18}} {{RR_BLOCK19}}'
+  url: /topics/telecom-voip.html
+- id: LINK7
+  label: '{{RR_BLOCK20}} {{RR_BLOCK21}}'
+  url: /topics/embedded-audio-voice.html
+- id: LINK8
+  label: '{{RR_BLOCK22}} {{RR_BLOCK23}}'
+  url: /topics/production-engineering.html
+- id: LINK9
+  label: '{{RR_BLOCK24}} {{RR_BLOCK25}}'
+  url: /topics/lora-reticulum.html
+- id: LINK10
+  label: '{{RR_BLOCK26}} {{RR_BLOCK27}}'
+  url: /topics/caddy-reverse-proxy.html
+- id: LINK11
+  label: View archive
+  url: /archive.html

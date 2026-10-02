@@ -1,0 +1,217 @@
+title: I’m Reaz Romen. I work at the seams between systems.
+browser_title: About Reaz Romen — Systems Engineer
+description: About Reaz Romen and his work across embedded firmware, real-time communications,
+  Linux infrastructure, observability and cross-layer systems debugging.
+url: /about.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: REAZ ROMEN / ABOUT
+  body: REAZ ROMEN / ABOUT
+- id: BLOCK1
+  label: I’m Reaz Romen. I work at the seams between systems.
+  body: I’m Reaz Romen. I work at the seams between systems.
+- id: BLOCK2
+  label: I’m a systems engineer who works across embedded devices, networks, real-time
+    communications, b
+  body: I’m a systems engineer who works across embedded devices, networks, real-time
+    communications, backend services and infrastructure. I’m most useful when a product
+    crosses several of those layers and the problem does not belong cleanly to one
+    team or one tool.
+- id: BLOCK3
+  label: 'A lot of my work is hands-on: ESP32-S3 firmware and audio, SIP/RTP call
+    paths, Linux and Docker'
+  body: 'A lot of my work is hands-on: ESP32-S3 firmware and audio, SIP/RTP call paths,
+    Linux and Docker systems, observability, ingress, service control and the glue
+    between them. The same pattern keeps showing up — the symptom appears in one layer
+    while the root cause lives somewhere else.'
+- id: BLOCK4
+  label: I prefer evidence over guesswork. I use serial logs, packet captures, timing
+    measurements, metr
+  body: I prefer evidence over guesswork. I use serial logs, packet captures, timing
+    measurements, metrics, controlled A/B builds and known-good baselines. I preserve
+    working states before changing them, and I document the path so the system can
+    be understood again later.
+- id: BLOCK5
+  label: Connected firmware, real-time voice paths, Linux infrastructure and operational
+    tooling.
+  body: Connected firmware, real-time voice paths, Linux infrastructure and operational
+    tooling.
+- id: BLOCK6
+  label: Known-good baselines, logs, packets, timing, metrics, controlled changes
+    and repeatable tests.
+  body: Known-good baselines, logs, packets, timing, metrics, controlled changes and
+    repeatable tests.
+- id: BLOCK7
+  label: Problems that cross device, network, media, service and infrastructure boundaries.
+  body: Problems that cross device, network, media, service and infrastructure boundaries.
+- id: BLOCK8
+  label: I do not fit neatly into one engineering box.
+  body: I do not fit neatly into one engineering box.
+- id: BLOCK9
+  label: That is intentional. A connected product rarely fails according to an org
+    chart. Firmware timin
+  body: That is intentional. A connected product rarely fails according to an org
+    chart. Firmware timing can surface as audio quality. SIP can succeed while RTP
+    fails. A container can be “up” while the service is unusable. I like following
+    the actual data path until the failure makes sense.
+- id: BLOCK10
+  label: 'Embedded: ESP32-S3, ESP-IDF/ADF, audio codecs, I2S/I2C, provisioning, OTA,
+    controls and board b'
+  body: '**Embedded:** ESP32-S3, ESP-IDF/ADF, audio codecs, I2S/I2C, provisioning,
+    OTA, controls and board bring-up.'
+- id: BLOCK11
+  label: 'Voice: SIP, SDP, RTP, Asterisk, FreeSWITCH, OpenSIPS, Drachtio, endpoint
+    and media-path debuggi'
+  body: '**Voice:** SIP, SDP, RTP, Asterisk, FreeSWITCH, OpenSIPS, Drachtio, endpoint
+    and media-path debugging.'
+- id: BLOCK12
+  label: 'Systems: Linux, Docker, ingress, observability, service health, logging,
+    dependencies and recov'
+  body: '**Systems:** Linux, Docker, ingress, observability, service health, logging,
+    dependencies and recovery.'
+- id: BLOCK13
+  label: Frame the system
+  body: Frame the system
+- id: BLOCK14
+  label: Map boundaries, clocks, dependencies, data paths and the exact failure before
+    changing behavior
+  body: Map boundaries, clocks, dependencies, data paths and the exact failure before
+    changing behavior.
+- id: BLOCK15
+  label: Make it observable
+  body: Make it observable
+- id: BLOCK16
+  label: 'Collect the evidence the system already has: logs, packets, timing, state,
+    metrics and hardware'
+  body: 'Collect the evidence the system already has: logs, packets, timing, state,
+    metrics and hardware behavior.'
+- id: BLOCK17
+  label: Isolate one boundary
+  body: Isolate one boundary
+- id: BLOCK18
+  label: Preserve a known-good control and change one part of the path at a time.
+  body: Preserve a known-good control and change one part of the path at a time.
+- id: BLOCK19
+  label: Build and retest
+  body: Build and retest
+- id: BLOCK20
+  label: Turn the hypothesis into the smallest useful change, then repeat the same
+    failure test.
+  body: Turn the hypothesis into the smallest useful change, then repeat the same
+    failure test.
+- id: BLOCK21
+  label: Leave a trail
+  body: Leave a trail
+- id: BLOCK22
+  label: Document architecture, verification and recovery so the system is easier
+    to operate after the f
+  body: Document architecture, verification and recovery so the system is easier to
+    operate after the fix.
+- id: BLOCK23
+  label: Connected Device Firmware
+  body: Connected Device Firmware
+- id: BLOCK24
+  label: Firmware for connected products where the device, hardware interfaces, network
+    behavior and lif
+  body: Firmware for connected products where the device, hardware interfaces, network
+    behavior and lifecycle all have to agree.
+- id: BLOCK25
+  label: Voice & Real-Time Communications
+  body: Voice & Real-Time Communications
+- id: BLOCK26
+  label: SIP/RTP systems from endpoint behavior through PBX and media paths, including
+    the failures that
+  body: SIP/RTP systems from endpoint behavior through PBX and media paths, including
+    the failures that only appear during real calls.
+- id: BLOCK27
+  label: Infrastructure & Operations
+  body: Infrastructure & Operations
+- id: BLOCK28
+  label: Linux and container infrastructure with clear ingress, health, observability,
+    service state and
+  body: Linux and container infrastructure with clear ingress, health, observability,
+    service state and recovery paths.
+- id: BLOCK29
+  label: Cross-Layer Debugging
+  body: Cross-Layer Debugging
+- id: BLOCK30
+  label: 'For problems that refuse to stay in one box: audio that is really timing,
+    calls that connect wi'
+  body: 'For problems that refuse to stay in one box: audio that is really timing,
+    calls that connect without media, or healthy processes behind broken services.'
+- id: BLOCK31
+  label: A FEW THINGS I CARE ABOUT
+  body: A FEW THINGS I CARE ABOUT
+- id: BLOCK32
+  label: 01 Preserve a working state before “improving” it.
+  body: 01 Preserve a working state before “improving” it.
+- id: BLOCK33
+  label: 02 Make the system observable before tuning it.
+  body: 02 Make the system observable before tuning it.
+- id: BLOCK34
+  label: 03 Separate confirmed facts from assumptions.
+  body: 03 Separate confirmed facts from assumptions.
+- id: BLOCK35
+  label: 04 Reproduce the same failure after the fix.
+  body: 04 Reproduce the same failure after the fix.
+- id: BLOCK36
+  label: 05 Leave documentation that survives the person who wrote it.
+  body: 05 Leave documentation that survives the person who wrote it.
+- id: BLOCK37
+  label: THE SHORT VERSION
+  body: THE SHORT VERSION
+- id: BLOCK38
+  label: If you want to understand the kind of problems that means in practice, the
+    case studies are the
+  body: If you want to understand the kind of problems that means in practice, the
+    case studies are the best place to start.
+- id: BLOCK39
+  label: WHAT I BUILD
+  body: WHAT I BUILD
+- id: BLOCK40
+  label: HOW I DEBUG
+  body: HOW I DEBUG
+- id: BLOCK41
+  label: WHERE I FIT
+  body: WHERE I FIT
+- id: BLOCK42
+  label: 01 / THE WORK
+  body: 01 / THE WORK
+- id: BLOCK43
+  label: 02 / WORKING STYLE
+  body: 02 / WORKING STYLE
+- id: BLOCK44
+  label: '01'
+  body: '01'
+- id: BLOCK45
+  label: '02'
+  body: '02'
+- id: BLOCK46
+  label: '03'
+  body: '03'
+- id: BLOCK47
+  label: '04'
+  body: '04'
+- id: BLOCK48
+  label: '05'
+  body: '05'
+- id: BLOCK49
+  label: 03 / WHERE I CAN TAKE OWNERSHIP
+  body: 03 / WHERE I CAN TAKE OWNERSHIP
+lists: []
+template: cms/templates/pages/about.tpl
+source: cms/templates/pages/about.json
+links:
+- id: LINK0
+  label: Work →
+  url: /portfolio.html
+- id: LINK1
+  label: Services →
+  url: /services.html
+- id: LINK2
+  label: View Work
+  url: /portfolio.html
+- id: LINK3
+  label: Read field notes
+  url: /writing.html

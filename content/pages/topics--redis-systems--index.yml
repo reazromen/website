@@ -1,0 +1,33 @@
+title: Redis Systems
+browser_title: Redis Systems — Reaz Romen
+description: 'Redis systems engineering: memory, eviction, clustering, Streams, persistence,
+  failover, caching and server-side functions.'
+url: /topics/redis-systems/index.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: REDIS / DATA SYSTEMS
+  body: REDIS / DATA SYSTEMS
+- id: BLOCK1
+  label: Redis Systems
+  body: Redis Systems
+- id: BLOCK2
+  label: 'Production notes on the parts of Redis that become interesting after GET
+    and SET: memory pressu'
+  body: 'Production notes on the parts of Redis that become interesting after GET
+    and SET: memory pressure, eviction semantics, hot keys, clustering, persistence,
+    Streams, failover, caching and atomic server-side logic.'
+- id: BLOCK3
+  label: REDIS SERIES
+  body: REDIS SERIES
+- id: BLOCK4
+  label: 10 articles
+  body: 10 articles
+lists:
+- key: LIST0
+  filter:
+    topic: redis-systems
+  style: cards
+template: cms/templates/pages/topics--redis-systems--index.tpl
+source: cms/templates/pages/topics--redis-systems--index.json
+links: []

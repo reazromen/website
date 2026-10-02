@@ -1,0 +1,216 @@
+title: index.html
+browser_title: Reaz Romen — Systems Architect
+description: Reaz Romen — systems architect working across Linux, telecom, embedded
+  devices, cloud infrastructure, RF and resilient communication systems.
+url: /index.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Good day. I’m Reaz Romen, a systems architect working across communication
+    systems, embedded de
+  body: Good day. I’m Reaz Romen, a systems architect working across communication
+    systems, embedded devices, and cloud infrastructure.
+- id: BLOCK1
+  label: 'Most of my work lives around Linux and telecom: SIP/RTP, WebRTC, FreeSWITCH,
+    signaling and medi'
+  body: 'Most of my work lives around Linux and telecom: SIP/RTP, WebRTC, FreeSWITCH,
+    signaling and media flows, enterprise dialers, Kubernetes, and AI telephony systems.
+    I like following the whole path—from an endpoint and signaling exchange to media,
+    routing, backend services, infrastructure, and observability.'
+- id: BLOCK2
+  label: I also work closer to the hardware with ESP32 firmware, real-time audio,
+    OTA, device fleets, an
+  body: I also work closer to the hardware with ESP32 firmware, real-time audio, OTA,
+    device fleets, and distributed systems. I’m a strong believer in Linux adoption
+    and in systems you can inspect, trace, debug, and actually understand.
+- id: BLOCK3
+  label: I read a lot, and Carl Sagan has probably influenced me more than any other
+    writer. That curios
+  body: I read a lot, and Carl Sagan has probably influenced me more than any other
+    writer. That curiosity about how things work is part of what pulled me toward
+    Linux and open systems in the first place.
+- id: BLOCK4
+  label: Lately I’ve been going further down the stack into RF and satellite signals,
+    Wi-Fi CSI, wireles
+  body: Lately I’ve been going further down the stack into RF and satellite signals,
+    Wi-Fi CSI, wireless PHY behavior, propagation, and Doppler. I’m also exploring
+    coastal climate intelligence using satellite, hydrological, and environmental
+    data.
+- id: BLOCK5
+  label: For fun, I’m experimenting with Reticulum over LoRa—low-bandwidth networking
+    and resilient comm
+  body: For fun, I’m experimenting with Reticulum over LoRa—low-bandwidth networking
+    and resilient communication without assuming normal Internet infrastructure is
+    always there.
+- id: BLOCK6
+  label: Selected work
+  body: Selected work
+- id: BLOCK7
+  label: Browse the complete work index
+  body: '[Browse the complete work index](/portfolio.html)'
+- id: BLOCK8
+  label: Recent writing
+  body: Recent writing
+- id: BLOCK9
+  label: Read all writing
+  body: '[Read all writing](/writing.html)'
+- id: BLOCK10
+  label: Areas I work across
+  body: Areas I work across
+- id: BLOCK11
+  label: About
+  body: About
+- id: BLOCK12
+  label: 'This is my personal engineering space: systems I''ve built, the failures
+    behind them, implementa'
+  body: 'This is my personal engineering space: systems I''ve built, the failures
+    behind them, implementation notes, and writing from the work itself.'
+- id: BLOCK13
+  label: Hardware
+  body: Hardware
+- id: BLOCK14
+  label: Firmware
+  body: Firmware
+- id: BLOCK15
+  label: Protocols
+  body: Protocols
+- id: BLOCK16
+  label: Networks
+  body: Networks
+- id: BLOCK17
+  label: Services
+  body: Services
+- id: BLOCK18
+  label: Infrastructure
+  body: Infrastructure
+- id: BLOCK19
+  label: Observability
+  body: Observability
+- id: BLOCK20
+  label: LOUP Connected Voice Device
+  body: LOUP Connected Voice Device
+- id: BLOCK21
+  label: ESP32-S3 firmware, real-time audio, SIP/RTP, provisioning, controls and OTA.
+  body: ESP32-S3 firmware, real-time audio, SIP/RTP, provisioning, controls and OTA.
+- id: BLOCK22
+  label: Embedded · Voice
+  body: Embedded · Voice
+- id: BLOCK23
+  label: Telephony / SIP / RTP Infrastructure
+  body: Telephony / SIP / RTP Infrastructure
+- id: BLOCK24
+  label: Signaling, media paths, PBX systems and cross-layer call debugging.
+  body: Signaling, media paths, PBX systems and cross-layer call debugging.
+- id: BLOCK25
+  label: Telephony
+  body: Telephony
+- id: BLOCK26
+  label: OTA Fleet Control Plane
+  body: OTA Fleet Control Plane
+- id: BLOCK27
+  label: Device identity, firmware artifacts, compatibility gates and rollout state.
+  body: Device identity, firmware artifacts, compatibility gates and rollout state.
+- id: BLOCK28
+  label: Infrastructure · Embedded
+  body: Infrastructure · Embedded
+- id: BLOCK29
+  label: Wi-Fi CSI Presence Sensing
+  body: Wi-Fi CSI Presence Sensing
+- id: BLOCK30
+  label: ESP32-S3 signal collection, calibration, feature extraction and operational
+    visualization.
+  body: ESP32-S3 signal collection, calibration, feature extraction and operational
+    visualization.
+- id: BLOCK31
+  label: RF · Data
+  body: RF · Data
+- id: BLOCK32
+  label: Git Became Part of the Voiceware Control Plane
+  body: Git Became Part of the Voiceware Control Plane
+- id: BLOCK33
+  label: When repository state became part of the runtime operating model.
+  body: When repository state became part of the runtime operating model.
+- id: BLOCK34
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK35
+  label: How Voiceware Grew From a Web-App Chart Into a Multi-Service Deployment Repository
+  body: How Voiceware Grew From a Web-App Chart Into a Multi-Service Deployment Repository
+- id: BLOCK36
+  label: Finding explicit workload boundaries instead of forcing one deployment shape.
+  body: Finding explicit workload boundaries instead of forcing one deployment shape.
+- id: BLOCK37
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK38
+  label: The Real Architecture Work Was Finding Voiceware's Runtime Boundaries
+  body: The Real Architecture Work Was Finding Voiceware's Runtime Boundaries
+- id: BLOCK39
+  label: Why process boundaries became deployment boundaries.
+  body: Why process boundaries became deployment boundaries.
+- id: BLOCK40
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK41
+  label: Embedded systems
+  body: Embedded systems
+- id: BLOCK42
+  label: ESP32-S3, firmware, audio codecs, device I/O, provisioning and OTA.
+  body: ESP32-S3, firmware, audio codecs, device I/O, provisioning and OTA.
+- id: BLOCK43
+  label: Real-time communications
+  body: Real-time communications
+- id: BLOCK44
+  label: SIP, SDP, RTP, PBX infrastructure and media-path debugging.
+  body: SIP, SDP, RTP, PBX infrastructure and media-path debugging.
+- id: BLOCK45
+  label: Infrastructure & platforms
+  body: Infrastructure & platforms
+- id: BLOCK46
+  label: Linux, containers, service orchestration, ingress and control planes.
+  body: Linux, containers, service orchestration, ingress and control planes.
+- id: BLOCK47
+  label: Observability & data
+  body: Observability & data
+- id: BLOCK48
+  label: Metrics, logs, traces, packet evidence, operational dashboards and sensing
+    pipelines.
+  body: Metrics, logs, traces, packet evidence, operational dashboards and sensing
+    pipelines.
+lists:
+- key: LIST0
+  filter:
+    all: true
+    limit: 3
+    featured_first: true
+  style: home
+template: cms/templates/pages/index.tpl
+source: cms/templates/pages/index.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK20}} {{RR_BLOCK21}} {{RR_BLOCK22}}'
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html
+- id: LINK1
+  label: '{{RR_BLOCK23}} {{RR_BLOCK24}} {{RR_BLOCK25}}'
+  url: /portfolio/voip-sip-rtp.html
+- id: LINK2
+  label: '{{RR_BLOCK26}} {{RR_BLOCK27}} {{RR_BLOCK28}}'
+  url: /portfolio/projects/ota-fleet-control-plane.html
+- id: LINK3
+  label: '{{RR_BLOCK29}} {{RR_BLOCK30}} {{RR_BLOCK31}}'
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html
+- id: LINK4
+  label: '{{RR_BLOCK32}} {{RR_BLOCK33}} {{RR_BLOCK34}}'
+  url: /posts/git-became-part-of-the-voiceware-control-plane.html
+- id: LINK5
+  label: '{{RR_BLOCK35}} {{RR_BLOCK36}} {{RR_BLOCK37}}'
+  url: /posts/how-voiceware-grew-from-a-web-app-chart-into-a-multi-service-deployment-repository.html
+- id: LINK6
+  label: '{{RR_BLOCK38}} {{RR_BLOCK39}} {{RR_BLOCK40}}'
+  url: /posts/the-real-architecture-work-was-finding-voiceware-s-runtime-boundaries.html
+- id: LINK7
+  label: About me
+  url: /about.html
+- id: LINK8
+  label: GitHub
+  url: https://github.com/reazromen

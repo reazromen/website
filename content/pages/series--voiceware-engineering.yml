@@ -1,0 +1,444 @@
+title: Voiceware Engineering
+browser_title: Voiceware Engineering — Reaz Romen
+description: An ordered engineering record of deployment boundaries, Helm, GitOps
+  and operational decisions in Voiceware.
+url: /series/voiceware-engineering.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: ARTICLE SERIES
+  body: ARTICLE SERIES
+- id: BLOCK1
+  label: Voiceware Engineering
+  body: Voiceware Engineering
+- id: BLOCK2
+  label: 'An ordered engineering record of deployment boundaries, Helm, GitOps and
+    operational decisions '
+  body: An ordered engineering record of deployment boundaries, Helm, GitOps and operational
+    decisions in Voiceware.
+- id: BLOCK3
+  label: 01. Voiceware Started With One Deployable Service, Not a “Platform”
+  body: 01. Voiceware Started With One Deployable Service, Not a “Platform”
+- id: BLOCK4
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK5
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK6
+  label: 02. How Voiceware Grew From a Web-App Chart Into a Multi-Service Deployment
+    Repository
+  body: 02. How Voiceware Grew From a Web-App Chart Into a Multi-Service Deployment
+    Repository
+- id: BLOCK7
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK8
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK9
+  label: 03. The Real Architecture Work Was Finding Voiceware’s Runtime Boundaries
+  body: 03. The Real Architecture Work Was Finding Voiceware’s Runtime Boundaries
+- id: BLOCK10
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK11
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK12
+  label: 04. Why I Kept Audio, Workers, Redis, Nginx, and the Web App Separate
+  body: 04. Why I Kept Audio, Workers, Redis, Nginx, and the Web App Separate
+- id: BLOCK13
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK14
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK15
+  label: 05. Git Became Part of the Voiceware Control Plane
+  body: 05. Git Became Part of the Voiceware Control Plane
+- id: BLOCK16
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK17
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK18
+  label: 06. What a “Deployment Platform” Meant in Voiceware
+  body: 06. What a “Deployment Platform” Meant in Voiceware
+- id: BLOCK19
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK20
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK21
+  label: 07. The Repository Layout That Made Voiceware Easier to Reason About
+  body: 07. The Repository Layout That Made Voiceware Easier to Reason About
+- id: BLOCK22
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK23
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK24
+  label: 08. Why Voiceware Needed More Than Docker Compose Thinking
+  body: 08. Why Voiceware Needed More Than Docker Compose Thinking
+- id: BLOCK25
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK26
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK27
+  label: 09. The Most Useful Artifact in Voiceware Was the Deployment History
+  body: 09. The Most Useful Artifact in Voiceware Was the Deployment History
+- id: BLOCK28
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK29
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK30
+  label: '10. From YAML Files to an Operating Model: The Voiceware Shift'
+  body: '10. From YAML Files to an Operating Model: The Voiceware Shift'
+- id: BLOCK31
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK32
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK33
+  label: '11. Deployment vs Service: The Two Kubernetes Objects Voiceware Needed First'
+  body: '11. Deployment vs Service: The Two Kubernetes Objects Voiceware Needed First'
+- id: BLOCK34
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK35
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK36
+  label: 12. Why the First Voiceware Web Service Used ClusterIP
+  body: 12. Why the First Voiceware Web Service Used ClusterIP
+- id: BLOCK37
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK38
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK39
+  label: 13. Why I Later Exposed Voiceware on NodePort 30080
+  body: 13. Why I Later Exposed Voiceware on NodePort 30080
+- id: BLOCK40
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK41
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK42
+  label: '14. Labels and Selectors: The Tiny Contract That Can Break an Entire Service'
+  body: '14. Labels and Selectors: The Tiny Contract That Can Break an Entire Service'
+- id: BLOCK43
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK44
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK45
+  label: 15. What replicaCount Really Means in a Voiceware Helm Chart
+  body: 15. What replicaCount Really Means in a Voiceware Helm Chart
+- id: BLOCK46
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK47
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK48
+  label: 16. Container Ports Are Documentation and a Runtime Contract
+  body: 16. Container Ports Are Documentation and a Runtime Contract
+- id: BLOCK49
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK50
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK51
+  label: 17. Why Chart.Name Was a Useful Naming Primitive
+  body: 17. Why Chart.Name Was a Useful Naming Primitive
+- id: BLOCK52
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK53
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK54
+  label: 18. The Trade-Off of Deploying Voiceware Into the default Namespace
+  body: 18. The Trade-Off of Deploying Voiceware Into the default Namespace
+- id: BLOCK55
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK56
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK57
+  label: 19. Internal Services vs External Services in Voiceware
+  body: 19. Internal Services vs External Services in Voiceware
+- id: BLOCK58
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK59
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK60
+  label: 20. A Kubernetes Service Can Be Healthy While the App Is Broken
+  body: 20. A Kubernetes Service Can Be Healthy While the App Is Broken
+- id: BLOCK61
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK62
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK63
+  label: 21. Why I Put Voiceware Runtime Knobs in values.yaml
+  body: 21. Why I Put Voiceware Runtime Knobs in values.yaml
+- id: BLOCK64
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK65
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK66
+  label: 22. Chart.yaml Is Small, but It Gives a Service an Identity
+  body: 22. Chart.yaml Is Small, but It Gives a Service an Identity
+- id: BLOCK67
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK68
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK69
+  label: '23. The Voiceware Service Template: Small YAML, Big Responsibility'
+  body: '23. The Voiceware Service Template: Small YAML, Big Responsibility'
+- id: BLOCK70
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK71
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK72
+  label: 24. The Voiceware Deployment Template and the Value of Boring Repetition
+  body: 24. The Voiceware Deployment Template and the Value of Boring Repetition
+- id: BLOCK73
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK74
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK75
+  label: 25. How a Missing Helm Value Turned Into a Nil-Pointer Problem
+  body: 25. How a Missing Helm Value Turned Into a Nil-Pointer Problem
+- id: BLOCK76
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK77
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK78
+  label: 26. Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+  body: 26. Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+- id: BLOCK79
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK80
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK81
+  label: 27. The Missing service.port Bug in celery-low
+  body: 27. The Missing service.port Bug in celery-low
+- id: BLOCK82
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK83
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK84
+  label: 28. The Missing celery.type Bug and What It Says About Configuration Contracts
+  body: 28. The Missing celery.type Bug and What It Says About Configuration Contracts
+- id: BLOCK85
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK86
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK87
+  label: 29. Rendering Safely When Some Voiceware Workers Are Optional
+  body: 29. Rendering Safely When Some Voiceware Workers Are Optional
+- id: BLOCK88
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK89
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK90
+  label: 30. When to Reuse a Helm Template and When to Fork It
+  body: 30. When to Reuse a Helm Template and When to Fork It
+- id: BLOCK91
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK92
+  label: '2026-09-18'
+  body: '2026-09-18'
+lists: []
+template: cms/templates/pages/series--voiceware-engineering.tpl
+source: cms/templates/pages/series--voiceware-engineering.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK3}} {{RR_BLOCK4}} {{RR_BLOCK5}}'
+  url: /posts/voiceware-started-with-one-deployable-service-not-a-platform.html
+- id: LINK1
+  label: '{{RR_BLOCK6}} {{RR_BLOCK7}} {{RR_BLOCK8}}'
+  url: /posts/how-voiceware-grew-from-a-web-app-chart-into-a-multi-service-deployment-repository.html
+- id: LINK2
+  label: '{{RR_BLOCK9}} {{RR_BLOCK10}} {{RR_BLOCK11}}'
+  url: /posts/the-real-architecture-work-was-finding-voiceware-s-runtime-boundaries.html
+- id: LINK3
+  label: '{{RR_BLOCK12}} {{RR_BLOCK13}} {{RR_BLOCK14}}'
+  url: /posts/why-i-kept-audio-workers-redis-nginx-and-the-web-app-separate.html
+- id: LINK4
+  label: '{{RR_BLOCK15}} {{RR_BLOCK16}} {{RR_BLOCK17}}'
+  url: /posts/git-became-part-of-the-voiceware-control-plane.html
+- id: LINK5
+  label: '{{RR_BLOCK18}} {{RR_BLOCK19}} {{RR_BLOCK20}}'
+  url: /posts/what-a-deployment-platform-meant-in-voiceware.html
+- id: LINK6
+  label: '{{RR_BLOCK21}} {{RR_BLOCK22}} {{RR_BLOCK23}}'
+  url: /posts/the-repository-layout-that-made-voiceware-easier-to-reason-about.html
+- id: LINK7
+  label: '{{RR_BLOCK24}} {{RR_BLOCK25}} {{RR_BLOCK26}}'
+  url: /posts/why-voiceware-needed-more-than-docker-compose-thinking.html
+- id: LINK8
+  label: '{{RR_BLOCK27}} {{RR_BLOCK28}} {{RR_BLOCK29}}'
+  url: /posts/the-most-useful-artifact-in-voiceware-was-the-deployment-history.html
+- id: LINK9
+  label: '{{RR_BLOCK30}} {{RR_BLOCK31}} {{RR_BLOCK32}}'
+  url: /posts/from-yaml-files-to-an-operating-model-the-voiceware-shift.html
+- id: LINK10
+  label: '{{RR_BLOCK33}} {{RR_BLOCK34}} {{RR_BLOCK35}}'
+  url: /posts/deployment-vs-service-the-two-kubernetes-objects-voiceware-needed-first.html
+- id: LINK11
+  label: '{{RR_BLOCK36}} {{RR_BLOCK37}} {{RR_BLOCK38}}'
+  url: /posts/why-the-first-voiceware-web-service-used-clusterip.html
+- id: LINK12
+  label: '{{RR_BLOCK39}} {{RR_BLOCK40}} {{RR_BLOCK41}}'
+  url: /posts/why-i-later-exposed-voiceware-on-nodeport-30080.html
+- id: LINK13
+  label: '{{RR_BLOCK42}} {{RR_BLOCK43}} {{RR_BLOCK44}}'
+  url: /posts/labels-and-selectors-the-tiny-contract-that-can-break-an-entire-service.html
+- id: LINK14
+  label: '{{RR_BLOCK45}} {{RR_BLOCK46}} {{RR_BLOCK47}}'
+  url: /posts/what-replicacount-really-means-in-a-voiceware-helm-chart.html
+- id: LINK15
+  label: '{{RR_BLOCK48}} {{RR_BLOCK49}} {{RR_BLOCK50}}'
+  url: /posts/container-ports-are-documentation-and-a-runtime-contract.html
+- id: LINK16
+  label: '{{RR_BLOCK51}} {{RR_BLOCK52}} {{RR_BLOCK53}}'
+  url: /posts/why-chart-name-was-a-useful-naming-primitive.html
+- id: LINK17
+  label: '{{RR_BLOCK54}} {{RR_BLOCK55}} {{RR_BLOCK56}}'
+  url: /posts/the-trade-off-of-deploying-voiceware-into-the-default-namespace.html
+- id: LINK18
+  label: '{{RR_BLOCK57}} {{RR_BLOCK58}} {{RR_BLOCK59}}'
+  url: /posts/internal-services-vs-external-services-in-voiceware.html
+- id: LINK19
+  label: '{{RR_BLOCK60}} {{RR_BLOCK61}} {{RR_BLOCK62}}'
+  url: /posts/a-kubernetes-service-can-be-healthy-while-the-app-is-broken.html
+- id: LINK20
+  label: '{{RR_BLOCK63}} {{RR_BLOCK64}} {{RR_BLOCK65}}'
+  url: /posts/why-i-put-voiceware-runtime-knobs-in-values-yaml.html
+- id: LINK21
+  label: '{{RR_BLOCK66}} {{RR_BLOCK67}} {{RR_BLOCK68}}'
+  url: /posts/chart-yaml-is-small-but-it-gives-a-service-an-identity.html
+- id: LINK22
+  label: '{{RR_BLOCK69}} {{RR_BLOCK70}} {{RR_BLOCK71}}'
+  url: /posts/the-voiceware-service-template-small-yaml-big-responsibility.html
+- id: LINK23
+  label: '{{RR_BLOCK72}} {{RR_BLOCK73}} {{RR_BLOCK74}}'
+  url: /posts/the-voiceware-deployment-template-and-the-value-of-boring-repetition.html
+- id: LINK24
+  label: '{{RR_BLOCK75}} {{RR_BLOCK76}} {{RR_BLOCK77}}'
+  url: /posts/how-a-missing-helm-value-turned-into-a-nil-pointer-problem.html
+- id: LINK25
+  label: '{{RR_BLOCK78}} {{RR_BLOCK79}} {{RR_BLOCK80}}'
+  url: /posts/conditional-helm-templates-are-powerful-and-easy-to-overcomplicate.html
+- id: LINK26
+  label: '{{RR_BLOCK81}} {{RR_BLOCK82}} {{RR_BLOCK83}}'
+  url: /posts/the-missing-service-port-bug-in-celery-low.html
+- id: LINK27
+  label: '{{RR_BLOCK84}} {{RR_BLOCK85}} {{RR_BLOCK86}}'
+  url: /posts/the-missing-celery-type-bug-and-what-it-says-about-configuration-contracts.html
+- id: LINK28
+  label: '{{RR_BLOCK87}} {{RR_BLOCK88}} {{RR_BLOCK89}}'
+  url: /posts/rendering-safely-when-some-voiceware-workers-are-optional.html
+- id: LINK29
+  label: '{{RR_BLOCK90}} {{RR_BLOCK91}} {{RR_BLOCK92}}'
+  url: /posts/when-to-reuse-a-helm-template-and-when-to-fork-it.html

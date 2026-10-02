@@ -1,0 +1,55 @@
+title: AI & Automation
+browser_title: AI & Automation — Reaz Romen
+description: AI systems, voice AI, retrieval, automation and control-plane integration.
+url: /domains/ai-automation.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: ENGINEERING DOMAIN
+  body: ENGINEERING DOMAIN
+- id: BLOCK1
+  label: AI & Automation
+  body: AI & Automation
+- id: BLOCK2
+  label: AI systems, voice AI, retrieval, automation and control-plane integration.
+  body: AI systems, voice AI, retrieval, automation and control-plane integration.
+- id: BLOCK3
+  label: AI systems, voice AI, retrieval, automation and control-plane integration.
+  body: AI systems, voice AI, retrieval, automation and control-plane integration.
+- id: BLOCK4
+  label: 0 projects · 2 pieces of writing
+  body: 0 projects · 2 pieces of writing
+- id: BLOCK5
+  label: GraphRAG Is Useful When the Question Is About Relationships, Not Similarity
+  body: GraphRAG Is Useful When the Question Is About Relationships, Not Similarity
+- id: BLOCK6
+  label: Vector retrieval is excellent when the answer lives near semantically similar
+    text. Graph-orien
+  body: Vector retrieval is excellent when the answer lives near semantically similar
+    text. Graph-oriented retrieval earns its cost when the answer depends on relationships,
+    communities, or evidence spread across multiple parts of a corpus.
+- id: BLOCK7
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK8
+  label: Voice AI Latency Is a Waterfall, Not One Number
+  body: Voice AI Latency Is a Waterfall, Not One Number
+- id: BLOCK9
+  label: A voice agent can report fast STT, fast LLM, and fast TTS while still feeling
+    slow because endp
+  body: A voice agent can report fast STT, fast LLM, and fast TTS while still feeling
+    slow because endpointing, network boundaries, tool calls, buffering, and playout
+    delays accumulate between those component timers.
+- id: BLOCK10
+  label: '2026-09-26'
+  body: '2026-09-26'
+lists: []
+template: cms/templates/pages/domains--ai-automation.tpl
+source: cms/templates/pages/domains--ai-automation.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK5}} {{RR_BLOCK6}} {{RR_BLOCK7}}'
+  url: /posts/graphrag-relationships-not-similarity.html
+- id: LINK1
+  label: '{{RR_BLOCK8}} {{RR_BLOCK9}} {{RR_BLOCK10}}'
+  url: /posts/voice-ai-latency-is-a-waterfall.html

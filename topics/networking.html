@@ -1,197 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
-  <meta name="author" content="Reaz Romen">
-  <link rel="author" href="../about.html">
-  <title>Networking — Reaz Romen — Systems Engineering</title>
-  <link rel="stylesheet" href="../static/css/site.css">
-<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability." name="description"/>
+<meta content="Reaz Romen" name="author"/>
+<link href="../about.html" rel="author"/>
+<title>Networking — Reaz Romen</title>
+<link href="../static/css/site.css" rel="stylesheet"/>
+<link href="/assets/site.css" rel="stylesheet"/><link href="/assets/sitewide-v2.css" rel="stylesheet"/><link href="/assets/phase1.css" rel="stylesheet"/><link href="/feed.xml" rel="alternate" title="Reaz Romen — Writing" type="application/rss+xml"/><link href="/atom.xml" rel="alternate" title="Reaz Romen — Writing" type="application/atom+xml"/><link href="/assets/responsive-v3.css" rel="stylesheet"/><link href="https://reazromen.com/topics/networking.html" rel="canonical"/></head>
 <body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
-
-<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
-<main id="rr-main" class="shell site-main">
-  
-    
-  
-  
+<header class="site-header rr-global-header"><div class="site-header-inner"><a aria-label="Reaz Romen home" class="brand" href="/">RR</a><nav aria-label="Main navigation" class="nav"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button aria-label="Search and quick navigation" class="icon-link search-action" data-open-command="" title="Search (Ctrl/⌘ K)" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg></button><a aria-label="GitHub" class="icon-link github-action" href="https://github.com/reazromen" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon icon-fill" viewbox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"></path></svg></a><button aria-label="Toggle color scheme" class="theme-toggle" onclick="toggleTheme()" type="button"><svg aria-hidden="true" class="icon" data-theme-icon="moon" viewbox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"></path></svg><svg aria-hidden="true" class="icon" data-theme-icon="sun" hidden="" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></svg></button></div></nav></div></header>
+<main class="shell site-main" id="rr-main">
 <section class="page-head"><p class="eyebrow">TOPIC</p><h1>Networking</h1><p class="lede">Lessons, explainers, experiments, and implementation notes.</p></section>
 <div class="post-list">
-  <article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/tailscale-direct-vs-derp.html">How I Read Tailscale Status: Direct Paths, Relays and What They Actually Tell Me</a></h3>
-  <p>A peer marked online is only the start. I also care whether the path is direct, relayed and stable enough for the workload.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Tailscale</span><span>DERP</span><span>NAT traversal</span><span>networking</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/tailscale-subnet-router-home-lan.html">How I Use a Tailscale Subnet Router to Reach Devices That Cannot Run Tailscale</a></h3>
-  <p>The tailnet can reach printers, embedded devices and LAN-only services without installing a Tailscale client on every endpoint.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Tailscale</span><span>subnet router</span><span>LAN</span><span>routing</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/tailscale-exit-node-vs-subnet-router.html">Exit Node or Subnet Router? I Choose Based on Which Traffic Must Move</a></h3>
-  <p>Both features route packets through another tailnet device, but they solve different problems.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Tailscale</span><span>exit node</span><span>subnet router</span><span>routing</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/tailscale-failure-drill.html">My Tailscale Failure Drill for a Home Server: Name, Peer, Policy, Port, Service</a></h3>
-  <p>I troubleshoot from the network boundary inward so I do not restart a healthy server because one naming or authorization layer failed.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Tailscale</span><span>troubleshooting</span><span>SSH</span><span>home server</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-dns-failure-dead-server.html">Local DNS Failure Can Look Like a Dead Server</a></h3>
-  <p>Test the known address before rebooting a host just because its name stopped resolving.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>DNS</span><span>mDNS</span><span>troubleshooting</span><span>network</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-tailscale-vs-ssh-policy.html">Tailscale Connectivity and Tailscale SSH Are Different Permissions</a></h3>
-  <p>A peer can be reachable over the tailnet while an SSH login is correctly denied by another policy layer.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Tailscale</span><span>SSH</span><span>ACL</span><span>access control</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-network-map-boundaries.html">A Network Map Should Show Boundaries Before Services</a></h3>
-  <p>Topology is most useful when it explains packet movement across gateways, hosts, overlays and ingress first.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>network map</span><span>topology</span><span>gateway</span><span>observability</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-default-route-fact.html">The Default Route Is a Fact, Not a UI Guess</a></h3>
-  <p>A topology view should consume routing state rather than infer a gateway from labels or layout.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>routing</span><span>default route</span><span>Linux</span><span>topology</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-name-failure-domain.html">Network Reliability Starts by Naming the Failure Domain</a></h3>
-  <p>Resolve the symptom into DNS, routing, transport, policy, ingress or application before changing configuration.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>troubleshooting</span><span>failure domain</span><span>network</span><span>operations</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 2 min read · Lab period 2021-08</p>
-  <h3><a href="../posts/dns-srv-made-sip-service-discovery-feel-less-hard-coded.html">DNS SRV Made SIP Service Discovery Feel Less Hard-Coded</a></h3>
-  <p>Using DNS SRV records showed me how SIP clients can discover service hosts and ports without baking one server address into every configuration.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>DNS</span><span>SIP</span><span>SRV</span><span>service discovery</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2019-04</p>
-  <h3><a href="../posts/first-ospf-lab-watching-routes-appear.html">My First OSPF Lab: Watching Routes Appear Instead of Typing Them</a></h3>
-  <p>OSPF became useful when I compared it directly with the static routes I had been maintaining by hand and watched neighbors and learned routes change with the topology.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CCNA</span><span>OSPF</span><span>routing</span><span>dynamic routing</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2019-01</p>
-  <h3><a href="../posts/spanning-tree-stopped-looking-weird-once-i-built-a-loop-on-purpose.html">Spanning Tree Stopped Looking Weird Once I Built a Loop on Purpose</a></h3>
-  <p>STP made more sense after I created the failure it is designed to prevent: a Layer 2 loop with no TTL to save the network.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CCNA</span><span>STP</span><span>switching</span><span>Ethernet</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2019-02</p>
-  <h3><a href="../posts/when-one-vlan-would-not-cross-the-trunk.html">When One VLAN Would Not Cross the Trunk</a></h3>
-  <p>A trunk can be up while one VLAN is still broken. That lab pushed me to verify allowed VLANs and operational state instead of assuming the link was simply good or bad.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CCNA</span><span>VLAN</span><span>trunking</span><span>troubleshooting</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2019-03</p>
-  <h3><a href="../posts/router-on-a-stick-first-clean-inter-vlan-routing-lab.html">Router-on-a-Stick Was My First Clean Inter-VLAN Routing Lab</a></h3>
-  <p>One router interface, an 802.1Q trunk and a few subinterfaces were enough to connect separate VLANs without hiding what was happening at Layer 2 and Layer 3.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CCNA</span><span>inter-VLAN routing</span><span>802.1Q</span><span>routing</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2019-05</p>
-  <h3><a href="../posts/nat-overload-made-more-sense-translation-table.html">NAT Overload Made More Sense When I Looked at the Translation Table</a></h3>
-  <p>PAT stopped feeling like a magic Internet-sharing feature once I watched inside local addresses, public translations and transport ports change in the NAT table.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CCNA</span><span>NAT</span><span>PAT</span><span>IPv4</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2019-06</p>
-  <h3><a href="../posts/the-acl-that-worked-perfectly-and-locked-me-out.html">The ACL That Worked Perfectly and Locked Me Out</a></h3>
-  <p>My first memorable ACL mistake was technically correct: it blocked exactly what I told it to block, including the management traffic I still needed.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CCNA</span><span>ACL</span><span>security</span><span>troubleshooting</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2018-01</p>
-  <h3><a href="../posts/why-subnetting-felt-hard-until-i-stopped-memorizing-tables.html">Why Subnetting Felt Hard Until I Stopped Memorizing Tables</a></h3>
-  <p>Subnetting became much easier once I treated it as address boundaries and binary arithmetic instead of a collection of shortcut tables.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CCNA</span><span>IPv4</span><span>subnetting</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2018-11</p>
-  <h3><a href="../posts/static-routing-in-a-three-router-lab.html">Static Routing in a Three-Router Lab</a></h3>
-  <p>A three-router topology is enough to show the most important routing lesson: reachability is directional, and the return path matters just as much as the forward path.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CCNA</span><span>routing</span><span>static route</span><span>IPv4</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2018-10</p>
-  <h3><a href="../posts/first-useful-wireshark-capture-arp-before-icmp.html">My First Useful Wireshark Capture: ARP Before ICMP</a></h3>
-  <p>Capturing a simple ping showed that the interesting packet often arrives before ICMP: ARP has to resolve the Layer 2 destination first.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Wireshark</span><span>ARP</span><span>ICMP</span><span>packet capture</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2018-09</p>
-  <h3><a href="../posts/ping-works-but-browser-does-not-separating-ip-dns-applications.html">Ping Works but the Browser Does Not: Separating IP, DNS and Applications</a></h3>
-  <p>Connectivity tests become useful only when each test is tied to a layer: local addressing, routing, DNS resolution, TCP reachability and the application itself.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>DNS</span><span>ICMP</span><span>TCP</span><span>troubleshooting</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2018-08</p>
-  <h3><a href="../posts/dhcp-is-more-than-automatic-ip.html">DHCP Is More Than Automatic IP</a></h3>
-  <p>DHCP is easier to troubleshoot when treated as a timed client-server exchange that delivers an address plus the parameters a host needs to participate in the network.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>DHCP</span><span>CCNA</span><span>UDP</span><span>broadcast</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2018-07</p>
-  <h3><a href="../posts/trunk-ports-the-part-of-vlans-i-initially-misunderstood.html">Trunk Ports: The Part of VLANs I Initially Misunderstood</a></h3>
-  <p>A trunk does not merge VLANs. It preserves multiple Layer 2 domains across one physical link by carrying VLAN identity with the frame.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CCNA</span><span>VLAN</span><span>802.1Q</span><span>trunking</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2018-06</p>
-  <h3><a href="../posts/vlans-made-sense-when-i-stopped-thinking-of-them-as-extra-networks.html">VLANs Made Sense When I Stopped Thinking of Them as Extra Networks</a></h3>
-  <p>A VLAN is first a Layer 2 boundary. IP subnets often map to VLANs, but keeping those two concepts separate makes switching and routing much easier to reason about.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CCNA</span><span>VLAN</span><span>switching</span><span>Ethernet</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2018-03</p>
-  <h3><a href="../posts/what-a-switch-actually-learns-from-a-mac-address.html">What a Switch Actually Learns from a MAC Address</a></h3>
-  <p>A switch learns from source MAC addresses, not destination addresses. Watching the table populate makes unknown unicast, flooding and forwarding much easier to reason about.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CCNA</span><span>Ethernet</span><span>switching</span><span>MAC</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="networking.html">Networking</a> · 3 min read · Lab period 2018-02</p>
-  <h3><a href="../posts/first-packet-tracer-lab-two-pcs-one-switch.html">My First Packet Tracer Lab: Two PCs, One Switch, No Magic</a></h3>
-  <p>A two-PC switch lab is simple enough to expose the actual sequence behind a successful ping: addressing, ARP, MAC learning and frame forwarding.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CCNA</span><span>Packet Tracer</span><span>Ethernet</span><span>ARP</span></div>
-</article>
+<article class="post-card"><p class="meta">Networking · 2 min read · 2026-09-18</p><h3><a href="/posts/tailscale-subnet-router-home-lan.html">How I Use a Tailscale Subnet Router to Reach Devices That Cannot Run Tailscale</a></h3><p>The tailnet can reach printers, embedded devices and LAN-only services without installing a Tailscale client on every endpoint.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tailscale.html">Tailscale</a><a data-pagefind-filter="tag" href="/tags/subnet-router.html">subnet router</a><a data-pagefind-filter="tag" href="/tags/lan.html">LAN</a><a data-pagefind-filter="tag" href="/tags/routing.html">routing</a></div></article>
+<article class="post-card"><p class="meta">Networking · 2 min read · 2026-09-18</p><h3><a href="/posts/tailscale-failure-drill.html">My Tailscale Failure Drill for a Home Server: Name, Peer, Policy, Port, Service</a></h3><p>I troubleshoot from the network boundary inward so I do not restart a healthy server because one naming or authorization layer failed.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tailscale.html">Tailscale</a><a data-pagefind-filter="tag" href="/tags/troubleshooting.html">troubleshooting</a><a data-pagefind-filter="tag" href="/tags/ssh.html">SSH</a><a data-pagefind-filter="tag" href="/tags/home-server.html">home server</a></div></article>
+<article class="post-card"><p class="meta">Networking · 2 min read · 2026-09-18</p><h3><a href="/posts/tailscale-exit-node-vs-subnet-router.html">Exit Node or Subnet Router? I Choose Based on Which Traffic Must Move</a></h3><p>Both features route packets through another tailnet device, but they solve different problems.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tailscale.html">Tailscale</a><a data-pagefind-filter="tag" href="/tags/exit-node.html">exit node</a><a data-pagefind-filter="tag" href="/tags/subnet-router.html">subnet router</a><a data-pagefind-filter="tag" href="/tags/routing.html">routing</a></div></article>
+<article class="post-card"><p class="meta">Networking · 2 min read · 2026-09-18</p><h3><a href="/posts/tailscale-direct-vs-derp.html">How I Read Tailscale Status: Direct Paths, Relays and What They Actually Tell Me</a></h3><p>A peer marked online is only the start. I also care whether the path is direct, relayed and stable enough for the workload.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tailscale.html">Tailscale</a><a data-pagefind-filter="tag" href="/tags/derp.html">DERP</a><a data-pagefind-filter="tag" href="/tags/nat-traversal.html">NAT traversal</a><a data-pagefind-filter="tag" href="/tags/networking.html">networking</a></div></article>
+<article class="post-card"><p class="meta">Networking · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-tailscale-vs-ssh-policy.html">Tailscale Connectivity and Tailscale SSH Are Different Permissions</a></h3><p>A peer can be reachable over the tailnet while an SSH login is correctly denied by another policy layer.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tailscale.html">Tailscale</a><a data-pagefind-filter="tag" href="/tags/ssh.html">SSH</a><a data-pagefind-filter="tag" href="/tags/acl.html">ACL</a><a data-pagefind-filter="tag" href="/tags/access-control.html">access control</a></div></article>
+<article class="post-card"><p class="meta">Networking · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-network-map-boundaries.html">A Network Map Should Show Boundaries Before Services</a></h3><p>Topology is most useful when it explains packet movement across gateways, hosts, overlays and ingress first.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/network-map.html">network map</a><a data-pagefind-filter="tag" href="/tags/topology.html">topology</a><a data-pagefind-filter="tag" href="/tags/gateway.html">gateway</a><a data-pagefind-filter="tag" href="/tags/observability.html">observability</a></div></article>
+<article class="post-card"><p class="meta">Networking · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-name-failure-domain.html">Network Reliability Starts by Naming the Failure Domain</a></h3><p>Resolve the symptom into DNS, routing, transport, policy, ingress or application before changing configuration.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/troubleshooting.html">troubleshooting</a><a data-pagefind-filter="tag" href="/tags/failure-domain.html">failure domain</a><a data-pagefind-filter="tag" href="/tags/network.html">network</a><a data-pagefind-filter="tag" href="/tags/operations.html">operations</a></div></article>
+<article class="post-card"><p class="meta">Networking · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-dns-failure-dead-server.html">Local DNS Failure Can Look Like a Dead Server</a></h3><p>Test the known address before rebooting a host just because its name stopped resolving.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/dns.html">DNS</a><a data-pagefind-filter="tag" href="/tags/mdns.html">mDNS</a><a data-pagefind-filter="tag" href="/tags/troubleshooting.html">troubleshooting</a><a data-pagefind-filter="tag" href="/tags/network.html">network</a></div></article>
+<article class="post-card"><p class="meta">Networking · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-default-route-fact.html">The Default Route Is a Fact, Not a UI Guess</a></h3><p>A topology view should consume routing state rather than infer a gateway from labels or layout.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/routing.html">routing</a><a data-pagefind-filter="tag" href="/tags/default-route.html">default route</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a><a data-pagefind-filter="tag" href="/tags/topology.html">topology</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/why-subnetting-felt-hard-until-i-stopped-memorizing-tables.html">Why Subnetting Felt Hard Until I Stopped Memorizing Tables</a></h3><p>Subnetting became much easier once I treated it as address boundaries and binary arithmetic instead of a collection of shortcut tables.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a><a data-pagefind-filter="tag" href="/tags/ipv4.html">IPv4</a><a data-pagefind-filter="tag" href="/tags/subnetting.html">subnetting</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/when-one-vlan-would-not-cross-the-trunk.html">When One VLAN Would Not Cross the Trunk</a></h3><p>A trunk can be up while one VLAN is still broken. That lab pushed me to verify allowed VLANs and operational state instead of assuming the link was simply good or bad.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a><a data-pagefind-filter="tag" href="/tags/vlan.html">VLAN</a><a data-pagefind-filter="tag" href="/tags/trunking.html">trunking</a><a data-pagefind-filter="tag" href="/tags/troubleshooting.html">troubleshooting</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/what-a-switch-actually-learns-from-a-mac-address.html">What a Switch Actually Learns from a MAC Address</a></h3><p>A switch learns from source MAC addresses, not destination addresses. Watching the table populate makes unknown unicast, flooding and forwarding much easier to reason about.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a><a data-pagefind-filter="tag" href="/tags/ethernet.html">Ethernet</a><a data-pagefind-filter="tag" href="/tags/switching.html">switching</a><a data-pagefind-filter="tag" href="/tags/mac.html">MAC</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/vlans-made-sense-when-i-stopped-thinking-of-them-as-extra-networks.html">VLANs Made Sense When I Stopped Thinking of Them as Extra Networks</a></h3><p>A VLAN is first a Layer 2 boundary. IP subnets often map to VLANs, but keeping those two concepts separate makes switching and routing much easier to reason about.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a><a data-pagefind-filter="tag" href="/tags/vlan.html">VLAN</a><a data-pagefind-filter="tag" href="/tags/switching.html">switching</a><a data-pagefind-filter="tag" href="/tags/ethernet.html">Ethernet</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/trunk-ports-the-part-of-vlans-i-initially-misunderstood.html">Trunk Ports: The Part of VLANs I Initially Misunderstood</a></h3><p>A trunk does not merge VLANs. It preserves multiple Layer 2 domains across one physical link by carrying VLAN identity with the frame.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a><a data-pagefind-filter="tag" href="/tags/vlan.html">VLAN</a><a data-pagefind-filter="tag" href="/tags/802-1q.html">802.1Q</a><a data-pagefind-filter="tag" href="/tags/trunking.html">trunking</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/the-acl-that-worked-perfectly-and-locked-me-out.html">The ACL That Worked Perfectly and Locked Me Out</a></h3><p>My first memorable ACL mistake was technically correct: it blocked exactly what I told it to block, including the management traffic I still needed.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a><a data-pagefind-filter="tag" href="/tags/acl.html">ACL</a><a data-pagefind-filter="tag" href="/tags/security.html">security</a><a data-pagefind-filter="tag" href="/tags/troubleshooting.html">troubleshooting</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/static-routing-in-a-three-router-lab.html">Static Routing in a Three-Router Lab</a></h3><p>A three-router topology is enough to show the most important routing lesson: reachability is directional, and the return path matters just as much as the forward path.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a><a data-pagefind-filter="tag" href="/tags/routing.html">routing</a><a data-pagefind-filter="tag" href="/tags/static-route.html">static route</a><a data-pagefind-filter="tag" href="/tags/ipv4.html">IPv4</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/spanning-tree-stopped-looking-weird-once-i-built-a-loop-on-purpose.html">Spanning Tree Stopped Looking Weird Once I Built a Loop on Purpose</a></h3><p>STP made more sense after I created the failure it is designed to prevent: a Layer 2 loop with no TTL to save the network.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a><a data-pagefind-filter="tag" href="/tags/stp.html">STP</a><a data-pagefind-filter="tag" href="/tags/switching.html">switching</a><a data-pagefind-filter="tag" href="/tags/ethernet.html">Ethernet</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/router-on-a-stick-first-clean-inter-vlan-routing-lab.html">Router-on-a-Stick Was My First Clean Inter-VLAN Routing Lab</a></h3><p>One router interface, an 802.1Q trunk and a few subinterfaces were enough to connect separate VLANs without hiding what was happening at Layer 2 and Layer 3.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a><a data-pagefind-filter="tag" href="/tags/inter-vlan-routing.html">inter-VLAN routing</a><a data-pagefind-filter="tag" href="/tags/802-1q.html">802.1Q</a><a data-pagefind-filter="tag" href="/tags/routing.html">routing</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/ping-works-but-browser-does-not-separating-ip-dns-applications.html">Ping Works but the Browser Does Not: Separating IP, DNS and Applications</a></h3><p>Connectivity tests become useful only when each test is tied to a layer: local addressing, routing, DNS resolution, TCP reachability and the application itself.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/dns.html">DNS</a><a data-pagefind-filter="tag" href="/tags/icmp.html">ICMP</a><a data-pagefind-filter="tag" href="/tags/tcp.html">TCP</a><a data-pagefind-filter="tag" href="/tags/troubleshooting.html">troubleshooting</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/nat-overload-made-more-sense-translation-table.html">NAT Overload Made More Sense When I Looked at the Translation Table</a></h3><p>PAT stopped feeling like a magic Internet-sharing feature once I watched inside local addresses, public translations and transport ports change in the NAT table.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a><a data-pagefind-filter="tag" href="/tags/nat.html">NAT</a><a data-pagefind-filter="tag" href="/tags/pat.html">PAT</a><a data-pagefind-filter="tag" href="/tags/ipv4.html">IPv4</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/first-useful-wireshark-capture-arp-before-icmp.html">My First Useful Wireshark Capture: ARP Before ICMP</a></h3><p>Capturing a simple ping showed that the interesting packet often arrives before ICMP: ARP has to resolve the Layer 2 destination first.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/wireshark.html">Wireshark</a><a data-pagefind-filter="tag" href="/tags/arp.html">ARP</a><a data-pagefind-filter="tag" href="/tags/icmp.html">ICMP</a><a data-pagefind-filter="tag" href="/tags/packet-capture.html">packet capture</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/first-packet-tracer-lab-two-pcs-one-switch.html">My First Packet Tracer Lab: Two PCs, One Switch, No Magic</a></h3><p>A two-PC switch lab is simple enough to expose the actual sequence behind a successful ping: addressing, ARP, MAC learning and frame forwarding.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a><a data-pagefind-filter="tag" href="/tags/packet-tracer.html">Packet Tracer</a><a data-pagefind-filter="tag" href="/tags/ethernet.html">Ethernet</a><a data-pagefind-filter="tag" href="/tags/arp.html">ARP</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/first-ospf-lab-watching-routes-appear.html">My First OSPF Lab: Watching Routes Appear Instead of Typing Them</a></h3><p>OSPF became useful when I compared it directly with the static routes I had been maintaining by hand and watched neighbors and learned routes change with the topology.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a><a data-pagefind-filter="tag" href="/tags/ospf.html">OSPF</a><a data-pagefind-filter="tag" href="/tags/routing.html">routing</a><a data-pagefind-filter="tag" href="/tags/dynamic-routing.html">dynamic routing</a></div></article>
+<article class="post-card"><p class="meta">Networking · 2 min read · 2026-09-14</p><h3><a href="/posts/dns-srv-made-sip-service-discovery-feel-less-hard-coded.html">DNS SRV Made SIP Service Discovery Feel Less Hard-Coded</a></h3><p>Using DNS SRV records showed me how SIP clients can discover service hosts and ports without baking one server address into every configuration.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/dns.html">DNS</a><a data-pagefind-filter="tag" href="/tags/sip.html">SIP</a><a data-pagefind-filter="tag" href="/tags/srv.html">SRV</a><a data-pagefind-filter="tag" href="/tags/service-discovery.html">service discovery</a></div></article>
+<article class="post-card"><p class="meta">Networking · 3 min read · 2026-09-14</p><h3><a href="/posts/dhcp-is-more-than-automatic-ip.html">DHCP Is More Than Automatic IP</a></h3><p>DHCP is easier to troubleshoot when treated as a timed client-server exchange that delivers an address plus the parameters a host needs to participate in the network.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/dhcp.html">DHCP</a><a data-pagefind-filter="tag" href="/tags/ccna.html">CCNA</a><a data-pagefind-filter="tag" href="/tags/udp.html">UDP</a><a data-pagefind-filter="tag" href="/tags/broadcast.html">broadcast</a></div></article>
 </div>
-
 </main>
 <footer class="shell site-footer">
-  <div>
-    <span class="status-dot"></span>
-    <strong>Reaz Romen — independent systems engineer.</strong>
-  </div>
-  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
-  <nav aria-label="Footer">
-    <a href="/topics.html">Topics</a>
-    <a href="/systems.html">Systems</a>
-    <a href="/archive.html">Archive</a>
-    <a href="/author/reaz-romen.html">Author record</a>
-  </nav>
+<div>
+<span class="status-dot"></span>
+<strong>Reaz Romen — independent systems engineer.</strong>
+</div>
+<p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+<nav aria-label="Footer"><a href="/tags.html">Tags</a></nav>
 </footer>
-<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog aria-label="Search and quick navigation" class="command-palette" data-pagefind-ignore="" id="command-palette">
 <div class="command-shell">
-<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-input-row"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input aria-label="Search site" autocomplete="off" id="command-input" placeholder="Search writing, work, topics…" type="search"/><button aria-label="Close" class="command-close" data-close-command="" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div>
 <div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
-<nav class="command-shortcuts" aria-label="Quick navigation">
+<nav aria-label="Quick navigation" class="command-shortcuts">
 <a href="/portfolio.html">Work <span>Projects and systems</span></a>
 <a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
 <a href="/domains/">Domains <span>Browse engineering areas</span></a>
@@ -199,7 +63,7 @@
 <a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
 <a href="/about.html">About <span>Background and approach</span></a>
 </nav>
-<div id="command-results" class="command-results" aria-live="polite"></div>
+<div aria-live="polite" class="command-results" id="command-results"></div>
 <div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
 </div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
 </html>

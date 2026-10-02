@@ -1,0 +1,24 @@
+title: Security & Identity
+browser_title: Security & Identity — Reaz Romen — Systems Engineering
+description: Systems engineering across embedded firmware, real-time communications,
+  Linux infrastructure, networking and observability.
+url: /topics/security-identity.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: TOPIC
+  body: TOPIC
+- id: BLOCK1
+  label: Security & Identity
+  body: Security & Identity
+- id: BLOCK2
+  label: Lessons, explainers, experiments, and implementation notes.
+  body: Lessons, explainers, experiments, and implementation notes.
+lists:
+- key: LIST0
+  filter:
+    topic: security-identity
+  style: cards
+template: cms/templates/pages/topics--security-identity.tpl
+source: cms/templates/pages/topics--security-identity.json
+links: []

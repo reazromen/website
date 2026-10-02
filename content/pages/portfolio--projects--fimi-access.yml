@@ -1,0 +1,567 @@
+title: Fimi Access
+browser_title: Fimi Access — Reaz Romen Portfolio
+description: Browser infrastructure workspace built from a pinned Termix base with
+  a custom Fimi brand layer, reproducible patch set, SSH agent integration and gateway
+  access.
+url: /portfolio/projects/fimi-access.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Apps & Control Planes / Built / deployed
+  body: Apps & Control Planes / Built / deployed
+- id: BLOCK1
+  label: Fimi Access
+  body: Fimi Access
+- id: BLOCK2
+  label: Browser infrastructure workspace built from a pinned Termix base with a custom
+    Fimi brand layer
+  body: Browser infrastructure workspace built from a pinned Termix base with a custom
+    Fimi brand layer, reproducible patch set, SSH agent integration and gateway access.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: Browser infrastructure workspace built from a pinned Termix base with a custom
+    Fimi brand layer
+  body: Browser infrastructure workspace built from a pinned Termix base with a custom
+    Fimi brand layer, reproducible patch set, SSH agent integration and gateway access.
+- id: BLOCK7
+  label: Created a reproducible branded browser infrastructure workspace from a pinned
+    Termix upstream r
+  body: Created a reproducible branded browser infrastructure workspace from a pinned
+    Termix upstream release.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Maintained the branding and behavior changes as a reviewable patch/overlay
+    instead of an untrac
+  body: Maintained the branding and behavior changes as a reviewable patch/overlay
+    instead of an untraceable fork.
+- id: BLOCK10
+  label: Integrated SSH-agent based access, gateway routing and Tailscale-reachable
+    target hosts.
+  body: Integrated SSH-agent based access, gateway routing and Tailscale-reachable
+    target hosts.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Browser -> Cloudflare/Caddy service gate -> Fimi Access application -> SSH
+    agent socket -> targ
+  body: Browser -> Cloudflare/Caddy service gate -> Fimi Access application -> SSH
+    agent socket -> target host.
+- id: BLOCK14
+  label: Upstream engine remains pinned and attributed; user-facing identity and selected
+    behavior are c
+  body: Upstream engine remains pinned and attributed; user-facing identity and selected
+    behavior are changed by the Fimi patch layer.
+- id: BLOCK15
+  label: Runtime keys, sessions and secrets remain outside Git.
+  body: Runtime keys, sessions and secrets remain outside Git.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Browser -> Cloudflare/Caddy service gate -> Fimi Access application ->
+    SSH agent socket -> t
+  body: '01
+
+
+    Browser -> Cloudflare/Caddy service gate -> Fimi Access application -> SSH agent
+    socket -> target host.'
+- id: BLOCK23
+  label: Browser -> Cloudflare/Caddy service gate -> Fimi Access application -> SSH
+    agent socket -> targ
+  body: Browser -> Cloudflare/Caddy service gate -> Fimi Access application -> SSH
+    agent socket -> target host.
+- id: BLOCK24
+  label: 02 Upstream engine remains pinned and attributed; user-facing identity and
+    selected behavior ar
+  body: '02
+
+
+    Upstream engine remains pinned and attributed; user-facing identity and selected
+    behavior are changed by the Fimi patch layer.'
+- id: BLOCK25
+  label: Upstream engine remains pinned and attributed; user-facing identity and selected
+    behavior are c
+  body: Upstream engine remains pinned and attributed; user-facing identity and selected
+    behavior are changed by the Fimi patch layer.
+- id: BLOCK26
+  label: 03 Runtime keys, sessions and secrets remain outside Git.
+  body: '03
+
+
+    Runtime keys, sessions and secrets remain outside Git.'
+- id: BLOCK27
+  label: Runtime keys, sessions and secrets remain outside Git.
+  body: Runtime keys, sessions and secrets remain outside Git.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Pinned upstream commit verification
+  body: Pinned upstream commit verification
+- id: BLOCK31
+  label: Patch/overlay reproducible build
+  body: Patch/overlay reproducible build
+- id: BLOCK32
+  label: Image build and scan
+  body: Image build and scan
+- id: BLOCK33
+  label: SSH-agent authentication
+  body: SSH-agent authentication
+- id: BLOCK34
+  label: Gateway/Tailscale target reachability
+  body: Gateway/Tailscale target reachability
+- id: BLOCK35
+  label: Metrics compatibility patch validation
+  body: Metrics compatibility patch validation
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — Derived from Termix 2.7.1; upstream authorship is preserved
+  body: —Derived from Termix 2.7.1; upstream authorship is preserved
+- id: BLOCK43
+  label: — Runtime keys/sessions remain outside Git
+  body: —Runtime keys/sessions remain outside Git
+- id: BLOCK44
+  label: — Internal protocol/schema names intentionally remain compatible
+  body: —Internal protocol/schema names intentionally remain compatible
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A browser-based SSH/infrastructure workspace with a reproducible customization
+    layer and preser
+  body: A browser-based SSH/infrastructure workspace with a reproducible customization
+    layer and preserved upstream attribution.
+- id: BLOCK48
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK49
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK50
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK51
+  label: TypeScript
+  body: TypeScript
+- id: BLOCK52
+  label: Docker
+  body: Docker
+- id: BLOCK53
+  label: SSH
+  body: SSH
+- id: BLOCK54
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK55
+  label: Caddy
+  body: Caddy
+- id: BLOCK56
+  label: Termix
+  body: Termix
+- id: BLOCK57
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK58
+  label: STATUS
+  body: STATUS
+- id: BLOCK59
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK60
+  label: AREA
+  body: AREA
+- id: BLOCK61
+  label: Apps & Control Planes
+  body: Apps & Control Planes
+- id: BLOCK62
+  label: STACK
+  body: STACK
+- id: BLOCK63
+  label: 6 documented technologies
+  body: 6 documented technologies
+- id: BLOCK64
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK65
+  label: 5 connected / bounded services
+  body: 5 connected / bounded services
+- id: BLOCK66
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: '01'
+  body: '01'
+- id: BLOCK69
+  label: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+  body: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+- id: BLOCK70
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK71
+  label: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+  body: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+- id: BLOCK72
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK73
+  label: Kubernetes Gateway API Is Not Just a New Ingress YAML
+  body: Kubernetes Gateway API Is Not Just a New Ingress YAML
+- id: BLOCK74
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK75
+  label: '02'
+  body: '02'
+- id: BLOCK76
+  label: '03'
+  body: '03'
+- id: BLOCK77
+  label: '02'
+  body: '02'
+- id: BLOCK78
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK79
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK80
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK81
+  label: '03'
+  body: '03'
+- id: BLOCK82
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK83
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK84
+  label: Browser
+  body: Browser
+- id: BLOCK85
+  label: →
+  body: →
+- id: BLOCK86
+  label: Cloudflare Tunnel
+  body: Cloudflare Tunnel
+- id: BLOCK87
+  label: →
+  body: →
+- id: BLOCK88
+  label: Caddy service gate
+  body: Caddy service gate
+- id: BLOCK89
+  label: →
+  body: →
+- id: BLOCK90
+  label: Fimi Access
+  body: Fimi Access
+- id: BLOCK91
+  label: →
+  body: →
+- id: BLOCK92
+  label: SSH agent socket
+  body: SSH agent socket
+- id: BLOCK93
+  label: →
+  body: →
+- id: BLOCK94
+  label: hserver / romen / fimi
+  body: hserver / romen / fimi
+- id: BLOCK95
+  label: '04'
+  body: '04'
+- id: BLOCK96
+  label: '01'
+  body: '01'
+- id: BLOCK97
+  label: TypeScript
+  body: TypeScript
+- id: BLOCK98
+  label: '02'
+  body: '02'
+- id: BLOCK99
+  label: Docker
+  body: Docker
+- id: BLOCK100
+  label: '03'
+  body: '03'
+- id: BLOCK101
+  label: SSH
+  body: SSH
+- id: BLOCK102
+  label: '04'
+  body: '04'
+- id: BLOCK103
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK104
+  label: '05'
+  body: '05'
+- id: BLOCK105
+  label: Caddy
+  body: Caddy
+- id: BLOCK106
+  label: '06'
+  body: '06'
+- id: BLOCK107
+  label: Termix
+  body: Termix
+- id: BLOCK108
+  label: '05'
+  body: '05'
+- id: BLOCK109
+  label: '06'
+  body: '06'
+- id: BLOCK110
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK111
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK112
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK113
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK114
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK115
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK116
+  label: '07'
+  body: '07'
+- id: BLOCK117
+  label: Fimi Access
+  body: Fimi Access
+- id: BLOCK118
+  label: ↔
+  body: ↔
+- id: BLOCK119
+  label: Termix upstream base
+  body: Termix upstream base
+- id: BLOCK120
+  label: ↔
+  body: ↔
+- id: BLOCK121
+  label: Cloudflare Tunnel
+  body: Cloudflare Tunnel
+- id: BLOCK122
+  label: ↔
+  body: ↔
+- id: BLOCK123
+  label: Caddy
+  body: Caddy
+- id: BLOCK124
+  label: ↔
+  body: ↔
+- id: BLOCK125
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK126
+  label: ↔
+  body: ↔
+- id: BLOCK127
+  label: SSH targets
+  body: SSH targets
+- id: BLOCK128
+  label: 08
+  body: 08
+- id: BLOCK129
+  label: '01'
+  body: '01'
+- id: BLOCK130
+  label: NOTE
+  body: NOTE
+- id: BLOCK131
+  label: Brand patch
+  body: Brand patch
+- id: BLOCK132
+  label: '02'
+  body: '02'
+- id: BLOCK133
+  label: NOTE
+  body: NOTE
+- id: BLOCK134
+  label: Overlay assets
+  body: Overlay assets
+- id: BLOCK135
+  label: '03'
+  body: '03'
+- id: BLOCK136
+  label: NOTE
+  body: NOTE
+- id: BLOCK137
+  label: Dockerfile
+  body: Dockerfile
+- id: BLOCK138
+  label: '04'
+  body: '04'
+- id: BLOCK139
+  label: NOTE
+  body: NOTE
+- id: BLOCK140
+  label: Build script
+  body: Build script
+- id: BLOCK141
+  label: '05'
+  body: '05'
+- id: BLOCK142
+  label: NOTE
+  body: NOTE
+- id: BLOCK143
+  label: SSH agent sidecar
+  body: SSH agent sidecar
+- id: BLOCK144
+  label: '06'
+  body: '06'
+- id: BLOCK145
+  label: NOTE
+  body: NOTE
+- id: BLOCK146
+  label: License/attribution preservation
+  body: License/attribution preservation
+- id: BLOCK147
+  label: 09
+  body: 09
+- id: BLOCK148
+  label: '10'
+  body: '10'
+- id: BLOCK149
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK150
+  label: OTA Fleet Control Plane
+  body: OTA Fleet Control Plane
+- id: BLOCK151
+  label: Next project →
+  body: Next project →
+- id: BLOCK152
+  label: Content Studio
+  body: Content Studio
+lists: []
+template: cms/templates/pages/portfolio--projects--fimi-access.tpl
+source: cms/templates/pages/portfolio--projects--fimi-access.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio/projects/fimi-access.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/fimi-access.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/fimi-access.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/fimi-access.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/fimi-access.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/fimi-access.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/fimi-access.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/fimi-access.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/fimi-access.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/fimi-access.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/fimi-access.html#result
+- id: LINK16
+  label: '{{RR_BLOCK69}} {{RR_BLOCK70}}'
+  url: /posts/ebpf-xdp-verifier-operational-safety.html
+- id: LINK17
+  label: '{{RR_BLOCK71}} {{RR_BLOCK72}}'
+  url: /posts/http3-quic-enterprise-inspection-assumptions.html
+- id: LINK18
+  label: '{{RR_BLOCK73}} {{RR_BLOCK74}}'
+  url: /posts/kubernetes-gateway-api-not-new-ingress-yaml.html
+- id: LINK19
+  label: '{{RR_BLOCK149}} {{RR_BLOCK150}}'
+  url: /portfolio/projects/ota-fleet-control-plane.html
+- id: LINK20
+  label: '{{RR_BLOCK151}} {{RR_BLOCK152}}'
+  url: /portfolio/projects/content-studio.html

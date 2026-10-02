@@ -1,425 +1,257 @@
-#!/usr/bin/env python3
-from __future__ import annotations
+"""Deterministic CMS renderer. Validate every record before changing public output."""
+from cms_common import *
+from datetime import datetime, timezone
+from email.utils import format_datetime
+from collections import defaultdict
+import xml.etree.ElementTree as ET
 
-import html
-import re
-import sys
-from dataclasses import dataclass
-from pathlib import Path
+SECTIONS=('writing','perspectives','music','bangla')
 
-import yaml
+def load_all():
+    tax={k:{} for k in ('tags','topics')}
+    for k in tax:
+        for p in sorted((CONTENT/k).glob('*.md')):
+            m,b=read_doc(p);ident=m.get('id') or p.stem
+            if ident in tax[k] or '/' in ident or not m.get('title'):raise ValueError('Invalid taxonomy: '+str(p))
+            m.update(id=ident,body=b);tax[k][ident]=m
+    entries=[];owned={}
+    def own(url,source):
+        target(url)
+        if url in owned:raise ValueError('Duplicate output '+url+' in '+source+' and '+owned[url])
+        owned[url]=source
+    for section in SECTIONS:
+        for p in sorted((CONTENT/section).glob('*.md')):
+            m,b=read_doc(p);m.update(section=section,body=b,source_file=str(p.relative_to(ROOT)))
+            if not m.get('title') or not b:raise ValueError('Missing title/body: '+str(p))
+            m['url']=m.get('url') or '/posts/'+p.stem+'.html'; m['tags']=m.get('tags') or [];m['topic']=m.get('topic') or ''
+            if m['topic'] and m['topic'] not in tax['topics']:raise ValueError('Unknown topic '+m['topic']+' in '+str(p))
+            if not isinstance(m['tags'],list) or any(t not in tax['tags'] for t in m['tags']):raise ValueError('Unknown tag in '+str(p))
+            if m.get('date'):datetime.fromisoformat(str(m['date']).replace('Z','+00:00'))
+            if int(m.get('read_time',1))<1:raise ValueError('Reading time must be positive')
+            urls={m['url']}|{o['url'] for o in m.get('outputs',[])}
+            for url in urls:own(url,str(p))
+            for o in m.get('outputs',[]):
+                for key in ('template','source'):
+                    f=(ROOT/o[key]).resolve()
+                    if not f.is_relative_to(TEMPLATES.resolve()) or not f.is_file():raise ValueError('Missing/unsafe template '+str(f))
+            entries.append(m)
+    pages=[]
+    for p in sorted((CONTENT/'pages').glob('*.yml')):
+        m=yaml.safe_load(p.read_text());m.setdefault('url','/'+p.stem+'.html')
+        own(m['url'],str(p));pages.append(m)
+        if m.get('template'):
+            for key in ('template','source'):
+                f=(ROOT/m[key]).resolve()
+                if not f.is_relative_to(TEMPLATES.resolve()) or not f.is_file():raise ValueError('Invalid page template '+str(f))
+            ids=[x['id'] for x in m.get('blocks',[])]
+            if len(ids)!=len(set(ids)):raise ValueError('Duplicate page block: '+str(p))
+    nav=yaml.safe_load((CONTENT/'site/navigation.yml').read_text())
+    def checklink(x):
+        href=x.get('href','')
+        if href and not re.match(r'^(https?://|mailto:|tel:|/|#)',href):raise ValueError('Unsafe navigation URL '+href)
+        for child in x.get('children',[]):checklink(child)
+    for key in ('main','footer'):
+        for x in nav.get(key,[]):checklink(x)
+    entries.sort(key=lambda m:(str(m.get('date','')),m['url']),reverse=True)
+    return entries,pages,tax,nav,owned
 
-try:
-    import markdown
-except ImportError:
-    print("Missing Python package: markdown", file=sys.stderr)
-    raise
+def label(tax,kind,ident):return tax[kind].get(ident,{}).get('title',ident)
+def tags_html(m,tax):
+    return ''.join('<a data-pagefind-filter="tag" href="/tags/'+esc(t)+'.html">'+esc(label(tax,'tags',t))+'</a>' for t in m.get('tags',[]))
+def post_values(m,tax,body):
+    topic=m.get('topic','')
+    return {'BODY':body,'TITLE':esc(m['title']),'EXCERPT':esc(m.get('excerpt','')),'EYEBROW':esc(m.get('eyebrow') or label(tax,'topics',topic) or m['section'].title()),'TAGS':tags_html(m,tax),'TOPIC_URL':'/topics/'+esc(topic)+'.html' if topic else '/topics.html','TOPIC_TITLE':esc(label(tax,'topics',topic)),'DATE':'Published '+esc(m.get('date','')),'READ':str(int(m.get('read_time',1)))+' min read','ALBUM_YEAR':esc(' · '.join(str(m.get(k,'')) for k in ('album','year') if m.get(k))),'BROWSER_TITLE':esc(m['title'])+' — Reaz Romen','DESCRIPTION':esc(m.get('description') or m.get('excerpt',''))}
 
-ROOT = Path(__file__).resolve().parents[1]
-CONTENT = ROOT / "content"
-POSTS = ROOT / "posts"
-GEN_MARKER = "<!-- RR-CMS-GENERATED:v1 -->"
+def shell(title,body,description='',lang='en'):
+    # Reuse the original site chrome and monochrome technical icons.
+    base=soup((ROOT/'cms/shell.tpl').read_text())
+    main=base.find('main');main.clear();main.append(soup(body))
+    base.html['lang']=lang
+    if base.title:base.title.string=title+' — Reaz Romen'
+    d=base.select_one('meta[name="description"]')
+    if d:d['content']=description
+    for n in base.select('meta[data-pagefind-filter],meta[data-pagefind-meta]'):n.decompose()
+    return str(base)
 
-@dataclass
-class Entry:
-    section: str
-    slug: str
-    meta: dict
-    body_md: str
+def new_post(m,tax):
+    body=render_md(m['body'])
+    image=m.get('cover_image')
+    cover=f'<figure><img src="{esc(image)}" alt="{esc(m.get("cover_alt",""))}" loading="lazy"></figure>' if image else ''
+    return shell(m['title'],f'<article class="article" data-pagefind-body><p class="eyebrow">{esc(m["section"].title())}</p><h1>{esc(m["title"])}</h1><p class="lede">{esc(m.get("excerpt",""))}</p><div class="article-meta"><span>Published {esc(m.get("date",""))}</span><span>{int(m.get("read_time",1))} min read</span></div><div class="tags">{tags_html(m,tax)}</div>{cover}<div class="prose">{body}</div></article>',m.get('excerpt',''),m.get('language','en'))
 
-    @property
-    def title(self):
-        return str(self.meta.get("title", "")).strip()
+def card(m,tax,style='cards',index=1):
+    if style=='home':
+        return f'<a class="index-row" href="{esc(m["url"])}"><span class="index-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 3h16v18H4zM8 8h8M8 12h8M8 16h5"/></svg></span><div><strong>{esc(m["title"])}</strong><span>{esc(m.get("excerpt",""))}</span></div><span class="row-meta">{esc(m.get("date",""))}</span></a>'
+    if style=='music':
+        detail=' · '.join(str(m.get(k,'')) for k in ('artist','album') if m.get(k))
+        return f'<a class="music-bridge-link" href="{esc(m["url"])}"><span class="index">{index:02d}</span><strong>{esc(m["title"])}</strong><span>{esc(detail)} · {int(m.get("read_time",1))} MIN →</span></a>'
+    if style=='table':return f'<tr><td>{index}</td><td><a href="{esc(m["url"])}">{esc(m["title"])}</a></td><td>{esc(m.get("album",""))}</td><td>{esc(m.get("year",""))}</td></tr>'
+    return f'<article class="post-card"><p class="meta">{esc(label(tax,"topics",m.get("topic","")) or m["section"].title())} · {int(m.get("read_time",1))} min read · {esc(m.get("date",""))}</p><h3><a href="{esc(m["url"])}">{esc(m["title"])}</a></h3><p>{esc(m.get("excerpt",""))}</p><div class="tags">{tags_html(m,tax)}</div></article>'
 
-    @property
-    def excerpt(self):
-        return str(self.meta.get("excerpt", "")).strip()
+def select(entries,rule):
+    result=[]
+    for m in entries:
+        if m.get('draft'):continue
+        if 'urls' in rule and not ({m['url']}|{x['url'] for x in m.get('outputs',[])})&set(rule['urls']):continue
+        if 'section' in rule and m['section'] not in (rule['section'] if isinstance(rule['section'],list) else [rule['section']]):continue
+        if 'topic' in rule and m.get('topic')!=rule['topic']:continue
+        if 'tag' in rule and rule['tag'] not in m.get('tags',[]):continue
+        if 'artist' in rule and m.get('artist')!=rule['artist']:continue
+        if 'kind' in rule and m.get('kind','song')!=rule['kind']:continue
+        result.append(m)
+    if rule.get('featured_first'):result.sort(key=lambda x:not x.get('featured',False))
+    return result[:int(rule.get('limit',len(result)))]
 
-    @property
-    def date(self):
-        return str(self.meta.get("date", "")).split("T", 1)[0]
+def render_page(m,entries,tax):
+    if not m.get('template'):
+        return shell(m['title'],'<article class="article" data-pagefind-body><h1>'+esc(m['title'])+'</h1><div class="prose">'+render_md(m.get('body',''))+'</div></article>',m.get('description',''))
+    template=(ROOT/m['template']).read_text();sources=json.loads((ROOT/m['source']).read_text());values={}
+    # Blocks are stable template locations. Removed blocks become empty, never leak slot markers.
+    for ident,source in sources.items():values[ident]=''
+    for b in m.get('blocks',[]):
+        source=sources.get(b['id']);rendered=original_or_md(b.get('body',''),source)
+        if source and source.get('inline') and rendered.startswith('<p>') and rendered.endswith('</p>') and rendered.count('<p>')==1:rendered=rendered[3:-4]
+        values[b['id']]=rendered
+    for listing in m.get('lists',[]):
+        rows=select(entries,listing['filter']);values[listing['key']]='\n'.join(card(x,tax,listing.get('style','cards'),i+1) for i,x in enumerate(rows))
+    for item in m.get('links',[]):
+        href=item.get('url','')
+        if not re.match(r'^(https?://|mailto:|tel:|/|#)',href):raise ValueError('Unsafe page link '+href)
+        values[item['id']]=esc(href)
+    rendered=fill(template,values);s=soup(rendered)
+    if s.title:s.title.string=m.get('browser_title') or m['title']+' — Reaz Romen'
+    d=s.select_one('meta[name="description"]')
+    if d:d['content']=m.get('description','')
+    return html_string(s)
 
-    @property
-    def read_time(self):
-        try:
-            return int(self.meta.get("read_time", 6))
-        except Exception:
-            return 6
+def link(item,current):
+    if item.get('enabled',True) is False:return ''
+    href=item.get('href','');children=item.get('children',[]);name=esc(item.get('label',''))
+    attr=' aria-current="page"' if route(href)==current else ''
+    lang=' lang="'+esc(item['lang'])+'"' if item.get('lang') else ''
+    a=f'<a href="{esc(href)}"{attr}{lang}>{name}</a>' if href else ''
+    if children:return f'<details class="nav-group"><summary>{name}</summary><div class="nav-submenu">{a}{"".join(link(x,current) for x in children)}</div></details>'
+    return a
 
-    @property
-    def tags(self):
-        value = self.meta.get("tags") or []
-        if isinstance(value, str):
-            return [x.strip() for x in value.split(",") if x.strip()]
-        return [str(x).strip() for x in value if str(x).strip()]
+def finalize(raw,url,nav,entry=None,tax=None):
+    s=soup(raw)
+    for n in s.select('.rr-global-header .nav-scroll,.rr-global-header .nav-right'):
+        n.clear();n.append(soup(''.join(link(x,url) for x in nav.get('main',[]))))
+    for n in s.select('footer nav'):
+        n.clear();n.append(soup(''.join(link(x,url) for x in nav.get('footer',[]))))
+    canonical=s.select_one('link[rel="canonical"]')
+    if not canonical:canonical=s.new_tag('link',rel='canonical');s.head.append(canonical)
+    canonical['href']='https://reazromen.com'+url
+    if entry:
+        s.html['lang']=entry.get('language','en')
+        article=s.select_one('main article')
+        if article:article['data-pagefind-body']=''
+        if entry.get('cover_image'):
+            article=s.select_one('main article');body=article.select_one('.prose') if article else None
+            if body and not article.select_one('figure.cms-cover'):
+                figure=s.new_tag('figure',attrs={'class':'cms-cover'});img=s.new_tag('img',src=entry['cover_image'],alt=entry.get('cover_alt',''));figure.append(img);body.insert_before(figure)
+            og=s.select_one('meta[property="og:image"]')
+            if not og:og=s.new_tag('meta',property='og:image');s.head.append(og)
+            og['content']=urljoin('https://reazromen.com'+url,entry['cover_image'])
+        for n in s.select('meta[data-pagefind-filter="tag[content]"],meta[data-pagefind-filter="topic[content]"]'):n.decompose()
+        for kind,ids in [('tag',entry.get('tags',[])),('topic',[entry['topic']] if entry.get('topic') else [])]:
+            for ident in ids:
+                n=s.new_tag('meta');n['data-pagefind-filter']=kind+'[content]';n['content']=label(tax,kind+'s',ident);s.head.append(n)
+        for prop,val in [('og:title',entry['title']),('og:description',entry.get('excerpt','')),('og:url','https://reazromen.com'+url)]:
+            n=s.select_one('meta[property="'+prop+'"]')
+            if not n:n=s.new_tag('meta',property=prop);s.head.append(n)
+            n['content']=val
+    if '{{RR_' in str(s):raise ValueError('Unresolved template slot at '+url)
+    return html_string(s)
 
-    @property
-    def draft(self):
-        return bool(self.meta.get("draft", False))
+def main():
+    entries,pages,tax,nav,owned=load_all(); outputs={};public=[m for m in entries if not m.get('draft')]
+    for m in public:
+        legacy=m.get('outputs',[])
+        if legacy:
+            for o in legacy:
+                source=json.loads((ROOT/o['source']).read_text())
+                rendered=fill((ROOT/o['template']).read_text(),post_values(m,tax,original_or_md(m['body'],source)))
+                outputs[o['url']]=finalize(rendered,m['url'],nav,m,tax)
+            if m['url'] not in outputs:outputs[m['url']]=outputs[legacy[0]['url']]
+        else:outputs[m['url']]=finalize(new_post(m,tax),m['url'],nav,m,tax)
+    for m in pages:
+        if m['url'].startswith('/topics/'):
+            ident=Path(m['url']).stem if not m['url'].endswith('/index.html') else Path(m['url']).parent.name
+            if ident not in tax['topics']:continue
+        if not m.get('draft'):
+            raw=render_page(m,entries,tax)
+            if not m.get('lists'):
+                s=soup(raw)
+                if s.find('main'):s.find('main')['data-pagefind-body']=''
+                raw=html_string(s)
+            outputs[m['url']]=finalize(raw,m['url'],nav)
+    for kind in ('topics','tags'):
+        for ident,t in tax[kind].items():
+            url='/'+kind+'/'+ident+'.html';rows=select(entries,{kind[:-1]:ident})
+            if url in outputs:
+                s=soup(outputs[url]);h=s.select_one('main h1')
+                if h:h.string=t['title']
+                if s.title:s.title.string=t['title']+' — Reaz Romen'
+                if t.get('description'):
+                    lead=s.select_one('main .lede')
+                    if lead:lead.string=t['description']
+                if t.get('body'):
+                    main=s.find('main');intro=s.new_tag('div',attrs={'class':'prose'});intro.append(soup(render_md(t['body'])))
+                    if h:h.insert_after(intro)
+                    elif main:main.insert(0,intro)
+                outputs[url]=str(s)
+            else:
+                body='<h1>'+esc(t['title'])+'</h1><div class="prose">'+render_md(t.get('body') or t.get('description',''))+'</div><div class="post-list editorial-list">'+''.join(card(x,tax) for x in rows)+'</div>'
+                outputs[url]=finalize(shell(t['title'],body,t.get('description','')),url,nav)
+            for alias in t.get('aliases',[]):
+                target(alias)
+                if alias in owned and alias!=url:raise ValueError('Taxonomy alias collision: '+alias)
+                outputs[alias]=redirect(url)
+        url='/'+kind+'.html'
+        body='<h1>'+kind.title()+'</h1><div class="post-list editorial-list">'+''.join('<article class="post-card"><h2><a href="/'+kind+'/'+esc(ident)+'.html">'+esc(t['title'])+'</a></h2><p>'+esc(t.get('description',''))+'</p><p>'+str(len(select(entries,{kind[:-1]:ident})))+' posts</p></article>' for ident,t in sorted(tax[kind].items(),key=lambda x:x[1]['title'].casefold()))+'</div>'
+        outputs[url]=finalize(shell(kind.title(),body),url,nav)
+    # No mutations happen above this line. All output collisions are detected first.
+    previous_path=ROOT/'cms/generated-manifest.json'
+    if previous_path.exists():previous=json.loads(previous_path.read_text())
+    else:previous=list(json.loads((CONTENT/'migration.json').read_text())['posts'])
+    for url in set(previous)-set(outputs):
+        p=target(url)
+        if p.exists():p.unlink()
+    for url,raw in outputs.items():
+        p=target(url);p.parent.mkdir(parents=True,exist_ok=True)
+        if not p.exists() or p.read_text()!=raw:p.write_text(raw)
+    previous_path.write_text(json.dumps(sorted(outputs),ensure_ascii=False,indent=2)+'\n')
+    (ROOT/'assets/navigation.json').write_text(json.dumps(nav,ensure_ascii=False,indent=2)+'\n')
+    import os,subprocess
+    commit=os.environ.get('GITHUB_SHA') or subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
+    (ROOT/'build-info.json').write_text(json.dumps({'commit':commit,'posts':len(public),'pages':len(pages),'topics':len(tax['topics']),'tags':len(tax['tags'])})+'\n')
+    feeds(public,outputs)
+    print(json.dumps({'published_posts':len(public),'drafts':len(entries)-len(public),'pages':len(pages),'topics':len(tax['topics']),'tags':len(tax['tags']),'output_urls':len(outputs)},ensure_ascii=False))
 
+def redirect(url):return '<!doctype html><html><head><meta http-equiv="refresh" content="0;url='+esc(url)+'"><link rel="canonical" href="https://reazromen.com'+esc(url)+'"></head><body><a href="'+esc(url)+'">Continue</a></body></html>'
 
-def load_entry(path: Path, section: str) -> Entry:
-    text = path.read_text(encoding="utf-8")
-    match = re.match(r"^---\s*\n(.*?)\n---\s*\n?(.*)$", text, re.S)
-    if not match:
-        raise ValueError(f"{path}: expected YAML front matter")
-    meta = yaml.safe_load(match.group(1)) or {}
-    if not isinstance(meta, dict):
-        raise ValueError(f"{path}: front matter must be a mapping")
-    entry = Entry(section=section, slug=path.stem, meta=meta, body_md=match.group(2).strip())
-    for required in ("title", "date", "excerpt"):
-        if not str(meta.get(required, "")).strip():
-            raise ValueError(f"{path}: missing {required}")
-    return entry
+def feeds(entries,outputs):
+    feed={'version':'https://jsonfeed.org/version/1.1','title':'Reaz Romen — Writing','home_page_url':'https://reazromen.com','feed_url':'https://reazromen.com/feed.json','items':[]}
+    rss=ET.Element('rss',version='2.0');channel=ET.SubElement(rss,'channel')
+    for k,v in [('title','Reaz Romen — Writing'),('link','https://reazromen.com'),('description','Articles and listening notes')]:ET.SubElement(channel,k).text=v
+    atom=ET.Element('feed',xmlns='http://www.w3.org/2005/Atom');ET.SubElement(atom,'title').text='Reaz Romen — Writing';ET.SubElement(atom,'id').text='https://reazromen.com/'
+    ET.SubElement(atom,'link',href='https://reazromen.com/atom.xml',rel='self')
+    for m in entries[:100]:
+        url='https://reazromen.com'+m['url'];item={'id':url,'url':url,'title':m['title'],'content_html':render_md(m['body']),'summary':m.get('excerpt',''),'tags':m.get('tags',[])}
+        date=str(m.get('date',''))[:10]
+        if date:item['date_published']=date+'T00:00:00+06:00'
+        feed['items'].append(item)
+        r=ET.SubElement(channel,'item')
+        for k,v in [('title',m['title']),('link',url),('guid',url),('description',m.get('excerpt',''))]:ET.SubElement(r,k).text=v
+        if date:ET.SubElement(r,'pubDate').text=format_datetime(datetime.fromisoformat(date).replace(tzinfo=timezone.utc))
+        a=ET.SubElement(atom,'entry');ET.SubElement(a,'title').text=m['title'];ET.SubElement(a,'id').text=url;ET.SubElement(a,'link',href=url)
+        ET.SubElement(a,'updated').text=(date or '2026-10-02')+'T00:00:00Z';ET.SubElement(a,'summary').text=m.get('excerpt','')
+    ET.SubElement(atom,'updated').text=(str(entries[0].get('date',''))[:10] or '2026-10-02')+'T00:00:00Z' if entries else '2026-10-02T00:00:00Z'
+    (ROOT/'feed.json').write_text(json.dumps(feed,ensure_ascii=False,indent=2)+'\n')
+    for filename,tree in [('feed.xml',rss),('atom.xml',atom)]:ET.ElementTree(tree).write(ROOT/filename,encoding='utf-8',xml_declaration=True)
+    sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
+    for url in sorted(outputs):ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text='https://reazromen.com'+url
+    ET.ElementTree(sitemap).write(ROOT/'sitemap.xml',encoding='utf-8',xml_declaration=True)
 
-
-def load_entries(section: str) -> list[Entry]:
-    folder = CONTENT / section
-    rows = []
-    for path in sorted(folder.glob("*.md")):
-        rows.append(load_entry(path, section))
-    return sorted(rows, key=lambda x: (x.date, x.slug), reverse=True)
-
-
-def esc(value) -> str:
-    return html.escape(str(value or ""), quote=True)
-
-
-def nav(current: str) -> str:
-    items = [
-        ("Work", "/portfolio.html", "work"),
-        ("Perspectives", "/perspectives.html", "perspectives"),
-        ("Music", "/music.html", "music"),
-        ("বাংলা", "/bangla.html", "bangla"),
-        ("About", "/about.html", "about"),
-        ("Stack", "/systems.html", "stack"),
-    ]
-    links = []
-    for label, href, key in items:
-        current_attr = ' aria-current="page"' if current == key else ""
-        lang = ' lang="bn"' if key == "bangla" else ""
-        links.append(f'<a href="{href}"{lang}{current_attr}>{label}</a>')
-    return "".join(links)
-
-
-def render_post(entry: Entry) -> str:
-    title = esc(entry.title)
-    excerpt = esc(entry.excerpt)
-    body = markdown.markdown(entry.body_md, extensions=["extra", "sane_lists"], output_format="html5")
-
-    if entry.section == "music":
-        artist = str(entry.meta.get("artist", "")).strip()
-        album = str(entry.meta.get("album", "")).strip()
-        kind = str(entry.meta.get("kind", "song")).strip()
-        kind_label = {"song": "LISTENING NOTE", "album": "ALBUM NOTE", "performance": "PERFORMANCE NOTE"}.get(kind, "LISTENING NOTE")
-        bits = [kind_label, artist, album]
-        eyebrow = " · ".join(esc(x.upper()) for x in bits if x)
-        crumb = f'<a href="/music.html">Music</a> / {esc(artist or "Listening note")}'
-        page_type = "Music"
-        page_format = kind_label.title()
-        extra_css = '<link rel="stylesheet" href="/assets/music-v1.css">'
-    elif entry.section == "bangla":
-        topic = str(entry.meta.get("topic", "")).strip()
-        eyebrow = "বাংলা" + (f" · {esc(topic)}" if topic else "")
-        crumb = '<a href="/bangla.html" lang="bn">বাংলা</a>'
-        page_type = "Bangla"
-        page_format = "Article"
-        extra_css = ""
-    else:
-        topic = str(entry.meta.get("topic", "")).strip()
-        eyebrow = "PERSPECTIVE" + (f" · {esc(topic.upper())}" if topic else "")
-        crumb = '<a href="/perspectives.html">Perspectives</a>' + (f" / {esc(topic)}" if topic else "")
-        page_type = "Perspective"
-        page_format = "Article"
-        extra_css = ""
-
-    tag_html = "".join(f"<span>{esc(t)}</span>" for t in entry.tags)
-    lang = "bn" if entry.section == "bangla" else "en"
-
-    return f"""<!doctype html>
-<html lang="{lang}">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{title} · Reaz Romen</title>
-<meta name="description" content="{excerpt}">
-<meta name="robots" content="index,follow">
-<link rel="stylesheet" href="/assets/site.css">
-<link rel="stylesheet" href="/assets/sitewide-v2.css">
-<link rel="stylesheet" href="/assets/phase1.css">
-<link rel="stylesheet" href="/assets/phase2.css">
-<link rel="stylesheet" href="/assets/responsive-v3.css">
-{extra_css}
-<meta data-pagefind-filter="type[content]" content="{esc(page_type)}">
-<meta data-pagefind-filter="format[content]" content="{esc(page_format)}">
-<meta data-pagefind-meta="title[content]" content="{title}">
-</head>
-<body class="rr-themed">
-{GEN_MARKER}
-<a class="skip-link" href="#rr-main">Skip to content</a>
-<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll">{nav(entry.section)}</div><div class="nav-actions"><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub">GH</a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme">◐</button></div></nav></div></header>
-<main id="rr-main" class="shell site-main">
-<article class="article" data-pagefind-body>
-<nav class="breadcrumbs" aria-label="Breadcrumb">{crumb}</nav>
-<p class="eyebrow">{eyebrow}</p>
-<h1>{title}</h1>
-<p class="lede">{excerpt}</p>
-<div class="article-meta"><address class="author-line">By <a href="/author/reaz-romen.html">Reaz Romen</a><span class="verified">✓ Site verified</span></address><span>Published {esc(entry.date)}</span><span>{entry.read_time} min read</span></div>
-<div class="tags">{tag_html}</div>
-<div class="prose">
-{body}
-</div>
-</article>
-</main>
-<footer class="shell site-footer">
-<div><span class="status-dot"></span><strong>Reaz Romen — independent systems engineer.</strong></div>
-<p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
-<nav aria-label="Footer"><a href="/topics.html">Topics</a><a href="/systems.html">Systems</a><a href="/archive.html">Archive</a><a href="/author/reaz-romen.html">Author record</a></nav>
-</footer>
-<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><script src="/assets/phase1.js"></script><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script>
-</body>
-</html>
-"""
-
-
-def replace_marked(text: str, start: str, end: str, payload: str) -> str:
-    block = f"{start}\n{payload.rstrip()}\n{end}"
-    pattern = re.compile(re.escape(start) + r".*?" + re.escape(end), re.S)
-    if pattern.search(text):
-        return pattern.sub(block, text, count=1)
-    raise ValueError(f"Markers not found: {start}")
-
-
-def ensure_music_markers(text: str) -> str:
-    start = "<!-- CMS-MUSIC-START -->"
-    end = "<!-- CMS-MUSIC-END -->"
-    if start in text:
-        return text
-    anchor = '<section class="section-block music-notes-section" aria-label="Music writing">'
-    pos = text.find(anchor)
-    if pos < 0:
-        raise ValueError("music.html: Music writing section not found")
-    open_div = text.find('<div class="music-bridge-list">', pos)
-    close_div = text.find("</div>", open_div)
-    if open_div < 0 or close_div < 0:
-        raise ValueError("music.html: song list not found")
-    return text[:close_div] + f"\n{start}\n{end}\n" + text[close_div:]
-
-
-def ensure_perspective_markers(text: str) -> str:
-    start = "<!-- CMS-PERSPECTIVES-START -->"
-    end = "<!-- CMS-PERSPECTIVES-END -->"
-    if start in text:
-        return text
-    latest = text.find("<span>LATEST</span>")
-    if latest < 0:
-        raise ValueError("perspectives.html: LATEST section not found")
-    open_div = text.find('<div class="post-list editorial-list">', latest)
-    if open_div < 0:
-        raise ValueError("perspectives.html: latest list not found")
-    insert = open_div + len('<div class="post-list editorial-list">')
-    return text[:insert] + f"\n{start}\n{end}\n" + text[insert:]
-
-
-def ensure_bangla_markers(text: str) -> str:
-    start = "<!-- CMS-BANGLA-START -->"
-    end = "<!-- CMS-BANGLA-END -->"
-    if start in text:
-        return text
-    pos = text.rfind("</main>")
-    if pos < 0:
-        raise ValueError("bangla.html: </main> not found")
-    section = f"""
-<section class="section-block" aria-label="Published Bangla writing">
-  <div class="section-kicker"><span>LATEST</span><span>CMS PUBLISHED</span></div>
-  <div class="post-list editorial-list">
-{start}
-{end}
-  </div>
-</section>
-"""
-    return text[:pos] + section + text[pos:]
-
-
-def music_card(entry: Entry, index: int) -> str:
-    artist = str(entry.meta.get("artist", "")).strip()
-    album = str(entry.meta.get("album", "")).strip()
-    bits = [artist.upper()]
-    if album:
-        bits.append(album.upper())
-    bits.append(f"{entry.read_time} MIN →")
-    meta = " · ".join(x for x in bits if x)
-    return (
-        f'<a class="music-bridge-link" href="/posts/{esc(entry.slug)}.html">\n'
-        f'  <span class="index">{index:02d}</span>\n'
-        f'  <strong>{esc(entry.title)}</strong>\n'
-        f'  <span>{esc(meta)}</span>\n'
-        f'</a>'
-    )
-
-
-def perspective_card(entry: Entry, bangla: bool = False) -> str:
-    topic = str(entry.meta.get("topic", "")).strip()
-    topic_html = esc(topic or ("বাংলা" if bangla else "Perspective"))
-    tags = "".join(f"<span>{esc(t)}</span>" for t in entry.tags)
-    return f"""<article class="post-card">
-  <p class="meta">{topic_html} · {entry.read_time} min read · {esc(entry.date)}</p>
-  <h3><a href="/posts/{esc(entry.slug)}.html">{esc(entry.title)}</a></h3>
-  <p>{esc(entry.excerpt)}</p>
-  <p class="byline-mini">By <a href="/author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags">{tags}</div>
-</article>"""
-
-
-def write_generated_posts(entries: list[Entry]) -> None:
-    POSTS.mkdir(parents=True, exist_ok=True)
-    desired = set()
-    for entry in entries:
-        if entry.draft:
-            continue
-        out = POSTS / f"{entry.slug}.html"
-        desired.add(out.resolve())
-        if out.exists() and GEN_MARKER not in out.read_text(encoding="utf-8", errors="ignore"):
-            raise ValueError(f"Refusing to overwrite hand-authored post: {out.relative_to(ROOT)}")
-        out.write_text(render_post(entry), encoding="utf-8")
-
-    for path in POSTS.glob("*.html"):
-        try:
-            data = path.read_text(encoding="utf-8", errors="ignore")
-        except Exception:
-            continue
-        if GEN_MARKER in data and path.resolve() not in desired:
-            path.unlink()
-
-
-def update_indexes(music_entries: list[Entry], perspective_entries: list[Entry], bangla_entries: list[Entry]) -> None:
-    music_file = ROOT / "music.html"
-    text = ensure_music_markers(music_file.read_text(encoding="utf-8"))
-    prefix = text.split("<!-- CMS-MUSIC-START -->", 1)[0]
-    existing_count = prefix.count('class="music-bridge-link"')
-    published_music = [x for x in music_entries if not x.draft]
-    cards = [music_card(e, existing_count + i + 1) for i, e in enumerate(reversed(published_music))]
-    text = replace_marked(text, "<!-- CMS-MUSIC-START -->", "<!-- CMS-MUSIC-END -->", "\n".join(cards))
-    music_file.write_text(text, encoding="utf-8")
-
-    p_file = ROOT / "perspectives.html"
-    text = ensure_perspective_markers(p_file.read_text(encoding="utf-8"))
-    cards = [perspective_card(e) for e in perspective_entries if not e.draft]
-    text = replace_marked(text, "<!-- CMS-PERSPECTIVES-START -->", "<!-- CMS-PERSPECTIVES-END -->", "\n".join(cards))
-    p_file.write_text(text, encoding="utf-8")
-
-    b_file = ROOT / "bangla.html"
-    text = ensure_bangla_markers(b_file.read_text(encoding="utf-8"))
-    cards = [perspective_card(e, bangla=True) for e in bangla_entries if not e.draft]
-    text = replace_marked(text, "<!-- CMS-BANGLA-START -->", "<!-- CMS-BANGLA-END -->", "\n".join(cards))
-    b_file.write_text(text, encoding="utf-8")
-
-
-def load_homepage() -> dict:
-    path = CONTENT / "site" / "homepage.yml"
-    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
-    if not isinstance(data, dict):
-        raise ValueError(f"{path}: expected a YAML mapping")
-    required = (
-        "title", "meta_description", "hero_before_path", "hero_after_path",
-        "selected_work_heading", "recent_writing_heading", "areas_heading",
-        "about_heading", "about_text",
-    )
-    for key in required:
-        if key not in data:
-            raise ValueError(f"{path}: missing {key}")
-    for key in ("hero_before_path", "hero_after_path"):
-        if not isinstance(data[key], list) or not data[key]:
-            raise ValueError(f"{path}: {key} must be a non-empty list")
-    return data
-
-
-def update_homepage(home: dict) -> None:
-    page = ROOT / "index.html"
-    text = page.read_text(encoding="utf-8")
-
-    text = re.sub(
-        r"<title>.*?</title>",
-        f"<title>{esc(home['title'])}</title>",
-        text,
-        count=1,
-        flags=re.S,
-    )
-    text = re.sub(
-        r'<meta name="description" content="[^"]*">',
-        f'<meta name="description" content="{esc(home["meta_description"])}">',
-        text,
-        count=1,
-    )
-
-    section_open = '<section class="home-hero">'
-    hero_start = text.find(section_open)
-    if hero_start < 0:
-        raise ValueError("index.html: home hero not found")
-    hero_content_start = hero_start + len(section_open)
-    path_start = text.find('<div class="system-path-meta"', hero_content_start)
-    if path_start < 0:
-        raise ValueError("index.html: system path block not found")
-    path_end = text.find("</div>", path_start)
-    if path_end < 0:
-        raise ValueError("index.html: system path closing div not found")
-    path_end += len("</div>")
-    hero_end = text.find("</section>", path_end)
-    if hero_end < 0:
-        raise ValueError("index.html: home hero closing section not found")
-
-    before = "".join(f"<p>{esc(x)}</p>" for x in home["hero_before_path"])
-    after = "".join(f"<p>{esc(x)}</p>" for x in home["hero_after_path"])
-    text = text[:hero_content_start] + before + text[path_start:path_end] + after + text[hero_end:]
-
-    headings = {
-        "selected-work": home["selected_work_heading"],
-        "recent-writing": home["recent_writing_heading"],
-        "areas": home["areas_heading"],
-    }
-    for ident, value in headings.items():
-        pattern = rf'(<h2 class="section-label" id="{re.escape(ident)}">).*?(</h2>)'
-        text, count = re.subn(pattern, rf'\1{esc(value)}\2', text, count=1, flags=re.S)
-        if count != 1:
-            raise ValueError(f"index.html: heading {ident} not found")
-
-    about_pattern = re.compile(
-        r'(<section class="home-section"><h2 class="section-label">).*?(</h2><p>).*?(</p><div class="home-contact">)',
-        re.S,
-    )
-    replacement = (
-        r'\1' + esc(home["about_heading"]) + r'\2' + esc(home["about_text"]) + r'\3'
-    )
-    text, count = about_pattern.subn(replacement, text, count=1)
-    if count != 1:
-        raise ValueError("index.html: About section not found")
-
-    page.write_text(text, encoding="utf-8")
-
-
-def main() -> None:
-    music_entries = load_entries("music")
-    perspective_entries = load_entries("perspectives")
-    bangla_entries = load_entries("bangla")
-    homepage = load_homepage()
-    all_entries = music_entries + perspective_entries + bangla_entries
-
-    slugs = {}
-    for entry in all_entries:
-        if entry.slug in slugs:
-            raise ValueError(f"Duplicate CMS slug {entry.slug}: {slugs[entry.slug]} and {entry.section}")
-        slugs[entry.slug] = entry.section
-
-    write_generated_posts(all_entries)
-    update_indexes(music_entries, perspective_entries, bangla_entries)
-    update_homepage(homepage)
-    print(
-        "CMS build complete:",
-        f"music={sum(not x.draft for x in music_entries)}",
-        f"perspectives={sum(not x.draft for x in perspective_entries)}",
-        f"bangla={sum(not x.draft for x in bangla_entries)}",
-    )
-
-
-if __name__ == "__main__":
-    main()
+if __name__=='__main__':main()

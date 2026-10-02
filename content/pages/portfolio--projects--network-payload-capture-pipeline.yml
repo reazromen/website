@@ -1,0 +1,520 @@
+title: Network Payload Capture Pipeline
+browser_title: Network Payload Capture Pipeline — Reaz Romen Portfolio
+description: Minimal capability-bounded packet capture path that parses a live tcpdump
+  stream into bounded payload snapshots consumed by the operations UI.
+url: /portfolio/projects/network-payload-capture-pipeline.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Infrastructure & Operations / Built / deployed
+  body: Infrastructure & Operations / Built / deployed
+- id: BLOCK1
+  label: Network Payload Capture Pipeline
+  body: Network Payload Capture Pipeline
+- id: BLOCK2
+  label: Minimal capability-bounded packet capture path that parses a live tcpdump
+    stream into bounded p
+  body: Minimal capability-bounded packet capture path that parses a live tcpdump
+    stream into bounded payload snapshots consumed by the operations UI.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: Minimal capability-bounded packet capture path that parses a live tcpdump
+    stream into bounded p
+  body: Minimal capability-bounded packet capture path that parses a live tcpdump
+    stream into bounded payload snapshots consumed by the operations UI.
+- id: BLOCK7
+  label: Built a deliberately capability-bounded packet-capture runtime around tcpdump.
+  body: Built a deliberately capability-bounded packet-capture runtime around tcpdump.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Disabled persistent PCAP storage and promiscuous mode while keeping only
+    bounded parsed payload
+  body: Disabled persistent PCAP storage and promiscuous mode while keeping only bounded
+    parsed payload snippets.
+- id: BLOCK10
+  label: Connected the resulting snapshots to the Operations Portal's network views.
+  body: Connected the resulting snapshots to the Operations Portal's network views.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Host network -> tcpdump container with CAP_NET_RAW -> host parser -> bounded
+    rolling JSON snaps
+  body: Host network -> tcpdump container with CAP\_NET\_RAW -> host parser -> bounded
+    rolling JSON snapshot -> operations UI.
+- id: BLOCK14
+  label: The capture container is read-only and does not receive broad host privileges.
+  body: The capture container is read-only and does not receive broad host privileges.
+- id: BLOCK15
+  label: Long-term packet archives are intentionally avoided in this path.
+  body: Long-term packet archives are intentionally avoided in this path.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Host network -> tcpdump container with CAP_NET_RAW -> host parser -> bounded
+    rolling JSON sn
+  body: '01
+
+
+    Host network -> tcpdump container with CAP\_NET\_RAW -> host parser -> bounded
+    rolling JSON snapshot -> operations UI.'
+- id: BLOCK23
+  label: Host network -> tcpdump container with CAP_NET_RAW -> host parser -> bounded
+    rolling JSON snaps
+  body: Host network -> tcpdump container with CAP\_NET\_RAW -> host parser -> bounded
+    rolling JSON snapshot -> operations UI.
+- id: BLOCK24
+  label: 02 The capture container is read-only and does not receive broad host privileges.
+  body: '02
+
+
+    The capture container is read-only and does not receive broad host privileges.'
+- id: BLOCK25
+  label: The capture container is read-only and does not receive broad host privileges.
+  body: The capture container is read-only and does not receive broad host privileges.
+- id: BLOCK26
+  label: 03 Long-term packet archives are intentionally avoided in this path.
+  body: '03
+
+
+    Long-term packet archives are intentionally avoided in this path.'
+- id: BLOCK27
+  label: Long-term packet archives are intentionally avoided in this path.
+  body: Long-term packet archives are intentionally avoided in this path.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Container capability review
+  body: Container capability review
+- id: BLOCK31
+  label: Read-only filesystem check
+  body: Read-only filesystem check
+- id: BLOCK32
+  label: Promiscuous mode disabled
+  body: Promiscuous mode disabled
+- id: BLOCK33
+  label: Bounded payload retention
+  body: Bounded payload retention
+- id: BLOCK34
+  label: Live snapshot consumption by UI
+  body: Live snapshot consumption by UI
+- id: BLOCK35
+  label: No persistent PCAP volume
+  body: No persistent PCAP volume
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — Designed for debugging evidence, not unrestricted surveillance
+  body: —Designed for debugging evidence, not unrestricted surveillance
+- id: BLOCK43
+  label: — No persistent packet archive in this path
+  body: —No persistent packet archive in this path
+- id: BLOCK44
+  label: — Payload snippets are intentionally bounded
+  body: —Payload snippets are intentionally bounded
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A narrow packet-evidence pipeline useful for debugging without turning the
+    monitoring stack int
+  body: A narrow packet-evidence pipeline useful for debugging without turning the
+    monitoring stack into an unrestricted capture appliance.
+- id: BLOCK48
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK49
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK50
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK51
+  label: tcpdump
+  body: tcpdump
+- id: BLOCK52
+  label: PCAP
+  body: PCAP
+- id: BLOCK53
+  label: Linux capabilities
+  body: Linux capabilities
+- id: BLOCK54
+  label: JSON
+  body: JSON
+- id: BLOCK55
+  label: Docker
+  body: Docker
+- id: BLOCK56
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK57
+  label: STATUS
+  body: STATUS
+- id: BLOCK58
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK59
+  label: AREA
+  body: AREA
+- id: BLOCK60
+  label: Infrastructure & Operations
+  body: Infrastructure & Operations
+- id: BLOCK61
+  label: STACK
+  body: STACK
+- id: BLOCK62
+  label: 5 documented technologies
+  body: 5 documented technologies
+- id: BLOCK63
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK64
+  label: 2 connected / bounded services
+  body: 2 connected / bounded services
+- id: BLOCK65
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK66
+  label: '01'
+  body: '01'
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+  body: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+- id: BLOCK69
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK70
+  label: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+  body: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+- id: BLOCK71
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK72
+  label: Kubernetes Gateway API Is Not Just a New Ingress YAML
+  body: Kubernetes Gateway API Is Not Just a New Ingress YAML
+- id: BLOCK73
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK74
+  label: '02'
+  body: '02'
+- id: BLOCK75
+  label: '03'
+  body: '03'
+- id: BLOCK76
+  label: '02'
+  body: '02'
+- id: BLOCK77
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK78
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK79
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK80
+  label: '03'
+  body: '03'
+- id: BLOCK81
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK82
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK83
+  label: Host network
+  body: Host network
+- id: BLOCK84
+  label: →
+  body: →
+- id: BLOCK85
+  label: tcpdump container
+  body: tcpdump container
+- id: BLOCK86
+  label: →
+  body: →
+- id: BLOCK87
+  label: PCAP stream
+  body: PCAP stream
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: Host parser
+  body: Host parser
+- id: BLOCK90
+  label: →
+  body: →
+- id: BLOCK91
+  label: Bounded JSON snapshot
+  body: Bounded JSON snapshot
+- id: BLOCK92
+  label: →
+  body: →
+- id: BLOCK93
+  label: Ops Portal
+  body: Ops Portal
+- id: BLOCK94
+  label: '04'
+  body: '04'
+- id: BLOCK95
+  label: '01'
+  body: '01'
+- id: BLOCK96
+  label: tcpdump
+  body: tcpdump
+- id: BLOCK97
+  label: '02'
+  body: '02'
+- id: BLOCK98
+  label: PCAP
+  body: PCAP
+- id: BLOCK99
+  label: '03'
+  body: '03'
+- id: BLOCK100
+  label: Linux capabilities
+  body: Linux capabilities
+- id: BLOCK101
+  label: '04'
+  body: '04'
+- id: BLOCK102
+  label: JSON
+  body: JSON
+- id: BLOCK103
+  label: '05'
+  body: '05'
+- id: BLOCK104
+  label: Docker
+  body: Docker
+- id: BLOCK105
+  label: '05'
+  body: '05'
+- id: BLOCK106
+  label: '06'
+  body: '06'
+- id: BLOCK107
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK108
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK109
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK110
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK111
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK112
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK113
+  label: '07'
+  body: '07'
+- id: BLOCK114
+  label: Network Payload Capture Pipeline
+  body: Network Payload Capture Pipeline
+- id: BLOCK115
+  label: ↔
+  body: ↔
+- id: BLOCK116
+  label: tcpdump runtime
+  body: tcpdump runtime
+- id: BLOCK117
+  label: ↔
+  body: ↔
+- id: BLOCK118
+  label: Ops Portal
+  body: Ops Portal
+- id: BLOCK119
+  label: 08
+  body: 08
+- id: BLOCK120
+  label: '01'
+  body: '01'
+- id: BLOCK121
+  label: NOTE
+  body: NOTE
+- id: BLOCK122
+  label: Capture image
+  body: Capture image
+- id: BLOCK123
+  label: '02'
+  body: '02'
+- id: BLOCK124
+  label: NOTE
+  body: NOTE
+- id: BLOCK125
+  label: CAP_NET_RAW-only policy
+  body: CAP\_NET\_RAW-only policy
+- id: BLOCK126
+  label: '03'
+  body: '03'
+- id: BLOCK127
+  label: NOTE
+  body: NOTE
+- id: BLOCK128
+  label: Rolling JSON snapshot
+  body: Rolling JSON snapshot
+- id: BLOCK129
+  label: '04'
+  body: '04'
+- id: BLOCK130
+  label: NOTE
+  body: NOTE
+- id: BLOCK131
+  label: Network UI integration
+  body: Network UI integration
+- id: BLOCK132
+  label: '05'
+  body: '05'
+- id: BLOCK133
+  label: NOTE
+  body: NOTE
+- id: BLOCK134
+  label: Collector scripts
+  body: Collector scripts
+- id: BLOCK135
+  label: 09
+  body: 09
+- id: BLOCK136
+  label: '10'
+  body: '10'
+- id: BLOCK137
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK138
+  label: Private Alert Delivery
+  body: Private Alert Delivery
+- id: BLOCK139
+  label: Next project →
+  body: Next project →
+- id: BLOCK140
+  label: Distributed Compute & Build Fabric
+  body: Distributed Compute & Build Fabric
+lists: []
+template: cms/templates/pages/portfolio--projects--network-payload-capture-pipeline.tpl
+source: cms/templates/pages/portfolio--projects--network-payload-capture-pipeline.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio/projects/network-payload-capture-pipeline.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/network-payload-capture-pipeline.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/network-payload-capture-pipeline.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/network-payload-capture-pipeline.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/network-payload-capture-pipeline.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/network-payload-capture-pipeline.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/network-payload-capture-pipeline.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/network-payload-capture-pipeline.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/network-payload-capture-pipeline.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/network-payload-capture-pipeline.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/network-payload-capture-pipeline.html#result
+- id: LINK16
+  label: '{{RR_BLOCK68}} {{RR_BLOCK69}}'
+  url: /posts/ebpf-xdp-verifier-operational-safety.html
+- id: LINK17
+  label: '{{RR_BLOCK70}} {{RR_BLOCK71}}'
+  url: /posts/http3-quic-enterprise-inspection-assumptions.html
+- id: LINK18
+  label: '{{RR_BLOCK72}} {{RR_BLOCK73}}'
+  url: /posts/kubernetes-gateway-api-not-new-ingress-yaml.html
+- id: LINK19
+  label: '{{RR_BLOCK137}} {{RR_BLOCK138}}'
+  url: /portfolio/projects/private-alert-delivery.html
+- id: LINK20
+  label: '{{RR_BLOCK139}} {{RR_BLOCK140}}'
+  url: /portfolio/projects/distributed-compute-build-fabric.html

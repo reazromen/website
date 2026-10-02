@@ -31,5 +31,12 @@
       "href": "/systems.html",
       "enabled": true
     }
+  ],
+  "footer": [
+    {
+      "label": "Tags",
+      "href": "/tags.html",
+      "enabled": true
+    }
   ]
 }

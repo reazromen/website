@@ -1,125 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
-  <meta name="author" content="Reaz Romen">
-  <link rel="author" href="../about.html">
-  <title>Disaster Recovery — Reaz Romen — Systems Engineering</title>
-  <link rel="stylesheet" href="../static/css/site.css">
-<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability." name="description"/>
+<meta content="Reaz Romen" name="author"/>
+<link href="../about.html" rel="author"/>
+<title>Disaster Recovery — Reaz Romen</title>
+<link href="../static/css/site.css" rel="stylesheet"/>
+<link href="/assets/site.css" rel="stylesheet"/><link href="/assets/sitewide-v2.css" rel="stylesheet"/><link href="/assets/phase1.css" rel="stylesheet"/><link href="/feed.xml" rel="alternate" title="Reaz Romen — Writing" type="application/rss+xml"/><link href="/atom.xml" rel="alternate" title="Reaz Romen — Writing" type="application/atom+xml"/><link href="/assets/responsive-v3.css" rel="stylesheet"/><link href="https://reazromen.com/topics/disaster-recovery.html" rel="canonical"/></head>
 <body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
-
-<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
-<main id="rr-main" class="shell site-main">
-  
-    
-  
-  
+<header class="site-header rr-global-header"><div class="site-header-inner"><a aria-label="Reaz Romen home" class="brand" href="/">RR</a><nav aria-label="Main navigation" class="nav"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button aria-label="Search and quick navigation" class="icon-link search-action" data-open-command="" title="Search (Ctrl/⌘ K)" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg></button><a aria-label="GitHub" class="icon-link github-action" href="https://github.com/reazromen" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon icon-fill" viewbox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"></path></svg></a><button aria-label="Toggle color scheme" class="theme-toggle" onclick="toggleTheme()" type="button"><svg aria-hidden="true" class="icon" data-theme-icon="moon" viewbox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"></path></svg><svg aria-hidden="true" class="icon" data-theme-icon="sun" hidden="" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></svg></button></div></nav></div></header>
+<main class="shell site-main" id="rr-main">
 <section class="page-head"><p class="eyebrow">TOPIC</p><h1>Disaster Recovery</h1><p class="lede">Lessons, explainers, experiments, and implementation notes.</p></section>
 <div class="post-list">
-  <article class="post-card">
-  <p class="meta"><a href="disaster-recovery.html">Disaster Recovery</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/sha256sums-turns-backup-corruption-detectable.html">A SHA256SUMS File Turns Backup Corruption into a Detectable Failure</a></h3>
-  <p>Checksums do not replace restore tests, but they catch silent byte changes before a disaster forces you to discover them.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>SHA256</span><span>backup</span><span>integrity</span><span>checksums</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="disaster-recovery.html">Disaster Recovery</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/secrets-are-part-of-disaster-recovery-even-when-missing-from-git.html">Secrets Are Part of Disaster Recovery Even When They Are Correctly Missing from Git</a></h3>
-  <p>Separating secrets from source control creates a recovery dependency that must be documented and tested.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>secrets</span><span>DR</span><span>GitOps</span><span>recovery</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="disaster-recovery.html">Disaster Recovery</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/backup-jobs-need-maximum-runtime.html">Backup Jobs Need a Maximum Runtime</a></h3>
-  <p>A backup that hangs forever can block future runs and create false confidence without ever producing a usable recovery point.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>systemd</span><span>backup</span><span>timeout</span><span>operations</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="disaster-recovery.html">Disaster Recovery</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/killmode-matters-backup-script-child-processes.html">KillMode Matters When a Backup Script Spawns Child Processes</a></h3>
-  <p>Stopping only the shell does not necessarily stop pg_dump, tar or helper processes that the shell launched.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>systemd</span><span>process tree</span><span>backup</span><span>Linux</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="disaster-recovery.html">Disaster Recovery</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/backup-freshness-is-not-backup-integrity.html">Backup Freshness Is Not Backup Integrity</a></h3>
-  <p>A newly created directory can still be incomplete or corrupt, so age alone is weak recovery evidence.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>backup</span><span>integrity</span><span>SHA256</span><span>DR</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="disaster-recovery.html">Disaster Recovery</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/partial-backup-directories-not-newest-backup.html">Partial Backup Directories Should Not Win the &#39;Newest Backup&#39; Contest</a></h3>
-  <p>A failed job can leave a fresh-looking directory that should never replace the last known complete recovery point.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>backup</span><span>partial files</span><span>atomicity</span><span>recovery</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="disaster-recovery.html">Disaster Recovery</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/unknown-and-fail-different-backup-monitoring.html">UNKNOWN and FAIL Mean Different Things in Backup Monitoring</a></h3>
-  <p>Protected evidence that a low-privilege checker cannot read should not be reported as healthy or corrupt.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>backup</span><span>UNKNOWN</span><span>least privilege</span><span>monitoring</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="disaster-recovery.html">Disaster Recovery</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/off-host-encrypted-backups-change-failure-domain.html">Off-Host Encrypted Backups Change the Failure Domain</a></h3>
-  <p>A backup on the same disk protects against application mistakes better than it protects against host or disk loss.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>off-host backup</span><span>encryption</span><span>DR</span><span>failure domain</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="disaster-recovery.html">Disaster Recovery</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/do-not-leave-decrypted-dr-payloads-after-verification.html">Do Not Leave Decrypted DR Payloads Behind After Verification</a></h3>
-  <p>A recovery drill can create a new sensitive-data exposure if decrypted database dumps remain on disk by default.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>DR</span><span>plaintext</span><span>data minimization</span><span>backup</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="disaster-recovery.html">Disaster Recovery</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/restore-drill-stronger-than-successful-backup-command.html">A Restore Drill Is Stronger Evidence Than a Successful Backup Command</a></h3>
-  <p>The backup process can exit zero while the recovery process is still incomplete, undocumented or impossible on another machine.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>restore drill</span><span>RTO</span><span>DR</span><span>verification</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="disaster-recovery.html">Disaster Recovery</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/rpo-rto-turn-backups-into-operational-requirement.html">RPO and RTO Turn &#39;We Have Backups&#39; into an Operational Requirement</a></h3>
-  <p>Recovery planning becomes actionable when data-loss tolerance and recovery-time tolerance are explicit.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>RPO</span><span>RTO</span><span>backup</span><span>SRE</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="disaster-recovery.html">Disaster Recovery</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/backup-timer-firing-not-proof-backup-finished.html">A Backup Timer Firing Is Not Proof That the Backup Finished</a></h3>
-  <p>Scheduling evidence and completion evidence belong to different layers of a batch job.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>systemd timer</span><span>backup</span><span>receipt</span><span>batch jobs</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="disaster-recovery.html">Disaster Recovery</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/least-privilege-backup-receipts-operator-verification.html">Least-Privilege Backup Receipts Let Operators Verify Without Reading the Backups</a></h3>
-  <p>Operators need evidence that backups succeeded without necessarily gaining access to the protected data itself.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>receipts</span><span>least privilege</span><span>backup</span><span>Ops Portal</span></div>
-</article>
+<article class="post-card"><p class="meta">Disaster Recovery · 1 min read · 2026-09-14</p><h3><a href="/posts/unknown-and-fail-different-backup-monitoring.html">UNKNOWN and FAIL Mean Different Things in Backup Monitoring</a></h3><p>Protected evidence that a low-privilege checker cannot read should not be reported as healthy or corrupt.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/backup.html">backup</a><a data-pagefind-filter="tag" href="/tags/unknown.html">UNKNOWN</a><a data-pagefind-filter="tag" href="/tags/least-privilege.html">least privilege</a><a data-pagefind-filter="tag" href="/tags/monitoring.html">monitoring</a></div></article>
+<article class="post-card"><p class="meta">Disaster Recovery · 1 min read · 2026-09-14</p><h3><a href="/posts/sha256sums-turns-backup-corruption-detectable.html">A SHA256SUMS File Turns Backup Corruption into a Detectable Failure</a></h3><p>Checksums do not replace restore tests, but they catch silent byte changes before a disaster forces you to discover them.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/sha256.html">SHA256</a><a data-pagefind-filter="tag" href="/tags/backup.html">backup</a><a data-pagefind-filter="tag" href="/tags/integrity.html">integrity</a><a data-pagefind-filter="tag" href="/tags/checksums.html">checksums</a></div></article>
+<article class="post-card"><p class="meta">Disaster Recovery · 1 min read · 2026-09-14</p><h3><a href="/posts/secrets-are-part-of-disaster-recovery-even-when-missing-from-git.html">Secrets Are Part of Disaster Recovery Even When They Are Correctly Missing from Git</a></h3><p>Separating secrets from source control creates a recovery dependency that must be documented and tested.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/secrets.html">secrets</a><a data-pagefind-filter="tag" href="/tags/dr.html">DR</a><a data-pagefind-filter="tag" href="/tags/gitops.html">GitOps</a><a data-pagefind-filter="tag" href="/tags/recovery.html">recovery</a></div></article>
+<article class="post-card"><p class="meta">Disaster Recovery · 1 min read · 2026-09-14</p><h3><a href="/posts/rpo-rto-turn-backups-into-operational-requirement.html">RPO and RTO Turn 'We Have Backups' into an Operational Requirement</a></h3><p>Recovery planning becomes actionable when data-loss tolerance and recovery-time tolerance are explicit.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/rpo.html">RPO</a><a data-pagefind-filter="tag" href="/tags/rto.html">RTO</a><a data-pagefind-filter="tag" href="/tags/backup.html">backup</a><a data-pagefind-filter="tag" href="/tags/sre.html">SRE</a></div></article>
+<article class="post-card"><p class="meta">Disaster Recovery · 1 min read · 2026-09-14</p><h3><a href="/posts/restore-drill-stronger-than-successful-backup-command.html">A Restore Drill Is Stronger Evidence Than a Successful Backup Command</a></h3><p>The backup process can exit zero while the recovery process is still incomplete, undocumented or impossible on another machine.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/restore-drill.html">restore drill</a><a data-pagefind-filter="tag" href="/tags/rto.html">RTO</a><a data-pagefind-filter="tag" href="/tags/dr.html">DR</a><a data-pagefind-filter="tag" href="/tags/verification.html">verification</a></div></article>
+<article class="post-card"><p class="meta">Disaster Recovery · 1 min read · 2026-09-14</p><h3><a href="/posts/partial-backup-directories-not-newest-backup.html">Partial Backup Directories Should Not Win the 'Newest Backup' Contest</a></h3><p>A failed job can leave a fresh-looking directory that should never replace the last known complete recovery point.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/backup.html">backup</a><a data-pagefind-filter="tag" href="/tags/partial-files.html">partial files</a><a data-pagefind-filter="tag" href="/tags/atomicity.html">atomicity</a><a data-pagefind-filter="tag" href="/tags/recovery.html">recovery</a></div></article>
+<article class="post-card"><p class="meta">Disaster Recovery · 1 min read · 2026-09-14</p><h3><a href="/posts/off-host-encrypted-backups-change-failure-domain.html">Off-Host Encrypted Backups Change the Failure Domain</a></h3><p>A backup on the same disk protects against application mistakes better than it protects against host or disk loss.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/off-host-backup.html">off-host backup</a><a data-pagefind-filter="tag" href="/tags/encryption.html">encryption</a><a data-pagefind-filter="tag" href="/tags/dr.html">DR</a><a data-pagefind-filter="tag" href="/tags/failure-domain.html">failure domain</a></div></article>
+<article class="post-card"><p class="meta">Disaster Recovery · 1 min read · 2026-09-14</p><h3><a href="/posts/least-privilege-backup-receipts-operator-verification.html">Least-Privilege Backup Receipts Let Operators Verify Without Reading the Backups</a></h3><p>Operators need evidence that backups succeeded without necessarily gaining access to the protected data itself.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/receipts.html">receipts</a><a data-pagefind-filter="tag" href="/tags/least-privilege.html">least privilege</a><a data-pagefind-filter="tag" href="/tags/backup.html">backup</a><a data-pagefind-filter="tag" href="/tags/ops-portal.html">Ops Portal</a></div></article>
+<article class="post-card"><p class="meta">Disaster Recovery · 1 min read · 2026-09-14</p><h3><a href="/posts/killmode-matters-backup-script-child-processes.html">KillMode Matters When a Backup Script Spawns Child Processes</a></h3><p>Stopping only the shell does not necessarily stop pg_dump, tar or helper processes that the shell launched.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/systemd.html">systemd</a><a data-pagefind-filter="tag" href="/tags/process-tree.html">process tree</a><a data-pagefind-filter="tag" href="/tags/backup.html">backup</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a></div></article>
+<article class="post-card"><p class="meta">Disaster Recovery · 1 min read · 2026-09-14</p><h3><a href="/posts/do-not-leave-decrypted-dr-payloads-after-verification.html">Do Not Leave Decrypted DR Payloads Behind After Verification</a></h3><p>A recovery drill can create a new sensitive-data exposure if decrypted database dumps remain on disk by default.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/dr.html">DR</a><a data-pagefind-filter="tag" href="/tags/plaintext.html">plaintext</a><a data-pagefind-filter="tag" href="/tags/data-minimization.html">data minimization</a><a data-pagefind-filter="tag" href="/tags/backup.html">backup</a></div></article>
+<article class="post-card"><p class="meta">Disaster Recovery · 1 min read · 2026-09-14</p><h3><a href="/posts/backup-timer-firing-not-proof-backup-finished.html">A Backup Timer Firing Is Not Proof That the Backup Finished</a></h3><p>Scheduling evidence and completion evidence belong to different layers of a batch job.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/systemd-timer.html">systemd timer</a><a data-pagefind-filter="tag" href="/tags/backup.html">backup</a><a data-pagefind-filter="tag" href="/tags/receipt.html">receipt</a><a data-pagefind-filter="tag" href="/tags/batch-jobs.html">batch jobs</a></div></article>
+<article class="post-card"><p class="meta">Disaster Recovery · 1 min read · 2026-09-14</p><h3><a href="/posts/backup-jobs-need-maximum-runtime.html">Backup Jobs Need a Maximum Runtime</a></h3><p>A backup that hangs forever can block future runs and create false confidence without ever producing a usable recovery point.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/systemd.html">systemd</a><a data-pagefind-filter="tag" href="/tags/backup.html">backup</a><a data-pagefind-filter="tag" href="/tags/timeout.html">timeout</a><a data-pagefind-filter="tag" href="/tags/operations.html">operations</a></div></article>
+<article class="post-card"><p class="meta">Disaster Recovery · 1 min read · 2026-09-14</p><h3><a href="/posts/backup-freshness-is-not-backup-integrity.html">Backup Freshness Is Not Backup Integrity</a></h3><p>A newly created directory can still be incomplete or corrupt, so age alone is weak recovery evidence.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/backup.html">backup</a><a data-pagefind-filter="tag" href="/tags/integrity.html">integrity</a><a data-pagefind-filter="tag" href="/tags/sha256.html">SHA256</a><a data-pagefind-filter="tag" href="/tags/dr.html">DR</a></div></article>
 </div>
-
 </main>
 <footer class="shell site-footer">
-  <div>
-    <span class="status-dot"></span>
-    <strong>Reaz Romen — independent systems engineer.</strong>
-  </div>
-  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
-  <nav aria-label="Footer">
-    <a href="/topics.html">Topics</a>
-    <a href="/systems.html">Systems</a>
-    <a href="/archive.html">Archive</a>
-    <a href="/author/reaz-romen.html">Author record</a>
-  </nav>
+<div>
+<span class="status-dot"></span>
+<strong>Reaz Romen — independent systems engineer.</strong>
+</div>
+<p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+<nav aria-label="Footer"><a href="/tags.html">Tags</a></nav>
 </footer>
-<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog aria-label="Search and quick navigation" class="command-palette" data-pagefind-ignore="" id="command-palette">
 <div class="command-shell">
-<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-input-row"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input aria-label="Search site" autocomplete="off" id="command-input" placeholder="Search writing, work, topics…" type="search"/><button aria-label="Close" class="command-close" data-close-command="" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div>
 <div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
-<nav class="command-shortcuts" aria-label="Quick navigation">
+<nav aria-label="Quick navigation" class="command-shortcuts">
 <a href="/portfolio.html">Work <span>Projects and systems</span></a>
 <a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
 <a href="/domains/">Domains <span>Browse engineering areas</span></a>
@@ -127,7 +51,7 @@
 <a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
 <a href="/about.html">About <span>Background and approach</span></a>
 </nav>
-<div id="command-results" class="command-results" aria-live="polite"></div>
+<div aria-live="polite" class="command-results" id="command-results"></div>
 <div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
 </div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
 </html>

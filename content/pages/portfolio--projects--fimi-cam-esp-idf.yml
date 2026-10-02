@@ -1,0 +1,524 @@
+title: Fimi Cam ESP-IDF
+browser_title: Fimi Cam ESP-IDF — Reaz Romen Portfolio
+description: ESP32-S3 camera firmware with Wi-Fi bring-up, browser live view, MJPEG
+  streaming and still-image capture for an OV2640-class camera board.
+url: /portfolio/projects/fimi-cam-esp-idf.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Embedded & Devices / Built
+  body: Embedded & Devices / Built
+- id: BLOCK1
+  label: Fimi Cam ESP-IDF
+  body: Fimi Cam ESP-IDF
+- id: BLOCK2
+  label: ESP32-S3 camera firmware with Wi-Fi bring-up, browser live view, MJPEG streaming
+    and still-imag
+  body: ESP32-S3 camera firmware with Wi-Fi bring-up, browser live view, MJPEG streaming
+    and still-image capture for an OV2640-class camera board.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: ESP32-S3 camera firmware with Wi-Fi bring-up, browser live view, MJPEG streaming
+    and still-imag
+  body: ESP32-S3 camera firmware with Wi-Fi bring-up, browser live view, MJPEG streaming
+    and still-image capture for an OV2640-class camera board.
+- id: BLOCK7
+  label: Built ESP-IDF firmware for an ESP32-S3 camera board with OV2640-class sensor
+    support.
+  body: Built ESP-IDF firmware for an ESP32-S3 camera board with OV2640-class sensor
+    support.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Implemented Wi-Fi bring-up, browser viewing, MJPEG streaming and one-shot
+    JPEG capture.
+  body: Implemented Wi-Fi bring-up, browser viewing, MJPEG streaming and one-shot
+    JPEG capture.
+- id: BLOCK10
+  label: Targeted the actual N16R8 board profile and PSRAM/flash constraints.
+  body: Targeted the actual N16R8 board profile and PSRAM/flash constraints.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Camera sensor -> ESP32 camera driver -> JPEG frames -> local HTTP server.
+  body: Camera sensor -> ESP32 camera driver -> JPEG frames -> local HTTP server.
+- id: BLOCK14
+  label: Browser clients consume either the live MJPEG stream or still-image endpoint
+    over the LAN.
+  body: Browser clients consume either the live MJPEG stream or still-image endpoint
+    over the LAN.
+- id: BLOCK15
+  label: Firmware runs directly on the camera module without an external application
+    server.
+  body: Firmware runs directly on the camera module without an external application
+    server.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Camera sensor -> ESP32 camera driver -> JPEG frames -> local HTTP server.
+  body: '01
+
+
+    Camera sensor -> ESP32 camera driver -> JPEG frames -> local HTTP server.'
+- id: BLOCK23
+  label: Camera sensor -> ESP32 camera driver -> JPEG frames -> local HTTP server.
+  body: Camera sensor -> ESP32 camera driver -> JPEG frames -> local HTTP server.
+- id: BLOCK24
+  label: 02 Browser clients consume either the live MJPEG stream or still-image endpoint
+    over the LAN.
+  body: '02
+
+
+    Browser clients consume either the live MJPEG stream or still-image endpoint over
+    the LAN.'
+- id: BLOCK25
+  label: Browser clients consume either the live MJPEG stream or still-image endpoint
+    over the LAN.
+  body: Browser clients consume either the live MJPEG stream or still-image endpoint
+    over the LAN.
+- id: BLOCK26
+  label: 03 Firmware runs directly on the camera module without an external application
+    server.
+  body: '03
+
+
+    Firmware runs directly on the camera module without an external application server.'
+- id: BLOCK27
+  label: Firmware runs directly on the camera module without an external application
+    server.
+  body: Firmware runs directly on the camera module without an external application
+    server.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: ESP-IDF build/flash/monitor flow
+  body: ESP-IDF build/flash/monitor flow
+- id: BLOCK31
+  label: Boot-log confirmation of camera initialization
+  body: Boot-log confirmation of camera initialization
+- id: BLOCK32
+  label: Wi-Fi association and IP acquisition
+  body: Wi-Fi association and IP acquisition
+- id: BLOCK33
+  label: Browser validation of /stream and /capture
+  body: Browser validation of /stream and /capture
+- id: BLOCK34
+  label: Board-specific flash/PSRAM configuration
+  body: Board-specific flash/PSRAM configuration
+- id: BLOCK35
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK36
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK37
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK38
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK39
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK40
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK41
+  label: — Targets GOOUUU ESP32-S3-CAM V1.5 / N16R8 profile
+  body: —Targets GOOUUU ESP32-S3-CAM V1.5 / N16R8 profile
+- id: BLOCK42
+  label: — Local-network service rather than cloud camera
+  body: —Local-network service rather than cloud camera
+- id: BLOCK43
+  label: — Sensor compatibility follows esp32-camera support
+  body: —Sensor compatibility follows esp32-camera support
+- id: BLOCK44
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK45
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK46
+  label: A simple working network camera firmware path for live browser viewing and
+    captures on ESP32-S3
+  body: A simple working network camera firmware path for live browser viewing and
+    captures on ESP32-S3.
+- id: BLOCK47
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK48
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK49
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK50
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK51
+  label: ESP-IDF
+  body: ESP-IDF
+- id: BLOCK52
+  label: OV2640
+  body: OV2640
+- id: BLOCK53
+  label: Wi-Fi
+  body: Wi-Fi
+- id: BLOCK54
+  label: HTTP
+  body: HTTP
+- id: BLOCK55
+  label: MJPEG
+  body: MJPEG
+- id: BLOCK56
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK57
+  label: STATUS
+  body: STATUS
+- id: BLOCK58
+  label: Built
+  body: Built
+- id: BLOCK59
+  label: AREA
+  body: AREA
+- id: BLOCK60
+  label: Embedded & Devices
+  body: Embedded & Devices
+- id: BLOCK61
+  label: STACK
+  body: STACK
+- id: BLOCK62
+  label: 6 documented technologies
+  body: 6 documented technologies
+- id: BLOCK63
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK64
+  label: 2 connected / bounded services
+  body: 2 connected / bounded services
+- id: BLOCK65
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK66
+  label: '01'
+  body: '01'
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: A Kubernetes Service Can Be Healthy While the App Is Broken
+  body: A Kubernetes Service Can Be Healthy While the App Is Broken
+- id: BLOCK69
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK70
+  label: Chart.yaml Is Small, but It Gives a Service an Identity
+  body: Chart.yaml Is Small, but It Gives a Service an Identity
+- id: BLOCK71
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK72
+  label: Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+  body: Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+- id: BLOCK73
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK74
+  label: '02'
+  body: '02'
+- id: BLOCK75
+  label: '03'
+  body: '03'
+- id: BLOCK76
+  label: '02'
+  body: '02'
+- id: BLOCK77
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK78
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK79
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK80
+  label: '03'
+  body: '03'
+- id: BLOCK81
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK82
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK83
+  label: OV2640-class camera
+  body: OV2640-class camera
+- id: BLOCK84
+  label: →
+  body: →
+- id: BLOCK85
+  label: ESP32-S3 camera driver
+  body: ESP32-S3 camera driver
+- id: BLOCK86
+  label: →
+  body: →
+- id: BLOCK87
+  label: JPEG frame buffer
+  body: JPEG frame buffer
+- id: BLOCK88
+  label: →
+  body: →
+- id: BLOCK89
+  label: Local HTTP server
+  body: Local HTTP server
+- id: BLOCK90
+  label: →
+  body: →
+- id: BLOCK91
+  label: Browser / phone
+  body: Browser / phone
+- id: BLOCK92
+  label: '04'
+  body: '04'
+- id: BLOCK93
+  label: '01'
+  body: '01'
+- id: BLOCK94
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK95
+  label: '02'
+  body: '02'
+- id: BLOCK96
+  label: ESP-IDF
+  body: ESP-IDF
+- id: BLOCK97
+  label: '03'
+  body: '03'
+- id: BLOCK98
+  label: OV2640
+  body: OV2640
+- id: BLOCK99
+  label: '04'
+  body: '04'
+- id: BLOCK100
+  label: Wi-Fi
+  body: Wi-Fi
+- id: BLOCK101
+  label: '05'
+  body: '05'
+- id: BLOCK102
+  label: HTTP
+  body: HTTP
+- id: BLOCK103
+  label: '06'
+  body: '06'
+- id: BLOCK104
+  label: MJPEG
+  body: MJPEG
+- id: BLOCK105
+  label: '05'
+  body: '05'
+- id: BLOCK106
+  label: '06'
+  body: '06'
+- id: BLOCK107
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK108
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK109
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK110
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK111
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK112
+  label: '07'
+  body: '07'
+- id: BLOCK113
+  label: Fimi Cam ESP-IDF
+  body: Fimi Cam ESP-IDF
+- id: BLOCK114
+  label: ↔
+  body: ↔
+- id: BLOCK115
+  label: Local Wi-Fi access point
+  body: Local Wi-Fi access point
+- id: BLOCK116
+  label: ↔
+  body: ↔
+- id: BLOCK117
+  label: Browser client
+  body: Browser client
+- id: BLOCK118
+  label: 08
+  body: 08
+- id: BLOCK119
+  label: '01'
+  body: '01'
+- id: BLOCK120
+  label: NOTE
+  body: NOTE
+- id: BLOCK121
+  label: ESP-IDF source
+  body: ESP-IDF source
+- id: BLOCK122
+  label: '02'
+  body: '02'
+- id: BLOCK123
+  label: NOTE
+  body: NOTE
+- id: BLOCK124
+  label: Board target documentation
+  body: Board target documentation
+- id: BLOCK125
+  label: '03'
+  body: '03'
+- id: BLOCK126
+  label: NOTE
+  body: NOTE
+- id: BLOCK127
+  label: HTTP endpoint definitions
+  body: HTTP endpoint definitions
+- id: BLOCK128
+  label: '04'
+  body: '04'
+- id: BLOCK129
+  label: NOTE
+  body: NOTE
+- id: BLOCK130
+  label: Expected boot log
+  body: Expected boot log
+- id: BLOCK131
+  label: '05'
+  body: '05'
+- id: BLOCK132
+  label: NOTE
+  body: NOTE
+- id: BLOCK133
+  label: MJPEG and JPEG routes
+  body: MJPEG and JPEG routes
+- id: BLOCK134
+  label: 09
+  body: 09
+- id: BLOCK135
+  label: '10'
+  body: '10'
+- id: BLOCK136
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK137
+  label: ESP32 Command LLM
+  body: ESP32 Command LLM
+- id: BLOCK138
+  label: Next project →
+  body: Next project →
+- id: BLOCK139
+  label: Grander CSI ESP32-S3 Firmware
+  body: Grander CSI ESP32-S3 Firmware
+lists: []
+template: cms/templates/pages/portfolio--projects--fimi-cam-esp-idf.tpl
+source: cms/templates/pages/portfolio--projects--fimi-cam-esp-idf.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK47}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio/projects/fimi-cam-esp-idf.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/fimi-cam-esp-idf.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/fimi-cam-esp-idf.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/fimi-cam-esp-idf.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/fimi-cam-esp-idf.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/fimi-cam-esp-idf.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/fimi-cam-esp-idf.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/fimi-cam-esp-idf.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/fimi-cam-esp-idf.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/fimi-cam-esp-idf.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/fimi-cam-esp-idf.html#result
+- id: LINK16
+  label: '{{RR_BLOCK68}} {{RR_BLOCK69}}'
+  url: /posts/a-kubernetes-service-can-be-healthy-while-the-app-is-broken.html
+- id: LINK17
+  label: '{{RR_BLOCK70}} {{RR_BLOCK71}}'
+  url: /posts/chart-yaml-is-small-but-it-gives-a-service-an-identity.html
+- id: LINK18
+  label: '{{RR_BLOCK72}} {{RR_BLOCK73}}'
+  url: /posts/conditional-helm-templates-are-powerful-and-easy-to-overcomplicate.html
+- id: LINK19
+  label: '{{RR_BLOCK136}} {{RR_BLOCK137}}'
+  url: /portfolio/projects/esp32-command-llm.html
+- id: LINK20
+  label: '{{RR_BLOCK138}} {{RR_BLOCK139}}'
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html

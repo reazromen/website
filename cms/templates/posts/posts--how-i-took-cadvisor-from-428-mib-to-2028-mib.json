@@ -1,0 +1,1 @@
+{"hash": "7b86004efa398c0486535b18e816fb74d863f7996f951ea5398cd399ed009948", "html": "<p>A production-engineering deep dive into how i took cadvisor from ~428 mib to ~20–28 mib, grounded in the 2014 Mac mini hserver observability stack and its accepted runtime evidence.</p>"}

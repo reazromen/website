@@ -1,0 +1,24 @@
+title: Embedded & Firmware
+browser_title: Embedded & Firmware — Reaz Romen — Systems Engineering
+description: Systems engineering across embedded firmware, real-time communications,
+  Linux infrastructure, networking and observability.
+url: /topics/embedded-firmware.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: TOPIC
+  body: TOPIC
+- id: BLOCK1
+  label: Embedded & Firmware
+  body: Embedded & Firmware
+- id: BLOCK2
+  label: Lessons, explainers, experiments, and implementation notes.
+  body: Lessons, explainers, experiments, and implementation notes.
+lists:
+- key: LIST0
+  filter:
+    topic: embedded-firmware
+  style: cards
+template: cms/templates/pages/topics--embedded-firmware.tpl
+source: cms/templates/pages/topics--embedded-firmware.json
+links: []

@@ -1,0 +1,533 @@
+title: Grander CSI ESP32-S3 Firmware
+browser_title: Grander CSI ESP32-S3 Firmware — Reaz Romen Portfolio
+description: ESP32-S3 CSI telemetry firmware that streams channel-state data over
+  UDP and supports persistent configuration plus signed A/B OTA through the fleet
+  service.
+url: /portfolio/projects/grander-csi-esp32-s3-firmware.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Wireless & Sensing / Built / accepted baseline
+  body: Wireless & Sensing / Built / accepted baseline
+- id: BLOCK1
+  label: Grander CSI ESP32-S3 Firmware
+  body: Grander CSI ESP32-S3 Firmware
+- id: BLOCK2
+  label: ESP32-S3 CSI telemetry firmware that streams channel-state data over UDP
+    and supports persisten
+  body: ESP32-S3 CSI telemetry firmware that streams channel-state data over UDP and
+    supports persistent configuration plus signed A/B OTA through the fleet service.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: ESP32-S3 CSI telemetry firmware that streams channel-state data over UDP
+    and supports persisten
+  body: ESP32-S3 CSI telemetry firmware that streams channel-state data over UDP and
+    supports persistent configuration plus signed A/B OTA through the fleet service.
+- id: BLOCK7
+  label: Turned an ESP32 CSI example into a persistent telemetry firmware baseline.
+  body: Turned an ESP32 CSI example into a persistent telemetry firmware baseline.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Added UDP CSI streaming, persistent Wi-Fi/OTA configuration and signed A/B
+    firmware update beha
+  body: Added UDP CSI streaming, persistent Wi-Fi/OTA configuration and signed A/B
+    firmware update behavior.
+- id: BLOCK10
+  label: Connected device update behavior to the OTA Fleet control plane.
+  body: Connected device update behavior to the OTA Fleet control plane.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Router/channel activity -> ESP32-S3 CSI capture -> UDP telemetry -> server-side
+    collector/analy
+  body: Router/channel activity -> ESP32-S3 CSI capture -> UDP telemetry -> server-side
+    collector/analysis.
+- id: BLOCK14
+  label: OTA Fleet -> signed firmware artifact -> inactive partition -> validation/activation
+    on device.
+  body: OTA Fleet -> signed firmware artifact -> inactive partition -> validation/activation
+    on device.
+- id: BLOCK15
+  label: Persistent configuration survives normal reboots and separates runtime settings
+    from compiled f
+  body: Persistent configuration survives normal reboots and separates runtime settings
+    from compiled firmware.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Router/channel activity -> ESP32-S3 CSI capture -> UDP telemetry -> server-side
+    collector/an
+  body: '01
+
+
+    Router/channel activity -> ESP32-S3 CSI capture -> UDP telemetry -> server-side
+    collector/analysis.'
+- id: BLOCK23
+  label: Router/channel activity -> ESP32-S3 CSI capture -> UDP telemetry -> server-side
+    collector/analy
+  body: Router/channel activity -> ESP32-S3 CSI capture -> UDP telemetry -> server-side
+    collector/analysis.
+- id: BLOCK24
+  label: 02 OTA Fleet -> signed firmware artifact -> inactive partition -> validation/activation
+    on devi
+  body: '02
+
+
+    OTA Fleet -> signed firmware artifact -> inactive partition -> validation/activation
+    on device.'
+- id: BLOCK25
+  label: OTA Fleet -> signed firmware artifact -> inactive partition -> validation/activation
+    on device.
+  body: OTA Fleet -> signed firmware artifact -> inactive partition -> validation/activation
+    on device.
+- id: BLOCK26
+  label: 03 Persistent configuration survives normal reboots and separates runtime
+    settings from compile
+  body: '03
+
+
+    Persistent configuration survives normal reboots and separates runtime settings
+    from compiled firmware.'
+- id: BLOCK27
+  label: Persistent configuration survives normal reboots and separates runtime settings
+    from compiled f
+  body: Persistent configuration survives normal reboots and separates runtime settings
+    from compiled firmware.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Accepted firmware baseline preserved as a release snapshot
+  body: Accepted firmware baseline preserved as a release snapshot
+- id: BLOCK31
+  label: CSI telemetry checked over UDP
+  body: CSI telemetry checked over UDP
+- id: BLOCK32
+  label: Persistent Wi-Fi/OTA configuration verified
+  body: Persistent Wi-Fi/OTA configuration verified
+- id: BLOCK33
+  label: Signed A/B OTA path integrated with fleet service
+  body: Signed A/B OTA path integrated with fleet service
+- id: BLOCK34
+  label: Canary release workflow used before broader rollout
+  body: Canary release workflow used before broader rollout
+- id: BLOCK35
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK36
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK37
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK38
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK39
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK40
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK41
+  label: — CSI quality depends on RF geometry and router behavior
+  body: —CSI quality depends on RF geometry and router behavior
+- id: BLOCK42
+  label: — OTA safety depends on signing and inactive-slot validation
+  body: —OTA safety depends on signing and inactive-slot validation
+- id: BLOCK43
+  label: — Telemetry is sensing evidence, not automatic ground truth
+  body: —Telemetry is sensing evidence, not automatic ground truth
+- id: BLOCK44
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK45
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK46
+  label: An accepted CSI telemetry baseline suitable for continued sensing experiments
+    and managed fleet
+  body: An accepted CSI telemetry baseline suitable for continued sensing experiments
+    and managed fleet updates.
+- id: BLOCK47
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK48
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK49
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK50
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK51
+  label: Wi-Fi CSI
+  body: Wi-Fi CSI
+- id: BLOCK52
+  label: UDP
+  body: UDP
+- id: BLOCK53
+  label: Signed OTA
+  body: Signed OTA
+- id: BLOCK54
+  label: ESP-IDF
+  body: ESP-IDF
+- id: BLOCK55
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK56
+  label: STATUS
+  body: STATUS
+- id: BLOCK57
+  label: Built / accepted baseline
+  body: Built / accepted baseline
+- id: BLOCK58
+  label: AREA
+  body: AREA
+- id: BLOCK59
+  label: Wireless & Sensing
+  body: Wireless & Sensing
+- id: BLOCK60
+  label: STACK
+  body: STACK
+- id: BLOCK61
+  label: 5 documented technologies
+  body: 5 documented technologies
+- id: BLOCK62
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK63
+  label: 3 connected / bounded services
+  body: 3 connected / bounded services
+- id: BLOCK64
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK65
+  label: '01'
+  body: '01'
+- id: BLOCK66
+  label: '01'
+  body: '01'
+- id: BLOCK67
+  label: A Kubernetes Service Can Be Healthy While the App Is Broken
+  body: A Kubernetes Service Can Be Healthy While the App Is Broken
+- id: BLOCK68
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK69
+  label: Chart.yaml Is Small, but It Gives a Service an Identity
+  body: Chart.yaml Is Small, but It Gives a Service an Identity
+- id: BLOCK70
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK71
+  label: Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+  body: Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+- id: BLOCK72
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK73
+  label: '02'
+  body: '02'
+- id: BLOCK74
+  label: '03'
+  body: '03'
+- id: BLOCK75
+  label: '02'
+  body: '02'
+- id: BLOCK76
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK77
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK78
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK79
+  label: '03'
+  body: '03'
+- id: BLOCK80
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK81
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK82
+  label: Wi-Fi router / RF channel
+  body: Wi-Fi router / RF channel
+- id: BLOCK83
+  label: →
+  body: →
+- id: BLOCK84
+  label: ESP32-S3 CSI callback
+  body: ESP32-S3 CSI callback
+- id: BLOCK85
+  label: →
+  body: →
+- id: BLOCK86
+  label: Telemetry framing
+  body: Telemetry framing
+- id: BLOCK87
+  label: →
+  body: →
+- id: BLOCK88
+  label: UDP stream
+  body: UDP stream
+- id: BLOCK89
+  label: →
+  body: →
+- id: BLOCK90
+  label: hserver collector
+  body: hserver collector
+- id: BLOCK91
+  label: →
+  body: →
+- id: BLOCK92
+  label: Sensing / dashboard
+  body: Sensing / dashboard
+- id: BLOCK93
+  label: '04'
+  body: '04'
+- id: BLOCK94
+  label: '01'
+  body: '01'
+- id: BLOCK95
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK96
+  label: '02'
+  body: '02'
+- id: BLOCK97
+  label: Wi-Fi CSI
+  body: Wi-Fi CSI
+- id: BLOCK98
+  label: '03'
+  body: '03'
+- id: BLOCK99
+  label: UDP
+  body: UDP
+- id: BLOCK100
+  label: '04'
+  body: '04'
+- id: BLOCK101
+  label: Signed OTA
+  body: Signed OTA
+- id: BLOCK102
+  label: '05'
+  body: '05'
+- id: BLOCK103
+  label: ESP-IDF
+  body: ESP-IDF
+- id: BLOCK104
+  label: '05'
+  body: '05'
+- id: BLOCK105
+  label: '06'
+  body: '06'
+- id: BLOCK106
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK107
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK108
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK109
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK110
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK111
+  label: '07'
+  body: '07'
+- id: BLOCK112
+  label: Grander CSI ESP32-S3 Firmware
+  body: Grander CSI ESP32-S3 Firmware
+- id: BLOCK113
+  label: ↔
+  body: ↔
+- id: BLOCK114
+  label: Wi-Fi router
+  body: Wi-Fi router
+- id: BLOCK115
+  label: ↔
+  body: ↔
+- id: BLOCK116
+  label: hserver CSI collector
+  body: hserver CSI collector
+- id: BLOCK117
+  label: ↔
+  body: ↔
+- id: BLOCK118
+  label: OTA Fleet control plane
+  body: OTA Fleet control plane
+- id: BLOCK119
+  label: 08
+  body: 08
+- id: BLOCK120
+  label: '01'
+  body: '01'
+- id: BLOCK121
+  label: NOTE
+  body: NOTE
+- id: BLOCK122
+  label: Accepted release repository
+  body: Accepted release repository
+- id: BLOCK123
+  label: '02'
+  body: '02'
+- id: BLOCK124
+  label: NOTE
+  body: NOTE
+- id: BLOCK125
+  label: Handoff document
+  body: Handoff document
+- id: BLOCK126
+  label: '03'
+  body: '03'
+- id: BLOCK127
+  label: NOTE
+  body: NOTE
+- id: BLOCK128
+  label: OTA architecture document
+  body: OTA architecture document
+- id: BLOCK129
+  label: '04'
+  body: '04'
+- id: BLOCK130
+  label: NOTE
+  body: NOTE
+- id: BLOCK131
+  label: UDP telemetry path
+  body: UDP telemetry path
+- id: BLOCK132
+  label: '05'
+  body: '05'
+- id: BLOCK133
+  label: FIRMWARE
+  body: FIRMWARE
+- id: BLOCK134
+  label: Signed firmware update design
+  body: Signed firmware update design
+- id: BLOCK135
+  label: 09
+  body: 09
+- id: BLOCK136
+  label: '10'
+  body: '10'
+- id: BLOCK137
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK138
+  label: Fimi Cam ESP-IDF
+  body: Fimi Cam ESP-IDF
+- id: BLOCK139
+  label: Next project →
+  body: Next project →
+- id: BLOCK140
+  label: Wi-Fi CSI Presence Sensing System
+  body: Wi-Fi CSI Presence Sensing System
+lists: []
+template: cms/templates/pages/portfolio--projects--grander-csi-esp32-s3-firmware.tpl
+source: cms/templates/pages/portfolio--projects--grander-csi-esp32-s3-firmware.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK47}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html#result
+- id: LINK16
+  label: '{{RR_BLOCK67}} {{RR_BLOCK68}}'
+  url: /posts/a-kubernetes-service-can-be-healthy-while-the-app-is-broken.html
+- id: LINK17
+  label: '{{RR_BLOCK69}} {{RR_BLOCK70}}'
+  url: /posts/chart-yaml-is-small-but-it-gives-a-service-an-identity.html
+- id: LINK18
+  label: '{{RR_BLOCK71}} {{RR_BLOCK72}}'
+  url: /posts/conditional-helm-templates-are-powerful-and-easy-to-overcomplicate.html
+- id: LINK19
+  label: '{{RR_BLOCK137}} {{RR_BLOCK138}}'
+  url: /portfolio/projects/fimi-cam-esp-idf.html
+- id: LINK20
+  label: '{{RR_BLOCK139}} {{RR_BLOCK140}}'
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html

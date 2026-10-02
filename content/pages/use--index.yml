@@ -1,0 +1,80 @@
+title: Working Stack
+browser_title: Working Stack — Reaz Romen
+description: Technologies Reaz Romen regularly uses across production systems.
+url: /use/index.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Working Stack
+  body: Working Stack
+- id: BLOCK1
+  label: Technologies I regularly use across real systems.
+  body: '*Technologies I regularly use across real systems.*'
+- id: BLOCK2
+  label: Embedded & Edge
+  body: Embedded & Edge
+- id: BLOCK3
+  label: ESP32 · ESP32-S3 · ESP-IDF · FreeRTOS · C · C++ · I²C · I²S · SPI · UART
+    · E-Paper · Audio Code
+  body: ESP32 · ESP32-S3 · ESP-IDF · FreeRTOS · C · C++ · I²C · I²S · SPI · UART ·
+    E-Paper · Audio Codecs · OTA
+- id: BLOCK4
+  label: Voice & Communications
+  body: Voice & Communications
+- id: BLOCK5
+  label: SIP · RTP · WebRTC · Asterisk · OpenSIPS · FreeSWITCH · Telnyx · Audio DSP
+    · AEC · Jitter Buffe
+  body: SIP · RTP · WebRTC · Asterisk · OpenSIPS · FreeSWITCH · Telnyx · Audio DSP
+    · AEC · Jitter Buffers
+- id: BLOCK6
+  label: Infrastructure
+  body: Infrastructure
+- id: BLOCK7
+  label: 'Linux · Docker · Docker Compose · Nomad · Kubernetes · Terraform · Ansible
+    · systemd · Caddy · '
+  body: Linux · Docker · Docker Compose · Nomad · Kubernetes · Terraform · Ansible
+    · systemd · Caddy · Cloudflare · Tailscale
+- id: BLOCK8
+  label: Networking
+  body: Networking
+- id: BLOCK9
+  label: TCP/IP · UDP · DNS · HTTP/HTTPS · WebSockets · MQTT · Wi-Fi · BLE · NAT ·
+    VPNs · Wireshark · tc
+  body: TCP/IP · UDP · DNS · HTTP/HTTPS · WebSockets · MQTT · Wi-Fi · BLE · NAT ·
+    VPNs · Wireshark · tcpdump
+- id: BLOCK10
+  label: Observability & Data
+  body: Observability & Data
+- id: BLOCK11
+  label: Grafana · Prometheus · Loki · ClickHouse · PostgreSQL · Redis · Time-Series
+    Telemetry · Metrics
+  body: Grafana · Prometheus · Loki · ClickHouse · PostgreSQL · Redis · Time-Series
+    Telemetry · Metrics · Logs · Traces
+- id: BLOCK12
+  label: Backend & Automation
+  body: Backend & Automation
+- id: BLOCK13
+  label: 'Python · TypeScript · JavaScript · Node.js · FastAPI · REST APIs · WebSockets
+    · Git · GitHub · '
+  body: Python · TypeScript · JavaScript · Node.js · FastAPI · REST APIs · WebSockets
+    · Git · GitHub · CI/CD · Shell Automation
+- id: BLOCK14
+  label: RF & Sensing
+  body: RF & Sensing
+- id: BLOCK15
+  label: Wi-Fi CSI · RF Signal Analysis · GNSS · Doppler Analysis · Cellular Telemetry
+    · Environmental S
+  body: Wi-Fi CSI · RF Signal Analysis · GNSS · Doppler Analysis · Cellular Telemetry
+    · Environmental Sensing
+- id: BLOCK16
+  label: AI Systems
+  body: AI Systems
+- id: BLOCK17
+  label: LLM Integration · MCP · AI Agents · Tool-Connected Systems · Local Models
+    · Voice AI · Workflow
+  body: LLM Integration · MCP · AI Agents · Tool-Connected Systems · Local Models
+    · Voice AI · Workflow Automation
+lists: []
+template: cms/templates/pages/use--index.tpl
+source: cms/templates/pages/use--index.json
+links: []

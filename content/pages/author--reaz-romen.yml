@@ -1,0 +1,38 @@
+title: Reaz Romen
+browser_title: Reaz Romen — Author — Reaz Romen — Systems Engineering
+description: Systems engineering across embedded firmware, real-time communications,
+  Linux infrastructure, networking and observability.
+url: /author/reaz-romen.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: AUTHOR PROFILE
+  body: AUTHOR PROFILE
+- id: BLOCK1
+  label: Reaz Romen
+  body: Reaz Romen
+- id: BLOCK2
+  label: Systems engineer working across embedded devices, networks, real-time communications,
+    backend s
+  body: Systems engineer working across embedded devices, networks, real-time communications,
+    backend systems, Linux infrastructure, observability, and operational tooling.
+- id: BLOCK3
+  label: Articles by Reaz Romen
+  body: Articles by Reaz Romen
+- id: BLOCK4
+  label: Systems Engineer & Technical Author
+  body: Systems Engineer & Technical Author
+- id: BLOCK5
+  label: ✓ Site verified
+  body: ✓ Site verified
+- id: BLOCK6
+  label: 863 published
+  body: 863 published
+lists:
+- key: LIST0
+  filter:
+    all: true
+  style: cards
+template: cms/templates/pages/author--reaz-romen.tpl
+source: cms/templates/pages/author--reaz-romen.json
+links: []

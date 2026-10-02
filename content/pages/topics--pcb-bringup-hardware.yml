@@ -1,0 +1,24 @@
+title: PCB Bring-Up & Hardware
+browser_title: PCB Bring-Up & Hardware — Reaz Romen — Systems Engineering
+description: Systems engineering across embedded firmware, real-time communications,
+  Linux infrastructure, networking and observability.
+url: /topics/pcb-bringup-hardware.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: TOPIC
+  body: TOPIC
+- id: BLOCK1
+  label: PCB Bring-Up & Hardware
+  body: PCB Bring-Up & Hardware
+- id: BLOCK2
+  label: Lessons, explainers, experiments, and implementation notes.
+  body: Lessons, explainers, experiments, and implementation notes.
+lists:
+- key: LIST0
+  filter:
+    topic: pcb-bringup-hardware
+  style: cards
+template: cms/templates/pages/topics--pcb-bringup-hardware.tpl
+source: cms/templates/pages/topics--pcb-bringup-hardware.json
+links: []

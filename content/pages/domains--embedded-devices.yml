@@ -1,0 +1,321 @@
+title: Embedded & Devices
+browser_title: Embedded & Devices — Reaz Romen
+description: Firmware, microcontrollers, device I/O, audio hardware and OTA.
+url: /domains/embedded-devices.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: ENGINEERING DOMAIN
+  body: ENGINEERING DOMAIN
+- id: BLOCK1
+  label: Embedded & Devices
+  body: Embedded & Devices
+- id: BLOCK2
+  label: Firmware, microcontrollers, device I/O, audio hardware and OTA.
+  body: Firmware, microcontrollers, device I/O, audio hardware and OTA.
+- id: BLOCK3
+  label: Firmware, microcontrollers, device I/O, audio hardware and OTA.
+  body: Firmware, microcontrollers, device I/O, audio hardware and OTA.
+- id: BLOCK4
+  label: 6 projects · 15 pieces of writing
+  body: 6 projects · 15 pieces of writing
+- id: BLOCK5
+  label: ESP32 Command LLM
+  body: ESP32 Command LLM
+- id: BLOCK6
+  label: A 580K-parameter transformer trained from scratch to turn English and Spanish
+    commands into GPI
+  body: A 580K-parameter transformer trained from scratch to turn English and Spanish
+    commands into GPIO, PWM and servo actions entirely on an ESP32-S3.
+- id: BLOCK7
+  label: WORK
+  body: WORK
+- id: BLOCK8
+  label: Fimi Cam ESP-IDF
+  body: Fimi Cam ESP-IDF
+- id: BLOCK9
+  label: ESP32-S3 camera firmware with Wi-Fi bring-up, browser live view, MJPEG streaming
+    and still-imag
+  body: ESP32-S3 camera firmware with Wi-Fi bring-up, browser live view, MJPEG streaming
+    and still-image capture for an OV2640-class camera board.
+- id: BLOCK10
+  label: WORK
+  body: WORK
+- id: BLOCK11
+  label: Grander CSI ESP32-S3 Firmware
+  body: Grander CSI ESP32-S3 Firmware
+- id: BLOCK12
+  label: ESP32-S3 CSI telemetry firmware that streams channel-state data over UDP
+    and supports persisten
+  body: ESP32-S3 CSI telemetry firmware that streams channel-state data over UDP and
+    supports persistent configuration plus signed A/B OTA through the fleet service.
+- id: BLOCK13
+  label: WORK
+  body: WORK
+- id: BLOCK14
+  label: LOUP ESP32-S3 Connected Voice Device
+  body: LOUP ESP32-S3 Connected Voice Device
+- id: BLOCK15
+  label: 'Custom ESP32-S3 voice device spanning codec bring-up, I2S audio, AEC, jitter/playout,
+    SIP/RTP, '
+  body: Custom ESP32-S3 voice device spanning codec bring-up, I2S audio, AEC, jitter/playout,
+    SIP/RTP, e-paper UI, controls, provisioning and OTA.
+- id: BLOCK16
+  label: WORK
+  body: WORK
+- id: BLOCK17
+  label: OTA Fleet Control Plane
+  body: OTA Fleet Control Plane
+- id: BLOCK18
+  label: ESP device fleet service with unique device credentials, immutable firmware
+    artifacts, compatib
+  body: ESP device fleet service with unique device credentials, immutable firmware
+    artifacts, compatibility gates, rollout state and authenticated operator control.
+- id: BLOCK19
+  label: WORK
+  body: WORK
+- id: BLOCK20
+  label: Pocket Dial
+  body: Pocket Dial
+- id: BLOCK21
+  label: A SIP registrar and PBX that runs on an ESP32-S3, with extension calling,
+    peer-to-peer RTP, cal
+  body: A SIP registrar and PBX that runs on an ESP32-S3, with extension calling,
+    peer-to-peer RTP, call features, web administration, optional LVGL UI and dual-OTA.
+- id: BLOCK22
+  label: WORK
+  body: WORK
+- id: BLOCK23
+  label: A Kubernetes Service Can Be Healthy While the App Is Broken
+  body: A Kubernetes Service Can Be Healthy While the App Is Broken
+- id: BLOCK24
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK25
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK26
+  label: Chart.yaml Is Small, but It Gives a Service an Identity
+  body: Chart.yaml Is Small, but It Gives a Service an Identity
+- id: BLOCK27
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK28
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK29
+  label: Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+  body: Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+- id: BLOCK30
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK31
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK32
+  label: Container Ports Are Documentation and a Runtime Contract
+  body: Container Ports Are Documentation and a Runtime Contract
+- id: BLOCK33
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK34
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK35
+  label: How a Missing Helm Value Turned Into a Nil-Pointer Problem
+  body: How a Missing Helm Value Turned Into a Nil-Pointer Problem
+- id: BLOCK36
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK37
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK38
+  label: Internal Services vs External Services in Voiceware
+  body: Internal Services vs External Services in Voiceware
+- id: BLOCK39
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK40
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK41
+  label: 'Labels and Selectors: The Tiny Contract That Can Break an Entire Service'
+  body: 'Labels and Selectors: The Tiny Contract That Can Break an Entire Service'
+- id: BLOCK42
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK43
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK44
+  label: 'Matter-over-Thread on ESP32: The Hard Part Starts After the Demo Board Works'
+  body: 'Matter-over-Thread on ESP32: The Hard Part Starts After the Demo Board Works'
+- id: BLOCK45
+  label: A Matter demo proves the SDK and radio can talk. A product has to survive
+    commissioning, Thread
+  body: A Matter demo proves the SDK and radio can talk. A product has to survive
+    commissioning, Thread topology, memory limits, power loss, manufacturing, OTA,
+    and multiple ecosystems.
+- id: BLOCK46
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK47
+  label: Rendering Safely When Some Voiceware Workers Are Optional
+  body: Rendering Safely When Some Voiceware Workers Are Optional
+- id: BLOCK48
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK49
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK50
+  label: Secure ESP32 OTA Is a Chain of Trust, Not an HTTPS Download
+  body: Secure ESP32 OTA Is a Chain of Trust, Not an HTTPS Download
+- id: BLOCK51
+  label: 'HTTPS protects a firmware transfer in transit. A production OTA design also
+    has to prove image '
+  body: HTTPS protects a firmware transfer in transit. A production OTA design also
+    has to prove image authenticity, select boot slots safely, confirm health, permit
+    recovery, and prevent rollback to revoked vulnerable firmware.
+- id: BLOCK52
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK53
+  label: The Missing celery.type Bug and What It Says About Configuration Contracts
+  body: The Missing celery.type Bug and What It Says About Configuration Contracts
+- id: BLOCK54
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK55
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK56
+  label: The Missing service.port Bug in celery-low
+  body: The Missing service.port Bug in celery-low
+- id: BLOCK57
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK58
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK59
+  label: When to Reuse a Helm Template and When to Fork It
+  body: When to Reuse a Helm Template and When to Fork It
+- id: BLOCK60
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK61
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK62
+  label: Why I Later Exposed Voiceware on NodePort 30080
+  body: Why I Later Exposed Voiceware on NodePort 30080
+- id: BLOCK63
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK64
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK65
+  label: Why the First Voiceware Web Service Used ClusterIP
+  body: Why the First Voiceware Web Service Used ClusterIP
+- id: BLOCK66
+  label: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, n
+  body: Systems engineering across embedded firmware, real-time communications, Linux
+    infrastructure, networking and observability.
+- id: BLOCK67
+  label: '2026-09-18'
+  body: '2026-09-18'
+lists: []
+template: cms/templates/pages/domains--embedded-devices.tpl
+source: cms/templates/pages/domains--embedded-devices.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK5}} {{RR_BLOCK6}} {{RR_BLOCK7}}'
+  url: /portfolio/projects/esp32-command-llm.html
+- id: LINK1
+  label: '{{RR_BLOCK8}} {{RR_BLOCK9}} {{RR_BLOCK10}}'
+  url: /portfolio/projects/fimi-cam-esp-idf.html
+- id: LINK2
+  label: '{{RR_BLOCK11}} {{RR_BLOCK12}} {{RR_BLOCK13}}'
+  url: /portfolio/projects/grander-csi-esp32-s3-firmware.html
+- id: LINK3
+  label: '{{RR_BLOCK14}} {{RR_BLOCK15}} {{RR_BLOCK16}}'
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html
+- id: LINK4
+  label: '{{RR_BLOCK17}} {{RR_BLOCK18}} {{RR_BLOCK19}}'
+  url: /portfolio/projects/ota-fleet-control-plane.html
+- id: LINK5
+  label: '{{RR_BLOCK20}} {{RR_BLOCK21}} {{RR_BLOCK22}}'
+  url: /portfolio/projects/pocket-dial.html
+- id: LINK6
+  label: '{{RR_BLOCK23}} {{RR_BLOCK24}} {{RR_BLOCK25}}'
+  url: /posts/a-kubernetes-service-can-be-healthy-while-the-app-is-broken.html
+- id: LINK7
+  label: '{{RR_BLOCK26}} {{RR_BLOCK27}} {{RR_BLOCK28}}'
+  url: /posts/chart-yaml-is-small-but-it-gives-a-service-an-identity.html
+- id: LINK8
+  label: '{{RR_BLOCK29}} {{RR_BLOCK30}} {{RR_BLOCK31}}'
+  url: /posts/conditional-helm-templates-are-powerful-and-easy-to-overcomplicate.html
+- id: LINK9
+  label: '{{RR_BLOCK32}} {{RR_BLOCK33}} {{RR_BLOCK34}}'
+  url: /posts/container-ports-are-documentation-and-a-runtime-contract.html
+- id: LINK10
+  label: '{{RR_BLOCK35}} {{RR_BLOCK36}} {{RR_BLOCK37}}'
+  url: /posts/how-a-missing-helm-value-turned-into-a-nil-pointer-problem.html
+- id: LINK11
+  label: '{{RR_BLOCK38}} {{RR_BLOCK39}} {{RR_BLOCK40}}'
+  url: /posts/internal-services-vs-external-services-in-voiceware.html
+- id: LINK12
+  label: '{{RR_BLOCK41}} {{RR_BLOCK42}} {{RR_BLOCK43}}'
+  url: /posts/labels-and-selectors-the-tiny-contract-that-can-break-an-entire-service.html
+- id: LINK13
+  label: '{{RR_BLOCK44}} {{RR_BLOCK45}} {{RR_BLOCK46}}'
+  url: /posts/matter-thread-esp32-after-demo-board.html
+- id: LINK14
+  label: '{{RR_BLOCK47}} {{RR_BLOCK48}} {{RR_BLOCK49}}'
+  url: /posts/rendering-safely-when-some-voiceware-workers-are-optional.html
+- id: LINK15
+  label: '{{RR_BLOCK50}} {{RR_BLOCK51}} {{RR_BLOCK52}}'
+  url: /posts/secure-esp32-ota-chain-of-trust.html
+- id: LINK16
+  label: '{{RR_BLOCK53}} {{RR_BLOCK54}} {{RR_BLOCK55}}'
+  url: /posts/the-missing-celery-type-bug-and-what-it-says-about-configuration-contracts.html
+- id: LINK17
+  label: '{{RR_BLOCK56}} {{RR_BLOCK57}} {{RR_BLOCK58}}'
+  url: /posts/the-missing-service-port-bug-in-celery-low.html
+- id: LINK18
+  label: '{{RR_BLOCK59}} {{RR_BLOCK60}} {{RR_BLOCK61}}'
+  url: /posts/when-to-reuse-a-helm-template-and-when-to-fork-it.html
+- id: LINK19
+  label: '{{RR_BLOCK62}} {{RR_BLOCK63}} {{RR_BLOCK64}}'
+  url: /posts/why-i-later-exposed-voiceware-on-nodeport-30080.html
+- id: LINK20
+  label: '{{RR_BLOCK65}} {{RR_BLOCK66}} {{RR_BLOCK67}}'
+  url: /posts/why-the-first-voiceware-web-service-used-clusterip.html

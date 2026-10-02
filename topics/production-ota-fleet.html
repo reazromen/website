@@ -1,227 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
-  <meta name="author" content="Reaz Romen">
-  <link rel="author" href="../about.html">
-  <title>Production OTA &amp; Fleet — Reaz Romen — Systems Engineering</title>
-  <link rel="stylesheet" href="../static/css/site.css">
-<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability." name="description"/>
+<meta content="Reaz Romen" name="author"/>
+<link href="../about.html" rel="author"/>
+<title>Production OTA &amp; Fleet — Reaz Romen</title>
+<link href="../static/css/site.css" rel="stylesheet"/>
+<link href="/assets/site.css" rel="stylesheet"/><link href="/assets/sitewide-v2.css" rel="stylesheet"/><link href="/assets/phase1.css" rel="stylesheet"/><link href="/feed.xml" rel="alternate" title="Reaz Romen — Writing" type="application/rss+xml"/><link href="/atom.xml" rel="alternate" title="Reaz Romen — Writing" type="application/atom+xml"/><link href="/assets/responsive-v3.css" rel="stylesheet"/><link href="https://reazromen.com/topics/production-ota-fleet.html" rel="canonical"/></head>
 <body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
-
-<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
-<main id="rr-main" class="shell site-main">
-  
-    
-  
-  
+<header class="site-header rr-global-header"><div class="site-header-inner"><a aria-label="Reaz Romen home" class="brand" href="/">RR</a><nav aria-label="Main navigation" class="nav"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button aria-label="Search and quick navigation" class="icon-link search-action" data-open-command="" title="Search (Ctrl/⌘ K)" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg></button><a aria-label="GitHub" class="icon-link github-action" href="https://github.com/reazromen" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon icon-fill" viewbox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"></path></svg></a><button aria-label="Toggle color scheme" class="theme-toggle" onclick="toggleTheme()" type="button"><svg aria-hidden="true" class="icon" data-theme-icon="moon" viewbox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"></path></svg><svg aria-hidden="true" class="icon" data-theme-icon="sun" hidden="" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></svg></button></div></nav></div></header>
+<main class="shell site-main" id="rr-main">
 <section class="page-head"><p class="eyebrow">TOPIC</p><h1>Production OTA &amp; Fleet</h1><p class="lede">Lessons, explainers, experiments, and implementation notes.</p></section>
 <div class="post-list">
-  <article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-ota-first-boot-transaction.html">First Boot After OTA Is Still a Transaction</a></h3>
-  <p>A successful flash write does not prove the new image can initialize hardware, load state and stay healthy.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>bootloader</span><span>rollback</span><span>firmware</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-desired-observed-separate.html">Desired and Observed State Should Never Share a Field</a></h3>
-  <p>Operator intent and device-reported reality can disagree legitimately during rollout, reboot, outage or rollback.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>fleet</span><span>state model</span><span>OTA</span><span>control plane</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-rollback-product-feature.html">Rollback Is a Product Feature, Not a Bootloader Detail</a></h3>
-  <p>Recovery changes how safely a fleet can ship updates and how clearly operators can diagnose failures.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>rollback</span><span>OTA</span><span>product reliability</span><span>ESP32</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-enrollment-not-heartbeat.html">Device Enrollment and Heartbeat Are Different Events</a></h3>
-  <p>Enrollment establishes trusted identity; heartbeat reports what an already known device is doing.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>enrollment</span><span>heartbeat</span><span>identity</span><span>fleet</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/field-note-2026-compatibility-release-policy.html">Compatibility Metadata Is Release Policy, Not Tribal Knowledge</a></h3>
-  <p>Hardware and software eligibility rules should be machine-readable where rollout decisions are made.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>compatibility</span><span>OTA</span><span>hardware revision</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-heartbeat-is-observation-not-enrollment.html">Heartbeat Is Observation, Not Enrollment</a></h3>
-  <p>A device sending telemetry could look alive even when its identity or enrollment state was not valid for production operations.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-cached-config-survives-backend-outage.html">The Backend Can Be Down Without Making the Phone Useless</a></h3>
-  <p>Provisioning and OTA control were new dependencies, but a temporary backend outage should not break an already configured voice device.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 7 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-newer-binary-not-update-decision.html">A Newer Binary Does Not Mean a Device Should Update</a></h3>
-  <p>Simply placing a newer firmware file on the server risked turning storage into rollout policy.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 7 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-desired-vs-running-release.html">Desired Release and Running Release Are Different Truths</a></h3>
-  <p>The server needed to know what a device should run without pretending the device had already installed it.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 7 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-release-id-not-version-string.html">Release ID Is Stronger Than a Version String</a></h3>
-  <p>Version text alone could not uniquely identify artifact lineage or distinguish reissued builds.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 7 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-release-lifecycle-operator-state-machine.html">Release Lifecycle Is an Operator State Machine</a></h3>
-  <p>A release needed gates between registration and fleet-wide use rather than one published flag.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 7 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-stable-requires-active-device-evidence.html">STABLE Requires Evidence from ACTIVE Devices</a></h3>
-  <p>A release could look administratively complete before any device proved it was actually running.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-inactive-slot-protects-running-image.html">The Inactive OTA Slot Protects the Running Image</a></h3>
-  <p>An update should be able to fail during download or write without destroying the last working firmware.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 7 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-first-boot-pending-transaction.html">First Boot Is a Pending Transaction, Not Success</a></h3>
-  <p>A reboot into the new partition was too weak to count as a successful update.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-pbx-failure-not-firmware-rollback.html">PBX Failure Must Not Roll Back Healthy Firmware</a></h3>
-  <p>A temporary network, DNS, backend or PBX outage could otherwise make a healthy image look defective during first boot.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-power-loss-ota-failure-windows.html">Power Loss Has Multiple OTA Failure Windows</a></h3>
-  <p>Power can disappear during download, inactive-slot write, after boot-partition selection or during first boot.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-active-call-defers-ota.html">An Active SIP Call Has Priority over OTA</a></h3>
-  <p>A firmware update competing with a live voice call could damage the product function the OTA system exists to maintain.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-service-mode-release-classes.html">Partition, Bootloader and Security Changes Are Not Normal App OTA</a></h3>
-  <p>Some changes alter the substrate that makes normal A/B OTA safe and therefore cannot be treated like another application image.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-nvs-schema-defines-rollback-boundary.html">Rollback Safety Ends at Persistent Schema Compatibility</a></h3>
-  <p>A previous binary is not a valid rollback target if the new firmware transformed NVS into a format the old firmware cannot read.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-sha256-and-ecdsa-different-trust.html">SHA-256 Proves Integrity; ECDSA Adds Authorship</a></h3>
-  <p>A correct hash could prove that downloaded bytes matched the manifest but not that an authorized release process created that manifest and artifact.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-signing-key-off-ota-runtime.html">The Signing Private Key Does Not Belong on the OTA Runtime Host</a></h3>
-  <p>If the OTA server stored the production signing private key, compromise of the delivery plane could become authority to mint trusted firmware.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-compatibility-checked-twice.html">Compatibility Is Checked at Assignment and Artifact Request</a></h3>
-  <p>A device can change state after assignment, so one compatibility decision made earlier may become stale before download.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-sticky-heartbeat-release-scoped-causality.html">Sticky Heartbeat Results Need Release-Scoped Causality</a></h3>
-  <p>A terminal-looking last_ota_result could survive a later reassignment and incorrectly poison or complete the new assignment.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-append-only-events-incident-timeline.html">Append-Only OTA Events Are the Fleet’s Incident Timeline</a></h3>
-  <p>Heartbeat snapshots alone could not reconstruct the sequence of download, validation, rollback and operator actions during a failed rollout.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-canary-cohort-stable-feedback-loop.html">Canary to Cohort to Stable Is a Feedback Loop</a></h3>
-  <p>Rolling all boards at once would maximize blast radius before the first device produced field evidence.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-automatic-vs-control-plane-rollback.html">Automatic Rollback and Fleet Rollback Solve Different Failures</a></h3>
-  <p>One rollback mechanism could not cover both immediate boot failure and defects discovered after a release had already been accepted.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-failure-injection-definition-of-done.html">Failure Injection Is Part of the OTA Definition of Done</a></h3>
-  <p>A successful happy-path download could not prove rollback, credential rejection, compatibility gates or interrupted writes behaved safely.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-blocked-vs-revoked-device-state.html">Blocked and Revoked Are Different Fleet States</a></h3>
-  <p>Operators needed to stop a device temporarily without confusing that action with permanent credential invalidation.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-one-time-enrollment-factory-to-fleet.html">One-Time Enrollment Turns Factory State into Fleet State</a></h3>
-  <p>Factory-programmed boards needed a controlled transition into an enrolled state without shipping a reusable fleet credential.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="production-ota-fleet.html">Production OTA &amp; Fleet</a> · 8 min read · 2026-09-15</p>
-  <h3><a href="../posts/ota-state-mac-address-not-device-credential.html">A Wi-Fi MAC Address Is Not a Device Credential</a></h3>
-  <p>A board needed a stable fleet identity without turning a public hardware identifier into an authentication secret.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OTA</span><span>ESP32-S3</span><span>fleet management</span><span>release engineering</span></div>
-</article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-rollback-product-feature.html">Rollback Is a Product Feature, Not a Bootloader Detail</a></h3><p>Recovery changes how safely a fleet can ship updates and how clearly operators can diagnose failures.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/rollback.html">rollback</a><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/product-reliability.html">product reliability</a><a data-pagefind-filter="tag" href="/tags/esp32.html">ESP32</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-ota-first-boot-transaction.html">First Boot After OTA Is Still a Transaction</a></h3><p>A successful flash write does not prove the new image can initialize hardware, load state and stay healthy.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/bootloader.html">bootloader</a><a data-pagefind-filter="tag" href="/tags/rollback.html">rollback</a><a data-pagefind-filter="tag" href="/tags/firmware.html">firmware</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-enrollment-not-heartbeat.html">Device Enrollment and Heartbeat Are Different Events</a></h3><p>Enrollment establishes trusted identity; heartbeat reports what an already known device is doing.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/enrollment.html">enrollment</a><a data-pagefind-filter="tag" href="/tags/heartbeat.html">heartbeat</a><a data-pagefind-filter="tag" href="/tags/identity.html">identity</a><a data-pagefind-filter="tag" href="/tags/fleet.html">fleet</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-desired-observed-separate.html">Desired and Observed State Should Never Share a Field</a></h3><p>Operator intent and device-reported reality can disagree legitimately during rollout, reboot, outage or rollback.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/fleet.html">fleet</a><a data-pagefind-filter="tag" href="/tags/state-model.html">state model</a><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/control-plane.html">control plane</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 2 min read · 2026-09-18</p><h3><a href="/posts/field-note-2026-compatibility-release-policy.html">Compatibility Metadata Is Release Policy, Not Tribal Knowledge</a></h3><p>Hardware and software eligibility rules should be machine-readable where rollout decisions are made.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/compatibility.html">compatibility</a><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/hardware-revision.html">hardware revision</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-sticky-heartbeat-release-scoped-causality.html">Sticky Heartbeat Results Need Release-Scoped Causality</a></h3><p>A terminal-looking last_ota_result could survive a later reassignment and incorrectly poison or complete the new assignment.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 7 min read · 2026-09-15</p><h3><a href="/posts/ota-state-stable-requires-active-device-evidence.html">STABLE Requires Evidence from ACTIVE Devices</a></h3><p>A release could look administratively complete before any device proved it was actually running.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-signing-key-off-ota-runtime.html">The Signing Private Key Does Not Belong on the OTA Runtime Host</a></h3><p>If the OTA server stored the production signing private key, compromise of the delivery plane could become authority to mint trusted firmware.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-sha256-and-ecdsa-different-trust.html">SHA-256 Proves Integrity; ECDSA Adds Authorship</a></h3><p>A correct hash could prove that downloaded bytes matched the manifest but not that an authorized release process created that manifest and artifact.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-service-mode-release-classes.html">Partition, Bootloader and Security Changes Are Not Normal App OTA</a></h3><p>Some changes alter the substrate that makes normal A/B OTA safe and therefore cannot be treated like another application image.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 7 min read · 2026-09-15</p><h3><a href="/posts/ota-state-release-lifecycle-operator-state-machine.html">Release Lifecycle Is an Operator State Machine</a></h3><p>A release needed gates between registration and fleet-wide use rather than one published flag.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 7 min read · 2026-09-15</p><h3><a href="/posts/ota-state-release-id-not-version-string.html">Release ID Is Stronger Than a Version String</a></h3><p>Version text alone could not uniquely identify artifact lineage or distinguish reissued builds.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-power-loss-ota-failure-windows.html">Power Loss Has Multiple OTA Failure Windows</a></h3><p>Power can disappear during download, inactive-slot write, after boot-partition selection or during first boot.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-pbx-failure-not-firmware-rollback.html">PBX Failure Must Not Roll Back Healthy Firmware</a></h3><p>A temporary network, DNS, backend or PBX outage could otherwise make a healthy image look defective during first boot.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-one-time-enrollment-factory-to-fleet.html">One-Time Enrollment Turns Factory State into Fleet State</a></h3><p>Factory-programmed boards needed a controlled transition into an enrolled state without shipping a reusable fleet credential.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-nvs-schema-defines-rollback-boundary.html">Rollback Safety Ends at Persistent Schema Compatibility</a></h3><p>A previous binary is not a valid rollback target if the new firmware transformed NVS into a format the old firmware cannot read.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 7 min read · 2026-09-15</p><h3><a href="/posts/ota-state-newer-binary-not-update-decision.html">A Newer Binary Does Not Mean a Device Should Update</a></h3><p>Simply placing a newer firmware file on the server risked turning storage into rollout policy.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-mac-address-not-device-credential.html">A Wi-Fi MAC Address Is Not a Device Credential</a></h3><p>A board needed a stable fleet identity without turning a public hardware identifier into an authentication secret.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-inactive-slot-protects-running-image.html">The Inactive OTA Slot Protects the Running Image</a></h3><p>An update should be able to fail during download or write without destroying the last working firmware.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-heartbeat-is-observation-not-enrollment.html">Heartbeat Is Observation, Not Enrollment</a></h3><p>A device sending telemetry could look alive even when its identity or enrollment state was not valid for production operations.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 7 min read · 2026-09-15</p><h3><a href="/posts/ota-state-first-boot-pending-transaction.html">First Boot Is a Pending Transaction, Not Success</a></h3><p>A reboot into the new partition was too weak to count as a successful update.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-failure-injection-definition-of-done.html">Failure Injection Is Part of the OTA Definition of Done</a></h3><p>A successful happy-path download could not prove rollback, credential rejection, compatibility gates or interrupted writes behaved safely.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 7 min read · 2026-09-15</p><h3><a href="/posts/ota-state-desired-vs-running-release.html">Desired Release and Running Release Are Different Truths</a></h3><p>The server needed to know what a device should run without pretending the device had already installed it.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-compatibility-checked-twice.html">Compatibility Is Checked at Assignment and Artifact Request</a></h3><p>A device can change state after assignment, so one compatibility decision made earlier may become stale before download.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-canary-cohort-stable-feedback-loop.html">Canary to Cohort to Stable Is a Feedback Loop</a></h3><p>Rolling all boards at once would maximize blast radius before the first device produced field evidence.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-cached-config-survives-backend-outage.html">The Backend Can Be Down Without Making the Phone Useless</a></h3><p>Provisioning and OTA control were new dependencies, but a temporary backend outage should not break an already configured voice device.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-blocked-vs-revoked-device-state.html">Blocked and Revoked Are Different Fleet States</a></h3><p>Operators needed to stop a device temporarily without confusing that action with permanent credential invalidation.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-automatic-vs-control-plane-rollback.html">Automatic Rollback and Fleet Rollback Solve Different Failures</a></h3><p>One rollback mechanism could not cover both immediate boot failure and defects discovered after a release had already been accepted.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-append-only-events-incident-timeline.html">Append-Only OTA Events Are the Fleet’s Incident Timeline</a></h3><p>Heartbeat snapshots alone could not reconstruct the sequence of download, validation, rollback and operator actions during a failed rollout.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
+<article class="post-card"><p class="meta">Production OTA &amp; Fleet · 8 min read · 2026-09-15</p><h3><a href="/posts/ota-state-active-call-defers-ota.html">An Active SIP Call Has Priority over OTA</a></h3><p>A firmware update competing with a live voice call could damage the product function the OTA system exists to maintain.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ota.html">OTA</a><a data-pagefind-filter="tag" href="/tags/esp32-s3.html">ESP32-S3</a><a data-pagefind-filter="tag" href="/tags/fleet-management.html">fleet management</a><a data-pagefind-filter="tag" href="/tags/release-engineering.html">release engineering</a></div></article>
 </div>
-
 </main>
 <footer class="shell site-footer">
-  <div>
-    <span class="status-dot"></span>
-    <strong>Reaz Romen — independent systems engineer.</strong>
-  </div>
-  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
-  <nav aria-label="Footer">
-    <a href="/topics.html">Topics</a>
-    <a href="/systems.html">Systems</a>
-    <a href="/archive.html">Archive</a>
-    <a href="/author/reaz-romen.html">Author record</a>
-  </nav>
+<div>
+<span class="status-dot"></span>
+<strong>Reaz Romen — independent systems engineer.</strong>
+</div>
+<p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+<nav aria-label="Footer"><a href="/tags.html">Tags</a></nav>
 </footer>
-<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog aria-label="Search and quick navigation" class="command-palette" data-pagefind-ignore="" id="command-palette">
 <div class="command-shell">
-<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-input-row"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input aria-label="Search site" autocomplete="off" id="command-input" placeholder="Search writing, work, topics…" type="search"/><button aria-label="Close" class="command-close" data-close-command="" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div>
 <div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
-<nav class="command-shortcuts" aria-label="Quick navigation">
+<nav aria-label="Quick navigation" class="command-shortcuts">
 <a href="/portfolio.html">Work <span>Projects and systems</span></a>
 <a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
 <a href="/domains/">Domains <span>Browse engineering areas</span></a>
@@ -229,7 +68,7 @@
 <a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
 <a href="/about.html">About <span>Background and approach</span></a>
 </nav>
-<div id="command-results" class="command-results" aria-live="polite"></div>
+<div aria-live="polite" class="command-results" id="command-results"></div>
 <div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
 </div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
 </html>

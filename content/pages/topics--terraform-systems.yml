@@ -1,0 +1,33 @@
+title: Terraform Systems
+browser_title: Terraform Systems — Reaz Romen
+description: 'Terraform systems engineering: state, drift, identity, refactoring,
+  providers, lifecycle, testing, CI/CD, Stacks and policy.'
+url: /topics/terraform-systems.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: TERRAFORM / INFRASTRUCTURE AS CODE
+  body: TERRAFORM / INFRASTRUCTURE AS CODE
+- id: BLOCK1
+  label: Terraform Systems
+  body: Terraform Systems
+- id: BLOCK2
+  label: 25 production-focused notes on Terraform state, drift, resource identity,
+    refactoring, provider
+  body: 25 production-focused notes on Terraform state, drift, resource identity,
+    refactoring, providers, lifecycle behavior, secrets, testing, CI/CD, Stacks and
+    policy.
+- id: BLOCK3
+  label: TERRAFORM SERIES
+  body: TERRAFORM SERIES
+- id: BLOCK4
+  label: 25 articles
+  body: 25 articles
+lists:
+- key: LIST0
+  filter:
+    topic: terraform-systems
+  style: cards
+template: cms/templates/pages/topics--terraform-systems.tpl
+source: cms/templates/pages/topics--terraform-systems.json
+links: []

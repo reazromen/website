@@ -1,179 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
-  <meta name="author" content="Reaz Romen">
-  <link rel="author" href="../about.html">
-  <title>Security &amp; Identity — Reaz Romen — Systems Engineering</title>
-  <link rel="stylesheet" href="../static/css/site.css">
-<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability." name="description"/>
+<meta content="Reaz Romen" name="author"/>
+<link href="../about.html" rel="author"/>
+<title>Security &amp; Identity — Reaz Romen</title>
+<link href="../static/css/site.css" rel="stylesheet"/>
+<link href="/assets/site.css" rel="stylesheet"/><link href="/assets/sitewide-v2.css" rel="stylesheet"/><link href="/assets/phase1.css" rel="stylesheet"/><link href="/feed.xml" rel="alternate" title="Reaz Romen — Writing" type="application/rss+xml"/><link href="/atom.xml" rel="alternate" title="Reaz Romen — Writing" type="application/atom+xml"/><link href="/assets/responsive-v3.css" rel="stylesheet"/><link href="https://reazromen.com/topics/security-identity.html" rel="canonical"/></head>
 <body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
-
-<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
-<main id="rr-main" class="shell site-main">
-  
-    
-  
-  
+<header class="site-header rr-global-header"><div class="site-header-inner"><a aria-label="Reaz Romen home" class="brand" href="/">RR</a><nav aria-label="Main navigation" class="nav"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button aria-label="Search and quick navigation" class="icon-link search-action" data-open-command="" title="Search (Ctrl/⌘ K)" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg></button><a aria-label="GitHub" class="icon-link github-action" href="https://github.com/reazromen" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon icon-fill" viewbox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"></path></svg></a><button aria-label="Toggle color scheme" class="theme-toggle" onclick="toggleTheme()" type="button"><svg aria-hidden="true" class="icon" data-theme-icon="moon" viewbox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"></path></svg><svg aria-hidden="true" class="icon" data-theme-icon="sun" hidden="" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></svg></button></div></nav></div></header>
+<main class="shell site-main" id="rr-main">
 <section class="page-head"><p class="eyebrow">TOPIC</p><h1>Security &amp; Identity</h1><p class="lede">Lessons, explainers, experiments, and implementation notes.</p></section>
 <div class="post-list">
-  <article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/tailscale-ssh-two-models.html">Tailscale SSH and Ordinary SSH over Tailscale Are Two Different Models</a></h3>
-  <p>I can send SSH packets over the tailnet without asking Tailscale to become the SSH authentication system.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Tailscale SSH</span><span>OpenSSH</span><span>access control</span><span>Linux</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 2 min read · Lab period 2026-09</p>
-  <h3><a href="../posts/tailscale-policy-home-infra.html">I Treat Tailscale Access Policy as Infrastructure Code</a></h3>
-  <p>Once the tailnet becomes a real operational network, who can reach which host and service should not live only in memory.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Tailscale</span><span>access control</span><span>grants</span><span>security</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/clock-synchronization-is-part-of-authentication.html">Clock Synchronization Is Part of the Authentication System</a></h3>
-  <p>A correct TOTP secret can still fail when the verifier and authenticator disagree about time.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>TOTP</span><span>NTP</span><span>clock skew</span><span>authentication</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/totp-qr-code-is-a-secret-enrollment-ceremony.html">The TOTP QR Code Is a Secret-Enrollment Ceremony</a></h3>
-  <p>Scanning the QR code transfers long-lived secret material; it should be treated more carefully than an ordinary setup screen.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>TOTP</span><span>QR code</span><span>secret enrollment</span><span>MFA</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/mfa-recovery-is-not-password-reset.html">MFA Recovery Is Not the Same Problem as Password Reset</a></h3>
-  <p>Losing the authenticator device creates a second-factor recovery problem that should not silently collapse to the password path.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>MFA</span><span>recovery</span><span>TOTP</span><span>identity</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/two-factor-policy-belongs-at-shared-access-boundary.html">Two-Factor Policy Belongs at the Shared Access Boundary</a></h3>
-  <p>Putting MFA in front of each application separately creates duplicated policy; Authelia gives the protected subdomains one identity boundary.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Authelia</span><span>SSO</span><span>MFA</span><span>reverse proxy</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/session-inactivity-expiration-remember-me-different-problems.html">Session Inactivity, Expiration and Remember Me Solve Different Problems</a></h3>
-  <p>A session can have an idle timeout, a hard lifetime and a trusted-browser persistence policy at the same time.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Authelia</span><span>session</span><span>cookies</span><span>SSO</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/redis-and-postgresql-have-different-jobs-in-authelia.html">Redis and PostgreSQL Have Different Jobs in the Authelia Stack</a></h3>
-  <p>Persistent SSO works better when ephemeral session state and durable identity-provider state are not confused.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Authelia</span><span>Redis</span><span>PostgreSQL</span><span>sessions</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/cookie-domain-and-samesite-part-of-cross-subdomain-sso.html">Cookie Domain and SameSite Policy Are Part of Cross-Subdomain SSO</a></h3>
-  <p>One identity portal can protect many subdomains only if browser cookie scope and request behavior match the intended trust boundary.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Authelia</span><span>cookies</span><span>SameSite</span><span>SSO</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/anonymous-monitoring-probes-do-not-prove-human-session-broken.html">Anonymous Monitoring Probes Do Not Prove a Human Session Is Broken</a></h3>
-  <p>Synthetic health checks normally have no browser cookie, so anonymous AuthRequest logs can be completely healthy behavior.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Authelia</span><span>monitoring</span><span>AuthRequest</span><span>sessions</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/secret-manager-is-authorization-system-not-encrypted-env.html">A Secret Manager Is an Authorization System, Not Just Encrypted .env</a></h3>
-  <p>OpenBao adds identity, policy, versioning, leases and audit around secrets instead of merely moving plaintext to a different file.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OpenBao</span><span>secrets</span><span>ACL</span><span>architecture</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 2 min read · 2026-09-14</p>
-  <h3><a href="../posts/google-authenticator-is-a-totp-client-not-the-server.html">Google Authenticator Is a TOTP Client, Not the Authentication Server</a></h3>
-  <p>The six-digit code comes from a shared TOTP secret and time step; Google Authenticator is only one compatible client.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>TOTP</span><span>Google Authenticator</span><span>Authelia</span><span>MFA</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/approle-is-machine-identity-not-shared-master-password.html">AppRole Is Machine Identity, Not a Shared Master Password</a></h3>
-  <p>Workloads should authenticate to the secret authority with narrow machine identities rather than one credential copied across services.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OpenBao</span><span>AppRole</span><span>machine identity</span><span>least privilege</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/path-based-policies-make-least-privilege-concrete.html">Path-Based Policies Make Least Privilege Concrete</a></h3>
-  <p>The difference between operator, runtime and backup identities is visible in the exact OpenBao paths and capabilities they receive.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OpenBao</span><span>policy</span><span>ACL</span><span>least privilege</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/openbao-audit-logs-secret-reads-security-events.html">Audit Logs Matter Because Secret Reads Are Security Events</a></h3>
-  <p>A successful secret request is operationally normal and still important enough to leave durable evidence.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OpenBao</span><span>audit</span><span>HMAC</span><span>security</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/why-authelia-to-openbao-oidc-is-separate-phase.html">Why Authelia-to-OpenBao OIDC Is a Separate Phase</a></h3>
-  <p>Human federation should be added after the secret authority is stable, not mixed into the initial bootstrap trust ceremony.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OIDC</span><span>Authelia</span><span>OpenBao</span><span>phased rollout</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/human-and-workload-identity-should-not-share-auth-method.html">Human Identity and Workload Identity Should Not Share an Auth Method</a></h3>
-  <p>OIDC fits interactive operators; AppRole fits non-interactive services. Combining them weakens both lifecycle models.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OIDC</span><span>AppRole</span><span>identity</span><span>OpenBao</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 2 min read · 2026-09-14</p>
-  <h3><a href="../posts/shamir-unseal-shares-root-token-do-not-belong-on-server.html">Static Auto-Unseal Is a Temporary Root of Trust, Not HA</a></h3>
-  <p>The same-host seal service removes manual unseal entry, but its static key remains a temporary bootstrap root of trust on the same failure domain.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OpenBao</span><span>auto-unseal</span><span>Transit</span><span>root of trust</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/raft-snapshot-is-backup-one-node-not-ha.html">Two OpenBao Services on One Host Are Still Not High Availability</a></h3>
-  <p>Separating the main secret authority from the Transit seal service improves trust boundaries, but both still share the same physical host failure domain.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OpenBao</span><span>Transit</span><span>Raft</span><span>high availability</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/tls-key-custody-part-openbao-root-of-trust.html">TLS Key Custody Is Part of the OpenBao Root of Trust</a></h3>
-  <p>The server needs its TLS private key to operate, while the CA private key is more powerful and should remain off-host.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OpenBao</span><span>TLS</span><span>CA</span><span>root of trust</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 1 min read · 2026-09-14</p>
-  <h3><a href="../posts/kv-v2-turns-secret-rotation-into-versioned-state-transition.html">KV v2 Turns Secret Rotation into a Versioned State Transition</a></h3>
-  <p>Keeping versions makes rotation and rollback explicit instead of overwriting the only known credential value.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>OpenBao</span><span>KV v2</span><span>rotation</span><span>rollback</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="security-identity.html">Security &amp; Identity</a> · 2 min read · 2026-09-14</p>
-  <h3><a href="../posts/what-a-30-second-totp-window-actually-means.html">What a 30-Second TOTP Window Actually Means</a></h3>
-  <p>TOTP is not a random six-digit number every half minute; it is a deterministic moving-factor calculation with a strict verifier window.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>TOTP</span><span>RFC 6238</span><span>time</span><span>MFA</span></div>
-</article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 2 min read · 2026-09-18</p><h3><a href="/posts/tailscale-ssh-two-models.html">Tailscale SSH and Ordinary SSH over Tailscale Are Two Different Models</a></h3><p>I can send SSH packets over the tailnet without asking Tailscale to become the SSH authentication system.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tailscale-ssh.html">Tailscale SSH</a><a data-pagefind-filter="tag" href="/tags/openssh.html">OpenSSH</a><a data-pagefind-filter="tag" href="/tags/access-control.html">access control</a><a data-pagefind-filter="tag" href="/tags/linux.html">Linux</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 2 min read · 2026-09-18</p><h3><a href="/posts/tailscale-policy-home-infra.html">I Treat Tailscale Access Policy as Infrastructure Code</a></h3><p>Once the tailnet becomes a real operational network, who can reach which host and service should not live only in memory.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/tailscale.html">Tailscale</a><a data-pagefind-filter="tag" href="/tags/access-control.html">access control</a><a data-pagefind-filter="tag" href="/tags/grants.html">grants</a><a data-pagefind-filter="tag" href="/tags/security.html">security</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/why-authelia-to-openbao-oidc-is-separate-phase.html">Why Authelia-to-OpenBao OIDC Is a Separate Phase</a></h3><p>Human federation should be added after the secret authority is stable, not mixed into the initial bootstrap trust ceremony.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/oidc.html">OIDC</a><a data-pagefind-filter="tag" href="/tags/authelia.html">Authelia</a><a data-pagefind-filter="tag" href="/tags/openbao.html">OpenBao</a><a data-pagefind-filter="tag" href="/tags/phased-rollout.html">phased rollout</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 2 min read · 2026-09-14</p><h3><a href="/posts/what-a-30-second-totp-window-actually-means.html">What a 30-Second TOTP Window Actually Means</a></h3><p>TOTP is not a random six-digit number every half minute; it is a deterministic moving-factor calculation with a strict verifier window.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/totp.html">TOTP</a><a data-pagefind-filter="tag" href="/tags/rfc-6238.html">RFC 6238</a><a data-pagefind-filter="tag" href="/tags/time.html">time</a><a data-pagefind-filter="tag" href="/tags/mfa.html">MFA</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/two-factor-policy-belongs-at-shared-access-boundary.html">Two-Factor Policy Belongs at the Shared Access Boundary</a></h3><p>Putting MFA in front of each application separately creates duplicated policy; Authelia gives the protected subdomains one identity boundary.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/authelia.html">Authelia</a><a data-pagefind-filter="tag" href="/tags/sso.html">SSO</a><a data-pagefind-filter="tag" href="/tags/mfa.html">MFA</a><a data-pagefind-filter="tag" href="/tags/reverse-proxy.html">reverse proxy</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/totp-qr-code-is-a-secret-enrollment-ceremony.html">The TOTP QR Code Is a Secret-Enrollment Ceremony</a></h3><p>Scanning the QR code transfers long-lived secret material; it should be treated more carefully than an ordinary setup screen.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/totp.html">TOTP</a><a data-pagefind-filter="tag" href="/tags/qr-code.html">QR code</a><a data-pagefind-filter="tag" href="/tags/secret-enrollment.html">secret enrollment</a><a data-pagefind-filter="tag" href="/tags/mfa.html">MFA</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/tls-key-custody-part-openbao-root-of-trust.html">TLS Key Custody Is Part of the OpenBao Root of Trust</a></h3><p>The server needs its TLS private key to operate, while the CA private key is more powerful and should remain off-host.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/openbao.html">OpenBao</a><a data-pagefind-filter="tag" href="/tags/tls.html">TLS</a><a data-pagefind-filter="tag" href="/tags/ca.html">CA</a><a data-pagefind-filter="tag" href="/tags/root-of-trust.html">root of trust</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 2 min read · 2026-09-14</p><h3><a href="/posts/shamir-unseal-shares-root-token-do-not-belong-on-server.html">Static Auto-Unseal Is a Temporary Root of Trust, Not HA</a></h3><p>The same-host seal service removes manual unseal entry, but its static key remains a temporary bootstrap root of trust on the same failure domain.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/openbao.html">OpenBao</a><a data-pagefind-filter="tag" href="/tags/auto-unseal.html">auto-unseal</a><a data-pagefind-filter="tag" href="/tags/transit.html">Transit</a><a data-pagefind-filter="tag" href="/tags/root-of-trust.html">root of trust</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/session-inactivity-expiration-remember-me-different-problems.html">Session Inactivity, Expiration and Remember Me Solve Different Problems</a></h3><p>A session can have an idle timeout, a hard lifetime and a trusted-browser persistence policy at the same time.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/authelia.html">Authelia</a><a data-pagefind-filter="tag" href="/tags/session.html">session</a><a data-pagefind-filter="tag" href="/tags/cookies.html">cookies</a><a data-pagefind-filter="tag" href="/tags/sso.html">SSO</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/secret-manager-is-authorization-system-not-encrypted-env.html">A Secret Manager Is an Authorization System, Not Just Encrypted .env</a></h3><p>OpenBao adds identity, policy, versioning, leases and audit around secrets instead of merely moving plaintext to a different file.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/openbao.html">OpenBao</a><a data-pagefind-filter="tag" href="/tags/secrets.html">secrets</a><a data-pagefind-filter="tag" href="/tags/acl.html">ACL</a><a data-pagefind-filter="tag" href="/tags/architecture.html">architecture</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/redis-and-postgresql-have-different-jobs-in-authelia.html">Redis and PostgreSQL Have Different Jobs in the Authelia Stack</a></h3><p>Persistent SSO works better when ephemeral session state and durable identity-provider state are not confused.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/authelia.html">Authelia</a><a data-pagefind-filter="tag" href="/tags/redis.html">redis</a><a data-pagefind-filter="tag" href="/tags/postgresql.html">PostgreSQL</a><a data-pagefind-filter="tag" href="/tags/sessions.html">sessions</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/raft-snapshot-is-backup-one-node-not-ha.html">Two OpenBao Services on One Host Are Still Not High Availability</a></h3><p>Separating the main secret authority from the Transit seal service improves trust boundaries, but both still share the same physical host failure domain.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/openbao.html">OpenBao</a><a data-pagefind-filter="tag" href="/tags/transit.html">Transit</a><a data-pagefind-filter="tag" href="/tags/raft.html">Raft</a><a data-pagefind-filter="tag" href="/tags/high-availability.html">high availability</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/path-based-policies-make-least-privilege-concrete.html">Path-Based Policies Make Least Privilege Concrete</a></h3><p>The difference between operator, runtime and backup identities is visible in the exact OpenBao paths and capabilities they receive.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/openbao.html">OpenBao</a><a data-pagefind-filter="tag" href="/tags/policy.html">policy</a><a data-pagefind-filter="tag" href="/tags/acl.html">ACL</a><a data-pagefind-filter="tag" href="/tags/least-privilege.html">least privilege</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/openbao-audit-logs-secret-reads-security-events.html">Audit Logs Matter Because Secret Reads Are Security Events</a></h3><p>A successful secret request is operationally normal and still important enough to leave durable evidence.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/openbao.html">OpenBao</a><a data-pagefind-filter="tag" href="/tags/audit.html">audit</a><a data-pagefind-filter="tag" href="/tags/hmac.html">HMAC</a><a data-pagefind-filter="tag" href="/tags/security.html">security</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/mfa-recovery-is-not-password-reset.html">MFA Recovery Is Not the Same Problem as Password Reset</a></h3><p>Losing the authenticator device creates a second-factor recovery problem that should not silently collapse to the password path.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/mfa.html">MFA</a><a data-pagefind-filter="tag" href="/tags/recovery.html">recovery</a><a data-pagefind-filter="tag" href="/tags/totp.html">TOTP</a><a data-pagefind-filter="tag" href="/tags/identity.html">identity</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/kv-v2-turns-secret-rotation-into-versioned-state-transition.html">KV v2 Turns Secret Rotation into a Versioned State Transition</a></h3><p>Keeping versions makes rotation and rollback explicit instead of overwriting the only known credential value.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/openbao.html">OpenBao</a><a data-pagefind-filter="tag" href="/tags/kv-v2.html">KV v2</a><a data-pagefind-filter="tag" href="/tags/rotation.html">rotation</a><a data-pagefind-filter="tag" href="/tags/rollback.html">rollback</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/human-and-workload-identity-should-not-share-auth-method.html">Human Identity and Workload Identity Should Not Share an Auth Method</a></h3><p>OIDC fits interactive operators; AppRole fits non-interactive services. Combining them weakens both lifecycle models.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/oidc.html">OIDC</a><a data-pagefind-filter="tag" href="/tags/approle.html">AppRole</a><a data-pagefind-filter="tag" href="/tags/identity.html">identity</a><a data-pagefind-filter="tag" href="/tags/openbao.html">OpenBao</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 2 min read · 2026-09-14</p><h3><a href="/posts/google-authenticator-is-a-totp-client-not-the-server.html">Google Authenticator Is a TOTP Client, Not the Authentication Server</a></h3><p>The six-digit code comes from a shared TOTP secret and time step; Google Authenticator is only one compatible client.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/totp.html">TOTP</a><a data-pagefind-filter="tag" href="/tags/google-authenticator.html">Google Authenticator</a><a data-pagefind-filter="tag" href="/tags/authelia.html">Authelia</a><a data-pagefind-filter="tag" href="/tags/mfa.html">MFA</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/cookie-domain-and-samesite-part-of-cross-subdomain-sso.html">Cookie Domain and SameSite Policy Are Part of Cross-Subdomain SSO</a></h3><p>One identity portal can protect many subdomains only if browser cookie scope and request behavior match the intended trust boundary.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/authelia.html">Authelia</a><a data-pagefind-filter="tag" href="/tags/cookies.html">cookies</a><a data-pagefind-filter="tag" href="/tags/samesite.html">SameSite</a><a data-pagefind-filter="tag" href="/tags/sso.html">SSO</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/clock-synchronization-is-part-of-authentication.html">Clock Synchronization Is Part of the Authentication System</a></h3><p>A correct TOTP secret can still fail when the verifier and authenticator disagree about time.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/totp.html">TOTP</a><a data-pagefind-filter="tag" href="/tags/ntp.html">NTP</a><a data-pagefind-filter="tag" href="/tags/clock-skew.html">clock skew</a><a data-pagefind-filter="tag" href="/tags/authentication.html">authentication</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/approle-is-machine-identity-not-shared-master-password.html">AppRole Is Machine Identity, Not a Shared Master Password</a></h3><p>Workloads should authenticate to the secret authority with narrow machine identities rather than one credential copied across services.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/openbao.html">OpenBao</a><a data-pagefind-filter="tag" href="/tags/approle.html">AppRole</a><a data-pagefind-filter="tag" href="/tags/machine-identity.html">machine identity</a><a data-pagefind-filter="tag" href="/tags/least-privilege.html">least privilege</a></div></article>
+<article class="post-card"><p class="meta">Security &amp; Identity · 1 min read · 2026-09-14</p><h3><a href="/posts/anonymous-monitoring-probes-do-not-prove-human-session-broken.html">Anonymous Monitoring Probes Do Not Prove a Human Session Is Broken</a></h3><p>Synthetic health checks normally have no browser cookie, so anonymous AuthRequest logs can be completely healthy behavior.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/authelia.html">Authelia</a><a data-pagefind-filter="tag" href="/tags/monitoring.html">monitoring</a><a data-pagefind-filter="tag" href="/tags/authrequest.html">AuthRequest</a><a data-pagefind-filter="tag" href="/tags/sessions.html">sessions</a></div></article>
 </div>
-
 </main>
 <footer class="shell site-footer">
-  <div>
-    <span class="status-dot"></span>
-    <strong>Reaz Romen — independent systems engineer.</strong>
-  </div>
-  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
-  <nav aria-label="Footer">
-    <a href="/topics.html">Topics</a>
-    <a href="/systems.html">Systems</a>
-    <a href="/archive.html">Archive</a>
-    <a href="/author/reaz-romen.html">Author record</a>
-  </nav>
+<div>
+<span class="status-dot"></span>
+<strong>Reaz Romen — independent systems engineer.</strong>
+</div>
+<p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+<nav aria-label="Footer"><a href="/tags.html">Tags</a></nav>
 </footer>
-<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog aria-label="Search and quick navigation" class="command-palette" data-pagefind-ignore="" id="command-palette">
 <div class="command-shell">
-<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-input-row"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input aria-label="Search site" autocomplete="off" id="command-input" placeholder="Search writing, work, topics…" type="search"/><button aria-label="Close" class="command-close" data-close-command="" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div>
 <div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
-<nav class="command-shortcuts" aria-label="Quick navigation">
+<nav aria-label="Quick navigation" class="command-shortcuts">
 <a href="/portfolio.html">Work <span>Projects and systems</span></a>
 <a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
 <a href="/domains/">Domains <span>Browse engineering areas</span></a>
@@ -181,7 +60,7 @@
 <a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
 <a href="/about.html">About <span>Background and approach</span></a>
 </nav>
-<div id="command-results" class="command-results" aria-live="polite"></div>
+<div aria-live="polite" class="command-results" id="command-results"></div>
 <div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
 </div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
 </html>

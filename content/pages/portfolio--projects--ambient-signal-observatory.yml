@@ -1,0 +1,515 @@
+title: Ambient Signal Observatory
+browser_title: Ambient Signal Observatory — Reaz Romen Portfolio
+description: Public RF and satellite observatory using SatNOGS, CelesTrak and NOAA
+  data, with cache/failure isolation and bounded satellite decode tooling.
+url: /portfolio/projects/ambient-signal-observatory.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Web & Data Systems / Built / deployed
+  body: Web & Data Systems / Built / deployed
+- id: BLOCK1
+  label: Ambient Signal Observatory
+  body: Ambient Signal Observatory
+- id: BLOCK2
+  label: 'Public RF and satellite observatory using SatNOGS, CelesTrak and NOAA data,
+    with cache/failure '
+  body: Public RF and satellite observatory using SatNOGS, CelesTrak and NOAA data,
+    with cache/failure isolation and bounded satellite decode tooling.
+- id: BLOCK3
+  label: Ambient Signal Observatory — live public dashboard capture.
+  body: Ambient Signal Observatory — live public dashboard capture.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: 'Public RF and satellite observatory using SatNOGS, CelesTrak and NOAA data,
+    with cache/failure '
+  body: Public RF and satellite observatory using SatNOGS, CelesTrak and NOAA data,
+    with cache/failure isolation and bounded satellite decode tooling.
+- id: BLOCK7
+  label: Built a public RF/satellite dashboard around real external observation and
+    orbital/space-weathe
+  body: Built a public RF/satellite dashboard around real external observation and
+    orbital/space-weather data.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Integrated SatNOGS observations, CelesTrak catalogs and NOAA SWPC data with
+    independent source-
+  body: Integrated SatNOGS observations, CelesTrak catalogs and NOAA SWPC data with
+    independent source-health handling.
+- id: BLOCK10
+  label: 'Added bounded satellite decoder tooling for AFSK/AX.25, G3RUH, experimental
+    CW and raw payload '
+  body: Added bounded satellite decoder tooling for AFSK/AX.25, G3RUH, experimental
+    CW and raw payload previews.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Public data sources -> cached server collectors -> normalized API -> browser
+    observatory.
+  body: Public data sources -> cached server collectors -> normalized API -> browser
+    observatory.
+- id: BLOCK14
+  label: Decoder requests are constrained to observations already present in the feed/cache.
+  body: Decoder requests are constrained to observations already present in the feed/cache.
+- id: BLOCK15
+  label: 'Source failure is shown explicitly and cached data is marked stale instead
+    of silently treated '
+  body: Source failure is shown explicitly and cached data is marked stale instead
+    of silently treated as live.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Public data sources -> cached server collectors -> normalized API -> browser
+    observatory.
+  body: '01
+
+
+    Public data sources -> cached server collectors -> normalized API -> browser observatory.'
+- id: BLOCK23
+  label: Public data sources -> cached server collectors -> normalized API -> browser
+    observatory.
+  body: Public data sources -> cached server collectors -> normalized API -> browser
+    observatory.
+- id: BLOCK24
+  label: 02 Decoder requests are constrained to observations already present in the
+    feed/cache.
+  body: '02
+
+
+    Decoder requests are constrained to observations already present in the feed/cache.'
+- id: BLOCK25
+  label: Decoder requests are constrained to observations already present in the feed/cache.
+  body: Decoder requests are constrained to observations already present in the feed/cache.
+- id: BLOCK26
+  label: 03 Source failure is shown explicitly and cached data is marked stale instead
+    of silently treat
+  body: '03
+
+
+    Source failure is shown explicitly and cached data is marked stale instead of
+    silently treated as live.'
+- id: BLOCK27
+  label: 'Source failure is shown explicitly and cached data is marked stale instead
+    of silently treated '
+  body: Source failure is shown explicitly and cached data is marked stale instead
+    of silently treated as live.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Independent source-health behavior
+  body: Independent source-health behavior
+- id: BLOCK31
+  label: Cache/stale fallback
+  body: Cache/stale fallback
+- id: BLOCK32
+  label: Public HTTPS health
+  body: Public HTTPS health
+- id: BLOCK33
+  label: SatNOGS rate-limit handling
+  body: SatNOGS rate-limit handling
+- id: BLOCK34
+  label: Bounded decoder input/download rules
+  body: Bounded decoder input/download rules
+- id: BLOCK35
+  label: AFSK/G3RUH/CW decoder-path checks
+  body: AFSK/G3RUH/CW decoder-path checks
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — External orbital/space-weather data is not proof of local RF reception
+  body: —External orbital/space-weather data is not proof of local RF reception
+- id: BLOCK43
+  label: — CW output is explicitly experimental
+  body: —CW output is explicitly experimental
+- id: BLOCK44
+  label: — Upstream source outages are shown instead of hidden
+  body: —Upstream source outages are shown instead of hidden
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A deployed observatory that separates real received/public evidence from
+    inference and keeps up
+  body: A deployed observatory that separates real received/public evidence from inference
+    and keeps upstream failures visible.
+- id: BLOCK48
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK49
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK50
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK51
+  label: STATUS
+  body: STATUS
+- id: BLOCK52
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK53
+  label: AREA
+  body: AREA
+- id: BLOCK54
+  label: Web & Data Systems
+  body: Web & Data Systems
+- id: BLOCK55
+  label: STACK
+  body: STACK
+- id: BLOCK56
+  label: 6 documented technologies
+  body: 6 documented technologies
+- id: BLOCK57
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK58
+  label: 4 connected / bounded services
+  body: 4 connected / bounded services
+- id: BLOCK59
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK60
+  label: '01'
+  body: '01'
+- id: BLOCK61
+  label: '01'
+  body: '01'
+- id: BLOCK62
+  label: Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization
+  body: Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization
+- id: BLOCK63
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK64
+  label: '02'
+  body: '02'
+- id: BLOCK65
+  label: '03'
+  body: '03'
+- id: BLOCK66
+  label: '02'
+  body: '02'
+- id: BLOCK67
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK68
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK69
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK70
+  label: '03'
+  body: '03'
+- id: BLOCK71
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK72
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK73
+  label: SatNOGS / CelesTrak / NOAA SWPC
+  body: SatNOGS / CelesTrak / NOAA SWPC
+- id: BLOCK74
+  label: →
+  body: →
+- id: BLOCK75
+  label: Source-specific fetch/cache
+  body: Source-specific fetch/cache
+- id: BLOCK76
+  label: →
+  body: →
+- id: BLOCK77
+  label: Normalized observatory API
+  body: Normalized observatory API
+- id: BLOCK78
+  label: →
+  body: →
+- id: BLOCK79
+  label: Optional bounded decoder
+  body: Optional bounded decoder
+- id: BLOCK80
+  label: →
+  body: →
+- id: BLOCK81
+  label: Public dashboard
+  body: Public dashboard
+- id: BLOCK82
+  label: '04'
+  body: '04'
+- id: BLOCK83
+  label: '01'
+  body: '01'
+- id: BLOCK84
+  label: SatNOGS
+  body: SatNOGS
+- id: BLOCK85
+  label: '02'
+  body: '02'
+- id: BLOCK86
+  label: CelesTrak
+  body: CelesTrak
+- id: BLOCK87
+  label: '03'
+  body: '03'
+- id: BLOCK88
+  label: NOAA SWPC
+  body: NOAA SWPC
+- id: BLOCK89
+  label: '04'
+  body: '04'
+- id: BLOCK90
+  label: Python
+  body: Python
+- id: BLOCK91
+  label: '05'
+  body: '05'
+- id: BLOCK92
+  label: Docker
+  body: Docker
+- id: BLOCK93
+  label: '06'
+  body: '06'
+- id: BLOCK94
+  label: DSP
+  body: DSP
+- id: BLOCK95
+  label: '05'
+  body: '05'
+- id: BLOCK96
+  label: '06'
+  body: '06'
+- id: BLOCK97
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK98
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK99
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK100
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK101
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK102
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK103
+  label: '07'
+  body: '07'
+- id: BLOCK104
+  label: Ambient Signal Observatory
+  body: Ambient Signal Observatory
+- id: BLOCK105
+  label: ↔
+  body: ↔
+- id: BLOCK106
+  label: SatNOGS Network API
+  body: SatNOGS Network API
+- id: BLOCK107
+  label: ↔
+  body: ↔
+- id: BLOCK108
+  label: CelesTrak
+  body: CelesTrak
+- id: BLOCK109
+  label: ↔
+  body: ↔
+- id: BLOCK110
+  label: NOAA SWPC
+  body: NOAA SWPC
+- id: BLOCK111
+  label: ↔
+  body: ↔
+- id: BLOCK112
+  label: Cloudflare Tunnel
+  body: Cloudflare Tunnel
+- id: BLOCK113
+  label: 08
+  body: 08
+- id: BLOCK114
+  label: '01'
+  body: '01'
+- id: BLOCK115
+  label: NOTE
+  body: NOTE
+- id: BLOCK116
+  label: Live public dashboard
+  body: Live public dashboard
+- id: BLOCK117
+  label: '02'
+  body: '02'
+- id: BLOCK118
+  label: NOTE
+  body: NOTE
+- id: BLOCK119
+  label: Source health state
+  body: Source health state
+- id: BLOCK120
+  label: '03'
+  body: '03'
+- id: BLOCK121
+  label: NOTE
+  body: NOTE
+- id: BLOCK122
+  label: Satellite observations
+  body: Satellite observations
+- id: BLOCK123
+  label: '04'
+  body: '04'
+- id: BLOCK124
+  label: NOTE
+  body: NOTE
+- id: BLOCK125
+  label: Orbit/space-weather context
+  body: Orbit/space-weather context
+- id: BLOCK126
+  label: '05'
+  body: '05'
+- id: BLOCK127
+  label: NOTE
+  body: NOTE
+- id: BLOCK128
+  label: Decoder panel
+  body: Decoder panel
+- id: BLOCK129
+  label: '06'
+  body: '06'
+- id: BLOCK130
+  label: NOTE
+  body: NOTE
+- id: BLOCK131
+  label: Health endpoint
+  body: Health endpoint
+- id: BLOCK132
+  label: 09
+  body: 09
+- id: BLOCK133
+  label: '10'
+  body: '10'
+- id: BLOCK134
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK135
+  label: Distributed Compute & Build Fabric
+  body: Distributed Compute & Build Fabric
+- id: BLOCK136
+  label: Next project →
+  body: Next project →
+- id: BLOCK137
+  label: Khulna Satellite Weather
+  body: Khulna Satellite Weather
+lists: []
+template: cms/templates/pages/portfolio--projects--ambient-signal-observatory.tpl
+source: cms/templates/pages/portfolio--projects--ambient-signal-observatory.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio/projects/ambient-signal-observatory.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/ambient-signal-observatory.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/ambient-signal-observatory.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/ambient-signal-observatory.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/ambient-signal-observatory.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/ambient-signal-observatory.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/ambient-signal-observatory.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/ambient-signal-observatory.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/ambient-signal-observatory.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/ambient-signal-observatory.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/ambient-signal-observatory.html#result
+- id: LINK16
+  label: '{{RR_BLOCK62}} {{RR_BLOCK63}}'
+  url: /posts/wifi-csi-presence-calibration-drift-synchronization.html
+- id: LINK17
+  label: '{{RR_BLOCK134}} {{RR_BLOCK135}}'
+  url: /portfolio/projects/distributed-compute-build-fabric.html
+- id: LINK18
+  label: '{{RR_BLOCK136}} {{RR_BLOCK137}}'
+  url: /portfolio/projects/khulna-satellite-weather.html

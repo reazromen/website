@@ -1,0 +1,30 @@
+---
+title: Working Set Is More Useful Than a Single Memory Number
+url: /posts/container-working-set-more-useful-than-single-memory-number.html
+date: '2026-09-14'
+read_time: 1
+excerpt: Container memory graphs become noisy when cache and reclaimable pages are
+  treated exactly like unreclaimable application working memory.
+topic: observability-monitoring
+tags:
+- docker
+- working-set
+- memory
+- grafana
+draft: false
+featured: false
+language: en
+eyebrow: 'Hserver Monitoring: Docker & Containers · advanced'
+outputs:
+- url: /posts/container-working-set-more-useful-than-single-memory-number.html
+  template: cms/templates/posts/posts--container-working-set-more-useful-than-single-memory-number.tpl
+  source: cms/templates/posts/posts--container-working-set-more-useful-than-single-memory-number.json
+---
+
+Container memory graphs become noisy when cache and reclaimable pages are treated exactly like unreclaimable application working memory. On the finished hserver stack, `container_memory_working_set_bytes and memory limits` is the signal that makes the difference visible. Working set is not perfect, but it is generally more actionable for container pressure than a raw total that includes easily reclaimed cache.
+
+The engineering pattern here is signal selection for capacity monitoring. Good monitoring should shorten diagnosis, so I prefer a small number of signals with clear semantics over a larger collection whose meaning is unclear during a failure.
+
+Operationally I keep this constraint: Graph working set against limit, then inspect RSS, cache, PSI and OOM history when a container approaches its budget. It gives the dashboard, alert, and runbook the same interpretation instead of letting each layer invent its own definition of healthy.
+
+The implementation can be traced to hserver commit `b65d5d4`. That provenance is part of the article because these notes document an actual production observability system, not a hypothetical monitoring design.

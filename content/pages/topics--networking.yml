@@ -1,0 +1,24 @@
+title: Networking
+browser_title: Networking — Reaz Romen — Systems Engineering
+description: Systems engineering across embedded firmware, real-time communications,
+  Linux infrastructure, networking and observability.
+url: /topics/networking.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: TOPIC
+  body: TOPIC
+- id: BLOCK1
+  label: Networking
+  body: Networking
+- id: BLOCK2
+  label: Lessons, explainers, experiments, and implementation notes.
+  body: Lessons, explainers, experiments, and implementation notes.
+lists:
+- key: LIST0
+  filter:
+    topic: networking
+  style: cards
+template: cms/templates/pages/topics--networking.tpl
+source: cms/templates/pages/topics--networking.json
+links: []

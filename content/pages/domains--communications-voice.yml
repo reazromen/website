@@ -1,0 +1,113 @@
+title: Communications & Voice
+browser_title: Communications & Voice — Reaz Romen
+description: SIP, RTP, PBX systems, media paths, WebRTC and real-time audio.
+url: /domains/communications-voice.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: ENGINEERING DOMAIN
+  body: ENGINEERING DOMAIN
+- id: BLOCK1
+  label: Communications & Voice
+  body: Communications & Voice
+- id: BLOCK2
+  label: SIP, RTP, PBX systems, media paths, WebRTC and real-time audio.
+  body: SIP, RTP, PBX systems, media paths, WebRTC and real-time audio.
+- id: BLOCK3
+  label: SIP, RTP, PBX systems, media paths, WebRTC and real-time audio.
+  body: SIP, RTP, PBX systems, media paths, WebRTC and real-time audio.
+- id: BLOCK4
+  label: 4 projects · 2 pieces of writing
+  body: 4 projects · 2 pieces of writing
+- id: BLOCK5
+  label: Drachtio + FreeSWITCH SIP Edge
+  body: Drachtio + FreeSWITCH SIP Edge
+- id: BLOCK6
+  label: 'SIP edge and FreeSWITCH load-balancing layer with ESL health checks, REGISTER/INVITE
+    proxying, '
+  body: SIP edge and FreeSWITCH load-balancing layer with ESL health checks, REGISTER/INVITE
+    proxying, round-robin routing, config reload and Prometheus health surfaces.
+- id: BLOCK7
+  label: WORK
+  body: WORK
+- id: BLOCK8
+  label: FIMI VoIP Protocol Demo
+  body: FIMI VoIP Protocol Demo
+- id: BLOCK9
+  label: Small end-to-end protocol implementation using custom TCP signaling, SDP
+    offer/answer, direct R
+  body: Small end-to-end protocol implementation using custom TCP signaling, SDP offer/answer,
+    direct RTP media and RTCP receiver reports.
+- id: BLOCK10
+  label: WORK
+  body: WORK
+- id: BLOCK11
+  label: LOUP Parent Android App
+  body: LOUP Parent Android App
+- id: BLOCK12
+  label: Kotlin/Compose guardian app with pairing, QR scanning, device state, approved
+    contacts, call hi
+  body: Kotlin/Compose guardian app with pairing, QR scanning, device state, approved
+    contacts, call history and the LOUP lifecycle model.
+- id: BLOCK13
+  label: WORK
+  body: WORK
+- id: BLOCK14
+  label: VoIP & Real-Time Communications Infrastructure
+  body: VoIP & Real-Time Communications Infrastructure
+- id: BLOCK15
+  label: SIP/RTP infrastructure and debugging across endpoints, PBXs, routing, media,
+    packet captures, N
+  body: SIP/RTP infrastructure and debugging across endpoints, PBXs, routing, media,
+    packet captures, NAT and service health.
+- id: BLOCK16
+  label: WORK
+  body: WORK
+- id: BLOCK17
+  label: RTP Timestamps Are Not Wall Clocks
+  body: RTP Timestamps Are Not Wall Clocks
+- id: BLOCK18
+  label: RTP timestamps are media clocks, not wall clocks. That distinction explains
+    jitter calculations
+  body: RTP timestamps are media clocks, not wall clocks. That distinction explains
+    jitter calculations, playout timing, clock drift, and a surprising number of real-time
+    audio bugs.
+- id: BLOCK19
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK20
+  label: WebRTC Connectivity Is Not “STUN or TURN” — It Is an ICE Candidate Selection
+    Problem
+  body: WebRTC Connectivity Is Not “STUN or TURN” — It Is an ICE Candidate Selection
+    Problem
+- id: BLOCK21
+  label: STUN discovers reachability information and TURN provides a relay, but ICE
+    is the algorithm tha
+  body: STUN discovers reachability information and TURN provides a relay, but ICE
+    is the algorithm that gathers candidates, checks candidate pairs, prioritizes
+    working paths, and nominates the connection media actually uses.
+- id: BLOCK22
+  label: '2026-09-26'
+  body: '2026-09-26'
+lists: []
+template: cms/templates/pages/domains--communications-voice.tpl
+source: cms/templates/pages/domains--communications-voice.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK5}} {{RR_BLOCK6}} {{RR_BLOCK7}}'
+  url: /portfolio/projects/drachtio-freeswitch-sip-edge.html
+- id: LINK1
+  label: '{{RR_BLOCK8}} {{RR_BLOCK9}} {{RR_BLOCK10}}'
+  url: /portfolio/projects/fimi-voip-protocol-demo.html
+- id: LINK2
+  label: '{{RR_BLOCK11}} {{RR_BLOCK12}} {{RR_BLOCK13}}'
+  url: /portfolio/projects/loup-parent-android-app.html
+- id: LINK3
+  label: '{{RR_BLOCK14}} {{RR_BLOCK15}} {{RR_BLOCK16}}'
+  url: /portfolio/projects/voip-real-time-communications-infrastructure.html
+- id: LINK4
+  label: '{{RR_BLOCK17}} {{RR_BLOCK18}} {{RR_BLOCK19}}'
+  url: /posts/rtp-timestamps-are-not-wall-clocks.html
+- id: LINK5
+  label: '{{RR_BLOCK20}} {{RR_BLOCK21}} {{RR_BLOCK22}}'
+  url: /posts/webrtc-ice-candidate-selection-not-stun-turn.html

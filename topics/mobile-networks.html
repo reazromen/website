@@ -1,161 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability.">
-  <meta name="author" content="Reaz Romen">
-  <link rel="author" href="../about.html">
-  <title>Mobile Networks — Reaz Romen — Systems Engineering</title>
-  <link rel="stylesheet" href="../static/css/site.css">
-<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/sitewide-v2.css"><link rel="stylesheet" href="/assets/phase1.css"><link rel="alternate" type="application/rss+xml" title="Reaz Romen — Writing" href="/feed.xml"><link rel="alternate" type="application/atom+xml" title="Reaz Romen — Writing" href="/atom.xml"><link rel="stylesheet" href="/assets/responsive-v3.css"></head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="Systems engineering across embedded firmware, real-time communications, Linux infrastructure, networking and observability." name="description"/>
+<meta content="Reaz Romen" name="author"/>
+<link href="../about.html" rel="author"/>
+<title>Mobile Networks — Reaz Romen</title>
+<link href="../static/css/site.css" rel="stylesheet"/>
+<link href="/assets/site.css" rel="stylesheet"/><link href="/assets/sitewide-v2.css" rel="stylesheet"/><link href="/assets/phase1.css" rel="stylesheet"/><link href="/feed.xml" rel="alternate" title="Reaz Romen — Writing" type="application/rss+xml"/><link href="/atom.xml" rel="alternate" title="Reaz Romen — Writing" type="application/atom+xml"/><link href="/assets/responsive-v3.css" rel="stylesheet"/><link href="https://reazromen.com/topics/mobile-networks.html" rel="canonical"/></head>
 <body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
-
-<header class="site-header rr-global-header"><div class="site-header-inner"><a class="brand" href="/" aria-label="Reaz Romen home">RR</a><nav class="nav" aria-label="Main navigation"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button class="icon-link search-action" type="button" data-open-command aria-label="Search and quick navigation" title="Search (Ctrl/⌘ K)"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button><a class="icon-link github-action" href="https://github.com/reazromen" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg></a><button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle color scheme"><svg class="icon" data-theme-icon="moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"/></svg><svg class="icon" data-theme-icon="sun" aria-hidden="true" viewBox="0 0 24 24" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg></button></div></nav></div></header>
-<main id="rr-main" class="shell site-main">
-  
-    
-  
-  
+<header class="site-header rr-global-header"><div class="site-header-inner"><a aria-label="Reaz Romen home" class="brand" href="/">RR</a><nav aria-label="Main navigation" class="nav"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button aria-label="Search and quick navigation" class="icon-link search-action" data-open-command="" title="Search (Ctrl/⌘ K)" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg></button><a aria-label="GitHub" class="icon-link github-action" href="https://github.com/reazromen" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon icon-fill" viewbox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"></path></svg></a><button aria-label="Toggle color scheme" class="theme-toggle" onclick="toggleTheme()" type="button"><svg aria-hidden="true" class="icon" data-theme-icon="moon" viewbox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"></path></svg><svg aria-hidden="true" class="icon" data-theme-icon="sun" hidden="" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></svg></button></div></nav></div></header>
+<main class="shell site-main" id="rr-main">
 <section class="page-head"><p class="eyebrow">TOPIC</p><h1>Mobile Networks</h1><p class="lede">Lessons, explainers, experiments, and implementation notes.</p></section>
 <div class="post-list">
-  <article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 1 min read · Lab period 2025-01</p>
-  <h3><a href="../posts/cpri-and-ecpri-made-the-ran-transport-boundary-much-clearer.html">CPRI and eCPRI Made the RAN Transport Boundary Much Clearer</a></h3>
-  <p>The move from digitized radio samples toward packetized fronthaul explains a lot about modern RAN architecture.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>CPRI</span><span>eCPRI</span><span>RAN</span><span>fronthaul</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 1 min read · Lab period 2024-01</p>
-  <h3><a href="../posts/gx-charging-rules-only-made-sense-after-i-followed-the-tft.html">Gx Charging Rules Only Made Sense After I Followed the TFT</a></h3>
-  <p>A charging rule becomes concrete when its packet filters are followed all the way into bearer treatment.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Gx</span><span>TFT</span><span>Diameter</span><span>QoS</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 1 min read · Lab period 2024-02</p>
-  <h3><a href="../posts/dedicated-bearers-stopped-feeling-abstract-once-i-traced-the-create-bearer-request.html">Dedicated Bearers Stopped Feeling Abstract Once I Traced the Create Bearer Request</a></h3>
-  <p>Tracing a Create Bearer Request tied policy, QoS and user-plane classification together in one procedure.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>LTE</span><span>GTPv2-C</span><span>bearer</span><span>QoS</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 2 min read · Lab period 2023-02</p>
-  <h3><a href="../posts/32x32-mimo-made-more-sense-when-i-stopped-counting-antennas.html">32x32 MIMO Made More Sense When I Stopped Counting Antennas</a></h3>
-  <p>Large antenna arrays are interesting because of beams, spatial layers and RF chains, not because the front panel contains a big number of elements.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>MIMO</span><span>5G</span><span>RAN</span><span>beamforming</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 2 min read · Lab period 2023-01</p>
-  <h3><a href="../posts/sqn-sync-in-ims-aka-was-the-authentication-detail-i-kept-missing.html">SQN Sync in IMS AKA Was the Authentication Detail I Kept Missing</a></h3>
-  <p>IMS AKA stopped looking like a simple password check once I traced the sequence number and resynchronization path.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>IMS</span><span>AKA</span><span>SQN</span><span>authentication</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 2 min read · Lab period 2023-03</p>
-  <h3><a href="../posts/apn-in-lte-and-dnn-in-5g-core-are-similar-until-the-architecture-matters.html">APN in LTE and DNN in 5G Core Are Similar Until the Architecture Matters</a></h3>
-  <p>APN and DNN both identify data-network intent, but the surrounding EPC and 5GC procedures are different enough that treating them as pure renames is misleading.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>APN</span><span>DNN</span><span>5G Core</span><span>Open5GS</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 2 min read · Lab period 2023-04</p>
-  <h3><a href="../posts/pfcp-was-the-missing-link-between-the-smf-and-upf.html">PFCP Was the Missing Link Between the SMF and UPF</a></h3>
-  <p>5G user-plane programming became clearer once I followed PFCP instead of treating the UPF as a static router.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>PFCP</span><span>SMF</span><span>UPF</span><span>5G Core</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 2 min read · Lab period 2023-05</p>
-  <h3><a href="../posts/n2-and-n3-helped-me-draw-a-5g-call-path-without-hand-waving.html">N2 and N3 Helped Me Draw a 5G Call Path Without Hand-Waving</a></h3>
-  <p>Separating N2 signalling from N3 user traffic made the gNB-to-core boundary much easier to troubleshoot.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>N2</span><span>N3</span><span>NGAP</span><span>GTP-U</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 1 min read · Lab period 2023-06</p>
-  <h3><a href="../posts/a-5g-registration-trace-is-easier-when-i-follow-the-state-machine.html">A 5G Registration Trace Is Easier When I Follow the State Machine</a></h3>
-  <p>Following registration as a state transition is more useful than memorizing a long list of NAS messages.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>5G</span><span>NAS</span><span>AMF</span><span>registration</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 1 min read · Lab period 2023-08</p>
-  <h3><a href="../posts/pcf-and-policy-control-made-5g-sessions-feel-less-static.html">PCF and Policy Control Made 5G Sessions Feel Less Static</a></h3>
-  <p>Policy is not just a config file on the gateway; in 5GC it can actively influence session behavior through dedicated network functions.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>PCF</span><span>SMF</span><span>policy</span><span>5G Core</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 1 min read · Lab period 2023-09</p>
-  <h3><a href="../posts/charging-records-are-easier-to-trust-when-i-trace-the-event-that-created-them.html">Charging Records Are Easier to Trust When I Trace the Event That Created Them</a></h3>
-  <p>Usage records become meaningful only when they can be tied back to the session, rule and network event that produced them.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>charging</span><span>CDR</span><span>usage</span><span>policy</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 2 min read · Lab period 2022-03</p>
-  <h3><a href="../posts/s6a-connected-lte-authentication-to-the-hss.html">The S6a Interface Connected LTE Authentication to the HSS for Me</a></h3>
-  <p>Tracing S6a made the HSS feel less like a subscriber database and more like an active control-plane participant in LTE attach and mobility.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>S6a</span><span>Diameter</span><span>HSS</span><span>MME</span><span>LTE</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 2 min read · Lab period 2022-05</p>
-  <h3><a href="../posts/apns-pgw-selection-and-the-path-to-the-data-network.html">APNs, PGW Selection and the Path to the Data Network</a></h3>
-  <p>An APN is more than a label on the handset; it influences how a subscriber session reaches a packet gateway and an external data network.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>APN</span><span>PGW</span><span>LTE</span><span>Open5GS</span><span>EPC</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 2 min read · Lab period 2022-08</p>
-  <h3><a href="../posts/qci-5-signalling-qci-1-voice-made-qos-concrete.html">QCI 5 for IMS Signalling and QCI 1 for Voice Made QoS Concrete</a></h3>
-  <p>VoLTE QoS became easier to understand when I separated the persistent IMS signalling bearer from the dedicated low-latency bearer created for voice media.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>VoLTE</span><span>QCI</span><span>IMS</span><span>QoS</span><span>LTE</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 2 min read · Lab period 2022-09</p>
-  <h3><a href="../posts/freediameter-taught-me-why-a-dra-is-more-than-a-tcp-proxy.html">freeDiameter Taught Me Why a DRA Is More Than a TCP Proxy</a></h3>
-  <p>Diameter routing depends on realms, applications and peer capabilities, so a routing agent has to understand more than destination IP addresses.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Diameter</span><span>freeDiameter</span><span>DRA</span><span>Realm</span><span>Application-ID</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 3 min read · Lab period 2022-12</p>
-  <h3><a href="../posts/walking-a-volte-call-end-to-end-connected-epc-ims-rtp.html">Walking a VoLTE Call End to End Connected the EPC, IMS and RTP Pieces</a></h3>
-  <p>Following one VoLTE call from LTE attachment through IMS registration, SIP session setup, bearer creation and RTP finally connected the year&#39;s separate labs.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>VoLTE</span><span>IMS</span><span>EPC</span><span>SIP</span><span>RTP</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 2 min read · Lab period 2022-02</p>
-  <h3><a href="../posts/diameter-started-making-sense-with-cer-and-cea.html">Diameter Started Making Sense When I Followed CER and CEA First</a></h3>
-  <p>Before looking at subscriber procedures, I needed to understand how Diameter peers identify themselves, advertise applications and establish a usable relationship.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Diameter</span><span>CER</span><span>CEA</span><span>AVP</span><span>RFC6733</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 2 min read · Lab period 2022-01</p>
-  <h3><a href="../posts/open5gs-made-the-epc-feel-like-a-set-of-services.html">Open5GS Made the EPC Feel Like a Set of Services Instead of One Big Core</a></h3>
-  <p>Breaking the EPC into MME, HSS, SGW, PGW and PCRF roles made LTE core traffic much easier to follow in captures and logs.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>Open5GS</span><span>LTE</span><span>EPC</span><span>MME</span><span>HSS</span></div>
-</article><article class="post-card">
-  <p class="meta"><a href="mobile-networks.html">Mobile Networks</a> · 2 min read · Lab period 2022-04</p>
-  <h3><a href="../posts/gtp-c-and-gtp-u-separated-control-from-subscriber-traffic.html">GTP-C and GTP-U Finally Separated Control from Subscriber Traffic</a></h3>
-  <p>GTP made more sense once I stopped treating it as one protocol and separated tunnel-control signalling from the packets that actually carry user traffic.</p>
-  <p class="byline-mini">By <a href="../author/reaz-romen.html">Reaz Romen</a> <span class="verified mini">✓ verified</span></p>
-  <div class="tags"><span>GTP</span><span>GTP-C</span><span>GTP-U</span><span>LTE</span><span>EPC</span></div>
-</article>
+<article class="post-card"><p class="meta">Mobile Networks · 3 min read · 2026-09-14</p><h3><a href="/posts/walking-a-volte-call-end-to-end-connected-epc-ims-rtp.html">Walking a VoLTE Call End to End Connected the EPC, IMS and RTP Pieces</a></h3><p>Following one VoLTE call from LTE attachment through IMS registration, SIP session setup, bearer creation and RTP finally connected the year's separate labs.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/volte.html">VoLTE</a><a data-pagefind-filter="tag" href="/tags/ims.html">IMS</a><a data-pagefind-filter="tag" href="/tags/epc.html">EPC</a><a data-pagefind-filter="tag" href="/tags/sip.html">SIP</a><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 2 min read · 2026-09-14</p><h3><a href="/posts/sqn-sync-in-ims-aka-was-the-authentication-detail-i-kept-missing.html">SQN Sync in IMS AKA Was the Authentication Detail I Kept Missing</a></h3><p>IMS AKA stopped looking like a simple password check once I traced the sequence number and resynchronization path.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/ims.html">IMS</a><a data-pagefind-filter="tag" href="/tags/aka.html">AKA</a><a data-pagefind-filter="tag" href="/tags/sqn.html">SQN</a><a data-pagefind-filter="tag" href="/tags/authentication.html">authentication</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 2 min read · 2026-09-14</p><h3><a href="/posts/s6a-connected-lte-authentication-to-the-hss.html">The S6a Interface Connected LTE Authentication to the HSS for Me</a></h3><p>Tracing S6a made the HSS feel less like a subscriber database and more like an active control-plane participant in LTE attach and mobility.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/s6a.html">S6a</a><a data-pagefind-filter="tag" href="/tags/diameter.html">Diameter</a><a data-pagefind-filter="tag" href="/tags/hss.html">HSS</a><a data-pagefind-filter="tag" href="/tags/mme.html">MME</a><a data-pagefind-filter="tag" href="/tags/lte.html">LTE</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 2 min read · 2026-09-14</p><h3><a href="/posts/qci-5-signalling-qci-1-voice-made-qos-concrete.html">QCI 5 for IMS Signalling and QCI 1 for Voice Made QoS Concrete</a></h3><p>VoLTE QoS became easier to understand when I separated the persistent IMS signalling bearer from the dedicated low-latency bearer created for voice media.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/volte.html">VoLTE</a><a data-pagefind-filter="tag" href="/tags/qci.html">QCI</a><a data-pagefind-filter="tag" href="/tags/ims.html">IMS</a><a data-pagefind-filter="tag" href="/tags/qos.html">QoS</a><a data-pagefind-filter="tag" href="/tags/lte.html">LTE</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 2 min read · 2026-09-14</p><h3><a href="/posts/pfcp-was-the-missing-link-between-the-smf-and-upf.html">PFCP Was the Missing Link Between the SMF and UPF</a></h3><p>5G user-plane programming became clearer once I followed PFCP instead of treating the UPF as a static router.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/pfcp.html">PFCP</a><a data-pagefind-filter="tag" href="/tags/smf.html">SMF</a><a data-pagefind-filter="tag" href="/tags/upf.html">UPF</a><a data-pagefind-filter="tag" href="/tags/5g-core.html">5G Core</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 1 min read · 2026-09-14</p><h3><a href="/posts/pcf-and-policy-control-made-5g-sessions-feel-less-static.html">PCF and Policy Control Made 5G Sessions Feel Less Static</a></h3><p>Policy is not just a config file on the gateway; in 5GC it can actively influence session behavior through dedicated network functions.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/pcf.html">PCF</a><a data-pagefind-filter="tag" href="/tags/smf.html">SMF</a><a data-pagefind-filter="tag" href="/tags/policy.html">policy</a><a data-pagefind-filter="tag" href="/tags/5g-core.html">5G Core</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 2 min read · 2026-09-14</p><h3><a href="/posts/open5gs-made-the-epc-feel-like-a-set-of-services.html">Open5GS Made the EPC Feel Like a Set of Services Instead of One Big Core</a></h3><p>Breaking the EPC into MME, HSS, SGW, PGW and PCRF roles made LTE core traffic much easier to follow in captures and logs.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/open5gs.html">Open5GS</a><a data-pagefind-filter="tag" href="/tags/lte.html">LTE</a><a data-pagefind-filter="tag" href="/tags/epc.html">EPC</a><a data-pagefind-filter="tag" href="/tags/mme.html">MME</a><a data-pagefind-filter="tag" href="/tags/hss.html">HSS</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 2 min read · 2026-09-14</p><h3><a href="/posts/n2-and-n3-helped-me-draw-a-5g-call-path-without-hand-waving.html">N2 and N3 Helped Me Draw a 5G Call Path Without Hand-Waving</a></h3><p>Separating N2 signalling from N3 user traffic made the gNB-to-core boundary much easier to troubleshoot.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/n2.html">N2</a><a data-pagefind-filter="tag" href="/tags/n3.html">N3</a><a data-pagefind-filter="tag" href="/tags/ngap.html">NGAP</a><a data-pagefind-filter="tag" href="/tags/gtp-u.html">GTP-U</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 1 min read · 2026-09-14</p><h3><a href="/posts/gx-charging-rules-only-made-sense-after-i-followed-the-tft.html">Gx Charging Rules Only Made Sense After I Followed the TFT</a></h3><p>A charging rule becomes concrete when its packet filters are followed all the way into bearer treatment.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/gx.html">Gx</a><a data-pagefind-filter="tag" href="/tags/tft.html">TFT</a><a data-pagefind-filter="tag" href="/tags/diameter.html">Diameter</a><a data-pagefind-filter="tag" href="/tags/qos.html">QoS</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 2 min read · 2026-09-14</p><h3><a href="/posts/gtp-c-and-gtp-u-separated-control-from-subscriber-traffic.html">GTP-C and GTP-U Finally Separated Control from Subscriber Traffic</a></h3><p>GTP made more sense once I stopped treating it as one protocol and separated tunnel-control signalling from the packets that actually carry user traffic.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/gtp.html">GTP</a><a data-pagefind-filter="tag" href="/tags/gtp-c.html">GTP-C</a><a data-pagefind-filter="tag" href="/tags/gtp-u.html">GTP-U</a><a data-pagefind-filter="tag" href="/tags/lte.html">LTE</a><a data-pagefind-filter="tag" href="/tags/epc.html">EPC</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 2 min read · 2026-09-14</p><h3><a href="/posts/freediameter-taught-me-why-a-dra-is-more-than-a-tcp-proxy.html">freeDiameter Taught Me Why a DRA Is More Than a TCP Proxy</a></h3><p>Diameter routing depends on realms, applications and peer capabilities, so a routing agent has to understand more than destination IP addresses.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/diameter.html">Diameter</a><a data-pagefind-filter="tag" href="/tags/freediameter.html">freeDiameter</a><a data-pagefind-filter="tag" href="/tags/dra.html">DRA</a><a data-pagefind-filter="tag" href="/tags/realm.html">Realm</a><a data-pagefind-filter="tag" href="/tags/application-id.html">Application-ID</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 2 min read · 2026-09-14</p><h3><a href="/posts/diameter-started-making-sense-with-cer-and-cea.html">Diameter Started Making Sense When I Followed CER and CEA First</a></h3><p>Before looking at subscriber procedures, I needed to understand how Diameter peers identify themselves, advertise applications and establish a usable relationship.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/diameter.html">Diameter</a><a data-pagefind-filter="tag" href="/tags/cer.html">CER</a><a data-pagefind-filter="tag" href="/tags/cea.html">CEA</a><a data-pagefind-filter="tag" href="/tags/avp.html">AVP</a><a data-pagefind-filter="tag" href="/tags/rfc6733.html">RFC6733</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 1 min read · 2026-09-14</p><h3><a href="/posts/dedicated-bearers-stopped-feeling-abstract-once-i-traced-the-create-bearer-request.html">Dedicated Bearers Stopped Feeling Abstract Once I Traced the Create Bearer Request</a></h3><p>Tracing a Create Bearer Request tied policy, QoS and user-plane classification together in one procedure.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/lte.html">LTE</a><a data-pagefind-filter="tag" href="/tags/gtpv2-c.html">GTPv2-C</a><a data-pagefind-filter="tag" href="/tags/bearer.html">bearer</a><a data-pagefind-filter="tag" href="/tags/qos.html">QoS</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 1 min read · 2026-09-14</p><h3><a href="/posts/cpri-and-ecpri-made-the-ran-transport-boundary-much-clearer.html">CPRI and eCPRI Made the RAN Transport Boundary Much Clearer</a></h3><p>The move from digitized radio samples toward packetized fronthaul explains a lot about modern RAN architecture.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/cpri.html">CPRI</a><a data-pagefind-filter="tag" href="/tags/ecpri.html">eCPRI</a><a data-pagefind-filter="tag" href="/tags/ran.html">RAN</a><a data-pagefind-filter="tag" href="/tags/fronthaul.html">fronthaul</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 1 min read · 2026-09-14</p><h3><a href="/posts/charging-records-are-easier-to-trust-when-i-trace-the-event-that-created-them.html">Charging Records Are Easier to Trust When I Trace the Event That Created Them</a></h3><p>Usage records become meaningful only when they can be tied back to the session, rule and network event that produced them.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/charging.html">charging</a><a data-pagefind-filter="tag" href="/tags/cdr.html">CDR</a><a data-pagefind-filter="tag" href="/tags/usage.html">usage</a><a data-pagefind-filter="tag" href="/tags/policy.html">policy</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 2 min read · 2026-09-14</p><h3><a href="/posts/apns-pgw-selection-and-the-path-to-the-data-network.html">APNs, PGW Selection and the Path to the Data Network</a></h3><p>An APN is more than a label on the handset; it influences how a subscriber session reaches a packet gateway and an external data network.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/apn.html">APN</a><a data-pagefind-filter="tag" href="/tags/pgw.html">PGW</a><a data-pagefind-filter="tag" href="/tags/lte.html">LTE</a><a data-pagefind-filter="tag" href="/tags/open5gs.html">Open5GS</a><a data-pagefind-filter="tag" href="/tags/epc.html">EPC</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 2 min read · 2026-09-14</p><h3><a href="/posts/apn-in-lte-and-dnn-in-5g-core-are-similar-until-the-architecture-matters.html">APN in LTE and DNN in 5G Core Are Similar Until the Architecture Matters</a></h3><p>APN and DNN both identify data-network intent, but the surrounding EPC and 5GC procedures are different enough that treating them as pure renames is misleading.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/apn.html">APN</a><a data-pagefind-filter="tag" href="/tags/dnn.html">DNN</a><a data-pagefind-filter="tag" href="/tags/5g-core.html">5G Core</a><a data-pagefind-filter="tag" href="/tags/open5gs.html">Open5GS</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 1 min read · 2026-09-14</p><h3><a href="/posts/a-5g-registration-trace-is-easier-when-i-follow-the-state-machine.html">A 5G Registration Trace Is Easier When I Follow the State Machine</a></h3><p>Following registration as a state transition is more useful than memorizing a long list of NAS messages.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/5g.html">5G</a><a data-pagefind-filter="tag" href="/tags/nas.html">NAS</a><a data-pagefind-filter="tag" href="/tags/amf.html">AMF</a><a data-pagefind-filter="tag" href="/tags/registration.html">registration</a></div></article>
+<article class="post-card"><p class="meta">Mobile Networks · 2 min read · 2026-09-14</p><h3><a href="/posts/32x32-mimo-made-more-sense-when-i-stopped-counting-antennas.html">32x32 MIMO Made More Sense When I Stopped Counting Antennas</a></h3><p>Large antenna arrays are interesting because of beams, spatial layers and RF chains, not because the front panel contains a big number of elements.</p><div class="tags"><a data-pagefind-filter="tag" href="/tags/mimo.html">MIMO</a><a data-pagefind-filter="tag" href="/tags/5g.html">5G</a><a data-pagefind-filter="tag" href="/tags/ran.html">RAN</a><a data-pagefind-filter="tag" href="/tags/beamforming.html">beamforming</a></div></article>
 </div>
-
 </main>
 <footer class="shell site-footer">
-  <div>
-    <span class="status-dot"></span>
-    <strong>Reaz Romen — independent systems engineer.</strong>
-  </div>
-  <p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
-  <nav aria-label="Footer">
-    <a href="/topics.html">Topics</a>
-    <a href="/systems.html">Systems</a>
-    <a href="/archive.html">Archive</a>
-    <a href="/author/reaz-romen.html">Author record</a>
-  </nav>
+<div>
+<span class="status-dot"></span>
+<strong>Reaz Romen — independent systems engineer.</strong>
+</div>
+<p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+<nav aria-label="Footer"><a href="/tags.html">Tags</a></nav>
 </footer>
-<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog class="command-palette" id="command-palette" aria-label="Search and quick navigation" data-pagefind-ignore>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><dialog aria-label="Search and quick navigation" class="command-palette" data-pagefind-ignore="" id="command-palette">
 <div class="command-shell">
-<div class="command-input-row"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="command-input" type="search" autocomplete="off" placeholder="Search writing, work, topics…" aria-label="Search site"><button class="command-close" type="button" data-close-command aria-label="Close"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+<div class="command-input-row"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input aria-label="Search site" autocomplete="off" id="command-input" placeholder="Search writing, work, topics…" type="search"/><button aria-label="Close" class="command-close" data-close-command="" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div>
 <div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
-<nav class="command-shortcuts" aria-label="Quick navigation">
+<nav aria-label="Quick navigation" class="command-shortcuts">
 <a href="/portfolio.html">Work <span>Projects and systems</span></a>
 <a href="/writing.html">Writing <span>Articles and engineering notes</span></a>
 <a href="/domains/">Domains <span>Browse engineering areas</span></a>
@@ -163,7 +57,7 @@
 <a href="/systems.html">Stack <span>Tools by engineering layer</span></a>
 <a href="/about.html">About <span>Background and approach</span></a>
 </nav>
-<div id="command-results" class="command-results" aria-live="polite"></div>
+<div aria-live="polite" class="command-results" id="command-results"></div>
 <div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div>
 </div></dialog><script src="/assets/phase1.js"></script><script src="/assets/responsive-v3.js"></script></body>
 </html>

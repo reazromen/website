@@ -1,0 +1,35 @@
+---
+title: Why Subnetting Felt Hard Until I Stopped Memorizing Tables
+url: /posts/why-subnetting-felt-hard-until-i-stopped-memorizing-tables.html
+date: '2026-09-14'
+read_time: 3
+excerpt: Subnetting became much easier once I treated it as address boundaries and
+  binary arithmetic instead of a collection of shortcut tables.
+topic: networking
+tags:
+- ccna
+- ipv4
+- subnetting
+draft: false
+featured: false
+language: en
+eyebrow: 2018 Network Foundations · beginner
+outputs:
+- url: /posts/why-subnetting-felt-hard-until-i-stopped-memorizing-tables.html
+  template: cms/templates/posts/posts--why-subnetting-felt-hard-until-i-stopped-memorizing-tables.tpl
+  source: cms/templates/posts/posts--why-subnetting-felt-hard-until-i-stopped-memorizing-tables.json
+---
+
+Subnetting was one of the first networking topics that looked harder than it really was. The usual study material had tables for /24, /25, /26, /27 and so on, and I initially tried to remember the usable-host count and block size for every prefix. That works until the question changes shape. As soon as the network starts at an unfamiliar address, or the mask is written in dotted decimal instead of CIDR notation, memorized tables stop being enough.
+
+The model that finally made subnetting predictable was to separate three things: the prefix length, the size of the address block, and the boundary on which that block begins. For IPv4 there are 32 bits. A /26 leaves six host bits, so the block contains 2^6 = 64 addresses. In the last octet the boundaries therefore occur at 0, 64, 128 and 192. Once I know the boundary, the network address and broadcast address are no longer guesses. 192.168.10.70/26 belongs to the block that starts at 64 and ends at 127, so the network address is 192.168.10.64 and the broadcast address is 192.168.10.127.
+
+The dotted-decimal mask says the same thing in a less convenient form. /26 is 255.255.255.192. The interesting octet is 192. Subtracting that value from 256 gives a block size of 64. That shortcut is useful, but it makes more sense after understanding why the subtraction works. The mask is just a row of network bits followed by host bits; the block size comes from the remaining host-bit combinations.
+
+I also stopped treating the first and last address rules as the definition of a subnet. They are consequences of the address structure. In a normal IPv4 subnet, the all-zero host portion identifies the network and the all-one host portion is the broadcast address. The host range sits between them. That distinction matters because it keeps the reasoning intact when dealing with point-to-point links, unusual prefixes, or later topics such as variable-length subnet masks.
+
+A small exercise was more useful than a page of notes. I would take an address such as 10.20.30.173/27 and solve it from scratch. A /27 leaves five host bits, so each block has 32 addresses. The boundaries in the last octet are 0, 32, 64, 96, 128, 160, 192 and 224. The address 173 falls in the 160–191 block. Therefore the network is 10.20.30.160/27, the broadcast is 10.20.30.191, and the conventional host range is 161–190. Repeating that process made the pattern automatic without memorizing every answer.
+
+What I like about subnetting now is that it exposes how much networking depends on precise boundaries. Routers do not care whether an address looks visually close to another address. They compare prefixes. Two addresses can differ by one in decimal notation and still be in different networks if a prefix boundary sits between them. That is a much more useful way to think than simply asking how many hosts fit in a subnet.
+
+For CCNA-level work, the practical target is not speed first. It is being able to explain why a given address belongs to a particular network and where the next network starts. Once that is solid, the faster mental shortcuts become safe instead of fragile.

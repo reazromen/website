@@ -1,0 +1,70 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CMS guide</title><style>body{max-width:850px;margin:40px auto;padding:0 24px;font:17px/1.7 system-ui;color:#222}table{border-collapse:collapse}td,th{border:1px solid #ddd;padding:8px;text-align:left}a{color:#156}code{font-size:.9em}</style></head><body><p><a href="/admin/">← Open CMS</a></p><h1>Website publishing</h1>
+<p>Open https://reazromen.com/admin. Authelia remains the only login. No GitHub token is requested by the CMS.</p>
+<h2>Where to edit</h2>
+<table>
+<thead>
+<tr>
+<th>CMS collection</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Writing</td>
+<td>Existing engineering articles and new technical writing</td>
+</tr>
+<tr>
+<td>Perspectives</td>
+<td>Long-form essays</td>
+</tr>
+<tr>
+<td>Music</td>
+<td>Personal song notes, album notes, performance notes and research listening notes</td>
+</tr>
+<tr>
+<td>বাংলা</td>
+<td>Bangla articles</td>
+</tr>
+<tr>
+<td>Topics</td>
+<td>Broad subjects, their names, descriptions and archive introductions</td>
+</tr>
+<tr>
+<td>Tags</td>
+<td>Reusable detailed labels and tag archive descriptions</td>
+</tr>
+<tr>
+<td>Pages</td>
+<td>Homepage, About, portfolio/project pages, section introductions and other existing pages</td>
+</tr>
+<tr>
+<td>Site settings → Menus</td>
+<td>Header links, dropdowns, footer links, visibility and order</td>
+</tr>
+</tbody>
+</table>
+<p>Every legacy article is now a Markdown record with structured metadata. Its existing URL is retained. Unedited article bodies retain the original HTML internally so formatting, code, tables, links and images are preserved; editing the Body field renders the revised Markdown into that article's existing layout. You do not edit HTML templates through the CMS.</p>
+<h2>Publish an article</h2>
+<ol>
+<li>Create a needed topic or tag first, or use existing entries.</li>
+<li>Open the relevant writing collection and create an entry.</li>
+<li>Enter title, date, excerpt, reading time and body. Select a topic and any tags using the searchable selectors.</li>
+<li>Music also has artist, album, year and type. Research notes remain separate from personal listening notes.</li>
+<li>New posts default to Draft. Save while writing. Turn Draft off and save when ready to publish.</li>
+<li>Wait for the <strong>Build and publish website</strong> GitHub Action to finish. That build renders all content, archives, taxonomy pages, feeds, sitemap and search together, then publishes one complete artifact.</li>
+</ol>
+<p>Dates describe publication history; entering a future date does not schedule a post. Use Draft until you want it public. The local Git sync normally pushes a clean CMS commit within about eight seconds; the site build takes a few minutes.</p>
+<p>Keep an existing URL unchanged. New posts can leave URL empty and receive <code>/posts/&lt;filename&gt;.html</code>. If an existing article's URL is deliberately changed, the former article URL continues to serve the same content with the new canonical URL.</p>
+<p>Featured articles take priority in the homepage's three recent-writing positions, followed by newest articles.</p>
+<h2>Topics and tags</h2>
+<p>Topics are broad groupings such as telephony, embedded firmware or observability. Tags are narrower reusable labels. Change a taxonomy entry's title to rename its display everywhere while retaining the stable stored ID and URL. The public archives are <code>/topics.html</code> and <code>/tags.html</code>; individual archives list the matching published posts.</p>
+<p>Do not delete a topic or tag until you have removed or reassigned every post using it. The renderer intentionally rejects dangling references, so a mistake cannot silently drop posts from their archives. Git history can restore any CMS deletion. Existing tag vocabulary was preserved, not editorially merged or rewritten.</p>
+<h2>Pages and menus</h2>
+<p>Existing designed pages use named <strong>Content blocks</strong> and <strong>Links</strong>. Edit those normal fields to change their text and destinations while retaining their layout. Generated article lists are derived from posts and cannot be manually broken through the page editor. For topic names and descriptions, use Topics rather than the corresponding page heading.</p>
+<p>For a new standalone page, supply a URL such as <code>/contact.html</code> and write its Body. Add it to Site settings → Menus if it should be in navigation. Drag menu entries to reorder them, add dropdown children, or switch Enabled off to hide a link without deleting the page.</p>
+<p>Images are managed through the CMS media library (<code>static/uploads</code>). Article body images and optional cover image/alt text are supported.</p>
+<h2>Architecture and recovery</h2>
+<p>Authelia → Decap proxy on hserver → repository-scoped SSH deploy key → GitHub → one render/search/Pages deployment → existing Cloudflare route. No database was added. The CMS admin configuration is versioned at <code>cms/admin/config.yml</code> and refreshed on hserver by the sync service.</p>
+<p>Content source is in <code>content/</code>. Layouts and preservation fragments are in <code>cms/templates/</code>. The renderer validates URL collisions, taxonomy references and template locations before modifying output. Deleted and draft records are removed from the generated output using <code>cms/generated-manifest.json</code>. Only public files enter the deployment artifact; CMS source files and drafts are excluded.</p>
+<p>The migration baseline commit and URL map are recorded in <code>content/migration.json</code>. <code>cms/migration-baseline.json</code> records original article text, links and images for the one-time preservation audit. <code>cms/validate_content.py</code> verifies migration fidelity; it should not be required after intentional editorial changes, which naturally differ from the baseline.</p>
+<p>To roll back an editorial change, revert its Git commit and allow the publishing workflow to run. To restore the former publishing architecture, restore the pre-migration Git revision and its workflow files, set GitHub Pages to its former branch source, and restore the backed-up admin config and Git sync script on hserver.</p></body></html>

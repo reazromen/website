@@ -1,0 +1,526 @@
+title: LOUP Parent Android App
+browser_title: LOUP Parent Android App — Reaz Romen Portfolio
+description: Kotlin/Compose guardian app with pairing, QR scanning, device state,
+  approved contacts, call history and the LOUP lifecycle model.
+url: /portfolio/projects/loup-parent-android-app.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Apps & Control Planes / Runnable prototype
+  body: Apps & Control Planes / Runnable prototype
+- id: BLOCK1
+  label: LOUP Parent Android App
+  body: LOUP Parent Android App
+- id: BLOCK2
+  label: Kotlin/Compose guardian app with pairing, QR scanning, device state, approved
+    contacts, call hi
+  body: Kotlin/Compose guardian app with pairing, QR scanning, device state, approved
+    contacts, call history and the LOUP lifecycle model.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: Kotlin/Compose guardian app with pairing, QR scanning, device state, approved
+    contacts, call hi
+  body: Kotlin/Compose guardian app with pairing, QR scanning, device state, approved
+    contacts, call history and the LOUP lifecycle model.
+- id: BLOCK7
+  label: Built the Kotlin/Jetpack Compose application shell and guardian-facing flows.
+  body: Built the Kotlin/Jetpack Compose application shell and guardian-facing flows.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: 'Implemented QR pairing, device naming, lifecycle/status views, approved-contact
+    management and '
+  body: Implemented QR pairing, device naming, lifecycle/status views, approved-contact
+    management and call-history UI.
+- id: BLOCK10
+  label: Kept SIP credentials outside the mobile app and modeled pairing around an
+    opaque backend-issued
+  body: Kept SIP credentials outside the mobile app and modeled pairing around an
+    opaque backend-issued token.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Android guardian app -> LOUP backend -> provisioning/PBX services -> LOUP
+    device.
+  body: Android guardian app -> LOUP backend -> provisioning/PBX services -> LOUP
+    device.
+- id: BLOCK14
+  label: CameraX + ML Kit handle QR capture; repository abstractions isolate UI from
+    future HTTPS APIs.
+  body: CameraX + ML Kit handle QR capture; repository abstractions isolate UI from
+    future HTTPS APIs.
+- id: BLOCK15
+  label: Lifecycle states cover factory, pairing, active, blocked, retired and transfer-related
+    device s
+  body: Lifecycle states cover factory, pairing, active, blocked, retired and transfer-related
+    device states.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Android guardian app -> LOUP backend -> provisioning/PBX services -> LOUP
+    device.
+  body: '01
+
+
+    Android guardian app -> LOUP backend -> provisioning/PBX services -> LOUP device.'
+- id: BLOCK23
+  label: Android guardian app -> LOUP backend -> provisioning/PBX services -> LOUP
+    device.
+  body: Android guardian app -> LOUP backend -> provisioning/PBX services -> LOUP
+    device.
+- id: BLOCK24
+  label: 02 CameraX + ML Kit handle QR capture; repository abstractions isolate UI
+    from future HTTPS API
+  body: '02
+
+
+    CameraX + ML Kit handle QR capture; repository abstractions isolate UI from future
+    HTTPS APIs.'
+- id: BLOCK25
+  label: CameraX + ML Kit handle QR capture; repository abstractions isolate UI from
+    future HTTPS APIs.
+  body: CameraX + ML Kit handle QR capture; repository abstractions isolate UI from
+    future HTTPS APIs.
+- id: BLOCK26
+  label: 03 Lifecycle states cover factory, pairing, active, blocked, retired and
+    transfer-related devic
+  body: '03
+
+
+    Lifecycle states cover factory, pairing, active, blocked, retired and transfer-related
+    device states.'
+- id: BLOCK27
+  label: Lifecycle states cover factory, pairing, active, blocked, retired and transfer-related
+    device s
+  body: Lifecycle states cover factory, pairing, active, blocked, retired and transfer-related
+    device states.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Compose screens exercised with fake repository state
+  body: Compose screens exercised with fake repository state
+- id: BLOCK31
+  label: Lifecycle-state parsing covered by unit test
+  body: Lifecycle-state parsing covered by unit test
+- id: BLOCK32
+  label: QR pairing tested with a bounded demo token
+  body: QR pairing tested with a bounded demo token
+- id: BLOCK33
+  label: CameraX + ML Kit scanner path implemented for real QR capture
+  body: CameraX + ML Kit scanner path implemented for real QR capture
+- id: BLOCK34
+  label: UI state checked across pairing, contacts and device status flows
+  body: UI state checked across pairing, contacts and device status flows
+- id: BLOCK35
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK36
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK37
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK38
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK39
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK40
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK41
+  label: — Current authentication is a development stub
+  body: —Current authentication is a development stub
+- id: BLOCK42
+  label: — Backend calls are not yet production-connected
+  body: —Backend calls are not yet production-connected
+- id: BLOCK43
+  label: — SIP credentials intentionally never live in the parent app
+  body: —SIP credentials intentionally never live in the parent app
+- id: BLOCK44
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK45
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK46
+  label: A runnable parent-control prototype with realistic device-management boundaries
+    and a clean pat
+  body: A runnable parent-control prototype with realistic device-management boundaries
+    and a clean path from fake repository data to production APIs.
+- id: BLOCK47
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK48
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK49
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK50
+  label: Kotlin
+  body: Kotlin
+- id: BLOCK51
+  label: Jetpack Compose
+  body: Jetpack Compose
+- id: BLOCK52
+  label: CameraX
+  body: CameraX
+- id: BLOCK53
+  label: ML Kit
+  body: ML Kit
+- id: BLOCK54
+  label: Android
+  body: Android
+- id: BLOCK55
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK56
+  label: STATUS
+  body: STATUS
+- id: BLOCK57
+  label: Runnable prototype
+  body: Runnable prototype
+- id: BLOCK58
+  label: AREA
+  body: AREA
+- id: BLOCK59
+  label: Apps & Control Planes
+  body: Apps & Control Planes
+- id: BLOCK60
+  label: STACK
+  body: STACK
+- id: BLOCK61
+  label: 5 documented technologies
+  body: 5 documented technologies
+- id: BLOCK62
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK63
+  label: 3 connected / bounded services
+  body: 3 connected / bounded services
+- id: BLOCK64
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK65
+  label: '01'
+  body: '01'
+- id: BLOCK66
+  label: '01'
+  body: '01'
+- id: BLOCK67
+  label: RTP Timestamps Are Not Wall Clocks
+  body: RTP Timestamps Are Not Wall Clocks
+- id: BLOCK68
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK69
+  label: WebRTC Connectivity Is Not “STUN or TURN” — It Is an ICE Candidate Selection
+    Problem
+  body: WebRTC Connectivity Is Not “STUN or TURN” — It Is an ICE Candidate Selection
+    Problem
+- id: BLOCK70
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK71
+  label: '02'
+  body: '02'
+- id: BLOCK72
+  label: '03'
+  body: '03'
+- id: BLOCK73
+  label: '02'
+  body: '02'
+- id: BLOCK74
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK75
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK76
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK77
+  label: '03'
+  body: '03'
+- id: BLOCK78
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK79
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK80
+  label: Parent
+  body: Parent
+- id: BLOCK81
+  label: →
+  body: →
+- id: BLOCK82
+  label: Android Compose UI
+  body: Android Compose UI
+- id: BLOCK83
+  label: →
+  body: →
+- id: BLOCK84
+  label: Repository/API boundary
+  body: Repository/API boundary
+- id: BLOCK85
+  label: →
+  body: →
+- id: BLOCK86
+  label: LOUP backend
+  body: LOUP backend
+- id: BLOCK87
+  label: →
+  body: →
+- id: BLOCK88
+  label: Provisioning / PBX
+  body: Provisioning / PBX
+- id: BLOCK89
+  label: →
+  body: →
+- id: BLOCK90
+  label: LOUP device
+  body: LOUP device
+- id: BLOCK91
+  label: '04'
+  body: '04'
+- id: BLOCK92
+  label: '01'
+  body: '01'
+- id: BLOCK93
+  label: Kotlin
+  body: Kotlin
+- id: BLOCK94
+  label: '02'
+  body: '02'
+- id: BLOCK95
+  label: Jetpack Compose
+  body: Jetpack Compose
+- id: BLOCK96
+  label: '03'
+  body: '03'
+- id: BLOCK97
+  label: CameraX
+  body: CameraX
+- id: BLOCK98
+  label: '04'
+  body: '04'
+- id: BLOCK99
+  label: ML Kit
+  body: ML Kit
+- id: BLOCK100
+  label: '05'
+  body: '05'
+- id: BLOCK101
+  label: Android
+  body: Android
+- id: BLOCK102
+  label: '05'
+  body: '05'
+- id: BLOCK103
+  label: '06'
+  body: '06'
+- id: BLOCK104
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK105
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK106
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK107
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK108
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK109
+  label: '07'
+  body: '07'
+- id: BLOCK110
+  label: LOUP Parent Android App
+  body: LOUP Parent Android App
+- id: BLOCK111
+  label: ↔
+  body: ↔
+- id: BLOCK112
+  label: CameraX
+  body: CameraX
+- id: BLOCK113
+  label: ↔
+  body: ↔
+- id: BLOCK114
+  label: ML Kit barcode scanning
+  body: ML Kit barcode scanning
+- id: BLOCK115
+  label: ↔
+  body: ↔
+- id: BLOCK116
+  label: Future LOUP HTTPS backend at repository boundary
+  body: Future LOUP HTTPS backend at repository boundary
+- id: BLOCK117
+  label: 08
+  body: 08
+- id: BLOCK118
+  label: '01'
+  body: '01'
+- id: BLOCK119
+  label: NOTE
+  body: NOTE
+- id: BLOCK120
+  label: Runnable Android project
+  body: Runnable Android project
+- id: BLOCK121
+  label: '02'
+  body: '02'
+- id: BLOCK122
+  label: NOTE
+  body: NOTE
+- id: BLOCK123
+  label: Demo pairing QR artifact
+  body: Demo pairing QR artifact
+- id: BLOCK124
+  label: '03'
+  body: '03'
+- id: BLOCK125
+  label: NOTE
+  body: NOTE
+- id: BLOCK126
+  label: Lifecycle model
+  body: Lifecycle model
+- id: BLOCK127
+  label: '04'
+  body: '04'
+- id: BLOCK128
+  label: NOTE
+  body: NOTE
+- id: BLOCK129
+  label: Repository interface
+  body: Repository interface
+- id: BLOCK130
+  label: '05'
+  body: '05'
+- id: BLOCK131
+  label: NOTE
+  body: NOTE
+- id: BLOCK132
+  label: Pairing/contact/device-status screens
+  body: Pairing/contact/device-status screens
+- id: BLOCK133
+  label: 09
+  body: 09
+- id: BLOCK134
+  label: '10'
+  body: '10'
+- id: BLOCK135
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK136
+  label: LOUP ESP32-S3 Connected Voice Device
+  body: LOUP ESP32-S3 Connected Voice Device
+- id: BLOCK137
+  label: Next project →
+  body: Next project →
+- id: BLOCK138
+  label: Pocket Dial
+  body: Pocket Dial
+lists: []
+template: cms/templates/pages/portfolio--projects--loup-parent-android-app.tpl
+source: cms/templates/pages/portfolio--projects--loup-parent-android-app.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK47}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio/projects/loup-parent-android-app.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/loup-parent-android-app.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/loup-parent-android-app.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/loup-parent-android-app.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/loup-parent-android-app.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/loup-parent-android-app.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/loup-parent-android-app.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/loup-parent-android-app.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/loup-parent-android-app.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/loup-parent-android-app.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/loup-parent-android-app.html#result
+- id: LINK16
+  label: '{{RR_BLOCK67}} {{RR_BLOCK68}}'
+  url: /posts/rtp-timestamps-are-not-wall-clocks.html
+- id: LINK17
+  label: '{{RR_BLOCK69}} {{RR_BLOCK70}}'
+  url: /posts/webrtc-ice-candidate-selection-not-stun-turn.html
+- id: LINK18
+  label: '{{RR_BLOCK135}} {{RR_BLOCK136}}'
+  url: /portfolio/projects/loup-esp32-s3-connected-voice-device.html
+- id: LINK19
+  label: '{{RR_BLOCK137}} {{RR_BLOCK138}}'
+  url: /portfolio/projects/pocket-dial.html

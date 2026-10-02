@@ -1,0 +1,24 @@
+title: Linux & Homelab
+browser_title: Linux & Homelab — Reaz Romen — Systems Engineering
+description: Systems engineering across embedded firmware, real-time communications,
+  Linux infrastructure, networking and observability.
+url: /topics/linux-homelab.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: TOPIC
+  body: TOPIC
+- id: BLOCK1
+  label: Linux & Homelab
+  body: Linux & Homelab
+- id: BLOCK2
+  label: Lessons, explainers, experiments, and implementation notes.
+  body: Lessons, explainers, experiments, and implementation notes.
+lists:
+- key: LIST0
+  filter:
+    topic: linux-homelab
+  style: cards
+template: cms/templates/pages/topics--linux-homelab.tpl
+source: cms/templates/pages/topics--linux-homelab.json
+links: []

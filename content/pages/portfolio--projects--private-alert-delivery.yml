@@ -1,0 +1,531 @@
+title: Private Alert Delivery
+browser_title: Private Alert Delivery — Reaz Romen Portfolio
+description: Self-hosted ntfy alert path from Alertmanager to a private Tailscale
+  HTTPS endpoint with isolated publisher/subscriber identities and no public push
+  dependency.
+url: /portfolio/projects/private-alert-delivery.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Infrastructure & Operations / Built / deployed
+  body: Infrastructure & Operations / Built / deployed
+- id: BLOCK1
+  label: Private Alert Delivery
+  body: Private Alert Delivery
+- id: BLOCK2
+  label: Self-hosted ntfy alert path from Alertmanager to a private Tailscale HTTPS
+    endpoint with isolat
+  body: Self-hosted ntfy alert path from Alertmanager to a private Tailscale HTTPS
+    endpoint with isolated publisher/subscriber identities and no public push dependency.
+- id: BLOCK3
+  label: Live system blueprint generated from the documented project topology.
+  body: Live system blueprint generated from the documented project topology.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: Self-hosted ntfy alert path from Alertmanager to a private Tailscale HTTPS
+    endpoint with isolat
+  body: Self-hosted ntfy alert path from Alertmanager to a private Tailscale HTTPS
+    endpoint with isolated publisher/subscriber identities and no public push dependency.
+- id: BLOCK7
+  label: Built a self-hosted ntfy notification path for infrastructure alerts.
+  body: Built a self-hosted ntfy notification path for infrastructure alerts.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Created separate write-only alert publisher and read-only client identities.
+  body: Created separate write-only alert publisher and read-only client identities.
+- id: BLOCK10
+  label: Kept delivery private over Tailscale HTTPS with no dependency on ntfy.sh,
+    public Funnel, Telegr
+  body: Kept delivery private over Tailscale HTTPS with no dependency on ntfy.sh,
+    public Funnel, Telegram or SMTP.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Prometheus -> Alertmanager -> private ntfy -> Tailscale Serve HTTPS -> phone/client.
+  body: Prometheus -> Alertmanager -> private ntfy -> Tailscale Serve HTTPS -> phone/client.
+- id: BLOCK14
+  label: Persistent auth/cache state remains local and is included only in encrypted
+    DR.
+  body: Persistent auth/cache state remains local and is included only in encrypted
+    DR.
+- id: BLOCK15
+  label: Alert severity maps to ntfy priority while firing/resolved states remain
+    visible.
+  body: Alert severity maps to ntfy priority while firing/resolved states remain visible.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Prometheus -> Alertmanager -> private ntfy -> Tailscale Serve HTTPS ->
+    phone/client.
+  body: '01
+
+
+    Prometheus -> Alertmanager -> private ntfy -> Tailscale Serve HTTPS -> phone/client.'
+- id: BLOCK23
+  label: Prometheus -> Alertmanager -> private ntfy -> Tailscale Serve HTTPS -> phone/client.
+  body: Prometheus -> Alertmanager -> private ntfy -> Tailscale Serve HTTPS -> phone/client.
+- id: BLOCK24
+  label: 02 Persistent auth/cache state remains local and is included only in encrypted
+    DR.
+  body: '02
+
+
+    Persistent auth/cache state remains local and is included only in encrypted DR.'
+- id: BLOCK25
+  label: Persistent auth/cache state remains local and is included only in encrypted
+    DR.
+  body: Persistent auth/cache state remains local and is included only in encrypted
+    DR.
+- id: BLOCK26
+  label: 03 Alert severity maps to ntfy priority while firing/resolved states remain
+    visible.
+  body: '03
+
+
+    Alert severity maps to ntfy priority while firing/resolved states remain visible.'
+- id: BLOCK27
+  label: Alert severity maps to ntfy priority while firing/resolved states remain
+    visible.
+  body: Alert severity maps to ntfy priority while firing/resolved states remain visible.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: ntfy health
+  body: ntfy health
+- id: BLOCK31
+  label: Publisher/subscriber ACL behavior
+  body: Publisher/subscriber ACL behavior
+- id: BLOCK32
+  label: Alertmanager delivery
+  body: Alertmanager delivery
+- id: BLOCK33
+  label: Firing/resolved formatting
+  body: Firing/resolved formatting
+- id: BLOCK34
+  label: Tailscale private HTTPS path
+  body: Tailscale private HTTPS path
+- id: BLOCK35
+  label: LAN fallback health
+  body: LAN fallback health
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — No anonymous access
+  body: —No anonymous access
+- id: BLOCK43
+  label: — No ntfy.sh/APNS upstream
+  body: —No ntfy.sh/APNS upstream
+- id: BLOCK44
+  label: — Funnel remains disabled
+  body: —Funnel remains disabled
+- id: BLOCK45
+  label: — Auth/cache database is treated as sensitive state
+  body: —Auth/cache database is treated as sensitive state
+- id: BLOCK46
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK47
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK48
+  label: A private mobile alert channel that remains under local operational control.
+  body: A private mobile alert channel that remains under local operational control.
+- id: BLOCK49
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK50
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK51
+  label: PRODUCT / SYSTEM VISUAL
+  body: PRODUCT / SYSTEM VISUAL
+- id: BLOCK52
+  label: ntfy
+  body: ntfy
+- id: BLOCK53
+  label: Alertmanager
+  body: Alertmanager
+- id: BLOCK54
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK55
+  label: TLS
+  body: TLS
+- id: BLOCK56
+  label: Docker
+  body: Docker
+- id: BLOCK57
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK58
+  label: STATUS
+  body: STATUS
+- id: BLOCK59
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK60
+  label: AREA
+  body: AREA
+- id: BLOCK61
+  label: Infrastructure & Operations
+  body: Infrastructure & Operations
+- id: BLOCK62
+  label: STACK
+  body: STACK
+- id: BLOCK63
+  label: 5 documented technologies
+  body: 5 documented technologies
+- id: BLOCK64
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK65
+  label: 3 connected / bounded services
+  body: 3 connected / bounded services
+- id: BLOCK66
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK67
+  label: '01'
+  body: '01'
+- id: BLOCK68
+  label: '01'
+  body: '01'
+- id: BLOCK69
+  label: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+  body: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+- id: BLOCK70
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK71
+  label: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+  body: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+- id: BLOCK72
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK73
+  label: Kubernetes Gateway API Is Not Just a New Ingress YAML
+  body: Kubernetes Gateway API Is Not Just a New Ingress YAML
+- id: BLOCK74
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK75
+  label: '02'
+  body: '02'
+- id: BLOCK76
+  label: '03'
+  body: '03'
+- id: BLOCK77
+  label: '02'
+  body: '02'
+- id: BLOCK78
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK79
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK80
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK81
+  label: '03'
+  body: '03'
+- id: BLOCK82
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK83
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK84
+  label: Prometheus
+  body: Prometheus
+- id: BLOCK85
+  label: →
+  body: →
+- id: BLOCK86
+  label: Alertmanager
+  body: Alertmanager
+- id: BLOCK87
+  label: →
+  body: →
+- id: BLOCK88
+  label: hserver ntfy
+  body: hserver ntfy
+- id: BLOCK89
+  label: →
+  body: →
+- id: BLOCK90
+  label: Loopback origin
+  body: Loopback origin
+- id: BLOCK91
+  label: →
+  body: →
+- id: BLOCK92
+  label: Tailscale Serve HTTPS
+  body: Tailscale Serve HTTPS
+- id: BLOCK93
+  label: →
+  body: →
+- id: BLOCK94
+  label: Phone / client
+  body: Phone / client
+- id: BLOCK95
+  label: '04'
+  body: '04'
+- id: BLOCK96
+  label: '01'
+  body: '01'
+- id: BLOCK97
+  label: ntfy
+  body: ntfy
+- id: BLOCK98
+  label: '02'
+  body: '02'
+- id: BLOCK99
+  label: Alertmanager
+  body: Alertmanager
+- id: BLOCK100
+  label: '03'
+  body: '03'
+- id: BLOCK101
+  label: Tailscale
+  body: Tailscale
+- id: BLOCK102
+  label: '04'
+  body: '04'
+- id: BLOCK103
+  label: TLS
+  body: TLS
+- id: BLOCK104
+  label: '05'
+  body: '05'
+- id: BLOCK105
+  label: Docker
+  body: Docker
+- id: BLOCK106
+  label: '05'
+  body: '05'
+- id: BLOCK107
+  label: '06'
+  body: '06'
+- id: BLOCK108
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK109
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK110
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK111
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK112
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK113
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK114
+  label: '07'
+  body: '07'
+- id: BLOCK115
+  label: Private Alert Delivery
+  body: Private Alert Delivery
+- id: BLOCK116
+  label: ↔
+  body: ↔
+- id: BLOCK117
+  label: Alertmanager
+  body: Alertmanager
+- id: BLOCK118
+  label: ↔
+  body: ↔
+- id: BLOCK119
+  label: Tailscale Serve
+  body: Tailscale Serve
+- id: BLOCK120
+  label: ↔
+  body: ↔
+- id: BLOCK121
+  label: Phone/client ntfy app
+  body: Phone/client ntfy app
+- id: BLOCK122
+  label: 08
+  body: 08
+- id: BLOCK123
+  label: '01'
+  body: '01'
+- id: BLOCK124
+  label: NOTE
+  body: NOTE
+- id: BLOCK125
+  label: ntfy compose/config
+  body: ntfy compose/config
+- id: BLOCK126
+  label: '02'
+  body: '02'
+- id: BLOCK127
+  label: NOTE
+  body: NOTE
+- id: BLOCK128
+  label: Alert formatting template
+  body: Alert formatting template
+- id: BLOCK129
+  label: '03'
+  body: '03'
+- id: BLOCK130
+  label: NOTE
+  body: NOTE
+- id: BLOCK131
+  label: Publisher identity
+  body: Publisher identity
+- id: BLOCK132
+  label: '04'
+  body: '04'
+- id: BLOCK133
+  label: NOTE
+  body: NOTE
+- id: BLOCK134
+  label: Read-only client identity
+  body: Read-only client identity
+- id: BLOCK135
+  label: '05'
+  body: '05'
+- id: BLOCK136
+  label: NOTE
+  body: NOTE
+- id: BLOCK137
+  label: Persistent auth/cache state
+  body: Persistent auth/cache state
+- id: BLOCK138
+  label: 09
+  body: 09
+- id: BLOCK139
+  label: '10'
+  body: '10'
+- id: BLOCK140
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK141
+  label: Disaster Recovery & Restore Verification
+  body: Disaster Recovery & Restore Verification
+- id: BLOCK142
+  label: Next project →
+  body: Next project →
+- id: BLOCK143
+  label: Network Payload Capture Pipeline
+  body: Network Payload Capture Pipeline
+lists: []
+template: cms/templates/pages/portfolio--projects--private-alert-delivery.tpl
+source: cms/templates/pages/portfolio--projects--private-alert-delivery.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK50}}'
+  url: /portfolio/projects/private-alert-delivery.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/private-alert-delivery.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/private-alert-delivery.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/private-alert-delivery.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/private-alert-delivery.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/private-alert-delivery.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/private-alert-delivery.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/private-alert-delivery.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/private-alert-delivery.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/private-alert-delivery.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/private-alert-delivery.html#result
+- id: LINK16
+  label: '{{RR_BLOCK69}} {{RR_BLOCK70}}'
+  url: /posts/ebpf-xdp-verifier-operational-safety.html
+- id: LINK17
+  label: '{{RR_BLOCK71}} {{RR_BLOCK72}}'
+  url: /posts/http3-quic-enterprise-inspection-assumptions.html
+- id: LINK18
+  label: '{{RR_BLOCK73}} {{RR_BLOCK74}}'
+  url: /posts/kubernetes-gateway-api-not-new-ingress-yaml.html
+- id: LINK19
+  label: '{{RR_BLOCK140}} {{RR_BLOCK141}}'
+  url: /portfolio/projects/disaster-recovery-restore-verification.html
+- id: LINK20
+  label: '{{RR_BLOCK142}} {{RR_BLOCK143}}'
+  url: /portfolio/projects/network-payload-capture-pipeline.html

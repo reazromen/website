@@ -1,0 +1,28 @@
+---
+title: cAdvisor Used 428 MiB Until We Asked What We Actually Needed
+url: /posts/cadvisor-used-428-mib-until-we-asked-what-we-needed.html
+date: '2026-09-14'
+read_time: 2
+excerpt: Observability can become the workload if collection is broader than the questions
+  operators actually need to answer.
+topic: observability
+tags:
+- cadvisor
+- prometheus
+- memory
+- docker
+draft: false
+featured: false
+language: en
+eyebrow: 'Hserver Failure Notes: Observability · advanced'
+outputs:
+- url: /posts/cadvisor-used-428-mib-until-we-asked-what-we-needed.html
+  template: cms/templates/posts/posts--cadvisor-used-428-mib-until-we-asked-what-we-needed.tpl
+  source: cms/templates/posts/posts--cadvisor-used-428-mib-until-we-asked-what-we-needed.json
+---
+
+The observability stack was functional but cAdvisor alone was consuming roughly 428 MiB on a small production host. That was a large tax for a monitoring component whose job was supposed to help preserve the host, not become one of its largest consumers.
+
+The expensive filesystem `disk` scanner was collecting container storage information at a cost disproportionate to its value on this machine. The problem was not Prometheus in general; it was an overly broad collection profile for a constrained server. We disabled the expensive disk filesystem scan while preserving CPU, memory, network, OOM, pressure and block-I/O metrics. Container storage size moved to a lower-frequency inventory cache, and cAdvisor settled around 20–28 MiB.
+
+Prometheus guidance says to instrument what matters while being conscious of cost and cardinality. Capacity-sensitive observability is an engineering tradeoff: retain signals that drive decisions and move expensive inventory work to a slower path. Resource budgets should exist for monitoring components just like application services. After every telemetry expansion, measure collector memory, scrape duration and series growth before declaring the change production-safe. The concrete hserver evidence is commit 218300b, so this note is tied to an actual production change rather than a hypothetical failure.

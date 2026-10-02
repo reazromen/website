@@ -1,0 +1,112 @@
+title: Engineering archive
+browser_title: Archive — Reaz Romen — Systems Engineering
+description: Systems engineering across embedded firmware, real-time communications,
+  Linux infrastructure, networking and observability.
+url: /archive.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: ARCHIVE
+  body: ARCHIVE
+- id: BLOCK1
+  label: Engineering archive
+  body: Engineering archive
+- id: BLOCK2
+  label: Current articles and reconstructed lab notes, organized by the period they
+    cover. Historical ar
+  body: Current articles and reconstructed lab notes, organized by the period they
+    cover. Historical archive dates do not imply original publication dates.
+- id: BLOCK3
+  label: '2026'
+  body: '2026'
+- id: BLOCK4
+  label: '2025'
+  body: '2025'
+- id: BLOCK5
+  label: '2024'
+  body: '2024'
+- id: BLOCK6
+  label: '2023'
+  body: '2023'
+- id: BLOCK7
+  label: '2022'
+  body: '2022'
+- id: BLOCK8
+  label: '2021'
+  body: '2021'
+- id: BLOCK9
+  label: '2020'
+  body: '2020'
+- id: BLOCK10
+  label: '2019'
+  body: '2019'
+- id: BLOCK11
+  label: '2018'
+  body: '2018'
+- id: BLOCK12
+  label: engineering notes
+  body: engineering notes
+- id: BLOCK13
+  label: engineering notes
+  body: engineering notes
+- id: BLOCK14
+  label: engineering notes
+  body: engineering notes
+- id: BLOCK15
+  label: engineering notes
+  body: engineering notes
+- id: BLOCK16
+  label: engineering notes
+  body: engineering notes
+- id: BLOCK17
+  label: engineering notes
+  body: engineering notes
+- id: BLOCK18
+  label: engineering notes
+  body: engineering notes
+- id: BLOCK19
+  label: engineering notes
+  body: engineering notes
+- id: BLOCK20
+  label: engineering notes
+  body: engineering notes
+lists:
+- key: LIST0
+  filter:
+    all: true
+  style: cards
+- key: LIST1
+  filter:
+    all: true
+  style: cards
+- key: LIST2
+  filter:
+    all: true
+  style: cards
+- key: LIST3
+  filter:
+    all: true
+  style: cards
+- key: LIST4
+  filter:
+    all: true
+  style: cards
+- key: LIST5
+  filter:
+    all: true
+  style: cards
+- key: LIST6
+  filter:
+    all: true
+  style: cards
+- key: LIST7
+  filter:
+    all: true
+  style: cards
+- key: LIST8
+  filter:
+    all: true
+  style: cards
+template: cms/templates/pages/archive.tpl
+source: cms/templates/pages/archive.json
+links: []

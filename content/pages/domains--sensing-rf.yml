@@ -1,0 +1,97 @@
+title: Sensing & RF
+browser_title: Sensing & RF — Reaz Romen
+description: Wi-Fi CSI, radio systems, GNSS and signal-derived sensing.
+url: /domains/sensing-rf.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: ENGINEERING DOMAIN
+  body: ENGINEERING DOMAIN
+- id: BLOCK1
+  label: Sensing & RF
+  body: Sensing & RF
+- id: BLOCK2
+  label: Wi-Fi CSI, radio systems, GNSS and signal-derived sensing.
+  body: Wi-Fi CSI, radio systems, GNSS and signal-derived sensing.
+- id: BLOCK3
+  label: Wi-Fi CSI, radio systems, GNSS and signal-derived sensing.
+  body: Wi-Fi CSI, radio systems, GNSS and signal-derived sensing.
+- id: BLOCK4
+  label: 4 projects · 1 pieces of writing
+  body: 4 projects · 1 pieces of writing
+- id: BLOCK5
+  label: Ambient Signal Observatory
+  body: Ambient Signal Observatory
+- id: BLOCK6
+  label: 'Public RF and satellite observatory using SatNOGS, CelesTrak and NOAA data,
+    with cache/failure '
+  body: Public RF and satellite observatory using SatNOGS, CelesTrak and NOAA data,
+    with cache/failure isolation and bounded satellite decode tooling.
+- id: BLOCK7
+  label: WORK
+  body: WORK
+- id: BLOCK8
+  label: E22 / EWM Wireless Configuration Test Harness
+  body: E22 / EWM Wireless Configuration Test Harness
+- id: BLOCK9
+  label: Repeatable serial/radio test workflow for E22 and EWM modules covering local
+    configuration read
+  body: Repeatable serial/radio test workflow for E22 and EWM modules covering local
+    configuration reads, temperature profiles, OTA initiator behavior and wired recovery
+    tests.
+- id: BLOCK10
+  label: WORK
+  body: WORK
+- id: BLOCK11
+  label: Reticulum / RNode Mesh Prototype
+  body: Reticulum / RNode Mesh Prototype
+- id: BLOCK12
+  label: Multi-node Reticulum setup with RNode radio interfaces, LAN TCP transport
+    and ESP32/LR1121 expe
+  body: Multi-node Reticulum setup with RNode radio interfaces, LAN TCP transport
+    and ESP32/LR1121 experiments for resilient local messaging.
+- id: BLOCK13
+  label: WORK
+  body: WORK
+- id: BLOCK14
+  label: Wi-Fi CSI Presence Sensing System
+  body: Wi-Fi CSI Presence Sensing System
+- id: BLOCK15
+  label: ESP32 CSI collector, server-side signal processing and live dashboard for
+    room calibration, mot
+  body: ESP32 CSI collector, server-side signal processing and live dashboard for
+    room calibration, motion and presence experiments using Wi-Fi channel-state changes.
+- id: BLOCK16
+  label: WORK
+  body: WORK
+- id: BLOCK17
+  label: Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization
+  body: Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization
+- id: BLOCK18
+  label: CSI is extremely sensitive to the radio channel—which is why it can sense
+    motion and why uncont
+  body: CSI is extremely sensitive to the radio channel—which is why it can sense
+    motion and why uncontrolled rooms, clocks, channels, furniture, fans, and hardware
+    differences can swamp a naive detector.
+- id: BLOCK19
+  label: '2026-09-26'
+  body: '2026-09-26'
+lists: []
+template: cms/templates/pages/domains--sensing-rf.tpl
+source: cms/templates/pages/domains--sensing-rf.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK5}} {{RR_BLOCK6}} {{RR_BLOCK7}}'
+  url: /portfolio/projects/ambient-signal-observatory.html
+- id: LINK1
+  label: '{{RR_BLOCK8}} {{RR_BLOCK9}} {{RR_BLOCK10}}'
+  url: /portfolio/projects/e22-ewm-wireless-configuration-test-harness.html
+- id: LINK2
+  label: '{{RR_BLOCK11}} {{RR_BLOCK12}} {{RR_BLOCK13}}'
+  url: /portfolio/projects/reticulum-rnode-mesh-prototype.html
+- id: LINK3
+  label: '{{RR_BLOCK14}} {{RR_BLOCK15}} {{RR_BLOCK16}}'
+  url: /portfolio/projects/wi-fi-csi-presence-sensing-system.html
+- id: LINK4
+  label: '{{RR_BLOCK17}} {{RR_BLOCK18}} {{RR_BLOCK19}}'
+  url: /posts/wifi-csi-presence-calibration-drift-synchronization.html

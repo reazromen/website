@@ -1,0 +1,524 @@
+title: Pocket Dial
+browser_title: Pocket Dial — Reaz Romen Portfolio
+description: A SIP registrar and PBX that runs on an ESP32-S3, with extension calling,
+  peer-to-peer RTP, call features, web administration, optional LVGL UI and dual-OTA.
+url: /portfolio/projects/pocket-dial.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Embedded & Devices / Built
+  body: Embedded & Devices / Built
+- id: BLOCK1
+  label: Pocket Dial
+  body: Pocket Dial
+- id: BLOCK2
+  label: A SIP registrar and PBX that runs on an ESP32-S3, with extension calling,
+    peer-to-peer RTP, cal
+  body: A SIP registrar and PBX that runs on an ESP32-S3, with extension calling,
+    peer-to-peer RTP, call features, web administration, optional LVGL UI and dual-OTA.
+- id: BLOCK3
+  label: Pocket Dial — actual project dashboard / product surface.
+  body: Pocket Dial — actual project dashboard / product surface.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: A SIP registrar and PBX that runs on an ESP32-S3, with extension calling,
+    peer-to-peer RTP, cal
+  body: A SIP registrar and PBX that runs on an ESP32-S3, with extension calling,
+    peer-to-peer RTP, call features, web administration, optional LVGL UI and dual-OTA.
+- id: BLOCK7
+  label: Built a SIP registrar and PBX engine that runs directly on an ESP32-S3-class
+    device.
+  body: Built a SIP registrar and PBX engine that runs directly on an ESP32-S3-class
+    device.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Implemented extension registration/calling plus call features including transfer,
+    hold, parking
+  body: Implemented extension registration/calling plus call features including transfer,
+    hold, parking, ring groups, paging, forwarding and DND.
+- id: BLOCK10
+  label: Added web administration, optional LVGL display support, provisioning and
+    dual-slot OTA.
+  body: Added web administration, optional LVGL display support, provisioning and
+    dual-slot OTA.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: Desk phones/softphones -> SIP signaling -> Pocket Dial registrar/PBX on ESP32.
+  body: Desk phones/softphones -> SIP signaling -> Pocket Dial registrar/PBX on ESP32.
+- id: BLOCK14
+  label: RTP media remains peer-to-peer between endpoints so the MCU controls signaling
+    without carrying
+  body: RTP media remains peer-to-peer between endpoints so the MCU controls signaling
+    without carrying the audio stream.
+- id: BLOCK15
+  label: The same C++17 core also builds on desktop for faster testing and CI.
+  body: The same C++17 core also builds on desktop for faster testing and CI.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 Desk phones/softphones -> SIP signaling -> Pocket Dial registrar/PBX on
+    ESP32.
+  body: '01
+
+
+    Desk phones/softphones -> SIP signaling -> Pocket Dial registrar/PBX on ESP32.'
+- id: BLOCK23
+  label: Desk phones/softphones -> SIP signaling -> Pocket Dial registrar/PBX on ESP32.
+  body: Desk phones/softphones -> SIP signaling -> Pocket Dial registrar/PBX on ESP32.
+- id: BLOCK24
+  label: 02 RTP media remains peer-to-peer between endpoints so the MCU controls signaling
+    without carry
+  body: '02
+
+
+    RTP media remains peer-to-peer between endpoints so the MCU controls signaling
+    without carrying the audio stream.'
+- id: BLOCK25
+  label: RTP media remains peer-to-peer between endpoints so the MCU controls signaling
+    without carrying
+  body: RTP media remains peer-to-peer between endpoints so the MCU controls signaling
+    without carrying the audio stream.
+- id: BLOCK26
+  label: 03 The same C++17 core also builds on desktop for faster testing and CI.
+  body: '03
+
+
+    The same C++17 core also builds on desktop for faster testing and CI.'
+- id: BLOCK27
+  label: The same C++17 core also builds on desktop for faster testing and CI.
+  body: The same C++17 core also builds on desktop for faster testing and CI.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Desktop build of the same C++17 core
+  body: Desktop build of the same C++17 core
+- id: BLOCK31
+  label: GoogleTest-covered behavior
+  body: GoogleTest-covered behavior
+- id: BLOCK32
+  label: CI-gated builds
+  body: CI-gated builds
+- id: BLOCK33
+  label: Field-deployable ESP32 firmware path
+  body: Field-deployable ESP32 firmware path
+- id: BLOCK34
+  label: Call-feature verification for registration, calls, transfer, hold and related
+    state
+  body: Call-feature verification for registration, calls, transfer, hold and related
+    state
+- id: BLOCK35
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK36
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK37
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK38
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK39
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK40
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK41
+  label: — Designed as a local-link appliance
+  body: —Designed as a local-link appliance
+- id: BLOCK42
+  label: — Registrar defaults must be explicitly hardened for secure deployments
+  body: —Registrar defaults must be explicitly hardened for secure deployments
+- id: BLOCK43
+  label: — RTP is intentionally endpoint-to-endpoint rather than MCU-relayed
+  body: —RTP is intentionally endpoint-to-endpoint rather than MCU-relayed
+- id: BLOCK44
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK45
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK46
+  label: A self-contained microcontroller phone exchange that can operate without
+    a cloud PBX or convent
+  body: A self-contained microcontroller phone exchange that can operate without a
+    cloud PBX or conventional server.
+- id: BLOCK47
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK48
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK49
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK50
+  label: STATUS
+  body: STATUS
+- id: BLOCK51
+  label: Built
+  body: Built
+- id: BLOCK52
+  label: AREA
+  body: AREA
+- id: BLOCK53
+  label: Embedded & Devices
+  body: Embedded & Devices
+- id: BLOCK54
+  label: STACK
+  body: STACK
+- id: BLOCK55
+  label: 6 documented technologies
+  body: 6 documented technologies
+- id: BLOCK56
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK57
+  label: 4 connected / bounded services
+  body: 4 connected / bounded services
+- id: BLOCK58
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK59
+  label: '01'
+  body: '01'
+- id: BLOCK60
+  label: '01'
+  body: '01'
+- id: BLOCK61
+  label: A Kubernetes Service Can Be Healthy While the App Is Broken
+  body: A Kubernetes Service Can Be Healthy While the App Is Broken
+- id: BLOCK62
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK63
+  label: Chart.yaml Is Small, but It Gives a Service an Identity
+  body: Chart.yaml Is Small, but It Gives a Service an Identity
+- id: BLOCK64
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK65
+  label: Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+  body: Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
+- id: BLOCK66
+  label: '2026-09-18'
+  body: '2026-09-18'
+- id: BLOCK67
+  label: '02'
+  body: '02'
+- id: BLOCK68
+  label: '03'
+  body: '03'
+- id: BLOCK69
+  label: '02'
+  body: '02'
+- id: BLOCK70
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK71
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK72
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK73
+  label: '03'
+  body: '03'
+- id: BLOCK74
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK75
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK76
+  label: SIP phone / ATA
+  body: SIP phone / ATA
+- id: BLOCK77
+  label: →
+  body: →
+- id: BLOCK78
+  label: ESP32-S3 registrar + PBX
+  body: ESP32-S3 registrar + PBX
+- id: BLOCK79
+  label: →
+  body: →
+- id: BLOCK80
+  label: Peer selection / call state
+  body: Peer selection / call state
+- id: BLOCK81
+  label: →
+  body: →
+- id: BLOCK82
+  label: SIP phone / softphone
+  body: SIP phone / softphone
+- id: BLOCK83
+  label: →
+  body: →
+- id: BLOCK84
+  label: Direct peer-to-peer RTP
+  body: Direct peer-to-peer RTP
+- id: BLOCK85
+  label: '04'
+  body: '04'
+- id: BLOCK86
+  label: '01'
+  body: '01'
+- id: BLOCK87
+  label: ESP32-S3
+  body: ESP32-S3
+- id: BLOCK88
+  label: '02'
+  body: '02'
+- id: BLOCK89
+  label: C++17
+  body: C++17
+- id: BLOCK90
+  label: '03'
+  body: '03'
+- id: BLOCK91
+  label: SIP
+  body: SIP
+- id: BLOCK92
+  label: '04'
+  body: '04'
+- id: BLOCK93
+  label: RTP
+  body: RTP
+- id: BLOCK94
+  label: '05'
+  body: '05'
+- id: BLOCK95
+  label: LVGL
+  body: LVGL
+- id: BLOCK96
+  label: '06'
+  body: '06'
+- id: BLOCK97
+  label: OTA
+  body: OTA
+- id: BLOCK98
+  label: '05'
+  body: '05'
+- id: BLOCK99
+  label: '06'
+  body: '06'
+- id: BLOCK100
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK101
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK102
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK103
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK104
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK105
+  label: '07'
+  body: '07'
+- id: BLOCK106
+  label: Pocket Dial
+  body: Pocket Dial
+- id: BLOCK107
+  label: ↔
+  body: ↔
+- id: BLOCK108
+  label: SIP phones
+  body: SIP phones
+- id: BLOCK109
+  label: ↔
+  body: ↔
+- id: BLOCK110
+  label: ATAs
+  body: ATAs
+- id: BLOCK111
+  label: ↔
+  body: ↔
+- id: BLOCK112
+  label: Softphones
+  body: Softphones
+- id: BLOCK113
+  label: ↔
+  body: ↔
+- id: BLOCK114
+  label: Optional browser admin client
+  body: Optional browser admin client
+- id: BLOCK115
+  label: 08
+  body: 08
+- id: BLOCK116
+  label: '01'
+  body: '01'
+- id: BLOCK117
+  label: NOTE
+  body: NOTE
+- id: BLOCK118
+  label: Actual web-dashboard screenshot
+  body: Actual web-dashboard screenshot
+- id: BLOCK119
+  label: '02'
+  body: '02'
+- id: BLOCK120
+  label: NOTE
+  body: NOTE
+- id: BLOCK121
+  label: Threat model
+  body: Threat model
+- id: BLOCK122
+  label: '03'
+  body: '03'
+- id: BLOCK123
+  label: NOTE
+  body: NOTE
+- id: BLOCK124
+  label: Desktop build path
+  body: Desktop build path
+- id: BLOCK125
+  label: '04'
+  body: '04'
+- id: BLOCK126
+  label: TEST
+  body: TEST
+- id: BLOCK127
+  label: Test suite
+  body: Test suite
+- id: BLOCK128
+  label: '05'
+  body: '05'
+- id: BLOCK129
+  label: NOTE
+  body: NOTE
+- id: BLOCK130
+  label: Dual-OTA implementation
+  body: Dual-OTA implementation
+- id: BLOCK131
+  label: '06'
+  body: '06'
+- id: BLOCK132
+  label: NOTE
+  body: NOTE
+- id: BLOCK133
+  label: Provisioning documentation
+  body: Provisioning documentation
+- id: BLOCK134
+  label: 09
+  body: 09
+- id: BLOCK135
+  label: '10'
+  body: '10'
+- id: BLOCK136
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK137
+  label: LOUP Parent Android App
+  body: LOUP Parent Android App
+- id: BLOCK138
+  label: Next project →
+  body: Next project →
+- id: BLOCK139
+  label: ESP32 Command LLM
+  body: ESP32 Command LLM
+lists: []
+template: cms/templates/pages/portfolio--projects--pocket-dial.tpl
+source: cms/templates/pages/portfolio--projects--pocket-dial.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK47}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio/projects/pocket-dial.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/pocket-dial.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/pocket-dial.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/pocket-dial.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/pocket-dial.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/pocket-dial.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/pocket-dial.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/pocket-dial.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/pocket-dial.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/pocket-dial.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/pocket-dial.html#result
+- id: LINK16
+  label: '{{RR_BLOCK61}} {{RR_BLOCK62}}'
+  url: /posts/a-kubernetes-service-can-be-healthy-while-the-app-is-broken.html
+- id: LINK17
+  label: '{{RR_BLOCK63}} {{RR_BLOCK64}}'
+  url: /posts/chart-yaml-is-small-but-it-gives-a-service-an-identity.html
+- id: LINK18
+  label: '{{RR_BLOCK65}} {{RR_BLOCK66}}'
+  url: /posts/conditional-helm-templates-are-powerful-and-easy-to-overcomplicate.html
+- id: LINK19
+  label: '{{RR_BLOCK136}} {{RR_BLOCK137}}'
+  url: /portfolio/projects/loup-parent-android-app.html
+- id: LINK20
+  label: '{{RR_BLOCK138}} {{RR_BLOCK139}}'
+  url: /portfolio/projects/esp32-command-llm.html

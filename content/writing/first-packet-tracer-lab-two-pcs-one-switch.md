@@ -1,0 +1,38 @@
+---
+title: 'My First Packet Tracer Lab: Two PCs, One Switch, No Magic'
+url: /posts/first-packet-tracer-lab-two-pcs-one-switch.html
+date: '2026-09-14'
+read_time: 3
+excerpt: 'A two-PC switch lab is simple enough to expose the actual sequence behind
+  a successful ping: addressing, ARP, MAC learning and frame forwarding.'
+topic: networking
+tags:
+- ccna
+- packet-tracer
+- ethernet
+- arp
+draft: false
+featured: false
+language: en
+eyebrow: 2018 Network Foundations · beginner
+outputs:
+- url: /posts/first-packet-tracer-lab-two-pcs-one-switch.html
+  template: cms/templates/posts/posts--first-packet-tracer-lab-two-pcs-one-switch.tpl
+  source: cms/templates/posts/posts--first-packet-tracer-lab-two-pcs-one-switch.json
+---
+
+A two-PC Packet Tracer lab looks almost too simple to be useful. Put two PCs on a switch, assign addresses in the same subnet, connect the cables, and ping. The important part is not that the ping succeeds. The useful part is understanding what has to happen before the first ICMP echo request can cross the switch.
+
+I used a basic layout: PC1 connected to one access port, PC2 connected to another, with both hosts in 192.168.10.0/24. PC1 had 192.168.10.10 and PC2 had 192.168.10.20. No default gateway was required for traffic between those two hosts because the destination was local to the subnet. That was a useful early distinction. A gateway is needed when the destination is outside the local IP network; it is not a mandatory field that somehow makes Ethernet work.
+
+When PC1 tries to ping 192.168.10.20, it first checks whether the destination is local according to its own address and mask. It is local, but PC1 still cannot build an Ethernet frame because it does not yet know PC2's MAC address. It sends an ARP request as an Ethernet broadcast. The switch receives that frame, learns PC1's source MAC address on the incoming port, and floods the broadcast out the other relevant access ports.
+
+PC2 sees the ARP request, recognizes its own IPv4 address, and sends an ARP reply back to PC1. That reply is normally unicast. The switch learns PC2's source MAC address when the reply arrives, so at that point its MAC address table has useful entries for both hosts. PC1 can now place the ICMP packet inside an Ethernet frame addressed to PC2's MAC address.
+
+The first ping can therefore behave differently from the following pings. Some tools show the first echo taking longer or even timing out while ARP resolution completes. That does not necessarily mean ICMP is broken. Looking at simulation mode makes the sequence visible: ARP first, then ICMP. It is a small example of why packet-level troubleshooting is better than treating ping as a binary test.
+
+The switch is also less mysterious when viewed this way. It is not reading the IPv4 destination and deciding where the packet belongs. In this simple Layer 2 forwarding path, the switch learns source MAC addresses and forwards based on destination MAC addresses. If the destination MAC is unknown, it floods within the VLAN. If it has a matching table entry, it forwards only toward the learned port.
+
+I repeated the lab after deleting or changing addresses, disconnecting a cable, and putting one PC in a different subnet. Each failure produces a different symptom. A disconnected link prevents Layer 2 connectivity. A wrong subnet mask changes the host's decision about whether the destination is local. A wrong IP can make ARP target the wrong address. There is more diagnostic value in deliberately breaking this tiny lab than in building a ten-router topology and only checking whether everything turns green.
+
+That became a pattern for later labs: keep the topology small enough that I can account for every packet, then add complexity only after the basic forwarding path is clear.

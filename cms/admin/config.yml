@@ -1,0 +1,447 @@
+backend:
+  name: proxy
+  proxy_url: https://studio.reazromen.com/admin/api/v1
+  branch: main
+site_url: https://reazromen.com
+display_url: https://reazromen.com
+media_folder: static/uploads
+public_folder: /static/uploads
+publish_mode: simple
+collections:
+- name: writing
+  label: Writing · Engineering archive
+  folder: content/writing
+  create: true
+  delete: true
+  extension: md
+  format: frontmatter
+  slug: '{{slug}}'
+  summary: '{{title}}'
+  sortable_fields:
+  - title
+  - date
+  view_filters:
+  - label: Drafts
+    field: draft
+    pattern: true
+  - label: Published
+    field: draft
+    pattern: false
+  fields:
+  - &id001
+    name: draft
+    label: Draft
+    widget: boolean
+    default: true
+    required: false
+    hint: A draft is saved in Git but excluded from the public site. Turn this off
+      to publish.
+  - &id002
+    name: title
+    label: Title
+    widget: string
+  - &id003
+    name: url
+    label: Url
+    widget: string
+    required: false
+    hint: Existing public URL. Keep it unchanged to preserve links. New posts can
+      leave this empty.
+  - &id004
+    name: date
+    label: Date
+    widget: datetime
+    required: false
+    date_format: YYYY-MM-DD
+    time_format: false
+    format: YYYY-MM-DD
+  - &id005
+    name: read_time
+    label: Read Time
+    widget: number
+    value_type: int
+    min: 1
+    default: 6
+  - &id006
+    name: excerpt
+    label: Excerpt
+    widget: text
+    required: false
+  - &id007
+    name: topic
+    label: Topic
+    widget: relation
+    collection: topics
+    search_fields:
+    - title
+    value_field: '{{slug}}'
+    display_fields:
+    - title
+    multiple: false
+    required: false
+  - &id008
+    name: tags
+    label: Tags
+    widget: relation
+    collection: tags
+    search_fields:
+    - title
+    value_field: '{{slug}}'
+    display_fields:
+    - title
+    multiple: true
+    required: false
+  - &id009
+    name: featured
+    label: Featured
+    widget: boolean
+    default: false
+    required: false
+  - &id010
+    name: language
+    label: Language
+    widget: select
+    options:
+    - en
+    - bn
+    default: en
+  - &id011
+    name: eyebrow
+    label: Eyebrow
+    widget: string
+    required: false
+  - &id012
+    name: cover_image
+    label: Cover Image
+    widget: image
+    required: false
+  - &id013
+    name: cover_alt
+    label: Cover Alt
+    widget: string
+    required: false
+  - &id014
+    name: outputs
+    label: Outputs
+    widget: hidden
+    required: false
+  - &id015
+    name: body
+    label: Body
+    widget: markdown
+- name: perspectives
+  label: Perspectives
+  folder: content/perspectives
+  create: true
+  delete: true
+  extension: md
+  format: frontmatter
+  slug: '{{slug}}'
+  summary: '{{title}}'
+  sortable_fields:
+  - title
+  - date
+  view_filters:
+  - label: Drafts
+    field: draft
+    pattern: true
+  - label: Published
+    field: draft
+    pattern: false
+  fields:
+  - *id001
+  - *id002
+  - *id003
+  - *id004
+  - *id005
+  - *id006
+  - *id007
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id012
+  - *id013
+  - *id014
+  - *id015
+- name: music
+  label: Music
+  folder: content/music
+  create: true
+  delete: true
+  extension: md
+  format: frontmatter
+  slug: '{{slug}}'
+  summary: '{{title}}'
+  sortable_fields:
+  - title
+  - date
+  view_filters:
+  - label: Drafts
+    field: draft
+    pattern: true
+  - label: Published
+    field: draft
+    pattern: false
+  fields:
+  - *id001
+  - *id002
+  - *id003
+  - *id004
+  - *id005
+  - *id006
+  - *id007
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id012
+  - *id013
+  - *id014
+  - name: artist
+    label: Artist
+    widget: string
+    required: false
+  - name: album
+    label: Album
+    widget: string
+    required: false
+  - name: year
+    label: Year
+    widget: string
+    required: false
+  - name: kind
+    label: Kind
+    widget: select
+    options:
+    - label: Personal song note
+      value: song
+    - label: Album note
+      value: album
+    - label: Performance note
+      value: performance
+    - label: Research listening note
+      value: research
+    default: song
+  - *id015
+- name: bangla
+  label: বাংলা
+  folder: content/bangla
+  create: true
+  delete: true
+  extension: md
+  format: frontmatter
+  slug: '{{slug}}'
+  summary: '{{title}}'
+  sortable_fields:
+  - title
+  - date
+  view_filters:
+  - label: Drafts
+    field: draft
+    pattern: true
+  - label: Published
+    field: draft
+    pattern: false
+  fields:
+  - *id001
+  - *id002
+  - *id003
+  - *id004
+  - *id005
+  - *id006
+  - *id007
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id012
+  - *id013
+  - *id014
+  - *id015
+- name: topics
+  label: Topics
+  folder: content/topics
+  create: true
+  delete: true
+  extension: md
+  format: frontmatter
+  identifier_field: title
+  slug: '{{slug}}'
+  fields:
+  - name: title
+    label: Title
+    widget: string
+  - name: id
+    label: Id
+    widget: hidden
+    required: false
+  - name: description
+    label: Description
+    widget: text
+    required: false
+  - name: aliases
+    label: Aliases
+    widget: list
+    required: false
+    hint: Optional old URLs that should redirect to this archive.
+  - name: body
+    label: Body
+    widget: markdown
+    required: false
+- name: tags
+  label: Tags
+  folder: content/tags
+  create: true
+  delete: true
+  extension: md
+  format: frontmatter
+  identifier_field: title
+  slug: '{{slug}}'
+  fields:
+  - name: title
+    label: Title
+    widget: string
+  - name: id
+    label: Id
+    widget: hidden
+    required: false
+  - name: description
+    label: Description
+    widget: text
+    required: false
+  - name: aliases
+    label: Aliases
+    widget: list
+    required: false
+    hint: Optional old URLs that should redirect to this archive.
+  - name: body
+    label: Body
+    widget: markdown
+    required: false
+- name: pages
+  label: Pages
+  folder: content/pages
+  create: true
+  delete: true
+  extension: yml
+  format: yaml
+  slug: '{{slug}}'
+  summary: '{{title}} · {{url}}'
+  fields:
+  - name: title
+    label: Title
+    widget: string
+  - name: url
+    label: Url
+    widget: string
+    hint: Public path ending in .html, such as /contact.html.
+  - name: browser_title
+    label: Browser Title
+    widget: string
+    required: false
+  - name: description
+    label: Description
+    widget: text
+    required: false
+  - name: draft
+    label: Draft
+    widget: boolean
+    default: false
+  - name: body
+    label: Body
+    widget: markdown
+    required: false
+    hint: Main content for a new page. Existing designed pages use Content blocks
+      below.
+  - name: blocks
+    label: Content blocks
+    widget: list
+    required: false
+    allow_add: false
+    collapsed: true
+    summary: '{{fields.label}}'
+    fields:
+    - name: id
+      label: Id
+      widget: hidden
+    - name: label
+      label: Label
+      widget: string
+    - name: body
+      label: Body
+      widget: markdown
+  - name: links
+    label: Links
+    widget: list
+    required: false
+    allow_add: false
+    collapsed: true
+    summary: '{{fields.label}}'
+    fields:
+    - name: id
+      label: Id
+      widget: hidden
+    - name: label
+      label: Label
+      widget: string
+    - name: url
+      label: Url
+      widget: string
+  - name: template
+    label: Template
+    widget: hidden
+    required: false
+  - name: source
+    label: Source
+    widget: hidden
+    required: false
+  - name: lists
+    label: Lists
+    widget: hidden
+    required: false
+- name: site
+  label: Site settings
+  editor:
+    preview: false
+  files:
+  - name: navigation
+    label: Menus · header and footer
+    file: content/site/navigation.yml
+    fields:
+    - name: main
+      label: Main menu · drag to reorder
+      widget: list
+      fields:
+      - &id016
+        name: label
+        label: Label
+        widget: string
+      - &id017
+        name: href
+        label: Href
+        widget: string
+        hint: Use a site path such as /music.html, or a full https:// URL.
+      - &id018
+        name: enabled
+        label: Enabled
+        widget: boolean
+        default: true
+      - &id019
+        name: lang
+        label: Lang
+        widget: string
+        required: false
+      - name: children
+        label: Children
+        widget: list
+        required: false
+        fields: &id020
+        - *id016
+        - *id017
+        - *id018
+        - *id019
+    - name: footer
+      label: Footer menu · drag to reorder
+      widget: list
+      fields: *id020

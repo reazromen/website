@@ -1,0 +1,24 @@
+title: Mobile Networks
+browser_title: Mobile Networks — Reaz Romen — Systems Engineering
+description: Systems engineering across embedded firmware, real-time communications,
+  Linux infrastructure, networking and observability.
+url: /topics/mobile-networks.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: TOPIC
+  body: TOPIC
+- id: BLOCK1
+  label: Mobile Networks
+  body: Mobile Networks
+- id: BLOCK2
+  label: Lessons, explainers, experiments, and implementation notes.
+  body: Lessons, explainers, experiments, and implementation notes.
+lists:
+- key: LIST0
+  filter:
+    topic: mobile-networks
+  style: cards
+template: cms/templates/pages/topics--mobile-networks.tpl
+source: cms/templates/pages/topics--mobile-networks.json
+links: []

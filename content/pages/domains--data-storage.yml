@@ -1,0 +1,192 @@
+title: Data & Storage
+browser_title: Data & Storage — Reaz Romen
+description: Databases, storage systems, indexing and data infrastructure.
+url: /domains/data-storage.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: ENGINEERING DOMAIN
+  body: ENGINEERING DOMAIN
+- id: BLOCK1
+  label: Data & Storage
+  body: Data & Storage
+- id: BLOCK2
+  label: Databases, storage systems, indexing and data infrastructure.
+  body: Databases, storage systems, indexing and data infrastructure.
+- id: BLOCK3
+  label: Databases, storage systems, indexing and data infrastructure.
+  body: Databases, storage systems, indexing and data infrastructure.
+- id: BLOCK4
+  label: 5 projects · 6 pieces of writing
+  body: 5 projects · 6 pieces of writing
+- id: BLOCK5
+  label: Content Studio
+  body: Content Studio
+- id: BLOCK6
+  label: Self-hosted content operations platform for drafting, review, approval, scheduling,
+    workspace i
+  body: Self-hosted content operations platform for drafting, review, approval, scheduling,
+    workspace isolation, audit history and durable AI generation workflows.
+- id: BLOCK7
+  label: WORK
+  body: WORK
+- id: BLOCK8
+  label: Disaster Recovery & Restore Verification
+  body: Disaster Recovery & Restore Verification
+- id: BLOCK9
+  label: Encrypted backup and recovery system spanning local rsync, off-site object
+    storage, checksums a
+  body: Encrypted backup and recovery system spanning local rsync, off-site object
+    storage, checksums and disposable restore verification rather than backup-success
+    alone.
+- id: BLOCK10
+  label: WORK
+  body: WORK
+- id: BLOCK11
+  label: Infrastructure Operations Platform
+  body: Infrastructure Operations Platform
+- id: BLOCK12
+  label: Central service, deployment, policy, storage and execution control plane
+    with RBAC, audit event
+  body: Central service, deployment, policy, storage and execution control plane with
+    RBAC, audit events, read-only command views and guarded host execution.
+- id: BLOCK13
+  label: WORK
+  body: WORK
+- id: BLOCK14
+  label: Social Publisher
+  body: Social Publisher
+- id: BLOCK15
+  label: 'Dedicated publishing engine with scheduler, queue worker, PostgreSQL/Redis
+    state, reproducible '
+  body: Dedicated publishing engine with scheduler, queue worker, PostgreSQL/Redis
+    state, reproducible source pinning and restore-tested backups; external publishing
+    remains deliberately disarmed until credentials are configured.
+- id: BLOCK16
+  label: WORK
+  body: WORK
+- id: BLOCK17
+  label: Technical Publishing & Portfolio Stack
+  body: Technical Publishing & Portfolio Stack
+- id: BLOCK18
+  label: First-party Flask/PostgreSQL publishing system powering the technical archive,
+    case studies, ad
+  body: First-party Flask/PostgreSQL publishing system powering the technical archive,
+    case studies, admin workflow and public portfolio, with a parallel Tor v3 publishing
+    path.
+- id: BLOCK19
+  label: WORK
+  body: WORK
+- id: BLOCK20
+  label: Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their
+    Consistency Model
+  body: Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their
+    Consistency Models Differ
+- id: BLOCK21
+  label: A lost counter, duplicate job, stale read, or runaway write bill is usually
+    not 'a Cloudflare b
+  body: A lost counter, duplicate job, stale read, or runaway write bill is usually
+    not 'a Cloudflare bug.' Each storage primitive makes different consistency and
+    delivery promises, so the same application pattern fails differently on each one.
+- id: BLOCK22
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK23
+  label: A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt
+    State
+  body: A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt
+    State
+- id: BLOCK24
+  label: A lease can expire while its old owner is paused rather than dead. If that
+    process later resume
+  body: A lease can expire while its old owner is paused rather than dead. If that
+    process later resumes, the lock service may have moved on—but the storage system
+    can still accept stale writes unless it has a fencing mechanism.
+- id: BLOCK25
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK26
+  label: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+  body: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
+- id: BLOCK27
+  label: Approximate nearest-neighbor search is allowed to trade recall for speed.
+    Add tenant or metadat
+  body: Approximate nearest-neighbor search is allowed to trade recall for speed.
+    Add tenant or metadata filters after the ANN scan and a fast query can return
+    too few candidates without being a database error.
+- id: BLOCK28
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK29
+  label: PostgreSQL VACUUM Reclaims Space Without Giving the File Back to the Filesystem
+  body: PostgreSQL VACUUM Reclaims Space Without Giving the File Back to the Filesystem
+- id: BLOCK30
+  label: 'Standard VACUUM makes dead-tuple space reusable inside a table. It usually
+    does not shrink the '
+  body: Standard VACUUM makes dead-tuple space reusable inside a table. It usually
+    does not shrink the table file, which is why a successful vacuum and unchanged
+    disk usage can both be correct.
+- id: BLOCK31
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK32
+  label: Why Observability Workloads Keep Ending Up in ClickHouse
+  body: Why Observability Workloads Keep Ending Up in ClickHouse
+- id: BLOCK33
+  label: Logs and traces are wide, append-heavy events that are usually filtered by
+    time and a few field
+  body: Logs and traces are wide, append-heavy events that are usually filtered by
+    time and a few fields, then aggregated. That workload shape explains the attraction
+    to a columnar analytical database better than any benchmark headline.
+- id: BLOCK34
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK35
+  label: ZFS Scrub, Resilver, Snapshot, and Replication Solve Different Failure Modes
+  body: ZFS Scrub, Resilver, Snapshot, and Replication Solve Different Failure Modes
+- id: BLOCK36
+  label: A scrub detects latent corruption, a resilver reconstructs missing redundancy,
+    a snapshot prese
+  body: A scrub detects latent corruption, a resilver reconstructs missing redundancy,
+    a snapshot preserves an earlier dataset state, and replication puts that state
+    somewhere else. Calling all four 'backup' hides the failures each one cannot solve.
+- id: BLOCK37
+  label: '2026-09-26'
+  body: '2026-09-26'
+lists: []
+template: cms/templates/pages/domains--data-storage.tpl
+source: cms/templates/pages/domains--data-storage.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK5}} {{RR_BLOCK6}} {{RR_BLOCK7}}'
+  url: /portfolio/projects/content-studio.html
+- id: LINK1
+  label: '{{RR_BLOCK8}} {{RR_BLOCK9}} {{RR_BLOCK10}}'
+  url: /portfolio/projects/disaster-recovery-restore-verification.html
+- id: LINK2
+  label: '{{RR_BLOCK11}} {{RR_BLOCK12}} {{RR_BLOCK13}}'
+  url: /portfolio/projects/infrastructure-operations-platform.html
+- id: LINK3
+  label: '{{RR_BLOCK14}} {{RR_BLOCK15}} {{RR_BLOCK16}}'
+  url: /portfolio/projects/social-publisher.html
+- id: LINK4
+  label: '{{RR_BLOCK17}} {{RR_BLOCK18}} {{RR_BLOCK19}}'
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html
+- id: LINK5
+  label: '{{RR_BLOCK20}} {{RR_BLOCK21}} {{RR_BLOCK22}}'
+  url: /posts/cloudflare-kv-do-queues-d1-consistency.html
+- id: LINK6
+  label: '{{RR_BLOCK23}} {{RR_BLOCK24}} {{RR_BLOCK25}}'
+  url: /posts/distributed-lock-needs-fencing-token.html
+- id: LINK7
+  label: '{{RR_BLOCK26}} {{RR_BLOCK27}} {{RR_BLOCK28}}'
+  url: /posts/pgvector-hnsw-fast-operationally-wrong.html
+- id: LINK8
+  label: '{{RR_BLOCK29}} {{RR_BLOCK30}} {{RR_BLOCK31}}'
+  url: /posts/postgres-vacuum-reuse-not-filesystem-shrink.html
+- id: LINK9
+  label: '{{RR_BLOCK32}} {{RR_BLOCK33}} {{RR_BLOCK34}}'
+  url: /posts/why-observability-workloads-end-up-clickhouse.html
+- id: LINK10
+  label: '{{RR_BLOCK35}} {{RR_BLOCK36}} {{RR_BLOCK37}}'
+  url: /posts/zfs-scrub-resilver-snapshot-replication.html

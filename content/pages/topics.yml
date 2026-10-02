@@ -1,0 +1,256 @@
+title: Topics
+browser_title: Topics — Reaz Romen — Systems Engineering
+description: Systems engineering across embedded firmware, real-time communications,
+  Linux infrastructure, networking and observability.
+url: /topics.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: KNOWLEDGE BASE
+  body: KNOWLEDGE BASE
+- id: BLOCK1
+  label: Topics
+  body: Topics
+- id: BLOCK2
+  label: 'Telecom and networking concepts organized as an engineering reference: from
+    fundamentals to imp'
+  body: 'Telecom and networking concepts organized as an engineering reference: from
+    fundamentals to implementation notes and production lessons.'
+- id: BLOCK3
+  label: Terraform Systems
+  body: Terraform Systems
+- id: BLOCK4
+  label: 25 articles
+  body: 25 articles
+- id: BLOCK5
+  label: Redis Systems
+  body: Redis Systems
+- id: BLOCK6
+  label: 10 articles
+  body: 10 articles
+- id: BLOCK7
+  label: Caddy & Reverse Proxy
+  body: Caddy & Reverse Proxy
+- id: BLOCK8
+  label: 30 articles
+  body: 30 articles
+- id: BLOCK9
+  label: DevOps & Culture
+  body: DevOps & Culture
+- id: BLOCK10
+  label: 26 articles
+  body: 26 articles
+- id: BLOCK11
+  label: Disaster Recovery
+  body: Disaster Recovery
+- id: BLOCK12
+  label: 13 articles
+  body: 13 articles
+- id: BLOCK13
+  label: Embedded & Firmware
+  body: Embedded & Firmware
+- id: BLOCK14
+  label: 13 articles
+  body: 13 articles
+- id: BLOCK15
+  label: Embedded Audio & Voice
+  body: Embedded Audio & Voice
+- id: BLOCK16
+  label: 35 articles
+  body: 35 articles
+- id: BLOCK17
+  label: Engineering Notes
+  body: Engineering Notes
+- id: BLOCK18
+  label: 6 articles
+  body: 6 articles
+- id: BLOCK19
+  label: Firmware Release Engineering
+  body: Firmware Release Engineering
+- id: BLOCK20
+  label: 25 articles
+  body: 25 articles
+- id: BLOCK21
+  label: LOUP Engineering
+  body: LOUP Engineering
+- id: BLOCK22
+  label: 100 articles
+  body: 100 articles
+- id: BLOCK23
+  label: Linux & Homelab
+  body: Linux & Homelab
+- id: BLOCK24
+  label: 26 articles
+  body: 26 articles
+- id: BLOCK25
+  label: LoRa & Reticulum
+  body: LoRa & Reticulum
+- id: BLOCK26
+  label: 34 articles
+  body: 34 articles
+- id: BLOCK27
+  label: Mobile Networks
+  body: Mobile Networks
+- id: BLOCK28
+  label: 19 articles
+  body: 19 articles
+- id: BLOCK29
+  label: Networking
+  body: Networking
+- id: BLOCK30
+  label: 25 articles
+  body: 25 articles
+- id: BLOCK31
+  label: OTA & Fleet
+  body: OTA & Fleet
+- id: BLOCK32
+  label: 9 articles
+  body: 9 articles
+- id: BLOCK33
+  label: Observability
+  body: Observability
+- id: BLOCK34
+  label: 8 articles
+  body: 8 articles
+- id: BLOCK35
+  label: Observability & Monitoring
+  body: Observability & Monitoring
+- id: BLOCK36
+  label: 205 articles
+  body: 205 articles
+- id: BLOCK37
+  label: PCB Bring-Up & Hardware
+  body: PCB Bring-Up & Hardware
+- id: BLOCK38
+  label: 25 articles
+  body: 25 articles
+- id: BLOCK39
+  label: Production Engineering
+  body: Production Engineering
+- id: BLOCK40
+  label: 35 articles
+  body: 35 articles
+- id: BLOCK41
+  label: Production OTA & Fleet
+  body: Production OTA & Fleet
+- id: BLOCK42
+  label: 30 articles
+  body: 30 articles
+- id: BLOCK43
+  label: Radio & IoT
+  body: Radio & IoT
+- id: BLOCK44
+  label: 3 articles
+  body: 3 articles
+- id: BLOCK45
+  label: Security & Identity
+  body: Security & Identity
+- id: BLOCK46
+  label: 22 articles
+  body: 22 articles
+- id: BLOCK47
+  label: Security & Secrets
+  body: Security & Secrets
+- id: BLOCK48
+  label: 10 articles
+  body: 10 articles
+- id: BLOCK49
+  label: Telecom & VoIP
+  body: Telecom & VoIP
+- id: BLOCK50
+  label: 44 articles
+  body: 44 articles
+- id: BLOCK51
+  label: Voiceware Engineering
+  body: Voiceware Engineering
+- id: BLOCK52
+  label: 100 articles
+  body: 100 articles
+- id: BLOCK53
+  label: Web & Control Plane
+  body: Web & Control Plane
+- id: BLOCK54
+  label: 20 articles
+  body: 20 articles
+lists: []
+template: cms/templates/pages/topics.tpl
+source: cms/templates/pages/topics.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK3}} {{RR_BLOCK4}}'
+  url: /topics/terraform-systems/index.html
+- id: LINK1
+  label: '{{RR_BLOCK5}} {{RR_BLOCK6}}'
+  url: /topics/redis-systems/index.html
+- id: LINK2
+  label: '{{RR_BLOCK7}} {{RR_BLOCK8}}'
+  url: /topics/caddy-reverse-proxy.html
+- id: LINK3
+  label: '{{RR_BLOCK9}} {{RR_BLOCK10}}'
+  url: /topics/devops-culture.html
+- id: LINK4
+  label: '{{RR_BLOCK11}} {{RR_BLOCK12}}'
+  url: /topics/disaster-recovery.html
+- id: LINK5
+  label: '{{RR_BLOCK13}} {{RR_BLOCK14}}'
+  url: /topics/embedded-firmware.html
+- id: LINK6
+  label: '{{RR_BLOCK15}} {{RR_BLOCK16}}'
+  url: /topics/embedded-audio-voice.html
+- id: LINK7
+  label: '{{RR_BLOCK17}} {{RR_BLOCK18}}'
+  url: /topics/engineering-notes.html
+- id: LINK8
+  label: '{{RR_BLOCK19}} {{RR_BLOCK20}}'
+  url: /topics/firmware-release-engineering.html
+- id: LINK9
+  label: '{{RR_BLOCK21}} {{RR_BLOCK22}}'
+  url: /topics/loup-engineering.html
+- id: LINK10
+  label: '{{RR_BLOCK23}} {{RR_BLOCK24}}'
+  url: /topics/linux-homelab.html
+- id: LINK11
+  label: '{{RR_BLOCK25}} {{RR_BLOCK26}}'
+  url: /topics/lora-reticulum.html
+- id: LINK12
+  label: '{{RR_BLOCK27}} {{RR_BLOCK28}}'
+  url: /topics/mobile-networks.html
+- id: LINK13
+  label: '{{RR_BLOCK29}} {{RR_BLOCK30}}'
+  url: /topics/networking.html
+- id: LINK14
+  label: '{{RR_BLOCK31}} {{RR_BLOCK32}}'
+  url: /topics/ota-fleet.html
+- id: LINK15
+  label: '{{RR_BLOCK33}} {{RR_BLOCK34}}'
+  url: /topics/observability.html
+- id: LINK16
+  label: '{{RR_BLOCK35}} {{RR_BLOCK36}}'
+  url: /topics/observability-monitoring.html
+- id: LINK17
+  label: '{{RR_BLOCK37}} {{RR_BLOCK38}}'
+  url: /topics/pcb-bringup-hardware.html
+- id: LINK18
+  label: '{{RR_BLOCK39}} {{RR_BLOCK40}}'
+  url: /topics/production-engineering.html
+- id: LINK19
+  label: '{{RR_BLOCK41}} {{RR_BLOCK42}}'
+  url: /topics/production-ota-fleet.html
+- id: LINK20
+  label: '{{RR_BLOCK43}} {{RR_BLOCK44}}'
+  url: /topics/radio-iot.html
+- id: LINK21
+  label: '{{RR_BLOCK45}} {{RR_BLOCK46}}'
+  url: /topics/security-identity.html
+- id: LINK22
+  label: '{{RR_BLOCK47}} {{RR_BLOCK48}}'
+  url: /topics/security-secrets.html
+- id: LINK23
+  label: '{{RR_BLOCK49}} {{RR_BLOCK50}}'
+  url: /topics/telecom-voip.html
+- id: LINK24
+  label: '{{RR_BLOCK51}} {{RR_BLOCK52}}'
+  url: /topics/voiceware-engineering.html
+- id: LINK25
+  label: '{{RR_BLOCK53}} {{RR_BLOCK54}}'
+  url: /topics/web-control-plane.html

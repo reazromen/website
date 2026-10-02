@@ -1,0 +1,516 @@
+title: Khulna Satellite Weather
+browser_title: Khulna Satellite Weather — Reaz Romen Portfolio
+description: Live Khulna weather dashboard combining Himawari-9 South Asia imagery,
+  local forecast data and a six-hour satellite animation.
+url: /portfolio/projects/khulna-satellite-weather.html
+draft: false
+blocks:
+- id: BLOCK0
+  label: Web & Data Systems / Built / deployed
+  body: Web & Data Systems / Built / deployed
+- id: BLOCK1
+  label: Khulna Satellite Weather
+  body: Khulna Satellite Weather
+- id: BLOCK2
+  label: 'Live Khulna weather dashboard combining Himawari-9 South Asia imagery, local
+    forecast data and '
+  body: Live Khulna weather dashboard combining Himawari-9 South Asia imagery, local
+    forecast data and a six-hour satellite animation.
+- id: BLOCK3
+  label: Khulna Satellite Weather — live deployed dashboard capture.
+  body: Khulna Satellite Weather — live deployed dashboard capture.
+- id: BLOCK4
+  label: OVERVIEW
+  body: OVERVIEW
+- id: BLOCK5
+  label: What I built.
+  body: What I built.
+- id: BLOCK6
+  label: 'Live Khulna weather dashboard combining Himawari-9 South Asia imagery, local
+    forecast data and '
+  body: Live Khulna weather dashboard combining Himawari-9 South Asia imagery, local
+    forecast data and a six-hour satellite animation.
+- id: BLOCK7
+  label: Built a location-focused satellite weather dashboard for Khulna.
+  body: Built a location-focused satellite weather dashboard for Khulna.
+- id: BLOCK8
+  label: RELATED WRITING
+  body: RELATED WRITING
+- id: BLOCK9
+  label: Integrated Himawari-9 South Asia imagery with local forecast data.
+  body: Integrated Himawari-9 South Asia imagery with local forecast data.
+- id: BLOCK10
+  label: Implemented a six-hour, ten-minute-cadence animation with timeline/playback
+    controls.
+  body: Implemented a six-hour, ten-minute-cadence animation with timeline/playback
+    controls.
+- id: BLOCK11
+  label: SYSTEM ARCHITECTURE
+  body: SYSTEM ARCHITECTURE
+- id: BLOCK12
+  label: How the system is divided.
+  body: How the system is divided.
+- id: BLOCK13
+  label: JMA Himawari imagery + Open-Meteo forecast -> local service/API -> browser
+    dashboard.
+  body: JMA Himawari imagery + Open-Meteo forecast -> local service/API -> browser
+    dashboard.
+- id: BLOCK14
+  label: The client loads a bounded sequence of satellite frames and animates them
+    independently from fo
+  body: The client loads a bounded sequence of satellite frames and animates them
+    independently from forecast refreshes.
+- id: BLOCK15
+  label: Public ingress is handled through the existing server edge.
+  body: Public ingress is handled through the existing server edge.
+- id: BLOCK16
+  label: NETWORK / DATA FLOW
+  body: NETWORK / DATA FLOW
+- id: BLOCK17
+  label: What talks to what.
+  body: What talks to what.
+- id: BLOCK18
+  label: TECHNOLOGY STACK
+  body: TECHNOLOGY STACK
+- id: BLOCK19
+  label: The technical surface.
+  body: The technical surface.
+- id: BLOCK20
+  label: IMPLEMENTATION
+  body: IMPLEMENTATION
+- id: BLOCK21
+  label: How it works in practice.
+  body: How it works in practice.
+- id: BLOCK22
+  label: 01 JMA Himawari imagery + Open-Meteo forecast -> local service/API -> browser
+    dashboard.
+  body: '01
+
+
+    JMA Himawari imagery + Open-Meteo forecast -> local service/API -> browser dashboard.'
+- id: BLOCK23
+  label: JMA Himawari imagery + Open-Meteo forecast -> local service/API -> browser
+    dashboard.
+  body: JMA Himawari imagery + Open-Meteo forecast -> local service/API -> browser
+    dashboard.
+- id: BLOCK24
+  label: 02 The client loads a bounded sequence of satellite frames and animates them
+    independently from
+  body: '02
+
+
+    The client loads a bounded sequence of satellite frames and animates them independently
+    from forecast refreshes.'
+- id: BLOCK25
+  label: The client loads a bounded sequence of satellite frames and animates them
+    independently from fo
+  body: The client loads a bounded sequence of satellite frames and animates them
+    independently from forecast refreshes.
+- id: BLOCK26
+  label: 03 Public ingress is handled through the existing server edge.
+  body: '03
+
+
+    Public ingress is handled through the existing server edge.'
+- id: BLOCK27
+  label: Public ingress is handled through the existing server edge.
+  body: Public ingress is handled through the existing server edge.
+- id: BLOCK28
+  label: TESTING & VALIDATION
+  body: TESTING & VALIDATION
+- id: BLOCK29
+  label: How I know it works.
+  body: How I know it works.
+- id: BLOCK30
+  label: Public HTTPS status
+  body: Public HTTPS status
+- id: BLOCK31
+  label: Frame API count/timestamps
+  body: Frame API count/timestamps
+- id: BLOCK32
+  label: Latest JMA JPEG fetch
+  body: Latest JMA JPEG fetch
+- id: BLOCK33
+  label: Animation timer/playback code
+  body: Animation timer/playback code
+- id: BLOCK34
+  label: Five-minute refresh path
+  body: Five-minute refresh path
+- id: BLOCK35
+  label: Location/forecast response checks
+  body: Location/forecast response checks
+- id: BLOCK36
+  label: EXTERNAL SERVICES & DEPENDENCIES
+  body: EXTERNAL SERVICES & DEPENDENCIES
+- id: BLOCK37
+  label: What sits outside the core.
+  body: What sits outside the core.
+- id: BLOCK38
+  label: ENGINEERING EVIDENCE
+  body: ENGINEERING EVIDENCE
+- id: BLOCK39
+  label: Artifacts behind the claims.
+  body: Artifacts behind the claims.
+- id: BLOCK40
+  label: BOUNDARIES / CONSTRAINTS
+  body: BOUNDARIES / CONSTRAINTS
+- id: BLOCK41
+  label: What the project does not pretend to solve.
+  body: What the project does not pretend to solve.
+- id: BLOCK42
+  label: — Satellite imagery is regional, not a street-level radar product
+  body: —Satellite imagery is regional, not a street-level radar product
+- id: BLOCK43
+  label: — Source freshness depends on JMA/Open-Meteo availability
+  body: —Source freshness depends on JMA/Open-Meteo availability
+- id: BLOCK44
+  label: — Animation cadence follows available upstream frames
+  body: —Animation cadence follows available upstream frames
+- id: BLOCK45
+  label: RESULT / CURRENT STATE
+  body: RESULT / CURRENT STATE
+- id: BLOCK46
+  label: What this produced.
+  body: What this produced.
+- id: BLOCK47
+  label: A live local weather view that combines conventional forecast data with recent
+    geostationary sa
+  body: A live local weather view that combines conventional forecast data with recent
+    geostationary satellite imagery.
+- id: BLOCK48
+  label: Complete project index
+  body: Complete project index
+- id: BLOCK49
+  label: Explore architecture
+  body: Explore architecture
+- id: BLOCK50
+  label: ENGINEERING RECORD
+  body: ENGINEERING RECORD
+- id: BLOCK51
+  label: STATUS
+  body: STATUS
+- id: BLOCK52
+  label: Built / deployed
+  body: Built / deployed
+- id: BLOCK53
+  label: AREA
+  body: AREA
+- id: BLOCK54
+  label: Web & Data Systems
+  body: Web & Data Systems
+- id: BLOCK55
+  label: STACK
+  body: STACK
+- id: BLOCK56
+  label: 5 documented technologies
+  body: 5 documented technologies
+- id: BLOCK57
+  label: INTEGRATIONS
+  body: INTEGRATIONS
+- id: BLOCK58
+  label: 3 connected / bounded services
+  body: 3 connected / bounded services
+- id: BLOCK59
+  label: PROJECT DOCUMENTATION
+  body: PROJECT DOCUMENTATION
+- id: BLOCK60
+  label: '01'
+  body: '01'
+- id: BLOCK61
+  label: '01'
+  body: '01'
+- id: BLOCK62
+  label: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+  body: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
+- id: BLOCK63
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK64
+  label: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+  body: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
+- id: BLOCK65
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK66
+  label: Kubernetes Gateway API Is Not Just a New Ingress YAML
+  body: Kubernetes Gateway API Is Not Just a New Ingress YAML
+- id: BLOCK67
+  label: '2026-09-26'
+  body: '2026-09-26'
+- id: BLOCK68
+  label: '02'
+  body: '02'
+- id: BLOCK69
+  label: '03'
+  body: '03'
+- id: BLOCK70
+  label: '02'
+  body: '02'
+- id: BLOCK71
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK72
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK73
+  label: Architecture boundary
+  body: Architecture boundary
+- id: BLOCK74
+  label: '03'
+  body: '03'
+- id: BLOCK75
+  label: TRACE PATH
+  body: TRACE PATH
+- id: BLOCK76
+  label: Focus or tap a stage to trace the flow from source to that point.
+  body: Focus or tap a stage to trace the flow from source to that point.
+- id: BLOCK77
+  label: JMA Himawari-9
+  body: JMA Himawari-9
+- id: BLOCK78
+  label: →
+  body: →
+- id: BLOCK79
+  label: Open-Meteo
+  body: Open-Meteo
+- id: BLOCK80
+  label: →
+  body: →
+- id: BLOCK81
+  label: Khulna weather service
+  body: Khulna weather service
+- id: BLOCK82
+  label: →
+  body: →
+- id: BLOCK83
+  label: Frame API/cache
+  body: Frame API/cache
+- id: BLOCK84
+  label: →
+  body: →
+- id: BLOCK85
+  label: Browser animation + forecast
+  body: Browser animation + forecast
+- id: BLOCK86
+  label: '04'
+  body: '04'
+- id: BLOCK87
+  label: '01'
+  body: '01'
+- id: BLOCK88
+  label: Himawari-9
+  body: Himawari-9
+- id: BLOCK89
+  label: '02'
+  body: '02'
+- id: BLOCK90
+  label: JMA
+  body: JMA
+- id: BLOCK91
+  label: '03'
+  body: '03'
+- id: BLOCK92
+  label: Open-Meteo
+  body: Open-Meteo
+- id: BLOCK93
+  label: '04'
+  body: '04'
+- id: BLOCK94
+  label: Docker
+  body: Docker
+- id: BLOCK95
+  label: '05'
+  body: '05'
+- id: BLOCK96
+  label: JavaScript
+  body: JavaScript
+- id: BLOCK97
+  label: '05'
+  body: '05'
+- id: BLOCK98
+  label: '06'
+  body: '06'
+- id: BLOCK99
+  label: TEST 01
+  body: TEST 01
+- id: BLOCK100
+  label: TEST 02
+  body: TEST 02
+- id: BLOCK101
+  label: TEST 03
+  body: TEST 03
+- id: BLOCK102
+  label: TEST 04
+  body: TEST 04
+- id: BLOCK103
+  label: TEST 05
+  body: TEST 05
+- id: BLOCK104
+  label: TEST 06
+  body: TEST 06
+- id: BLOCK105
+  label: '07'
+  body: '07'
+- id: BLOCK106
+  label: Khulna Satellite Weather
+  body: Khulna Satellite Weather
+- id: BLOCK107
+  label: ↔
+  body: ↔
+- id: BLOCK108
+  label: JMA Meteorological Satellite Center
+  body: JMA Meteorological Satellite Center
+- id: BLOCK109
+  label: ↔
+  body: ↔
+- id: BLOCK110
+  label: Open-Meteo
+  body: Open-Meteo
+- id: BLOCK111
+  label: ↔
+  body: ↔
+- id: BLOCK112
+  label: Cloudflare Tunnel
+  body: Cloudflare Tunnel
+- id: BLOCK113
+  label: 08
+  body: 08
+- id: BLOCK114
+  label: '01'
+  body: '01'
+- id: BLOCK115
+  label: NOTE
+  body: NOTE
+- id: BLOCK116
+  label: Live public dashboard
+  body: Live public dashboard
+- id: BLOCK117
+  label: '02'
+  body: '02'
+- id: BLOCK118
+  label: NOTE
+  body: NOTE
+- id: BLOCK119
+  label: 36-frame six-hour animation sample
+  body: 36-frame six-hour animation sample
+- id: BLOCK120
+  label: '03'
+  body: '03'
+- id: BLOCK121
+  label: NOTE
+  body: NOTE
+- id: BLOCK122
+  label: Frame API
+  body: Frame API
+- id: BLOCK123
+  label: '04'
+  body: '04'
+- id: BLOCK124
+  label: NOTE
+  body: NOTE
+- id: BLOCK125
+  label: JMA image URLs
+  body: JMA image URLs
+- id: BLOCK126
+  label: '05'
+  body: '05'
+- id: BLOCK127
+  label: NOTE
+  body: NOTE
+- id: BLOCK128
+  label: Forecast data
+  body: Forecast data
+- id: BLOCK129
+  label: '06'
+  body: '06'
+- id: BLOCK130
+  label: NOTE
+  body: NOTE
+- id: BLOCK131
+  label: Health checks
+  body: Health checks
+- id: BLOCK132
+  label: 09
+  body: 09
+- id: BLOCK133
+  label: '10'
+  body: '10'
+- id: BLOCK134
+  label: ← Previous project
+  body: ← Previous project
+- id: BLOCK135
+  label: Ambient Signal Observatory
+  body: Ambient Signal Observatory
+- id: BLOCK136
+  label: Next project →
+  body: Next project →
+- id: BLOCK137
+  label: Technical Publishing & Portfolio Stack
+  body: Technical Publishing & Portfolio Stack
+lists: []
+template: cms/templates/pages/portfolio--projects--khulna-satellite-weather.tpl
+source: cms/templates/pages/portfolio--projects--khulna-satellite-weather.json
+links:
+- id: LINK0
+  label: '{{RR_BLOCK48}}'
+  url: /portfolio.html#all-builds
+- id: LINK1
+  label: '{{RR_BLOCK49}}'
+  url: /portfolio/projects/khulna-satellite-weather.html#architecture
+- id: LINK2
+  label: Architecture
+  url: '#architecture'
+- id: LINK3
+  label: Signal / request path
+  url: '#network'
+- id: LINK4
+  label: Verification
+  url: '#testing'
+- id: LINK5
+  label: Evidence
+  url: '#evidence'
+- id: LINK6
+  label: 01 / Overview
+  url: /portfolio/projects/khulna-satellite-weather.html#overview
+- id: LINK7
+  label: 02 / Architecture
+  url: /portfolio/projects/khulna-satellite-weather.html#architecture
+- id: LINK8
+  label: 03 / Network & data flow
+  url: /portfolio/projects/khulna-satellite-weather.html#network
+- id: LINK9
+  label: 04 / Stack
+  url: /portfolio/projects/khulna-satellite-weather.html#stack
+- id: LINK10
+  label: 05 / How I built it
+  url: /portfolio/projects/khulna-satellite-weather.html#implementation
+- id: LINK11
+  label: 06 / Testing
+  url: /portfolio/projects/khulna-satellite-weather.html#testing
+- id: LINK12
+  label: 07 / Integrations
+  url: /portfolio/projects/khulna-satellite-weather.html#integrations
+- id: LINK13
+  label: 08 / Evidence
+  url: /portfolio/projects/khulna-satellite-weather.html#evidence
+- id: LINK14
+  label: 09 / Constraints
+  url: /portfolio/projects/khulna-satellite-weather.html#constraints
+- id: LINK15
+  label: 10 / Result
+  url: /portfolio/projects/khulna-satellite-weather.html#result
+- id: LINK16
+  label: '{{RR_BLOCK62}} {{RR_BLOCK63}}'
+  url: /posts/ebpf-xdp-verifier-operational-safety.html
+- id: LINK17
+  label: '{{RR_BLOCK64}} {{RR_BLOCK65}}'
+  url: /posts/http3-quic-enterprise-inspection-assumptions.html
+- id: LINK18
+  label: '{{RR_BLOCK66}} {{RR_BLOCK67}}'
+  url: /posts/kubernetes-gateway-api-not-new-ingress-yaml.html
+- id: LINK19
+  label: '{{RR_BLOCK134}} {{RR_BLOCK135}}'
+  url: /portfolio/projects/ambient-signal-observatory.html
+- id: LINK20
+  label: '{{RR_BLOCK136}} {{RR_BLOCK137}}'
+  url: /portfolio/projects/technical-publishing-portfolio-stack.html
