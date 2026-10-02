@@ -209,8 +209,20 @@ def main():
                 if alias in owned and alias!=url:raise ValueError('Taxonomy alias collision: '+alias)
                 outputs[alias]=redirect(url)
         url='/'+kind+'.html'
-        body='<h1>'+kind.title()+'</h1><div class="post-list editorial-list">'+''.join('<article class="post-card"><h2><a href="/'+kind+'/'+esc(ident)+'.html">'+esc(t['title'])+'</a></h2><p>'+esc(t.get('description',''))+'</p><p>'+str(len(select(entries,{kind[:-1]:ident})))+' posts</p></article>' for ident,t in sorted(tax[kind].items(),key=lambda x:x[1]['title'].casefold()))+'</div>'
-        outputs[url]=finalize(shell(kind.title(),body),url,nav)
+        rows=[]
+        for ident,t in sorted(tax[kind].items(),key=lambda x:x[1]['title'].casefold()):
+            count=len(select(entries,{kind[:-1]:ident}))
+            rows.append('<a class="topic-card" href="/'+kind+'/'+esc(ident)+'.html"><strong>'+esc(t['title'])+'</strong><span>'+str(count)+(' post' if count==1 else ' posts')+'</span></a>')
+        if kind=='topics' and url in outputs:
+            s=soup(outputs[url]);grid=s.select_one('.topic-grid')
+        else:
+            s=soup(shell(kind.title(),'<section class="page-head"><h1>'+kind.title()+'</h1></section><div class="topic-grid"></div>'));grid=s.select_one('.topic-grid')
+        if grid:
+            grid.clear();grid.append(soup(''.join(rows)));grid['class']=['topic-grid','taxonomy-index']
+            control=soup('<p><label>Find '+kind+' <input type="search" data-taxonomy-filter placeholder="Type to filter '+kind+'" aria-label="Find '+kind+'" style="width:100%;padding:.7rem;margin-top:.5rem;font:inherit;background:transparent;color:inherit;border:1px solid var(--line)"></label><span data-taxonomy-count role="status">'+str(len(rows))+' '+kind+'</span></p>')
+            grid.insert_before(control)
+            s.body.append(s.new_tag('script',src='/assets/taxonomy-v1.js'))
+            outputs[url]=finalize(html_string(s),url,nav)
     # No mutations happen above this line. All output collisions are detected first.
     previous_path=ROOT/'cms/generated-manifest.json'
     if previous_path.exists():previous=json.loads(previous_path.read_text())

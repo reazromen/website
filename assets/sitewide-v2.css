@@ -69,3 +69,5 @@ body.rr-themed{--bg:var(--bg);--panel:transparent;--text:var(--text-strong);--so
 .fact-label{display:flex!important;align-items:center!important;gap:.42rem!important;margin-bottom:.45rem!important}.dossier-facts .fact-label+strong{display:block!important}.dossier-facts .fact-label>span{display:inline!important;margin:0!important}
 
 .tags a{text-decoration:none!important}
+
+.taxonomy-index [hidden]{display:none!important}
