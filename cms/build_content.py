@@ -6,6 +6,7 @@ from collections import defaultdict
 import xml.etree.ElementTree as ET
 
 SECTIONS=('writing','perspectives','music','bangla')
+ASSET_VERSIONS={}
 
 def load_all():
     tax={k:{} for k in ('tags','topics')}
@@ -135,6 +136,14 @@ def link(item,current):
 
 def finalize(raw,url,nav,entry=None,tax=None):
     s=soup(raw)
+    # Version stylesheet/script URLs so a new HTML deployment cannot reuse stale browser assets.
+    for node in s.select('link[rel="stylesheet"][href],script[src]'):
+        attr='href' if node.name=='link' else 'src';asset=route(node[attr],url)
+        if not asset:continue
+        path=(ROOT/asset.lstrip('/')).resolve()
+        if not path.is_relative_to(ROOT.resolve()) or not path.is_file():continue
+        if asset not in ASSET_VERSIONS:ASSET_VERSIONS[asset]=hashlib.sha256(path.read_bytes()).hexdigest()[:12]
+        node[attr]=urlsplit(node[attr]).path+'?v='+ASSET_VERSIONS[asset]
     for n in s.select('.rr-global-header .nav-scroll,.rr-global-header .nav-right'):
         n.clear();n.append(soup(''.join(link(x,url) for x in nav.get('main',[]))))
     for n in s.select('footer nav'):
