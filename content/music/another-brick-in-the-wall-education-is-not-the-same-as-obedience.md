@@ -17,7 +17,7 @@ featured: false
 language: en
 eyebrow: LISTENING NOTE · PINK FLOYD · THE WALL
 artist: Pink Floyd
-album: 'Album: The Wall'
+album: The Wall
 year: '1979'
 kind: song
 outputs:

@@ -17,7 +17,7 @@ featured: false
 language: en
 eyebrow: LISTENING NOTE · SYSTEM OF A DOWN · MEZMERIZE
 artist: System of a Down
-album: 'Album: Mezmerize'
+album: Mezmerize
 year: '2005'
 kind: song
 outputs:

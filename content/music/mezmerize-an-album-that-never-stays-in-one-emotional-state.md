@@ -17,7 +17,7 @@ featured: false
 language: en
 eyebrow: ALBUM NOTE · SYSTEM OF A DOWN · MEZMERIZE
 artist: System of a Down
-album: ''
+album: Mezmerize
 year: ''
 kind: album
 outputs:

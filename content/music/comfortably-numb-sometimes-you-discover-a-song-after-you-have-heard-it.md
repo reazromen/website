@@ -18,7 +18,7 @@ featured: false
 language: en
 eyebrow: LISTENING NOTE · PINK FLOYD · THE WALL
 artist: Pink Floyd
-album: ''
+album: The Wall
 year: ''
 kind: song
 outputs:

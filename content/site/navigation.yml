@@ -19,6 +19,18 @@ main:
   href: /systems.html
   enabled: true
 footer:
+- label: Topics
+  href: /topics.html
+  enabled: true
 - label: Tags
   href: /tags.html
+  enabled: true
+- label: Systems
+  href: /systems.html
+  enabled: true
+- label: Archive
+  href: /archive.html
+  enabled: true
+- label: Author record
+  href: /author/reaz-romen.html
   enabled: true
