@@ -315,10 +315,93 @@ def update_indexes(music_entries: list[Entry], perspective_entries: list[Entry],
     b_file.write_text(text, encoding="utf-8")
 
 
+def load_homepage() -> dict:
+    path = CONTENT / "site" / "homepage.yml"
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    if not isinstance(data, dict):
+        raise ValueError(f"{path}: expected a YAML mapping")
+    required = (
+        "title", "meta_description", "hero_before_path", "hero_after_path",
+        "selected_work_heading", "recent_writing_heading", "areas_heading",
+        "about_heading", "about_text",
+    )
+    for key in required:
+        if key not in data:
+            raise ValueError(f"{path}: missing {key}")
+    for key in ("hero_before_path", "hero_after_path"):
+        if not isinstance(data[key], list) or not data[key]:
+            raise ValueError(f"{path}: {key} must be a non-empty list")
+    return data
+
+
+def update_homepage(home: dict) -> None:
+    page = ROOT / "index.html"
+    text = page.read_text(encoding="utf-8")
+
+    text = re.sub(
+        r"<title>.*?</title>",
+        f"<title>{esc(home['title'])}</title>",
+        text,
+        count=1,
+        flags=re.S,
+    )
+    text = re.sub(
+        r'<meta name="description" content="[^"]*">',
+        f'<meta name="description" content="{esc(home["meta_description"])}">',
+        text,
+        count=1,
+    )
+
+    section_open = '<section class="home-hero">'
+    hero_start = text.find(section_open)
+    if hero_start < 0:
+        raise ValueError("index.html: home hero not found")
+    hero_content_start = hero_start + len(section_open)
+    path_start = text.find('<div class="system-path-meta"', hero_content_start)
+    if path_start < 0:
+        raise ValueError("index.html: system path block not found")
+    path_end = text.find("</div>", path_start)
+    if path_end < 0:
+        raise ValueError("index.html: system path closing div not found")
+    path_end += len("</div>")
+    hero_end = text.find("</section>", path_end)
+    if hero_end < 0:
+        raise ValueError("index.html: home hero closing section not found")
+
+    before = "".join(f"<p>{esc(x)}</p>" for x in home["hero_before_path"])
+    after = "".join(f"<p>{esc(x)}</p>" for x in home["hero_after_path"])
+    text = text[:hero_content_start] + before + text[path_start:path_end] + after + text[hero_end:]
+
+    headings = {
+        "selected-work": home["selected_work_heading"],
+        "recent-writing": home["recent_writing_heading"],
+        "areas": home["areas_heading"],
+    }
+    for ident, value in headings.items():
+        pattern = rf'(<h2 class="section-label" id="{re.escape(ident)}">).*?(</h2>)'
+        text, count = re.subn(pattern, rf'\1{esc(value)}\2', text, count=1, flags=re.S)
+        if count != 1:
+            raise ValueError(f"index.html: heading {ident} not found")
+
+    about_pattern = re.compile(
+        r'(<section class="home-section"><h2 class="section-label">).*?(</h2><p>).*?(</p><div class="home-contact">)',
+        re.S,
+    )
+    replacement = (
+        r'\1' + esc(home["about_heading"]) + r'\2' + esc(home["about_text"]) + r'\3'
+    )
+    text, count = about_pattern.subn(replacement, text, count=1)
+    if count != 1:
+        raise ValueError("index.html: About section not found")
+
+    page.write_text(text, encoding="utf-8")
+
+
 def main() -> None:
     music_entries = load_entries("music")
     perspective_entries = load_entries("perspectives")
     bangla_entries = load_entries("bangla")
+    homepage = load_homepage()
     all_entries = music_entries + perspective_entries + bangla_entries
 
     slugs = {}
@@ -329,6 +412,7 @@ def main() -> None:
 
     write_generated_posts(all_entries)
     update_indexes(music_entries, perspective_entries, bangla_entries)
+    update_homepage(homepage)
     print(
         "CMS build complete:",
         f"music={sum(not x.draft for x in music_entries)}",

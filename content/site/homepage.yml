@@ -1,0 +1,15 @@
+title: "Reaz Romen — Systems Architect"
+meta_description: "Reaz Romen — systems architect working across Linux, telecom, embedded devices, cloud infrastructure, RF and resilient communication systems."
+hero_before_path:
+  - "Good day. I’m Reaz Romen, a systems architect working across communication systems, embedded devices, and cloud infrastructure."
+  - "Most of my work lives around Linux and telecom: SIP/RTP, WebRTC, FreeSWITCH, signaling and media flows, enterprise dialers, Kubernetes, and AI telephony systems. I like following the whole path—from an endpoint and signaling exchange to media, routing, backend services, infrastructure, and observability."
+  - "I also work closer to the hardware with ESP32 firmware, real-time audio, OTA, device fleets, and distributed systems. I’m a strong believer in Linux adoption and in systems you can inspect, trace, debug, and actually understand."
+hero_after_path:
+  - "I read a lot, and Carl Sagan has probably influenced me more than any other writer. That curiosity about how things work is part of what pulled me toward Linux and open systems in the first place."
+  - "Lately I’ve been going further down the stack into RF and satellite signals, Wi-Fi CSI, wireless PHY behavior, propagation, and Doppler. I’m also exploring coastal climate intelligence using satellite, hydrological, and environmental data."
+  - "For fun, I’m experimenting with Reticulum over LoRa—low-bandwidth networking and resilient communication without assuming normal Internet infrastructure is always there."
+selected_work_heading: "Selected work"
+recent_writing_heading: "Recent writing"
+areas_heading: "Areas I work across"
+about_heading: "About"
+about_text: "This is my personal engineering space: systems I've built, the failures behind them, implementation notes, and writing from the work itself."
