@@ -1,0 +1,2407 @@
+{
+  "language": "en",
+  "target_articles": 300,
+  "target_body_words": 3000,
+  "articles": [
+    {
+      "id": "SIG-001",
+      "category": "Signal foundations",
+      "title": "Signals Are Everywhere. Why Do We Notice So Few of Them?",
+      "language": "en",
+      "status": "published",
+      "url": "/posts/signals-001-hidden-communication.html"
+    },
+    {
+      "id": "SIG-002",
+      "category": "Signal foundations",
+      "title": "Signals, Messages, and Meaning Are Different Problems",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-003",
+      "category": "Signal foundations",
+      "title": "When Noise Becomes the Evidence",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-004",
+      "category": "Signal foundations",
+      "title": "Where Does a Signal Begin and End?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-005",
+      "category": "Signal foundations",
+      "title": "Time and Frequency: Two Views of One Observation",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-006",
+      "category": "Signal foundations",
+      "title": "Why Larger Amplitude Does Not Mean More Information",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-007",
+      "category": "Signal foundations",
+      "title": "Phase: How Waves Reinforce and Cancel",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-008",
+      "category": "Signal foundations",
+      "title": "Measuring an Analog World Digitally",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-009",
+      "category": "Signal foundations",
+      "title": "What Sampling Leaves Out",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-010",
+      "category": "Signal foundations",
+      "title": "Aliasing and the Apparently Backward Wheel",
+      "language": "en",
+      "status": "published",
+      "url": "/posts/signals-010-aliasing-backward-wheel.html"
+    },
+    {
+      "id": "SIG-011",
+      "category": "Signal foundations",
+      "title": "What Bandwidth Actually Limits",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-012",
+      "category": "Signal foundations",
+      "title": "Shannon Information and Human Meaning",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-013",
+      "category": "Signal foundations",
+      "title": "What Signal-to-Noise Ratio Can Tell Us",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-014",
+      "category": "Signal foundations",
+      "title": "Why Decibels Add While Power Ratios Multiply",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-015",
+      "category": "Signal foundations",
+      "title": "Correlation Is Where an Investigation Starts",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-016",
+      "category": "Signal foundations",
+      "title": "Convolution and a System's Memory",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-017",
+      "category": "Signal foundations",
+      "title": "Filtering: What We Keep and What We Lose",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-018",
+      "category": "Signal foundations",
+      "title": "Detection Thresholds, False Alarms, and Misses",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-019",
+      "category": "Signal foundations",
+      "title": "How an Attractive Graph Can Mislead",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-020",
+      "category": "Signal foundations",
+      "title": "Building an Evidence Trail for a Signal Investigation",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-021",
+      "category": "Electrical and embedded signals",
+      "title": "The Message Behind a Voltage Trace",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-022",
+      "category": "Electrical and embedded signals",
+      "title": "How Analog Are Digital Ones and Zeros?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-023",
+      "category": "Electrical and embedded signals",
+      "title": "When Two Devices Disagree About Ground",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-024",
+      "category": "Electrical and embedded signals",
+      "title": "One Button Press, Ten Firmware Events",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-025",
+      "category": "Electrical and embedded signals",
+      "title": "UART and the Wrong Baud Rate",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-026",
+      "category": "Electrical and embedded signals",
+      "title": "The Conversation Between I2C ACK and NACK",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-027",
+      "category": "Electrical and embedded signals",
+      "title": "SPI Clocks, Data, and Chip Select",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-028",
+      "category": "Electrical and embedded signals",
+      "title": "PWM and the Meaning of Pulse Width",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-029",
+      "category": "Electrical and embedded signals",
+      "title": "ADC Resolution Is Not Measurement Accuracy",
+      "language": "en",
+      "status": "published",
+      "url": "/posts/signals-029-adc-resolution-accuracy.html"
+    },
+    {
+      "id": "SIG-030",
+      "category": "Electrical and embedded signals",
+      "title": "From a DAC to a Speaker",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-031",
+      "category": "Electrical and embedded signals",
+      "title": "Interrupts Versus Polling for News",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-032",
+      "category": "Electrical and embedded signals",
+      "title": "How a Clock Coordinates a Board",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-033",
+      "category": "Electrical and embedded signals",
+      "title": "Jitter: The Right Event at the Wrong Time",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-034",
+      "category": "Electrical and embedded signals",
+      "title": "Ringing and Reflections on Long Wires",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-035",
+      "category": "Electrical and embedded signals",
+      "title": "Why Differential Signaling Uses Two Conductors",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-036",
+      "category": "Electrical and embedded signals",
+      "title": "Reaching Remote Sensors with RS-485",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-037",
+      "category": "Electrical and embedded signals",
+      "title": "Who Speaks First on a CAN Bus?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-038",
+      "category": "Electrical and embedded signals",
+      "title": "What USB Negotiates Besides Data",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-039",
+      "category": "Electrical and embedded signals",
+      "title": "How I2S Moves Audio Between Chips",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-040",
+      "category": "Electrical and embedded signals",
+      "title": "What Oscilloscopes and Logic Analyzers Prove",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-041",
+      "category": "Radio and antennas",
+      "title": "How Messages Ride on Radio Waves",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-042",
+      "category": "Radio and antennas",
+      "title": "Why an Antenna Is More Than a Piece of Wire",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-043",
+      "category": "Radio and antennas",
+      "title": "Wavelength and Antenna Dimensions",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-044",
+      "category": "Radio and antennas",
+      "title": "Where Power Goes During an Impedance Mismatch",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-045",
+      "category": "Radio and antennas",
+      "title": "Can Good SWR Coexist with a Bad Link?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-046",
+      "category": "Radio and antennas",
+      "title": "Polarization and the Effect of Turning an Antenna",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-047",
+      "category": "Radio and antennas",
+      "title": "Antenna Gain Does Not Create Energy",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-048",
+      "category": "Radio and antennas",
+      "title": "Near Fields and Far Fields",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-049",
+      "category": "Radio and antennas",
+      "title": "Distance and the Link Budget",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-050",
+      "category": "Radio and antennas",
+      "title": "The Invisible Obstacle in a Fresnel Zone",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-051",
+      "category": "Radio and antennas",
+      "title": "One Message Arriving Along Several Paths",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-052",
+      "category": "Radio and antennas",
+      "title": "Why a Stationary Radio Signal Can Fade",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-053",
+      "category": "Radio and antennas",
+      "title": "AM and FM Change Different Things",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-054",
+      "category": "Radio and antennas",
+      "title": "I/Q Samples and a Two-Dimensional Radio View",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-055",
+      "category": "Radio and antennas",
+      "title": "The Consequences of Carrier Frequency Offset",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-056",
+      "category": "Radio and antennas",
+      "title": "Reading a Spectrum with Software-Defined Radio",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-057",
+      "category": "Radio and antennas",
+      "title": "Harmonics Versus Spurious Emissions",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-058",
+      "category": "Radio and antennas",
+      "title": "When a Low-Noise Amplifier Helps—and When It Does Not",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-059",
+      "category": "Radio and antennas",
+      "title": "A Weak Signal Beside a Strong Neighbor",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-060",
+      "category": "Radio and antennas",
+      "title": "Investigating a Complete RF Link Budget",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-061",
+      "category": "Wi-Fi and local wireless",
+      "title": "Full Wi-Fi Bars, Slow Internet",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-062",
+      "category": "Wi-Fi and local wireless",
+      "title": "RSSI and SNR Tell Different Stories",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-063",
+      "category": "Wi-Fi and local wireless",
+      "title": "Overlapping Channels in a Crowded Neighborhood",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-064",
+      "category": "Wi-Fi and local wireless",
+      "title": "Co-Channel Contention Versus Interference",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-065",
+      "category": "Wi-Fi and local wireless",
+      "title": "The Hidden-Node Problem",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-066",
+      "category": "Wi-Fi and local wireless",
+      "title": "What an Access Point Says in a Beacon",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-067",
+      "category": "Wi-Fi and local wireless",
+      "title": "Probe, Authenticate, Associate",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-068",
+      "category": "Wi-Fi and local wireless",
+      "title": "OFDM and Its Many Subcarriers",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-069",
+      "category": "Wi-Fi and local wireless",
+      "title": "Sharing Time and Frequency with OFDMA",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-070",
+      "category": "Wi-Fi and local wireless",
+      "title": "What Multiple Antennas Contribute to MIMO",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-071",
+      "category": "Wi-Fi and local wireless",
+      "title": "What Beamforming Actually Shapes",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-072",
+      "category": "Wi-Fi and local wireless",
+      "title": "Reading a Room Through Channel State Information",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-073",
+      "category": "Wi-Fi and local wireless",
+      "title": "Wi-Fi Presence Sensing: Person or Moving Curtain?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-074",
+      "category": "Wi-Fi and local wireless",
+      "title": "Why Wireless Sensing Calibration Changes",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-075",
+      "category": "Wi-Fi and local wireless",
+      "title": "The Small Messages in Bluetooth Advertising",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-076",
+      "category": "Wi-Fi and local wireless",
+      "title": "The Logic of Bluetooth Frequency Hopping",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-077",
+      "category": "Wi-Fi and local wireless",
+      "title": "The Paths Inside Zigbee and Thread Meshes",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-078",
+      "category": "Wi-Fi and local wireless",
+      "title": "What LoRa Trades for Range",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-079",
+      "category": "Wi-Fi and local wireless",
+      "title": "Reticulum over LoRa and Resilient Low-Rate Messages",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-080",
+      "category": "Wi-Fi and local wireless",
+      "title": "A Measurement Plan for an Urban Wireless Link",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-081",
+      "category": "Mobile, satellite, and navigation",
+      "title": "The Phone's First Conversation After a SIM Is Inserted",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-082",
+      "category": "Mobile, satellite, and navigation",
+      "title": "Changing Cells Without Losing a Call",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-083",
+      "category": "Mobile, satellite, and navigation",
+      "title": "Who Gets Radio Resources and When?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-084",
+      "category": "Mobile, satellite, and navigation",
+      "title": "LTE Control and User Planes",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-085",
+      "category": "Mobile, satellite, and navigation",
+      "title": "How 5G Numerology Divides Time",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-086",
+      "category": "Mobile, satellite, and navigation",
+      "title": "Why Uplink and Downlink Differ",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-087",
+      "category": "Mobile, satellite, and navigation",
+      "title": "How a Phone Chooses Transmit Power",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-088",
+      "category": "Mobile, satellite, and navigation",
+      "title": "Diameter Signaling and Its Boundaries",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-089",
+      "category": "Mobile, satellite, and navigation",
+      "title": "Why SS7 Still Matters",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-090",
+      "category": "Mobile, satellite, and navigation",
+      "title": "IMS and the Mobile Voice Session",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-091",
+      "category": "Mobile, satellite, and navigation",
+      "title": "Distance and Delay in Satellite Links",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-092",
+      "category": "Mobile, satellite, and navigation",
+      "title": "Keeping a Link to a Fast-Moving LEO Satellite",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-093",
+      "category": "Mobile, satellite, and navigation",
+      "title": "Doppler Shift as Evidence of Motion",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-094",
+      "category": "Mobile, satellite, and navigation",
+      "title": "How GPS Broadcasts Time",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-095",
+      "category": "Mobile, satellite, and navigation",
+      "title": "Four Satellites and the Positioning Problem",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-096",
+      "category": "Mobile, satellite, and navigation",
+      "title": "Urban Multipath and GNSS Position Errors",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-097",
+      "category": "Mobile, satellite, and navigation",
+      "title": "The Ionosphere's Effect on Signal Delay",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-098",
+      "category": "Mobile, satellite, and navigation",
+      "title": "Rain Fade in Satellite Links",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-099",
+      "category": "Mobile, satellite, and navigation",
+      "title": "Satellite Phones and Terrestrial Phones",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-100",
+      "category": "Mobile, satellite, and navigation",
+      "title": "Before Trusting a Navigation Reading",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-101",
+      "category": "Telephony and real-time media",
+      "title": "A Connected Call with Silence at Both Ends",
+      "language": "en",
+      "status": "published",
+      "url": "/posts/signals-101-connected-call-silence.html"
+    },
+    {
+      "id": "SIG-102",
+      "category": "Telephony and real-time media",
+      "title": "The Session Conversation Inside SIP",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-103",
+      "category": "Telephony and real-time media",
+      "title": "SDP and the Address Where Audio Should Go",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-104",
+      "category": "Telephony and real-time media",
+      "title": "RTP Packets and Media Time",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-105",
+      "category": "Telephony and real-time media",
+      "title": "How RTCP Reports on Media Delivery",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-106",
+      "category": "Telephony and real-time media",
+      "title": "Does Ringback Mean the Other Phone Is Ringing?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-107",
+      "category": "Telephony and real-time media",
+      "title": "Early Media Before a Call Is Answered",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-108",
+      "category": "Telephony and real-time media",
+      "title": "Three Ways to Send a DTMF Digit",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-109",
+      "category": "Telephony and real-time media",
+      "title": "Investigating One-Way Audio Behind NAT",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-110",
+      "category": "Telephony and real-time media",
+      "title": "When Codec Negotiation Does Not Produce Useful Audio",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-111",
+      "category": "Telephony and real-time media",
+      "title": "What Packet Loss Sounds Like",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-112",
+      "category": "Telephony and real-time media",
+      "title": "The Jitter Buffer's Delay Trade-Off",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-113",
+      "category": "Telephony and real-time media",
+      "title": "How Echo Cancellation Identifies Returning Audio",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-114",
+      "category": "Telephony and real-time media",
+      "title": "Voice Activity Detection and the Treatment of Silence",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-115",
+      "category": "Telephony and real-time media",
+      "title": "ICE, STUN, and TURN in WebRTC",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-116",
+      "category": "Telephony and real-time media",
+      "title": "PBX Registration Does Not Prove Calling Works",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-117",
+      "category": "Telephony and real-time media",
+      "title": "An OpenSIPS Proxy and a Media Server Have Different Jobs",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-118",
+      "category": "Telephony and real-time media",
+      "title": "Tracing Call State Through FreeSWITCH and Asterisk",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-119",
+      "category": "Telephony and real-time media",
+      "title": "The Complete Path Through an ESP32 Voice Device",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-120",
+      "category": "Telephony and real-time media",
+      "title": "Investigating Latency in an AI Voice Receptionist",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-121",
+      "category": "Network and distributed signaling",
+      "title": "Packets and Application Messages Are Different Units",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-122",
+      "category": "Network and distributed signaling",
+      "title": "Finding a Neighbor with ARP",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-123",
+      "category": "Network and distributed signaling",
+      "title": "The DHCP Address Conversation",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-124",
+      "category": "Network and distributed signaling",
+      "title": "From a DNS Name to an Address",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-125",
+      "category": "Network and distributed signaling",
+      "title": "Does a TCP Handshake Prove an Application Is Ready?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-126",
+      "category": "Network and distributed signaling",
+      "title": "What an Acknowledgment Actually Confirms",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-127",
+      "category": "Network and distributed signaling",
+      "title": "Timeouts: Decisions Made from Silence",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-128",
+      "category": "Network and distributed signaling",
+      "title": "How Retries Turn a Small Failure into a Storm",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-129",
+      "category": "Network and distributed signaling",
+      "title": "A Service with a Heartbeat That Still Cannot Work",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-130",
+      "category": "Network and distributed signaling",
+      "title": "How Gossip Protocols Spread News",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-131",
+      "category": "Network and distributed signaling",
+      "title": "Trust and Messages in Consensus",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-132",
+      "category": "Network and distributed signaling",
+      "title": "The Timing of Leader Election",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-133",
+      "category": "Network and distributed signaling",
+      "title": "Why Distributed Clocks Disagree",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-134",
+      "category": "Network and distributed signaling",
+      "title": "Lamport Clocks and Event Ordering",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-135",
+      "category": "Network and distributed signaling",
+      "title": "Message Delivery Versus Message Processing",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-136",
+      "category": "Network and distributed signaling",
+      "title": "Idempotency and Repeated Instructions",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-137",
+      "category": "Network and distributed signaling",
+      "title": "Backpressure as a Request to Slow Down",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-138",
+      "category": "Network and distributed signaling",
+      "title": "Identity and Encryption in a TLS Handshake",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-139",
+      "category": "Network and distributed signaling",
+      "title": "Desired State and Observed State in an OTA Control Plane",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-140",
+      "category": "Network and distributed signaling",
+      "title": "Combining Logs, Metrics, and Traces During an Incident",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-141",
+      "category": "Sound, audio, and vibration",
+      "title": "What Changes When Sound Travels Through Air?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-142",
+      "category": "Sound, audio, and vibration",
+      "title": "A Microphone Turns Pressure into an Electrical Signal",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-143",
+      "category": "Sound, audio, and vibration",
+      "title": "The Reverse Journey Through a Speaker",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-144",
+      "category": "Sound, audio, and vibration",
+      "title": "Pitch and Timbre Explain Different Experiences",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-145",
+      "category": "Sound, audio, and vibration",
+      "title": "Harmonics and the Identity of an Instrument",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-146",
+      "category": "Sound, audio, and vibration",
+      "title": "Room Reverberation as a Record of Reflections",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-147",
+      "category": "Sound, audio, and vibration",
+      "title": "Phase Cancellation Between Two Microphones",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-148",
+      "category": "Sound, audio, and vibration",
+      "title": "What Noise-Canceling Headphones Remove",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-149",
+      "category": "Sound, audio, and vibration",
+      "title": "Reading Sound on a Spectrogram",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-150",
+      "category": "Sound, audio, and vibration",
+      "title": "What Audio Compression Discards",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-151",
+      "category": "Sound, audio, and vibration",
+      "title": "Loudness Is Not Peak Level",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-152",
+      "category": "Sound, audio, and vibration",
+      "title": "Sensing with Ultrasound",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-153",
+      "category": "Sound, audio, and vibration",
+      "title": "Sonar and the Time of a Returning Echo",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-154",
+      "category": "Sound, audio, and vibration",
+      "title": "The Strategies and Limits of Bat Echolocation",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-155",
+      "category": "Sound, audio, and vibration",
+      "title": "Why Underwater Audio Links Behave Differently",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-156",
+      "category": "Sound, audio, and vibration",
+      "title": "A Machine's Condition in Bearing Vibration",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-157",
+      "category": "Sound, audio, and vibration",
+      "title": "Seismic Waves as Evidence of Earthquakes",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-158",
+      "category": "Sound, audio, and vibration",
+      "title": "Distant Events Recorded in Infrasound",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-159",
+      "category": "Sound, audio, and vibration",
+      "title": "When Musical Silence Carries Information",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-160",
+      "category": "Sound, audio, and vibration",
+      "title": "Investigating the Origin of an Audio Recording",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-161",
+      "category": "Light, optics, and imaging",
+      "title": "Light as a Signal and the Eye as a Receiver",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-162",
+      "category": "Light, optics, and imaging",
+      "title": "A Message Traveling Through Optical Fiber",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-163",
+      "category": "Light, optics, and imaging",
+      "title": "Attenuation and Dispersion in Fiber",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-164",
+      "category": "Light, optics, and imaging",
+      "title": "From Light to Current in a Photodiode",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-165",
+      "category": "Light, optics, and imaging",
+      "title": "What a Camera Pixel Measures",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-166",
+      "category": "Light, optics, and imaging",
+      "title": "When More Exposure Loses Information",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-167",
+      "category": "Light, optics, and imaging",
+      "title": "Rolling Shutters and Distorted Time",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-168",
+      "category": "Light, optics, and imaging",
+      "title": "The Invisible Instructions in an Infrared Remote",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-169",
+      "category": "Light, optics, and imaging",
+      "title": "Lidar and the Return Time of Light",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-170",
+      "category": "Light, optics, and imaging",
+      "title": "Depth from Time-of-Flight Cameras",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-171",
+      "category": "Light, optics, and imaging",
+      "title": "What a Thermal Camera Observes",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-172",
+      "category": "Light, optics, and imaging",
+      "title": "Spectroscopy and Material Identification",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-173",
+      "category": "Light, optics, and imaging",
+      "title": "Following Cellular Events with Fluorescence",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-174",
+      "category": "Light, optics, and imaging",
+      "title": "Structures Revealed by Polarized Light",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-175",
+      "category": "Light, optics, and imaging",
+      "title": "Small Distances Measured with Optical Interference",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-176",
+      "category": "Light, optics, and imaging",
+      "title": "Human Color and Sensor Data",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-177",
+      "category": "Light, optics, and imaging",
+      "title": "How Atmospheric Scattering Changes What We See",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-178",
+      "category": "Light, optics, and imaging",
+      "title": "Communication Through Rapid LED Modulation",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-179",
+      "category": "Light, optics, and imaging",
+      "title": "Image Processing and the Creation of Artifacts",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-180",
+      "category": "Light, optics, and imaging",
+      "title": "When an Image Counts as Scientific Evidence",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-181",
+      "category": "Cells and chemical signaling",
+      "title": "What Does It Mean for Cells to Communicate?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-182",
+      "category": "Cells and chemical signaling",
+      "title": "Ligands and Receptor Selectivity",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-183",
+      "category": "Cells and chemical signaling",
+      "title": "Endocrine, Paracrine, and Autocrine Distances",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-184",
+      "category": "Cells and chemical signaling",
+      "title": "An External Event and an Internal Cellular Response",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-185",
+      "category": "Cells and chemical signaling",
+      "title": "G Proteins as Molecular Switches",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-186",
+      "category": "Cells and chemical signaling",
+      "title": "Amplification Through Kinase Cascades",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-187",
+      "category": "Cells and chemical signaling",
+      "title": "The Timing of Calcium Pulses",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-188",
+      "category": "Cells and chemical signaling",
+      "title": "Why Cyclic AMP Is Called a Second Messenger",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-189",
+      "category": "Cells and chemical signaling",
+      "title": "Do More Receptors Always Mean a Stronger Response?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-190",
+      "category": "Cells and chemical signaling",
+      "title": "How Feedback Regulates Cellular Signaling",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-191",
+      "category": "Cells and chemical signaling",
+      "title": "Bacterial Chemotaxis and Directional Behavior",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-192",
+      "category": "Cells and chemical signaling",
+      "title": "Quorum Sensing and Local Population Information",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-193",
+      "category": "Cells and chemical signaling",
+      "title": "Communication in a Biofilm Environment",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-194",
+      "category": "Cells and chemical signaling",
+      "title": "What Evidence Supports Chemical Signaling in Plants?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-195",
+      "category": "Cells and chemical signaling",
+      "title": "Recognition and Alerts in Immune Cells",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-196",
+      "category": "Cells and chemical signaling",
+      "title": "One Cytokine and Several Possible Effects",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-197",
+      "category": "Cells and chemical signaling",
+      "title": "What the DNA-as-Source-Code Analogy Misses",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-198",
+      "category": "Cells and chemical signaling",
+      "title": "Timing and Dose in Gene-Expression Responses",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-199",
+      "category": "Cells and chemical signaling",
+      "title": "Disrupted Signaling in Cancer Research",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-200",
+      "category": "Cells and chemical signaling",
+      "title": "A Cell Diagram Is Not a Living Cell",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-201",
+      "category": "Nerves, senses, and the body",
+      "title": "How a Neuronal Signal Begins",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-202",
+      "category": "Nerves, senses, and the body",
+      "title": "Where the Binary Analogy Fails for Action Potentials",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-203",
+      "category": "Nerves, senses, and the body",
+      "title": "Electrical and Chemical Events at a Synapse",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-204",
+      "category": "Nerves, senses, and the body",
+      "title": "What a Neuron's Firing Rate Can Tell Us",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-205",
+      "category": "Nerves, senses, and the body",
+      "title": "The Information Question in Spike Timing",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-206",
+      "category": "Nerves, senses, and the body",
+      "title": "From Retinal Light to Visual Interpretation",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-207",
+      "category": "Nerves, senses, and the body",
+      "title": "From Air Pressure to Hearing",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-208",
+      "category": "Nerves, senses, and the body",
+      "title": "Odor Molecules and Receptor Patterns",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-209",
+      "category": "Nerves, senses, and the body",
+      "title": "Different Pathways for Pressure, Vibration, and Temperature",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-210",
+      "category": "Nerves, senses, and the body",
+      "title": "Is Pain Adequately Described as an Alarm?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-211",
+      "category": "Nerves, senses, and the body",
+      "title": "What an ECG Measures—and What It Does Not",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-212",
+      "category": "Nerves, senses, and the body",
+      "title": "The Combined Activity Recorded by EEG",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-213",
+      "category": "Nerves, senses, and the body",
+      "title": "Observing Muscle Activity with EMG",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-214",
+      "category": "Nerves, senses, and the body",
+      "title": "Light, Models, and Pulse Oximetry",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-215",
+      "category": "Nerves, senses, and the body",
+      "title": "Motion Artifacts in Wearable Measurements",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-216",
+      "category": "Nerves, senses, and the body",
+      "title": "Several Sources Behind a Breathing Trace",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-217",
+      "category": "Nerves, senses, and the body",
+      "title": "Control in the Autonomic Nervous System",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-218",
+      "category": "Nerves, senses, and the body",
+      "title": "Feedback and Homeostasis",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-219",
+      "category": "Nerves, senses, and the body",
+      "title": "The Limits of Decoding in Brain–Computer Interfaces",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-220",
+      "category": "Nerves, senses, and the body",
+      "title": "Uncertainty Between a Body Measurement and a Decision",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-221",
+      "category": "Animals, environments, and social signals",
+      "title": "What Evidence Reveals the Message in a Bird Call?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-222",
+      "category": "Animals, environments, and social signals",
+      "title": "Chemical Communication Through Pheromones",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-223",
+      "category": "Animals, environments, and social signals",
+      "title": "Direction and Distance in the Honeybee Dance",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-224",
+      "category": "Animals, environments, and social signals",
+      "title": "Patterns in Firefly Light",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-225",
+      "category": "Animals, environments, and social signals",
+      "title": "The Multiple Functions of Octopus Color Changes",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-226",
+      "category": "Animals, environments, and social signals",
+      "title": "The Cost of a False Alarm Call",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-227",
+      "category": "Animals, environments, and social signals",
+      "title": "Mimicry and Borrowed Signals",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-228",
+      "category": "Animals, environments, and social signals",
+      "title": "Testing Claims About Costly Signaling",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-229",
+      "category": "Animals, environments, and social signals",
+      "title": "An Evolved Signal Versus an Incidental Cue",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-230",
+      "category": "Animals, environments, and social signals",
+      "title": "Animal Communication in a Changing Soundscape",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-231",
+      "category": "Animals, environments, and social signals",
+      "title": "Why Facial Expressions Need Context",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-232",
+      "category": "Animals, environments, and social signals",
+      "title": "Traffic Lights and Shared Rules",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-233",
+      "category": "Animals, environments, and social signals",
+      "title": "Words, Tone, and Conflicting Messages",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-234",
+      "category": "Animals, environments, and social signals",
+      "title": "Signals of Trustworthiness and Their Imitation",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-235",
+      "category": "Animals, environments, and social signals",
+      "title": "The Limits of Treating Prices as Signals",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-236",
+      "category": "Animals, environments, and social signals",
+      "title": "Popularity Is Not Evidence on Social Media",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-237",
+      "category": "Animals, environments, and social signals",
+      "title": "Feedback in a Rumor Network",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-238",
+      "category": "Animals, environments, and social signals",
+      "title": "What Ranking Systems Treat as Signals",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-239",
+      "category": "Animals, environments, and social signals",
+      "title": "Can Signaling Theory Explain Every Behavior?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-240",
+      "category": "Animals, environments, and social signals",
+      "title": "Testing a Social Claim with Data and Context",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-241",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "A Sensor's Temperature Is Not a City's Temperature",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-242",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Rain a Gauge Does Not Capture",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-243",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "What Weather-Radar Reflectivity Means",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-244",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Radial Wind Motion in Doppler Radar",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-245",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Seeing Clouds Versus Estimating Rainfall",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-246",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Cloud-Top Temperature in Infrared Images",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-247",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Reading a Sequence of Himawari Frames",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-248",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "The Electrical and Radio Traces of Lightning",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-249",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "River Level Is Not River Discharge",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-250",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "GloFAS Model Output Versus a Field Gauge",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-251",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Tidal Timing, Phase, and River Flow",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-252",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Wave Spectra from Ocean Buoys",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-253",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Separating Storm Surge from the Tide",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-254",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Water Elevation from Satellite Altimetry",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-255",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "What NDVI Reveals About Vegetation",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-256",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Does a Fire Hotspot Establish an Actual Fire?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-257",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Humidity and Low-Cost Air-Quality Measurements",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-258",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Timing in Coastal Salinity Observations",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-259",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Models, Sensors, and Forecasts on a District Dashboard",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-260",
+      "category": "Weather, rivers, and Earth observation",
+      "title": "Thresholds and Human Decisions in Disaster Alerts",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-261",
+      "category": "Space and fundamental physics",
+      "title": "Why Starlight Is Information from the Past",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-262",
+      "category": "Space and fundamental physics",
+      "title": "Chemical Evidence in Stellar Spectra",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-263",
+      "category": "Space and fundamental physics",
+      "title": "The Different Causes of Redshift",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-264",
+      "category": "Space and fundamental physics",
+      "title": "The Regular Signals of Pulsars",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-265",
+      "category": "Space and fundamental physics",
+      "title": "What We Know—and Do Not Know—About Fast Radio Bursts",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-266",
+      "category": "Space and fundamental physics",
+      "title": "Evidence in the Cosmic Microwave Background",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-267",
+      "category": "Space and fundamental physics",
+      "title": "Removing Terrestrial Interference from Radio Astronomy",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-268",
+      "category": "Space and fundamental physics",
+      "title": "Combining Distant Antennas with Interferometry",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-269",
+      "category": "Space and fundamental physics",
+      "title": "How a Gravitational Wave Becomes an Observation",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-270",
+      "category": "Space and fundamental physics",
+      "title": "An Astrophysical Event Versus Detector Noise at LIGO",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-271",
+      "category": "Space and fundamental physics",
+      "title": "Searching for Rare Events in Neutrino Detectors",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-272",
+      "category": "Space and fundamental physics",
+      "title": "The Small Dip Produced by a Planetary Transit",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-273",
+      "category": "Space and fundamental physics",
+      "title": "Searching an Exoplanet Atmosphere for Biosignatures",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-274",
+      "category": "Space and fundamental physics",
+      "title": "Why a Biosignature Is Not Automatically Proof of Life",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-275",
+      "category": "Space and fundamental physics",
+      "title": "What SETI Means by a Technosignature",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-276",
+      "category": "Space and fundamental physics",
+      "title": "The Wow! Signal and the Limits of a Single Event",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-277",
+      "category": "Space and fundamental physics",
+      "title": "Recovering Voyager's Faint Transmission",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-278",
+      "category": "Space and fundamental physics",
+      "title": "How Solar Activity Changes Radio Propagation",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-279",
+      "category": "Space and fundamental physics",
+      "title": "Measurement Rules in Quantum Communication",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-280",
+      "category": "Space and fundamental physics",
+      "title": "When Calling the Universe a Message Becomes a Metaphor",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-281",
+      "category": "Investigation, design, and interpretation",
+      "title": "No Data, or a Receiver That Is Not Working?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-282",
+      "category": "Investigation, design, and interpretation",
+      "title": "An Alarm's Postmortem",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-283",
+      "category": "Investigation, design, and interpretation",
+      "title": "Wrong Timestamps and a Misleading Incident Story",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-284",
+      "category": "Investigation, design, and interpretation",
+      "title": "The Consequences of Incorrect Units",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-285",
+      "category": "Investigation, design, and interpretation",
+      "title": "Measuring Change Without a Baseline",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-286",
+      "category": "Investigation, design, and interpretation",
+      "title": "Mistaking Sensor Drift for a New Event",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-287",
+      "category": "Investigation, design, and interpretation",
+      "title": "Using Synthetic Data to Test a Model's Limits",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-288",
+      "category": "Investigation, design, and interpretation",
+      "title": "What a Control Condition Contributes",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-289",
+      "category": "Investigation, design, and interpretation",
+      "title": "Blind Analysis and the Influence of Expectations",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-290",
+      "category": "Investigation, design, and interpretation",
+      "title": "Multiple Tests and Coincidental Findings",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-291",
+      "category": "Investigation, design, and interpretation",
+      "title": "How Filter Choices Change the Result",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-292",
+      "category": "Investigation, design, and interpretation",
+      "title": "Does an AI Detector Learn the Signal or a Shortcut?",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-293",
+      "category": "Investigation, design, and interpretation",
+      "title": "Prediction, Explanation, and Causation",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-294",
+      "category": "Investigation, design, and interpretation",
+      "title": "Auditing an Open-Source Signal Pipeline",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-295",
+      "category": "Investigation, design, and interpretation",
+      "title": "More Observability Data Versus Better Evidence",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-296",
+      "category": "Investigation, design, and interpretation",
+      "title": "The Meaning of Silence in Fail-Safe Communication",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-297",
+      "category": "Investigation, design, and interpretation",
+      "title": "Different Interpretations of the Same Signal",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-298",
+      "category": "Investigation, design, and interpretation",
+      "title": "The Boundary Between Information Theory and Meaning",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-299",
+      "category": "Investigation, design, and interpretation",
+      "title": "Measurement, Consent, and Surveillance",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "id": "SIG-300",
+      "category": "Investigation, design, and interpretation",
+      "title": "What Three Hundred Investigations Should Teach Us",
+      "language": "en",
+      "status": "planned",
+      "url": null
+    }
+  ]
+}
