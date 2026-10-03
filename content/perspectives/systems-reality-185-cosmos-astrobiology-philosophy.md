@@ -1,5 +1,5 @@
 ---
-title: "The Philosophical Problem Hidden Inside The Cosmos and Life Beyond Earth"
+title: "The Philosophical Problem Hidden Inside the Search for Life Beyond Earth"
 date: '2026-10-03'
 draft: false
 language: en

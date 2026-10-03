@@ -18,7 +18,7 @@ editorial_mode: mechanism
 editorial_batch: 20261003-systems-reality-185
 ---
 
-The easiest way to misunderstand dna is to begin with a metaphor and never return to the mechanism. DNA is a chemically stable information-bearing polymer, but sequence becomes biologically consequential only inside a cell that can copy, transcribe, regulate and interpret it. Protein-coding regions are only part of the genome; regulatory sequences, chromosome organization, molecular machinery, cellular state and environment all affect what happens next.
+The easiest way to misunderstand DNA is to begin with a metaphor and never return to the mechanism. DNA is a chemically stable information-bearing polymer, but sequence becomes biologically consequential only inside a cell that can copy, transcribe, regulate and interpret it. Protein-coding regions are only part of the genome; regulatory sequences, chromosome organization, molecular machinery, cellular state and environment all affect what happens next.
 
 For me, the useful sequence is the opposite: observe the phenomenon, identify what changes state, locate the constraints, and only then borrow language from engineering. A metaphor should reduce cognitive load; it should not silently replace the thing being explained.
 

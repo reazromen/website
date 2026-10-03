@@ -1,7 +1,7 @@
-title: Systems, engineering, and the things between them.
+title: Systems, life, intelligence, and the universe.
 browser_title: Perspectives — Reaz Romen
-description: Engineering perspectives on systems, infrastructure, embedded devices,
-  real-time communications, networking, observability and the tradeoffs behind them.
+description: Essays from a software architect exploring engineered systems, biology, information,
+  intelligence, civilization, philosophy and the cosmos.
 url: /perspectives/index.html
 draft: false
 blocks:
@@ -9,13 +9,11 @@ blocks:
   label: PERSPECTIVES
   body: PERSPECTIVES
 - id: BLOCK1
-  label: Systems, engineering, and the things between them.
-  body: Systems, engineering, and the things between them.
+  label: Systems, life, intelligence, and the universe.
+  body: Systems, life, intelligence, and the universe.
 - id: BLOCK2
-  label: Long-form technical writing and opinion grounded in protocols, hardware behavior,
-    production sy
-  body: Long-form technical writing and opinion grounded in protocols, hardware behavior,
-    production systems, failure modes, measurements and engineering tradeoffs.
+  label: A software architect looking outward—from code and networks to cells, minds, human systems and the cosmos.
+  body: A software architect looking outward—from code and networks to cells, minds, human systems and the cosmos.
 - id: BLOCK3
   label: ARCHIVE
   body: ARCHIVE
@@ -26,8 +24,8 @@ blocks:
   label: FEATURED
   body: FEATURED
 - id: BLOCK6
-  label: CURATION PENDING QUILL
-  body: CURATION PENDING QUILL
+  label: SYSTEMS OF REALITY
+  body: SYSTEMS OF REALITY
 - id: BLOCK7
   label: TOPIC INDEX
   body: TOPIC INDEX
@@ -83,14 +81,14 @@ blocks:
   label: LATEST
   body: LATEST
 - id: BLOCK25
-  label: 117 items
-  body: 117 items
+  label: 332 items
+  body: 332 items
 - id: BLOCK26
   label: '2026'
   body: '2026'
 - id: BLOCK27
-  label: September
-  body: September
+  label: October
+  body: October
 - id: BLOCK28
   label: Chronological writing archive
   body: Chronological writing archive
@@ -98,10 +96,10 @@ lists:
 - key: LIST0
   filter:
     urls:
-    - /posts/voiceware-started-with-one-deployable-service-not-a-platform.html
-    - /posts/how-voiceware-grew-from-a-web-app-chart-into-a-multi-service-deployment-repository.html
-    - /posts/the-real-architecture-work-was-finding-voiceware-s-runtime-boundaries.html
-    - /posts/why-i-kept-audio-workers-redis-nginx-and-the-web-app-separate.html
+    - /posts/systems-reality-001-dna-mechanism.html
+    - /posts/systems-reality-039-evolution-history.html
+    - /posts/systems-reality-144-mathematics-history.html
+    - /posts/systems-reality-184-cosmos-astrobiology-history.html
   style: cards
 - key: LIST1
   filter:

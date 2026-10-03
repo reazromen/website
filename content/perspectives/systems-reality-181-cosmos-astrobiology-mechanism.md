@@ -1,5 +1,5 @@
 ---
-title: "What The Cosmos and Life Beyond Earth Really Is"
+title: "What the Search for Life Beyond Earth Can Tell Us"
 date: '2026-10-03'
 draft: false
 language: en

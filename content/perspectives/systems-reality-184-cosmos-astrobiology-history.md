@@ -1,5 +1,5 @@
 ---
-title: "How We Learned to See The Cosmos and Life Beyond Earth"
+title: "How We Learned to See the Cosmos and Life Beyond Earth"
 date: '2026-10-03'
 draft: false
 language: en
