@@ -40,8 +40,8 @@
       "category": "Signal foundations",
       "title": "Time and Frequency: Two Views of One Observation",
       "language": "en",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/posts/signals-005-time-frequency-observation.html"
     },
     {
       "id": "SIG-006",
@@ -88,8 +88,8 @@
       "category": "Signal foundations",
       "title": "What Bandwidth Actually Limits",
       "language": "en",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/posts/signals-011-bandwidth-limits.html"
     },
     {
       "id": "SIG-012",
@@ -112,8 +112,8 @@
       "category": "Signal foundations",
       "title": "Why Decibels Add While Power Ratios Multiply",
       "language": "en",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/posts/signals-014-decibels-power-ratios.html"
     },
     {
       "id": "SIG-015",
@@ -408,8 +408,8 @@
       "category": "Radio and antennas",
       "title": "One Message Arriving Along Several Paths",
       "language": "en",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/posts/signals-051-message-several-paths.html"
     },
     {
       "id": "SIG-052",
@@ -1224,8 +1224,8 @@
       "category": "Sound, audio, and vibration",
       "title": "Sonar and the Time of a Returning Echo",
       "language": "en",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/posts/signals-153-sonar-returning-echo.html"
     },
     {
       "id": "SIG-154",
@@ -1256,8 +1256,8 @@
       "category": "Sound, audio, and vibration",
       "title": "Seismic Waves as Evidence of Earthquakes",
       "language": "en",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/posts/signals-157-seismic-wave-evidence.html"
     },
     {
       "id": "SIG-158",
@@ -1302,10 +1302,10 @@
     {
       "id": "SIG-163",
       "category": "Light, optics, and imaging",
-      "title": "Attenuation and Dispersion in Fiber",
+      "title": "Attenuation and Dispersion: Two Ways an Optical Signal Can Fail",
       "language": "en",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/posts/signals-163-fiber-attenuation-dispersion.html"
     },
     {
       "id": "SIG-164",
@@ -1608,8 +1608,8 @@
       "category": "Nerves, senses, and the body",
       "title": "How a Neuronal Signal Begins",
       "language": "en",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/posts/signals-201-neuronal-signal-begins.html"
     },
     {
       "id": "SIG-202",
@@ -1854,10 +1854,10 @@
     {
       "id": "SIG-232",
       "category": "Animals, environments, and social signals",
-      "title": "Traffic Lights and Shared Rules",
+      "title": "Traffic Lights and the Shared Rules Behind a Signal",
       "language": "en",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/posts/signals-232-traffic-lights-shared-rules.html"
     },
     {
       "id": "SIG-233",
@@ -2176,8 +2176,8 @@
       "category": "Space and fundamental physics",
       "title": "The Small Dip Produced by a Planetary Transit",
       "language": "en",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/posts/signals-272-planetary-transit-dip.html"
     },
     {
       "id": "SIG-273",
