@@ -1,8 +1,8 @@
 ---
-title: কিউ বড় হচ্ছে মানে কাজের ঋণ বাড়ছে
+title: A Growing Queue Is Growing Work Debt
 date: '2020-08-10'
 draft: false
-language: bn
+language: en
 url: /posts/bn-queue-backpressure-contract.html
 topic: redis-systems
 tags:
@@ -10,18 +10,19 @@ tags:
 - capacity
 featured: false
 read_time: 2
-excerpt: কিউতে কাজ রাখা সুবিধাজনক। উৎপাদক আর কর্মী এক মুহূর্তে একই গতিতে না চললেও
-  কাজ অপেক্ষা করতে পারে। কিন্তু কিউয়ের দৈর্ঘ্য বাড়তে থাকলে ভবিষ্যতের ওপর কাজের ঋণ
-  জমছে। শুধু অপেক্ষার জায়গা আছে বলে কাজ শেষ হওয়ার ক্ষমতা বাড়ে না।
+excerpt: >-
+  Queues let producers and workers move at different speeds for a while, but a queue that
+  keeps growing is accumulating work debt against the future. More waiting space does
+  not create more processing capacity.
 editorial_batch: 20261003-100-niches
 ---
 
-কিউতে কাজ রাখা সুবিধাজনক। উৎপাদক আর কর্মী এক মুহূর্তে একই গতিতে না চললেও কাজ অপেক্ষা করতে পারে। কিন্তু কিউয়ের দৈর্ঘ্য বাড়তে থাকলে ভবিষ্যতের ওপর কাজের ঋণ জমছে। শুধু অপেক্ষার জায়গা আছে বলে কাজ শেষ হওয়ার ক্ষমতা বাড়ে না।
+Queues let producers and workers move at different speeds for a while, but a queue that keeps growing is accumulating work debt against the future. More waiting space does not create more processing capacity.
 
-ধরুন প্রতি মিনিটে যে কাজ আসছে তার চেয়ে কম শেষ হচ্ছে। কিছুক্ষণ সমস্যা ছোট মনে হবে, পরে অপেক্ষা ব্যবহারকারীর সীমা ছাড়াবে। কিউয়ের দৈর্ঘ্যের পাশাপাশি সবচেয়ে পুরোনো কাজের বয়স দেখা তাই গুরুত্বপূর্ণ।
+Suppose work arrives faster than it can be completed. The problem may look small at first, but eventually waiting time crosses a user-visible limit. That is why queue length and the age of the oldest item are both useful.
 
-ব্যাকপ্রেশার মানে উৎপাদককে বাস্তব ক্ষমতার খবর দেওয়া। নতুন কাজ সীমিত করা, কম জরুরি কাজ বাদ দেওয়া বা অতিরিক্ত কর্মী দেওয়া—সমাধান কাজের প্রকৃতির ওপর নির্ভর করে। সব কিউয়ে একই নীতি ঠিক না।
+Backpressure is how a system communicates its real capacity to producers. Limiting new work, dropping lower-priority work, or adding workers can all be valid responses depending on the workload. There is no single policy for every queue.
 
-আমি কিউকে সময় ধার নেওয়ার ব্যবস্থা হিসেবে দেখি। সময়ের ঋণ শোধের পরিকল্পনা ছাড়া কিউ কেবল ব্যর্থতার দৃশ্য পিছিয়ে দেয়। অপেক্ষা কতক্ষণ গ্রহণযোগ্য সেটা জানা থাকলে ক্যাপাসিটির কথাও বাস্তব হয়।
+I think of a queue as a way to borrow time. Without a plan to repay that time debt, the queue merely delays the visible failure. Capacity becomes a real operational concept once acceptable waiting time is defined.
 
-সূত্র: [মূল রেফারেন্স](https://redis.io/docs/latest/develop/data-types/streams/).
+Source: [official reference](https://redis.io/docs/latest/develop/data-types/streams/).

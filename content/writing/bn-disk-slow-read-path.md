@@ -1,8 +1,8 @@
 ---
-title: ডিস্ক ধীর হলে পুরো পড়ার পথ দেখতে হয়
+title: When a Disk Looks Slow, Inspect the Whole Read Path
 date: '2024-10-12'
 draft: false
-language: bn
+language: en
 url: /posts/bn-disk-slow-read-path.html
 topic: disaster-recovery
 tags:
@@ -10,18 +10,19 @@ tags:
 - debugging
 featured: false
 read_time: 2
-excerpt: ফাইল খুলতে দেরি হলে ডিস্ককে সন্দেহ করা স্বাভাবিক। কিন্তু ডেটা অ্যাপ্লিকেশন
-  পর্যন্ত পৌঁছাতে একাধিক ধাপ পার হয়। ফাইলসিস্টেম, মাউন্ট, নেটওয়ার্ক গেটওয়ে আর অ্যাপের
-  নিজের কাজও সময় নিতে পারে। লক্ষণটি স্টোরেজে শুরু হয়েছে কি না আলাদা করে দেখতে হয়।
+excerpt: >-
+  When opening a file is slow, the disk is an obvious suspect. But data may cross a
+  filesystem, mount, network gateway, and application layer before reaching the user.
+  The symptom does not prove that storage is where the delay began.
 editorial_batch: 20261003-100-niches
 ---
 
-ফাইল খুলতে দেরি হলে ডিস্ককে সন্দেহ করা স্বাভাবিক। কিন্তু ডেটা অ্যাপ্লিকেশন পর্যন্ত পৌঁছাতে একাধিক ধাপ পার হয়। ফাইলসিস্টেম, মাউন্ট, নেটওয়ার্ক গেটওয়ে আর অ্যাপের নিজের কাজও সময় নিতে পারে। লক্ষণটি স্টোরেজে শুরু হয়েছে কি না আলাদা করে দেখতে হয়।
+When opening a file is slow, the disk is an obvious suspect. But data may cross a filesystem, mount, network gateway, and application layer before reaching the user. The symptom does not prove that storage is where the delay began.
 
-ধরুন সরাসরি ফাইল পড়া দ্রুত, অথচ ওয়েব ইন্টারফেসে ধীর। তাহলে শুধু হার্ডডিস্ক বদলানোর সিদ্ধান্ত তাড়াতাড়ি হয়ে যায়। আবার সরাসরি পড়াতেও দেরি হলে নিচের স্তরের প্রমাণ দরকার। ছোট পরীক্ষায় পথ ভাগ করা ভালো।
+Suppose reading the file directly is fast while the web interface is slow. Replacing the hard drive would be an early conclusion. If the direct read is also slow, then lower layers deserve closer inspection. Small tests that divide the path are useful.
 
-সমস্যাযুক্ত ডিস্কে অকারণে অনেক স্ক্যান চালিয়ে চাপ বাড়ানোও ঠিক না। আগে দরকারি ডেটা, বর্তমান ত্রুটি আর কোন কাজ চলছে জানা জরুরি। স্বাস্থ্য তথ্য একটা ইঙ্গিত, কিন্তু সব ব্যর্থতার পূর্ণ ভবিষ্যদ্বাণী না।
+A failing disk should not be stressed with unnecessary scans either. First establish which data matters, what errors already exist, and what work the device is currently doing. Health indicators are useful evidence, but they do not predict every failure perfectly.
 
-আমি ধীরতার অনুসন্ধানে প্রশ্ন ছোট করি: কোন সীমান্ত পর্যন্ত কাজ দ্রুত ছিল? পরের সীমান্তে কী যোগ হলো? এই পদ্ধতি একটা বড় অভিযোগকে মাপা যায় এমন কয়েকটা সম্পর্কের মধ্যে আনে।
+When investigating slowness, I try to reduce the question: up to which boundary was the operation still fast, and what was added at the next boundary? That turns one large complaint into several measurable relationships.
 
-সূত্র: [মূল রেফারেন্স](https://www.kernel.org/doc/html/latest/accounting/psi.html).
+Source: [official reference](https://www.kernel.org/doc/html/latest/accounting/psi.html).

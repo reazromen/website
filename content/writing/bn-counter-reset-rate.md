@@ -1,8 +1,8 @@
 ---
-title: কাউন্টার রিসেট হলে গ্রাফের গল্প বদলায়
+title: A Counter Reset Changes the Story in the Graph
 date: '2023-04-22'
 draft: false
-language: bn
+language: en
 url: /posts/bn-counter-reset-rate.html
 topic: observability-monitoring
 tags:
@@ -10,18 +10,19 @@ tags:
 - time
 featured: false
 read_time: 2
-excerpt: কাউন্টার মোট ঘটনার হিসাব জমায়। কিন্তু প্রসেস রিস্টার্ট হলে কিছু কাউন্টার
-  আবার শুরু হতে পারে। তখন সরাসরি আগের মান থেকে পরের মান বিয়োগ করলে নেতিবাচক ঘটনা তৈরি
-  হতে পারে। বাস্তবে ঘটনা উল্টো হয়নি; মাপের ইতিহাস ভেঙেছে।
+excerpt: >-
+  A counter accumulates events over time, but some counters start over when a process
+  restarts. Subtracting the next value from the previous one can then produce an impossible
+  negative event. The events did not run backward; the measurement history was reset.
 editorial_batch: 20261003-100-niches
 ---
 
-কাউন্টার মোট ঘটনার হিসাব জমায়। কিন্তু প্রসেস রিস্টার্ট হলে কিছু কাউন্টার আবার শুরু হতে পারে। তখন সরাসরি আগের মান থেকে পরের মান বিয়োগ করলে নেতিবাচক ঘটনা তৈরি হতে পারে। বাস্তবে ঘটনা উল্টো হয়নি; মাপের ইতিহাস ভেঙেছে।
+A counter accumulates events over time, but some counters start over when a process restarts. Subtracting the next value from the previous one can then produce an impossible negative event. The events did not run backward; the measurement history was reset.
 
-এই কারণে নির্দিষ্ট টুলের কাউন্টারভিত্তিক রেট গণনার নিয়ম জানা জরুরি। সে কোন ধরনের রিসেট সামলায় আর কোন নমুনার ব্যবধান ব্যবহার করে তা বুঝতে হবে। রেটের উইন্ডো ছোট বা বড় হলে দৃশ্যের অর্থও বদলায়।
+That is why it matters to understand how a monitoring tool calculates rates from counters. Which reset patterns does it handle? What sample interval does it use? A short or long rate window can change the meaning of the graph.
 
-ধরুন রিস্টার্টের পরে ট্রাফিকের গ্রাফ হঠাৎ বদলাল। শুধু ব্যবহারকারীর আচরণ বদলেছে ভাববেন না। সংগ্রহের সময়, প্রসেসের জীবনকাল আর কাউন্টারের ধরনও পরীক্ষা করুন।
+Suppose a traffic graph changes suddenly after a restart. Do not assume user behavior changed. Check collection timing, process lifetime, and metric type as well.
 
-ডেটা দিয়ে গল্প বলার আগে ডেটা কীভাবে মনে রাখে সেটা জানা দরকার। কাউন্টার একটা স্মৃতি, কিন্তু তার স্মৃতির জীবনকাল আছে। সেই সীমা বুঝলে গ্রাফ থেকে অদ্ভুত সিদ্ধান্ত কম আসে।
+Before telling a story with data, it helps to understand how the data remembers. A counter is a kind of memory, but that memory has a lifetime. Knowing that boundary prevents strange conclusions from otherwise clean graphs.
 
-সূত্র: [মূল রেফারেন্স](https://prometheus.io/docs/prometheus/latest/querying/functions/).
+Source: [official reference](https://prometheus.io/docs/prometheus/latest/querying/functions/).

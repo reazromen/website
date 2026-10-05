@@ -1,8 +1,8 @@
 ---
-title: তীব্রতা শুধু ভলিউমে থাকে না
+title: Intensity Is Not Just Volume
 date: '2025-12-05'
 draft: false
-language: bn
+language: en
 url: /posts/bn-music-intensity-volume-difference.html
 topic: music-listening
 tags:
@@ -10,9 +10,10 @@ tags:
 - listening
 featured: false
 read_time: 2
-excerpt: গানের তীব্রতা বলতে অনেক সময় জোরে শব্দ বোঝাই। কিন্তু অপেক্ষা, ঘনত্ব, পুনরাবৃত্তি
-  বা হঠাৎ বিরতিও তীব্রতার পাঠ তৈরি করতে পারে। ভলিউম একটা উপাদান, পুরো অভিজ্ঞতার একমাত্র
-  মাপ না।
+excerpt: >-
+  We often use intensity as another word for loudness. But waiting, density, repetition,
+  and sudden silence can also create intensity. Volume is one ingredient, not the only
+  measure of the experience.
 editorial_batch: 20261003-100-niches
 kind: research
 artist: System of a Down
@@ -20,12 +21,12 @@ album: ''
 year: ''
 ---
 
-গানের তীব্রতা বলতে অনেক সময় জোরে শব্দ বোঝাই। কিন্তু অপেক্ষা, ঘনত্ব, পুনরাবৃত্তি বা হঠাৎ বিরতিও তীব্রতার পাঠ তৈরি করতে পারে। ভলিউম একটা উপাদান, পুরো অভিজ্ঞতার একমাত্র মাপ না।
+We often use intensity as another word for loudness. But waiting, density, repetition, and sudden silence can also create intensity. Volume is one ingredient, not the only measure of the experience.
 
-সিস্টেম অব আ ডাউন শুনতে গিয়ে এই পার্থক্যকে একটা প্রশ্ন হিসেবে রাখা যায়। কোন জায়গা শুধু জোরে, আর কোন জায়গায় গঠনের পরিবর্তন চাপ তৈরি করছে? একই স্তরের শব্দও প্রসঙ্গ বদলালে অন্যভাবে পড়তে পারে।
+When listening to System of a Down, I find it useful to hold this distinction as a question. Which moments are simply loud, and which moments create pressure through a change in structure? Even sound at a similar level can be experienced differently when its context changes.
 
-এটা মাপার নিখুঁত মনস্তাত্ত্বিক দাবি না, শোনার অনুশীলন। নির্দিষ্ট জায়গার আগে-পরে কী ঘটছে লিখে দেখা যায়। নিজের অনুভূতি বলার পাশাপাশি তার সঙ্গে কোন শ্রাব্য সম্পর্ক আছে তা আলাদা করা ভালো।
+This is not a claim to have a perfect psychological measurement. It is a listening exercise. I can write down what happens before and after a particular moment, and separate my own reaction from the audible relationship that may have contributed to it.
 
-আমার কাছে তীব্রতাকে শুধু একটা বিশেষণ করলে গানের কাজ হারায়। শব্দ কীভাবে সময়ের মধ্যে চাপ তৈরি করছে দেখলে আলোচনায় নির্দিষ্টতা আসে। জোরের বাইরে থাকা অংশগুলোও তখন শোনা যায়।
+If intensity remains only an adjective, part of the work the music is doing disappears. Looking at how sound builds pressure through time makes the discussion more specific, and it also makes the quieter elements easier to hear.
 
-সূত্র: [মূল রেফারেন্স](https://www.systemofadown.com/music).
+Source: [official reference](https://www.systemofadown.com/music).

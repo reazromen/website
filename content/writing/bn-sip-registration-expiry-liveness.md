@@ -1,8 +1,8 @@
 ---
-title: রেজিস্ট্রেশন একটা ঠিকানা, জীবিত থাকার পূর্ণ প্রমাণ না
+title: SIP Registration Is an Address, Not Complete Proof of Liveness
 date: '2024-01-20'
 draft: false
-language: bn
+language: en
 url: /posts/bn-sip-registration-expiry-liveness.html
 topic: telecom-voip
 tags:
@@ -10,20 +10,19 @@ tags:
 - state
 featured: false
 read_time: 2
-excerpt: সিপ রেজিস্ট্রেশন মূলত একটা পরিচয়ের সঙ্গে পৌঁছানোর ঠিকানার সম্পর্ক রাখে। কিন্তু
-  ঠিকানা লেখা আছে মানেই ফোনটা এই মুহূর্তে ব্যবহারযোগ্য—এটা নিশ্চিত না। ফোন নেটওয়ার্ক
-  বদলাতে পারে, ন্যাটের ম্যাপিং হারাতে পারে, কিংবা অডিও প্রসেস আটকে যেতে পারে। সার্ভারে
-  থাকা রেজিস্ট্রেশন তখন আগের একটা অবস্থার স্মৃতি। এই স্মৃতি কতক্ষণ বিশ্বাস করা হবে,
-  সেটাই এক্সপায়ারির প্রশ্ন।
+excerpt: >-
+  SIP registration records a relationship between an identity and a reachable contact
+  address. That address being present does not prove the phone is fully usable at this
+  moment. Registration is a memory of recent state, and expiry defines how long that memory is trusted.
 editorial_batch: 20261003-100-niches
 ---
 
-সিপ রেজিস্ট্রেশন মূলত একটা পরিচয়ের সঙ্গে পৌঁছানোর ঠিকানার সম্পর্ক রাখে। কিন্তু ঠিকানা লেখা আছে মানেই ফোনটা এই মুহূর্তে ব্যবহারযোগ্য—এটা নিশ্চিত না। ফোন নেটওয়ার্ক বদলাতে পারে, ন্যাটের ম্যাপিং হারাতে পারে, কিংবা অডিও প্রসেস আটকে যেতে পারে। সার্ভারে থাকা রেজিস্ট্রেশন তখন আগের একটা অবস্থার স্মৃতি। এই স্মৃতি কতক্ষণ বিশ্বাস করা হবে, সেটাই এক্সপায়ারির প্রশ্ন।
+SIP registration records a relationship between an identity and a reachable contact address. That address being present does not prove the phone is fully usable at this moment. The phone may have moved networks, lost a NAT mapping, or stalled in its audio stack. The server's registration is then a memory of an earlier state, and expiry defines how long that memory is trusted.
 
-খুব কম এক্সপায়ারি দিলে ফোনকে ঘন ঘন রেজিস্টার করতে হয়। এতে সিগন্যালিং বাড়ে এবং কিছু ডিভাইসে ব্যাটারির ওপরও প্রভাব পড়তে পারে। অনেক লম্বা এক্সপায়ারি দিলে হারিয়ে যাওয়া ফোনের ঠিকানা বেশিক্ষণ থেকে যেতে পারে। তাই একটা সময়কে সবার জন্য আদর্শ বলা কঠিন। মোবাইল নেটওয়ার্ক, স্থির ল্যান আর ওয়াইফাই বদলানো ডিভাইস একই ধরনের আচরণ করে না।
+A very short expiry forces the phone to register frequently, increasing signaling and potentially affecting battery-powered devices. A very long expiry can leave stale contacts around after a device disappears. There is no universal ideal interval. A mobile endpoint, a stable LAN phone, and a Wi-Fi device that moves between networks do not have identical behavior.
 
-এখানে লিভনেসের স্তর আলাদা করা জরুরি। ফোনের ঠিকানা জানা, নেটওয়ার্কে তাকে পাওয়া, কল শুরু করা, মিডিয়া আদানপ্রদান করা—সব আলাদা দাবি। একটা চেক আগের স্তর নিশ্চিত করলেও পরের স্তর নিশ্চিত করে না। ড্যাশবোর্ডে অনলাইন লেখা হলে সেই শব্দের অর্থ কী, সেটা স্পষ্ট থাকতে হবে। নইলে অপারেটর একটা সবুজ ঘর দেখে অডিও সমস্যাকে অসম্ভব ভাবতে পারেন।
+It helps to separate levels of liveness: knowing a contact address, reaching the device, establishing a call, and exchanging media are different claims. Passing one level does not prove the next. If a dashboard says online, the word needs a definition or operators may treat an audio failure as impossible because the registration indicator is green.
 
-আমার কাছে ভালো স্ট্যাটাস সেইটা, যেটা তার সীমা বলে। সর্বশেষ রেজিস্ট্রেশন কখন, সর্বশেষ সফল যোগাযোগ কখন, পরীক্ষা কী করেছে—এসব জানা থাকলে সমস্যা খোঁজা সহজ হয়। রেজিস্ট্রেশন দরকারি তথ্য। কিন্তু তাকে কথোপকথনের প্রস্তুতির পূর্ণ সার্টিফিকেট বানালে তথ্যটা যতটা সত্য, তার চেয়ে বড় দাবি করা হয়।
+I prefer status that states its own limits. Last registration time, last successful interaction, and the exact probe that was performed make troubleshooting easier. Registration is useful evidence, but turning it into a full certificate of conversation readiness makes a larger claim than the data supports.
 
-সূত্র: [মূল রেফারেন্স](https://www.rfc-editor.org/rfc/rfc3261.html).
+Source: [official reference](https://www.rfc-editor.org/rfc/rfc3261.html).

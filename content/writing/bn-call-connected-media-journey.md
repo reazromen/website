@@ -1,8 +1,8 @@
 ---
-title: কল কানেক্ট হওয়া আর কথা পৌঁছানো আলাদা ঘটনা
+title: A Connected Call and Delivered Audio Are Different Events
 date: '2022-10-28'
 draft: false
-language: bn
+language: en
 url: /posts/bn-call-connected-media-journey.html
 topic: telecom-voip
 tags:
@@ -10,20 +10,20 @@ tags:
 - rtp
 featured: false
 read_time: 2
-excerpt: ফোনের স্ক্রিনে কলের টাইমার চললেই আমরা ধরে নিই যোগাযোগ তৈরি হয়েছে। কিন্তু
-  টাইমার আসলে পুরো ঘটনার ছোট একটা অংশ দেখায়। সিপ দিয়ে দুই পাশ কলের শর্তে রাজি হতে
-  পারে, অথচ অডিও যে পথে যাবে সেই পথ তখনও বন্ধ থাকতে পারে। ঘটনা হচ্ছে, কে কার সঙ্গে
-  কথা বলবে আর কথার প্যাকেট কীভাবে পৌঁছাবে—এই দুই প্রশ্নের উত্তর একই প্রসেস দেয় না।
-  তাই একপাশে শব্দ নেই এমন সমস্যায় শুধু রেজিস্ট্রেশন দেখা যথেষ্ট না।
+excerpt: >-
+  When the call timer starts, we tend to assume communication has succeeded. But SIP can
+  establish the signaling state while the path that carries audio is still broken. Who
+  is talking to whom and how the media packets reach them are not answered by the same
+  process.
 editorial_batch: 20261003-100-niches
 ---
 
-ফোনের স্ক্রিনে কলের টাইমার চললেই আমরা ধরে নিই যোগাযোগ তৈরি হয়েছে। কিন্তু টাইমার আসলে পুরো ঘটনার ছোট একটা অংশ দেখায়। সিপ দিয়ে দুই পাশ কলের শর্তে রাজি হতে পারে, অথচ অডিও যে পথে যাবে সেই পথ তখনও বন্ধ থাকতে পারে। ঘটনা হচ্ছে, কে কার সঙ্গে কথা বলবে আর কথার প্যাকেট কীভাবে পৌঁছাবে—এই দুই প্রশ্নের উত্তর একই প্রসেস দেয় না। তাই একপাশে শব্দ নেই এমন সমস্যায় শুধু রেজিস্ট্রেশন দেখা যথেষ্ট না।
+When the call timer starts, we tend to assume communication has succeeded. But the timer represents only a small part of the whole event. SIP can establish agreement between both sides while the path that carries audio is still broken. Who is talking to whom and how the media packets reach them are not answered by the same process. That is why registration alone is not enough evidence when a call has one-way audio.
 
-ধরুন একটা পিবিএক্সের সামনে ন্যাট আছে। কলের সিগন্যালিং ঠিকঠাক পৌঁছাচ্ছে, কিন্তু এসডিপিতে এমন একটা অ্যাড্রেস যাচ্ছে যেটা বাইরের ফোন থেকে পৌঁছানো যায় না। ফোন সেই অ্যাড্রেসে অডিও পাঠানোর চেষ্টা করবে। সার্ভারের কাছে কলটা জীবিত, ব্যবহারকারীর কাছে কথোপকথনটা মৃত। এখানে কোডেক বদলানোর আগে প্যাকেট কোথায় পাঠানো হচ্ছে, দুই দিকে আসছে কি না, আর ফায়ারওয়াল সেই পোর্টগুলো যেতে দিচ্ছে কি না দেখা দরকার।
+Imagine a PBX behind NAT. Signaling arrives correctly, but SDP advertises an address that the remote phone cannot reach. The phone will still try to send audio to that address. From the server's point of view the call is alive; from the user's point of view the conversation is dead. Before changing codecs, check where packets are being sent, whether media is arriving in both directions, and whether the firewall allows the required ports.
 
-আমি এই ধরনের সমস্যা বোঝার জন্য কলকে একটা যাত্রা হিসেবে দেখি। প্রথমে কলের অনুরোধ, পরে অডিওর ঠিকানা নিয়ে আলোচনা, তারপর দুই দিকে মিডিয়া। প্রতিটা ধাপের জন্য আলাদা প্রমাণ চাই। সিপ ট্রেস সিগন্যালিং বুঝতে সাহায্য করে; আরটিপি প্যাকেটের কাউন্ট, সিকোয়েন্স আর অ্যারাইভাল টাইম মিডিয়ার গল্প বলে। একটা সবুজ স্ট্যাটাস দিয়ে এই পুরো যাত্রার নিশ্চয়তা দেওয়া যায় না।
+I find it useful to treat a call as a journey. First comes the call request, then negotiation about media addresses, then bidirectional media. Each stage needs its own evidence. A SIP trace explains signaling; RTP packet counts, sequence numbers, and arrival times explain the media path. One green status cannot prove the health of the entire journey.
 
-তাই টেলিফোনি মনিটরিংয়ে দরকার এমন প্রশ্ন যা ব্যবহারকারীর অভিজ্ঞতার কাছে যায়। দুই পাশে অডিও পৌঁছেছে কি? লম্বা বিরতি হয়েছে কি? কল কেটে যাওয়ার কারণ কী? রেজিস্টার্ড ফোনের সংখ্যা জানা ভালো, কিন্তু সেটা কথোপকথনের মানের বদলি না। সিস্টেমের সফলতা শেষ পর্যন্ত প্রোটোকলের সম্মতিতে না, মানুষের কাছে শব্দ পৌঁছানোতে ধরা পড়ে।
+Telephony monitoring should therefore ask questions close to the user's experience. Did audio arrive in both directions? Were there long gaps? Why did the call end? The number of registered phones is useful, but it is not a substitute for conversation quality. The system succeeds not when the protocols merely agree, but when sound reaches the people using it.
 
-সূত্র: [মূল রেফারেন্স](https://www.rfc-editor.org/rfc/rfc3550.html).
+Source: [official reference](https://www.rfc-editor.org/rfc/rfc3550.html).

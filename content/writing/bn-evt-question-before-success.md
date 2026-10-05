@@ -1,8 +1,8 @@
 ---
-title: ইভিটিতে সফলতার আগে প্রশ্নগুলো ঠিক করা
+title: Define the Questions Before Calling EVT a Success
 date: '2024-07-10'
 draft: false
-language: bn
+language: en
 url: /posts/bn-evt-question-before-success.html
 topic: pcb-bringup-hardware
 tags:
@@ -10,18 +10,19 @@ tags:
 - testing
 featured: false
 read_time: 2
-excerpt: প্রোটোটাইপ চালু হয়েছে দেখলে একটা বড় স্বস্তি আসে। কিন্তু ইঞ্জিনিয়ারিং ভ্যালিডেশনে
-  দরকার বোর্ড কোন প্রশ্নের উত্তর দিচ্ছে সেটা জানা। শুধু আলো জ্বলা দিয়ে পাওয়ার, অডিও,
-  রেডিও আর দীর্ঘসময় চালানোর সব দাবি যাচাই হয় না।
+excerpt: >-
+  Seeing a prototype power on is a major relief, but engineering validation requires knowing
+  which questions the board has actually answered. One LED cannot validate power, audio,
+  radio behavior, and long-duration operation at the same time.
 editorial_batch: 20261003-100-niches
 ---
 
-প্রোটোটাইপ চালু হয়েছে দেখলে একটা বড় স্বস্তি আসে। কিন্তু ইঞ্জিনিয়ারিং ভ্যালিডেশনে দরকার বোর্ড কোন প্রশ্নের উত্তর দিচ্ছে সেটা জানা। শুধু আলো জ্বলা দিয়ে পাওয়ার, অডিও, রেডিও আর দীর্ঘসময় চালানোর সব দাবি যাচাই হয় না।
+Seeing a prototype power on is a major relief, but engineering validation requires knowing which questions the board has actually answered. One LED cannot validate power, audio, radio behavior, and long-duration operation at the same time.
 
-ধরুন একটা বোর্ড টেবিলে ঠিক চলছে, কিন্তু ভিন্ন পাওয়ার সাপ্লাই বা কেসে আচরণ বদলায়। তাহলে প্রথম পরীক্ষার সফলতা সত্য, কিন্তু তার পরিধি ছোট। পরীক্ষার অবস্থাকে রিপোর্টে রাখা হলে পরের পর্যায়ে সেই সীমা বোঝা যায়। অবস্থার বাইরে সফলতা বাড়িয়ে বলা লাগে না।
+Suppose a board works on the bench but behaves differently with another power supply or inside the enclosure. The first test was still a valid success, but its scope was smaller than the product. Recording the test conditions keeps that limit visible instead of silently expanding the claim.
 
-ছোট একটা পরীক্ষার ম্যাট্রিক্স অনেক কাজে দেয়। কোন ফিচার, কোন বোর্ডের রিভিশন, কোন ফার্মওয়্যার, কোন সরঞ্জাম আর কী ফল—এসব একসঙ্গে থাকলে সমস্যা তুলনা করা যায়। কোথায় ফল অনিশ্চিত সেটাও লেখা দরকার।
+A small validation matrix is surprisingly powerful: feature, board revision, firmware build, equipment, conditions, and result. It makes comparisons possible and gives uncertain outcomes somewhere to live.
 
-প্রোটোটাইপ থেকে প্রোডাকশনে যাওয়ার পথ মূলত প্রমাণের পরিধি বাড়ানোর কাজ। একটা সফল ডেমো শুরু। বারবার একই শর্তে, তারপর আরও কঠিন শর্তে একই দরকারি আচরণ পাওয়া—সেই পথেই পণ্যের ওপর বিশ্বাস জমে।
+Moving from prototype to production is largely the process of widening the evidence. A successful demo is the beginning. Confidence grows when the required behavior repeats under the same conditions and then continues to hold under more demanding ones.
 
-সূত্র: [মূল রেফারেন্স](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/index.html).
+Source: [official reference](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/index.html).

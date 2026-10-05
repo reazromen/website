@@ -1,8 +1,8 @@
 ---
-title: রেটিকুলামের ইন্টারফেস আর ইন্টারনেট এক জিনিস না
+title: A Reticulum Interface Is Not the Same Thing as the Internet
 date: '2023-01-24'
 draft: false
-language: bn
+language: en
 url: /posts/bn-reticulum-interface-not-internet.html
 topic: lora-reticulum
 tags:
@@ -10,18 +10,19 @@ tags:
 - protocols
 featured: false
 read_time: 2
-excerpt: রেটিকুলামের আকর্ষণ হচ্ছে এক ধরনের মাধ্যমের মধ্যে নিজেকে আটকে না রাখা। বিভিন্ন
-  ইন্টারফেস দিয়ে যোগাযোগের পথ তৈরি করা যায়। কিন্তু একটা ইন্টারফেস যুক্ত হয়েছে বললেই
-  সব অ্যাপ্লিকেশনের কাছে সাধারণ ইন্টারনেট পাওয়া গেছে—এটা ধরে নেওয়া ঠিক না।
+excerpt: >-
+  One of Reticulum's interesting properties is that communication does not have to be tied
+  to a single medium. But adding an interface does not automatically give every application
+  a conventional Internet connection.
 editorial_batch: 20261003-100-niches
 ---
 
-রেটিকুলামের আকর্ষণ হচ্ছে এক ধরনের মাধ্যমের মধ্যে নিজেকে আটকে না রাখা। বিভিন্ন ইন্টারফেস দিয়ে যোগাযোগের পথ তৈরি করা যায়। কিন্তু একটা ইন্টারফেস যুক্ত হয়েছে বললেই সব অ্যাপ্লিকেশনের কাছে সাধারণ ইন্টারনেট পাওয়া গেছে—এটা ধরে নেওয়া ঠিক না।
+One of Reticulum's interesting properties is that communication does not have to be tied to a single medium. But adding an interface does not automatically give every application a conventional Internet connection.
 
-নেটওয়ার্ক স্ট্যাক তথ্য পৌঁছানোর নিয়ম দেয়। অ্যাপ্লিকেশনকে সেই নিয়ম ব্যবহার করার পথও দরকার। বিদ্যমান ওয়েব অ্যাপ আর নির্দিষ্ট বার্তার অ্যাপ একই প্রয়োজন নিয়ে আসে না। নামের মধ্যে নেটওয়ার্ক আছে বলে তাদের প্রয়োজন এক হয় না।
+A network stack provides rules for moving information. Applications still need a way to use those rules. An existing web application and a purpose-built messaging application do not necessarily have the same requirements just because both use a network.
 
-প্রথমে লিখুন কোন যোগাযোগ চান: ছোট মেসেজ, ফাইল, সেন্সরের খবর, না অন্য কিছু। এরপর মাধ্যমের ব্যান্ডউইডথ আর দেরির সঙ্গে কাজটি মিলিয়ে দেখুন। কম সম্পদের পথে উপযুক্ত অ্যাপ্লিকেশন নকশা বড় পার্থক্য তৈরি করতে পারে।
+Start by writing down the communication you actually need: small messages, files, sensor observations, or something else. Then compare that workload with the bandwidth and latency of the available medium. On constrained links, application design can matter as much as transport choice.
 
-একটা স্বাধীন যোগাযোগ ব্যবস্থা ভাবতে গেলে পরিচিত ইন্টারনেটের সব অভ্যাস সঙ্গে নেওয়া জরুরি না। বরং কোন কাজটা সত্যিই দরকার সেটা ছোট করা যায়। সীমা বোঝা সম্ভাবনা কমায় না; সম্ভাবনাকে ব্যবহারযোগ্য করে।
+Designing an independent communication system does not require carrying every habit of the conventional Internet into it. Reducing the problem to the work that truly matters can make the system more practical. Understanding constraints does not reduce possibility; it makes possibility usable.
 
-সূত্র: [মূল রেফারেন্স](https://reticulum.network/manual/whatis.html).
+Source: [official reference](https://reticulum.network/manual/whatis.html).

@@ -1,8 +1,8 @@
 ---
-title: লেবেলের স্বাধীনতার সঙ্গে সিরিজের খরচ
+title: Label Freedom Comes With a Time-Series Cost
 date: '2026-08-01'
 draft: false
-language: bn
+language: en
 url: /posts/bn-metric-label-cardinality.html
 topic: observability-monitoring
 tags:
@@ -10,18 +10,19 @@ tags:
 - capacity
 featured: false
 read_time: 2
-excerpt: মেট্রিকের লেবেল দিয়ে একই মাপকে অনেকভাবে ভাগ করা যায়। কিন্তু প্রতিটা নতুন
-  সমন্বয় আলাদা টাইম সিরিজ তৈরি করতে পারে। তাই বিস্তারিত তথ্যের সুবিধার সঙ্গে সংগ্রহ,
-  স্টোরেজ আর কুয়েরির খরচও আসে।
+excerpt: >-
+  Metric labels let us divide one measurement in many useful ways, but every new combination
+  of label values can create another time series. Greater detail also carries collection,
+  storage, and query cost.
 editorial_batch: 20261003-100-niches
 ---
 
-মেট্রিকের লেবেল দিয়ে একই মাপকে অনেকভাবে ভাগ করা যায়। কিন্তু প্রতিটা নতুন সমন্বয় আলাদা টাইম সিরিজ তৈরি করতে পারে। তাই বিস্তারিত তথ্যের সুবিধার সঙ্গে সংগ্রহ, স্টোরেজ আর কুয়েরির খরচও আসে।
+Metric labels let us divide one measurement in many useful ways, but every new combination of label values can create another time series. Greater detail also carries collection, storage, and query cost.
 
-যদি প্রতিটা অনুরোধের আলাদা পরিচয় লেবেল হয়, মানের সংখ্যা দ্রুত বাড়তে পারে। রুটের ধরন দিয়ে ভাগ করা আর প্রতিটা পূর্ণ ঠিকানা দিয়ে ভাগ করা এক খরচ না। কোন তথ্য মেট্রিকে, কোনটা লগ বা ট্রেসে ভালো থাকে ভাবতে হবে।
+If every request ID becomes a label value, the number of series can grow extremely quickly. Grouping by route pattern is not the same cost as grouping by every complete URL. Some information belongs in metrics; some is better kept in logs or traces.
 
-নকশার সময় লেবেলের সম্ভাব্য মানের সংখ্যা লিখে দেখা উপকারী। পরিবর্তনের পরে সিরিজের সংখ্যা আর সংগ্রহের সময় মাপুন। দরকারি অনুসন্ধান যেন থাকে, কিন্তু অপ্রয়োজনীয় বৈচিত্র্য দিয়ে সংগ্রাহক ভারী না হয়।
+During design, estimate how many possible values a label can have. After a change, measure the actual series count and collection cost. Preserve useful dimensions without turning accidental uniqueness into permanent metric state.
 
-অবজারভেবিলিটি নিজেও একটা সিস্টেম। তার সীমা না ভাবলে সে যার দিকে তাকিয়ে আছে তাকে এবং নিজেকে চাপ দিতে পারে। বেশি ভাঙা তথ্য সবসময় ভালো বোঝা তৈরি করে না।
+Observability is itself a system. If its limits are ignored, it can place pressure on both the monitored workload and on itself. Finer-grained data is not automatically better understanding.
 
-সূত্র: [মূল রেফারেন্স](https://prometheus.io/docs/practices/naming/).
+Source: [official reference](https://prometheus.io/docs/practices/naming/).

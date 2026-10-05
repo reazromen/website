@@ -1,8 +1,8 @@
 ---
-title: কম্পিউটেশন ভৌত জগতের বাইরে না
+title: Computation Does Not Live Outside the Physical World
 date: '2025-04-26'
 draft: false
-language: bn
+language: en
 url: /posts/bn-energy-computation-boundary.html
 topic: systems-thinking
 tags:
@@ -10,18 +10,18 @@ tags:
 - energy
 featured: false
 read_time: 2
-excerpt: সফটওয়্যারের কাজকে আমরা প্রায়ই অদৃশ্য ভাবি। কিন্তু নির্দেশ চলতে হার্ডওয়্যার
-  লাগে, হার্ডওয়্যারের কাজের সঙ্গে এনার্জি আর তাপের সম্পর্ক আছে। ভার্চুয়াল শব্দ দিয়ে
-  ভৌত সীমা সরানো যায় না।
+excerpt: >-
+  Software can feel immaterial, but instructions require hardware, and hardware behavior
+  is connected to energy and heat. Calling something virtual does not remove its physical limits.
 editorial_batch: 20261003-100-niches
 ---
 
-সফটওয়্যারের কাজকে আমরা প্রায়ই অদৃশ্য ভাবি। কিন্তু নির্দেশ চলতে হার্ডওয়্যার লাগে, হার্ডওয়্যারের কাজের সঙ্গে এনার্জি আর তাপের সম্পর্ক আছে। ভার্চুয়াল শব্দ দিয়ে ভৌত সীমা সরানো যায় না।
+Software can feel immaterial, but instructions require hardware, and hardware behavior is connected to energy and heat. Calling something virtual does not remove its physical limits.
 
-একটা ছোট কুয়েরি অল্প ডেটায় দ্রুত হতে পারে, বড় ডেটায় অনেক কাজ করতে পারে। ব্যবহারকারীর ক্লিক একই থাকলেও ভিতরের প্রসেস বদলায়। তাই ইন্টারফেসের ছোট কাজকে ভৌতভাবে ছোট ধরে নেওয়া ঠিক না।
+A query may be cheap on a small dataset and expensive on a large one. The user's click can look identical while the internal work changes dramatically. A small interface action is not necessarily a small physical workload.
 
-অপটিমাইজেশনের প্রশ্নে কী কাজ কমছে সেটা স্পষ্ট করা ভালো। কম বাইট, কম কপি, কম গণনা বা কম অপেক্ষা—সব একই পরিবর্তন না। একটা উন্নতিতে অন্য জায়গায় খরচও বাড়তে পারে।
+When discussing optimization, it helps to name what is actually reduced: bytes transferred, copies, computation, or waiting time. Those are not the same change, and improving one can increase cost somewhere else.
 
-আমি সফটওয়্যারকে বস্তুহীন জগত ভাবতে চাই না। তার সুবিধা বিশাল, কিন্তু সে বস্তু আর সময়ের ওপর দাঁড়িয়ে চলে। এই সম্পর্ক মনে থাকলে দক্ষতার কথাও শুধু সুন্দর কোডের মধ্যে আটকে থাকে না।
+I do not think of software as a world without matter. Its flexibility is enormous, but it still runs on physical systems and through time. Remembering that relationship keeps efficiency from becoming only a question of elegant code.
 
-সূত্র: [মূল রেফারেন্স](https://www.kernel.org/doc/html/latest/admin-guide/pm/index.html).
+Source: [official reference](https://www.kernel.org/doc/html/latest/admin-guide/pm/index.html).

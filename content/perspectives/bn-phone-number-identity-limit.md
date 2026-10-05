@@ -1,8 +1,8 @@
 ---
-title: ফোন নম্বর যোগাযোগের ঠিকানা, পূর্ণ পরিচয় না
+title: A Phone Number Is a Communication Address, Not a Complete Identity
 date: '2022-06-01'
 draft: false
-language: bn
+language: en
 url: /posts/bn-phone-number-identity-limit.html
 topic: security-identity
 tags:
@@ -10,20 +10,19 @@ tags:
 - telephony
 featured: false
 read_time: 2
-excerpt: আমরা ফোন নম্বরকে মানুষের স্থায়ী পরিচয়ের মতো ব্যবহার করি। অথচ নম্বর আসলে যোগাযোগের
-  একটা ব্যবস্থা; তার ব্যবহারকারী বদলাতে পারে, অ্যাক্সেস হারাতে পারে, কিংবা উপস্থাপন
-  নিয়ে বিভ্রান্তি তৈরি হতে পারে। নম্বর দিয়ে কাউকে পৌঁছানো আর নম্বরের পেছনে থাকা মানুষকে
-  নির্ভরযোগ্যভাবে চেনা একই দাবি না। এই পার্থক্য ভুলে গেলে ফোনের ওপর দাঁড়ানো সিকিউরিটি
-  ব্যবস্থায় অতিরিক্ত বিশ্বাস ঢুকে যায়।
+excerpt: >-
+  We often treat a phone number as if it were a permanent identity. In reality, it is a
+  communication address whose user can change, whose access can be lost, and whose
+  presentation can be misleading.
 editorial_batch: 20261003-100-niches
 ---
 
-আমরা ফোন নম্বরকে মানুষের স্থায়ী পরিচয়ের মতো ব্যবহার করি। অথচ নম্বর আসলে যোগাযোগের একটা ব্যবস্থা; তার ব্যবহারকারী বদলাতে পারে, অ্যাক্সেস হারাতে পারে, কিংবা উপস্থাপন নিয়ে বিভ্রান্তি তৈরি হতে পারে। নম্বর দিয়ে কাউকে পৌঁছানো আর নম্বরের পেছনে থাকা মানুষকে নির্ভরযোগ্যভাবে চেনা একই দাবি না। এই পার্থক্য ভুলে গেলে ফোনের ওপর দাঁড়ানো সিকিউরিটি ব্যবস্থায় অতিরিক্ত বিশ্বাস ঢুকে যায়।
+We often treat a phone number as if it were a permanent identity. In reality, it is a communication address whose user can change, whose access can be lost, and whose presentation can be misleading. Reaching a number and reliably identifying the person behind it are different claims. Security systems built around telephony can become overconfident when that distinction disappears.
 
-কলার আইডি দেখার মুহূর্তে একটা পরিচিত নাম মনে হয়। কিন্তু প্রদর্শিত নম্বরের ওপর নির্ভর করার আগে জানা দরকার তথ্যটা কোথা থেকে এসেছে এবং কীভাবে যাচাই হয়েছে। সিপ আইডেন্টিটির মতো ব্যবস্থা নির্দিষ্ট দাবির ওপর যাচাই যোগ করতে পারে। তবু একটা প্রোটোকলগত যাচাই দিয়ে ফোনের অপর পাশে থাকা মানুষের উদ্দেশ্য বা সততা মাপা যায় না। অ্যাড্রেসের দাবি আর আচরণের বিশ্বাস আলাদা।
+Caller ID often triggers immediate recognition, but before trusting the displayed number we need to know where that information came from and how it was verified. Mechanisms such as SIP Identity can add verification to specific protocol claims. Even then, cryptographic or protocol verification cannot measure the intentions or honesty of the person on the other end. Address authenticity and behavioral trust are separate.
 
-ধরুন কোনো প্রতিষ্ঠানের নম্বর থেকে জরুরি তথ্য চাওয়া হলো। নম্বর মিলেছে বলে তথ্য দেওয়া সিদ্ধান্তের একমাত্র ভিত্তি হওয়া উচিত না। গুরুত্বপূর্ণ কাজের জন্য আলাদা যাচাই পথ, সীমিত অনুমতি আর কাজের প্রসঙ্গ দরকার হতে পারে। সমস্যাটা মানুষের সন্দেহপ্রবণতা বাড়ানোর না; একটা পরিচয় সংকেত কত দূর পর্যন্ত বিশ্বাস করা যাবে সেটা পরিষ্কার করার।
+Suppose an urgent request for sensitive information arrives from a number associated with an organization. The number matching should not be the only basis for the decision. High-impact actions may require another verification path, limited permissions, and context about the requested operation. The goal is not to teach permanent suspicion; it is to define how far one identity signal should be trusted.
 
-সিস্টেম ডিজাইনে আমার কাছে এই সীমা গুরুত্বপূর্ণ। ব্যবহারকারীর সুবিধার জন্য ছোট একটা সংকেত দেখানো হয়, তারপর সেই সংকেতের ওপর বড় সিদ্ধান্ত দাঁড়ায়। সংকেতটা যদি তার বাস্তব ক্ষমতার চেয়ে বেশি অর্থ বহন করে, ইন্টারফেস নিজেই ভুল বিশ্বাস শেখায়। ভালো পরিচয় ব্যবস্থা কেবল নাম দেখায় না; কোন দাবিটা যাচাই হয়েছে, তার সীমাও বোঝায়।
+This boundary matters in system design. Interfaces often display a small identity signal and then allow very large decisions to rest on it. If the signal appears to mean more than it can actually prove, the interface teaches false confidence. A good identity system communicates not only the name, but also which claim was verified and what remains unverified.
 
-সূত্র: [মূল রেফারেন্স](https://www.rfc-editor.org/rfc/rfc8224.html).
+Source: [official reference](https://www.rfc-editor.org/rfc/rfc8224.html).

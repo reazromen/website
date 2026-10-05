@@ -1,8 +1,8 @@
 ---
-title: মেজমারাইজকে তালিকা না, ক্রম হিসেবে শোনা
+title: Listening to Mezmerize as a Sequence, Not a List
 date: '2025-11-03'
 draft: false
-language: bn
+language: en
 url: /posts/bn-music-mezmerize-album-sequence.html
 topic: music-listening
 tags:
@@ -10,9 +10,10 @@ tags:
 - albums
 featured: false
 read_time: 2
-excerpt: অ্যালবামের গানগুলো আলাদা করে শোনা যায়। কিন্তু একটা নির্দিষ্ট ক্রমে শুনলে
-  আগের অংশ পরের অংশের প্রসঙ্গ হয়ে যায়। মেজমারাইজ নিয়ে আমার প্রশ্ন সেই প্রসঙ্গের কাজ।
-  গান শুধু নিজের ভেতরের সময় বহন করে না; অ্যালবামের সময়ও পায়।
+excerpt: >-
+  The songs on an album can be heard separately, but in a fixed sequence each earlier
+  track becomes part of the context for the next. My question about Mezmerize is how that
+  context works. A song carries not only its own time, but also the time of the album.
 editorial_batch: 20261003-100-niches
 kind: research
 artist: System of a Down
@@ -20,12 +21,12 @@ album: Mezmerize
 year: '2005'
 ---
 
-অ্যালবামের গানগুলো আলাদা করে শোনা যায়। কিন্তু একটা নির্দিষ্ট ক্রমে শুনলে আগের অংশ পরের অংশের প্রসঙ্গ হয়ে যায়। মেজমারাইজ নিয়ে আমার প্রশ্ন সেই প্রসঙ্গের কাজ। গান শুধু নিজের ভেতরের সময় বহন করে না; অ্যালবামের সময়ও পায়।
+The songs on an album can be heard separately, but in a fixed sequence each earlier track becomes part of the context for the next. My question about *Mezmerize* is how that context works. A song carries not only its own time, but also the time of the album.
 
-একটা তীব্র অংশের পরে শান্ত অংশ এলে শান্তি অন্যভাবে অনুভূত হতে পারে। আবার একই অংশ একা শুনলে তার ভূমিকা বদলাতে পারে। এই পরিবর্তন শ্রোতার পাঠ; একে শিল্পীর অপ্রকাশিত উদ্দেশ্যের নিশ্চিত তথ্য বানাতে হবে না।
+When a quiet passage follows an intense one, the quiet can feel different because of what came before it. The same passage heard alone may perform another role. That difference belongs to the listener's reading; it should not automatically be promoted into a claim about an undocumented intention of the artist.
 
-পরীক্ষা হিসেবে একই গান একা এবং অ্যালবামের ক্রমে শুনে নোট করা যায়। কোন প্রত্যাশা তৈরি হয়েছিল, পরের গান সেটা কীভাবে বদলাল—এগুলো নির্দিষ্ট প্রশ্ন। শুধু অ্যালবাম ভালো বলা থেকে পর্যবেক্ষণ বেশি পরিষ্কার হয়।
+A simple test is to hear the same song by itself and then again in the album sequence. What expectation was created? How did the following track change it? Those are more precise questions than simply saying the album is good.
 
-আমার কাছে অ্যালবামের ক্রম একটা সম্ভাব্য ভাষা। সব অ্যালবামকে একই ধরনের গল্প হতে হয় না। কিন্তু ক্রমের প্রভাব খেয়াল করলে গানগুলোর মধ্যে যে সম্পর্ক আছে তা হারিয়ে যায় না।
+For me, sequence is one possible language of an album. Not every album has to tell the same kind of story. But paying attention to order helps preserve the relationships between tracks instead of reducing the record to a playlist.
 
-সূত্র: [মূল রেফারেন্স](https://www.systemofadown.com/music).
+Source: [official reference](https://www.systemofadown.com/music).

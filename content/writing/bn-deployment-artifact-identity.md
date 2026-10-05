@@ -1,8 +1,8 @@
 ---
-title: ডিপ্লয়মেন্টে ফাইলের পরিচয় ধরে রাখা
+title: Preserve Artifact Identity Through Deployment
 date: '2022-04-11'
 draft: false
-language: bn
+language: en
 url: /posts/bn-deployment-artifact-identity.html
 topic: production-engineering
 tags:
@@ -10,18 +10,19 @@ tags:
 - provenance
 featured: false
 read_time: 2
-excerpt: একটা রিলিজে কোন সোর্স থেকে কোন ফাইল তৈরি হয়েছে জানা থাকলে সমস্যা তদন্ত সহজ
-  হয়। শুধু সর্বশেষ লেখা নাম যথেষ্ট না। সর্বশেষ শব্দটা সময়ের সঙ্গে বদলায়, কিন্তু একটা
-  কমিট বা আর্টিফ্যাক্টের পরিচয় নির্দিষ্ট থাকে।
+excerpt: >-
+  Incident investigation becomes easier when a release can answer which source produced
+  which artifact. A label such as latest is not enough. Latest changes with time; a commit
+  or artifact identity does not.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা রিলিজে কোন সোর্স থেকে কোন ফাইল তৈরি হয়েছে জানা থাকলে সমস্যা তদন্ত সহজ হয়। শুধু সর্বশেষ লেখা নাম যথেষ্ট না। সর্বশেষ শব্দটা সময়ের সঙ্গে বদলায়, কিন্তু একটা কমিট বা আর্টিফ্যাক্টের পরিচয় নির্দিষ্ট থাকে।
+Incident investigation becomes easier when a release can answer which source produced which artifact. A label such as *latest* is not enough. Latest changes with time; a commit or artifact identity does not.
 
-ধরুন দুইজন একই ফাইলের নাম দিয়ে আলাদা বিল্ড প্রকাশ করলেন। ব্যবহারকারী কী পেয়েছেন তা বুঝতে শুধু নাম দেখে সিদ্ধান্ত নেওয়া যাবে না। প্রকাশিত বিল্ডের সঙ্গে সোর্সের পরিচয় আর প্রয়োজন হলে ফাইলের হ্যাশ রাখা কাজে দেয়।
+Suppose two people publish different builds under the same filename. The filename alone cannot tell you what a user actually received. Keeping the source identity—and, where useful, an artifact hash—alongside the deployed build makes that relationship traceable.
 
-এই পরিচয় পরীক্ষাকেও যুক্ত করে। যে আর্টিফ্যাক্ট পরীক্ষা করেছেন সেটাই প্রকাশ হয়েছে কি না দেখতে হবে। আবার রোলব্যাকে কোন পরিচয়ে ফিরছেন সেটাও স্পষ্ট থাকা দরকার। একই নামে নতুন ফাইল তৈরি করে পুরোনো রিলিজ ফিরেছে বলা ভুল হতে পারে।
+The same identity should connect testing to release. Was the artifact that passed testing the one that was actually deployed? During rollback, which exact identity are you returning to? Rebuilding a new file under an old name is not necessarily the same as restoring the previous artifact.
 
-রিলিজের ইতিহাস আমার কাছে একটা বর্ণনার বদলে অনুসরণযোগ্য সম্পর্ক। সোর্স, বিল্ড, পরীক্ষা আর প্রকাশ একই পরিচয়ের পথ ধরে থাকলে অনুমানের জায়গা ছোট হয়।
+I think of release history less as a narrative and more as a chain of traceable relationships. When source, build, test, and deployment follow the same identity, less of the incident has to be reconstructed from guesswork.
 
-সূত্র: [মূল রেফারেন্স](https://git-scm.com/docs/git-rev-parse).
+Source: [official reference](https://git-scm.com/docs/git-rev-parse).

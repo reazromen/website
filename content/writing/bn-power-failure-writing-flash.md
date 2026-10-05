@@ -1,8 +1,8 @@
 ---
-title: ফ্ল্যাশে লেখা চলার সময় বিদ্যুৎ গেলে
+title: What Happens if Power Fails While Writing Flash?
 date: '2024-10-30'
 draft: false
-language: bn
+language: en
 url: /posts/bn-power-failure-writing-flash.html
 topic: embedded-firmware
 tags:
@@ -10,18 +10,19 @@ tags:
 - reliability
 featured: false
 read_time: 2
-excerpt: 'ডেটা সংরক্ষণের কাজকে একটা অবিভাজ্য ঘটনা ভাবা সহজ: লিখলাম, হয়ে গেল। বাস্তবে
-  লেখার মাঝেও বিদ্যুৎ চলে যেতে পারে। তখন পরের বুটে সফটওয়্যারকে বুঝতে হবে কোন ডেটা
-  সম্পূর্ণ, কোনটা অসম্পূর্ণ, আর কোনটা ব্যবহারযোগ্য।'
+excerpt: >-
+  It is easy to think of saving data as one indivisible event: write it and it is done.
+  In reality, power can disappear in the middle of a write. The next boot then has to
+  distinguish complete, incomplete, and usable state.
 editorial_batch: 20261003-100-niches
 ---
 
-ডেটা সংরক্ষণের কাজকে একটা অবিভাজ্য ঘটনা ভাবা সহজ: লিখলাম, হয়ে গেল। বাস্তবে লেখার মাঝেও বিদ্যুৎ চলে যেতে পারে। তখন পরের বুটে সফটওয়্যারকে বুঝতে হবে কোন ডেটা সম্পূর্ণ, কোনটা অসম্পূর্ণ, আর কোনটা ব্যবহারযোগ্য।
+It is easy to think of saving data as one indivisible event: write it and it is done. In reality, power can disappear in the middle of a write. The next boot then has to distinguish complete, incomplete, and usable state.
 
-ধরুন কনফিগের কয়েকটা মান আলাদা ধাপে লেখা হলো। দুই ধাপের মাঝখানে রিস্টার্ট হলে মিশ্র অবস্থা তৈরি হতে পারে। স্টোরেজ লাইব্রেরির নিশ্চয়তা জানা দরকার, কিন্তু অ্যাপ্লিকেশনের বহু মানের সম্পর্কও নিজস্বভাবে ভাবতে হয়। একটা মান নিরাপদে লেখা আর পুরো কনফিগ একসঙ্গে গ্রহণ করা এক দাবি না।
+Suppose several related configuration values are written in separate steps. A restart between those steps can leave a mixed state. Storage-library guarantees matter, but the application also has to reason about relationships across multiple values. Safely writing one value is not the same claim as atomically accepting an entire configuration.
 
-পরীক্ষায় শুধু সফল সেভ দেখা যথেষ্ট না। অনুমোদিত পরীক্ষার পরিবেশে বিভিন্ন ধাপে পাওয়ার হারালে পরের বুট কী করে দেখা দরকার। জানা ভালো ডেটা ধরে রাখা, অসম্পূর্ণ পরিবর্তন চেনা আর পুনরায় চেষ্টা করার পথ—এসব রিকভারি নকশার অংশ।
+Testing should include more than the successful save path. In an authorized test setup, remove power at different stages and observe what the next boot does. Preserving known-good data, detecting incomplete changes, and defining a retry path are all parts of recovery design.
 
-ছোট ডিভাইসের নির্ভরযোগ্যতা প্রায়ই এই বিরক্তিকর মাঝের অবস্থাগুলোতে তৈরি হয়। স্বাভাবিক পথ সুন্দর করা সহজ। অসম্পূর্ণ কাজের পর কীভাবে সঠিক অর্থে ফিরে আসবে, সে নিয়ম পরিষ্কার করলেই পণ্য দীর্ঘ সময় চালানোর সুযোগ বাড়ে।
+Reliability in small devices often comes from handling these inconvenient middle states. The normal path is easy to make look clean. A product becomes more trustworthy when it has explicit rules for recovering correct meaning after incomplete work.
 
-সূত্র: [মূল রেফারেন্স](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/storage/nvs_flash.html).
+Source: [official reference](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/storage/nvs_flash.html).

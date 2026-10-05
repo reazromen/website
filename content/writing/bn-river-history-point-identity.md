@@ -1,8 +1,8 @@
 ---
-title: নদীর ইতিহাস দেখতে পয়েন্টের পরিচয় দরকার
+title: River History Needs a Stable Point Identity
 date: '2025-06-23'
 draft: false
-language: bn
+language: en
 url: /posts/bn-river-history-point-identity.html
 topic: environmental-systems
 tags:
@@ -10,18 +10,18 @@ tags:
 - provenance
 featured: false
 read_time: 2
-excerpt: একটা নদীর নাম দিয়ে ইতিহাস জমালে নাম একই থাকলেও মাপের জায়গা বদলে যেতে পারে।
-  কোন পয়েন্ট, কোন উৎস আর কোন পদ্ধতির ডেটা সেই ইতিহাসে আছে জানা জরুরি। দীর্ঘ সময়ের
-  তুলনা করতে পরিচয়ের ধারাবাহিকতা দরকার।
+excerpt: >-
+  A river name can stay the same while the measurement point changes. Long-term comparison
+  requires knowing which point, source, method, and units belong to each part of the history.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা নদীর নাম দিয়ে ইতিহাস জমালে নাম একই থাকলেও মাপের জায়গা বদলে যেতে পারে। কোন পয়েন্ট, কোন উৎস আর কোন পদ্ধতির ডেটা সেই ইতিহাসে আছে জানা জরুরি। দীর্ঘ সময়ের তুলনা করতে পরিচয়ের ধারাবাহিকতা দরকার।
+A river name can stay the same while the measurement point changes. Long-term comparison requires knowing which point, source, method, and units belong to each part of the history.
 
-ধরুন পরে গ্রিডের অন্য পয়েন্ট ব্যবহার শুরু হলো। আগের আর নতুন মান এক রেখায় যোগ করলে বাস্তব পরিবর্তনের মতো দেখাতে পারে। অথচ কিছু পার্থক্য নির্বাচন বদলানোর ফল। মেটাডেটায় পরিবর্তন না রাখলে সে ব্যাখ্যা হারায়।
+Suppose the system later begins using a different model grid point. Joining old and new values into one continuous line can look like a real environmental shift even when part of the difference came from the selection change. If metadata does not record that transition, the explanation is lost.
 
-ইতিহাসে স্থির পরিচয়, অবস্থান, একক আর উৎসের ভার্সন রাখা কাজে দেয়। সংশোধিত ডেটা এলে পুরোনো আর নতুনের সম্পর্কও দেখা উচিত। একই তারিখের দুই সংস্করণ কোন কারণে বদলেছে জানা দরকার।
+A useful archive preserves stable identifiers, location, units, and source version. When corrected data arrives, the relationship between the old and new values matters too. If two versions exist for the same timestamp, we should know why they differ.
 
-ডেটার আর্কাইভ আমার কাছে শুধু পুরোনো সংখ্যা রাখা না। সংখ্যাগুলো তুলনা করার অনুমতি কোন শর্তে আছে, সেই শর্তও রাখা। ইতিহাসের বিশ্বাস অনেকটা তার মেটাডেটার ওপর দাঁড়ায়।
+For me, a data archive is not only a collection of old numbers. It also preserves the conditions under which those numbers are allowed to be compared. Much of historical trust lives in the metadata.
 
-সূত্র: [মূল রেফারেন্স](https://open-meteo.com/en/docs/historical-weather-api).
+Source: [official reference](https://open-meteo.com/en/docs/historical-weather-api).

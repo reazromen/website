@@ -1,8 +1,8 @@
 ---
-title: যা মাপছি তা পুরো সিস্টেম না
+title: What We Measure Is Not the Whole System
 date: '2022-12-31'
 draft: false
-language: bn
+language: en
 url: /posts/bn-observation-is-model.html
 topic: observability-monitoring
 tags:
@@ -10,18 +10,19 @@ tags:
 - systems-thinking
 featured: false
 read_time: 2
-excerpt: একটা ড্যাশবোর্ড দেখে পুরো সিস্টেমকে দেখছি মনে হতে পারে। বাস্তবে আমরা নির্বাচিত
-  কিছু মাপ দেখছি। কোন মাপ নেওয়া হয়েছে, কোথায় নেওয়া হয়েছে আর কতক্ষণ পরপর—এই নির্বাচনই
-  একটা মডেল তৈরি করে। মডেল আর বাস্তবতা এক না।
+excerpt: >-
+  A dashboard can create the feeling that we are looking at the entire system. In reality,
+  we are looking at selected measurements. What we measure, where we measure it, and how
+  often already forms a model.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা ড্যাশবোর্ড দেখে পুরো সিস্টেমকে দেখছি মনে হতে পারে। বাস্তবে আমরা নির্বাচিত কিছু মাপ দেখছি। কোন মাপ নেওয়া হয়েছে, কোথায় নেওয়া হয়েছে আর কতক্ষণ পরপর—এই নির্বাচনই একটা মডেল তৈরি করে। মডেল আর বাস্তবতা এক না।
+A dashboard can create the feeling that we are looking at the entire system. In reality, we are looking at selected measurements. What we measure, where we measure it, and how often already forms a model. The model and the system are not identical.
 
-ধরুন সিপ অনুরোধের সফলতা মাপা হচ্ছে, কিন্তু অডিওর মান না। তাহলে ফোনসিস্টেমের একটা স্তর দৃশ্যমান, অন্যটা অদৃশ্য। গ্রাফের পরিষ্কার ছবি থেকে অদৃশ্য স্তরের নিশ্চয়তা আসে না।
+Suppose SIP request success is measured but audio quality is not. One layer of the phone system is visible while another remains hidden. A clean signaling graph cannot guarantee the health of the invisible media layer.
 
-নতুন মাপ যোগ করার আগে কোন অজানা প্রশ্নের উত্তর চাই লিখে দেখা ভালো। সব অজানা দূর করা সম্ভব না। কিছু সীমা পরীক্ষা দিয়ে, কিছু প্রসঙ্গ দিয়ে, কিছু মানুষের রিপোর্ট দিয়ে বোঝা লাগে।
+Before adding another metric, it helps to write down the unknown question it is supposed to answer. Not every unknown can be eliminated. Some limits have to be understood through tests, context, or reports from people using the system.
 
-আমার কাছে অবজারভেবিলিটির শক্তি সর্বজ্ঞ হওয়ার দাবিতে না। সে কোন অংশ দেখাচ্ছে আর কোথায় অন্ধ, সেটা বোঝাতে পারলে অনুসন্ধান আরও সৎ হয়। সীমা জানা মানে কম দেখা না; দেখা জিনিসের অর্থ জানা।
+For me, the strength of observability is not a claim to omniscience. It becomes more honest when it can explain what is visible and where it remains blind. Knowing the boundary does not mean seeing less; it means understanding what the visible evidence actually says.
 
-সূত্র: [মূল রেফারেন্স](https://prometheus.io/docs/concepts/data_model/).
+Source: [official reference](https://prometheus.io/docs/concepts/data_model/).

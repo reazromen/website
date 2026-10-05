@@ -1,8 +1,8 @@
 ---
-title: ইভলিউশনের কোনো প্রোডাক্ট রোডম্যাপ নেই
+title: Evolution Does Not Have a Product Roadmap
 date: '2026-05-18'
 draft: false
-language: bn
+language: en
 url: /posts/bn-evolution-not-roadmap.html
 topic: biology-systems
 tags:
@@ -10,18 +10,19 @@ tags:
 - evolution
 featured: false
 read_time: 2
-excerpt: ইভলিউশন বুঝতে গিয়ে আমরা কখনো ফল দেখে আগের পরিকল্পনা কল্পনা করি। যেন একটা
-  সিস্টেম ভবিষ্যতের লক্ষ্য জানত এবং সেখানে পৌঁছানোর জন্য পরিবর্তন জমিয়েছে। কিন্তু
-  প্রাকৃতিক নির্বাচনকে মানুষের প্রোডাক্ট পরিকল্পনার সমান ধরে নেওয়া ঠিক না।
+excerpt: >-
+  Looking at present-day outcomes can tempt us to imagine an earlier plan, as if evolution
+  knew a future goal and accumulated changes to reach it. Natural selection should not
+  be treated as a human product-planning process.
 editorial_batch: 20261003-100-niches
 ---
 
-ইভলিউশন বুঝতে গিয়ে আমরা কখনো ফল দেখে আগের পরিকল্পনা কল্পনা করি। যেন একটা সিস্টেম ভবিষ্যতের লক্ষ্য জানত এবং সেখানে পৌঁছানোর জন্য পরিবর্তন জমিয়েছে। কিন্তু প্রাকৃতিক নির্বাচনকে মানুষের প্রোডাক্ট পরিকল্পনার সমান ধরে নেওয়া ঠিক না।
+Looking at present-day outcomes can tempt us to imagine an earlier plan, as if evolution knew a future goal and accumulated changes to reach it. Natural selection should not be treated as a human product-planning process.
 
-কোনো বৈশিষ্ট্য বর্তমান পরিবেশে কাজের হতে পারে, কিন্তু সব পরিবেশে শ্রেষ্ঠ না। আগের ইতিহাস আর বিদ্যমান গঠনের সীমাও থাকে। ফলে কোনো ফলকে নিখুঁত ডিজাইন বলা সেই জটিলতা আড়াল করতে পারে।
+A trait can be useful in the current environment without being optimal in every environment. Historical constraints and existing structures matter too. Calling the result a perfect design can hide that complexity.
 
-সফটওয়্যারের সঙ্গে তুলনায় এই পার্থক্য মনে রাখা দরকার। মানুষের দল লক্ষ্য লিখতে পারে, বিকল্প তুলনা করতে পারে, ভবিষ্যতের পরীক্ষা পরিকল্পনা করতে পারে। জীববৈজ্ঞানিক প্রক্রিয়ায় একই ধরনের সচেতন রোডম্যাপ ধরে ব্যাখ্যা করলে উপমা তথ্য হয়ে যায়।
+The distinction becomes especially important when comparing biology with software. Human teams can write goals, compare alternatives, and plan future tests. Treating biological processes as if they followed the same conscious roadmap turns an analogy into a false description.
 
-আমার কাছে ইভলিউশনের আকর্ষণ পরিকল্পনার অনুপস্থিতিতে দীর্ঘ সময়ের সম্পর্ক তৈরি হওয়ায়। সেই বাস্তবতা নিজেই যথেষ্ট বিস্ময়কর। তাকে পরিচিত ইঞ্জিনিয়ারের ইচ্ছা বানানোর প্রয়োজন নেই।
+What fascinates me about evolution is precisely that long-term relationships can emerge without a forward-looking plan. That reality is already remarkable. It does not need to be rewritten as the intention of an engineer.
 
-সূত্র: [মূল রেফারেন্স](https://evolution.berkeley.edu/evolution-101/).
+Source: [official reference](https://evolution.berkeley.edu/evolution-101/).

@@ -1,8 +1,8 @@
 ---
-title: হেলথ চেকে সব ডিপেনডেন্সি ফেল করালে
+title: When a Health Check Fails Every Dependency at Once
 date: '2025-04-20'
 draft: false
-language: bn
+language: en
 url: /posts/bn-health-check-dependency-cascade.html
 topic: production-engineering
 tags:
@@ -10,18 +10,19 @@ tags:
 - reliability
 featured: false
 read_time: 2
-excerpt: একটা সার্ভিসের ডিপেনডেন্সি সাময়িক ব্যর্থ হলে নিজেকেও রিস্টার্ট করানো সবসময়
-  কাজে দেয় না। বাইরে থাকা সমস্যা রিস্টার্টে ঠিক হয় না, অথচ চলমান কাজ হারাতে পারে।
-  হেলথ চেকের ফলের পরে কী পদক্ষেপ হবে সেটা নকশার অংশ।
+excerpt: >-
+  Restarting a service whenever one of its dependencies is temporarily unhealthy is not
+  always helpful. An external failure may not be fixed by restarting the application,
+  and useful in-flight work can be lost in the process.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা সার্ভিসের ডিপেনডেন্সি সাময়িক ব্যর্থ হলে নিজেকেও রিস্টার্ট করানো সবসময় কাজে দেয় না। বাইরে থাকা সমস্যা রিস্টার্টে ঠিক হয় না, অথচ চলমান কাজ হারাতে পারে। হেলথ চেকের ফলের পরে কী পদক্ষেপ হবে সেটা নকশার অংশ।
+Restarting a service whenever one of its dependencies is temporarily unhealthy is not always helpful. An external failure may not be fixed by restarting the application, and useful in-flight work can be lost in the process. The action triggered by a health check is part of the design.
 
-লিভনেস আর প্রস্তুতির প্রশ্ন আলাদা। প্রসেস নিজে আটকে আছে কি না এক প্রশ্ন; নতুন অনুরোধ সামলাতে পারবে কি না অন্য প্রশ্ন। দ্বিতীয় সমস্যার জন্য প্রথমটির মতো শাস্তি দিলে অকারণে রিস্টার্টের চক্র তৈরি হতে পারে।
+Liveness and readiness answer different questions. Is the process itself stuck? Can it safely accept new work right now? Treating the second condition as if it were the first can create unnecessary restart loops.
 
-ধরুন ডেটাবেস ধীর। অ্যাপ বারবার উঠছে, আবার ডেটাবেসে সংযোগ চাইছে। এতে সমস্যার সময় বাড়তি কাজও তৈরি হতে পারে। পরীক্ষা শুধু ব্যর্থতা শনাক্ত করবে না; উপযুক্ত প্রতিক্রিয়ার সঙ্গে তার সম্পর্কও দরকার।
+Suppose the database becomes slow. The application restarts, reconnects, and immediately adds more work to the already stressed dependency. The health system detected a problem correctly, but its response made the incident worse.
 
-ভালো স্বাস্থ্য পরীক্ষা আমার কাছে অপারেশনের সিদ্ধান্তের অংশ। কোন ব্যর্থতায় অপেক্ষা, কোনটায় ট্রাফিক সরানো, কোনটায় পুনরায় চালু—এই নিয়ম পরিষ্কার হলে সবুজ আর লাল রঙের বাইরে সিস্টেমের আচরণ বোঝা যায়।
+I think of a good health check as part of operational decision-making. Which failures should cause waiting, which should remove traffic, and which should restart a process? Once those rules are explicit, system behavior becomes more meaningful than a simple green or red indicator.
 
-সূত্র: [মূল রেফারেন্স](https://kubernetes.io/docs/concepts/configuration/liveness-readiness-startup-probes/).
+Source: [official reference](https://kubernetes.io/docs/concepts/configuration/liveness-readiness-startup-probes/).

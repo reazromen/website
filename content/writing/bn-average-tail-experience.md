@@ -1,8 +1,8 @@
 ---
-title: গড়ের মধ্যে ধীর মানুষগুলো হারিয়ে যায়
+title: The Slow Users Disappear Inside the Average
 date: '2024-04-15'
 draft: false
-language: bn
+language: en
 url: /posts/bn-average-tail-experience.html
 topic: observability-monitoring
 tags:
@@ -10,18 +10,19 @@ tags:
 - latency
 featured: false
 read_time: 2
-excerpt: গড় প্রতিক্রিয়ার সময় কম দেখলে সিস্টেম দ্রুত মনে হয়। কিন্তু কিছু ব্যবহারকারীর
-  অপেক্ষা খুব বেশি হলেও গড় তা আড়াল করতে পারে। সবার অভিজ্ঞতা একটা সংখ্যায় মিশে যায়।
-  তাই সময়ের ছড়িয়ে পড়া জানা দরকার।
+excerpt: >-
+  A low average response time can make a system look fast even when a smaller group of
+  users waits much longer. Their experience disappears into one number. To understand
+  latency, we also need to understand its distribution.
 editorial_batch: 20261003-100-niches
 ---
 
-গড় প্রতিক্রিয়ার সময় কম দেখলে সিস্টেম দ্রুত মনে হয়। কিন্তু কিছু ব্যবহারকারীর অপেক্ষা খুব বেশি হলেও গড় তা আড়াল করতে পারে। সবার অভিজ্ঞতা একটা সংখ্যায় মিশে যায়। তাই সময়ের ছড়িয়ে পড়া জানা দরকার।
+A low average response time can make a system look fast even when a smaller group of users waits much longer. Their experience disappears into one number. To understand latency, we also need to understand its distribution.
 
-ধরুন বেশিরভাগ অনুরোধ দ্রুত, আর অল্প কিছু খুব ধীর। গড়ের পরিবর্তন ছোট হলেও সেই ধীর অনুরোধের মানুষগুলো অসুবিধা পাচ্ছেন। পারসেন্টাইল বা উপযুক্ত বণ্টন মাপ অন্য প্রশ্নের উত্তর দেয়। তবে তাদের গণনার সীমাও জানা জরুরি।
+Suppose most requests are fast and a few are extremely slow. The average may move only slightly while the people behind those slow requests are still having a bad experience. Percentiles or an appropriate distribution can answer different questions, although their own calculation limits matter too.
 
-হিস্টোগ্রামের বাকেট নির্বাচন ব্যবহারকারীর প্রয়োজন থেকে আসতে পারে। কোন অপেক্ষা গ্রহণযোগ্য, কোনটা সমস্যার—সেই সীমার কাছে যথেষ্ট মাপ দরকার। শুধু ডিফল্ট বাকেট রেখে সব কাজের সময় একইভাবে দেখা অসম্পূর্ণ হতে পারে।
+Histogram buckets should come from the needs of the system and its users. If a certain amount of waiting is acceptable and another threshold is not, the measurement should have enough resolution around that boundary. Keeping only default buckets for every workload can hide what matters.
 
-সংখ্যাকে আমি অভিজ্ঞতার মানচিত্র হিসেবে দেখি। গড় মানচিত্রের একটা দাগ। কোথায় খারাপ অভিজ্ঞতা জমছে না দেখলে সেই দাগ যত সুন্দরই হোক, মানুষের অপেক্ষার গল্প শেষ হয় না।
+I think of metrics as a map of experience. The average is one mark on that map. If I cannot see where bad experiences are accumulating, a clean average does not finish the story of how long people are waiting.
 
-সূত্র: [মূল রেফারেন্স](https://prometheus.io/docs/practices/histograms/).
+Source: [official reference](https://prometheus.io/docs/practices/histograms/).

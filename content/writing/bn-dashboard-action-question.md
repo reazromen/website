@@ -1,8 +1,8 @@
 ---
-title: ড্যাশবোর্ডের আগে সিদ্ধান্তের প্রশ্ন
+title: Ask the Operational Question Before Building the Dashboard
 date: '2024-10-24'
 draft: false
-language: bn
+language: en
 url: /posts/bn-dashboard-action-question.html
 topic: observability-monitoring
 tags:
@@ -10,18 +10,19 @@ tags:
 - dashboards
 featured: false
 read_time: 2
-excerpt: গ্রাফ যোগ করা সহজ, কিন্তু সেই গ্রাফ দেখে কোন সিদ্ধান্ত নেবেন জানা কঠিন হতে
-  পারে। একটা ড্যাশবোর্ডে সব তথ্য থাকলেও অপারেটর সমস্যার সময় কোথা থেকে শুরু করবেন বুঝতে
-  নাও পারেন। তাই প্যানেলের আগে কাজের প্রশ্ন লিখতে ভালো লাগে।
+excerpt: >-
+  Adding a graph is easy; deciding what action that graph should support is harder. A
+  dashboard can contain every metric and still leave an operator unsure where to begin
+  during an incident.
 editorial_batch: 20261003-100-niches
 ---
 
-গ্রাফ যোগ করা সহজ, কিন্তু সেই গ্রাফ দেখে কোন সিদ্ধান্ত নেবেন জানা কঠিন হতে পারে। একটা ড্যাশবোর্ডে সব তথ্য থাকলেও অপারেটর সমস্যার সময় কোথা থেকে শুরু করবেন বুঝতে নাও পারেন। তাই প্যানেলের আগে কাজের প্রশ্ন লিখতে ভালো লাগে।
+Adding a graph is easy; deciding what action that graph should support is harder. A dashboard can contain every metric and still leave an operator unsure where to begin during an incident. I prefer to write the operational question before choosing the panel.
 
-ধরুন ফোনকলের সমস্যা হচ্ছে। রেজিস্ট্রেশনের সংখ্যা, মিডিয়া ব্যর্থতা আর নেটওয়ার্কের দেরি আলাদা তথ্য। কোন প্যানেল আগে দেখবেন তা অভিযোগের ধরন থেকে আসে। সব সংখ্যাকে সমান গুরুত্ব দিলে জরুরি সম্পর্ক হারায়।
+Suppose phone calls are failing. Registration count, media failures, and network latency are all useful signals, but they answer different questions. Which panel should come first depends on the symptom being investigated. Giving every number equal visual weight can hide the relationship that matters.
 
-একটা প্যানেলের উদ্দেশ্য লিখে দেখুন: এই মান বদলালে কী পরীক্ষা করবেন? উত্তর না থাকলে প্যানেলটা হয়তো প্রসঙ্গের জন্য, সরাসরি সিদ্ধান্তের জন্য না। সেই পার্থক্য দেখানোও দরকার।
+Try writing the purpose of a panel as a sentence: if this value changes, what will I check next? If there is no answer, the panel may be useful for context rather than direct decision-making. That distinction is worth making visible.
 
-আমার কাছে ভালো ড্যাশবোর্ড কম বা বেশি প্যানেলের প্রশ্ন না। সে একটা ঘটনার তদন্তে পথ দেখায় কি না সেটাই মূল। সুন্দর বিন্যাস দরকার, কিন্তু দৃশ্যমান সংখ্যার সঙ্গে কাজের সম্পর্কই তাকে ব্যবহারযোগ্য করে।
+A good dashboard is not defined by having few panels or many. Its job is to guide an investigation. Layout matters, but the connection between visible numbers and operational action is what makes the dashboard useful.
 
-সূত্র: [মূল রেফারেন্স](https://prometheus.io/docs/practices/instrumentation/).
+Source: [official reference](https://prometheus.io/docs/practices/instrumentation/).

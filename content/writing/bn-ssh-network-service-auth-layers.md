@@ -1,8 +1,8 @@
 ---
-title: এসএসএইচ না খুললে ব্যর্থতার স্তর আলাদা করা
+title: When SSH Fails, Separate the Failure Layers
 date: '2024-09-01'
 draft: false
-language: bn
+language: en
 url: /posts/bn-ssh-network-service-auth-layers.html
 topic: networking
 tags:
@@ -10,18 +10,19 @@ tags:
 - debugging
 featured: false
 read_time: 2
-excerpt: এসএসএইচ কাজ করছে না বললে অন্তত কয়েকটা সম্ভাবনা থাকে। অ্যাড্রেস ভুল, পথ নেই,
-  পোর্টে সার্ভিস নেই, কিংবা অথেনটিকেশন ব্যর্থ। সবকিছুর জন্য সার্ভার রিস্টার্ট একমাত্র
-  উত্তর না। ব্যর্থতার বার্তাই অনেক সময় প্রথম ভাগটা করতে সাহায্য করে।
+excerpt: >-
+  "SSH is not working" can mean several different things: the address is wrong, there is
+  no route, nothing is listening on the port, or authentication failed. Restarting the
+  server is not the universal answer.
 editorial_batch: 20261003-100-niches
 ---
 
-এসএসএইচ কাজ করছে না বললে অন্তত কয়েকটা সম্ভাবনা থাকে। অ্যাড্রেস ভুল, পথ নেই, পোর্টে সার্ভিস নেই, কিংবা অথেনটিকেশন ব্যর্থ। সবকিছুর জন্য সার্ভার রিস্টার্ট একমাত্র উত্তর না। ব্যর্থতার বার্তাই অনেক সময় প্রথম ভাগটা করতে সাহায্য করে।
+"SSH is not working" can mean several different things: the address is wrong, there is no route, nothing is listening on the port, or authentication failed. Restarting the server is not the universal answer. The error itself often helps divide the problem.
 
-কানেকশন টাইমআউট আর পরিচয় গ্রহণ না করার বার্তা এক ঘটনা না। প্রথমটায় যোগাযোগের পথ দেখা জরুরি হতে পারে; দ্বিতীয়টায় সার্ভার পর্যন্ত পৌঁছানোর প্রমাণ ইতিমধ্যে আছে। এই পার্থক্য ছাড়া নেটওয়ার্কের সমস্যায় পাসওয়ার্ড বদলে সময় নষ্ট হয়।
+A connection timeout and a rejected identity are not the same event. In the first case, the network path may be the problem. In the second, reaching the SSH server has already been demonstrated. Without that distinction, it is easy to waste time changing passwords for a routing problem.
 
-একই সার্ভারে ভিন্ন পথে পরীক্ষা কাজে আসে। স্থানীয় নেটওয়ার্ক, অনুমোদিত ওভারলে নেটওয়ার্ক আর পাবলিক পথের ফল আলাদা হলে সীমান্ত চেনা যায়। প্রতিটা পথের কনফিগ আর অ্যাক্সেসের নিয়মও আলাদা থাকতে পারে।
+Testing the same host through different authorized paths can be useful. If LAN access, an overlay network, and a public path produce different results, a boundary becomes visible. Each path can also have its own configuration and access policy.
 
-ভালো ট্রাবলশুটিং ছোট সত্য জমায়। কোথায় পৌঁছেছি, কোথায় থেমেছি আর কোন দাবি এখনও অজানা—এই তিনটা লিখলে পরের পরিবর্তন যুক্তিযুক্ত হয়। সবচেয়ে বড় পরিবর্তন দিয়ে শুরু করা প্রয়োজন হয় না।
+Good troubleshooting accumulates small truths: how far did the request get, where did it stop, and which claims remain unknown? Once those are written down, the next change can be targeted instead of starting with the largest possible intervention.
 
-সূত্র: [মূল রেফারেন্স](https://www.openssh.com/manual.html).
+Source: [official reference](https://www.openssh.com/manual.html).

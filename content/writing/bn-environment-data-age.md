@@ -1,8 +1,8 @@
 ---
-title: পরিবেশের ডেটায় লাইভ শব্দের বয়স
+title: The Age of "Live" Environmental Data
 date: '2024-04-22'
 draft: false
-language: bn
+language: en
 url: /posts/bn-environment-data-age.html
 topic: environmental-systems
 tags:
@@ -10,18 +10,19 @@ tags:
 - freshness
 featured: false
 read_time: 2
-excerpt: লাইভ লেখা দেখলে মানুষ বর্তমান অবস্থা ভাবেন। কিন্তু কোনো উৎস কতক্ষণ পরপর বদলায়,
-  কবে সর্বশেষ মাপ এসেছে আর কবে সার্ভার তা এনেছে—এসব আলাদা সময়। শুধু পেজ এখন খুলেছে
-  বলে ডেটা এখনকার হয় না।
+excerpt: >-
+  When an interface says live, people naturally assume the data represents the present.
+  But source update interval, observation time, ingestion time, and display time are all
+  different clocks. Opening a page now does not make its data current.
 editorial_batch: 20261003-100-niches
 ---
 
-লাইভ লেখা দেখলে মানুষ বর্তমান অবস্থা ভাবেন। কিন্তু কোনো উৎস কতক্ষণ পরপর বদলায়, কবে সর্বশেষ মাপ এসেছে আর কবে সার্ভার তা এনেছে—এসব আলাদা সময়। শুধু পেজ এখন খুলেছে বলে ডেটা এখনকার হয় না।
+When an interface says *live*, people naturally assume the data represents the present. But source update interval, observation time, ingestion time, and display time are all different clocks. Opening a page now does not make its data current.
 
-ধরুন একটা প্যানেলে সর্বশেষ মান দেখানো হচ্ছে। উৎস কিছুক্ষণ বন্ধ থাকলেও মানটা থেকে যাবে। সংখ্যা সত্য হতে পারে, কিন্তু বর্তমান নয়। তার বয়স না দেখালে পুরোনো খবর নতুন সিদ্ধান্তের ভিত্তি হয়ে যায়।
+Suppose a panel keeps showing the latest known value after the upstream source stops updating. The number may still be historically correct, but it is no longer current. Without its age, stale information can become the basis for a new decision.
 
-ডেটা তৈরি, সংগ্রহ আর প্রদর্শনের সময় আলাদা রাখলে দেরির অবস্থান চেনা যায়। ফলব্যাক ব্যবহার হলে সেটাও দৃশ্যমান থাকা দরকার। বিকল্প উৎসের তথ্য কাজে লাগতে পারে, কিন্তু তার পরিচয় লুকানো উচিত না।
+Keeping observation time, collection time, and presentation time separate helps locate delay. If a fallback source is being used, that should be visible too. Alternate data can be useful, but its identity should not disappear.
 
-আমি লাইভকে একটা প্রতিশ্রুতি হিসেবে দেখি। প্রতিশ্রুতির অর্থ পণ্যে নির্দিষ্ট করতে হয়। আপডেটের সময় আর গ্রহণযোগ্য বয়স জানালে ব্যবহারকারী বুঝতে পারেন সংখ্যা দিয়ে এই মুহূর্তে কতটা সিদ্ধান্ত নেওয়া যাবে।
+I think of *live* as a promise that a product needs to define. Once update cadence and acceptable data age are visible, the user can judge how much confidence to place in the number right now.
 
-সূত্র: [মূল রেফারেন্স](https://open-meteo.com/en/docs).
+Source: [official reference](https://open-meteo.com/en/docs).

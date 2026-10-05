@@ -1,8 +1,8 @@
 ---
-title: টাইম নিয়ে গান শোনা মানেও সময় খরচ করা
+title: Listening to a Song About Time Also Costs Time
 date: '2022-05-19'
 draft: false
-language: bn
+language: en
 url: /posts/bn-music-time-song-real-duration.html
 topic: music-listening
 tags:
@@ -10,9 +10,10 @@ tags:
 - time
 featured: false
 read_time: 2
-excerpt: 'সময় নিয়ে একটা লেখা দ্রুত চোখ বুলিয়ে পড়া যায়। কিন্তু গান তার নিজের সময় নিয়ে
-  চলে। পিংক ফ্লয়েডের টাইম নিয়ে ভাবতে গেলে এই সম্পর্কটাই আমার কাছে গুরুত্বপূর্ণ: বিষয়টাকে
-  বুঝতে গিয়ে শ্রোতাকেও সময়ের মধ্যে থাকতে হয়।'
+excerpt: >-
+  An essay about time can be skimmed quickly, but a song unfolds at its own pace. When I
+  think about Pink Floyd's Time, that relationship matters: understanding the subject also
+  requires the listener to remain inside time.
 editorial_batch: 20261003-100-niches
 kind: research
 artist: Pink Floyd
@@ -20,12 +21,12 @@ album: The Dark Side of the Moon
 year: ''
 ---
 
-সময় নিয়ে একটা লেখা দ্রুত চোখ বুলিয়ে পড়া যায়। কিন্তু গান তার নিজের সময় নিয়ে চলে। পিংক ফ্লয়েডের টাইম নিয়ে ভাবতে গেলে এই সম্পর্কটাই আমার কাছে গুরুত্বপূর্ণ: বিষয়টাকে বুঝতে গিয়ে শ্রোতাকেও সময়ের মধ্যে থাকতে হয়।
+An essay about time can be skimmed quickly, but a song unfolds at its own pace. When I think about Pink Floyd's *Time*, that relationship matters: understanding the subject also requires the listener to remain inside time.
 
-একটা অংশ আসার অপেক্ষা, তার ফিরে আসা বা শেষ হয়ে যাওয়া—এসব পাঠের অভিজ্ঞতার অংশ। শুধু লিরিকের অর্থ আলোচনা করলে এই সময়গত গঠন হারাতে পারে। আবার শুধু গঠন দেখলেও কথার প্রসঙ্গ বাদ যায়।
+Waiting for a section to arrive, hearing it return, or noticing it disappear are all part of the experience. If I discuss only the meaning of the lyrics, I can lose this temporal structure. If I discuss only structure, I can lose the context carried by the words.
 
-দুই ধরনের নোট আলাদা করে করা যায়। প্রথমে কী শুনছি, পরে সেই শুনে কী ভাবছি। এতে রেকর্ডিংয়ের উপস্থিতি আর ব্যক্তিগত ব্যাখ্যা এক হয়ে যায় না। কোনো অনথিভুক্ত ব্যক্তিগত স্মৃতি এই আলোচনার জন্য প্রয়োজন নেই।
+It is useful to make two kinds of notes: first, what I am hearing; then, what that hearing makes me think. This keeps the presence of the recording separate from personal interpretation. No undocumented personal memory is necessary to make the discussion meaningful.
 
-আমার কাছে গানটির মতো সময়ের বিষয়কে শোনার একটা মূল্য এই সীমায়। গান শেষ হওয়ার পরে যে ভাবনা থাকে, সেটাও সময়ের ফল। বিষয় আর অভিজ্ঞতা পুরো সমান না, কিন্তু তাদের সম্পর্ক নিয়ে প্রশ্ন করা যায়।
+For me, one value of hearing a song about time is precisely this constraint. The thoughts that remain after the track ends are also products of time. Subject and experience are not identical, but the relationship between them is worth asking about.
 
-সূত্র: [মূল রেফারেন্স](https://www.pinkfloyd.com/music/).
+Source: [official reference](https://www.pinkfloyd.com/music/).

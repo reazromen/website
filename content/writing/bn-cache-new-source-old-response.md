@@ -1,8 +1,8 @@
 ---
-title: সোর্স বদলেছে, কিন্তু মানুষ পুরোনো পেজ দেখছে কেন
+title: The Source Changed, So Why Are People Still Seeing the Old Page?
 date: '2025-03-22'
 draft: false
-language: bn
+language: en
 url: /posts/bn-cache-new-source-old-response.html
 topic: web-control-plane
 tags:
@@ -10,18 +10,19 @@ tags:
 - deployment
 featured: false
 read_time: 2
-excerpt: ওয়েবসাইটের সোর্সে পরিবর্তন দেখে মনে হয় প্রকাশও শেষ। কিন্তু মানুষের ব্রাউজার
-  পর্যন্ত পৌঁছাতে ডিপ্লয়মেন্ট আর ক্যাশের কয়েকটা স্তর থাকতে পারে। নতুন ফাইল তৈরি, নতুন
-  আর্টিফ্যাক্ট প্রকাশ আর নতুন রেসপন্স দেখা—এই তিনটা আলাদা প্রমাণ।
+excerpt: >-
+  A source-code change can make a release feel finished, but several deployment and cache
+  layers may still sit between the repository and a user's browser. A new file, a newly
+  published artifact, and a newly observed response are three different pieces of evidence.
 editorial_batch: 20261003-100-niches
 ---
 
-ওয়েবসাইটের সোর্সে পরিবর্তন দেখে মনে হয় প্রকাশও শেষ। কিন্তু মানুষের ব্রাউজার পর্যন্ত পৌঁছাতে ডিপ্লয়মেন্ট আর ক্যাশের কয়েকটা স্তর থাকতে পারে। নতুন ফাইল তৈরি, নতুন আর্টিফ্যাক্ট প্রকাশ আর নতুন রেসপন্স দেখা—এই তিনটা আলাদা প্রমাণ।
+A source-code change can make a release feel finished, but several deployment and cache layers may still sit between the repository and a user's browser. A new file, a newly published artifact, and a newly observed response are three different pieces of evidence.
 
-ধরুন সার্ভারে নতুন পেজ আছে, কিন্তু এজে পুরোনো কপি আছে। আবার এজে নতুন কপি থাকলেও ব্রাউজারে পুরোনো স্ক্রিপ্ট থাকতে পারে। একই অভিযোগের জন্য দুই জায়গার সমাধান আলাদা। শুধু আবার ডিপ্লয় করা সবসময় সমস্যার স্থান বলে না।
+Suppose the origin has the new page but the edge still has an older copy. Or the edge may already have the new HTML while the browser is still running an old script. Those are different failure locations and require different fixes. Re-deploying again does not, by itself, tell you where the stale response came from.
 
-পরীক্ষায় বিল্ডের পরিচয় আর রেসপন্সের হেডার দেখতে সুবিধা হয়। স্ট্যাটিক অ্যাসেটের ভার্সনযুক্ত নাম পুরোনো আর নতুনকে আলাদা করতে সাহায্য করে। আর এইচটিএমএলের ক্যাশ নীতিকে তার পরিবর্তনের প্রয়োজনের সঙ্গে মিলিয়ে রাখা দরকার।
+It helps to expose a build identity and inspect response headers during verification. Versioned static asset names make old and new artifacts easier to distinguish. HTML cache policy should also match how quickly that HTML needs to change.
 
-রিলিজের শেষ পরীক্ষা তাই সোর্সে না, মানুষের কাছে যাওয়ার পথেও হওয়া উচিত। ক্যাশ ভুল কিছু না; সে একটা সময়ের কপি। নতুন তথ্য কবে সেই কপিকে বদলাবে, তার নিয়ম পরিষ্কার থাকলেই সমস্যা কমে।
+The final test of a release should therefore happen not only in source control but along the delivery path to the user. A cache is not inherently wrong; it is a copy from a particular point in time. Problems shrink when the rules for replacing that copy are explicit.
 
-সূত্র: [মূল রেফারেন্স](https://developers.cloudflare.com/cache/concepts/revalidation/).
+Source: [official reference](https://developers.cloudflare.com/cache/concepts/revalidation/).

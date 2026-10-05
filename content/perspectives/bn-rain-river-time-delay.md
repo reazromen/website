@@ -1,8 +1,8 @@
 ---
-title: বৃষ্টি আর নদীর সাড়ার মাঝখানে সময় আছে
+title: There Is Time Between Rainfall and a River's Response
 date: '2025-12-18'
 draft: false
-language: bn
+language: en
 url: /posts/bn-rain-river-time-delay.html
 topic: environmental-systems
 tags:
@@ -10,18 +10,19 @@ tags:
 - time
 featured: false
 read_time: 2
-excerpt: আজ বৃষ্টি হলো আর নদী আজই একইভাবে বদলাবে—এমন সরল সম্পর্ক আশা করা যায় না। পানি
-  কোথায় পড়েছে, মাটিতে কী হয়েছে, কোন পথ দিয়ে এসেছে আর কতক্ষণ লেগেছে—সব মিলিয়ে নদীর
-  সাড়া তৈরি হয়। সময়ের বিলম্ব সম্পর্কের অংশ।
+excerpt: >-
+  Rain today does not imply that a river will change in the same way today. Where the rain
+  fell, what happened in the soil, which path the water followed, and how long that path
+  took all contribute to the river's response.
 editorial_batch: 20261003-100-niches
 ---
 
-আজ বৃষ্টি হলো আর নদী আজই একইভাবে বদলাবে—এমন সরল সম্পর্ক আশা করা যায় না। পানি কোথায় পড়েছে, মাটিতে কী হয়েছে, কোন পথ দিয়ে এসেছে আর কতক্ষণ লেগেছে—সব মিলিয়ে নদীর সাড়া তৈরি হয়। সময়ের বিলম্ব সম্পর্কের অংশ।
+Rain today does not imply that a river will change in the same way today. Where the rain fell, what happened in the soil, which path the water followed, and how long that path took all contribute to the river's response. Delay is part of the relationship.
 
-ধরুন নদীর কাছের জায়গায় কম বৃষ্টি, কিন্তু উজানে বেশি। স্থানীয় আকাশ দেখে নদীর পরের আচরণ পুরো বোঝা যাবে না। আবার নদীর মুখে অন্য জলগত প্রভাবও থাকতে পারে। একই গ্রাফে দুই সংখ্যা রাখলেই কারণের সম্পর্ক তৈরি হয় না।
+Suppose little rain falls near a river gauge while much more falls upstream. Looking only at the local sky will not explain what the river does next. Near the river mouth, other hydrological influences may matter too. Placing two numbers on the same graph does not automatically establish causality.
 
-সময় সিরিজ তুলনায় কোন সময়ের বৃষ্টি কোন সময়ের সাড়ার সঙ্গে মিলছে পরীক্ষা করা দরকার। তবে মিল পেলেই একমাত্র কারণ পাওয়া গেছে বলা যাবে না। অন্য পরিবর্তন আর মডেলের সীমাও দেখতে হবে।
+Time-series analysis should test which rainfall period aligns with which later river response. Even a strong alignment does not prove a single cause. Other changes and model limitations still need consideration.
 
-পরিবেশের সিস্টেম আমার কাছে আকর্ষণীয় কারণ তার ফল জায়গা আর সময়ে ছড়িয়ে থাকে। একটা পয়েন্টের ডেটা দরকারি, কিন্তু পথের মানচিত্র ছাড়া সে সম্পূর্ণ গল্প বলে না।
+Environmental systems interest me because their outcomes are distributed through both space and time. A point measurement can be useful, but without a map of the pathway it rarely tells the whole story.
 
-সূত্র: [মূল রেফারেন্স](https://global-flood.emergency.copernicus.eu/).
+Source: [official reference](https://global-flood.emergency.copernicus.eu/).

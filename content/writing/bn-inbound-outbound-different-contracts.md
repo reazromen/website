@@ -1,8 +1,8 @@
 ---
-title: ইনবাউন্ড আর আউটবাউন্ড কল একই পরীক্ষার দুই নাম না
+title: Inbound and Outbound Calls Are Not Two Names for the Same Test
 date: '2023-09-21'
 draft: false
-language: bn
+language: en
 url: /posts/bn-inbound-outbound-different-contracts.html
 topic: telecom-voip
 tags:
@@ -10,20 +10,19 @@ tags:
 - testing
 featured: false
 read_time: 2
-excerpt: বাইরে ফোন করতে পারলে বাইরে থেকে ফোন আসবেই—এই ধারণা টেলিফোনিতে খুব সহজে তৈরি
-  হয়। কিন্তু দুই দিকের পথের নিয়ম আলাদা হতে পারে। আউটবাউন্ডে সিস্টেম নিজে যোগাযোগ শুরু
-  করে; ইনবাউন্ডে বাইরের সিস্টেমকে তার কাছে পৌঁছাতে হয়। রাউটিং, অথেনটিকেশন, নম্বরের
-  উপস্থাপন আর ন্যাটের আচরণও দুই দিকে আলাদা হতে পারে। তাই এক দিকের সফল কল দুই দিকের
-  প্রস্তুতির প্রমাণ না।
+excerpt: >-
+  It is easy to assume that if a system can place an outbound call, inbound calling must
+  work too. But the two directions can have different routing, authentication, numbering,
+  NAT, and reachability requirements.
 editorial_batch: 20261003-100-niches
 ---
 
-বাইরে ফোন করতে পারলে বাইরে থেকে ফোন আসবেই—এই ধারণা টেলিফোনিতে খুব সহজে তৈরি হয়। কিন্তু দুই দিকের পথের নিয়ম আলাদা হতে পারে। আউটবাউন্ডে সিস্টেম নিজে যোগাযোগ শুরু করে; ইনবাউন্ডে বাইরের সিস্টেমকে তার কাছে পৌঁছাতে হয়। রাউটিং, অথেনটিকেশন, নম্বরের উপস্থাপন আর ন্যাটের আচরণও দুই দিকে আলাদা হতে পারে। তাই এক দিকের সফল কল দুই দিকের প্রস্তুতির প্রমাণ না।
+It is easy to assume that if a system can place an outbound call, inbound calling must work too. But the two directions can have different routing, authentication, numbering, NAT, and reachability requirements. Outbound traffic starts from inside the system; inbound traffic has to find its way in from somewhere else. Success in one direction is not proof of readiness in the other.
 
-একটা পিবিএক্সের জন্য আলাদা করে ভাবুন: কোন নম্বর বাইরে যাবে, কোন নম্বর ভেতরে ঢুকবে, আর ঢুকলে কোথায় যাবে। বাইরে নম্বর পাঠানোর নিয়ম আর ভেতরে ডিআইডি শনাক্ত করার নিয়ম এক জিনিস না। ব্যবহারকারীর কাছে ফোন বাজেনি বলে সমস্যা ফোনে—এটা ধরে নিলে নম্বরের রাউটিং ভুল চোখ এড়িয়ে যেতে পারে। প্রথমে দেখতে হবে ইনবাউন্ড অনুরোধ সিস্টেমে পৌঁছেছে কি না।
+For a PBX, think separately about which number is presented outbound, which DID is accepted inbound, and where an accepted inbound call should route. Outbound number presentation and inbound DID matching are different contracts. If a phone never rings, assuming the handset is at fault can hide a routing problem. First establish whether the inbound INVITE reached the system at all.
 
-পরীক্ষার ম্যাট্রিক্সে দুই দিকের জন্য সিগন্যালিং আর মিডিয়া আলাদা থাকা দরকার। কল শুরু, রিং, উত্তর, দুই দিকের অডিও, বোতামের ইভেন্ট, কল শেষ—প্রতিটা ধাপের ফল লিখে রাখলে ব্যর্থতার অবস্থান পাওয়া যায়। এই ধরনের ছোট ম্যাট্রিক্স অনেক বড় ড্যাশবোর্ডের চেয়েও দ্রুত কাজে দিতে পারে। কারণ সে পরীক্ষার দাবি স্পষ্ট করে।
+The test matrix should separate signaling and media in both directions. Call initiation, ringing, answer, two-way audio, DTMF, and call teardown can each be recorded independently. A small matrix like this can be more useful than a large dashboard because it makes the claim under test explicit.
 
-এটা নেটওয়ার্কিংয়ের সাধারণ শিক্ষাও। বের হতে পারা আর পৌঁছানো যায় এমন হওয়া আলাদা বৈশিষ্ট্য। ওয়েবহুক, ইমেইল, সেন্সরের কমান্ড—সব ক্ষেত্রেই এই পার্থক্য থাকে। সিস্টেমের বাইরে থেকে কাজ শুরু হওয়ার পথ আলাদা করে পরীক্ষা না করলে সংযোগের একপাশকে পুরো সংযোগ বলে ভুল করা হয়।
+This is a general networking lesson as well. Being able to reach out and being reachable from outside are different properties. Webhooks, email delivery, and device commands all have similar asymmetry. Unless both directions are tested, one half of connectivity can easily be mistaken for the whole thing.
 
-সূত্র: [মূল রেফারেন্স](https://www.rfc-editor.org/rfc/rfc3261.html).
+Source: [official reference](https://www.rfc-editor.org/rfc/rfc3261.html).

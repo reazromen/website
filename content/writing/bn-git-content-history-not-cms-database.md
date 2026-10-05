@@ -1,8 +1,8 @@
 ---
-title: গিটে ব্লগ রাখলে ইতিহাসটা কীভাবে কাজে লাগে
+title: What Git History Adds to a Blog
 date: '2024-01-12'
 draft: false
-language: bn
+language: en
 url: /posts/bn-git-content-history-not-cms-database.html
 topic: web-control-plane
 tags:
@@ -10,18 +10,19 @@ tags:
 - publishing
 featured: false
 read_time: 2
-excerpt: গিটভিত্তিক ব্লগে লেখার ফাইল আর পরিবর্তনের ইতিহাস একই কাঠামোয় থাকে। কোন বাক্য
-  কখন বদলেছে, কোন মেটাডেটা পাল্টেছে, আর কোন পরিবর্তন ফিরিয়ে নেওয়া যায়—এসব অনুসরণ করা
-  সম্ভব। তবে গিট থাকলেই লেখার প্রকাশের পুরো অভিজ্ঞতা তৈরি হয় না।
+excerpt: >-
+  In a Git-backed blog, content files and their change history live in the same system.
+  You can trace when a sentence changed, when metadata moved, and which edits can be
+  reverted. But Git alone does not provide the entire publishing experience.
 editorial_batch: 20261003-100-niches
 ---
 
-গিটভিত্তিক ব্লগে লেখার ফাইল আর পরিবর্তনের ইতিহাস একই কাঠামোয় থাকে। কোন বাক্য কখন বদলেছে, কোন মেটাডেটা পাল্টেছে, আর কোন পরিবর্তন ফিরিয়ে নেওয়া যায়—এসব অনুসরণ করা সম্ভব। তবে গিট থাকলেই লেখার প্রকাশের পুরো অভিজ্ঞতা তৈরি হয় না।
+In a Git-backed blog, content files and their change history live in the same system. You can trace when a sentence changed, when metadata moved, and which edits can be reverted. But Git alone does not provide the entire publishing experience.
 
-সম্পাদককে সাধারণ ফর্ম দেওয়া আর সেই ফর্ম থেকে সঠিক ফাইল লেখা সিএমএসের কাজ। তারপর বিল্ড সেই ফাইল থেকে পেজ বানায়। ইতিহাস সংরক্ষণ আর পেজ প্রকাশ দুইটা ধাপ। গিটে সেভ হয়েছে মানেই পাঠকের কাছে নতুন পেজ এসেছে না।
+A CMS may give an editor a simple form and convert that form into the correct file. A build then turns the file into a public page. Preserving history and publishing a page are two separate stages. A successful Git save does not prove that a reader can already see the new page.
 
-একটা ভুল ট্যাগ বা ভাঙা রেফারেন্স বিল্ডে ধরা পড়লে আগের প্রকাশ অক্ষত থাকতে পারে। তাই বিল্ডের ফল দেখা জরুরি। শুধু সেভ বোতামের সাফল্য দিয়ে প্রকাশের নিশ্চয়তা দেওয়া অসম্পূর্ণ।
+If a bad tag or broken reference fails validation, the previous published version may remain intact. That is why build results matter. A successful save button is not sufficient evidence of successful publication.
 
-এই ব্যবস্থার সুবিধা আমার কাছে পরিবর্তনকে পড়া যায় এমন করা। কিন্তু ব্যবহারকারীর জন্য কোন ধাপ চলছে তা পরিষ্কার রাখা দরকার। ইতিহাসের শক্তি তখনই কাজে লাগে যখন প্রকাশের পথও বোঝা যায়।
+For me, the advantage of this model is that changes become readable history. But the user still needs to know which stage is happening. The power of history becomes useful only when the delivery path is understandable too.
 
-সূত্র: [মূল রেফারেন্স](https://git-scm.com/docs/git-log).
+Source: [official reference](https://git-scm.com/docs/git-log).

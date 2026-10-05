@@ -1,8 +1,8 @@
 ---
-title: মনিটরিংকে কে মনিটর করবে
+title: Who Monitors the Monitoring System?
 date: '2023-06-26'
 draft: false
-language: bn
+language: en
 url: /posts/bn-monitoring-monitor-itself.html
 topic: observability-monitoring
 tags:
@@ -10,17 +10,19 @@ tags:
 - reliability
 featured: false
 read_time: 2
-excerpt: মনিটরিং বন্ধ হলে অন্য সিস্টেমের ব্যর্থতার খবরও হারাতে পারে। তখন নীরবতা ভুলভাবে
-  ভালো অবস্থার সংকেত হয়ে যায়। তাই পর্যবেক্ষণ ব্যবস্থার নিজের কাজের প্রমাণ দরকার।
+excerpt: >-
+  If monitoring stops, evidence of failures elsewhere can disappear too. Silence can then
+  look like health. The monitoring system therefore needs evidence that its own collection
+  and notification paths are still working.
 editorial_batch: 20261003-100-niches
 ---
 
-মনিটরিং বন্ধ হলে অন্য সিস্টেমের ব্যর্থতার খবরও হারাতে পারে। তখন নীরবতা ভুলভাবে ভালো অবস্থার সংকেত হয়ে যায়। তাই পর্যবেক্ষণ ব্যবস্থার নিজের কাজের প্রমাণ দরকার।
+If monitoring stops, evidence of failures elsewhere can disappear too. Silence can then look like health. The monitoring system therefore needs evidence that its own collection and notification paths are still working.
 
-সংগ্রহ চলছে কি, ডেটা কত পুরোনো, নোটিফিকেশন পৌঁছাচ্ছে কি—এসব আলাদা প্রশ্ন। ড্যাশবোর্ড খুলছে বলে অ্যালার্টের পথ ঠিক আছে বলা যাবে না। আবার মেট্রিক আছে মানেই সব লক্ষ্য থেকে আসছে না।
+Is scraping still happening? How old is the newest data? Are notifications actually being delivered? Those are separate questions. A dashboard loading successfully does not prove the alert path works, and the presence of some metrics does not prove every target is being collected.
 
-একটা পরিচিত নিরাপদ পরীক্ষার ইভেন্ট দিয়ে পুরো খবরের পথ যাচাই করা যায়। সংগ্রহ থেকে নিয়ম, নিয়ম থেকে নোটিফিকেশন—কোথায় সময় লাগছে দেখুন। পরীক্ষার নিজের গুরুত্ব যেন আসল জরুরি খবরের সঙ্গে মিশে না যায়।
+A known, safe test event can validate the full notification path. Follow it from collection to rule evaluation to delivery and measure where time is spent. The test signal should be clearly distinguished from a real emergency.
 
-মনিটরিংকে আমি বাইরের কোনো সর্বজ্ঞ চোখ ভাবতে চাই না। সে সীমিত রিসোর্স আর ডিপেনডেন্সির ওপর চলে। নিজের সীমা দৃশ্যমান থাকলে অন্য সিস্টেম সম্পর্কে তার দাবিও বেশি বিশ্বাসযোগ্য হয়।
+I do not think of monitoring as an all-knowing eye outside the system. It runs on finite resources and dependencies of its own. When those limits are visible, its claims about other systems become more trustworthy.
 
-সূত্র: [মূল রেফারেন্স](https://prometheus.io/docs/practices/instrumentation/).
+Source: [official reference](https://prometheus.io/docs/practices/instrumentation/).

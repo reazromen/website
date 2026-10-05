@@ -1,8 +1,8 @@
 ---
-title: 'কমফর্টেবলি নাম্ব: স্বস্তি আর দূরত্বের একটা পাঠ'
+title: "Comfortably Numb: A Reading of Comfort and Distance"
 date: '2021-12-01'
 draft: false
-language: bn
+language: en
 url: /posts/bn-music-comfortably-numb-distance.html
 topic: music-listening
 tags:
@@ -10,10 +10,11 @@ tags:
 - pink-floyd
 featured: false
 read_time: 2
-excerpt: কমফর্টেবলি নাম্বের শিরোনামে স্বস্তি আর অনুভূতিহীনতার পাশাপাশি থাকা আমার কাছে
-  একটা প্রশ্ন তৈরি করে। স্বস্তি কি সবসময় উপস্থিতির অনুভূতি, নাকি কখনো দূরে সরে যাওয়ার
-  অবস্থাও স্বস্তির মতো পড়তে পারে? এটা গানের সম্ভাব্য পাঠ, কোনো মানুষের নির্দিষ্ট স্বাস্থ্য
-  অবস্থার ব্যাখ্যা না।
+excerpt: >-
+  The title Comfortably Numb places comfort beside the absence of feeling, which raises
+  a question for me: does comfort always mean presence, or can distance sometimes feel
+  comfortable too? This is a possible reading of the song, not a diagnosis of any person's
+  health or mental state.
 editorial_batch: 20261003-100-niches
 kind: research
 artist: Pink Floyd
@@ -21,12 +22,12 @@ album: The Wall
 year: ''
 ---
 
-কমফর্টেবলি নাম্বের শিরোনামে স্বস্তি আর অনুভূতিহীনতার পাশাপাশি থাকা আমার কাছে একটা প্রশ্ন তৈরি করে। স্বস্তি কি সবসময় উপস্থিতির অনুভূতি, নাকি কখনো দূরে সরে যাওয়ার অবস্থাও স্বস্তির মতো পড়তে পারে? এটা গানের সম্ভাব্য পাঠ, কোনো মানুষের নির্দিষ্ট স্বাস্থ্য অবস্থার ব্যাখ্যা না।
+The title *Comfortably Numb* places comfort beside the absence of feeling, which raises a question for me: does comfort always mean presence, or can distance sometimes feel comfortable too? This is a possible reading of the song, not a diagnosis of any person's health or mental state.
 
-পিংক ফ্লয়েডের দ্য ওয়ালের প্রসঙ্গে গানটি দেখলে একা শোনার বাইরেও সম্পর্ক খোঁজা যায়। অ্যালবামের গঠন আর আলাদা রেকর্ডিংয়ের অভিজ্ঞতা এক বিশ্লেষণ না। কোন স্তর নিয়ে কথা বলছি সেটা রাখা দরকার।
+When the song is heard in the context of Pink Floyd's *The Wall*, there are relationships to examine beyond the experience of hearing it in isolation. The architecture of an album and the experience of an individual recording are not the same analytical layer, so it helps to be clear about which one we are discussing.
 
-একটা নির্দিষ্ট অংশকে সুন্দর বলার পরে প্রশ্ন করা যায় সেই সৌন্দর্য কী করছে। কথার অবস্থার সঙ্গে দূরত্ব তৈরি করছে, না তার ভেতরে নিয়ে যাচ্ছে? এমন প্রশ্নের উত্তর শ্রোতাভেদে আলাদা হতে পারে।
+After calling a particular passage beautiful, another question can follow: what is that beauty doing? Is it creating distance from the situation described in the words, or pulling the listener further inside it? Different listeners can answer that differently.
 
-আমার কাছে গান নিয়ে লেখার ভালো জায়গা এই অনিশ্চিত সম্পর্ক। নির্দিষ্ট শব্দের দিকে ফিরে যাওয়া যায়, কিন্তু এক ব্যাখ্যাকে সবার অনুভূতির নিয়ম বানাতে হয় না। শিরোনামের বৈপরীত্য আলোচনার শুরু হতে পারে।
+For me, this uncertainty is one of the most useful places to write about music. We can return to specific sounds and structures without turning one interpretation into a universal rule about how everyone must feel. The contradiction in the title is already enough to begin the discussion.
 
-সূত্র: [মূল রেফারেন্স](https://www.pinkfloyd.com/music/).
+Source: [official reference](https://www.pinkfloyd.com/music/).

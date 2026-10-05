@@ -1,8 +1,8 @@
 ---
-title: লগের ইতিহাস রাখতে গিয়ে বর্তমান কাজ আটকে দেওয়া
+title: Do Not Let Log History Block Current Work
 date: '2025-06-24'
 draft: false
-language: bn
+language: en
 url: /posts/bn-logs-retention-disk-budget.html
 topic: observability-monitoring
 tags:
@@ -10,18 +10,19 @@ tags:
 - storage
 featured: false
 read_time: 2
-excerpt: লগ ভবিষ্যতের তদন্তে কাজে লাগে। কিন্তু সীমা ছাড়া জমলে সেই তদন্তের উপকরণ বর্তমান
-  সার্ভিসের জায়গা দখল করতে পারে। স্টোরেজ শেষ হওয়ার পরে ইতিহাস থাকলেও সিস্টেম কাজ করতে
-  পারে না। পর্যবেক্ষণের নিজের রিসোর্স বাজেট দরকার।
+excerpt: >-
+  Logs are useful for future investigations, but unlimited retention can let the evidence
+  system consume the resources required by the service itself. Observability needs its
+  own storage budget.
 editorial_batch: 20261003-100-niches
 ---
 
-লগ ভবিষ্যতের তদন্তে কাজে লাগে। কিন্তু সীমা ছাড়া জমলে সেই তদন্তের উপকরণ বর্তমান সার্ভিসের জায়গা দখল করতে পারে। স্টোরেজ শেষ হওয়ার পরে ইতিহাস থাকলেও সিস্টেম কাজ করতে পারে না। পর্যবেক্ষণের নিজের রিসোর্স বাজেট দরকার।
+Logs are useful for future investigations, but unlimited retention can let the evidence system consume the resources required by the service itself. Once storage is exhausted, having a long history is little comfort if the current system cannot operate. Observability needs its own resource budget.
 
-একটা ব্যর্থ প্রসেস খুব দ্রুত একই বার্তা লিখতে পারে। তখন ঘটনাটি যত দীর্ঘ হয়, স্টোরেজের চাপও তত বাড়ে। শুধু পুরোনো লগের দিনসংখ্যা নয়, সর্বোচ্চ জায়গা আর লেখার হারও বিবেচনা করতে হয়।
+A failing process can write the same message extremely quickly. The longer the incident continues, the more storage pressure it creates. Retention therefore needs more than a number of days; maximum space and write rate matter too.
 
-কী রাখবেন সেটা কাজের প্রয়োজন থেকে আসা উচিত। সমস্যা বোঝার জন্য দরকারি ইভেন্ট, সংক্ষিপ্ত কাউন্টার আর গোপন তথ্যবিহীন প্রসঙ্গ রাখা যায়। বেশি ডেটা সবসময় বেশি ব্যাখ্যা দেয় না।
+What you keep should come from operational need. Useful events, compact counters, and context that avoids unnecessary secrets can often explain more than raw volume. More data does not automatically create more understanding.
 
-লগ রিটেনশনকে আমি স্মৃতি নির্বাচনের কাজ মনে করি। সবকিছু চিরকাল মনে রাখা সম্ভব না। যে ইতিহাস সিদ্ধান্তে সাহায্য করবে তাকে যথেষ্ট জায়গা দেওয়া, আর বর্তমান কাজকে বাঁচিয়ে রাখা—দুইটা দায়িত্ব একসঙ্গে আছে।
+I think of log retention as choosing what the system remembers. It cannot remember everything forever. The job is to preserve enough history for decisions while protecting the resources needed for current work.
 
-সূত্র: [মূল রেফারেন্স](https://www.freedesktop.org/software/systemd/man/249/journald.conf.html).
+Source: [official reference](https://www.freedesktop.org/software/systemd/man/249/journald.conf.html).

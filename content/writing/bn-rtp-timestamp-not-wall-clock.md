@@ -1,8 +1,8 @@
 ---
-title: আরটিপির টাইমস্ট্যাম্প ঘড়ির সময় না
+title: An RTP Timestamp Is Not Wall-Clock Time
 date: '2023-12-25'
 draft: false
-language: bn
+language: en
 url: /posts/bn-rtp-timestamp-not-wall-clock.html
 topic: telecom-voip
 tags:
@@ -10,20 +10,19 @@ tags:
 - time
 featured: false
 read_time: 2
-excerpt: প্যাকেটের মধ্যে টাইমস্ট্যাম্প দেখলে আমাদের মনে হয় সেখানে বর্তমান সময় লেখা
-  আছে। আরটিপিতে ব্যাপারটা এত সরল না। মিডিয়ার টাইমস্ট্যাম্প মূলত মিডিয়া ক্লকের সঙ্গে
-  সম্পর্কিত; অডিও স্যাম্পলের সময়ক্রম বুঝতে এটা কাজে লাগে। সেই সংখ্যা দেখে সরাসরি রাত
-  কয়টা বাজে জানা যায় না। ওয়াল ক্লক, মিডিয়া ক্লক আর প্যাকেট আসার সময়—এই তিনটা আলাদা
-  করে না ভাবলে ট্রেস থেকে ভুল সিদ্ধান্ত আসতে পারে।
+excerpt: >-
+  A timestamp inside a packet can look like a clock reading, but RTP timestamps primarily
+  describe position in the media clock. Wall-clock time, media time, and packet arrival
+  time are different concepts.
 editorial_batch: 20261003-100-niches
 ---
 
-প্যাকেটের মধ্যে টাইমস্ট্যাম্প দেখলে আমাদের মনে হয় সেখানে বর্তমান সময় লেখা আছে। আরটিপিতে ব্যাপারটা এত সরল না। মিডিয়ার টাইমস্ট্যাম্প মূলত মিডিয়া ক্লকের সঙ্গে সম্পর্কিত; অডিও স্যাম্পলের সময়ক্রম বুঝতে এটা কাজে লাগে। সেই সংখ্যা দেখে সরাসরি রাত কয়টা বাজে জানা যায় না। ওয়াল ক্লক, মিডিয়া ক্লক আর প্যাকেট আসার সময়—এই তিনটা আলাদা করে না ভাবলে ট্রেস থেকে ভুল সিদ্ধান্ত আসতে পারে।
+A timestamp inside a packet can look like a clock reading, but RTP timestamps primarily describe position in the media clock. They help reconstruct the timing of audio samples; they do not directly tell you the current time of day. Wall-clock time, media time, and packet arrival time need to remain distinct when reading a trace.
 
-উদাহরণ হিসেবে সমান দৈর্ঘ্যের অডিও ফ্রেম ভাবুন। ফ্রেমগুলো নিয়মিত তৈরি হলেও নেটওয়ার্কে অনিয়মিত সময়ে পৌঁছাতে পারে। মিডিয়া টাইমস্ট্যাম্প তখনও তাদের নিয়মিত সময়ক্রম বোঝাবে। অ্যারাইভাল টাইম দেখাবে পথের আচরণ। দুইটা তুলনা করা দরকার, কিন্তু দুইটাকে একই ধরনের ঘড়ি ধরে বিয়োগ করলে ফলের অর্থ যাচাই করতে হবে।
+Imagine equal-duration audio frames generated at regular intervals but delivered by the network at irregular times. Their media timestamps still describe the regular media timeline. Arrival times describe network behavior. Comparing the two is useful, but subtracting them as if they were the same kind of clock requires careful interpretation.
 
-সিকোয়েন্স নাম্বারও আলাদা প্রশ্নের উত্তর দেয়। সেটা প্যাকেটের ক্রম বুঝতে সাহায্য করে; টাইমস্ট্যাম্প মিডিয়ার সময়গত অবস্থান বোঝায়। প্যাকেট হারানো, পুনর্বিন্যাস আর প্লেব্যাকের সমস্যা তাই একই লক্ষণ হিসেবে দেখা ঠিক না। একটা সংখ্যা বাড়েনি বলে কোন স্তর ব্যর্থ হয়েছে, সেটা স্বয়ংক্রিয়ভাবে জানা যায় না। প্রোটোকলের ফিল্ড পড়ার আগে ফিল্ডটার উদ্দেশ্য জানা জরুরি।
+Sequence numbers answer another question. They help track packet order; timestamps describe temporal position in the media stream. Loss, reordering, and playback timing should not be collapsed into one symptom. Before interpreting any protocol field, understand what that field was designed to represent.
 
-এই পার্থক্য শুধু টেলিফোনির না। সেন্সর ডেটা, ভিডিও, লগ—সব জায়গায় একটা রেকর্ডের সময় বলতে একাধিক ঘটনা বোঝানো হতে পারে। ডেটা তৈরি, সংগ্রহ, সার্ভারে পৌঁছানো আর প্রদর্শন করার সময় আলাদা। টাইমস্ট্যাম্পের পাশে তার অর্থ লেখা থাকলে তথ্য অনেক বেশি ব্যবহারযোগ্য হয়। ঘড়ির সংখ্যা যত নির্ভুলই হোক, ভুল ঘটনার নাম দিলে সেটা ভুল গল্প বলে।
+This distinction extends beyond telephony. Sensor data, video, and logs can all carry several meanings of time: creation, collection, arrival, and display. A timestamp becomes much more useful when its semantics are explicit. A precise number attached to the wrong event still tells the wrong story.
 
-সূত্র: [মূল রেফারেন্স](https://www.rfc-editor.org/rfc/rfc3550.html).
+Source: [official reference](https://www.rfc-editor.org/rfc/rfc3550.html).

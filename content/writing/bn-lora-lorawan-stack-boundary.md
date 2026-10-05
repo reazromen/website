@@ -1,8 +1,8 @@
 ---
-title: লোরার রেডিও আর লোরাওয়ানের নেটওয়ার্ক
+title: LoRa Radio and the LoRaWAN Network Are Different Layers
 date: '2022-04-24'
 draft: false
-language: bn
+language: en
 url: /posts/bn-lora-lorawan-stack-boundary.html
 topic: radio-iot
 tags:
@@ -10,18 +10,19 @@ tags:
 - protocols
 featured: false
 read_time: 2
-excerpt: লোরার নাম শুনলে অনেক সময় পুরো নেটওয়ার্কের কথা মনে হয়। কিন্তু রেডিওতে তথ্য
-  উপস্থাপনের পদ্ধতি আর বহু ডিভাইস নিয়ে নেটওয়ার্ক চালানোর নিয়ম আলাদা স্তর। লোরা আর
-  লোরাওয়ানের পার্থক্য বোঝা সেই স্তরগুলো আলাদা করার ভালো শুরু।
+excerpt: >-
+  The name LoRa is often used as if it describes an entire network. But the way information
+  is represented over the radio and the rules for operating a multi-device network are
+  different layers. LoRa and LoRaWAN are a useful example of that boundary.
 editorial_batch: 20261003-100-niches
 ---
 
-লোরার নাম শুনলে অনেক সময় পুরো নেটওয়ার্কের কথা মনে হয়। কিন্তু রেডিওতে তথ্য উপস্থাপনের পদ্ধতি আর বহু ডিভাইস নিয়ে নেটওয়ার্ক চালানোর নিয়ম আলাদা স্তর। লোরা আর লোরাওয়ানের পার্থক্য বোঝা সেই স্তরগুলো আলাদা করার ভালো শুরু।
+The name LoRa is often used as if it describes an entire network. But the way information is represented over the radio and the rules for operating a multi-device network are different layers. LoRa and LoRaWAN are a useful example of that boundary.
 
-দুইটা ডিভাইসের মধ্যে সরাসরি বার্তা পাঠানো আর গেটওয়ে, পরিচয় আর সার্ভারসহ একটা নেটওয়ার্ক বানানোর চাহিদা এক না। প্রথমটির কাজ দিয়ে দ্বিতীয়টির সব সুবিধা পাওয়া গেছে বলা যাবে না। আবার দ্বিতীয় কাঠামো সব ছোট ব্যবহারের জন্য অপরিহার্যও না।
+Sending a direct message between two devices is not the same requirement as building a network with gateways, identity, and servers. Success at the first does not imply every feature of the second. The larger stack is also not mandatory for every small use case.
 
-প্রথমে লিখুন ডেটা কোথা থেকে কোথায় যাবে। কত ডিভাইস, বার্তা কত ঘন ঘন, উত্তর দরকার কি না, পরিচয় কীভাবে যাচাই হবে—এই প্রশ্নগুলো পদ্ধতি নির্বাচন ছোট করে। শুধু দূরত্বের প্রতিশ্রুতি দেখে স্ট্যাক নির্বাচন অসম্পূর্ণ।
+Start by writing down where the data must travel. How many devices are involved? How often do they transmit? Is a response required? How is identity verified? Those questions narrow the architecture much more effectively than a distance claim alone.
 
-আমি রেডিও প্রজেক্টে স্তরের নাম পরিষ্কার রাখতে চাই। ফিজিক্যাল যোগাযোগ, নেটওয়ার্কের নিয়ম আর অ্যাপ্লিকেশনের আচরণ আলাদা করে বলা গেলে সুবিধা আর সীমা বোঝা যায়। নামের পরিচিতি দিয়ে অনুপস্থিত ফিচার পূরণ করা লাগে না।
+In radio projects, I prefer to name the layers clearly. Physical communication, network rules, and application behavior should not be blended together. Once the layers are explicit, both capabilities and missing features become easier to see.
 
-সূত্র: [মূল রেফারেন্স](https://resources.lora-alliance.org/infographic/lora-and-lorawan).
+Source: [official reference](https://resources.lora-alliance.org/infographic/lora-and-lorawan).

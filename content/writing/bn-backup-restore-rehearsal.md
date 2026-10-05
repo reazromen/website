@@ -1,8 +1,8 @@
 ---
-title: ব্যাকআপের বিশ্বাস রিস্টোরে পরীক্ষা হয়
+title: A Backup Earns Trust Through a Restore
 date: '2022-10-14'
 draft: false
-language: bn
+language: en
 url: /posts/bn-backup-restore-rehearsal.html
 topic: disaster-recovery
 tags:
@@ -10,18 +10,19 @@ tags:
 - testing
 featured: false
 read_time: 2
-excerpt: ব্যাকআপ ফাইল তৈরি হয়েছে জানা প্রয়োজন। কিন্তু সেই ফাইল থেকে দরকারি সিস্টেম
-  ফিরবে কি না, সেটা রিস্টোরের প্রশ্ন। কপি আছে আর পুনরুদ্ধারের পথ কাজ করে—দুইটা আলাদা
-  নিশ্চয়তা। শুধু সফল আপলোড দেখে দ্বিতীয়টা ধরে নিলে জরুরি সময়ে অজানা সমস্যা সামনে আসে।
+excerpt: >-
+  Knowing that a backup file exists matters, but whether the required system can be rebuilt
+  from it is a restore question. Having a copy and having a working recovery path are two
+  different guarantees.
 editorial_batch: 20261003-100-niches
 ---
 
-ব্যাকআপ ফাইল তৈরি হয়েছে জানা প্রয়োজন। কিন্তু সেই ফাইল থেকে দরকারি সিস্টেম ফিরবে কি না, সেটা রিস্টোরের প্রশ্ন। কপি আছে আর পুনরুদ্ধারের পথ কাজ করে—দুইটা আলাদা নিশ্চয়তা। শুধু সফল আপলোড দেখে দ্বিতীয়টা ধরে নিলে জরুরি সময়ে অজানা সমস্যা সামনে আসে।
+Knowing that a backup file exists matters, but whether the required system can be rebuilt from it is a restore question. Having a copy and having a working recovery path are two different guarantees. Treating a successful upload as proof of recovery can expose unknown failures during the worst possible moment.
 
-ধরুন ডেটাবেসের কপি আছে, কিন্তু কনফিগ বা প্রয়োজনীয় ভার্সন নেই। ডেটা অক্ষত থেকেও সার্ভিস ওঠাতে দেরি হতে পারে। তাই কী কী লাগবে তার তালিকা কাজের সম্পর্ক ধরে করতে হবে।
+Suppose the database copy exists, but the matching configuration or required software version does not. The data may be intact while service recovery still takes far longer than expected. The list of required artifacts has to follow the real dependency chain.
 
-আলাদা নিরাপদ জায়গায় রিস্টোর পরীক্ষা করে সময় মাপা যায়। কোন ধাপ হাতে করতে হয়েছে আর কোন তথ্য অনুপস্থিত ছিল লিখে রাখুন। পরীক্ষা শেষে বর্তমান প্রোডাকশনের সঙ্গে অকারণে মিশিয়ে দেবেন না।
+A restore can be rehearsed in an isolated, safe environment and timed. Record which steps required manual intervention and which information was missing. After the exercise, do not accidentally mix the restored environment back into current production.
 
-ব্যাকআপ আমার কাছে একটা ভবিষ্যৎ প্রতিশ্রুতি। রিস্টোর সেই প্রতিশ্রুতির মহড়া। মহড়ায় ভুল পাওয়া ব্যর্থতা না; আসল ঘটনার আগে অজানা অংশ কমানোর সুযোগ।
+A backup is a promise about the future. A restore is the rehearsal of that promise. Finding mistakes during the rehearsal is not failure; it is a chance to remove uncertainty before a real incident.
 
-সূত্র: [মূল রেফারেন্স](https://restic.readthedocs.io/en/stable/050_restore.html).
+Source: [official reference](https://restic.readthedocs.io/en/stable/050_restore.html).

@@ -1,8 +1,8 @@
 ---
-title: রেডিও সিগন্যাল শক্ত হলেই যোগাযোগ ভালো হয় না
+title: A Strong Radio Signal Does Not Guarantee Good Communication
 date: '2026-10-03'
 draft: false
-language: bn
+language: en
 url: /posts/bn-rf-strength-is-not-quality.html
 topic: radio-iot
 tags:
@@ -10,19 +10,19 @@ tags:
 - measurement
 featured: false
 read_time: 2
-excerpt: সিগন্যালের শক্তি দেখে সংযোগের মান আন্দাজ করা যায়, কিন্তু পুরো মান জানা যায়
-  না। আশপাশে অন্য সিগন্যাল থাকলে শক্ত একটা সিগন্যালও বুঝতে কষ্ট হতে পারে। রিসিভারের
-  জন্য দরকার কাঙ্ক্ষিত তথ্যকে অন্য সবকিছুর ভেতর থেকে আলাদা করা। শক্তি আর বোধগম্যতা
-  একই প্রশ্নের উত্তর না।
+excerpt: >-
+  Signal strength can help estimate link conditions, but it is not the whole quality story.
+  A strong desired signal can still be difficult to decode in a noisy or interfering
+  environment. Strength and intelligibility answer different questions.
 editorial_batch: 20261003-100-niches
 ---
 
-সিগন্যালের শক্তি দেখে সংযোগের মান আন্দাজ করা যায়, কিন্তু পুরো মান জানা যায় না। আশপাশে অন্য সিগন্যাল থাকলে শক্ত একটা সিগন্যালও বুঝতে কষ্ট হতে পারে। রিসিভারের জন্য দরকার কাঙ্ক্ষিত তথ্যকে অন্য সবকিছুর ভেতর থেকে আলাদা করা। শক্তি আর বোধগম্যতা একই প্রশ্নের উত্তর না।
+Signal strength can help estimate link conditions, but it is not the whole quality story. A strong desired signal can still be difficult to decode in a noisy or interfering environment. The receiver has to distinguish the desired information from everything else around it. Strength and intelligibility answer different questions.
 
-ধরুন এক জায়গায় শক্তি বেশি, কিন্তু প্যাকেট বারবার হারাচ্ছে। অন্য জায়গায় শক্তি একটু কম, অথচ ডেটা নিয়মিত পৌঁছাচ্ছে। শুধু প্রথম সংখ্যাটা দেখে সিদ্ধান্ত নিলে দ্বিতীয় পথের ব্যবহারযোগ্যতা হারায়। প্যাকেট সফলতার হার, রিট্রাই আর সময়ের ওঠানামাও দেখা দরকার।
+Suppose one location shows stronger signal but repeatedly loses packets. Another shows slightly weaker signal while delivering data consistently. Choosing from the first number alone hides the usefulness of the second path. Packet success rate, retries, and timing variation matter too.
 
-অ্যান্টেনা বদলানোর আগে পরীক্ষার পরিবেশ লিখে রাখুন। ডিভাইসের অবস্থান, দূরত্ব, দেয়াল, সময় আর ট্রাফিক বদলালে তুলনাও বদলায়। একই শর্ত ছাড়া দুইটা মাপের পার্থক্য কোন পরিবর্তনের জন্য হয়েছে বোঝা কঠিন।
+Before changing an antenna, record the test environment. Device orientation, distance, walls, time, and surrounding traffic all affect comparison. If conditions change between measurements, it becomes difficult to attribute the result to the antenna alone.
 
-রেডিওর ড্যাশবোর্ডে তাই একটা বড় সংখ্যা দিয়ে নিশ্চয়তা দিতে চাই না। সংখ্যা দরকার, কিন্তু সংখ্যার সঙ্গে কাজের ফলও দরকার। লক্ষ্য সবচেয়ে উঁচু সিগন্যাল দেখানো না; প্রয়োজনীয় ডেটা নির্ভরযোগ্যভাবে পৌঁছানো।
+A radio dashboard should not imply certainty through one large number. The number matters, but so does the outcome of the communication. The goal is not the highest signal reading; it is reliable delivery of the required data.
 
-সূত্র: [মূল রেফারেন্স](https://lora-alliance.org/resource_hub/what-is-lorawan/).
+Source: [official reference](https://lora-alliance.org/resource_hub/what-is-lorawan/).

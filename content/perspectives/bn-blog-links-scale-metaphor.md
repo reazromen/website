@@ -1,8 +1,8 @@
 ---
-title: একটা ছোট ব্লগের লিংক কত দূর নিয়ে যায়
+title: How Far Can a Link From a Small Blog Travel?
 date: '2025-06-18'
 draft: false
-language: bn
+language: en
 url: /posts/bn-blog-links-scale-metaphor.html
 topic: writing-systems
 tags:
@@ -10,16 +10,17 @@ tags:
 - networks
 featured: false
 read_time: 2
-excerpt: একটা ব্লগের একটা পেজ স্থানীয় জায়গায় ছোট মনে হয়। কিন্তু তার লিংক দিয়ে অন্য
-  ধারণা, বই, প্রোটোকল আর মানুষের কাজে পৌঁছানো যায়। আমার কাছে এই বিস্তার আকর্ষণীয়।
-  পেজের আকার আর তার সম্পর্কের পরিধি এক না।
+excerpt: >-
+  A single blog page may feel small and local, yet its links can lead into other ideas,
+  books, protocols, and other people's work. The size of a page and the reach of its
+  relationships are not the same thing.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা ব্লগের একটা পেজ স্থানীয় জায়গায় ছোট মনে হয়। কিন্তু তার লিংক দিয়ে অন্য ধারণা, বই, প্রোটোকল আর মানুষের কাজে পৌঁছানো যায়। আমার কাছে এই বিস্তার আকর্ষণীয়। পেজের আকার আর তার সম্পর্কের পরিধি এক না।
+A single blog page may feel small and local, yet its links can lead into other ideas, books, protocols, and other people's work. The size of a page and the reach of its relationships are not the same thing.
 
-কোনো ফোনকলের সমস্যা নিয়ে লেখা থেকে রেডিও, সময়, নেটওয়ার্ক আর মানুষের যোগাযোগের প্রশ্ন আসতে পারে। সব বিষয় একই হয়ে যায় না, কিন্তু দরকারি সীমান্তগুলো দেখা যায়। একটা লেখা তখন বিচ্ছিন্ন ঘোষণা না থেকে অনুসন্ধানের দরজা হয়।
+A note about a phone-call problem can lead toward questions about radio, time, networking, and human communication. Those topics do not become identical, but useful boundaries between them become visible. The article stops being an isolated statement and becomes a doorway into investigation.
 
-এখানে মহাবিশ্বের মতো বিস্তারের কথা বললে সেটা উপমা। ওয়েবের লিংক আর ভৌত মহাবিশ্বের গঠনকে একই বলে দাবি করছি না। উপমা কৌতূহল তৈরি করতে পারে, তথ্যের প্রমাণের বদলি হতে পারে না।
+If I compare that expansion to the universe, it is a metaphor. I am not claiming that hyperlinks and the physical structure of the universe are the same phenomenon. A metaphor can create curiosity; it cannot replace evidence.
 
-আমি ছোট লেখার এই ক্ষমতা পছন্দ করি: নিজের সীমা রেখেও সে বাইরের দিকে খুলতে পারে। পাঠক সব লিংক অনুসরণ করবেন এমন আশা নেই। কিন্তু অনুসরণ করতে চাইলে পথটা থাকা মূল্যবান।
+I like this ability of a small piece of writing: it can preserve its own boundary while still opening outward. A reader does not need to follow every link. But if they want to continue, it is valuable for the path to exist.

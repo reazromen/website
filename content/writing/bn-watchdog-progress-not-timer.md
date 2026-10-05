@@ -1,8 +1,8 @@
 ---
-title: ওয়াচডগকে সময়ের বদলে অগ্রগতি দেখতে দেওয়া
+title: A Watchdog Should Observe Progress, Not Just a Timer
 date: '2023-08-23'
 draft: false
-language: bn
+language: en
 url: /posts/bn-watchdog-progress-not-timer.html
 topic: embedded-firmware
 tags:
@@ -10,19 +10,19 @@ tags:
 - reliability
 featured: false
 read_time: 2
-excerpt: ওয়াচডগ নিয়মিত ফিড পেলেই সব কাজ ভালো চলছে—এই ধারণা বিপজ্জনক হতে পারে। একটা
-  আলাদা টাস্ক সময়মতো ফিড দিচ্ছে, অথচ গুরুত্বপূর্ণ অডিও বা নেটওয়ার্ক টাস্ক আটকে আছে,
-  এমন নকশা সম্ভব। তখন সিস্টেমের ব্যর্থতা ঘড়ির কাছে অদৃশ্য থাকে। নিয়মিত চলা আর দরকারি
-  কাজ এগোনো একই জিনিস না।
+excerpt: >-
+  A regularly fed watchdog does not prove that important work is progressing. A dedicated
+  task can keep feeding the timer while an audio or network task is stuck, making the real
+  failure invisible to the watchdog.
 editorial_batch: 20261003-100-niches
 ---
 
-ওয়াচডগ নিয়মিত ফিড পেলেই সব কাজ ভালো চলছে—এই ধারণা বিপজ্জনক হতে পারে। একটা আলাদা টাস্ক সময়মতো ফিড দিচ্ছে, অথচ গুরুত্বপূর্ণ অডিও বা নেটওয়ার্ক টাস্ক আটকে আছে, এমন নকশা সম্ভব। তখন সিস্টেমের ব্যর্থতা ঘড়ির কাছে অদৃশ্য থাকে। নিয়মিত চলা আর দরকারি কাজ এগোনো একই জিনিস না।
+A regularly fed watchdog does not prove that important work is progressing. A dedicated task can keep feeding the timer while an audio or network task is stuck, making the real failure invisible to the watchdog. Repeated execution and meaningful progress are not the same thing.
 
-ধরুন একটা সেন্সর প্রতি চক্রে নতুন ডেটা দেওয়ার কথা। টাস্ক জেগে উঠছে, কিন্তু আগের ডেটাই বারবার ব্যবহার করছে। শুধু লুপের উপস্থিতি যাচাই করলে এই স্থবিরতা ধরা যায় না। কাজের সফল ধাপ বা অর্থপূর্ণ অগ্রগতি শনাক্ত করার চিন্তা দরকার। কোন অবস্থায় অপেক্ষা স্বাভাবিক, কোন অবস্থায় আটকে যাওয়া—সেটিও নকশায় লিখতে হবে।
+Imagine a sensor task that should produce new data every cycle. The task wakes on schedule but keeps reusing the previous sample. A heartbeat based only on loop execution will miss that stagnation. The design needs some notion of a successful stage or meaningful progress, together with a definition of when waiting is normal and when it means the system is stuck.
 
-আবার সময়সীমা খুব ছোট করলে স্বাভাবিক দীর্ঘ কাজও রিস্টার্ট ঘটাতে পারে। খুব বড় করলে ব্যর্থতা অনেকক্ষণ থাকে। তাই ওয়াচডগ কনফিগ শুধু একটা সংখ্যা না; কাজের প্রত্যাশিত সময় আর পুনরুদ্ধারের নীতির অংশ।
+A timeout that is too short can also reset the device during legitimate long work. One that is too long can leave a failure in place for too much time. The watchdog interval is therefore not just a number; it belongs to the expected execution time and recovery policy.
 
-রিস্টার্ট সমস্যার কারণও না, সবসময় সমাধানও না। কেন রিস্টার্ট হয়েছে তার কারণ সংরক্ষণ না করলে একই ব্যর্থতা বারবার ফিরে আসে। ওয়াচডগকে শেষ প্রতিরক্ষা হিসেবে দেখতে ভালো লাগে: সে সিস্টেমকে ফিরিয়ে আনতে পারে, কিন্তু ভুল নকশার ব্যাখ্যা নিজে তৈরি করে না।
+A restart is neither the root cause nor always the solution. If the restart reason is not preserved, the same fault may return without explanation. I prefer to think of a watchdog as a final defensive layer: it may bring the system back, but it cannot explain poor design by itself.
 
-সূত্র: [মূল রেফারেন্স](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/system/wdts.html).
+Source: [official reference](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/system/wdts.html).

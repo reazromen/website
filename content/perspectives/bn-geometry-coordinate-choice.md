@@ -1,8 +1,8 @@
 ---
-title: একই জায়গা, আলাদা কোঅর্ডিনেট
+title: Same Place, Different Coordinates
 date: '2026-05-30'
 draft: false
-language: bn
+language: en
 url: /posts/bn-geometry-coordinate-choice.html
 topic: geometry-information
 tags:
@@ -10,18 +10,19 @@ tags:
 - models
 featured: false
 read_time: 2
-excerpt: একটা অবস্থানকে একাধিক কোঅর্ডিনেট ব্যবস্থায় লেখা যায়। অবস্থান বদলায় না, বর্ণনার
-  নিয়ম বদলায়। এই পার্থক্য জিওমেট্রিকে আমার কাছে আকর্ষণীয় করে। কোন নিয়মে দেখছি তার
-  ওপর কিছু সম্পর্ক সহজ আর কিছু জটিল লাগে।
+excerpt: >-
+  The same position can be represented in several coordinate systems. The place does not
+  change; the rules of description do. That distinction is part of what makes geometry
+  interesting to me.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা অবস্থানকে একাধিক কোঅর্ডিনেট ব্যবস্থায় লেখা যায়। অবস্থান বদলায় না, বর্ণনার নিয়ম বদলায়। এই পার্থক্য জিওমেট্রিকে আমার কাছে আকর্ষণীয় করে। কোন নিয়মে দেখছি তার ওপর কিছু সম্পর্ক সহজ আর কিছু জটিল লাগে।
+The same position can be represented in several coordinate systems. The place does not change; the rules of description do. That distinction is part of what makes geometry interesting to me. Some relationships become simple or complicated depending on the language used to describe them.
 
-বৃত্তের মতো একটা গঠন ভাবুন। এক ধরনের কোঅর্ডিনেটে তার ব্যাখ্যা দীর্ঘ, আরেকটায় ছোট হতে পারে। ছোট ব্যাখ্যা পাওয়া মানে গঠনটি নতুন করে তৈরি হয়নি। আমরা সমস্যার উপযোগী ভাষা বেছে নিয়েছি।
+Consider a structure such as a circle. In one coordinate system its description may be long, while in another it becomes compact. Finding the shorter description does not create a new circle. We have chosen a representation suited to the problem.
 
-সেন্সর আর মানচিত্রের ডেটায় এই নির্বাচন বাস্তব প্রভাব ফেলে। কোন রেফারেন্স ব্যবহার হয়েছে না জানলে দুই অবস্থান তুলনা ভুল হতে পারে। একই ধরনের সংখ্যা থাকলেই একই জায়গা বোঝায় না।
+This choice has practical consequences in sensor and mapping data. If the reference system is unknown, comparing two positions can be wrong even when the numbers look similar. Similar numbers do not guarantee the same physical location.
 
-আমি কোঅর্ডিনেটকে নিরপেক্ষ অদৃশ্য পটভূমি হিসেবে দেখতে চাই না। সে সম্পর্ক প্রকাশের একটা পদ্ধতি। পদ্ধতিটা জানা থাকলে সংখ্যার বাইরে গঠনটাও পড়া যায়।
+I do not think of coordinates as an invisible neutral background. They are a method for exposing relationships. Once the method is known, we can read the geometry behind the numbers more clearly.
 
-সূত্র: [মূল রেফারেন্স](https://openstax.org/books/calculus-volume-3/pages/2-7-cylindrical-and-spherical-coordinates).
+Source: [official reference](https://openstax.org/books/calculus-volume-3/pages/2-7-cylindrical-and-spherical-coordinates).

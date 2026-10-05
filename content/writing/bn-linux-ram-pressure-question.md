@@ -1,8 +1,8 @@
 ---
-title: র‍্যাম ভরা আর র‍্যামের চাপে কাজ থামা আলাদা
+title: Full RAM and Memory Pressure Are Not the Same Thing
 date: '2024-09-07'
 draft: false
-language: bn
+language: en
 url: /posts/bn-linux-ram-pressure-question.html
 topic: linux-homelab
 tags:
@@ -10,19 +10,19 @@ tags:
 - memory
 featured: false
 read_time: 2
-excerpt: লিনাক্সে ব্যবহৃত র‍্যামের সংখ্যা দেখেই চাপের সিদ্ধান্ত নেওয়া কঠিন। ক্যাশও
-  জায়গা ব্যবহার করে, আবার প্রয়োজন হলে তার কিছু অংশ ছাড়তে পারে। তাই ভরা দেখানো আর প্রয়োজনীয়
-  কাজ মেমোরির জন্য আটকে থাকা এক ঘটনা না। ব্যবহারকারীর অভিজ্ঞতার সঙ্গে সংখ্যার সম্পর্ক
-  খুঁজতে হয়।
+excerpt: >-
+  On Linux, a high used-memory number does not automatically mean the system is under
+  pressure. Cache consumes memory too and can often be reclaimed. A full-looking memory
+  graph and work actually stalling for memory are different events.
 editorial_batch: 20261003-100-niches
 ---
 
-লিনাক্সে ব্যবহৃত র‍্যামের সংখ্যা দেখেই চাপের সিদ্ধান্ত নেওয়া কঠিন। ক্যাশও জায়গা ব্যবহার করে, আবার প্রয়োজন হলে তার কিছু অংশ ছাড়তে পারে। তাই ভরা দেখানো আর প্রয়োজনীয় কাজ মেমোরির জন্য আটকে থাকা এক ঘটনা না। ব্যবহারকারীর অভিজ্ঞতার সঙ্গে সংখ্যার সম্পর্ক খুঁজতে হয়।
+On Linux, a high used-memory number does not automatically mean the system is under pressure. Cache consumes memory too and can often be reclaimed. A full-looking memory graph and work actually stalling for memory are different events. The useful question is how the number relates to the user's experience.
 
-ধরুন একটা সার্ভারে র‍্যাম অনেক ব্যবহার হচ্ছে, কিন্তু কাজ সময়মতো শেষ হচ্ছে। অন্য সার্ভারে ব্যবহার একটু কম, অথচ প্রসেস অপেক্ষা করছে বা বারবার রিক্লেইমের চাপ নিচ্ছে। শুধু শতাংশ দেখে প্রথমটাকে খারাপ বলা অসম্পূর্ণ। কাজের দেরি আর মেমোরি প্রেসারও দেখতে হবে।
+Suppose one server uses most of its RAM but completes work on time. Another uses slightly less, yet processes spend time waiting or repeatedly reclaiming memory. Calling the first server unhealthy from percentage alone misses the point. Work latency and memory pressure matter too.
 
-পিএসআইয়ের মতো তথ্য অপেক্ষার দিকটা দেখতে সাহায্য করে। একটা মেট্রিক পুরো কারণ বলে না, কিন্তু রিসোর্সের অভাব কাজকে কতটা থামাচ্ছে সেই প্রশ্নের কাছে নেয়। প্রসেসভিত্তিক ব্যবহার আর সিস্টেমের চাপ মিলিয়ে দেখা ভালো।
+Signals such as PSI help expose the waiting side of the problem. One metric never explains every cause, but it gets closer to the question of how much resource scarcity is actually stopping work. Per-process usage and system-wide pressure are most useful when read together.
 
-সার্ভারের স্বাস্থ্য বিচার করতে আমি জায়গার হিসাবের পাশাপাশি সময়ের হিসাব চাই। কত র‍্যাম আছে দরকারি প্রশ্ন। সেই র‍্যামের অবস্থার জন্য কাজ কতক্ষণ অপেক্ষা করছে, সেটাও সমান দরকারি।
+When judging server health, I want an accounting of time as well as space. How much RAM exists is an important question. How long work waits because of the state of that RAM is equally important.
 
-সূত্র: [মূল রেফারেন্স](https://www.kernel.org/doc/html/latest/accounting/psi.html).
+Source: [official reference](https://www.kernel.org/doc/html/latest/accounting/psi.html).

@@ -1,8 +1,8 @@
 ---
-title: লেখার তারিখ, স্মৃতির বছর আর প্রকাশের দিন
+title: The Date of the Writing, the Year of the Memory, and the Day of Publication
 date: '2022-11-28'
 draft: false
-language: bn
+language: en
 url: /posts/bn-archive-date-three-clocks.html
 topic: writing-systems
 tags:
@@ -10,16 +10,17 @@ tags:
 - time
 featured: false
 read_time: 2
-excerpt: একটা লেখা পুরোনো সময় নিয়ে হতে পারে, কিন্তু আজ লেখা হয়েছে। আবার পুরোনো নোট
-  আজ প্রথম প্রকাশ হতে পারে। এই দুই অবস্থাকে একই তারিখে চাপিয়ে দিলে ইতিহাসের অর্থ বদলে
-  যায়। লেখার বিষয়, মূল নোট আর প্রকাশের দিন আলাদা পরিচয় পেতে পারে।
+excerpt: >-
+  A piece can be about an old period and still be written today. An old note can also be
+  published for the first time today. Forcing those events into one date changes the
+  meaning of the archive.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা লেখা পুরোনো সময় নিয়ে হতে পারে, কিন্তু আজ লেখা হয়েছে। আবার পুরোনো নোট আজ প্রথম প্রকাশ হতে পারে। এই দুই অবস্থাকে একই তারিখে চাপিয়ে দিলে ইতিহাসের অর্থ বদলে যায়। লেখার বিষয়, মূল নোট আর প্রকাশের দিন আলাদা পরিচয় পেতে পারে।
+A piece can be about an old period and still be written today. An old note can also be published for the first time today. Forcing those events into one date changes the meaning of the archive. The subject's date, the original note's date, and the publication date can each have their own identity.
 
-ধরুন দুই হাজার আঠারোর কোনো স্মৃতি নিয়ে আজ লিখলাম। শুধু সেই স্মৃতির বছরকে প্রকাশের তারিখ করলে পাঠক ভাবতে পারেন লেখাটিও তখন থেকেই ছিল। অথচ সেটা আজকের ফিরে দেখা। সত্য ইতিহাস রাখতে এই পার্থক্য জরুরি।
+Suppose I write today about a memory from 2018. If I use 2018 as the publication date, a reader may reasonably assume the article itself existed then. But the piece is today's act of looking back. Preserving that distinction keeps the history honest.
 
-আর্কাইভে পুরোনো মূল লেখার প্রমাণ থাকলে তারিখ সংরক্ষণ করা যায়। প্রমাণ না থাকলে অনিশ্চিত লেখা ভালো। ফাঁকা বছর থাকলে সেটাও দৃশ্যমান ইতিহাস; খালি জায়গা ভরতে সংখ্যা বানানো দরকার নেই।
+When there is evidence for an original archived piece, its date can be preserved. When there is no evidence, uncertainty is better than an invented timestamp. An empty year is also part of the history; gaps do not need fabricated numbers to look complete.
 
-আমার কাছে আর্কাইভের সৌন্দর্য সব বছর সমান ভরা হওয়ায় না। কোন সময়ে কী জানা আছে আর কী নেই সেটা সৎভাবে রাখা। স্মৃতি আর প্রকাশের দুই ঘড়িকে আলাদা রাখলে ফিরে দেখাও বেশি অর্থপূর্ণ হয়।
+For me, the beauty of an archive is not that every year is equally full. It is that the record stays honest about what is known and what is not. Keeping the clock of memory separate from the clock of publication makes looking back more meaningful.

@@ -1,8 +1,8 @@
 ---
-title: আরএফ শেখার সময় স্তরের একটা মানচিত্র রাখা
+title: Keep a Layer Map While Learning RF
 date: '2025-05-28'
 draft: false
-language: bn
+language: en
 url: /posts/bn-rf-learning-layer-map.html
 topic: radio-iot
 tags:
@@ -10,19 +10,19 @@ tags:
 - learning
 featured: false
 read_time: 2
-excerpt: আরএফের জগতে ঢুকলে একসঙ্গে অনেক নাম আসে। ফ্রিকোয়েন্সি, মডুলেশন, অ্যান্টেনা,
-  প্যাকেট, রাউটিং—সব মিলিয়ে শেখা ভারী লাগে। আমি এই জট খুলতে স্তরের একটা মানচিত্র পছন্দ
-  করি। কোন ধারণা ভৌত সিগন্যালের, কোনটা যোগাযোগের নিয়মের, কোনটা অ্যাপ্লিকেশনের সেটা
-  আলাদা করি।
+excerpt: >-
+  RF introduces many concepts at once: frequency, modulation, antennas, packets, routing,
+  and applications. A layer map helps separate physical-signal questions from protocol
+  and application questions.
 editorial_batch: 20261003-100-niches
 ---
 
-আরএফের জগতে ঢুকলে একসঙ্গে অনেক নাম আসে। ফ্রিকোয়েন্সি, মডুলেশন, অ্যান্টেনা, প্যাকেট, রাউটিং—সব মিলিয়ে শেখা ভারী লাগে। আমি এই জট খুলতে স্তরের একটা মানচিত্র পছন্দ করি। কোন ধারণা ভৌত সিগন্যালের, কোনটা যোগাযোগের নিয়মের, কোনটা অ্যাপ্লিকেশনের সেটা আলাদা করি।
+RF introduces many concepts at once: frequency, modulation, antennas, packets, routing, and applications. The vocabulary can become heavy very quickly. I like to keep a layer map that separates questions about the physical signal from questions about communication rules and application behavior.
 
-একটা বার্তা পৌঁছায়নি ভাবুন। সিগন্যাল পৌঁছায়নি, সিগন্যাল থেকে প্যাকেট বোঝা যায়নি, পথ জানা ছিল না, নাকি অ্যাপ্লিকেশন ব্যবহার করেনি—চারটা আলাদা সম্ভাবনা। স্তরের নাম জানলে প্রশ্নগুলো অকারণে মিশে যায় না।
+Suppose a message did not arrive. Maybe the signal never reached the receiver. Maybe the receiver saw energy but could not decode the packet. Maybe the route was unknown. Maybe the packet arrived but the application ignored it. Those are different failures, and layer names stop them from collapsing into one vague problem.
 
-শেখার পরীক্ষাতেও ছোট একটা লক্ষ্য ভালো। প্রথমে একটা জানা বার্তা পাঠানো, পরে দূরত্বের পরিবর্তন, তারপর বহু নোডের আচরণ দেখা যায়। একসঙ্গে সব পরিবর্তন করলে বোঝা যায় না কোন ধারণার উত্তর পাওয়া গেল।
+Learning experiments benefit from the same separation. First send one known message. Then change distance. Later introduce multiple nodes. If everything changes at once, it becomes difficult to know which concept the experiment actually tested.
 
-মানচিত্রের উদ্দেশ্য বিষয়কে সহজ বলে দাবি করা না। বরং জটিলতার মধ্যে কোথায় দাঁড়িয়ে আছি সেটা দেখা। সেই অবস্থান বোঝা গেলে পরের দরকারি প্রশ্ন নিজে থেকেই ছোট হয়ে আসে।
+The purpose of the map is not to pretend RF is simple. It is to show where we are standing inside the complexity. Once that location is clear, the next useful question usually becomes smaller.
 
-সূত্র: [মূল রেফারেন্স](https://lora-alliance.org/resource_hub/what-is-lorawan/).
+Source: [official reference](https://lora-alliance.org/resource_hub/what-is-lorawan/).

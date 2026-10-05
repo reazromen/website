@@ -1,8 +1,8 @@
 ---
-title: সিস্টেমের সীমানা কোথায় আঁকছেন
+title: Where Are You Drawing the Boundary of the System?
 date: '2025-09-28'
 draft: false
-language: bn
+language: en
 url: /posts/bn-boundary-defines-system.html
 topic: systems-thinking
 tags:
@@ -10,18 +10,19 @@ tags:
 - systems-thinking
 featured: false
 read_time: 2
-excerpt: সিস্টেম নিয়ে কথা বলার আগে কোথায় তার সীমানা আঁকছি জানা দরকার। একটা অ্যাপকে
-  সিস্টেম বলা যায়, আবার অ্যাপ, ডেটাবেস, নেটওয়ার্ক আর ব্যবহারকারীর কাজ মিলিয়েও দেখা
-  যায়। সীমানা বদলালে সমস্যার ব্যাখ্যাও বদলায়।
+excerpt: >-
+  Before talking about a system, it helps to say where its boundary is. An application
+  can be treated as the system, or the application, database, network, and user workflow
+  can be considered together. Changing the boundary changes the explanation.
 editorial_batch: 20261003-100-niches
 ---
 
-সিস্টেম নিয়ে কথা বলার আগে কোথায় তার সীমানা আঁকছি জানা দরকার। একটা অ্যাপকে সিস্টেম বলা যায়, আবার অ্যাপ, ডেটাবেস, নেটওয়ার্ক আর ব্যবহারকারীর কাজ মিলিয়েও দেখা যায়। সীমানা বদলালে সমস্যার ব্যাখ্যাও বদলায়।
+Before talking about a system, it helps to say where its boundary is. An application can be treated as the system, or the application, database, network, and user workflow can be considered together. Changing the boundary changes the explanation.
 
-ধরুন অ্যাপ দ্রুত উত্তর দিয়েছে, কিন্তু মানুষ ফল পাননি। অ্যাপের সীমানায় কাজ সফল, পুরো যোগাযোগের সীমানায় ব্যর্থ। দুই রিপোর্ট একসঙ্গে সত্য হতে পারে, কারণ তারা আলাদা অংশ মাপছে।
+Suppose the application responded quickly but the user never received the result. Inside the application boundary, the operation succeeded. Across the whole communication path, it failed. Both reports can be true because they are measuring different systems.
 
-তদন্তে কখন সীমানা বড় আর কখন ছোট করা দরকার সেটা গুরুত্বপূর্ণ। প্রথমে পুরো কাজের পথ, পরে সন্দেহের অংশ আলাদা করা যায়। এক স্তরের সত্যকে অন্য স্তরের নিশ্চয়তা বানানো এড়িয়ে চলতে হয়।
+An investigation often needs both larger and smaller boundaries. Start with the end-to-end path, then isolate the suspected component. Avoid turning a truth about one layer into a guarantee about another.
 
-আমার কাছে সিস্টেম চিন্তার প্রথম কাজ সবকিছুকে বড় করে বলা না। বরং যে প্রশ্নের উত্তর চাই তার উপযোগী সম্পর্ক বেছে দেখা। সীমানা স্পষ্ট থাকলে সফলতা আর ব্যর্থতার কথাও অর্থ পায়।
+For me, systems thinking does not begin by making everything larger. It begins by choosing the relationships that answer the question at hand. Once the boundary is explicit, words like success and failure become much more meaningful.
 
-সূত্র: [মূল রেফারেন্স](https://kubernetes.io/docs/concepts/architecture/).
+Source: [official reference](https://kubernetes.io/docs/concepts/architecture/).

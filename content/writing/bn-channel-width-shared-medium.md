@@ -1,8 +1,8 @@
 ---
-title: চ্যানেল চওড়া করলে জায়গা কার সঙ্গে ভাগ হচ্ছে
+title: When You Widen a Channel, Who Are You Sharing the Spectrum With?
 date: '2021-12-06'
 draft: false
-language: bn
+language: en
 url: /posts/bn-channel-width-shared-medium.html
 topic: networking
 tags:
@@ -10,18 +10,19 @@ tags:
 - capacity
 featured: false
 read_time: 2
-excerpt: বেশি চ্যানেল উইডথের কথা শুনলে বেশি গতির কথা মনে হয়। কিন্তু আশপাশের নেটওয়ার্কও
-  একই রেডিও পরিবেশে আছে। নিজের সম্ভাব্য গতি বাড়ানো আর সেই পরিবেশে স্থির অভিজ্ঞতা পাওয়া
-  এক সিদ্ধান্ত না। জায়গা কার সঙ্গে ভাগ হচ্ছে সেটা জানা দরকার।
+excerpt: >-
+  Wider channels suggest higher speed, but nearby networks still occupy the same radio
+  environment. Increasing your own peak capacity and getting stable performance in that
+  environment are not the same design decision.
 editorial_batch: 20261003-100-niches
 ---
 
-বেশি চ্যানেল উইডথের কথা শুনলে বেশি গতির কথা মনে হয়। কিন্তু আশপাশের নেটওয়ার্কও একই রেডিও পরিবেশে আছে। নিজের সম্ভাব্য গতি বাড়ানো আর সেই পরিবেশে স্থির অভিজ্ঞতা পাওয়া এক সিদ্ধান্ত না। জায়গা কার সঙ্গে ভাগ হচ্ছে সেটা জানা দরকার।
+Wider channels suggest higher speed, but nearby networks still occupy the same radio environment. Increasing your own peak capacity and getting stable performance in that environment are not the same design decision. You need to know who else is sharing the space.
 
-ভিড়ের একটা জায়গায় নতুন অ্যাক্সেস পয়েন্টের পরীক্ষায় শুধু কাছের একটা ফোনের সর্বোচ্চ গতি মাপলে বাস্তব ব্যবহার বোঝা যায় না। দূরের ক্লায়েন্ট, একসঙ্গে অনেক ব্যবহারকারী আর ব্যস্ত সময়ের ট্রাফিকও পরীক্ষা করতে হবে।
+In a crowded location, measuring only the maximum throughput of one nearby phone does not represent real use. Distant clients, many simultaneous users, and peak-time traffic all need to be part of the test.
 
-পরিবর্তনের আগে বর্তমান চ্যানেল, ব্যবহার আর রিট্রাইয়ের একটা বেসলাইন রাখুন। তারপর নির্দিষ্ট পরিবর্তনের পর একই পরীক্ষায় ফিরুন। শুধু স্পিড টেস্টের একটা ফল দিয়ে সব ব্যবহারকারীর অভিজ্ঞতা ঘোষণা করবেন না।
+Before changing channel width, keep a baseline of the current channel, utilization, and retry behavior. Then repeat the same test after a controlled change. One speed-test result should not be promoted into a statement about every user's experience.
 
-ওয়াইফাই ডিজাইন মূলত ভাগ করা মাধ্যমের পরিকল্পনা। নিজের ক্ষমতা যত বাড়ে, প্রতিবেশীর সঙ্গে সম্পর্কের গুরুত্ব তত কমে না। বড় সংখ্যার চেয়ে স্থির কাজের ফল অনেক সময় বেশি প্রয়োজনীয়।
+Wi-Fi design is fundamentally planning for a shared medium. More capability on your own access point does not make neighboring systems less relevant. Stable behavior is often more useful than the largest headline number.
 
-সূত্র: [মূল রেফারেন্স](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-guides/wifi.html).
+Source: [official reference](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-guides/wifi.html).

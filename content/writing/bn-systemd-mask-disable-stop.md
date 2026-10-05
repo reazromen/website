@@ -1,8 +1,8 @@
 ---
-title: স্টপ, ডিসেবল আর মাস্ক কেন আলাদা
+title: Why systemd Stop, Disable, and Mask Are Different
 date: '2023-10-13'
 draft: false
-language: bn
+language: en
 url: /posts/bn-systemd-mask-disable-stop.html
 topic: linux-homelab
 tags:
@@ -10,18 +10,19 @@ tags:
 - operations
 featured: false
 read_time: 2
-excerpt: একটা সার্ভিস এখন বন্ধ করা, বুটে স্বয়ংক্রিয় চালু হওয়া বদলানো আর তাকে চালু
-  হওয়া থেকে আটকানো আলাদা প্রয়োজন। সিস্টেমডির স্টপ, ডিসেবল আর মাস্ক এই পার্থক্য বোঝায়।
-  তিনটা কমান্ডকে বন্ধ করার তিন বানান ভাবলে পরে আচরণ দেখে বিভ্রান্তি হয়।
+excerpt: >-
+  Stopping a service now, preventing automatic startup at boot, and making the service
+  impossible to start are different operational intentions. systemd's stop, disable,
+  and mask reflect those distinctions.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা সার্ভিস এখন বন্ধ করা, বুটে স্বয়ংক্রিয় চালু হওয়া বদলানো আর তাকে চালু হওয়া থেকে আটকানো আলাদা প্রয়োজন। সিস্টেমডির স্টপ, ডিসেবল আর মাস্ক এই পার্থক্য বোঝায়। তিনটা কমান্ডকে বন্ধ করার তিন বানান ভাবলে পরে আচরণ দেখে বিভ্রান্তি হয়।
+Stopping a service now, preventing automatic startup at boot, and making the service impossible to start are different operational intentions. systemd's stop, disable, and mask reflect those distinctions. Treating them as three spellings of turn it off creates confusion later.
 
-স্টপ বর্তমান রান বন্ধ করতে পারে। ডিসেবল নির্দিষ্ট স্বয়ংক্রিয় চালুর সংযোগ সরায়, কিন্তু সার্ভিস ইতিমধ্যে চলছে কি না সেটা অন্য প্রশ্ন। মাস্ক আরও শক্ত বাধা তৈরি করে। ঠিক কী বাধা চাই তার ওপর কাজ নির্বাচন করতে হয়।
+Stop can end the current running instance. Disable removes configured automatic-start links, but whether the service is already running is a separate question. Mask creates a stronger barrier against activation. The correct action depends on the behavior you actually want to prevent.
 
-ধরুন একটা ভারী সার্ভিস সাময়িক বন্ধ রাখতে চান। স্থায়ীভাবে সব পথ আটকানো সেই প্রয়োজনের চেয়ে বড় পরিবর্তন হতে পারে। আবার কোনো সার্ভিস অন্য ডিপেনডেন্সি দিয়ে বারবার উঠলে শুধু বুটের সংযোগ সরানো যথেষ্ট নাও হতে পারে।
+Suppose you want to stop a heavy service temporarily. Permanently blocking all activation paths may be a larger change than necessary. On the other hand, if another dependency keeps activating the unit, merely disabling boot-time startup may not be enough.
 
-অপারেশনে তাই কাজের উদ্দেশ্য লিখে রাখা গুরুত্বপূর্ণ। এখন বন্ধ, পরে বুটে বন্ধ, না স্পষ্ট নিষেধ—কোনটা করা হয়েছে জানা থাকলে পরের মানুষ সিস্টেমের অবস্থা বুঝতে পারেন। ছোট কমান্ডের পেছনেও আলাদা নীতি থাকে।
+Operational changes should record intent. Stopped now, disabled at boot, and explicitly prohibited from starting are different states. When that intention is visible, the next operator can understand what the machine was meant to do.
 
-সূত্র: [মূল রেফারেন্স](https://www.freedesktop.org/software/systemd/man/249/systemctl.html).
+Source: [official reference](https://www.freedesktop.org/software/systemd/man/249/systemctl.html).

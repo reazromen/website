@@ -1,8 +1,8 @@
 ---
-title: ডিএনএস ঠিক মানেই অ্যাপ্লিকেশন ঠিক না
+title: Working DNS Does Not Mean the Application Is Healthy
 date: '2021-08-26'
 draft: false
-language: bn
+language: en
 url: /posts/bn-dns-path-not-application-health.html
 topic: networking
 tags:
@@ -10,18 +10,19 @@ tags:
 - debugging
 featured: false
 read_time: 2
-excerpt: ডোমেইন থেকে অ্যাড্রেস পাওয়া যোগাযোগের প্রথম দরকারি ধাপ। কিন্তু সেই অ্যাড্রেসে
-  সার্ভিস পাওয়া যাবে কি না, সার্টিফিকেট মিলবে কি না, বা অ্যাপ কাজ করবে কি না—এসব ডিএনএসের
-  উত্তরের বাইরে। একটা সফল নাম খোঁজাকে পুরো সিস্টেমের স্বাস্থ্য বলা যায় না।
+excerpt: >-
+  Resolving a domain to an address is an important first step, but DNS cannot tell you
+  whether the service is reachable, the certificate matches, or the application itself
+  is working. Successful name resolution is not system health.
 editorial_batch: 20261003-100-niches
 ---
 
-ডোমেইন থেকে অ্যাড্রেস পাওয়া যোগাযোগের প্রথম দরকারি ধাপ। কিন্তু সেই অ্যাড্রেসে সার্ভিস পাওয়া যাবে কি না, সার্টিফিকেট মিলবে কি না, বা অ্যাপ কাজ করবে কি না—এসব ডিএনএসের উত্তরের বাইরে। একটা সফল নাম খোঁজাকে পুরো সিস্টেমের স্বাস্থ্য বলা যায় না।
+Resolving a domain to an address is an important first step, but DNS cannot tell you whether the service is reachable, the certificate matches, or the application itself is working. Successful name resolution is not system health.
 
-ধরুন ডোমেইন ঠিক অ্যাড্রেসে যাচ্ছে, কিন্তু রিভার্স প্রক্সি ভুল সার্ভিসে পাঠাচ্ছে। ব্যবহারকারী ভুল পেজ দেখবেন। আবার প্রক্সি ঠিক থাকলেও পেছনের অ্যাপ বন্ধ থাকতে পারে। একই ডোমেইনের অভিযোগে আলাদা স্তরের কারণ থাকতে পারে।
+Suppose the domain resolves to the correct address but the reverse proxy routes to the wrong service. The user sees the wrong page. Or the proxy may be correct while the backend application is down. The same domain-level complaint can come from several layers.
 
-পরীক্ষা তাই নাম, সংযোগ, টিএলএস, রাউটিং আর অ্যাপের প্রতিক্রিয়া আলাদা করে দেখা উচিত। প্রতিটা ধাপের ফল পরের ধাপের প্রশ্ন ছোট করে। সব সমস্যায় ডিএনএস বদলানো যুক্তিযুক্ত না।
+Testing should therefore separate name resolution, connectivity, TLS, routing, and application response. Evidence from each step narrows the next question. Changing DNS for every failure is not a useful debugging strategy.
 
-নেটওয়ার্কের একটা মানচিত্র রাখা এখানে অনেক সাহায্য করে। কোন নাম কোথায়, তারপর কোন কম্পোনেন্টে, শেষে কোন কাজ—এই পথ বোঝা গেলে ডোমেইনকে রহস্যময় এক সুইচ মনে হয় না।
+A simple network map helps here: which name resolves where, which component receives the connection next, and which application ultimately handles the request? Once that path is visible, a domain stops looking like a mysterious switch.
 
-সূত্র: [মূল রেফারেন্স](https://www.rfc-editor.org/rfc/rfc1034.html).
+Source: [official reference](https://www.rfc-editor.org/rfc/rfc1034.html).

@@ -1,8 +1,8 @@
 ---
-title: সিরিয়াল লগও প্রসেসরের কাছে একটা কাজ
+title: Serial Logging Is Work for the Processor Too
 date: '2024-12-19'
 draft: false
-language: bn
+language: en
 url: /posts/bn-serial-log-realtime-cost.html
 topic: embedded-audio-voice
 tags:
@@ -10,18 +10,18 @@ tags:
 - debugging
 featured: false
 read_time: 2
-excerpt: লগ লিখে আমরা কাজটা দেখতে চাই। কিন্তু লগ লেখার কাজও সময় নেয়। রিয়েলটাইম অডিওর
-  মধ্যে অতিরিক্ত লগ ঢুকলে পর্যবেক্ষণের পদ্ধতিটাই আচরণ বদলাতে পারে। সমস্যাটা দেখা এবং
-  সমস্যার ওপর নতুন চাপ যোগ করা একসঙ্গে ঘটতে পারে।
+excerpt: >-
+  Logs help us observe a system, but producing them also consumes time. Heavy logging
+  inside a real-time audio path can change the behavior being measured.
 editorial_batch: 20261003-100-niches
 ---
 
-লগ লিখে আমরা কাজটা দেখতে চাই। কিন্তু লগ লেখার কাজও সময় নেয়। রিয়েলটাইম অডিওর মধ্যে অতিরিক্ত লগ ঢুকলে পর্যবেক্ষণের পদ্ধতিটাই আচরণ বদলাতে পারে। সমস্যাটা দেখা এবং সমস্যার ওপর নতুন চাপ যোগ করা একসঙ্গে ঘটতে পারে।
+Logs help us observe a system, but producing them also consumes time. Heavy logging inside a real-time audio path can change the behavior being measured. The act of observing the problem can add new pressure to it.
 
-ধরুন ছোট সময়ের মধ্যে একটা ফ্রেম প্রস্তুত হওয়ার কথা। সেই পথে বড় স্ট্রিং তৈরি, ফরম্যাট করা আর আউটপুটে লেখা যোগ হলো। আলাদা করে ছোট মনে হলেও ধারাবাহিক ফ্রেমে খরচ জমে। তখন ডিবাগ মোডে সমস্যা হচ্ছে, রিলিজ মোডে হচ্ছে না—এমন বিভ্রান্তি তৈরি হয়।
+Suppose an audio frame has a tight deadline. Now add string construction, formatting, and serial output to that same path. Each operation may look small in isolation, but the cost accumulates across continuous frames. This can create the confusing situation where the bug appears in debug mode but not in the release build.
 
-তাই দরকার কোন লগ জরুরি আর কোনটা পরে পড়া যাবে সেটা ঠিক করা। কাউন্টার, সীমিত নমুনা বা আলাদা টাস্কে সংক্ষিপ্ত ইভেন্ট পাঠানো কাজে আসতে পারে। কোন কৌশল ভালো তা মেপে দেখতে হবে; সব কিউ আবার বিনা খরচে চলে না।
+Decide which logs are necessary in the time-critical path and which can be processed later. Counters, limited sampling, or compact events passed to another task may help, although every queue and handoff has a cost of its own.
 
-পর্যবেক্ষণ কখনো পুরোপুরি অদৃশ্য না। ভালো ডিবাগিং সেই প্রভাব স্বীকার করে এবং জানা স্বাভাবিক অবস্থার সঙ্গে তুলনা করে। লগের উপস্থিতিকে নিরপেক্ষ প্রমাণ ধরে নিলে পরীক্ষার নিজের তৈরি পরিবর্তনকে পণ্যের মূল সমস্যা বলে ভুল হতে পারে।
+Observation is never completely invisible. Good debugging acknowledges that influence and compares against a known normal baseline. Treating logs as perfectly neutral evidence can make instrumentation-induced behavior look like a product defect.
 
-সূত্র: [মূল রেফারেন্স](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/system/log.html).
+Source: [official reference](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/system/log.html).

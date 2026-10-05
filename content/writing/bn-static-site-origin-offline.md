@@ -1,8 +1,8 @@
 ---
-title: স্ট্যাটিক সাইটে অরিজিন বন্ধ থাকলেও কী বাঁচে
+title: What Survives When a Static Site's Origin Goes Offline?
 date: '2021-04-18'
 draft: false
-language: bn
+language: en
 url: /posts/bn-static-site-origin-offline.html
 topic: web-control-plane
 tags:
@@ -10,18 +10,19 @@ tags:
 - architecture
 featured: false
 read_time: 2
-excerpt: স্ট্যাটিক সাইটের একটা আকর্ষণ হচ্ছে প্রকাশিত ফাইল পরিবেশনের জন্য লেখার সার্ভার
-  সবসময় দরকার নাও হতে পারে। কিন্তু এই সুবিধা কোন অংশ পর্যন্ত আছে বোঝা জরুরি। এইচটিএমএল
-  আর ছবি পাওয়া যাচ্ছে মানেই সব ডায়নামিক কাজও চলবে না।
+excerpt: >-
+  One attraction of static publishing is that the authoring server may not need to stay
+  online for readers to receive already-published files. But the boundary of that independence
+  needs to be clear.
 editorial_batch: 20261003-100-niches
 ---
 
-স্ট্যাটিক সাইটের একটা আকর্ষণ হচ্ছে প্রকাশিত ফাইল পরিবেশনের জন্য লেখার সার্ভার সবসময় দরকার নাও হতে পারে। কিন্তু এই সুবিধা কোন অংশ পর্যন্ত আছে বোঝা জরুরি। এইচটিএমএল আর ছবি পাওয়া যাচ্ছে মানেই সব ডায়নামিক কাজও চলবে না।
+One attraction of static publishing is that the authoring server may not need to stay online for readers to receive already-published files. But the boundary of that independence needs to be clear. HTML and images remaining available does not mean every dynamic feature still works.
 
-একটা পেজে বাইরের এপিআই, সার্চ বা লগইনের ওপর নির্ভরতা থাকতে পারে। মূল ফাইল এজে থাকলেও সেই ডিপেনডেন্সি বন্ধ হলে অভিজ্ঞতা বদলাবে। তাই সাইটের অফলাইন সক্ষমতা বলতে কোন কাজগুলো বোঝানো হচ্ছে সেটা লিখতে হবে।
+A page may depend on an external API, search service, or authentication system. The main files can remain at the edge while those dependencies fail. Works offline therefore needs a definition of which functions are expected to survive.
 
-আলাদা করে ভাবুন: পড়া, নতুন লেখা, প্রকাশ করা আর ডেটা আনা। পাঠক পড়তে পারলেও সম্পাদক প্রকাশ করতে নাও পারেন। এই পার্থক্য সিস্টেমের দুর্বলতা লুকায় না; বরং কোন অংশকে স্বাধীন রাখা হয়েছে দেখায়।
+Think separately about reading, authoring, publishing, and fetching live data. Readers may still access the site while editors cannot publish. That distinction does not hide weakness; it shows which responsibilities were deliberately decoupled.
 
-আমার কাছে স্ট্যাটিক প্রকাশের মূল্য এই দায়িত্ব আলাদা করার মধ্যে। লেখার পরিবেশ আর পড়ার পরিবেশ এক সার্ভারের ভাগ্য বহন না করলেও চলে। তবে স্বাধীনতার দাবি পরীক্ষায় যতটুকু সত্য, ততটুকুই বলা উচিত।
+For me, static delivery is valuable because it separates the fate of the authoring environment from the reading environment. But claims of independence should be limited to what has actually been tested.
 
-সূত্র: [মূল রেফারেন্স](https://developers.cloudflare.com/pages/).
+Source: [official reference](https://developers.cloudflare.com/pages/).

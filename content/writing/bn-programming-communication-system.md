@@ -1,8 +1,8 @@
 ---
-title: প্রোগ্রামিং শেখা শুরু হতে পারে একটা যোগাযোগ দিয়ে
+title: Programming Can Start With a Communication System
 date: '2026-07-14'
 draft: false
-language: bn
+language: en
 url: /posts/bn-programming-communication-system.html
 topic: engineering-notes
 tags:
@@ -10,19 +10,19 @@ tags:
 - protocols
 featured: false
 read_time: 2
-excerpt: প্রোগ্রামিংকে শুধু সিনট্যাক্স মুখস্থ করার কাজ ভাবলে সিস্টেমের সম্পর্কটা দেরিতে
-  আসে। একটা ছোট যোগাযোগ ব্যবস্থা দিয়ে শেখা শুরু করলে অন্য প্রশ্নও সামনে আসে। কে অনুরোধ
-  করবে, কে উত্তর দেবে, আর উত্তর না এলে কী হবে—এই প্রশ্নগুলো কোডকে কাজের সঙ্গে যুক্ত
-  করে।
+excerpt: >-
+  If programming begins as syntax memorization, the relationships inside a system can
+  arrive late. A tiny communication system introduces useful questions immediately:
+  who asks, who answers, and what happens when no answer arrives?
 editorial_batch: 20261003-100-niches
 ---
 
-প্রোগ্রামিংকে শুধু সিনট্যাক্স মুখস্থ করার কাজ ভাবলে সিস্টেমের সম্পর্কটা দেরিতে আসে। একটা ছোট যোগাযোগ ব্যবস্থা দিয়ে শেখা শুরু করলে অন্য প্রশ্নও সামনে আসে। কে অনুরোধ করবে, কে উত্তর দেবে, আর উত্তর না এলে কী হবে—এই প্রশ্নগুলো কোডকে কাজের সঙ্গে যুক্ত করে।
+If programming begins as syntax memorization, the relationships inside a system can arrive late. A tiny communication system introduces useful questions immediately: who asks, who answers, and what happens when no answer arrives? Those questions connect code to behavior.
 
-ধরুন দুইটা প্রসেস একটা বার্তা আদানপ্রদান করবে। বার্তার ফরম্যাট ঠিক করতে হবে, কোথায় পাঠাতে হবে জানতে হবে, আর ব্যর্থতার আচরণ লিখতে হবে। কয়েকটা লাইনের প্রোগ্রামেও প্রোটোকল আর অবস্থার প্রশ্ন চলে আসে।
+Imagine two processes exchanging a message. They need a message format, a destination, and rules for failure. Even a few lines of code quickly introduce protocol and state.
 
-এভাবে শেখা মানে শুরুতেই বিশাল ডিস্ট্রিবিউটেড সিস্টেম বানানো না। একটা ছোট কাজ শেষ করা যায়, তারপর ধীরে নতুন সীমা যোগ করা যায়। প্রথমে স্থানীয় যোগাযোগ, পরে নেটওয়ার্ক, পরে পরিচয় আর পুনরায় চেষ্টা।
+This does not mean starting with a huge distributed system. Finish one small interaction first, then add boundaries gradually: local communication, then a network, then identity, then retries.
 
-আমার কাছে প্রোগ্রামিংয়ের আনন্দ এই সম্পর্ক তৈরি করার মধ্যে। কোড শুধু নির্দেশের তালিকা না; বাইরের কোনো ঘটনার সঙ্গে কার্যকর আচরণ যুক্ত করার উপায়। সেই কাজের পথ বুঝলে সিনট্যাক্সের প্রয়োজনও অর্থ পায়।
+For me, much of the joy of programming comes from building these relationships. Code is not merely a list of instructions; it is a way to connect behavior to events outside the program. Once the path of the work is clear, the syntax gains a reason to exist.
 
-সূত্র: [মূল রেফারেন্স](https://www.rfc-editor.org/rfc/rfc9110.html).
+Source: [official reference](https://www.rfc-editor.org/rfc/rfc9110.html).

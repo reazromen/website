@@ -1,8 +1,8 @@
 ---
-title: প্রেজেন্স ডিটেকশনে একটা ডেমোর চেয়ে পুনরাবৃত্তি জরুরি
+title: Presence Detection Needs Repetition, Not Just a Good Demo
 date: '2026-05-09'
 draft: false
-language: bn
+language: en
 url: /posts/bn-csi-presence-repetition-test.html
 topic: radio-iot
 tags:
@@ -10,18 +10,19 @@ tags:
 - testing
 featured: false
 read_time: 2
-excerpt: কেউ ঘরে ঢুকল আর গ্রাফ বদলাল—দৃশ্যটা আকর্ষণীয়। কিন্তু তার থেকে নির্ভরযোগ্য
-  প্রেজেন্স ডিটেকশন দাবি করতে আরও পরীক্ষা দরকার। মানুষ ছাড়া অন্য পরিবর্তনেও সিগন্যাল
-  বদলাতে পারে। একবারের মিল কারণের পূর্ণ প্রমাণ না।
+excerpt: >-
+  Someone enters a room and the graph changes. It is a compelling demo, but it is not yet
+  evidence of reliable presence detection. Signals can change for reasons other than a
+  person entering the space.
 editorial_batch: 20261003-100-niches
 ---
 
-কেউ ঘরে ঢুকল আর গ্রাফ বদলাল—দৃশ্যটা আকর্ষণীয়। কিন্তু তার থেকে নির্ভরযোগ্য প্রেজেন্স ডিটেকশন দাবি করতে আরও পরীক্ষা দরকার। মানুষ ছাড়া অন্য পরিবর্তনেও সিগন্যাল বদলাতে পারে। একবারের মিল কারণের পূর্ণ প্রমাণ না।
+Someone enters a room and the graph changes. It is a compelling demo, but it is not yet evidence of reliable presence detection. Signals can change for reasons other than a person entering the space. One coincidence is not a complete causal proof.
 
-একটা ভালো পরীক্ষা খালি ঘরের আচরণও রাখে। দরজা, ফ্যান, ডিভাইস সরানো আর নেটওয়ার্কের পরিবর্তনে কী হয় তা দেখা দরকার। শুধু মানুষের উপস্থিতির সময় ডেটা দেখলে ভুল অ্যালার্মের জায়গা অদৃশ্য থাকে।
+A better test includes empty-room behavior. What happens when a door moves, a fan turns on, a device is relocated, or the network changes? If data is collected only while a person is present, the conditions that create false alarms remain invisible.
 
-ডিটেকশন কতবার ঠিক, কতবার ভুল, কতক্ষণ দেরি—এই প্রশ্নগুলোর জন্য জানা অবস্থার সঙ্গে ফল তুলনা করতে হয়। প্রশিক্ষণে ব্যবহৃত পরিবেশ আর আলাদা পরীক্ষার পরিবেশ পৃথক রাখা গুরুত্বপূর্ণ।
+Questions such as how often detection is correct, how often it is wrong, and how long detection takes require comparison against a known ground truth. The environment used for training should also be separated from an environment used for independent evaluation.
 
-আমার কাছে প্রেজেন্স সিস্টেমের শক্তি সুন্দর গ্রাফে না, পুনরাবৃত্ত পরীক্ষায়। যে পরিস্থিতিতে সে নিশ্চিত হতে পারে না, সেটাও ইন্টারফেসে থাকা ভালো। সেন্সিংয়ের অনিশ্চয়তা লুকিয়ে রাখা নিশ্চিত ডিটেকশন তৈরি করে না।
+For me, the strength of a presence system is not the beauty of its graph but the repeatability of its tests. The interface should also expose cases where the system cannot be confident. Hiding uncertainty does not turn uncertain sensing into certain detection.
 
-সূত্র: [মূল রেফারেন্স](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-guides/wifi.html).
+Source: [official reference](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-guides/wifi.html).

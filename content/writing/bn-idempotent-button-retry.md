@@ -1,8 +1,8 @@
 ---
-title: একই বোতাম দুইবার চাপলে কাজ দুইবার হবে কি
+title: If the Same Button Is Pressed Twice, Should the Work Run Twice?
 date: '2023-05-04'
 draft: false
-language: bn
+language: en
 url: /posts/bn-idempotent-button-retry.html
 topic: production-engineering
 tags:
@@ -10,18 +10,19 @@ tags:
 - api
 featured: false
 read_time: 2
-excerpt: নেটওয়ার্কে একটা অনুরোধের উত্তর হারালে ব্যবহারকারী আবার চেষ্টা করতে পারেন।
-  কিন্তু প্রথম কাজটি সার্ভারে হয়ে থাকতে পারে। তখন দ্বিতীয় চেষ্টা নতুন কাজ শুরু করবে,
-  না আগের কাজের ফল দেখাবে—এই সিদ্ধান্ত অ্যাপ্লিকেশনের আচরণের অংশ।
+excerpt: >-
+  When a network response disappears, a user may retry even though the first operation
+  already succeeded on the server. Whether the second request creates new work or returns
+  the result of the first operation is part of the application's contract.
 editorial_batch: 20261003-100-niches
 ---
 
-নেটওয়ার্কে একটা অনুরোধের উত্তর হারালে ব্যবহারকারী আবার চেষ্টা করতে পারেন। কিন্তু প্রথম কাজটি সার্ভারে হয়ে থাকতে পারে। তখন দ্বিতীয় চেষ্টা নতুন কাজ শুরু করবে, না আগের কাজের ফল দেখাবে—এই সিদ্ধান্ত অ্যাপ্লিকেশনের আচরণের অংশ।
+When a network response disappears, a user may retry even though the first operation already succeeded on the server. Whether the second request creates new work or returns the result of the first operation is part of the application's contract.
 
-ধরুন কোনো ডিভাইসের আপডেট শুরু করার বোতাম চাপা হলো। ইন্টারফেসে উত্তর এলো না, আবার চাপা হলো। দুইটা কমান্ড একসঙ্গে চালানো দরকার কি না ভেবে দেখতে হবে। শুধু বোতাম নিষ্ক্রিয় করা সব নেটওয়ার্ক পরিস্থিতির সমাধান না।
+Imagine pressing a button to start a device update. The interface never receives a response, so the button is pressed again. Should two update commands run concurrently? Disabling the button in the UI does not solve every network failure or retry path.
 
-কাজের পরিচয় রেখে একই অনুরোধ চেনা কিছু ক্ষেত্রে সাহায্য করে। কিন্তু পরিচয়ের মেয়াদ, কোন ফল সংরক্ষণ করা হবে আর ভিন্ন অনুরোধ ভুল করে একই হিসেবে ধরা হবে কি না ভাবতে হবে। আইডেমপোটেন্সি একটা নির্দিষ্ট আচরণ, সাজানো শব্দ না।
+Keeping an operation identity can help the server recognize the same intent, but the design still needs an expiration policy, a definition of which result is preserved, and protection against accidentally treating different requests as identical. Idempotency is a concrete behavior, not a decorative term.
 
-আমি পুনরায় চেষ্টা করার নিয়মকে প্রথম নকশার অংশ মনে করি। ব্যর্থ যোগাযোগ নিয়মিত বাস্তবতা। সেই বাস্তবতায় একই ইচ্ছা যেন অকারণে একাধিক পার্শ্বপ্রতিক্রিয়া না তৈরি করে, সেটাই দরকার।
+I prefer to design retry semantics from the beginning. Failed communication is normal. The important property is that repeating the same intent does not create unnecessary duplicate side effects.
 
-সূত্র: [মূল রেফারেন্স](https://www.rfc-editor.org/rfc/rfc9110.html).
+Source: [official reference](https://www.rfc-editor.org/rfc/rfc9110.html).

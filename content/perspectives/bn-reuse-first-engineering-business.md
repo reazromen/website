@@ -1,8 +1,8 @@
 ---
-title: রিইউজের সিদ্ধান্তও ইঞ্জিনিয়ারিংয়ের কাজ
+title: Reuse Is an Engineering Decision Too
 date: '2024-02-17'
 draft: false
-language: bn
+language: en
 url: /posts/bn-reuse-first-engineering-business.html
 topic: production-engineering
 tags:
@@ -10,17 +10,17 @@ tags:
 - product-thinking
 featured: false
 read_time: 2
-excerpt: নিজে বানানোতে শেখার আনন্দ আছে। কিন্তু কোনো ব্যবহারকারীর সমস্যা দ্রুত সমাধান
-  করতে বিদ্যমান সফটওয়্যার ব্যবহার করা বেশি যুক্তিযুক্ত হতে পারে। রিইউজ মানে বিচার
-  বাদ দেওয়া না। কোন অংশ ব্যবহারযোগ্য আর কোন সীমা নিজের কাজকে প্রভাবিত করবে তা দেখতে
-  হয়।
+excerpt: >-
+  Building from scratch is a great way to learn, but existing software may solve a user's
+  problem faster and more reliably. Reuse does not remove engineering judgment; it changes
+  what must be evaluated.
 editorial_batch: 20261003-100-niches
 ---
 
-নিজে বানানোতে শেখার আনন্দ আছে। কিন্তু কোনো ব্যবহারকারীর সমস্যা দ্রুত সমাধান করতে বিদ্যমান সফটওয়্যার ব্যবহার করা বেশি যুক্তিযুক্ত হতে পারে। রিইউজ মানে বিচার বাদ দেওয়া না। কোন অংশ ব্যবহারযোগ্য আর কোন সীমা নিজের কাজকে প্রভাবিত করবে তা দেখতে হয়।
+Building from scratch is a great way to learn, but existing software may solve a user's problem faster and more reliably. Reuse does not remove engineering judgment. You still need to know which parts fit the requirement and which constraints become part of your own system.
 
-ধরুন প্রয়োজন শুধু নির্দিষ্ট একটা ফর্ম আর প্রকাশের পথ। শুরুতেই পূর্ণ নতুন প্ল্যাটফর্ম বানালে অনেক সম্পর্কের দায়িত্ব নিজের ওপর আসে। বিদ্যমান ব্যবস্থা দিয়ে ছোট কাজ শেষ করলে প্রয়োজনের সত্যও আগে বোঝা যায়।
+Suppose the real need is a specific form and a publishing path. Building an entire new platform immediately creates responsibility for authentication, storage, editing, deployment, and maintenance. Reusing a smaller existing system can solve the immediate problem while revealing the real requirements earlier.
 
-তবে নির্ভরতার ভার্সন, লাইসেন্স, রক্ষণাবেক্ষণ আর ডেটার পথ জানা দরকার। আজ সুবিধাজনক অংশ পরে বদলাতে হলে কত কাজ লাগবে ভাবুন। একসঙ্গে সব নিয়ন্ত্রণ নিজের হাতে থাকা আর ব্যবহারকারীর জন্য কাজ শেষ হওয়া আলাদা লক্ষ্য।
+Reuse still has dependencies. Versioning, licenses, maintenance, data flow, and replacement cost matter. A component that is convenient today may be expensive to replace later. Total control and delivering useful work to the user are not the same objective.
 
-আমি রিইউজকে শর্টকাট হিসেবে ছোট করতে চাই না। ভালো রিইউজের পেছনে সীমা পড়া, সম্পর্ক মিলানো আর প্রয়োজন ছোট করার দক্ষতা থাকে। নতুন কোডের পরিমাণ দিয়ে সমাধানের মান মাপা যায় না।
+I do not think of reuse as a lesser shortcut. Good reuse requires reading boundaries, matching interfaces, and reducing the problem to what actually needs to be built. The quality of an engineering solution is not measured by how much new code it contains.

@@ -1,8 +1,8 @@
 ---
-title: লিনাক্সের ছোট অংশগুলো বুঝলে বড় সিস্টেম পড়া যায়
+title: Understanding Small Linux Parts Makes Larger Systems Legible
 date: '2024-07-20'
 draft: false
-language: bn
+language: en
 url: /posts/bn-linux-small-parts-understanding.html
 topic: linux-homelab
 tags:
@@ -10,18 +10,19 @@ tags:
 - learning
 featured: false
 read_time: 2
-excerpt: লিনাক্সকে ভালো লাগার একটা কারণ আমার কাছে তার অংশগুলো অনুসরণ করা যায়। একটা
-  কমান্ডের পেছনে প্রসেস, ফাইল, অনুমতি আর নেটওয়ার্কের সম্পর্ক দেখা সম্ভব। সব একসঙ্গে
-  বোঝা লাগে না; একটা পথ ধরে এগোলেও বড় সিস্টেমের গঠন খুলতে থাকে।
+excerpt: >-
+  One reason I like Linux is that its parts can be followed. Behind a command, you can
+  trace processes, files, permissions, and network relationships. You do not need to
+  understand everything at once for the larger system to start opening up.
 editorial_batch: 20261003-100-niches
 ---
 
-লিনাক্সকে ভালো লাগার একটা কারণ আমার কাছে তার অংশগুলো অনুসরণ করা যায়। একটা কমান্ডের পেছনে প্রসেস, ফাইল, অনুমতি আর নেটওয়ার্কের সম্পর্ক দেখা সম্ভব। সব একসঙ্গে বোঝা লাগে না; একটা পথ ধরে এগোলেও বড় সিস্টেমের গঠন খুলতে থাকে।
+One reason I like Linux is that its parts can be followed. Behind a command, you can trace processes, files, permissions, and network relationships. You do not need to understand everything at once for the larger system to start opening up.
 
-ধরুন একটা সার্ভিস ফাইল পড়তে পারছে না। প্রশ্নটা তখন শুধু সফটওয়্যার কী না। কোন পরিচয়ে চলছে, ফাইল কোথায়, অনুমতি কী, মাউন্ট কীভাবে হয়েছে—এসব বাস্তব সম্পর্ক আসে। ছোট সমস্যা থেকে সিস্টেমের মানচিত্র তৈরি হয়।
+Suppose a service cannot read a file. The question quickly becomes more than *which program is broken?* Which identity is the process using? Where is the file? What are the permissions? How was the filesystem mounted? A small failure starts drawing a map of the system.
 
-এই শেখায় ভুলও তথ্য দেয়। তবে পরিবর্তনের আগে বর্তমান অবস্থা জানা আর ফেরার পথ রাখা দরকার। অন্ধভাবে অনেক পরিবর্তন করলে শেখার বদলে শুধু নতুন অবস্থা তৈরি হয়, যার কারণ জানা থাকে না।
+Mistakes can teach too, but only when the current state and the path back are understood. Making many blind changes at once creates a new state without preserving which action caused which result.
 
-আমার কাছে লিনাক্সের বিশালতা মানে সব কমান্ড মুখস্থ করা না। বরং কোনো ঘটনা থেকে তার প্রক্রিয়া পর্যন্ত যাওয়ার সুযোগ। সেই সুযোগই একটা কম্পিউটারকে বন্ধ বাক্সের বদলে অনুসন্ধানযোগ্য জগত বানায়।
+For me, the size of Linux does not mean memorizing every command. It means being able to follow an event down into the mechanism that produced it. That possibility turns the computer from a closed box into a world that can be investigated.
 
-সূত্র: [মূল রেফারেন্স](https://www.kernel.org/doc/html/latest/).
+Source: [official reference](https://www.kernel.org/doc/html/latest/).

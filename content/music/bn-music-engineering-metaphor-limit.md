@@ -1,8 +1,8 @@
 ---
-title: গানকে সিগন্যাল বললে কতটা বোঝা যায়
+title: How Far Does Calling Music a Signal Get Us?
 date: '2026-09-13'
 draft: false
-language: bn
+language: en
 url: /posts/bn-music-engineering-metaphor-limit.html
 topic: music-listening
 tags:
@@ -10,9 +10,10 @@ tags:
 - audio
 featured: false
 read_time: 2
-excerpt: অডিও ইঞ্জিনিয়ারিংয়ের ভাষায় গানকে সিগন্যাল হিসেবে দেখা যায়। স্যাম্পল, স্পেকট্রাম
-  আর ডায়নামিক রেঞ্জ নিয়ে প্রশ্ন করা সম্ভব। কিন্তু এই মাপ দিয়ে গানের সমস্ত অর্থ বা
-  ব্যক্তিগত মূল্য পাওয়া যায় না। একটা উপস্থাপন অন্য অভিজ্ঞতার বদলি না।
+excerpt: >-
+  In audio engineering, music can be represented as a signal. We can ask about samples,
+  spectra, and dynamic range. But those measurements cannot contain all of a song's meaning
+  or personal value. One representation is not a substitute for another experience.
 editorial_batch: 20261003-100-niches
 kind: research
 artist: ''
@@ -20,10 +21,10 @@ album: ''
 year: ''
 ---
 
-অডিও ইঞ্জিনিয়ারিংয়ের ভাষায় গানকে সিগন্যাল হিসেবে দেখা যায়। স্যাম্পল, স্পেকট্রাম আর ডায়নামিক রেঞ্জ নিয়ে প্রশ্ন করা সম্ভব। কিন্তু এই মাপ দিয়ে গানের সমস্ত অর্থ বা ব্যক্তিগত মূল্য পাওয়া যায় না। একটা উপস্থাপন অন্য অভিজ্ঞতার বদলি না।
+In audio engineering, music can be represented as a signal. We can ask about samples, spectra, and dynamic range. But those measurements cannot contain all of a song's meaning or personal value. One representation is not a substitute for another experience.
 
-একটা ওয়েভফর্মে নীরবতা আর ঘনত্ব দেখা যেতে পারে। কিন্তু ওই নীরবতা শ্রোতার কাছে বিরতি, অপেক্ষা না স্বস্তি—সেটা সরাসরি গ্রাফে লেখা থাকে না। মাপ আর ব্যাখ্যার সীমা আলাদা।
+A waveform can show silence, density, and change over time. It cannot directly tell us whether a silence feels like a pause, suspense, relief, or something else. The limits of measurement and the limits of interpretation are different.
 
-প্রযুক্তিগত বিশ্লেষণ তবু মূল্যবান। শব্দের নির্দিষ্ট বৈশিষ্ট্য নিয়ে কথা বলা যায়, অস্পষ্ট বিশেষণ ছোট করা যায়। কিন্তু সেই বৈশিষ্ট্যের অনুভূতিগত ফল নিয়ে দাবির সময় অনিশ্চয়তা রাখতে হয়।
+Technical analysis is still valuable. It lets us talk about specific properties of sound and replace some vague adjectives with observable features. But when we claim what those features *feel like*, uncertainty has to remain part of the argument.
 
-আমার কাছে ইঞ্জিনিয়ারিং আর গান একই জিনিস হয়ে যাওয়ার প্রয়োজন নেই। বরং তাদের সীমান্তে থাকা প্রশ্ন আকর্ষণীয়। মাপ কী দেখাচ্ছে আর শোনা কী যোগ করছে—দুইটা আলাদা রাখলেই সম্পর্কটা আরও পরিষ্কার হয়।
+I do not need engineering and music to become the same thing. The questions at their boundary are more interesting: what does the measurement reveal, and what does listening add? Keeping those two layers separate makes the relationship clearer.

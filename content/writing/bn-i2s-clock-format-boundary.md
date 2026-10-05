@@ -1,8 +1,8 @@
 ---
-title: আইটুএসে শব্দ না এলে প্রথমে ভাষাটা মিলিয়ে দেখুন
+title: If I2S Is Silent, Check the Format Contract First
 date: '2022-12-22'
 draft: false
-language: bn
+language: en
 url: /posts/bn-i2s-clock-format-boundary.html
 topic: embedded-audio-voice
 tags:
@@ -10,19 +10,19 @@ tags:
 - firmware
 featured: false
 read_time: 2
-excerpt: আইটুএস দিয়ে বাইট যাচ্ছে মানেই অডিও ডিভাইস সেই বাইটের অর্থ ঠিকভাবে বুঝছে না।
-  স্যাম্পলের আকার, চ্যানেলের বিন্যাস, ক্লকের সম্পর্ক আর ডেটার অবস্থান নিয়ে দুই পাশের
-  সম্মতি দরকার। নীরব স্পিকারে শুধু অ্যাম্প্লিফায়ারের সন্দেহ করলে এই চুক্তির ভুল এড়িয়ে
-  যেতে পারে।
+excerpt: >-
+  Bytes moving over I2S do not prove that both devices interpret those bytes the same way.
+  Sample width, channel layout, clock relationships, and data alignment all have to match.
+  A silent speaker is not automatically an amplifier problem.
 editorial_batch: 20261003-100-niches
 ---
 
-আইটুএস দিয়ে বাইট যাচ্ছে মানেই অডিও ডিভাইস সেই বাইটের অর্থ ঠিকভাবে বুঝছে না। স্যাম্পলের আকার, চ্যানেলের বিন্যাস, ক্লকের সম্পর্ক আর ডেটার অবস্থান নিয়ে দুই পাশের সম্মতি দরকার। নীরব স্পিকারে শুধু অ্যাম্প্লিফায়ারের সন্দেহ করলে এই চুক্তির ভুল এড়িয়ে যেতে পারে।
+Bytes moving over I2S do not prove that both devices interpret those bytes the same way. Sample width, channel layout, clock relationships, and data alignment all have to match. A silent speaker is not automatically an amplifier problem.
 
-ধরুন মেমোরিতে স্যাম্পল ঠিক আছে, কিন্তু ডিভাইস অন্য বিট বিন্যাস আশা করছে। তখন একই বাইট ভুল সংখ্যায় পড়া হতে পারে। সমস্যার লক্ষণ শব্দ না হওয়া, খুব দুর্বল হওয়া কিংবা বিকৃতি—বিভিন্ন রকম। তাই লক্ষণ দেখে সরাসরি একটা কারণ ধরে নেওয়া ঠিক না।
+Suppose the samples in memory are correct but the peripheral expects a different bit layout. The same bytes may then be interpreted as completely different values. The symptom may be silence, extremely low level, or distortion. Symptoms alone do not identify the cause.
 
-পরীক্ষার জন্য ছোট, জানা একটা সিগন্যাল ব্যবহার করা সুবিধাজনক। ইনপুট, মেমোরির স্যাম্পল আর আউটপুট আলাদা করে দেখলে কোন সীমান্তে অর্থ বদলেছে বোঝা যায়। বোর্ডের পিন আর বাস্তব হার্ডওয়্যারের সংযোগও যাচাইয়ের অংশ।
+A short, known test signal is useful here. Inspect the input, the samples in memory, and the output separately to find the boundary where meaning changes. Board pin assignment and the actual physical wiring belong to the same verification path.
 
-অডিওর পথকে একটা ভাষান্তর মনে করা যায়। মেমোরির সংখ্যা, সিরিয়াল ডেটা আর ভৌত শব্দ এক জিনিসের বিভিন্ন উপস্থাপন। কোন উপস্থাপন থেকে পরেরটায় যাওয়ার নিয়ম ভেঙেছে, সেটা খুঁজলেই অনুসন্ধান ছোট হয়।
+I think of the audio path as a sequence of translations. Numbers in memory, serialized data, and physical sound are different representations of the same intended signal. Debugging becomes smaller when we find which transition broke its interpretation.
 
-সূত্র: [মূল রেফারেন্স](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/i2s.html).
+Source: [official reference](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/i2s.html).

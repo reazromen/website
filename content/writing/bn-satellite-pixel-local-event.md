@@ -1,8 +1,8 @@
 ---
-title: স্যাটেলাইটের একটা পিক্সেল মাঠের একটা ঘটনা না
+title: A Satellite Pixel Is Not the Same Thing as a Local Event
 date: '2021-06-12'
 draft: false
-language: bn
+language: en
 url: /posts/bn-satellite-pixel-local-event.html
 topic: environmental-systems
 tags:
@@ -10,18 +10,19 @@ tags:
 - measurement
 featured: false
 read_time: 2
-excerpt: স্যাটেলাইটের মানচিত্রে একটা দাগ দেখে নির্দিষ্ট জায়গার ঘটনা মনে হতে পারে।
-  কিন্তু সেন্সরের রেজোলিউশন, পর্যবেক্ষণের সময় আর শনাক্তকরণের পদ্ধতি সেই দাগের অর্থ
-  নির্ধারণ করে। ম্যাপে সূক্ষ্মভাবে বসানো চিহ্ন মানেই মাপও সমান সূক্ষ্ম না।
+excerpt: >-
+  A marker on a satellite map can look like a precise local event, but sensor resolution,
+  observation time, and the detection method define what that marker actually means. A
+  precise-looking pin does not guarantee equally precise measurement.
 editorial_batch: 20261003-100-niches
 ---
 
-স্যাটেলাইটের মানচিত্রে একটা দাগ দেখে নির্দিষ্ট জায়গার ঘটনা মনে হতে পারে। কিন্তু সেন্সরের রেজোলিউশন, পর্যবেক্ষণের সময় আর শনাক্তকরণের পদ্ধতি সেই দাগের অর্থ নির্ধারণ করে। ম্যাপে সূক্ষ্মভাবে বসানো চিহ্ন মানেই মাপও সমান সূক্ষ্ম না।
+A marker on a satellite map can look like a precise local event, but sensor resolution, observation time, and the detection method define what that marker actually means. A precise-looking pin does not guarantee equally precise measurement.
 
-হটস্পটের খবর পাওয়া আর মাঠে আগুনের অবস্থা নিশ্চিত করা আলাদা কাজ। মেঘ, সময় আর সেন্সরের সীমা তথ্যকে প্রভাবিত করতে পারে। না দেখা মানে ঘটনা নেই, এমন সিদ্ধান্তও সবসময় আসে না।
+Receiving a hotspot detection and confirming fire conditions on the ground are different tasks. Clouds, observation timing, and sensor limitations can all affect the data. A missing detection does not always prove that no event exists.
 
-দাগের পাশে উৎস, সময় আর শনাক্তকরণের পরিচয় রাখা দরকার। মাঠের রিপোর্ট থাকলে আলাদা প্রমাণ হিসেবে যুক্ত করা যায়। দুই উৎস একে অন্যকে সাহায্য করে, কিন্তু একটার নাম দিয়ে অন্যটার নিশ্চয়তা দেওয়া উচিত না।
+The interface should preserve source, timestamp, and detection identity alongside the marker. If field reports exist, they can be added as separate evidence. The two sources can strengthen one another without pretending that one is the other.
 
-রিমোট সেন্সিংয়ের মূল্য আমার কাছে দূরের পরিবর্তন দেখার সুযোগে। সেই সুযোগকে বাস্তব কাজের সঙ্গে যুক্ত করতে হলে পিক্সেল থেকে ঘটনার দূরত্বটা সৎভাবে দেখাতে হবে।
+For me, the value of remote sensing is that it reveals change at a distance. To connect that ability to real decisions, the system should honestly preserve the distance between a pixel-level observation and a confirmed event on the ground.
 
-সূত্র: [মূল রেফারেন্স](https://www.earthdata.nasa.gov/data/tools/firms/faq).
+Source: [official reference](https://www.earthdata.nasa.gov/data/tools/firms/faq).

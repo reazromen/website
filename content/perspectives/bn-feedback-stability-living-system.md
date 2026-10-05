@@ -1,8 +1,8 @@
 ---
-title: ফিডব্যাক থাকলেই স্থিরতা আসে না
+title: Feedback Does Not Automatically Produce Stability
 date: '2025-01-18'
 draft: false
-language: bn
+language: en
 url: /posts/bn-feedback-stability-living-system.html
 topic: biology-systems
 tags:
@@ -10,18 +10,18 @@ tags:
 - feedback
 featured: false
 read_time: 2
-excerpt: কোনো ফলকে আবার ইনপুটের সিদ্ধান্তে ব্যবহার করাই ফিডব্যাকের একটা সাধারণ ভাবনা।
-  কিন্তু ফিডব্যাকের নাম থাকলেই সিস্টেম সুন্দরভাবে স্থির হবে না। প্রতিক্রিয়ার দিক,
-  শক্তি আর দেরি গুরুত্বপূর্ণ। নিয়ন্ত্রণের উপস্থিতি আর নিয়ন্ত্রণের সফলতা আলাদা।
+excerpt: >-
+  Feedback means using an outcome to influence future input, but the presence of a feedback
+  loop does not guarantee graceful stability. Direction, gain, and delay all matter.
 editorial_batch: 20261003-100-niches
 ---
 
-কোনো ফলকে আবার ইনপুটের সিদ্ধান্তে ব্যবহার করাই ফিডব্যাকের একটা সাধারণ ভাবনা। কিন্তু ফিডব্যাকের নাম থাকলেই সিস্টেম সুন্দরভাবে স্থির হবে না। প্রতিক্রিয়ার দিক, শক্তি আর দেরি গুরুত্বপূর্ণ। নিয়ন্ত্রণের উপস্থিতি আর নিয়ন্ত্রণের সফলতা আলাদা।
+Feedback means using an outcome to influence future input, but the presence of a feedback loop does not guarantee graceful stability. Direction, gain, and delay all matter. Having control is not the same as controlling successfully.
 
-একটা কল্পিত তাপমাত্রা নিয়ন্ত্রক ভাবুন। মাপ দেরিতে এলে নিয়ন্ত্রক পুরোনো অবস্থার জন্য বেশি কাজ করতে পারে। পরে উল্টো পরিবর্তন করে আবার বেশি প্রতিক্রিয়া দেখাতে পারে। ফলের দেরি সিদ্ধান্তকে দোলাতে পারে।
+Imagine a simple temperature controller whose measurement arrives late. It may continue correcting an old state for too long, then overcorrect in the opposite direction. Delay between action and observation can create oscillation.
 
-জীবন্ত সিস্টেমের ফিডব্যাককে একই সরল যন্ত্রের পূর্ণ সমান বলা যায় না। সেখানে অনেক প্রক্রিয়া একসঙ্গে চলে। তবে দেরি আর সম্পর্কের প্রশ্ন দিয়ে ভাবা কাজে লাগে। কোন স্তরের ব্যাখ্যা করছি সে সীমা রাখতে হবে।
+Living systems should not be treated as identical to one simple engineered controller. Many interacting processes operate at once. Still, questions about delay and feedback relationships can be useful as long as the level of the analogy stays explicit.
 
-আমি স্থিরতাকে স্থির বসে থাকা হিসেবে দেখতে চাই না। অনেক সিস্টেমে ছোট ছোট পরিবর্তনের মধ্যেই সীমা রাখা হয়। দৃশ্যমান শান্ত অবস্থার পেছনে নিয়মিত কাজ থাকতে পারে—এই ভাবনাটা ফিডব্যাককে আকর্ষণীয় করে।
+I do not think stability always means sitting perfectly still. Many systems remain within a useful range through continuous small adjustments. The apparent calm can depend on constant activity underneath, and that is part of what makes feedback so interesting.
 
-সূত্র: [মূল রেফারেন্স](https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology).
+Source: [official reference](https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology).

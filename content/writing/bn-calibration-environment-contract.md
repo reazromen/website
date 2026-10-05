@@ -1,8 +1,8 @@
 ---
-title: ক্যালিব্রেশন একটা সংখ্যা না, পরিবেশের সঙ্গে চুক্তি
+title: Calibration Is Not a Number; It Is a Contract With an Environment
 date: '2025-07-01'
 draft: false
-language: bn
+language: en
 url: /posts/bn-calibration-environment-contract.html
 topic: radio-iot
 tags:
@@ -10,19 +10,19 @@ tags:
 - calibration
 featured: false
 read_time: 2
-excerpt: সেন্সরের ক্যালিব্রেশন মান ঠিক করলেই ভবিষ্যতের সব ডেটা ঠিক হবে—এমন আশা করা
-  যায় না। কোন পরিবেশে, কোন রেফারেন্স দিয়ে, কোন সীমার মধ্যে সেই মান তৈরি হয়েছে তা গুরুত্বপূর্ণ।
-  ক্যালিব্রেশন একটা মাপকে অর্থ দেওয়ার নিয়ম। সেই নিয়মের শর্ত হারালে সংখ্যাটাও বিশ্বাস
-  হারায়।
+excerpt: >-
+  Setting a calibration value does not guarantee that every future measurement will remain
+  correct. The environment, reference, and operating range in which that value was created
+  are part of its meaning. Calibration is a rule for interpreting a measurement.
 editorial_batch: 20261003-100-niches
 ---
 
-সেন্সরের ক্যালিব্রেশন মান ঠিক করলেই ভবিষ্যতের সব ডেটা ঠিক হবে—এমন আশা করা যায় না। কোন পরিবেশে, কোন রেফারেন্স দিয়ে, কোন সীমার মধ্যে সেই মান তৈরি হয়েছে তা গুরুত্বপূর্ণ। ক্যালিব্রেশন একটা মাপকে অর্থ দেওয়ার নিয়ম। সেই নিয়মের শর্ত হারালে সংখ্যাটাও বিশ্বাস হারায়।
+Setting a calibration value does not guarantee that every future measurement will remain correct. The environment, reference, and operating range in which that value was created are part of its meaning. Calibration is a rule for interpreting a measurement. If the conditions behind that rule disappear, confidence in the number should fall too.
 
-ধরুন একটা ডিভাইস নির্দিষ্ট অবস্থায় একটা থ্রেশহোল্ড শিখল। পরে তার অবস্থান, বিদ্যুতের সরবরাহ বা পরিবেশ বদলাল। একই থ্রেশহোল্ড তখন একই ঘটনা বোঝাবে কি না পরীক্ষা করা দরকার। নতুন পরিবেশে পুরোনো মানের ব্যবহার স্বয়ংক্রিয় নিশ্চয়তা না।
+Suppose a device learns a threshold in one physical setup. Later its placement, power supply, or surrounding environment changes. The same threshold may no longer represent the same event, and that has to be tested rather than assumed.
 
-ইন্টারফেসে তাই ক্যালিব্রেশনের সময় আর অবস্থা রাখার মূল্য আছে। শুধু সফল লেখা না; কোন রেফারেন্স ব্যবহার হয়েছে, কতটা পরিবর্তন গ্রহণযোগ্য, আবার কখন পরীক্ষা দরকার—এসব ব্যবহারকারীর সিদ্ধান্তে সাহায্য করে।
+That is why an interface can benefit from recording when and under what conditions calibration happened. A successful write is not enough. Which reference was used? How much change is acceptable? When should calibration be checked again? Those details help someone make a better operational decision.
 
-আমি সেন্সরের সংখ্যার পাশে তার শর্ত দেখতে পছন্দ করি। এতে সংখ্যাটাকে ছোট করা হয় না, বরং তার দাবি পরিষ্কার হয়। মাপের মান যতটা সেন্সরের ক্ষমতা, ততটাই সেই মাপের প্রসঙ্গ সংরক্ষণের ওপর দাঁড়িয়ে থাকে।
+I prefer sensor values to travel with their conditions. That does not weaken the measurement; it makes the claim precise. The quality of a measurement depends not only on the sensor but also on preserving the context in which the measurement became meaningful.
 
-সূত্র: [মূল রেফারেন্স](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/adc_calibration.html).
+Source: [official reference](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/adc_calibration.html).

@@ -1,8 +1,8 @@
 ---
-title: নদীর ডিসচার্জ আর পানির উচ্চতা এক না
+title: River Discharge and Water Level Are Not the Same Measurement
 date: '2023-11-15'
 draft: false
-language: bn
+language: en
 url: /posts/bn-river-discharge-water-level.html
 topic: environmental-systems
 tags:
@@ -10,18 +10,19 @@ tags:
 - measurement
 featured: false
 read_time: 2
-excerpt: নদীর পাশে বসবাসকারী মানুষ সাধারণত জানতে চান পানি কোথায় উঠবে। কিন্তু একটা
-  মডেল কখনো পানির প্রবাহের পরিমাণ দেখায়। প্রবাহ আর পানির উচ্চতা সম্পর্কিত হলেও এক
-  সংখ্যা দিয়ে অন্যটা সরাসরি জানা যায় না। নদীর আকার আর স্থানীয় অবস্থার ভূমিকা আছে।
+excerpt: >-
+  People living near a river usually want to know how high the water may rise. A model
+  may instead provide discharge. Flow and water level are related, but one cannot be read
+  directly from the other without local river geometry and conditions.
 editorial_batch: 20261003-100-niches
 ---
 
-নদীর পাশে বসবাসকারী মানুষ সাধারণত জানতে চান পানি কোথায় উঠবে। কিন্তু একটা মডেল কখনো পানির প্রবাহের পরিমাণ দেখায়। প্রবাহ আর পানির উচ্চতা সম্পর্কিত হলেও এক সংখ্যা দিয়ে অন্যটা সরাসরি জানা যায় না। নদীর আকার আর স্থানীয় অবস্থার ভূমিকা আছে।
+People living near a river usually want to know how high the water may rise. A model may instead provide discharge. Flow and water level are related, but one cannot be read directly from the other without local river geometry and conditions.
 
-ডিসচার্জের একক আর উচ্চতার একক আলাদা। প্যানেলের শিরোনামে শুধু নদীর অবস্থা লিখলে দুই ধরনের তথ্য মিশে যেতে পারে। কোন মাপ দেখা হচ্ছে সেটা অক্ষ আর লেবেলে স্পষ্ট থাকা দরকার।
+Discharge and stage even use different units. If a dashboard labels both vaguely as *river condition*, the distinction disappears. The axis and label should state which quantity is actually being shown.
 
-মডেলের গ্রিডে নদীর অনুমান আর কোনো গেজের মাপ পাশাপাশি দিলে তাদের অবস্থানও দেখাতে হবে। কাছাকাছি মনে হওয়া পয়েন্ট বাস্তবে একই নদীর অংশ নাও বোঝাতে পারে। স্থানীয় যাচাই ছাড়া বাড়ির সামনে পানির উচ্চতার নিশ্চয়তা দেওয়া ঠিক না।
+When a modeled river grid point is displayed beside a gauge observation, the locations matter too. Two points that look nearby on a map may not represent the same part of the river system. Without local validation, a model value should not be presented as a guaranteed water level in front of someone's home.
 
-আমি নদীর ডেটায় সংখ্যা থেকে সিদ্ধান্তের দূরত্বটা দেখাতে চাই। প্রবাহের পরিবর্তন সতর্কতার কাজে লাগতে পারে, কিন্তু তা মানুষের অবস্থানের পূর্ণ ঝুঁকিমাপ না। কোন সম্পর্ক এখনও অজানা সেটা রাখা জরুরি।
+I want river data products to show the distance between a number and the decision people may make from it. A change in discharge can be useful warning information, but it is not a complete local risk measurement. The unknown relationships need to stay visible.
 
-সূত্র: [মূল রেফারেন্স](https://global-flood.emergency.copernicus.eu/).
+Source: [official reference](https://global-flood.emergency.copernicus.eu/).

@@ -1,8 +1,8 @@
 ---
-title: দেখতে একই প্যাটার্ন মানেই একই প্রক্রিয়া না
+title: Similar Patterns Do Not Prove the Same Process
 date: '2023-09-05'
 draft: false
-language: bn
+language: en
 url: /posts/bn-scale-similarity-not-same-system.html
 topic: geometry-information
 tags:
@@ -10,18 +10,19 @@ tags:
 - evidence
 featured: false
 read_time: 2
-excerpt: ছোট আর বড় স্কেলে একই ধরনের প্যাটার্ন দেখলে আমাদের মধ্যে সম্পর্ক খোঁজার ইচ্ছা
-  হয়। এই ইচ্ছা অনুসন্ধানের ভালো শুরু। কিন্তু দেখতে মিল থাকলেই একই প্রক্রিয়া কাজ করছে
-  বলা যায় না। গঠনের মিল আর কারণের মিল আলাদা প্রমাণ চায়।
+excerpt: >-
+  When similar patterns appear at very different scales, we naturally look for a connection.
+  That instinct can begin an investigation, but visual similarity does not prove that the
+  same mechanism produced both structures.
 editorial_batch: 20261003-100-niches
 ---
 
-ছোট আর বড় স্কেলে একই ধরনের প্যাটার্ন দেখলে আমাদের মধ্যে সম্পর্ক খোঁজার ইচ্ছা হয়। এই ইচ্ছা অনুসন্ধানের ভালো শুরু। কিন্তু দেখতে মিল থাকলেই একই প্রক্রিয়া কাজ করছে বলা যায় না। গঠনের মিল আর কারণের মিল আলাদা প্রমাণ চায়।
+When similar patterns appear at very different scales, we naturally look for a connection. That instinct can begin an investigation, but visual similarity does not prove that the same mechanism produced both structures. Structural resemblance and causal resemblance require different evidence.
 
-নদীর শাখা আর কোনো নেটওয়ার্কের আঁকা ছবি দেখতে কাছাকাছি হতে পারে। কিন্তু একটায় ভৌত প্রবাহের সম্পর্ক, অন্যটায় নকশা বা যোগাযোগের নিয়ম থাকতে পারে। ছবি দিয়ে সম্ভাব্য প্রশ্ন পাওয়া যায়, পূর্ণ ব্যাখ্যা না।
+A branching river and a drawn network topology can look surprisingly similar. One may be shaped by physical flow while the other is shaped by design rules or communication requirements. The image can suggest a question, but it cannot supply the full explanation.
 
-তুলনায় কোন বৈশিষ্ট্য মেলাচ্ছেন লিখুন। শাখার সংখ্যা, দূরত্ব, বৃদ্ধি না সংযোগ? এরপর সেই মাপ দুই ক্ষেত্রেই একই অর্থে নেওয়া যায় কি না দেখুন।
+A comparison becomes stronger when the matched feature is named. Are we comparing branch count, distance, growth, connectivity, or something else? Then we can ask whether that measurement has the same meaning in both domains.
 
-আমি প্যাটার্নকে প্রমাণের বদলি বানাতে চাই না। সে কৌতূহলের সংকেত। সংকেত থেকে প্রক্রিয়া পর্যন্ত যেতে হলে মাপ, পরীক্ষা আর সীমা দরকার। মুগ্ধতা তখন অনুসন্ধানে পরিণত হয়।
+I do not want pattern recognition to become a substitute for evidence. A pattern is a signal for curiosity. Moving from the signal to a mechanism requires measurement, testing, and limits. That is where fascination becomes investigation.
 
-সূত্র: [মূল রেফারেন্স](https://openstax.org/books/calculus-volume-3/pages/2-introduction).
+Source: [official reference](https://openstax.org/books/calculus-volume-3/pages/2-introduction).

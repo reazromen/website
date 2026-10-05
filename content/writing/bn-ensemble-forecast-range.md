@@ -1,8 +1,8 @@
 ---
-title: পূর্বাভাসের একটা সংখ্যার বদলে সম্ভাবনার পরিসর
+title: A Forecast Should Show a Range of Possibilities, Not Just One Number
 date: '2024-01-26'
 draft: false
-language: bn
+language: en
 url: /posts/bn-ensemble-forecast-range.html
 topic: environmental-systems
 tags:
@@ -10,18 +10,19 @@ tags:
 - uncertainty
 featured: false
 read_time: 2
-excerpt: আগামী দিনের আবহাওয়াকে একটা নির্দিষ্ট সংখ্যা হিসেবে দেখানো সহজ। কিন্তু পূর্বাভাসের
-  মধ্যে অনিশ্চয়তা থাকে। এনসেম্বলের একাধিক সদস্য সম্ভাব্য ফলের পরিসর দেখতে সাহায্য
-  করে। সেই পরিসর শুধু সাজানোর জন্য না; সিদ্ধান্তের প্রসঙ্গ।
+excerpt: >-
+  It is easy to present tomorrow's weather as one precise number, but forecasts contain
+  uncertainty. Multiple ensemble members help reveal a range of possible outcomes. That
+  range is not decoration; it is part of the decision context.
 editorial_batch: 20261003-100-niches
 ---
 
-আগামী দিনের আবহাওয়াকে একটা নির্দিষ্ট সংখ্যা হিসেবে দেখানো সহজ। কিন্তু পূর্বাভাসের মধ্যে অনিশ্চয়তা থাকে। এনসেম্বলের একাধিক সদস্য সম্ভাব্য ফলের পরিসর দেখতে সাহায্য করে। সেই পরিসর শুধু সাজানোর জন্য না; সিদ্ধান্তের প্রসঙ্গ।
+It is easy to present tomorrow's weather as one precise number, but forecasts contain uncertainty. Multiple ensemble members help reveal a range of possible outcomes. That range is not decoration; it is part of the decision context.
 
-ধরুন দুই পরিস্থিতিতে গড় বৃষ্টি একই। একটায় সদস্যগুলোর অনুমান কাছাকাছি, অন্যটায় অনেক ছড়িয়ে। গড় একই হলেও সিদ্ধান্তের নিশ্চয়তা এক নয়। তবে ছড়িয়ে পড়াকেও পুরো অনিশ্চয়তার নিখুঁত পরিমাপ ভাবা ঠিক না।
+Imagine two forecasts with the same average rainfall. In one, the ensemble members cluster tightly. In the other, they spread widely. The averages are identical, but confidence in the decision should not be. At the same time, ensemble spread should not be treated as a perfect measurement of every form of uncertainty.
 
-ইন্টারফেসে ব্যবহারকারী কী সিদ্ধান্ত নেবেন সেটা গুরুত্বপূর্ণ। কাজ পিছিয়ে দেওয়া, প্রস্তুতি রাখা বা আরও তথ্য দেখা—বিভিন্ন সিদ্ধান্তে অনিশ্চয়তার দাম আলাদা। শুধু সম্ভাবনা দেখিয়ে তার সময় আর অবস্থান বাদ দিলে ব্যবহার কঠিন হয়।
+The useful interface depends on the decision being made. Delaying work, preparing resources, or waiting for more information carry different costs, so uncertainty matters differently in each case. A probability without time and location context can still be difficult to act on.
 
-আমার কাছে ভালো পূর্বাভাস সেইটা, যেটা নিশ্চিত হওয়ার ভান কম করে। পরিসর দেখানো মানে দায়িত্ব এড়িয়ে যাওয়া না। বরং জানা তথ্যের শক্তি আর সীমাকে একই জায়গায় রাখা।
+I prefer forecasts that make fewer claims of certainty than the evidence supports. Showing a range is not avoiding responsibility. It is placing the strength and the limits of the available information in the same view.
 
-সূত্র: [মূল রেফারেন্স](https://open-meteo.com/en/docs/ensemble-api).
+Source: [official reference](https://open-meteo.com/en/docs/ensemble-api).

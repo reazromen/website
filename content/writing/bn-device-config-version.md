@@ -1,8 +1,8 @@
 ---
-title: ফার্মওয়্যারের ভার্সন আছে, কনফিগেরও দরকার
+title: Firmware Has a Version; Configuration Needs One Too
 date: '2024-12-07'
 draft: false
-language: bn
+language: en
 url: /posts/bn-device-config-version.html
 topic: firmware-release-engineering
 tags:
@@ -10,18 +10,19 @@ tags:
 - configuration
 featured: false
 read_time: 2
-excerpt: ডিভাইসের ফার্মওয়্যার বদলালেও পুরোনো কনফিগ থেকে যেতে পারে। নতুন কোড সেই পুরোনো
-  ডেটাকে অন্য অর্থে পড়লে আপডেটের পর আচরণ বদলে যায়। তখন একই ফার্মওয়্যার থাকা দুই ডিভাইসও
-  একভাবে কাজ নাও করতে পারে। কারণ তাদের সংরক্ষিত ইতিহাস এক না।
+excerpt: >-
+  A device can receive new firmware while keeping old configuration. If new code reads
+  that stored data with a different meaning, behavior can change after the update. Two
+  devices on the same firmware may then behave differently because their stored history differs.
 editorial_batch: 20261003-100-niches
 ---
 
-ডিভাইসের ফার্মওয়্যার বদলালেও পুরোনো কনফিগ থেকে যেতে পারে। নতুন কোড সেই পুরোনো ডেটাকে অন্য অর্থে পড়লে আপডেটের পর আচরণ বদলে যায়। তখন একই ফার্মওয়্যার থাকা দুই ডিভাইসও একভাবে কাজ নাও করতে পারে। কারণ তাদের সংরক্ষিত ইতিহাস এক না।
+A device can receive new firmware while keeping old configuration. If new code reads that stored data with a different meaning, behavior can change after the update. Two devices on the same firmware may then behave differently because their stored history differs.
 
-একটা সেটিং আগে সংখ্যা ছিল, পরে কয়েকটা মানের তালিকা হলো ভাবুন। শুধু নতুন ফার্মওয়্যার ফ্ল্যাশ করলেই পুরোনো মান নতুন কাঠামোয় পরিণত হয় না। কনফিগের স্কিমা ভার্সন আর মাইগ্রেশনের নিয়ম থাকলে সফটওয়্যার বুঝতে পারে কী পড়ছে।
+Imagine a setting that used to be a number and later becomes an enum. Flashing new firmware does not automatically transform the old value into the new structure. A configuration schema version and migration rules let the software know what it is actually reading.
 
-মাইগ্রেশনের সময় ব্যর্থ হলে কী হবে সেটাও দরকার। কিছু ডেটা বদলে বাকিটা পুরোনো রেখে দিলে পরের বুটে অস্পষ্ট অবস্থা তৈরি হতে পারে। আগে নতুন ডেটা প্রস্তুত, তারপর গ্রহণ—এই ধরনের স্পষ্ট ধাপ কাজে দেয়। ঠিক কৌশল স্টোরেজ আর পণ্যের সীমার ওপর নির্ভর করে।
+Migration failure also needs a defined outcome. If half the data is rewritten while the rest stays in the old format, the next boot can enter an ambiguous state. Preparing the new state first and then committing it is one useful pattern, although the exact strategy depends on storage and product constraints.
 
-ডিবাগ রিপোর্টে তাই শুধু বিল্ড নাম না, কনফিগের ভার্সনও রাখা দরকার। রিলিজ আসলে কোড আর ডেটার একটা সম্পর্ক। কোডের ইতিহাস রাখলেও ডেটার অর্থের ইতিহাস হারালে পুনরায় একই আচরণ তৈরি করা কঠিন হয়।
+Debug reports should therefore include configuration version as well as build identity. A release is a relationship between code and data. Keeping code history while losing the history of what stored data means makes behavior difficult to reproduce.
 
-সূত্র: [মূল রেফারেন্স](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/storage/nvs_flash.html).
+Source: [official reference](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/storage/nvs_flash.html).

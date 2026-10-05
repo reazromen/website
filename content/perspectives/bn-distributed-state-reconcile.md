@@ -1,8 +1,8 @@
 ---
-title: 'রিকনসাইল: ইচ্ছা আর বাস্তবতার মধ্যে বারবার ফিরে যাওয়া'
+title: "Reconcile: Returning Again and Again to the Gap Between Intent and Reality"
 date: '2026-04-05'
 draft: false
-language: bn
+language: en
 url: /posts/bn-distributed-state-reconcile.html
 topic: production-engineering
 tags:
@@ -10,18 +10,19 @@ tags:
 - distributed-systems
 featured: false
 read_time: 2
-excerpt: কোনো সিস্টেমকে বললাম কী অবস্থা চাই, আর সে সঙ্গে সঙ্গে সেখানে পৌঁছে গেল—বাস্তবতা
-  সাধারণত এত পরিষ্কার না। পথে ব্যর্থতা, দেরি আর পরিবর্তন থাকে। রিকনসাইল ধারণাটা আমার
-  কাছে আকর্ষণীয় কারণ সে একবারের আদেশের বদলে নিয়মিত সম্পর্ক যাচাই করে।
+excerpt: >-
+  We can declare a desired state, but real systems rarely arrive there instantly. Failure,
+  delay, and change exist along the path. Reconciliation is interesting because it checks
+  the relationship repeatedly instead of trusting a one-time command.
 editorial_batch: 20261003-100-niches
 ---
 
-কোনো সিস্টেমকে বললাম কী অবস্থা চাই, আর সে সঙ্গে সঙ্গে সেখানে পৌঁছে গেল—বাস্তবতা সাধারণত এত পরিষ্কার না। পথে ব্যর্থতা, দেরি আর পরিবর্তন থাকে। রিকনসাইল ধারণাটা আমার কাছে আকর্ষণীয় কারণ সে একবারের আদেশের বদলে নিয়মিত সম্পর্ক যাচাই করে।
+We can declare a desired state, but real systems rarely arrive there instantly. Failure, delay, and change exist along the path. Reconciliation is interesting because it checks the relationship repeatedly instead of trusting a one-time command.
 
-কাঙ্ক্ষিত অবস্থা একদিকে, পর্যবেক্ষিত অবস্থা আরেকদিকে। পার্থক্য থাকলে ব্যবস্থা পরিবর্তন করার চেষ্টা করে, তারপর আবার দেখে। এতে সফলতার দাবি শুধু কমান্ড পাঠানোতে আটকে থাকে না। ফলের দিকে ফিরে আসা নিয়মের অংশ হয়।
+Desired state sits on one side and observed state on the other. When they differ, the controller tries to change reality and then observes again. Success is no longer defined only by sending a command; returning to the resulting state becomes part of the loop.
 
-তবে পর্যবেক্ষণ পুরোনো বা ভুল হলে সিদ্ধান্তও ভুল হতে পারে। তাই খবরের বয়স আর কাজের পরিচয় গুরুত্বপূর্ণ। একই কাজ নিরাপদে পুনরায় চেষ্টা করা যাবে কি না সেটিও রিকনসাইলের ব্যবহারযোগ্যতা নির্ধারণ করে।
+Observation can itself be stale or wrong, so freshness and operation identity matter. Whether an action can be retried safely also affects how useful reconciliation can be.
 
-এই ভাবনাকে জীবন বা প্রকৃতির সব ঘটনার সরাসরি সমান বলা ঠিক না। সফটওয়্যারে এর নির্দিষ্ট নিয়ম আছে। কিন্তু ইচ্ছা আর ফলের মাঝের দূরত্বকে মেনে নেওয়ার শিক্ষা হিসেবে ধারণাটা আমার কাছে মূল্যবান।
+I would not claim that this software pattern maps directly onto every process in life or nature. It has a specific engineering meaning. But as a way of accepting the distance between intention and outcome, the concept is valuable to me.
 
-সূত্র: [মূল রেফারেন্স](https://kubernetes.io/docs/concepts/architecture/controller/).
+Source: [official reference](https://kubernetes.io/docs/concepts/architecture/controller/).

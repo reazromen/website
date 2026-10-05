@@ -1,8 +1,8 @@
 ---
-title: মেশ নেটওয়ার্কে আরেকটা হপের দাম
+title: The Hidden Cost of One More Hop in a Mesh Network
 date: '2025-04-10'
 draft: false
-language: bn
+language: en
 url: /posts/bn-mesh-hop-hidden-cost.html
 topic: lora-reticulum
 tags:
@@ -10,18 +10,19 @@ tags:
 - latency
 featured: false
 read_time: 2
-excerpt: মেশ নেটওয়ার্কে আরেকটা পথ পাওয়া ভালো খবর। কিন্তু সেই পথে আরেকটা হপ থাকলে বার্তাকে
-  আরেক জায়গায় অপেক্ষা করতে হয়। রিসিভ, প্রসেস আর আবার পাঠানো—সবই সময় ও রিসোর্স নেয়।
-  বেশি সংযোগের ছবি দেখে বিনা খরচে বেশি ক্যাপাসিটি পাওয়া গেছে ভাবা ঠিক না।
+excerpt: >-
+  An additional route in a mesh is useful, but every extra hop makes the message wait at
+  another point. Receiving, processing, and retransmitting all consume time and resources.
+  More links do not create free capacity.
 editorial_batch: 20261003-100-niches
 ---
 
-মেশ নেটওয়ার্কে আরেকটা পথ পাওয়া ভালো খবর। কিন্তু সেই পথে আরেকটা হপ থাকলে বার্তাকে আরেক জায়গায় অপেক্ষা করতে হয়। রিসিভ, প্রসেস আর আবার পাঠানো—সবই সময় ও রিসোর্স নেয়। বেশি সংযোগের ছবি দেখে বিনা খরচে বেশি ক্যাপাসিটি পাওয়া গেছে ভাবা ঠিক না।
+An additional route in a mesh is useful, but every extra hop makes the message wait at another point. Receiving, processing, and retransmitting all consume time and resources. More links on a topology diagram do not create free capacity.
 
-কম ব্যান্ডউইডথের একটা নেটওয়ার্কে একই বার্তা কয়েক ধাপ পার হলে প্রতিটা ধাপ তার অংশের সময় নেয়। অন্য বার্তাও একই রেডিও সময় চাইতে পারে। ফলে শেষ ডিভাইসের অভিজ্ঞতা শুধু নিজের লিংকের মান দিয়ে ব্যাখ্যা হয় না। মাঝের পথের চাপও আসে।
+On a low-bandwidth network, a message that crosses several hops consumes airtime at each stage. Other messages may be competing for the same radio time. The final device's experience therefore depends on more than the quality of its own link; congestion along the path matters too.
 
-পরীক্ষায় শুধু পৌঁছেছে কি না নয়, পৌঁছাতে কত সময় আর কত চেষ্টা লেগেছে দেখতে হবে। পথ বদলালে সেই মাপও বদলাতে পারে। ব্যর্থতার পরে বিকল্প পথ পাওয়া আর বিকল্প পথে আগের মতো কাজ পাওয়া দুইটা আলাদা দাবি।
+Testing should record not only whether the message arrived, but how long it took and how many attempts were required. A route change can change those numbers. Having an alternate path after failure and getting the same performance over that path are two different claims.
 
-মেশ আমার কাছে স্বাধীন পথ তৈরির আকর্ষণীয় ধারণা। কিন্তু স্বাধীনতার সঙ্গে সম্পদের হিসাবও থাকে। হপের দাম স্পষ্ট করলে কোন বার্তা জরুরি, কোনটা পরে যেতে পারে, আর কোথায় নতুন লিংক দরকার—সিদ্ধান্তগুলো বাস্তব হয়।
+Mesh networking is attractive because it creates alternative paths, but those paths still have a resource cost. Making hop cost visible helps decide which traffic is urgent, which can wait, and where a new link would actually help.
 
-সূত্র: [মূল রেফারেন্স](https://reticulum.network/manual/understanding.html).
+Source: [official reference](https://reticulum.network/manual/understanding.html).

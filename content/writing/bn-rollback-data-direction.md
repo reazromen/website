@@ -1,8 +1,8 @@
 ---
-title: পুরোনো কোডে ফেরা আর পুরোনো ডেটায় ফেরা
+title: Rolling Back Code Is Not the Same as Rolling Back Data
 date: '2020-11-03'
 draft: false
-language: bn
+language: en
 url: /posts/bn-rollback-data-direction.html
 topic: disaster-recovery
 tags:
@@ -10,18 +10,19 @@ tags:
 - deployment
 featured: false
 read_time: 2
-excerpt: রোলব্যাক শুনলে পুরোনো রিলিজ ফিরিয়ে দেওয়া মনে হয়। কিন্তু নতুন কোড ডেটার কাঠামো
-  বদলে থাকলে পুরোনো কোড সেই ডেটা পড়তে পারবে কি না আলাদা প্রশ্ন। কোডের সময় আর ডেটার
-  সময় সবসময় একই দিকে সহজে ফেরে না।
+excerpt: >-
+  Rollback usually sounds like restoring an older release. But if the new code changed
+  the structure or meaning of data, whether the old code can still read that data is a
+  separate question.
 editorial_batch: 20261003-100-niches
 ---
 
-রোলব্যাক শুনলে পুরোনো রিলিজ ফিরিয়ে দেওয়া মনে হয়। কিন্তু নতুন কোড ডেটার কাঠামো বদলে থাকলে পুরোনো কোড সেই ডেটা পড়তে পারবে কি না আলাদা প্রশ্ন। কোডের সময় আর ডেটার সময় সবসময় একই দিকে সহজে ফেরে না।
+Rollback usually sounds like restoring an older release. But if the new code changed the structure or meaning of data, whether the old code can still read that data is a separate question. Code can move backward more easily than data semantics.
 
-ধরুন নতুন রিলিজে একটা ফিল্ডের অর্থ বদলেছে। পুরোনো বাইনারি চালালেই সেই মান পুরোনো অর্থে ফিরে যায় না। তাই রিলিজের আগে পরিবর্তন পুরোনো পাঠকের জন্য গ্রহণযোগ্য কি না ভাবতে হয়।
+Suppose a new release changes the meaning of a field. Starting the old binary does not magically restore the old meaning of the stored value. Before release, it is worth asking whether the change remains readable by older software.
 
-কিছু পরিবর্তন ধাপে করা যায়: আগে দুই কাঠামো পড়া, পরে নতুনটা লেখা, শেষে পুরোনোটা সরানো। ঠিক পদ্ধতি অ্যাপ্লিকেশনের প্রয়োজন অনুযায়ী বদলায়। গুরুত্বপূর্ণ হচ্ছে ফেরার পথে কোন ডেটা হারাবে বা কীভাবে ভুল পড়া হবে জানা।
+Some migrations can be staged: first read both formats, then begin writing the new one, and only later remove the old path. The correct method depends on the application. What matters is knowing what data could be lost or misread on the way back.
 
-রোলব্যাক পরিকল্পনায় আমি শুধু ফাইলের তালিকা দেখতে চাই না। ডেটার অর্থ, কনফিগ আর বাইরের সম্পর্কও দেখতে চাই। যে পরিবর্তন সহজে ফেরানো যায় না, তাকে সহজ রোলব্যাকের ভাষায় ঢেকে রাখা উচিত না।
+A rollback plan should include more than a list of executable files. Data meaning, configuration, and external relationships belong in it too. A change that is difficult to reverse should not be hidden behind the language of an easy rollback.
 
-সূত্র: [মূল রেফারেন্স](https://www.postgresql.org/docs/current/backup.html).
+Source: [official reference](https://www.postgresql.org/docs/current/backup.html).

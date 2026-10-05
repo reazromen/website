@@ -1,8 +1,8 @@
 ---
-title: এরর আমাদের লুকানো অনুমান দেখায়
+title: Errors Reveal the Assumptions We Forgot We Made
 date: '2026-02-28'
 draft: false
-language: bn
+language: en
 url: /posts/bn-error-assumption-revealed.html
 topic: engineering-notes
 tags:
@@ -10,16 +10,16 @@ tags:
 - learning
 featured: false
 read_time: 2
-excerpt: একটা এরর শুধু কাজ থামায় না। কখনো সে দেখায় আমরা কোন শর্ত সত্য ধরে নিয়েছিলাম।
-  ফাইল থাকবে, নেটওয়ার্ক থাকবে, উত্তর সময়মতো আসবে—এই অনুমানগুলো সাধারণ পথে অদৃশ্য থাকে।
-  ব্যর্থতায় তাদের চেহারা পাওয়া যায়।
+excerpt: >-
+  An error does more than stop work. It can reveal a condition we silently assumed would
+  always be true: the file exists, the network is reachable, the response arrives on time.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা এরর শুধু কাজ থামায় না। কখনো সে দেখায় আমরা কোন শর্ত সত্য ধরে নিয়েছিলাম। ফাইল থাকবে, নেটওয়ার্ক থাকবে, উত্তর সময়মতো আসবে—এই অনুমানগুলো সাধারণ পথে অদৃশ্য থাকে। ব্যর্থতায় তাদের চেহারা পাওয়া যায়।
+An error does more than stop work. It can reveal a condition we silently assumed would always be true: the file exists, the network is reachable, the response arrives on time. Those assumptions stay invisible on the happy path and become visible under failure.
 
-ধরুন একটা কনফিগ মান নেই। কোড যেখানে ব্যবহার করছে সেখানে ব্যর্থতা দেখা গেল। কিন্তু প্রশ্ন শুধু ওই লাইন না; মানটি বাধ্যতামূলক ছিল কি না এবং আগে যাচাই করার জায়গা কোথায় ছিল তা দেখা দরকার।
+Suppose a required configuration value is missing. The code fails where it tries to use the value, but the useful question is larger than that line: was the value truly mandatory, and where should that requirement have been validated?
 
-এরর লুকিয়ে দেওয়া আর এরর সামলানো আলাদা। খালি ফল দিয়ে কাজ চালালে পরের স্তরে আরও অস্পষ্ট ব্যর্থতা হতে পারে। কী জানা নেই আর কেন কাজ থামছে বললে অনুসন্ধান সহজ হয়।
+Hiding an error and handling an error are different things. Replacing failure with an empty result can move the problem into a later and more ambiguous layer. Saying what is unknown and why execution stopped usually makes investigation easier.
 
-আমি ডিবাগিংয়ে ব্যর্থতাকে একটা প্রশ্নের দরজা ভাবতে চাই। কী ভেঙেছে তার সঙ্গে কোন প্রত্যাশা ভেঙেছে সেটাও দেখি। সেই প্রত্যাশা সংশোধন করলে একই ঘটনা থেকে নকশার শিক্ষা পাওয়া যায়।
+I like to treat debugging as a doorway into assumptions. I ask not only what broke, but which expectation broke. Correcting that expectation turns one failure into a lesson about the design.

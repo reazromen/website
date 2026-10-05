@@ -1,8 +1,8 @@
 ---
-title: ভয়েস এজেন্টের গতি শুধু মডেলের গতি না
+title: Voice-Agent Speed Is More Than Model Speed
 date: '2024-07-12'
 draft: false
-language: bn
+language: en
 url: /posts/bn-voice-agent-turn-taking.html
 topic: embedded-audio-voice
 tags:
@@ -10,20 +10,19 @@ tags:
 - latency
 featured: false
 read_time: 2
-excerpt: একটা ভয়েস এজেন্ট কত দ্রুত উত্তর দেয়, সেটা বলতে আমরা প্রায়ই মডেল কত দ্রুত
-  টেক্সট তৈরি করে সেই সংখ্যা দেখি। কিন্তু মানুষের কথা মডেলের কাছে পৌঁছানোর আগেও সময়
-  যায়, আর টেক্সট থেকে শব্দ তৈরি হয়ে ফোনে ফেরত আসার পরেও সময় যায়। অডিও ক্যাপচার, নেটওয়ার্ক,
-  বক্তব্যের শেষ শনাক্ত করা, ট্রান্সক্রিপশন, জেনারেশন, স্পিচ তৈরি আর প্লেব্যাক—পুরো
-  পথের যোগফলই কথোপকথনের অপেক্ষা।
+excerpt: >-
+  Voice-agent latency is often reduced to how quickly the model generates text. In reality,
+  the conversation includes audio capture, network transport, end-of-speech detection,
+  transcription, generation, speech synthesis, and playback.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা ভয়েস এজেন্ট কত দ্রুত উত্তর দেয়, সেটা বলতে আমরা প্রায়ই মডেল কত দ্রুত টেক্সট তৈরি করে সেই সংখ্যা দেখি। কিন্তু মানুষের কথা মডেলের কাছে পৌঁছানোর আগেও সময় যায়, আর টেক্সট থেকে শব্দ তৈরি হয়ে ফোনে ফেরত আসার পরেও সময় যায়। অডিও ক্যাপচার, নেটওয়ার্ক, বক্তব্যের শেষ শনাক্ত করা, ট্রান্সক্রিপশন, জেনারেশন, স্পিচ তৈরি আর প্লেব্যাক—পুরো পথের যোগফলই কথোপকথনের অপেক্ষা।
+Voice-agent latency is often reduced to how quickly the model generates text. In reality, time is spent before the model receives the user's words and after the model produces its response. Audio capture, network transport, end-of-speech detection, transcription, generation, speech synthesis, and playback all contribute to the conversational wait.
 
-বিশেষ করে মানুষ কথা শেষ করেছে কি না বোঝা একটা কঠিন সিদ্ধান্ত। একটু থামলেই যদি এজেন্ট উত্তর দেয়, সে মানুষের কথা কেটে দিতে পারে। বেশি অপেক্ষা করলে কথোপকথন ভারী লাগে। এখানে শুধু দ্রুততার অপটিমাইজেশন যথেষ্ট না। ভুল সময়ে দ্রুত উত্তর ভালো অভিজ্ঞতা তৈরি করে না। বরং কখন নীরব থাকা দরকার, সেটাও সিস্টেমকে বুঝতে হয়।
+Detecting whether a person has actually finished speaking is particularly difficult. If the agent responds to every short pause, it cuts people off. If it waits too long, the conversation feels heavy. Optimizing for speed alone is therefore not enough. A fast response delivered at the wrong moment is still a bad response; the system also needs to know when silence is appropriate.
 
-ধরুন মানুষ মাঝপথে উত্তর সংশোধন করলেন। এজেন্ট যদি আগের ব্যাখ্যা ধরে কথা চালায়, তাহলে শুধু নতুন শব্দ শুনলেই হবে না; পুরোনো উত্তর বাতিল করার পথ লাগবে। জেনারেশন থামানো আর স্পিকারের বাফারে পড়ে থাকা অডিও থামানো আবার আলাদা কাজ। ব্যবহারকারীর কাছে দুটো একটাই বাধা দেওয়ার ঘটনা, কিন্তু বাস্তবায়নে একাধিক স্তর।
+Suppose the user corrects an answer halfway through. The agent must not only hear the new words, but also have a way to invalidate work based on the earlier interpretation. Stopping text generation and stopping audio already queued for playback are separate implementation problems even though the user experiences them as one interruption.
 
-ভয়েস সিস্টেম মাপতে তাই প্রতিটা সীমান্তে সময় দরকার। কথা শেষ হওয়ার অনুমান কখন, প্রথম টেক্সট কখন, প্রথম অডিও কখন, ফোনে শোনা কখন—এই টাইমলাইন থেকে বোঝা যায় অপেক্ষার বড় অংশ কোথায়। একটা দ্রুত মডেল দিয়ে পুরো পথের ধীরতা ঢেকে রাখা যায় না। মানুষের কথার পালা নেওয়ার নিয়মই শেষ পর্যন্ত ডিজাইনের পরীক্ষক।
+A voice system should therefore measure time at each boundary: when end-of-speech was inferred, when the first text appeared, when the first synthesized audio was ready, and when the user actually heard it. That timeline reveals where the delay really lives. A fast model cannot hide a slow end-to-end path. Human turn-taking remains the final test.
 
-সূত্র: [মূল রেফারেন্স](https://www.rfc-editor.org/rfc/rfc3550.html).
+Source: [official reference](https://www.rfc-editor.org/rfc/rfc3550.html).

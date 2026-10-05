@@ -1,8 +1,8 @@
 ---
-title: ঘড়ি না মিললে ঘটনার ক্রমও গুলিয়ে যায়
+title: When Clocks Drift, the Order of Events Can Drift Too
 date: '2025-11-16'
 draft: false
-language: bn
+language: en
 url: /posts/bn-clock-drift-incident-order.html
 topic: observability-monitoring
 tags:
@@ -10,18 +10,19 @@ tags:
 - logging
 featured: false
 read_time: 2
-excerpt: একাধিক সার্ভারের লগ পাশাপাশি রাখলে সময় দিয়ে ঘটনার ক্রম বোঝার চেষ্টা করি।
-  কিন্তু ঘড়ির পার্থক্য থাকলে পরে ঘটেছে এমন ঘটনা আগে লেখা মনে হতে পারে। শুধু টাইমস্ট্যাম্প
-  সাজালেই কারণের ক্রম পাওয়া যায় না।
+excerpt: >-
+  When logs from several servers are compared side by side, timestamps are often used to
+  reconstruct the incident. If the clocks differ, however, a later event can appear to
+  have happened first. Sorting timestamps is not enough to prove causal order.
 editorial_batch: 20261003-100-niches
 ---
 
-একাধিক সার্ভারের লগ পাশাপাশি রাখলে সময় দিয়ে ঘটনার ক্রম বোঝার চেষ্টা করি। কিন্তু ঘড়ির পার্থক্য থাকলে পরে ঘটেছে এমন ঘটনা আগে লেখা মনে হতে পারে। শুধু টাইমস্ট্যাম্প সাজালেই কারণের ক্রম পাওয়া যায় না।
+When logs from several servers are compared side by side, timestamps are often used to reconstruct the incident. If the clocks differ, however, a later event can appear to have happened first. Sorting timestamps is not enough to prove causal order.
 
-ধরুন অনুরোধ সার্ভার ক থেকে খ-তে গেছে। খ-এর ঘড়ি পিছিয়ে থাকলে উত্তর তৈরির সময় অনুরোধের আগের মতো দেখাতে পারে। এটা সময়যাত্রা না, মাপের অসামঞ্জস্য। সম্পর্কের পরিচয় দিয়ে ঘটনাগুলো যুক্ত করা তখনও দরকার।
+Suppose a request travels from server A to server B. If B's clock is behind, the response may appear to have been generated before the request arrived. That is not time travel; it is inconsistent measurement. Correlation identifiers are still needed to connect the events.
 
-সময় সমন্বয়ের অবস্থা দেখুন, তবে সমন্বিত ঘড়িকেও নিখুঁত ধরে নেবেন না। খুব কাছাকাছি ঘটনার ক্ষেত্রে অনিশ্চয়তার পরিধি গুরুত্বপূর্ণ। এক প্রসেসের ভেতরের সময় মাপ আর বিভিন্ন মেশিনের ঘড়ির তুলনা আলাদা।
+Monitor time synchronization, but do not assume a synchronized clock is perfect. For events that happen very close together, the uncertainty window matters. Measuring elapsed time inside one process and comparing wall clocks across multiple machines are different problems.
 
-ইনসিডেন্টের গল্পে আমি নিশ্চিত ক্রম আর অনুমিত ক্রম আলাদা রাখতে চাই। লগ অনেক সত্য রাখে, কিন্তু ঘড়ির সীমা ভুলে গেলে সেই সত্য ভুল সম্পর্কের মধ্যে বসে যেতে পারে।
+In an incident narrative, I prefer to separate confirmed order from inferred order. Logs contain a great deal of truth, but if we forget the limits of the clocks behind them, that truth can be arranged into the wrong story.
 
-সূত্র: [মূল রেফারেন্স](https://www.rfc-editor.org/rfc/rfc5905.html).
+Source: [official reference](https://www.rfc-editor.org/rfc/rfc5905.html).

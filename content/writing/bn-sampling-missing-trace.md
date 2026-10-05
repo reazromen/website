@@ -1,8 +1,8 @@
 ---
-title: সব ট্রেস না রাখলে কী হারায়
+title: What Do We Lose When We Do Not Keep Every Trace?
 date: '2025-01-09'
 draft: false
-language: bn
+language: en
 url: /posts/bn-sampling-missing-trace.html
 topic: observability-monitoring
 tags:
@@ -10,18 +10,19 @@ tags:
 - capacity
 featured: false
 read_time: 2
-excerpt: প্রতিটা অনুরোধের পূর্ণ ট্রেস রাখা ব্যয়বহুল হতে পারে। স্যাম্পলিং সেই খরচ সীমিত
-  করার একটা উপায়। কিন্তু কোন ঘটনা রাখা হয়েছে আর কোনটা হয়নি, সেটার ওপর অনুসন্ধানের
-  সীমা দাঁড়ায়। অনুপস্থিত ট্রেস মানেই ঘটনা ঘটেনি না।
+excerpt: >-
+  Keeping a complete trace for every request can be expensive. Sampling controls that
+  cost, but it also defines what an investigation can and cannot see. A missing trace is
+  not evidence that the event never happened.
 editorial_batch: 20261003-100-niches
 ---
 
-প্রতিটা অনুরোধের পূর্ণ ট্রেস রাখা ব্যয়বহুল হতে পারে। স্যাম্পলিং সেই খরচ সীমিত করার একটা উপায়। কিন্তু কোন ঘটনা রাখা হয়েছে আর কোনটা হয়নি, সেটার ওপর অনুসন্ধানের সীমা দাঁড়ায়। অনুপস্থিত ট্রেস মানেই ঘটনা ঘটেনি না।
+Keeping a complete trace for every request can be expensive. Sampling controls that cost, but it also defines what an investigation can and cannot see. A missing trace is not evidence that the event never happened.
 
-একটা বিরল ব্যর্থতা সাধারণ নমুনায় নাও ধরা পড়তে পারে। আবার শুধু ব্যর্থ ট্রেস রাখলে স্বাভাবিক কাজের তুলনা কমে যেতে পারে। কী জানতে চান সেটা স্যাম্পলিং নীতি নির্ধারণে গুরুত্বপূর্ণ।
+A rare failure may not appear in a simple random sample. On the other hand, keeping only failures can make normal behavior harder to compare against. The questions you expect to ask should influence the sampling policy.
 
-কুয়েরির ফলের পাশে সংগ্রহের নিয়ম জানা দরকার। যে ঘটনা দেখা যাচ্ছে তার সংখ্যা বাস্তব মোটের সরাসরি সমান কি না যাচাই করুন। মেট্রিক, লগ আর ট্রেস একে অন্যের ফাঁক পূরণ করতে পারে।
+Query results should therefore be interpreted alongside collection rules. Check whether the visible count represents the actual total or only a sample of it. Metrics, logs, and traces can fill different gaps for one another.
 
-আমি স্যাম্পলিংকে ভুলে যাওয়ার নিয়ন্ত্রিত নিয়ম হিসেবে দেখি। সম্পূর্ণ স্মৃতির ভান করার চেয়ে নির্বাচনের নীতি স্পষ্ট থাকা ভালো। সীমা জানা থাকলে প্রমাণ থেকে দাবি করাও নির্ভুল হয়।
+I think of sampling as a controlled policy for forgetting. It is better to make that policy explicit than to pretend the system has complete memory. Once the limits of the evidence are known, the claims made from it can be more precise.
 
-সূত্র: [মূল রেফারেন্স](https://opentelemetry.io/docs/concepts/sampling/).
+Source: [official reference](https://opentelemetry.io/docs/concepts/sampling/).

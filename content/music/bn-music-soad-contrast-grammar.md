@@ -1,8 +1,8 @@
 ---
-title: সিস্টেম অব আ ডাউনের পরিবর্তনে নিয়ম খোঁজা
+title: Finding a Grammar in System of a Down's Contrasts
 date: '2025-06-26'
 draft: false
-language: bn
+language: en
 url: /posts/bn-music-soad-contrast-grammar.html
 topic: music-listening
 tags:
@@ -10,9 +10,10 @@ tags:
 - system-of-a-down
 featured: false
 read_time: 2
-excerpt: একটা গানে অনেক পরিবর্তন থাকলেই তাকে এলোমেলো বলা যায় না। পরিবর্তনগুলো কোন
-  সম্পর্ক ধরে ফিরে আসছে সেটা শুনলে একটা গ্রামার পাওয়া যেতে পারে। সিস্টেম অব আ ডাউন
-  নিয়ে আমার আগ্রহের একটা প্রশ্ন এই নিয়ম আর চমকের সম্পর্ক।
+excerpt: >-
+  A song is not automatically random because it contains many abrupt changes. If we listen
+  for the relationships through which those changes return, a kind of grammar can emerge.
+  One of my questions about System of a Down is how that grammar interacts with surprise.
 editorial_batch: 20261003-100-niches
 kind: research
 artist: System of a Down
@@ -20,12 +21,12 @@ album: ''
 year: ''
 ---
 
-একটা গানে অনেক পরিবর্তন থাকলেই তাকে এলোমেলো বলা যায় না। পরিবর্তনগুলো কোন সম্পর্ক ধরে ফিরে আসছে সেটা শুনলে একটা গ্রামার পাওয়া যেতে পারে। সিস্টেম অব আ ডাউন নিয়ে আমার আগ্রহের একটা প্রশ্ন এই নিয়ম আর চমকের সম্পর্ক।
+A song is not automatically random because it contains many abrupt changes. If we listen for the relationships through which those changes return, a kind of grammar can emerge. One of my questions about System of a Down is how that grammar interacts with surprise.
 
-ঘন শব্দের পরে ফাঁকা জায়গা, কঠিন স্বরের পরে অন্য ধরনের গাওয়া—এগুলো আলাদা অংশ হিসেবে নয়, একে অন্যকে কীভাবে বদলায় হিসেবে পড়া যায়। তবে কোন পরিবর্তনের কী মানে সেটা সব গানে একই হবে ধরে নেওয়া ঠিক না।
+Dense sound followed by open space, or a harsh vocal line followed by a different kind of singing, can be heard not only as separate sections but as events that change one another. That does not mean the same transition carries the same meaning in every song.
 
-শোনার একটা পরীক্ষা হতে পারে শুধু অংশগুলোর সীমান্ত চিহ্নিত করা। কোথায় পরিবর্তন হলো, কী আগে থেকে ইঙ্গিত দিয়েছিল, কী পুনরায় ফিরে এলো লিখুন। ব্যক্তিগত অনুভূতি আর গঠনের পর্যবেক্ষণ আলাদা রাখা সম্ভব।
+One listening exercise is to mark only the boundaries between sections. Where did the change happen? What hinted at it beforehand? What returned later? Structural observation and personal feeling can be written down separately.
 
-আমার কাছে অপ্রত্যাশিততা তখন বেশি আকর্ষণীয় যখন তার সঙ্গে সম্পর্কও আছে। শুধু নতুন শব্দের বিস্ময় না; আগের শব্দের ওপর নতুন আলো পড়া। সেই সম্পর্ক খোঁজা গানকে কেবল তীব্রতার নাম দিয়ে শেষ হতে দেয় না।
+For me, unpredictability becomes more interesting when it still has relationships. The surprise is not merely the arrival of a new sound; it is also the way that sound changes how I hear what came before. Looking for that relationship prevents the music from being reduced to a single adjective like intense.
 
-সূত্র: [মূল রেফারেন্স](https://www.systemofadown.com/music).
+Source: [official reference](https://www.systemofadown.com/music).

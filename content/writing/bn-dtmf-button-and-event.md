@@ -1,8 +1,8 @@
 ---
-title: 'ডিটিএমএফ: বোতামের শব্দ আর বোতামের ঘটনা'
+title: "DTMF: The Sound of a Button and the Event of a Button"
 date: '2025-01-27'
 draft: false
-language: bn
+language: en
 url: /posts/bn-dtmf-button-and-event.html
 topic: telecom-voip
 tags:
@@ -10,19 +10,20 @@ tags:
 - audio
 featured: false
 read_time: 2
-excerpt: 'ফোনে একটা বোতাম চাপলে আমরা একটা ঘটনা ঘটাতে চাই: মেনুতে প্রবেশ, নম্বর নির্বাচন,
-  কিংবা কোনো তথ্য নিশ্চিত করা। কিন্তু সিস্টেমে সেই ঘটনা কখনো অডিও টোন হয়ে যায়, কখনো
-  আলাদা মিডিয়া ইভেন্ট হিসেবে যায়। মানুষের কাছে দুইটাই একই বোতাম। ফোনসিস্টেমের কাছে
-  দুইটা আলাদা পথ। ফলে কানে টোন শোনা গেলেও আইভিআর বোতামটা বুঝতে না পারতে পারে।'
+excerpt: >-
+  Pressing a phone key is meant to trigger an action: enter a menu, select an option, or
+  confirm information. In a phone system, however, that action may travel as an audible
+  tone or as a separate media event. To the user it is the same button; to the system
+  they are different paths.
 editorial_batch: 20261003-100-niches
 ---
 
-ফোনে একটা বোতাম চাপলে আমরা একটা ঘটনা ঘটাতে চাই: মেনুতে প্রবেশ, নম্বর নির্বাচন, কিংবা কোনো তথ্য নিশ্চিত করা। কিন্তু সিস্টেমে সেই ঘটনা কখনো অডিও টোন হয়ে যায়, কখনো আলাদা মিডিয়া ইভেন্ট হিসেবে যায়। মানুষের কাছে দুইটাই একই বোতাম। ফোনসিস্টেমের কাছে দুইটা আলাদা পথ। ফলে কানে টোন শোনা গেলেও আইভিআর বোতামটা বুঝতে না পারতে পারে।
+Pressing a phone key is meant to trigger an action: enter a menu, select an option, or confirm information. In a phone system, however, that action may travel as an audible tone or as a separate media event. To the user it is the same button; to the system they are different paths. That is why a caller may hear the tone while the IVR fails to recognize the digit.
 
-ইনব্যান্ড টোন অডিওর সঙ্গে যায়। অডিও কম্প্রেশন, ভলিউম আর পথের পরিবর্তন তখন শনাক্তকরণে প্রভাব ফেলতে পারে। টেলিফোন ইভেন্ট হিসেবে পাঠালে বোতামের তথ্য আলাদা উপস্থাপন পায়। কিন্তু সে ক্ষেত্রেও দুই পাশকে পদ্ধতিটা নিয়ে রাজি হতে হয়। একটা দিকে যে পদ্ধতি কাজ করেছে, অন্য ট্রাঙ্কে একইভাবে কাজ করবে—এমন ধরে নেওয়া যায় না।
+In-band DTMF travels inside the audio. Compression, level changes, and transformations along the media path can then affect detection. Telephone-event signaling carries the digit as a separate representation, but both sides still have to agree on that method. A technique that works toward one endpoint or trunk should not be assumed to work identically everywhere.
 
-ধরুন ব্যবহারকারী দুই চাপলেন, মেনুতে গেল না। প্রথম প্রশ্ন হওয়া উচিত ফোন কী পাঠিয়েছে। এরপর দেখা দরকার পিবিএক্স কী পেয়েছে, ট্রাঙ্কে কী পাঠিয়েছে, আর আইভিআর কী আশা করছে। শুধু একটা কনফিগ অপশন বদলে সফলতার দাবি করলে পথের কোন অংশ বদলেছে বোঝা যায় না। বোতামের স্থায়িত্ব আর শেষ হওয়ার তথ্যও ঘটনার অংশ।
+Suppose the caller presses 2 and the menu does not respond. The first question should be what the phone actually sent. Then inspect what the PBX received, what it forwarded toward the trunk, and what the IVR expects. Simply toggling a configuration option and declaring success does not reveal which part of the path changed. Event duration and termination are part of the signal too.
 
-এই ছোট সমস্যা একটা বড় শিক্ষা দেয়। ইন্টারফেসে একই কাজ দেখালেও প্রোটোকলে তার একাধিক উপস্থাপন থাকতে পারে। তাই ব্যবহারকারীর ভাষা থেকে প্যাকেটের ভাষায় যাওয়ার অনুবাদটা বোঝা দরকার। পরীক্ষায় শুধু শব্দ শুনবেন না; যে কাজটা বোতাম করার কথা, সেটা হয়েছে কি না দেখবেন। যোগাযোগের সফলতা অনেক সময় অডিওর বাইরে থাকে।
+This small problem contains a larger lesson. The same user action can have several protocol representations. Debugging requires translating from the user's language into the packet-level representation. Do not test only whether a tone is audible; test whether the action the button was supposed to trigger actually happened. Communication success often exists outside the audio itself.
 
-সূত্র: [মূল রেফারেন্স](https://www.rfc-editor.org/rfc/rfc4733.html).
+Source: [official reference](https://www.rfc-editor.org/rfc/rfc4733.html).

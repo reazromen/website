@@ -1,8 +1,8 @@
 ---
-title: ভেরিয়েবলের নাম অবস্থার অর্থ ধরে রাখে
+title: Variable Names Preserve the Meaning of State
 date: '2023-04-04'
 draft: false
-language: bn
+language: en
 url: /posts/bn-variable-name-state-meaning.html
 topic: engineering-notes
 tags:
@@ -10,16 +10,17 @@ tags:
 - state
 featured: false
 read_time: 2
-excerpt: একটা ভেরিয়েবলে সংখ্যা আছে জানা আর সংখ্যাটার অর্থ জানা আলাদা। নাম যদি শুধু
-  ভ্যালু হয়, পরে পাঠককে প্রসঙ্গ খুঁজে অর্থ বানাতে হয়। নামের মধ্যে একক, সময় বা অবস্থার
-  পরিচয় থাকলে সেই কাজ ছোট হয়।
+excerpt: >-
+  Knowing that a variable contains a number is not the same as knowing what the number
+  means. A name that preserves unit, time, or state reduces the amount of context a future
+  reader has to reconstruct.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা ভেরিয়েবলে সংখ্যা আছে জানা আর সংখ্যাটার অর্থ জানা আলাদা। নাম যদি শুধু ভ্যালু হয়, পরে পাঠককে প্রসঙ্গ খুঁজে অর্থ বানাতে হয়। নামের মধ্যে একক, সময় বা অবস্থার পরিচয় থাকলে সেই কাজ ছোট হয়।
+Knowing that a variable contains a number is not the same as knowing what the number means. If the name is simply *value*, the next reader has to search elsewhere to reconstruct its context. A name that preserves unit, time, or state reduces that work.
 
-ধরুন টাইমআউটের মান সেকেন্ড না মিলিসেকেন্ড সেটা অস্পষ্ট। ভুল সংখ্যা বৈধভাবে চলতে পারে, কিন্তু আচরণ ভুল হবে। কম্পাইলার সব অর্থের ভুল ধরবে না। নাম আর টাইপের নিয়ম কিছু ভুলকে আগেই কঠিন করতে পারে।
+Imagine a timeout whose unit is unclear: seconds or milliseconds. The wrong number can still be syntactically valid while producing incorrect behavior. A compiler cannot catch every semantic mistake. Naming and type rules can make some of those mistakes harder to create.
 
-আবার খুব বড় নামও সব ব্যাখ্যার বদলি না। কোন অবস্থায় মান বদলায় আর কে বদলাতে পারে সেটা কোডের সম্পর্ক থেকে জানতে হয়। নামের সুবিধা সেই সম্পর্ককে অনুসরণযোগ্য করা।
+A very long name is not a substitute for every explanation either. The code still needs to reveal when the state changes and who is allowed to change it. A good name makes that relationship easier to follow.
 
-আমি নামকরণকে সাজানোর কাজ ভাবি না। এটা ভবিষ্যতের পাঠকের সঙ্গে যোগাযোগ। নিজের কয়েক মাস পরের সংস্করণও সেই পাঠক হতে পারে। অর্থ যত পরিষ্কার থাকে, অপ্রয়োজনীয় অনুমান তত কম লাগে।
+I do not think of naming as decoration. It is communication with a future reader, and that future reader may simply be me a few months later. The clearer the meaning, the less unnecessary inference the code demands.

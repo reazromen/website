@@ -1,8 +1,8 @@
 ---
-title: ইনফরমেশন আর অর্থ একই মাপ না
+title: Information and Meaning Are Not the Same Measurement
 date: '2026-07-20'
 draft: false
-language: bn
+language: en
 url: /posts/bn-information-not-meaning.html
 topic: geometry-information
 tags:
@@ -10,18 +10,19 @@ tags:
 - language
 featured: false
 read_time: 2
-excerpt: একটা বার্তা কত ইনফরমেশন বহন করে আর সেটা মানুষের কাছে কত অর্থপূর্ণ—এই দুই
-  প্রশ্ন আলাদা। যোগাযোগের গণিত অনিশ্চয়তা আর উপস্থাপনের নির্দিষ্ট দিক নিয়ে কাজ করতে
-  পারে। মানুষের স্মৃতি, প্রসঙ্গ আর মূল্যবোধ সেই মাপের সরাসরি অংশ না।
+excerpt: >-
+  How much information a message carries and how meaningful that message is to a person
+  are different questions. Mathematical communication theory can measure specific aspects
+  of uncertainty and representation without measuring human memory, context, or value.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা বার্তা কত ইনফরমেশন বহন করে আর সেটা মানুষের কাছে কত অর্থপূর্ণ—এই দুই প্রশ্ন আলাদা। যোগাযোগের গণিত অনিশ্চয়তা আর উপস্থাপনের নির্দিষ্ট দিক নিয়ে কাজ করতে পারে। মানুষের স্মৃতি, প্রসঙ্গ আর মূল্যবোধ সেই মাপের সরাসরি অংশ না।
+How much information a message carries and how meaningful that message is to a person are different questions. Mathematical communication theory can measure specific aspects of uncertainty and representation without directly measuring human memory, context, or value.
 
-ধরুন একই বাক্য দুইজন পড়লেন। অক্ষর একই, কিন্তু একজনের কাছে নতুন খবর, অন্যজনের কাছে পরিচিত। আবার একটা ছোট ব্যক্তিগত বার্তা কারও কাছে অনেক মূল্যবান হতে পারে। বাইটের সংখ্যা সেই মূল্য বলে না।
+Imagine two people reading the same sentence. The characters are identical, but one person learns something new while the other already knew it. A tiny personal message can also matter enormously to someone. Byte count does not contain that value.
 
-এই পার্থক্য বাদ দিলে প্রযুক্তিগত শব্দ দর্শনের সব প্রশ্নের উত্তর হয়ে যায়। একটা সংজ্ঞার সাফল্য তার নির্দিষ্ট কাজের মধ্যে দেখতে হবে। অন্য প্রশ্নে ব্যবহার করলে নতুন ব্যাখ্যা দরকার।
+If this distinction is ignored, a technical definition starts being used as an answer to every philosophical question. A definition should be judged by the job it was designed to do. Moving it into another question requires another layer of interpretation.
 
-ইনফরমেশনের ধারণা আমার কাছে শক্তিশালী কারণ সে কিছু সম্পর্ক নির্ভুলভাবে ধরতে পারে। তাকে সব ধরনের অর্থের সমান বানালে সেই নির্ভুলতাই হারায়। একই শব্দের ব্যবহার আর একই সংজ্ঞা থাকা এক ঘটনা না।
+The concept of information is powerful to me precisely because it captures some relationships with great precision. Expanding it until it becomes identical to every kind of meaning would weaken that precision. Using the same word is not the same as using the same definition.
 
-সূত্র: [মূল রেফারেন্স](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf).
+Source: [official reference](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf).

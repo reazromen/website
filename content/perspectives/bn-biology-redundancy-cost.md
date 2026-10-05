@@ -1,8 +1,8 @@
 ---
-title: একাধিক পথ থাকা মানেই বিনা খরচে নিরাপত্তা না
+title: Multiple Paths Do Not Create Free Reliability
 date: '2020-02-14'
 draft: false
-language: bn
+language: en
 url: /posts/bn-biology-redundancy-cost.html
 topic: biology-systems
 tags:
@@ -10,18 +10,19 @@ tags:
 - reliability
 featured: false
 read_time: 2
-excerpt: সিস্টেমে বিকল্প পথ থাকলে এক পথ ব্যর্থ হওয়ার পরেও কাজ চলতে পারে। কিন্তু বিকল্প
-  তৈরির খরচ থাকে। জায়গা, এনার্জি আর নিয়ন্ত্রণের প্রয়োজন বাড়ে। রিডান্ডেন্সি তাই নিরাপত্তার
-  পাশাপাশি সম্পদের প্রশ্নও।
+excerpt: >-
+  Alternate paths can keep a system working after one path fails, but redundancy has a
+  cost. Space, energy, and control requirements grow with it. Reliability is therefore
+  also a resource question.
 editorial_batch: 20261003-100-niches
 ---
 
-সিস্টেমে বিকল্প পথ থাকলে এক পথ ব্যর্থ হওয়ার পরেও কাজ চলতে পারে। কিন্তু বিকল্প তৈরির খরচ থাকে। জায়গা, এনার্জি আর নিয়ন্ত্রণের প্রয়োজন বাড়ে। রিডান্ডেন্সি তাই নিরাপত্তার পাশাপাশি সম্পদের প্রশ্নও।
+Alternate paths can keep a system working after one path fails, but redundancy has a cost. Space, energy, and control requirements grow with it. Reliability is therefore also a resource question.
 
-জীববিজ্ঞানে একই কাজের সম্পর্ক অনেক স্তরে দেখা যায়, কিন্তু সব মিলকে ইচ্ছাকৃত ব্যাকআপ হিসেবে বলা ঠিক না। কোনো বৈশিষ্ট্যের ইতিহাস আর বর্তমান কাজ আলাদা অনুসন্ধান। উপকার দেখা গেলেই সেই উপকারের জন্য বৈশিষ্ট্যটি তৈরি হয়েছিল বলা যায় না।
+Biology contains many examples of overlapping or related functions, but it is risky to call every overlap an intentional backup. The evolutionary history of a trait and its current usefulness are different questions. Seeing a benefit today does not prove the trait was created for that benefit.
 
-ইঞ্জিনিয়ারিংয়েও দুইটা সার্ভার থাকলেই পূর্ণ নিরাপত্তা আসে না। তারা একই পাওয়ার বা একই কনফিগের ওপর দাঁড়ালে একসঙ্গে ব্যর্থ হতে পারে। সংখ্যার বদলে ব্যর্থতার স্বাধীনতা দেখতে হয়।
+Engineering has a similar trap. Two servers do not provide full resilience if both depend on the same power source or the same broken configuration. What matters is not simply the number of components, but how independent their failure modes are.
 
-এই তুলনায় আমার দরকারি প্রশ্নটা ছোট: দ্বিতীয় পথ কি সত্যিই প্রথম পথের ব্যর্থতার বাইরে আছে? জীবন্ত বা নির্মিত সিস্টেম—যেখানেই দেখি, সম্পর্কের মানচিত্র ছাড়া শুধু বেশি অংশ গুনে স্থায়িত্ব জানা যায় না।
+The useful question for me is small: does the second path actually survive the failure that removes the first? Whether the system is living or engineered, counting more parts is not enough without a map of their dependencies.
 
-সূত্র: [মূল রেফারেন্স](https://openstax.org/books/biology-2e/pages/9-introduction).
+Source: [official reference](https://openstax.org/books/biology-2e/pages/9-introduction).

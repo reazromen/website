@@ -1,8 +1,8 @@
 ---
-title: অ্যালবামের ছবি ব্যাখ্যার দরজা, প্রমাণের শেষ না
+title: Album Art Opens Interpretation; It Does Not End the Evidence
 date: '2024-05-15'
 draft: false
-language: bn
+language: en
 url: /posts/bn-music-album-art-not-evidence.html
 topic: music-listening
 tags:
@@ -10,9 +10,10 @@ tags:
 - interpretation
 featured: false
 read_time: 2
-excerpt: অ্যালবামের ছবি গান শোনার আগেই একটা প্রত্যাশা তৈরি করতে পারে। রং, গঠন আর পরিচিত
-  প্রতীক আমাদের পাঠকে প্রভাবিত করতে পারে। কিন্তু ছবির একটা ব্যাখ্যা থেকে রেকর্ডিংয়ের
-  সব অংশের নিশ্চিত অর্থ পাওয়া যায় না।
+excerpt: >-
+  Album art can shape an expectation before the music even starts. Color, composition,
+  and familiar symbols can influence how we read a record. But one interpretation of
+  an image cannot establish the meaning of every part of the recording.
 editorial_batch: 20261003-100-niches
 kind: research
 artist: Pink Floyd
@@ -20,12 +21,12 @@ album: ''
 year: ''
 ---
 
-অ্যালবামের ছবি গান শোনার আগেই একটা প্রত্যাশা তৈরি করতে পারে। রং, গঠন আর পরিচিত প্রতীক আমাদের পাঠকে প্রভাবিত করতে পারে। কিন্তু ছবির একটা ব্যাখ্যা থেকে রেকর্ডিংয়ের সব অংশের নিশ্চিত অর্থ পাওয়া যায় না।
+Album art can shape an expectation before the music even starts. Color, composition, and familiar symbols can influence how we read a record. But one interpretation of an image cannot establish the meaning of every part of the recording.
 
-পিংক ফ্লয়েডের ক্যাটালগে ভিজ্যুয়াল পরিচয় দেখে প্রশ্ন করা যায় শব্দ আর ছবির সম্পর্ক কী। সেই সম্পর্ক নিয়ে নিজের বিশ্লেষণ লেখা সম্ভব। তবে নথিভুক্ত বক্তব্য আর নিজের অনুমানকে আলাদা রাখা জরুরি।
+Pink Floyd's catalog makes it easy to ask how visual identity and sound relate to each other. That relationship is worth analyzing, but documented statements and personal inference should remain separate.
 
-একটা অনুশীলন হতে পারে ছবি না দেখে প্রথম নোট, তারপর ছবি দেখে দ্বিতীয় নোট করা। কোন প্রত্যাশা বদলাল বোঝা যায়। নিজের প্রতিক্রিয়াকে সব শ্রোতার নিয়ম হিসেবে বলার দরকার নেই।
+One useful exercise is to make a first set of notes without looking at the artwork, then a second set after seeing it. The comparison can reveal which expectations changed. A personal reaction does not need to be presented as a rule for every listener.
 
-আমার কাছে ভিজ্যুয়াল শিল্পের মূল্য গানকে অন্য পথে খুলে দেওয়া। সব রহস্যের একটা চাবি হিসেবে ছবিকে ব্যবহার করলে নতুন প্রশ্নের জায়গা কমে। বরং শব্দ আর ছবির মাঝে থাকা সম্পর্কটাই অনুসন্ধানের বিষয় হতে পারে।
+For me, the value of visual art is that it can open another route into the music. If the image becomes a master key that supposedly explains every mystery, the space for new questions gets smaller. The relationship between sound and image is more interesting as something to investigate.
 
-সূত্র: [মূল রেফারেন্স](https://www.pinkfloyd.com/music/).
+Source: [official reference](https://www.pinkfloyd.com/music/).

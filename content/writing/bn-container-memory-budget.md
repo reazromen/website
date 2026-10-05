@@ -1,8 +1,8 @@
 ---
-title: কনটেইনারের সংখ্যা দিয়ে মেমোরির বাজেট হয় না
+title: Container Count Is Not a Memory Budget
 date: '2025-04-13'
 draft: false
-language: bn
+language: en
 url: /posts/bn-container-memory-budget.html
 topic: production-engineering
 tags:
@@ -10,18 +10,19 @@ tags:
 - memory
 featured: false
 read_time: 2
-excerpt: কনটেইনার গুনে সার্ভারের চাপ বোঝা যায় না। একটা কনটেইনার ছোট কাজ করতে পারে,
-  আরেকটা ডেটা, ক্যাশ আর অনেক থ্রেড ধরে রাখতে পারে। একই সংখ্যার দুই সার্ভারের প্রয়োজন
-  এক হতে বাধ্য না। কাজের ধরন আগে দেখতে হবে।
+excerpt: >-
+  Counting containers does not tell you how much pressure a server is under. One container
+  may do very little while another holds data, caches, and many threads. Two servers with
+  the same container count can have very different resource needs.
 editorial_batch: 20261003-100-niches
 ---
 
-কনটেইনার গুনে সার্ভারের চাপ বোঝা যায় না। একটা কনটেইনার ছোট কাজ করতে পারে, আরেকটা ডেটা, ক্যাশ আর অনেক থ্রেড ধরে রাখতে পারে। একই সংখ্যার দুই সার্ভারের প্রয়োজন এক হতে বাধ্য না। কাজের ধরন আগে দেখতে হবে।
+Counting containers does not tell you how much pressure a server is under. One container may do very little while another holds data, caches, and many threads. Two servers with the same container count can have very different resource needs. The workload has to come first.
 
-শুধু স্বাভাবিক সময়ের ব্যবহার ধরলে পিকের জায়গা হারায়। রিস্টার্ট, বড় কুয়েরি বা ব্যাকআপের সময় অতিরিক্ত জায়গা লাগতে পারে। একই সময়ে কয়েকটা ভারী কাজ শুরু হলে আলাদা আলাদা নিরাপদ সীমাও মোট সীমা ছাড়াতে পারে।
+Looking only at normal operation also hides peak behavior. Restarts, large queries, or backups may temporarily require much more memory. Several heavy jobs starting at the same time can push the host beyond its total limit even when each service looks safe in isolation.
 
-বাজেটে নিয়মিত ব্যবহার, প্রত্যাশিত বাড়তি চাপ আর সিস্টেমের নিজস্ব জায়গা রাখা দরকার। সীমা বসানোর আগে সীমা ছোঁয়া হলে আচরণ কী হবে জানাও জরুরি। একটি প্রসেসের সমস্যা যেন অন্য সব কাজকে অকারণে টেনে না নেয়।
+A useful budget includes regular usage, expected bursts, and headroom for the operating system itself. Before enforcing limits, it is also important to know what happens when a limit is reached. One process should not drag every unrelated workload down with it.
 
-কনটেইনার বিচ্ছিন্নতার সুবিধা দেয়, কিন্তু রিসোর্স সৃষ্টি করে না। সার্ভারের ভৌত সীমা শেষ পর্যন্ত ভাগ করা। সেই ভাগের নিয়ম বুঝলে বাড়তি সার্ভিস বসানোর সিদ্ধান্ত সংখ্যার বদলে কাজের ওপর দাঁড়ায়।
+Containers provide isolation, but they do not create resources. The physical capacity of the server is still shared. Once that sharing model is understood, the decision to add another service can be based on workload rather than container count.
 
-সূত্র: [মূল রেফারেন্স](https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v2.html).
+Source: [official reference](https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v2.html).

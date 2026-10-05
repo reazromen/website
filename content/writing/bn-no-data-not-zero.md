@@ -1,8 +1,8 @@
 ---
-title: নো ডেটা আর শূন্য এক না
+title: No Data Is Not Zero
 date: '2024-09-09'
 draft: false
-language: bn
+language: en
 url: /posts/bn-no-data-not-zero.html
 topic: observability-monitoring
 tags:
@@ -10,18 +10,18 @@ tags:
 - data-quality
 featured: false
 read_time: 2
-excerpt: গ্রাফে কোনো মান না থাকলে শূন্য বসিয়ে দিলে ছবি পরিষ্কার হতে পারে, কিন্তু অর্থ
-  বদলে যেতে পারে। শূন্য মানে মাপা হয়েছে এবং ফল শূন্য। নো ডেটা মানে সেই ফল জানা নেই।
-  একটা নিশ্চিত অবস্থা আর একটা অজানা অবস্থা আলাদা।
+excerpt: >-
+  Replacing missing data with zero can make a graph look cleaner while changing its meaning.
+  Zero says a measurement was made and the result was zero. No data says the result is unknown.
 editorial_batch: 20261003-100-niches
 ---
 
-গ্রাফে কোনো মান না থাকলে শূন্য বসিয়ে দিলে ছবি পরিষ্কার হতে পারে, কিন্তু অর্থ বদলে যেতে পারে। শূন্য মানে মাপা হয়েছে এবং ফল শূন্য। নো ডেটা মানে সেই ফল জানা নেই। একটা নিশ্চিত অবস্থা আর একটা অজানা অবস্থা আলাদা।
+Replacing missing data with zero can make a graph look cleaner while changing its meaning. Zero says a measurement was made and the result was zero. No data says the result is unknown. A known state and an unknown state are not interchangeable.
 
-ধরুন কোনো নদীর মাপ আসেনি। শূন্য দেখালে মানুষ ভাবতে পারেন পানি নেই। আবার ব্যর্থ কলের মেট্রিক না এলে শূন্য দেখানোতে সিস্টেম ভালো চলছে মনে হতে পারে। অনুপস্থিতির কারণ আগে বোঝা দরকার।
+Suppose a river gauge stops reporting. Displaying zero can make it look as if there is no water. Or if a failed-call metric disappears, filling the gap with zero can make the phone system look healthy. The reason for the absence matters.
 
-ইন্টারফেসে ডেটার বয়স আর উৎসের অবস্থা রাখলে পার্থক্যটি বোঝানো যায়। শেষ জানা মান দেখানোও সম্ভব, তবে তাকে বর্তমান বলে না দেখিয়ে বয়সসহ রাখতে হবে।
+An interface can expose data age and source status to make the difference visible. It can also show the last known value, but that value should be labeled with its age rather than presented as current.
 
-আমার কাছে অজানা লেখা দুর্বলতা না। সেটা তথ্যের সততা। অজানা থেকে শূন্য তৈরি করলে অনিশ্চয়তা মুছে যায় না; শুধু ব্যবহারকারীর কাছে তার অস্তিত্ব লুকায়।
+For me, saying *unknown* is not weakness. It is information integrity. Turning unknown into zero does not remove uncertainty; it merely hides the uncertainty from the person making the decision.
 
-সূত্র: [মূল রেফারেন্স](https://prometheus.io/docs/prometheus/latest/querying/basics/).
+Source: [official reference](https://prometheus.io/docs/prometheus/latest/querying/basics/).

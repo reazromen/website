@@ -1,8 +1,8 @@
 ---
-title: অফলাইন নোডের জন্য বার্তা অপেক্ষা করবে কোথায়
+title: Where Should a Message Wait for an Offline Node?
 date: '2020-08-12'
 draft: false
-language: bn
+language: en
 url: /posts/bn-radio-offline-store-forward.html
 topic: lora-reticulum
 tags:
@@ -10,18 +10,19 @@ tags:
 - storage
 featured: false
 read_time: 2
-excerpt: একটা নোড সবসময় উপস্থিত থাকবে এমন ধরে নিলে যোগাযোগের নকশা সহজ হয়। কিন্তু ব্যাটারি,
-  নেটওয়ার্ক বা পরিবেশের জন্য নোড হারিয়ে যেতে পারে। তখন বার্তা কোথায় থাকবে আর কতক্ষণ
-  প্রাসঙ্গিক থাকবে—এই প্রশ্নগুলো সামনে আসে।
+excerpt: >-
+  Communication is simpler if every node is assumed to be continuously available. Real
+  nodes disappear because of power, radio conditions, or the environment. Then the design
+  has to decide where a message waits and how long it remains relevant.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা নোড সবসময় উপস্থিত থাকবে এমন ধরে নিলে যোগাযোগের নকশা সহজ হয়। কিন্তু ব্যাটারি, নেটওয়ার্ক বা পরিবেশের জন্য নোড হারিয়ে যেতে পারে। তখন বার্তা কোথায় থাকবে আর কতক্ষণ প্রাসঙ্গিক থাকবে—এই প্রশ্নগুলো সামনে আসে।
+Communication is simpler if every node is assumed to be continuously available. Real nodes disappear because of power, radio conditions, or the environment. Then the design has to decide where a message waits and how long it remains relevant.
 
-ধরুন কোনো সেন্সরের পুরোনো খবর পরে এসে পৌঁছাল। খবরটি সত্য হতে পারে, কিন্তু বর্তমান অবস্থা বোঝাতে পারে না। তৈরি হওয়ার সময় আর পৌঁছানোর সময় আলাদা রাখতে হবে। দেরিতে পাওয়া খবরের ওপর বর্তমান সিদ্ধান্ত নেওয়ার সীমা দরকার।
+Suppose an old sensor observation arrives much later. The observation may still be historically true while no longer representing the current state. Creation time and delivery time have to remain separate, and decisions need limits on how stale a delayed message may be.
 
-অপেক্ষার জায়গায় স্টোরেজ সীমিত। কোন বার্তা রাখা হবে, পুরোনোটা নতুনটা দিয়ে বদলানো যাবে কি না, আর ডুপ্লিকেট কীভাবে চেনা হবে—সব নকশার অংশ। শুধু কিউ আছে বললেই অফলাইন আচরণ সম্পূর্ণ হয় না।
+The place holding messages has finite storage. Which messages should be retained? Can a newer state replace an older one? How are duplicates recognized? Simply having a queue does not complete the offline behavior design.
 
-বিচ্ছিন্ন নেটওয়ার্কের সৌন্দর্য আমার কাছে এই সময়ের ধারণায়। বার্তা একটা পথের পাশাপাশি একটা জীবনকালও নিয়ে চলে। কে শুনবে তার সঙ্গে কখন শুনবে প্রশ্নটাও জরুরি।
+What I like about disconnected networks is that they force us to think about time as part of the message. A message has a lifetime as well as a route. *Who will receive it?* and *when will they receive it?* are equally important questions.
 
-সূত্র: [মূল রেফারেন্স](https://reticulum.network/manual/networks.html).
+Source: [official reference](https://reticulum.network/manual/networks.html).

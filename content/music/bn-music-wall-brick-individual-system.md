@@ -1,8 +1,8 @@
 ---
-title: 'দ্য ওয়াল: ব্যক্তি আর কাঠামোর সম্পর্কের প্রশ্ন'
+title: "The Wall: A Question About Individuals and Structures"
 date: '2025-11-29'
 draft: false
-language: bn
+language: en
 url: /posts/bn-music-wall-brick-individual-system.html
 topic: music-listening
 tags:
@@ -10,9 +10,11 @@ tags:
 - pink-floyd
 featured: false
 read_time: 2
-excerpt: দেয়ালের উপমা আমাকে আলাদা অংশ আর পুরো কাঠামোর সম্পর্ক ভাবতে সাহায্য করে। একটা
-  ইট নিজের জায়গায় ছোট, কিন্তু বহু ইট মিলে বাধা তৈরি করতে পারে। দ্য ওয়াল নিয়ে এই সম্পর্ক
-  একটা সম্ভাব্য পাঠের দরজা। উপমাকে বাস্তব সমাজের পূর্ণ মডেল ভাবছি না।
+excerpt: >-
+  The metaphor of a wall helps me think about the relationship between separate parts and
+  a larger structure. One brick is small on its own, yet many bricks can form a barrier.
+  That relationship opens one possible reading of The Wall without pretending the metaphor
+  is a complete model of society.
 editorial_batch: 20261003-100-niches
 kind: research
 artist: Pink Floyd
@@ -20,12 +22,12 @@ album: The Wall
 year: ''
 ---
 
-দেয়ালের উপমা আমাকে আলাদা অংশ আর পুরো কাঠামোর সম্পর্ক ভাবতে সাহায্য করে। একটা ইট নিজের জায়গায় ছোট, কিন্তু বহু ইট মিলে বাধা তৈরি করতে পারে। দ্য ওয়াল নিয়ে এই সম্পর্ক একটা সম্ভাব্য পাঠের দরজা। উপমাকে বাস্তব সমাজের পূর্ণ মডেল ভাবছি না।
+The metaphor of a wall helps me think about the relationship between separate parts and a larger structure. One brick is small on its own, yet many bricks can form a barrier. That relationship opens one possible reading of *The Wall* without pretending the metaphor is a complete model of society.
 
-ব্যক্তির অভিজ্ঞতা আর প্রতিষ্ঠানের নিয়ম এক স্তরে থাকে না। কোনো গানের মাধ্যমে এই সম্পর্ক নিয়ে প্রশ্ন করা যায়, কিন্তু শুধু গানের কথা দিয়ে কোনো সমাজ সম্পর্কে চূড়ান্ত তথ্য প্রতিষ্ঠা করা যায় না। শিল্প আর বিশ্লেষণের দায়িত্ব আলাদা।
+Individual experience and institutional rules do not operate at the same layer. A song can help us ask questions about their relationship, but lyrics alone cannot establish final facts about a society. Art and analysis carry different responsibilities.
 
-শোনার সময় দেখতে পারি একটা অংশের পুনরাবৃত্তি বড় গঠনে কী কাজ করছে। আলাদা গান হিসেবে যা মনে হয়, অ্যালবামের মধ্যে তার অর্থ বদলায় কি না লিখে রাখা যায়।
+While listening, I can ask what repetition is doing inside the larger structure. Something that feels one way as an isolated song may change when heard inside the album, and that shift is worth recording.
 
-আমার কাছে দ্য ওয়ালের আকর্ষণীয় প্রশ্নটা বাধা শুধু বাইরের না ভেতরেরও হতে পারে কি না। সেটা একটা ব্যাখ্যা। গানের নিজস্ব গঠন আর শ্রোতার আনা প্রসঙ্গ আলাদা রাখলে ব্যাখ্যাটা আরও সৎ হয়।
+For me, one of the most interesting questions in *The Wall* is whether a barrier can be internal as well as external. That is an interpretation, not a fact established by the song. Keeping the recording's structure separate from the context I bring to it makes the interpretation more honest.
 
-সূত্র: [মূল রেফারেন্স](https://www.pinkfloyd.com/music/).
+Source: [official reference](https://www.pinkfloyd.com/music/).

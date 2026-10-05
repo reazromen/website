@@ -1,8 +1,8 @@
 ---
-title: প্রকৃতিকে বাইনারিতে লিখলে প্রকৃতি বাইনারি হয়ে যায় না
+title: Encoding Nature in Binary Does Not Make Nature Binary
 date: '2026-02-23'
 draft: false
-language: bn
+language: en
 url: /posts/bn-nature-digital-model.html
 topic: geometry-information
 tags:
@@ -10,18 +10,19 @@ tags:
 - models
 featured: false
 read_time: 2
-excerpt: কম্পিউটার প্রকৃতির অনেক তথ্যকে ডিজিটাল উপস্থাপনে ধরে। কিন্তু সেই উপস্থাপন
-  আর প্রকৃতি একই জিনিস না। আমরা কোন পার্থক্য রাখব, কত সূক্ষ্মভাবে মাপব আর কোনটা বাদ
-  দেব ঠিক করি। বাইনারি আমাদের তথ্যের নিয়ম, পর্যবেক্ষিত জগতের পূর্ণ ঘোষণা না।
+excerpt: >-
+  Computers represent many observations of nature digitally, but the representation and
+  the observed world are not the same thing. We choose which distinctions to preserve,
+  how finely to measure, and what to discard.
 editorial_batch: 20261003-100-niches
 ---
 
-কম্পিউটার প্রকৃতির অনেক তথ্যকে ডিজিটাল উপস্থাপনে ধরে। কিন্তু সেই উপস্থাপন আর প্রকৃতি একই জিনিস না। আমরা কোন পার্থক্য রাখব, কত সূক্ষ্মভাবে মাপব আর কোনটা বাদ দেব ঠিক করি। বাইনারি আমাদের তথ্যের নিয়ম, পর্যবেক্ষিত জগতের পূর্ণ ঘোষণা না।
+Computers represent many observations of nature digitally, but the representation and the observed world are not the same thing. We choose which distinctions to preserve, how finely to measure, and what to discard. Binary is a rule of representation, not a complete declaration about the structure of nature.
 
-একটা তাপমাত্রাকে সীমিত সংখ্যায় লিখলে কাছাকাছি কিছু অবস্থা একই সংখ্যায় পড়তে পারে। এতে কাজ করা সহজ হয়, কিন্তু নির্বাচনের সীমা আসে। আরও বিট থাকলে কিছু সূক্ষ্ম পার্থক্য রাখা যায়; তবু সেন্সরের অনিশ্চয়তা আলাদা থাকে।
+When a temperature is stored with limited precision, several nearby physical states may map to the same number. That makes computation practical while creating a boundary. More bits can preserve finer distinctions, but sensor uncertainty remains a separate limitation.
 
-ডিজিটাল মডেলের সফলতা কাজে প্রমাণিত হয়। যে সিদ্ধান্তের জন্য মাপ দরকার, সেই সিদ্ধান্তে যথেষ্ট তথ্য আছে কি না দেখতে হয়। সব বাস্তব পার্থক্য ধরে রাখার দাবি অনেক সময় প্রয়োজনও না।
+The success of a digital model is demonstrated by what it enables us to do. The relevant question is whether enough information has been preserved for the decision at hand. Capturing every physical difference is often neither possible nor necessary.
 
-আমার কাছে এই পার্থক্য কম্পিউটারের শক্তি কমায় না। বরং কেন সীমিত উপস্থাপন দিয়েও দরকারি কাজ সম্ভব হয় সেটা দেখায়। একটা মানচিত্র পুরো জায়গা না হয়েও পথ খুঁজতে সাহায্য করতে পারে।
+This distinction does not reduce the power of computing for me. It helps explain why limited representations can still support useful work. A map can help us navigate without being identical to the territory.
 
-সূত্র: [মূল রেফারেন্স](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf).
+Source: [official reference](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf).

@@ -1,8 +1,8 @@
 ---
-title: পড়ার নোটে উত্তরের পাশাপাশি প্রশ্ন রাখা
+title: Reading Notes Should Preserve Questions as Well as Answers
 date: '2025-07-25'
 draft: false
-language: bn
+language: en
 url: /posts/bn-reading-notes-question-bank.html
 topic: writing-systems
 tags:
@@ -10,16 +10,17 @@ tags:
 - learning
 featured: false
 read_time: 2
-excerpt: বই পড়ার নোটে সুন্দর বাক্য জমিয়ে রাখা যায়। কিন্তু পরে কাজ করতে গিয়ে দরকার
-  হয় কোন প্রশ্নের জন্য ওই অংশটি গুরুত্বপূর্ণ ছিল সেটা জানা। প্রসঙ্গ ছাড়া উদ্ধৃতি অনেক
-  সময় নিজের অর্থের বদলে সাজানো প্রমাণ হয়ে যায়।
+excerpt: >-
+  Reading notes can collect beautiful sentences, but later work often needs to know which
+  question made a passage important. A quotation without context can become decoration
+  rather than evidence.
 editorial_batch: 20261003-100-niches
 ---
 
-বই পড়ার নোটে সুন্দর বাক্য জমিয়ে রাখা যায়। কিন্তু পরে কাজ করতে গিয়ে দরকার হয় কোন প্রশ্নের জন্য ওই অংশটি গুরুত্বপূর্ণ ছিল সেটা জানা। প্রসঙ্গ ছাড়া উদ্ধৃতি অনেক সময় নিজের অর্থের বদলে সাজানো প্রমাণ হয়ে যায়।
+Reading notes can collect beautiful sentences, but later work often needs to know which question made a passage important. A quotation without context can become decoration rather than evidence.
 
-একটা ধারণা পড়লে আমি তার ব্যবহার আর সীমা আলাদা করে দেখতে চাই। কোন সমস্যা ব্যাখ্যা করে, কোথায় ব্যাখ্যা করে না, আর কোন অংশ বুঝতে এখনও কষ্ট হচ্ছে—এই প্রশ্নগুলো রাখা যায়। এতে নোট শুধু সংগ্রহ না থেকে অনুসন্ধানের মানচিত্র হয়।
+When I encounter an idea, I like to separate its use from its limits. What does it explain? Where does it stop explaining? Which part do I still not understand? Keeping those questions turns the notes from a collection into a map for investigation.
 
-পরের লেখায় সেই নোট ব্যবহার করলে উৎসের বক্তব্য আর নিজের ব্যাখ্যা আলাদা রাখতে হবে। লেখকের শব্দ দিয়ে নিজের সিদ্ধান্তের নিশ্চয়তা বানানো ঠিক না। সরাসরি উদ্ধৃতি প্রয়োজন হলে ছোট আর যথাযথ হওয়া দরকার।
+If the note is used in later writing, the source's claim and my interpretation should remain distinct. An author's words should not be borrowed to create certainty for a conclusion they did not make. Direct quotations, when needed, should be short and relevant.
 
-আমার কাছে পড়া শেষ মানে প্রশ্ন শেষ না। ভালো নোট সেই অসমাপ্ত অবস্থাকে ধরে রাখে। পরে নতুন ধারণা এলে পুরোনো প্রশ্নের সঙ্গে সম্পর্ক তৈরি করার জায়গা থাকে।
+For me, finishing a book does not mean finishing the questions. Good notes preserve that unfinished state. When a new idea arrives later, there is somewhere for it to connect with the old question.

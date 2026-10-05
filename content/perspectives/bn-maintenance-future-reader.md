@@ -1,8 +1,8 @@
 ---
-title: কোডের ভবিষ্যৎ পাঠকও একজন ব্যবহারকারী
+title: The Future Reader of Your Code Is a User Too
 date: '2026-01-17'
 draft: false
-language: bn
+language: en
 url: /posts/bn-maintenance-future-reader.html
 topic: engineering-notes
 tags:
@@ -10,16 +10,16 @@ tags:
 - maintenance
 featured: false
 read_time: 2
-excerpt: সফটওয়্যারের দৃশ্যমান ব্যবহারকারী শুধু অ্যাপের মানুষ না। যে মানুষ পরে কোড
-  বুঝবেন, বদলাবেন বা সমস্যায় রাতের মধ্যে পড়বেন, তিনিও একটা অভিজ্ঞতা পান। অস্পষ্ট সম্পর্ক
-  তার সময় খায়। রক্ষণাবেক্ষণের জন্য পড়া যায় এমন গঠন তাই পণ্যের কাজের অংশ।
+excerpt: >-
+  The visible users of software are not the only people who experience it. Someone who
+  later has to understand, change, or debug the code at night is a user of its structure too.
 editorial_batch: 20261003-100-niches
 ---
 
-সফটওয়্যারের দৃশ্যমান ব্যবহারকারী শুধু অ্যাপের মানুষ না। যে মানুষ পরে কোড বুঝবেন, বদলাবেন বা সমস্যায় রাতের মধ্যে পড়বেন, তিনিও একটা অভিজ্ঞতা পান। অস্পষ্ট সম্পর্ক তার সময় খায়। রক্ষণাবেক্ষণের জন্য পড়া যায় এমন গঠন তাই পণ্যের কাজের অংশ।
+The visible users of software are not the only people who experience it. Someone who later has to understand, change, or debug the code at night is a user of its structure too. Ambiguous relationships consume that person's time, so maintainability is part of the product's behavior.
 
-একটা ছোট ফাংশন খুব চালাক হতে পারে, কিন্তু তার শর্ত লুকানো থাকলে পরিবর্তন কঠিন হয়। কোথা থেকে ডেটা আসে, কী বদলায় আর কী ফেরত যায় স্পষ্ট করলে ভবিষ্যতের কাজের ঝুঁকি কমে।
+A small function can be clever and still be expensive to change if its assumptions are hidden. Making clear where data comes from, what is mutated, and what is returned reduces the risk of future work.
 
-কমেন্টে প্রতিটা লাইন অনুবাদ করার দরকার নেই। বরং অস্বাভাবিক সিদ্ধান্ত কেন নেওয়া হয়েছে আর কোন সীমা রক্ষা করতে হবে লেখা মূল্যবান। সে কারণ হারালে পরে ঠিক জিনিস সরিয়ে ফেলা হতে পারে।
+Comments do not need to translate every line of code into prose. They are more valuable when they explain why an unusual decision exists and which constraint must not be removed. If the reason disappears, a future maintainer may confidently delete the correct thing.
 
-আমি ভালো কোডকে শুধু চলার মুহূর্তে বিচার করতে চাই না। পরে মানুষ কীভাবে তার সঙ্গে কাজ করবেন সেটাও গুরুত্বপূর্ণ। সফটওয়্যার সময়ের মধ্যে থাকে; ভবিষ্যতের পাঠকের জন্য জায়গা রাখা সেই সময়ের দায়িত্ব।
+I do not want to judge good code only by whether it runs today. How people work with it later matters too. Software exists through time, and leaving room for the future reader is part of taking responsibility for that time.

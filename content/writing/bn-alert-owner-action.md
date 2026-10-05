@@ -1,8 +1,8 @@
 ---
-title: অ্যালার্ট বাজলে কে কী করবেন
+title: Who Does What When an Alert Fires
 date: '2025-12-15'
 draft: false
-language: bn
+language: en
 url: /posts/bn-alert-owner-action.html
 topic: observability-monitoring
 tags:
@@ -10,17 +10,19 @@ tags:
 - operations
 featured: false
 read_time: 2
-excerpt: একটা অ্যালার্টের মূল্য শুধু ব্যর্থতা চিনতে পারায় না। খবর পাওয়ার পরে কার কী
-  করার কথা, সেটাও তার অংশ। দায়িত্ব অস্পষ্ট থাকলে সঠিক খবরও কেবল আরেকটা শব্দ হয়ে থাকে।
+excerpt: >-
+  The value of an alert is not limited to detecting failure. It also includes what someone
+  is expected to do after the signal arrives. If ownership is vague, even an accurate
+  alert becomes just another piece of noise.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা অ্যালার্টের মূল্য শুধু ব্যর্থতা চিনতে পারায় না। খবর পাওয়ার পরে কার কী করার কথা, সেটাও তার অংশ। দায়িত্ব অস্পষ্ট থাকলে সঠিক খবরও কেবল আরেকটা শব্দ হয়ে থাকে।
+The value of an alert is not limited to detecting failure. It also includes what someone is expected to do after the signal arrives. If ownership is vague, even an accurate alert becomes just another piece of noise.
 
-ধরুন স্টোরেজ কমার খবর এলো। এখনই কাজ থামবে, নাকি কয়েকদিন সময় আছে? কোন সার্ভিস প্রভাবিত হবে, কোথায় বিস্তারিত দেখা যাবে, আর নিরাপদ প্রথম পদক্ষেপ কী—এই প্রসঙ্গ থাকলে খবর কাজে লাগে।
+Suppose an alert says storage is running low. Will work stop immediately, or is there still a few days of margin? Which service will be affected, where can the operator inspect the details, and what is the safest first action? The alert becomes useful when this context is available.
 
-একই লক্ষণের অনেক অ্যালার্ট একসঙ্গে এলে মূল ঘটনাকে খুঁজতে সময় লাগে। সম্পর্কযুক্ত খবর একত্র করা আর জরুরিতার মানে পরিষ্কার রাখা দরকার। সবকিছুকে সমান লাল দেখালে অগ্রাধিকার তৈরি হয় না।
+When many alerts describe the same underlying symptom, finding the actual incident takes longer. Related signals need grouping, and severity needs a clear meaning. If everything is painted the same shade of red, the system has not really created priority.
 
-আমার কাছে অ্যালার্ট একটা ছোট অপারেশনাল চুক্তি। সে বলে কী দেখা গেছে এবং কোন ধরনের মনোযোগ দরকার। মানুষের কাজের সঙ্গে সেই চুক্তি না থাকলে শনাক্তকরণের সাফল্য প্রতিক্রিয়ার সাফল্যে পৌঁছায় না।
+I think of an alert as a small operational contract. It says what was observed and what kind of attention is required. Without a connection to human action, successful detection never becomes successful response.
 
-সূত্র: [মূল রেফারেন্স](https://prometheus.io/docs/practices/alerting/).
+Source: [official reference](https://prometheus.io/docs/practices/alerting/).

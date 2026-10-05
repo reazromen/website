@@ -1,8 +1,8 @@
 ---
-title: প্রসেস চলছে, কিন্তু সার্ভিস কী করছে
+title: The Process Is Running, but Is the Service Useful?
 date: '2021-10-01'
 draft: false
-language: bn
+language: en
 url: /posts/bn-process-running-service-useful.html
 topic: production-engineering
 tags:
@@ -10,18 +10,19 @@ tags:
 - health-checks
 featured: false
 read_time: 2
-excerpt: প্রসেসের উপস্থিতি একটা দরকারি তথ্য। কিন্তু প্রসেস যে কাজ করার জন্য চলছে সে
-  কাজ হচ্ছে কি না, সেটা আলাদা। একটা ওয়েব সার্ভার জীবিত থাকতে পারে, অথচ দরকারি ডেটাবেস
-  পাওয়া যাচ্ছে না। ব্যবহারকারী তখন ব্যর্থতা দেখবেন, প্রসেস তালিকা জীবন দেখাবে।
+excerpt: >-
+  A running process is useful information, but it does not prove the process is completing
+  the work it exists to do. A web server can be alive while its required database is
+  unreachable.
 editorial_batch: 20261003-100-niches
 ---
 
-প্রসেসের উপস্থিতি একটা দরকারি তথ্য। কিন্তু প্রসেস যে কাজ করার জন্য চলছে সে কাজ হচ্ছে কি না, সেটা আলাদা। একটা ওয়েব সার্ভার জীবিত থাকতে পারে, অথচ দরকারি ডেটাবেস পাওয়া যাচ্ছে না। ব্যবহারকারী তখন ব্যর্থতা দেখবেন, প্রসেস তালিকা জীবন দেখাবে।
+A running process is useful information, but it does not prove the process is completing the work it exists to do. A web server can be alive while its required database is unreachable. The user sees failure while the process list still shows life.
 
-হেলথ চেকের স্তর তাই স্পষ্ট হওয়া দরকার। প্রসেস আছে, পোর্টে সাড়া দেয়, প্রয়োজনীয় ডিপেনডেন্সি ব্যবহার করতে পারে, আসল কাজ শেষ করে—প্রতিটা চেক আলাদা নিশ্চয়তা দেয়। সবুজ স্ট্যাটাসের পাশে কোন নিশ্চয়তা আছে জানা জরুরি।
+Health checks should therefore make their level explicit. Process exists, port responds, dependency is usable, and a real operation completes are different guarantees. A green status is only meaningful when we know which guarantee it represents.
 
-একটা ছোট কার্যকর পরীক্ষা অনেক সময় বেশি মূল্য দেয়। পুরো লেনদেন না চালিয়ে সীমিত একটা নিরাপদ কাজ করা যায় কি না দেখা সম্ভব। তবে পরীক্ষার নিজের লোড আর পার্শ্বপ্রতিক্রিয়াও ভাবতে হবে।
+A small functional probe can be more valuable than a shallow heartbeat. It may be possible to perform a limited, safe operation without executing a complete transaction. The probe's own load and side effects still have to be considered.
 
-সার্ভিসের স্বাস্থ্যকে আমি তার উদ্দেশ্যের কাছে নিতে চাই। অপারেটর শুধু জীবনচিহ্ন জানতে চান না; ব্যবহারকারীর কাজের সম্ভাবনা জানতে চান। সেই পার্থক্য রাখলে অকারণে সুস্থ ঘোষণা করা কমে।
+I want service health to stay close to the service's purpose. Operators do not only need signs of life; they need evidence that user work is likely to succeed. Keeping that distinction reduces false confidence.
 
-সূত্র: [মূল রেফারেন্স](https://www.freedesktop.org/software/systemd/man/249/systemctl.html).
+Source: [official reference](https://www.freedesktop.org/software/systemd/man/249/systemctl.html).

@@ -1,8 +1,8 @@
 ---
-title: ফার্মওয়্যার ডাউনলোড শেষ হলেই আপডেট শেষ না
+title: An OTA Download Finishing Does Not Mean the Update Is Finished
 date: '2022-07-07'
 draft: false
-language: bn
+language: en
 url: /posts/bn-ota-download-not-update.html
 topic: ota-fleet
 tags:
@@ -10,19 +10,19 @@ tags:
 - state
 featured: false
 read_time: 2
-excerpt: ওটিএর প্রগ্রেস বার পুরো হয়ে গেলে একটা ফাইল পৌঁছানোর কাজ শেষ হয়েছে। কিন্তু
-  ডিভাইস সেই ফাইল দিয়ে চালু হতে পেরেছে কি না, সেটি তখনও অন্য প্রশ্ন। নতুন ফার্মওয়্যার
-  বুট করলেই আবার সব ফিচার কাজ করছে এমন নিশ্চয়তা আসে না। আপডেটের সফলতা তাই একটা মুহূর্তের
-  বদলে কয়েকটা অবস্থার সম্পর্ক।
+excerpt: >-
+  A full OTA progress bar proves that a file transfer completed. It does not yet prove
+  that the device booted the image successfully or that the required product functions
+  still work. Update success spans several states.
 editorial_batch: 20261003-100-niches
 ---
 
-ওটিএর প্রগ্রেস বার পুরো হয়ে গেলে একটা ফাইল পৌঁছানোর কাজ শেষ হয়েছে। কিন্তু ডিভাইস সেই ফাইল দিয়ে চালু হতে পেরেছে কি না, সেটি তখনও অন্য প্রশ্ন। নতুন ফার্মওয়্যার বুট করলেই আবার সব ফিচার কাজ করছে এমন নিশ্চয়তা আসে না। আপডেটের সফলতা তাই একটা মুহূর্তের বদলে কয়েকটা অবস্থার সম্পর্ক।
+A full OTA progress bar proves that a file transfer completed. It does not yet prove that the device booted the image successfully or that the required product functions still work. Update success spans several states rather than one moment.
 
-ধরুন নতুন ইমেজ নামল, ডিভাইস রিস্টার্ট হলো, তারপর অডিও চালু হলো না। ডাউনলোডের লগে সাফল্য থাকলেও পণ্যের গুরুত্বপূর্ণ কাজ ব্যর্থ। স্বাস্থ্য যাচাইয়ের মধ্যে সেই কাজের পরীক্ষা না থাকলে ভুল ইমেজকে ভালো বলে চিহ্নিত করা হতে পারে। শুধু বুটের খবর আর ব্যবহারযোগ্য হওয়ার খবর আলাদা রাখতে হবে।
+Suppose the new image downloads, the device restarts, and audio never comes back. The transfer log is successful, but a critical product function has failed. If health validation tests only for boot, the system may mark a bad image as good. Boot confirmation and usability confirmation should remain separate.
 
-ওটিএ ডিজাইনে দরকার কোন অবস্থায় পুরোনো ইমেজে ফেরত যাওয়া যাবে, কখন নতুনটা গ্রহণ করা হবে, আর সেই সিদ্ধান্তের প্রমাণ কী। সব ডিভাইস একই সঙ্গে বদলানোর আগে ছোট একটা গ্রুপে আচরণ দেখা সুবিধাজনক। পরীক্ষা যেন বাস্তব ফার্মওয়্যার, বুটলোডার আর পার্টিশনের সীমা ধরে হয়।
+OTA design also needs rules for when rollback is allowed, when a new image becomes accepted, and what evidence supports that decision. Before updating the whole fleet, it is useful to observe a small group first. Tests should reflect the actual firmware, bootloader, and partition constraints of the device.
 
-ড্যাশবোর্ডে সফল লেখা সহজ। কিন্তু সেই শব্দের অর্থ ঠিক করা আসল কাজ। ডাউনলোড, বুট আর প্রয়োজনীয় কাজের যাচাই আলাদা দেখালে অপারেটর বুঝতে পারেন আপডেট কোথায় দাঁড়িয়ে আছে। একটা শেষ হওয়া ট্রান্সফারকে সম্পূর্ণ রিলিজ বলে ধরে নেওয়া কমে।
+Writing *success* on a dashboard is easy; defining what that word means is the real work. Separating download, boot, and functional validation lets an operator see where an update actually stands instead of treating a completed transfer as a completed release.
 
-সূত্র: [মূল রেফারেন্স](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/system/ota.html).
+Source: [official reference](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/system/ota.html).

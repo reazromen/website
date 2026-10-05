@@ -1,8 +1,8 @@
 ---
-title: লেখা মানে চিন্তাকে নিজের মাথার বাইরে রাখা
+title: Writing Moves Thought Outside the Head
 date: '2025-01-14'
 draft: false
-language: bn
+language: en
 url: /posts/bn-writing-thought-external-memory.html
 topic: writing-systems
 tags:
@@ -10,16 +10,17 @@ tags:
 - memory
 featured: false
 read_time: 2
-excerpt: মাথার ভেতরের একটা ধারণা পরিষ্কার মনে হতে পারে। কিন্তু লিখতে বসলে দেখা যায়
-  কোথাও সম্পর্ক বাদ গেছে, কোথাও শব্দের অর্থ অস্পষ্ট। লেখার এই বাধাটাই আমার কাছে দরকারি।
-  চিন্তা বাইরে এলে তাকে আবার পড়া যায়, প্রশ্ন করা যায়।
+excerpt: >-
+  An idea can feel perfectly clear while it remains in the mind. Writing often reveals
+  missing relationships and ambiguous words. Once the thought exists outside the head,
+  it can be reread and questioned.
 editorial_batch: 20261003-100-niches
 ---
 
-মাথার ভেতরের একটা ধারণা পরিষ্কার মনে হতে পারে। কিন্তু লিখতে বসলে দেখা যায় কোথাও সম্পর্ক বাদ গেছে, কোথাও শব্দের অর্থ অস্পষ্ট। লেখার এই বাধাটাই আমার কাছে দরকারি। চিন্তা বাইরে এলে তাকে আবার পড়া যায়, প্রশ্ন করা যায়।
+An idea can feel perfectly clear while it remains in the mind. Writing often reveals missing relationships and ambiguous words. That friction is useful to me. Once the thought exists outside the head, it can be reread and questioned.
 
-একটা সিস্টেম কীভাবে কাজ করে বোঝাতে গেলে শুরু আর শেষের মাঝের পথ লিখতে হয়। শুধু কম্পোনেন্টের নাম দিলে পাঠক সম্পর্ক পান না। কোন তথ্য কোথায় যায় আর কোন অবস্থায় কাজ থামে—এই ব্যাখ্যায় নিজের অজানাও সামনে আসে।
+Explaining how a system works requires writing the path between beginning and end. Listing component names is not enough. Where does information move? Under what condition does the work stop? Trying to explain those relationships also reveals what I do not yet understand.
 
-লেখার মূল্য তাই শুধু অন্যকে জানানোতে না। সে নিজের বোঝার পরীক্ষা হতে পারে। তবে সুন্দর বাক্য দিয়ে ফাঁক ঢেকে দেওয়া সহজ। যেখানে নিশ্চিত না, সেখানে অনিশ্চয়তা রাখা ব্যাখ্যাকে দুর্বল করে না।
+Writing is therefore not only a way to tell other people something. It can be a test of my own understanding. Beautiful sentences can hide gaps, though, so uncertainty should remain visible where the evidence is incomplete.
 
-আমি লেখাকে চিন্তার স্থায়ী সমাধান ভাবি না। বরং একটা নির্দিষ্ট সময়ের বোঝা রেখে দেওয়ার উপায়। পরে আরও জানলে সেই লেখার সঙ্গে নিজের নতুন অবস্থার তুলনা করা যায়।
+I do not treat writing as a permanent solution to thought. It is a way to preserve what I understood at a particular time. When I learn more later, I can compare the newer understanding with the older one instead of pretending the earlier state never existed.

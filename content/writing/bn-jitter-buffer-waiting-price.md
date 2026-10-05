@@ -1,8 +1,8 @@
 ---
-title: 'জিটার বাফার: একটু অপেক্ষা করে ধারাবাহিক শব্দ পাওয়া'
+title: "Jitter Buffer: Paying With Delay for Continuous Audio"
 date: '2024-11-09'
 draft: false
-language: bn
+language: en
 url: /posts/bn-jitter-buffer-waiting-price.html
 topic: embedded-audio-voice
 tags:
@@ -10,20 +10,19 @@ tags:
 - audio
 featured: false
 read_time: 2
-excerpt: অডিও প্যাকেট নেটওয়ার্কে একই দূরত্ব পার হলেও একই সময়ে আসে না। কোনোটা আগে,
-  কোনোটা একটু পরে। সরাসরি আসার সঙ্গে সঙ্গে প্লে করলে এই অনিয়ম শব্দে ফাঁক তৈরি করতে
-  পারে। জিটার বাফারের কাজ হচ্ছে সামান্য অপেক্ষা করে প্যাকেটগুলোকে প্লেব্যাকের জন্য
-  একটা নিয়মিত ছন্দে আনা। মজার ব্যাপার হচ্ছে, সেই অপেক্ষাই আবার কথোপকথনের লেটেন্সি
-  বাড়ায়। সমস্যার সমাধান আর সমস্যার একটা অংশ এখানে একই জায়গায় থাকে।
+excerpt: >-
+  Audio packets do not arrive at perfectly regular intervals even when they travel the
+  same network path. A jitter buffer waits long enough to smooth that variation, but the
+  waiting itself increases conversational latency.
 editorial_batch: 20261003-100-niches
 ---
 
-অডিও প্যাকেট নেটওয়ার্কে একই দূরত্ব পার হলেও একই সময়ে আসে না। কোনোটা আগে, কোনোটা একটু পরে। সরাসরি আসার সঙ্গে সঙ্গে প্লে করলে এই অনিয়ম শব্দে ফাঁক তৈরি করতে পারে। জিটার বাফারের কাজ হচ্ছে সামান্য অপেক্ষা করে প্যাকেটগুলোকে প্লেব্যাকের জন্য একটা নিয়মিত ছন্দে আনা। মজার ব্যাপার হচ্ছে, সেই অপেক্ষাই আবার কথোপকথনের লেটেন্সি বাড়ায়। সমস্যার সমাধান আর সমস্যার একটা অংশ এখানে একই জায়গায় থাকে।
+Audio packets do not arrive at perfectly regular intervals even when they travel the same network path. Some arrive early, some later. If every packet is played immediately on arrival, that variation can become gaps in the sound. A jitter buffer waits briefly and turns irregular arrivals into a more regular playback schedule. The interesting part is that the same waiting also increases conversational latency. The solution and part of the cost live in the same mechanism.
 
-একটা ছোট বাফার দ্রুত প্রতিক্রিয়া দিতে পারে, কিন্তু দেরিতে আসা প্যাকেট রাখার সুযোগ কম। বড় বাফার অনিয়ম বেশি সামলায়, কিন্তু আপনি কথা বলার পর অপর পাশ শুনতে আরও সময় নেয়। তাই সবচেয়ে বড় বাফারই সবচেয়ে ভালো—এমন কোনো সাধারণ নিয়ম নেই। ভালো সিদ্ধান্তের জন্য দেখতে হয় নেটওয়ার্কের দেরি কতটা বদলাচ্ছে, প্লেব্যাক ডেডলাইন কতটা কড়া, আর মানুষ কী ধরনের কথোপকথন করছে।
+A small buffer can feel responsive but has less room for late packets. A large buffer can absorb more variation, but the other person hears your speech later. There is no universal rule that the biggest buffer is best. The useful setting depends on how much network delay varies, how strict the playback deadline is, and what kind of conversation people are having.
 
-উদাহরণ হিসেবে একটা রেকর্ড করা বক্তব্য আর সরাসরি ফোনকল ভাবুন। প্রথমটায় কিছু অতিরিক্ত অপেক্ষা প্রায় অদৃশ্য থাকতে পারে। দ্বিতীয়টায় সেই অপেক্ষা মানুষকে একই সঙ্গে কথা শুরু করতে বাধ্য করে। তখন সবাই ভাবে অপর পাশ চুপ আছে, অথচ কথাটা পথে আছে। অডিওর মান শুধু শব্দ পরিষ্কার হওয়ার প্রশ্ন না; কথার পালা নেওয়ার অভিজ্ঞতাও তার অংশ।
+Compare recorded speech with a live phone call. A little extra delay may be nearly invisible in the recording. In a conversation, the same delay can make both people start speaking at once because each thinks the other has gone quiet. Audio quality is therefore not only about clarity; turn-taking is part of the experience too.
 
-ডিবাগ করার সময় গড় দেরি দেখার পাশাপাশি দেরির ছড়িয়ে পড়া দেখতে হবে। প্যাকেট কখন পাঠানো হয়েছিল, কখন এসেছে, কখন প্লে হওয়ার কথা ছিল—এই তিনটা সময় আলাদা। সব দেরি নেটওয়ার্কেরও না; ডিভাইসের শিডিউলার আর অডিও বাফার যোগ হয়। জিটার বাফার একটা নিয়ন্ত্রিত আপস। লক্ষ্য শূন্য অপেক্ষা দাবি করা না, বরং অপেক্ষার দাম বুঝে ধারাবাহিকতা রাখা।
+When debugging, look beyond average latency and inspect its distribution. Packet send time, arrival time, and playback deadline are three different clocks. Not all delay comes from the network either; device scheduling and audio buffering contribute as well. A jitter buffer is a controlled tradeoff. The goal is not zero waiting at any cost, but continuity with a delay budget you understand.
 
-সূত্র: [মূল রেফারেন্স](https://www.rfc-editor.org/rfc/rfc3550.html).
+Source: [official reference](https://www.rfc-editor.org/rfc/rfc3550.html).

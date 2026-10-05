@@ -1,8 +1,8 @@
 ---
-title: অ্যান্টেনা বোর্ডের বাইরে শেষ হয় না
+title: The Antenna Does Not End at the Edge of the Board
 date: '2023-06-25'
 draft: false
-language: bn
+language: en
 url: /posts/bn-antenna-physical-context.html
 topic: pcb-bringup-hardware
 tags:
@@ -10,18 +10,19 @@ tags:
 - hardware
 featured: false
 read_time: 2
-excerpt: বোর্ডের অ্যান্টেনা দেখে তার আচরণ আন্দাজ করা যায়, কিন্তু বাস্তব পণ্যে আশপাশের
-  বস্তু সম্পর্কের অংশ হয়ে যায়। কেস, তার, ধাতব অংশ আর ডিভাইসের অবস্থান পরীক্ষাকে বদলাতে
-  পারে। খোলা বোর্ডের ফলকে বন্ধ কেসের নিশ্চয়তা ধরে নেওয়া তাই ঝুঁকিপূর্ণ।
+excerpt: >-
+  A board antenna gives clues about expected behavior, but in a real product the surrounding
+  objects become part of the system. The enclosure, cables, metal parts, and device placement
+  can all change the result. An open-board test is not a guarantee for the finished enclosure.
 editorial_batch: 20261003-100-niches
 ---
 
-বোর্ডের অ্যান্টেনা দেখে তার আচরণ আন্দাজ করা যায়, কিন্তু বাস্তব পণ্যে আশপাশের বস্তু সম্পর্কের অংশ হয়ে যায়। কেস, তার, ধাতব অংশ আর ডিভাইসের অবস্থান পরীক্ষাকে বদলাতে পারে। খোলা বোর্ডের ফলকে বন্ধ কেসের নিশ্চয়তা ধরে নেওয়া তাই ঝুঁকিপূর্ণ।
+A board antenna gives clues about expected behavior, but in a real product the surrounding objects become part of the system. The enclosure, cables, metal parts, and device placement can all change the result. An open-board test is not a guarantee for the finished enclosure.
 
-ধরুন টেবিলে রাখা ডিভাইস ভালো কাজ করছে। মানুষ হাতে নিলে বা দেয়ালের পাশে রাখলে ফল বদলাল। তখন শুধু ফার্মওয়্যার সন্দেহ করা যথেষ্ট না। বাস্তব ব্যবহারের ভৌত প্রসঙ্গও পরীক্ষা করতে হবে।
+Suppose a device works well on a desk, but the result changes when someone holds it or places it near a wall. Firmware is not the only suspect. The physical context of real use has to be part of the test.
 
-তুলনায় একটা পরিবর্তন করে মাপা সুবিধাজনক। বোর্ডের রিভিশন, কেস আর অবস্থান একসঙ্গে বদলালে কোনটা ফল বদলেছে বোঝা কঠিন হয়। একই জায়গায় একই পদ্ধতিতে একাধিক মাপ প্রয়োজন।
+It helps to change one variable at a time. If the board revision, enclosure, and placement all change together, it becomes difficult to identify what actually changed the result. Multiple measurements under the same method and in the same location are more useful.
 
-হার্ডওয়্যারের আকর্ষণ এখানেই: স্কিমেটিকের রেখা বাস্তব জগতে গিয়ে শেষ হয় না। পণ্যটি যেখানে থাকবে সেই পরিবেশও সার্কিটের কার্যকর গল্পের অংশ। রেডিওর পরীক্ষা তাই সফটওয়্যার আপলোডের পরও চলতে থাকে।
+This is one of the things I like about hardware: the lines on a schematic do not end when they meet the physical world. The environment in which the product lives becomes part of the effective circuit story. Radio testing therefore continues long after the software has been flashed.
 
-সূত্র: [মূল রেফারেন্স](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/index.html).
+Source: [official reference](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/index.html).

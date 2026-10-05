@@ -1,8 +1,8 @@
 ---
-title: রিং বাফারে জায়গার চেয়ে মালিকানা বেশি জরুরি
+title: Ring Buffers Need Ownership Rules More Than They Need Extra Space
 date: '2025-11-17'
 draft: false
-language: bn
+language: en
 url: /posts/bn-ring-buffer-ownership.html
 topic: embedded-audio-voice
 tags:
@@ -10,19 +10,19 @@ tags:
 - memory
 featured: false
 read_time: 2
-excerpt: অডিও বাফার বড় করলে কিছু সমস্যা সাময়িকভাবে কমে। কিন্তু কে লিখছে, কে পড়ছে,
-  আর কখন একটা অংশ আবার ব্যবহার করা যাবে—এসব অস্পষ্ট থাকলে শুধু জায়গা বাড়িয়ে নিরাপত্তা
-  আসে না। একই মেমোরির ওপর একাধিক টাস্ক কাজ করলে মালিকানার নিয়ম দরকার। বাফারের আকার
-  সেই নিয়মের বদলি না।
+excerpt: >-
+  A larger audio buffer can hide some problems temporarily, but extra capacity does not
+  make shared memory safe when ownership is unclear. The design still needs rules for who
+  writes, who reads, and when a region may be reused.
 editorial_batch: 20261003-100-niches
 ---
 
-অডিও বাফার বড় করলে কিছু সমস্যা সাময়িকভাবে কমে। কিন্তু কে লিখছে, কে পড়ছে, আর কখন একটা অংশ আবার ব্যবহার করা যাবে—এসব অস্পষ্ট থাকলে শুধু জায়গা বাড়িয়ে নিরাপত্তা আসে না। একই মেমোরির ওপর একাধিক টাস্ক কাজ করলে মালিকানার নিয়ম দরকার। বাফারের আকার সেই নিয়মের বদলি না।
+A larger audio buffer can hide some problems temporarily, but extra capacity does not make shared memory safe when ownership is unclear. The design still needs rules for who writes, who reads, and when a region may be reused. Buffer size is not a substitute for lifecycle.
 
-একটা ক্যাপচার টাস্ক নতুন স্যাম্পল লিখছে, আর প্লেব্যাক টাস্ক আগের স্যাম্পল পড়ছে ভাবুন। লেখক যদি পাঠকের ব্যবহার শেষ হওয়ার আগে অংশটা বদলে দেয়, শব্দে সমস্যা হতে পারে। আবার পাঠক জায়গা ফেরত না দিলে নতুন ডেটার জন্য জায়গা শেষ হবে। দুই দিকের সম্পর্কই নকশার অংশ।
+Imagine a capture task writing new samples while a playback task reads older ones. If the writer reuses a region before the reader is finished, the audio can be corrupted. If the reader never releases space, the writer eventually has nowhere to put new data. Both directions are part of the contract.
 
-ডিবাগ করতে শুধু খালি বাইট গুনবেন না। কোন ফ্রেম কোথা থেকে এসেছে, কতক্ষণ অপেক্ষা করেছে, আর কখন ছেড়ে দেওয়া হয়েছে দেখুন। ওভাররান আর আন্ডাররান এক সমস্যার দুই নাম না; একটায় লেখার চাপ, অন্যটায় পড়ার সময় প্রয়োজনীয় ডেটার অভাব।
+During debugging, do not count only free bytes. Track which frame came from where, how long it waited, and when it was released. Overrun and underrun are not two names for the same problem: one reflects write pressure, while the other means the reader did not have data when it needed it.
 
-ছোট এমবেডেড সিস্টেমে এই পার্থক্য আরও গুরুত্বপূর্ণ। মেমোরি সীমিত বলে কপি কমাতে হয়, অথচ কপি কমালে মালিকানা কঠিন হতে পারে। ভালো বাফার ডিজাইন তাই জায়গা বাঁচানো, সময় সামলানো আর জীবনচক্র পরিষ্কার রাখার একসঙ্গে কাজ।
+This distinction becomes especially important on small embedded systems. Limited memory encourages fewer copies, but fewer copies often make ownership harder. Good buffer design balances space, timing, and a clear lifecycle at the same time.
 
-সূত্র: [মূল রেফারেন্স](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/system/freertos_additions.html).
+Source: [official reference](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/system/freertos_additions.html).

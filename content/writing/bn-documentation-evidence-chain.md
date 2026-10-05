@@ -1,8 +1,8 @@
 ---
-title: ডকুমেন্টেশনে ফলের সঙ্গে প্রমাণের পথ রাখা
+title: Documentation Should Preserve the Path From Claim to Evidence
 date: '2023-06-30'
 draft: false
-language: bn
+language: en
 url: /posts/bn-documentation-evidence-chain.html
 topic: writing-systems
 tags:
@@ -10,16 +10,17 @@ tags:
 - evidence
 featured: false
 read_time: 2
-excerpt: সিস্টেম কাজ করে লেখা আর কীভাবে জানা গেল লেখা আলাদা। ডকুমেন্টেশনে শুধু ফল
-  থাকলে পরের মানুষ একই দাবি পরীক্ষা করতে পারেন না। কাজের শর্ত, পরীক্ষা আর সীমা থাকলে
-  ফলটা অনুসরণযোগ্য হয়।
+excerpt: >-
+  Writing that a system works is different from documenting how that conclusion was reached.
+  Without evidence, the next person cannot reproduce the claim. Conditions, tests, and
+  limits make the result traceable.
 editorial_batch: 20261003-100-niches
 ---
 
-সিস্টেম কাজ করে লেখা আর কীভাবে জানা গেল লেখা আলাদা। ডকুমেন্টেশনে শুধু ফল থাকলে পরের মানুষ একই দাবি পরীক্ষা করতে পারেন না। কাজের শর্ত, পরীক্ষা আর সীমা থাকলে ফলটা অনুসরণযোগ্য হয়।
+Writing that a system works is different from documenting how that conclusion was reached. Without evidence, the next person cannot reproduce the claim. Conditions, tests, and limits make the result traceable.
 
-ধরুন একটা সার্ভিস সুস্থ বলা হলো। কোন রুট পরীক্ষা হয়েছে, কোন বিল্ড চলেছে, কোন ডিপেনডেন্সি ব্যবহার হয়েছে—এই তথ্য দাবির পরিধি বোঝায়। সব লগ ঢেলে দেওয়ার দরকার নেই; সিদ্ধান্তের জন্য দরকারি প্রমাণ বেছে রাখতে হয়।
+Suppose a service is declared healthy. Which route was tested? Which build was running? Which dependencies were involved? Those details define the scope of the claim. There is no need to dump every log; the useful evidence is the evidence that supports the decision.
 
-গোপন তথ্য রেড্যাক্ট করাও কাজের অংশ। প্রমাণ দেখানোর জন্য পরিচয়, টোকেন বা ব্যক্তিগত তথ্য প্রকাশ করা দরকার নেই। পরিষ্কার ব্যাখ্যার সঙ্গে প্রয়োজনীয় সীমিত আর্টিফ্যাক্ট রাখা যায়।
+Redaction is part of the work too. Demonstrating evidence does not require exposing identities, tokens, or personal information. A clear explanation can be paired with only the artifacts that are necessary.
 
-আমার কাছে ডকুমেন্টেশন স্মৃতির পাশাপাশি যাচাইয়ের পথ। ভবিষ্যতের মানুষ যেন বুঝতে পারেন কী দেখা হয়েছে, কী অনুমান করা হয়েছে আর কী এখনও অজানা। সেই পার্থক্য থাকলে ইতিহাস ব্যবহারযোগ্য হয়।
+For me, documentation is both memory and a path to verification. A future reader should be able to distinguish what was observed, what was inferred, and what remains unknown. That separation is what makes history reusable.

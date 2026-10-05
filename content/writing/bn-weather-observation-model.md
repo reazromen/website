@@ -1,8 +1,8 @@
 ---
-title: আবহাওয়ার মডেল আর মাঠের মাপ আলাদা তথ্য
+title: Weather Models and Field Observations Are Different Kinds of Data
 date: '2026-09-06'
 draft: false
-language: bn
+language: en
 url: /posts/bn-weather-observation-model.html
 topic: environmental-systems
 tags:
@@ -10,18 +10,19 @@ tags:
 - data-quality
 featured: false
 read_time: 2
-excerpt: কোনো জায়গার তাপমাত্রা দেখলে প্রথমে জানা দরকার সংখ্যাটা কোথা থেকে এসেছে। কাছের
-  স্টেশনের মাপ, গ্রিডের মডেল আর পরে তৈরি রিএনালিসিস এক ধরনের তথ্য না। তাদের কাজের
-  উদ্দেশ্য আর সীমাও আলাদা।
+excerpt: >-
+  Before interpreting a temperature for a location, first ask where the number came from.
+  A nearby station observation, a model grid value, and a later reanalysis product are not
+  the same kind of evidence.
 editorial_batch: 20261003-100-niches
 ---
 
-কোনো জায়গার তাপমাত্রা দেখলে প্রথমে জানা দরকার সংখ্যাটা কোথা থেকে এসেছে। কাছের স্টেশনের মাপ, গ্রিডের মডেল আর পরে তৈরি রিএনালিসিস এক ধরনের তথ্য না। তাদের কাজের উদ্দেশ্য আর সীমাও আলাদা।
+Before interpreting a temperature for a location, first ask where the number came from. A nearby station observation, a model grid value, and a later reanalysis product are not the same kind of evidence. They exist for different purposes and have different limits.
 
-ধরুন দুই উৎসে তাপমাত্রা মিলছে না। সঙ্গে সঙ্গে একটাকে ভুল বলা কঠিন। অবস্থান, উচ্চতা, সময় আর ডেটা তৈরির পদ্ধতি দেখতে হবে। একই শহরের নাম থাকলেই দুই সংখ্যা একই ভৌত জায়গার সমান মাপ না।
+Suppose two sources disagree on temperature. It is difficult to declare one wrong immediately. Location, elevation, time, and data-generation method all matter. Two values carrying the same city name do not necessarily describe the exact same physical point.
 
-ড্যাশবোর্ডে উৎসের নাম, সময় আর ধরন রাখলে ব্যবহারকারী পার্থক্য বুঝতে পারেন। মডেলের মানকে মাপ বলা বা মাপকে পূর্বাভাস বলা অকারণে বড় দাবি তৈরি করে।
+A dashboard should preserve source name, timestamp, and data type. Calling a model output a direct measurement—or calling an observation a forecast—creates a larger claim than the data supports.
 
-আমার কাছে পরিবেশের ডেটা দেখানোর প্রথম দায়িত্ব সংখ্যার পরিচয় রাখা। সংখ্যা যত সুন্দরভাবে প্রদর্শিত হোক, তার জন্মের পদ্ধতি হারালে সিদ্ধান্তের ভিত্তি দুর্বল হয়। একাধিক উৎস মূল্যবান যখন তাদের পার্থক্যও দৃশ্যমান থাকে।
+For me, the first responsibility of an environmental data interface is preserving the identity of the number. Beautiful visualization cannot compensate for losing how the data was produced. Multiple sources become most valuable when their differences remain visible.
 
-সূত্র: [মূল রেফারেন্স](https://open-meteo.com/en/docs/historical-weather-api).
+Source: [official reference](https://open-meteo.com/en/docs/historical-weather-api).

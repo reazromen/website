@@ -1,8 +1,8 @@
 ---
-title: এককের লেবেল ছোট, ভুলের পরিধি বড়
+title: A Unit Label Is Small, but the Error Can Be Large
 date: '2021-07-20'
 draft: false
-language: bn
+language: en
 url: /posts/bn-unit-label-human-error.html
 topic: environmental-systems
 tags:
@@ -10,18 +10,19 @@ tags:
 - interfaces
 featured: false
 read_time: 2
-excerpt: একটা সংখ্যা দেখে তার একক আন্দাজ করা সহজ। কিন্তু তাপমাত্রা, প্রবাহ, বৃষ্টি
-  আর সময়ের আলাদা উপস্থাপন থাকতে পারে। লেবেল অনুপস্থিত হলে মানুষ নিজের পরিচিত অর্থ
-  বসিয়ে দেন। তখন সঠিক ডেটাও ভুল সিদ্ধান্তে যায়।
+excerpt: >-
+  It is easy to infer a unit from a number, but temperature, flow, rainfall, and time can
+  all be represented in different ways. When a label is missing, people supply the meaning
+  they already expect, and correct data can lead to a wrong decision.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা সংখ্যা দেখে তার একক আন্দাজ করা সহজ। কিন্তু তাপমাত্রা, প্রবাহ, বৃষ্টি আর সময়ের আলাদা উপস্থাপন থাকতে পারে। লেবেল অনুপস্থিত হলে মানুষ নিজের পরিচিত অর্থ বসিয়ে দেন। তখন সঠিক ডেটাও ভুল সিদ্ধান্তে যায়।
+It is easy to infer a unit from a number, but temperature, flow, rainfall, and time can all be represented in different ways. When a label is missing, people supply the meaning they already expect, and correct data can lead to a wrong decision.
 
-বৃষ্টির একটা মান কোন সময়ের মোট, না একটা হারের প্রকাশ—এটাও দরকারি পার্থক্য। অক্ষের শিরোনামে শুধু বৃষ্টি লেখা যথেষ্ট নাও হতে পারে। সময়ের জানালা বদলালে সংখ্যা কীভাবে পড়তে হবে তা স্পষ্ট রাখতে হয়।
+A rainfall value may represent an accumulated total over a period or a rate. A chart labeled only *rainfall* may not communicate that difference. When the time window changes, the interface should make clear how the number should be interpreted.
 
-ইউনিট রূপান্তর করলে উৎসের মান আর প্রদর্শিত মানের সম্পর্ক যাচাই করুন। একাধিক উৎস পাশাপাশি হলে একই এককে আনলেও পদ্ধতির পার্থক্য থেকে যায়। শুধু সংখ্যাকে সমান সাজানো তাদের সমতুল্য করে না।
+When converting units, verify the relationship between the source value and the displayed value. If several sources are placed side by side, converting them to the same unit does not erase differences in method.
 
-আমি ইন্টারফেসের এই ছোট লেখাগুলোকে ডেটার অংশ মনে করি। ইউনিট আর সময় বাদ দিলে প্যানেল সুন্দর থাকে, কিন্তু বক্তব্য অসম্পূর্ণ হয়। নির্ভুল প্রদর্শন শুরু হয় সংখ্যার পরিচয় দিয়ে।
+I treat these small interface labels as part of the data. Removing units and time context may make a panel visually cleaner, but it also makes the statement incomplete. Precise display begins by preserving the identity of the number.
 
-সূত্র: [মূল রেফারেন্স](https://open-meteo.com/en/docs).
+Source: [official reference](https://open-meteo.com/en/docs).

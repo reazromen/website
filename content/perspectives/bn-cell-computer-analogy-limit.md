@@ -1,8 +1,8 @@
 ---
-title: সেলকে কম্পিউটার বললে কোথায় তুলনাটা থামে
+title: Where Does the Cell-as-Computer Analogy Stop Working?
 date: '2020-06-16'
 draft: false
-language: bn
+language: en
 url: /posts/bn-cell-computer-analogy-limit.html
 topic: biology-systems
 tags:
@@ -10,18 +10,18 @@ tags:
 - systems-thinking
 featured: false
 read_time: 2
-excerpt: সেলের মধ্যে তথ্য, প্রতিক্রিয়া আর নিয়ন্ত্রণের সম্পর্ক দেখে কম্পিউটারের কথা
-  মনে হতে পারে। এই তুলনা কিছু প্রশ্ন বুঝতে সাহায্য করে। কিন্তু তুলনা মানে দুই জিনিস
-  একই না। সেলের ভৌত প্রক্রিয়া আর মানুষের বানানো ডিজিটাল কম্পিউটারের নিয়ম আলাদা।
+excerpt: >-
+  Information, response, and control inside a cell can remind us of computing. The analogy
+  can help frame some questions, but similarity does not make the two systems identical.
 editorial_batch: 20261003-100-niches
 ---
 
-সেলের মধ্যে তথ্য, প্রতিক্রিয়া আর নিয়ন্ত্রণের সম্পর্ক দেখে কম্পিউটারের কথা মনে হতে পারে। এই তুলনা কিছু প্রশ্ন বুঝতে সাহায্য করে। কিন্তু তুলনা মানে দুই জিনিস একই না। সেলের ভৌত প্রক্রিয়া আর মানুষের বানানো ডিজিটাল কম্পিউটারের নিয়ম আলাদা।
+Information, response, and control inside a cell can remind us of computing. The analogy can help frame some questions, but similarity does not make the two systems identical. Cellular processes and human-designed digital computers follow different physical and historical constraints.
 
-কম্পিউটারে কোড আর যে হার্ডওয়্যার তা চালায় তাদের আলাদা করে ভাবা সুবিধাজনক। জীবন্ত সিস্টেমে সেই আলাদা করার ভাষা সব জায়গায় একইভাবে বসে না। রাসায়নিক অবস্থা, পরিবেশ আর গঠনের সম্পর্ক তথ্যের কাজের সঙ্গে মিশে থাকে।
+In computing, it is often useful to separate software from the hardware executing it. In living systems, that separation does not map cleanly onto every layer. Chemical state, environment, structure, and information processing are deeply entangled.
 
-তাই উপমা ব্যবহারের সময় কোন অংশ তুলনা করছি লিখে রাখা ভালো। ইনপুটের প্রতিক্রিয়া, ফিডব্যাক বা তথ্যের সংরক্ষণ—একটা নির্দিষ্ট সম্পর্ক বেছে দেখা যায়। কিন্তু সেই মিল থেকে ইচ্ছা বা সচেতনতা সম্পর্কে বাড়তি দাবি আসে না।
+When using an analogy, it helps to name the exact relationship being compared. Response to input, feedback, or information storage can each be useful lenses. But those similarities do not automatically justify claims about intention or consciousness.
 
-জীববিজ্ঞানকে আমার আকর্ষণ করে এই সীমা। পরিচিত ভাষা দিয়ে কাছে যাওয়া যায়, কিন্তু জগতটা সেই ভাষার চেয়ে বড় থাকে। উপমার কাজ দরজা খোলা; সব ব্যাখ্যা শেষ করে দেওয়া না।
+Biology interests me partly because of this boundary. Familiar language can help us approach it, but the living system remains larger than the metaphor. The purpose of the analogy is to open a door, not to finish the explanation.
 
-সূত্র: [মূল রেফারেন্স](https://openstax.org/books/biology-2e/pages/4-introduction).
+Source: [official reference](https://openstax.org/books/biology-2e/pages/4-introduction).

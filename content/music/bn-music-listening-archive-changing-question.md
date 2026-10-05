@@ -1,8 +1,8 @@
 ---
-title: লিসেনিং আর্কাইভে একই গানের নতুন প্রশ্ন
+title: New Questions for the Same Song in a Listening Archive
 date: '2024-07-01'
 draft: false
-language: bn
+language: en
 url: /posts/bn-music-listening-archive-changing-question.html
 topic: music-listening
 tags:
@@ -10,9 +10,10 @@ tags:
 - publishing
 featured: false
 read_time: 2
-excerpt: একটা গানের নোটকে চূড়ান্ত রিভিউ হিসেবে রাখলে পরে বদলানোর জায়গা ছোট হয়। লিসেনিং
-  আর্কাইভে বরং নির্দিষ্ট সময়ের একটা প্রশ্ন রাখা যায়। পরের নোট সেই প্রশ্নের পাশে নতুন
-  সম্পর্ক যোগ করতে পারে। আগের কথাকে মুছে ফেলা জরুরি না।
+excerpt: >-
+  Treating every listening note as a final review leaves little room for change. A listening
+  archive can instead preserve the question I had at a particular time. A later note can
+  add a new relationship beside it without erasing the earlier one.
 editorial_batch: 20261003-100-niches
 kind: research
 artist: ''
@@ -20,10 +21,10 @@ album: ''
 year: ''
 ---
 
-একটা গানের নোটকে চূড়ান্ত রিভিউ হিসেবে রাখলে পরে বদলানোর জায়গা ছোট হয়। লিসেনিং আর্কাইভে বরং নির্দিষ্ট সময়ের একটা প্রশ্ন রাখা যায়। পরের নোট সেই প্রশ্নের পাশে নতুন সম্পর্ক যোগ করতে পারে। আগের কথাকে মুছে ফেলা জরুরি না।
+Treating every listening note as a final review leaves little room for change. A listening archive can instead preserve the question I had at a particular time. A later note can add a new relationship beside it without erasing the earlier one.
 
-একদিন গঠনের দিকে নজর দেওয়া, পরে অ্যালবামের ক্রম দেখা—এগুলো আলাদা পাঠ হতে পারে। এখানে ব্যক্তিগত স্মৃতি থাকলে তার উৎস দরকার। স্মৃতি না থাকলে শুধু বিশ্লেষণ লেখা যায়; ফাঁকা জীবনী বানাতে হয় না।
+One day I may focus on structure; later I may notice how the track works inside the album sequence. Those can be different readings. If a note includes a personal memory, that memory needs a real source in my experience. If there is no memory, analysis is enough; there is no reason to invent biography to fill the page.
 
-তারিখও সৎ থাকা দরকার। যে গান পুরোনো, তাকে নিয়ে আজকের নোটও আজকের। গানের প্রকাশের বছর আর নিজের লেখার প্রকাশের দিন আলাদা রাখা গেলে ইতিহাস পরিষ্কার থাকে।
+Dates should be honest too. An old song can have a new note written today. The release year of the recording and the publication date of my writing are different pieces of history, and keeping them separate makes the archive clearer.
 
-আমার কাছে এই আর্কাইভের মূল প্রশ্ন কোনো গান শ্রেষ্ঠ কি না সেটা না। বরং একই গানের কাছে কী প্রশ্ন নিয়ে ফিরে যাওয়া যায়। প্রশ্নের ইতিহাস রাখলে শোনার সম্পর্কও একটা চলমান কাজ হিসেবে দেখা যায়।
+For me, the central question of the archive is not whether a song is objectively the best. It is what questions I keep bringing back to the same recording. Preserving the history of those questions turns listening into an ongoing practice rather than a finished verdict.

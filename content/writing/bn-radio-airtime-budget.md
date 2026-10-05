@@ -1,8 +1,8 @@
 ---
-title: রেডিওতে সময়ও একটা বাজেট
+title: Airtime Is a Budget Too
 date: '2024-08-06'
 draft: false
-language: bn
+language: en
 url: /posts/bn-radio-airtime-budget.html
 topic: radio-iot
 tags:
@@ -10,18 +10,19 @@ tags:
 - capacity
 featured: false
 read_time: 2
-excerpt: একটা সেন্সরের বার্তা ছোট হতে পারে, কিন্তু অনেক সেন্সর মিলে একই রেডিও মাধ্যম
-  ব্যবহার করে। তখন প্রশ্ন শুধু বাইট কত না; বার্তা পাঠাতে মাধ্যম কতক্ষণ ব্যস্ত থাকে।
-  এই এয়ারটাইম চিন্তা না করলে ছোট ডেটার নেটওয়ার্কও ভিড়ের নেটওয়ার্ক হয়।
+excerpt: >-
+  A sensor message may contain only a few bytes, but many sensors can share the same radio
+  medium. The important question is not only how much data exists, but how long each
+  transmission occupies that shared medium.
 editorial_batch: 20261003-100-niches
 ---
 
-একটা সেন্সরের বার্তা ছোট হতে পারে, কিন্তু অনেক সেন্সর মিলে একই রেডিও মাধ্যম ব্যবহার করে। তখন প্রশ্ন শুধু বাইট কত না; বার্তা পাঠাতে মাধ্যম কতক্ষণ ব্যস্ত থাকে। এই এয়ারটাইম চিন্তা না করলে ছোট ডেটার নেটওয়ার্কও ভিড়ের নেটওয়ার্ক হয়।
+A sensor message may contain only a few bytes, but many sensors can share the same radio medium. The important question is not only how much data exists, but how long each transmission occupies that shared medium. Ignoring airtime can turn a network of tiny messages into a congested network.
 
-প্রতিটা ডিভাইস ঘন ঘন স্ট্যাটাস পাঠালে বেশিরভাগ সময় একই অবস্থার পুনরাবৃত্তি হতে পারে। গুরুত্বপূর্ণ পরিবর্তন আর নিয়মিত উপস্থিতির খবর আলাদা করলে ট্রাফিকের অর্থ পরিষ্কার হয়। সবকিছু কম পাঠানোও সমাধান না, কারণ তাতে ব্যর্থতা জানতে দেরি হতে পারে।
+If every device reports status very frequently, much of the traffic may simply repeat the same state. Separating meaningful changes from periodic liveness reports can make the traffic easier to reason about. Sending everything less often is not automatically the answer either, because failure detection may then become too slow.
 
-একটা পরিকল্পনায় তাই বার্তার ধরন, সময়ের প্রয়োজন আর পুনরায় পাঠানোর নিয়ম লিখুন। খারাপ লিংকে রিট্রাই বাড়লে মাধ্যমের চাপ আরও বাড়তে পারে। স্বাভাবিক সময়ের পরীক্ষার পাশাপাশি চাপের সময়ের আচরণ দেখাও দরকার।
+A useful plan identifies message classes, timing requirements, and retry behavior. Retries on a weak link can increase medium occupancy precisely when conditions are already poor. Normal-operation tests should therefore be complemented by stressed-condition tests.
 
-নেটওয়ার্ক ডিজাইনে আমি এই হিসাবটাকে কথার জায়গা ভাগ করার মতো দেখি। সবার কথা গুরুত্বপূর্ণ হতে পারে, কিন্তু সবাই একই সঙ্গে বলতে পারে না। প্রোটোকলের শৃঙ্খলা সেই সীমিত সময়কে কাজের জন্য ব্যবহার করার চেষ্টা।
+I think of radio capacity as sharing time to speak. Every node may have something important to say, but they cannot all occupy the medium at once. Protocol discipline is an attempt to use that limited time deliberately.
 
-সূত্র: [মূল রেফারেন্স](https://lora-alliance.org/resource_hub/what-is-lorawan/).
+Source: [official reference](https://lora-alliance.org/resource_hub/what-is-lorawan/).
