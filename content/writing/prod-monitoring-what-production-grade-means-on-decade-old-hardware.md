@@ -1,7 +1,7 @@
 ---
 title: What Production-Grade Means on Decade-Old Hardware
 url: /posts/prod-monitoring-what-production-grade-means-on-decade-old-hardware.html
-date: '2026-09-15'
+date: '2024-08-16'
 read_time: 32
 excerpt: A production-engineering deep dive into what production-grade means on decade-old
   hardware, grounded in the 2014 Mac mini hserver observability stack and its accepted

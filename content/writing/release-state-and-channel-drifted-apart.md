@@ -1,7 +1,7 @@
 ---
 title: Release State and Release Channel Drifted Apart
 url: /posts/release-state-and-channel-drifted-apart.html
-date: '2026-09-14'
+date: '2021-01-13'
 read_time: 1
 excerpt: A release promoted to STABLE was still carrying old channel metadata, creating
   two competing sources of truth.

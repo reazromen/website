@@ -1,7 +1,7 @@
 ---
 title: A Delivery ZIP Is Not Reproducible Until I Rebuild It After Extraction
 url: /posts/firmware-release-delivery-zip-needs-extracted-rebuild.html
-date: '2026-09-15'
+date: '2024-08-23'
 read_time: 9
 excerpt: A package can look complete on the creator machine while omitting an ignored
   source, generated dependency or build instruction that the recipient needs.

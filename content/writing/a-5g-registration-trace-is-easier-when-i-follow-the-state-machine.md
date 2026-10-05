@@ -1,7 +1,7 @@
 ---
 title: A 5G Registration Trace Is Easier When I Follow the State Machine
 url: /posts/a-5g-registration-trace-is-easier-when-i-follow-the-state-machine.html
-date: '2026-09-14'
+date: '2023-01-27'
 read_time: 1
 excerpt: Following registration as a state transition is more useful than memorizing
   a long list of NAS messages.

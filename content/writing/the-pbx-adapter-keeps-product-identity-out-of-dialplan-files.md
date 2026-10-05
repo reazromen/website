@@ -1,7 +1,7 @@
 ---
 title: The PBX Adapter Keeps Product Identity Out of Dialplan Files
 url: /posts/the-pbx-adapter-keeps-product-identity-out-of-dialplan-files.html
-date: '2026-09-14'
+date: '2023-05-20'
 read_time: 1
 excerpt: Asterisk should route calls, not become the only database of parent-approved
   relationships.

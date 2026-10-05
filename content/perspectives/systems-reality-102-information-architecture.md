@@ -1,6 +1,6 @@
 ---
 title: "Information Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2025-03-08'
 draft: false
 language: en
 url: /posts/systems-reality-102-information-architecture.html

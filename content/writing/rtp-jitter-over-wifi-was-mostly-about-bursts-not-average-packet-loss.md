@@ -1,7 +1,7 @@
 ---
 title: RTP Jitter over Wi-Fi Was Mostly About Bursts, Not Average Packet Loss
 url: /posts/rtp-jitter-over-wifi-was-mostly-about-bursts-not-average-packet-loss.html
-date: '2026-09-14'
+date: '2025-08-11'
 read_time: 1
 excerpt: A low average loss rate can still sound terrible when packets arrive in short
   bursts separated by long gaps.

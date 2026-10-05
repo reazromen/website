@@ -1,7 +1,7 @@
 ---
 title: The Trial — Putting the Self on Trial Using Every Voice Already Inside It
 url: /posts/pink-floyd-the-trial-putting-the-self-on-trial-using-every-voice-already-inside-it.html
-date: '2026-09-26'
+date: '2026-04-20'
 read_time: 5
 excerpt: Putting the Self on Trial Using Every Voice Already Inside It
 topic: ''

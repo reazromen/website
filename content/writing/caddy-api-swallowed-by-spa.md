@@ -1,7 +1,7 @@
 ---
 title: Why Your API Suddenly Returns index.html Through Caddy
 url: /posts/caddy-api-swallowed-by-spa.html
-date: '2026-09-18'
+date: '2021-11-05'
 read_time: 17
 excerpt: A catch-all frontend fallback can hide backend routing mistakes behind a
   successful HTML response.

@@ -1,6 +1,6 @@
 ---
 title: ভয়েস এজেন্টের গতি শুধু মডেলের গতি না
-date: '2026-10-02'
+date: '2024-07-12'
 draft: false
 language: bn
 url: /posts/bn-voice-agent-turn-taking.html

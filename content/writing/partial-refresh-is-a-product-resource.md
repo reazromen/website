@@ -1,7 +1,7 @@
 ---
 title: Partial Refresh Is a Product Resource
 url: /posts/partial-refresh-is-a-product-resource.html
-date: '2026-09-14'
+date: '2023-02-28'
 read_time: 1
 excerpt: A UI transition has a display cost, so redraw scope becomes part of firmware
   design.

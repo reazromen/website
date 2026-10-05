@@ -1,7 +1,7 @@
 ---
 title: Journald Cursor Persistence Prevents Duplicate or Missing Logs
 url: /posts/prod-monitoring-journald-cursor-persistence-prevents-duplicate-or-missing-logs.html
-date: '2026-09-15'
+date: '2023-06-22'
 read_time: 35
 excerpt: A production-engineering deep dive into journald cursor persistence prevents
   duplicate or missing logs, grounded in the 2014 Mac mini hserver observability stack

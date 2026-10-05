@@ -1,7 +1,7 @@
 ---
 title: Container Ports Are Documentation and a Runtime Contract
 url: /posts/container-ports-are-documentation-and-a-runtime-contract.html
-date: '2026-09-18'
+date: '2023-05-02'
 read_time: 2
 excerpt: How service ports made Voiceware component boundaries visible.
 topic: voiceware-engineering

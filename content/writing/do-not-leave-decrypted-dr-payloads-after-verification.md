@@ -1,7 +1,7 @@
 ---
 title: Do Not Leave Decrypted DR Payloads Behind After Verification
 url: /posts/do-not-leave-decrypted-dr-payloads-after-verification.html
-date: '2026-09-14'
+date: '2024-08-25'
 read_time: 1
 excerpt: A recovery drill can create a new sensitive-data exposure if decrypted database
   dumps remain on disk by default.

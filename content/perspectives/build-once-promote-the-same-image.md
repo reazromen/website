@@ -1,7 +1,7 @@
 ---
 title: Build Once, Promote the Same Image
 url: /posts/build-once-promote-the-same-image.html
-date: '2026-09-18'
+date: '2023-07-18'
 read_time: 2
 excerpt: Why I prefer environment configuration to change without rebuilding application
   bytes.

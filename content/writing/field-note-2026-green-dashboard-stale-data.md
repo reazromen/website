@@ -1,7 +1,7 @@
 ---
 title: A Green Dashboard Can Hide a Dead Data Pipeline
 url: /posts/field-note-2026-green-dashboard-stale-data.html
-date: '2026-09-18'
+date: '2026-05-18'
 read_time: 2
 excerpt: A panel can render old data successfully after the collector behind it has
   already stopped.

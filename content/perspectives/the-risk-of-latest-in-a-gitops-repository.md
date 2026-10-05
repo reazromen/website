@@ -1,7 +1,7 @@
 ---
 title: The Risk of :latest in a GitOps Repository
 url: /posts/the-risk-of-latest-in-a-gitops-repository.html
-date: '2026-09-18'
+date: '2025-06-16'
 read_time: 2
 excerpt: Why a declarative manifest can still be non-reproducible when the tag is
   mutable.

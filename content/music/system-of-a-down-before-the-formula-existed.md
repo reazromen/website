@@ -1,7 +1,7 @@
 ---
 title: System of a Down — Before the Formula Existed
 url: /posts/system-of-a-down-before-the-formula-existed.html
-date: '2026-09-26'
+date: '2022-02-17'
 read_time: 5
 excerpt: Rawness, instability, and the feeling of a band discovering its own language
   in public

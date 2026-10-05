@@ -1,6 +1,6 @@
 ---
 title: ইনফরমেশন আর অর্থ একই মাপ না
-date: '2026-10-02'
+date: '2026-07-20'
 draft: false
 language: bn
 url: /posts/bn-information-not-meaning.html

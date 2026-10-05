@@ -1,7 +1,7 @@
 ---
 title: Rollback Has to Include Persistent-State Compatibility
 url: /posts/rollback-has-to-include-persistent-state-compatibility.html
-date: '2026-09-14'
+date: '2020-11-11'
 read_time: 1
 excerpt: Returning to an older binary is unsafe if the newer release already changed
   data the old code cannot read.

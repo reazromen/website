@@ -1,7 +1,7 @@
 ---
 title: The EVT Slide Switch Should Not Define the Production Power Model
 url: /posts/pcb-bringup-evt-slide-switch-vs-production-power-model.html
-date: '2026-09-15'
+date: '2022-10-22'
 read_time: 9
 excerpt: The prototype’s physical power behavior risked becoming a permanent architecture
   even though the production product needed deliberate momentary power/wake semantics.

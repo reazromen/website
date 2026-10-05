@@ -1,7 +1,7 @@
 ---
 title: Desired Release and Running Release Are Different Truths
 url: /posts/ota-state-desired-vs-running-release.html
-date: '2026-09-15'
+date: '2024-06-03'
 read_time: 7
 excerpt: The server needed to know what a device should run without pretending the
   device had already installed it.

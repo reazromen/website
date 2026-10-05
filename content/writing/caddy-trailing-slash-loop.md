@@ -1,7 +1,7 @@
 ---
 title: The Tiny Trailing-Slash Rule That Creates Big Redirect Loops
 url: /posts/caddy-trailing-slash-loop.html
-date: '2026-09-18'
+date: '2021-05-13'
 read_time: 16
 excerpt: External redirects, internal rewrites and upstream canonicalization are different
   tools even when they change the same path.

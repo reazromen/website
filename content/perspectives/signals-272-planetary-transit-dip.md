@@ -1,6 +1,6 @@
 ---
 title: "The Small Dip Produced by a Planetary Transit"
-date: '2026-10-03'
+date: '2024-10-08'
 draft: false
 language: en
 url: /posts/signals-272-planetary-transit-dip.html

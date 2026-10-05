@@ -1,7 +1,7 @@
 ---
 title: Disk Headroom Is Part of Backup Reliability
 url: /posts/disk-headroom-part-backup-reliability.html
-date: '2026-09-14'
+date: '2022-01-23'
 read_time: 1
 excerpt: A backup process can be perfectly configured and still fail when the destination
   filesystem no longer has enough capacity for the next archive.

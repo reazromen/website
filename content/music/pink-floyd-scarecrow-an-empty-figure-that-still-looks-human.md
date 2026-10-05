@@ -1,7 +1,7 @@
 ---
 title: Scarecrow — An Empty Figure That Still Looks Human
 url: /posts/pink-floyd-scarecrow-an-empty-figure-that-still-looks-human.html
-date: '2026-09-26'
+date: '2021-12-16'
 read_time: 5
 excerpt: An Empty Figure That Still Looks Human
 topic: ''

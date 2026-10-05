@@ -1,7 +1,7 @@
 ---
 title: Secure ESP32 OTA Is a Chain of Trust, Not an HTTPS Download
 url: /posts/secure-esp32-ota-chain-of-trust.html
-date: '2026-09-26'
+date: '2026-07-10'
 read_time: 9
 excerpt: HTTPS protects a firmware transfer in transit. A production OTA design also
   has to prove image authenticity, select boot slots safely, confirm health, permit

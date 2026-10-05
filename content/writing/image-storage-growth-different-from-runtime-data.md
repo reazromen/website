@@ -1,7 +1,7 @@
 ---
 title: Image Storage Growth Is Different from Runtime Data Growth
 url: /posts/image-storage-growth-different-from-runtime-data.html
-date: '2026-09-14'
+date: '2020-11-22'
 read_time: 1
 excerpt: Docker images can quietly accumulate through repeated deployments even when
   application volumes and databases remain stable.

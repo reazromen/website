@@ -1,6 +1,6 @@
 ---
 title: কিউ বড় হচ্ছে মানে কাজের ঋণ বাড়ছে
-date: '2026-10-02'
+date: '2020-08-10'
 draft: false
 language: bn
 url: /posts/bn-queue-backpressure-contract.html

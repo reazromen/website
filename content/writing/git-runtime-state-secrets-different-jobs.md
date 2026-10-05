@@ -1,7 +1,7 @@
 ---
 title: Git, Runtime State and Secrets Need Different Jobs
 url: /posts/git-runtime-state-secrets-different-jobs.html
-date: '2026-09-14'
+date: '2026-03-14'
 read_time: 1
 excerpt: Operational confusion falls when desired configuration, mutable data and
   confidential values stop competing to be one source of truth.

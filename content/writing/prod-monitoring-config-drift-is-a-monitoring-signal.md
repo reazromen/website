@@ -1,7 +1,7 @@
 ---
 title: Config Drift Is a Monitoring Signal
 url: /posts/prod-monitoring-config-drift-is-a-monitoring-signal.html
-date: '2026-09-15'
+date: '2024-10-23'
 read_time: 30
 excerpt: A production-engineering deep dive into config drift is a monitoring signal,
   grounded in the 2014 Mac mini hserver observability stack and its accepted runtime

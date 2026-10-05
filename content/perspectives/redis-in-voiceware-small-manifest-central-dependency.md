@@ -1,7 +1,7 @@
 ---
 title: 'Redis in Voiceware: Small Manifest, Central Dependency'
 url: /posts/redis-in-voiceware-small-manifest-central-dependency.html
-date: '2026-09-18'
+date: '2023-12-30'
 read_time: 2
 excerpt: Why an internal Redis service deserves explicit operational attention.
 topic: voiceware-engineering

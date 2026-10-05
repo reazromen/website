@@ -1,6 +1,6 @@
 ---
 title: "What Language Really Is"
-date: '2026-10-03'
+date: '2024-09-05'
 draft: false
 language: en
 url: /posts/systems-reality-096-language-mechanism.html

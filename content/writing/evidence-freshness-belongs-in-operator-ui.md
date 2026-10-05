@@ -1,7 +1,7 @@
 ---
 title: Evidence Freshness Belongs in the Operator UI
 url: /posts/evidence-freshness-belongs-in-operator-ui.html
-date: '2026-09-14'
+date: '2021-08-26'
 read_time: 1
 excerpt: A production acceptance result should carry age and policy, not just a green
   badge.

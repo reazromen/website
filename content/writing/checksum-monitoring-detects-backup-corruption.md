@@ -1,7 +1,7 @@
 ---
 title: Checksum Monitoring Detects Silent Backup Corruption
 url: /posts/checksum-monitoring-detects-backup-corruption.html
-date: '2026-09-14'
+date: '2022-12-09'
 read_time: 1
 excerpt: A backup directory can exist with the expected filenames while one archive
   is truncated or modified after creation.

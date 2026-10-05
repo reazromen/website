@@ -1,7 +1,7 @@
 ---
 title: Chart.yaml Is Small, but It Gives a Service an Identity
 url: /posts/chart-yaml-is-small-but-it-gives-a-service-an-identity.html
-date: '2026-09-18'
+date: '2024-02-25'
 read_time: 1
 excerpt: Why a minimal chart metadata file still matters to naming and packaging.
 topic: voiceware-engineering

@@ -1,7 +1,7 @@
 ---
 title: 'Monitoring Tax: Why Exporters Need Resource Budgets'
 url: /posts/prod-monitoring-monitoring-tax-why-exporters-need-resource-budgets.html
-date: '2026-09-15'
+date: '2020-10-06'
 read_time: 35
 excerpt: 'A production-engineering deep dive into monitoring tax: why exporters need
   resource budgets, grounded in the 2014 Mac mini hserver observability stack and

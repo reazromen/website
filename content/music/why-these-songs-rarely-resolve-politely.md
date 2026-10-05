@@ -1,7 +1,7 @@
 ---
 title: Why These Songs Rarely Resolve Politely
 url: /posts/why-these-songs-rarely-resolve-politely.html
-date: '2026-09-26'
+date: '2024-04-25'
 read_time: 5
 excerpt: Abrupt endings and hard transitions as a refusal to provide emotional closure
 topic: ''

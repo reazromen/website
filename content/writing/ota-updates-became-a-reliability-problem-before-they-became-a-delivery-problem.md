@@ -1,7 +1,7 @@
 ---
 title: OTA Updates Became a Reliability Problem Before They Became a Delivery Problem
 url: /posts/ota-updates-became-a-reliability-problem-before-they-became-a-delivery-problem.html
-date: '2026-09-14'
+date: '2022-10-13'
 read_time: 1
 excerpt: Downloading new firmware is easy; proving the device can recover from a bad
   update is the real OTA design work.

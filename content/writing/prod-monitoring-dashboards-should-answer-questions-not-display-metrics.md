@@ -1,7 +1,7 @@
 ---
 title: Dashboards Should Answer Questions, Not Display Metrics
 url: /posts/prod-monitoring-dashboards-should-answer-questions-not-display-metrics.html
-date: '2026-09-15'
+date: '2021-11-01'
 read_time: 29
 excerpt: A production-engineering deep dive into dashboards should answer questions,
   not display metrics, grounded in the 2014 Mac mini hserver observability stack and

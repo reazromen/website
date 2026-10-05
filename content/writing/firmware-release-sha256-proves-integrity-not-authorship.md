@@ -1,7 +1,7 @@
 ---
 title: SHA-256 Proves Integrity, Not Who Authorized the Firmware
 url: /posts/firmware-release-sha256-proves-integrity-not-authorship.html
-date: '2026-09-15'
+date: '2024-11-21'
 read_time: 9
 excerpt: A manifest checksum can detect corruption but cannot distinguish an authorized
   release from a malicious artifact if an attacker can replace both file and checksum.

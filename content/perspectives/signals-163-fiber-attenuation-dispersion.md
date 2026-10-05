@@ -1,6 +1,6 @@
 ---
 title: "Attenuation and Dispersion: Two Ways an Optical Signal Can Fail"
-date: '2026-10-03'
+date: '2021-06-20'
 draft: false
 language: en
 url: /posts/signals-163-fiber-attenuation-dispersion.html

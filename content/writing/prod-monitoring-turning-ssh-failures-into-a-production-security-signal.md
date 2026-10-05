@@ -1,7 +1,7 @@
 ---
 title: Turning SSH Failures into a Production Security Signal
 url: /posts/prod-monitoring-turning-ssh-failures-into-a-production-security-signal.html
-date: '2026-09-15'
+date: '2026-01-03'
 read_time: 34
 excerpt: A production-engineering deep dive into turning ssh failures into a production
   security signal, grounded in the 2014 Mac mini hserver observability stack and its

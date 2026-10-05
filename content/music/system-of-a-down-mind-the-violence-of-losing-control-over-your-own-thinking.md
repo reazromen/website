@@ -1,7 +1,7 @@
 ---
 title: Mind — The Violence of Losing Control Over Your Own Thinking
 url: /posts/system-of-a-down-mind-the-violence-of-losing-control-over-your-own-thinking.html
-date: '2026-09-26'
+date: '2026-04-07'
 read_time: 5
 excerpt: The Violence of Losing Control Over Your Own Thinking
 topic: ''

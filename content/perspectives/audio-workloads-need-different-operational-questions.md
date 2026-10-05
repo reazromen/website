@@ -1,7 +1,7 @@
 ---
 title: Audio Workloads Need Different Operational Questions
 url: /posts/audio-workloads-need-different-operational-questions.html
-date: '2026-09-18'
+date: '2022-12-08'
 read_time: 2
 excerpt: The checks I would apply to a voice-processing service beyond ordinary HTTP
   availability.

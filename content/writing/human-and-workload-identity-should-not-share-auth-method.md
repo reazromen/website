@@ -1,7 +1,7 @@
 ---
 title: Human Identity and Workload Identity Should Not Share an Auth Method
 url: /posts/human-and-workload-identity-should-not-share-auth-method.html
-date: '2026-09-14'
+date: '2026-09-09'
 read_time: 1
 excerpt: OIDC fits interactive operators; AppRole fits non-interactive services. Combining
   them weakens both lifecycle models.

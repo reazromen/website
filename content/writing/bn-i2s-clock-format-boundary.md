@@ -1,6 +1,6 @@
 ---
 title: আইটুএসে শব্দ না এলে প্রথমে ভাষাটা মিলিয়ে দেখুন
-date: '2026-10-02'
+date: '2022-12-22'
 draft: false
 language: bn
 url: /posts/bn-i2s-clock-format-boundary.html

@@ -1,7 +1,7 @@
 ---
 title: An AXP2101 Datasheet Is Not a LOUP Power Tree
 url: /posts/pcb-bringup-axp2101-datasheet-not-power-tree.html
-date: '2026-09-15'
+date: '2025-03-27'
 read_time: 9
 excerpt: Receiving the PMIC datasheet did not answer which regulator powered each
   subsystem, what came up before firmware, or how the product behaved on battery and

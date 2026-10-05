@@ -1,7 +1,7 @@
 ---
 title: How a Missing Helm Value Turned Into a Nil-Pointer Problem
 url: /posts/how-a-missing-helm-value-turned-into-a-nil-pointer-problem.html
-date: '2026-09-18'
+date: '2025-11-20'
 read_time: 1
 excerpt: How a missing optional Celery value caused Helm to fail before Kubernetes
   ever created the workload.

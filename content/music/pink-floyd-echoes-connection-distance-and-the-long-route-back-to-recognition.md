@@ -1,7 +1,7 @@
 ---
 title: Echoes — Connection, Distance, and the Long Route Back to Recognition
 url: /posts/pink-floyd-echoes-connection-distance-and-the-long-route-back-to-recognition.html
-date: '2026-09-26'
+date: '2022-01-02'
 read_time: 5
 excerpt: Connection, Distance, and the Long Route Back to Recognition
 topic: ''

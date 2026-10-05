@@ -1,6 +1,6 @@
 ---
 title: রিইউজের সিদ্ধান্তও ইঞ্জিনিয়ারিংয়ের কাজ
-date: '2026-10-02'
+date: '2024-02-17'
 draft: false
 language: bn
 url: /posts/bn-reuse-first-engineering-business.html

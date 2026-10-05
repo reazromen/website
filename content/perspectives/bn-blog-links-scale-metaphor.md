@@ -1,6 +1,6 @@
 ---
 title: একটা ছোট ব্লগের লিংক কত দূর নিয়ে যায়
-date: '2026-10-02'
+date: '2025-06-18'
 draft: false
 language: bn
 url: /posts/bn-blog-links-scale-metaphor.html

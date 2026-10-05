@@ -1,7 +1,7 @@
 ---
 title: Deployment Records Without Commit SHAs Are Operational Debt
 url: /posts/deployment-records-without-commit-shas-operational-debt.html
-date: '2026-09-14'
+date: '2024-11-04'
 read_time: 1
 excerpt: When a deployment fails later, the first forensic question is which reviewed
   source revision actually produced it.

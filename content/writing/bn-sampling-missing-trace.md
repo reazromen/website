@@ -1,6 +1,6 @@
 ---
 title: সব ট্রেস না রাখলে কী হারায়
-date: '2026-10-02'
+date: '2025-01-09'
 draft: false
 language: bn
 url: /posts/bn-sampling-missing-trace.html

@@ -1,7 +1,7 @@
 ---
 title: Automatic Rollback and Fleet Rollback Solve Different Failures
 url: /posts/ota-state-automatic-vs-control-plane-rollback.html
-date: '2026-09-15'
+date: '2020-05-25'
 read_time: 8
 excerpt: One rollback mechanism could not cover both immediate boot failure and defects
   discovered after a release had already been accepted.

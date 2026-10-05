@@ -1,6 +1,6 @@
 ---
 title: "Where the large codebase Analogy Breaks"
-date: '2026-10-03'
+date: '2021-09-28'
 draft: false
 language: en
 url: /posts/systems-reality-118-complexity-metaphor.html

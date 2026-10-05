@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See The Nervous System"
-date: '2026-10-03'
+date: '2025-11-22'
 draft: false
 language: en
 url: /posts/systems-reality-074-nervous-system-history.html

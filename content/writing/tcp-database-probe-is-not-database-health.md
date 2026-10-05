@@ -1,7 +1,7 @@
 ---
 title: A TCP Database Probe Is Not a Database Health Check
 url: /posts/tcp-database-probe-is-not-database-health.html
-date: '2026-09-14'
+date: '2023-04-20'
 read_time: 1
 excerpt: A listening PostgreSQL or Redis port proves that something accepted a TCP
   connection, not that queries, authentication or storage are working correctly.

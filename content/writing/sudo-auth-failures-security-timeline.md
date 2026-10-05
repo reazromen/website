@@ -1,7 +1,7 @@
 ---
 title: Sudo Authentication Failures Belong in the Security Timeline
 url: /posts/sudo-auth-failures-security-timeline.html
-date: '2026-09-14'
+date: '2025-09-24'
 read_time: 1
 excerpt: Repeated sudo failures may be operator error, expired credentials or suspicious
   privilege-escalation attempts, and they often happen outside application logs.

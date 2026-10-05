@@ -1,7 +1,7 @@
 ---
 title: A Clean Checkout Is the Build Test That Matters
 url: /posts/firmware-release-clean-checkout-is-the-build-test-that-matters.html
-date: '2026-09-15'
+date: '2020-12-23'
 read_time: 9
 excerpt: A firmware tree can build for months on one workstation while quietly depending
   on files that are not in the repository.

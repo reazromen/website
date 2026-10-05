@@ -1,6 +1,6 @@
 ---
 title: "DNA Is Not Source Code — So What Is It?"
-date: '2026-10-03'
+date: '2025-01-11'
 draft: false
 language: en
 url: /posts/systems-reality-001-dna-mechanism.html

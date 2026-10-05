@@ -1,7 +1,7 @@
 ---
 title: Redis Replication Can Lose Acknowledged Writes During Failover
 url: /posts/redis-replication-failover-can-lose-acked-writes/index.html
-date: '2026-09-26'
+date: '2024-12-16'
 read_time: 8
 excerpt: Redis replication is asynchronous by default. WAIT reduces the risk window,
   but replica acknowledgements do not turn Sentinel or Cluster failover into a strongly

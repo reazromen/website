@@ -1,6 +1,6 @@
 ---
 title: চ্যানেল চওড়া করলে জায়গা কার সঙ্গে ভাগ হচ্ছে
-date: '2026-10-02'
+date: '2021-12-06'
 draft: false
 language: bn
 url: /posts/bn-channel-width-shared-medium.html

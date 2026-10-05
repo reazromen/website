@@ -1,7 +1,7 @@
 ---
 title: After a Caddy Upgrade, Why Did My HTTPS Upstream Start Seeing a Different Host?
 url: /posts/caddy-v211-host-header-surprise.html
-date: '2026-09-18'
+date: '2025-02-24'
 read_time: 17
 excerpt: Caddy 2.11 changed default Host behavior for HTTPS upstreams, exposing apps
   that relied on the old value.

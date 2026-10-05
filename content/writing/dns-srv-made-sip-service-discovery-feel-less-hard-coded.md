@@ -1,7 +1,7 @@
 ---
 title: DNS SRV Made SIP Service Discovery Feel Less Hard-Coded
 url: /posts/dns-srv-made-sip-service-discovery-feel-less-hard-coded.html
-date: '2026-09-14'
+date: '2025-12-30'
 read_time: 2
 excerpt: Using DNS SRV records showed me how SIP clients can discover service hosts
   and ports without baking one server address into every configuration.

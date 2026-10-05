@@ -1,7 +1,7 @@
 ---
 title: An Active SIP Call Has Priority over OTA
 url: /posts/ota-state-active-call-defers-ota.html
-date: '2026-09-15'
+date: '2023-07-06'
 read_time: 8
 excerpt: A firmware update competing with a live voice call could damage the product
   function the OTA system exists to maintain.

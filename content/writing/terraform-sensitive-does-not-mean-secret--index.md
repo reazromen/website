@@ -1,7 +1,7 @@
 ---
 title: Terraform sensitive Does Not Mean Secret
 url: /posts/terraform-sensitive-does-not-mean-secret/index.html
-date: '2026-09-26'
+date: '2026-05-12'
 read_time: 8
 excerpt: Marking a value sensitive redacts normal CLI and UI output. It does not remove
   that value from Terraform state or saved plan files.

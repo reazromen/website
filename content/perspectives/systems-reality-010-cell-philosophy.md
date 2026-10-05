@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside The Cell"
-date: '2026-10-03'
+date: '2024-05-11'
 draft: false
 language: en
 url: /posts/systems-reality-010-cell-philosophy.html

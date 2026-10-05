@@ -1,7 +1,7 @@
 ---
 title: Sticky Heartbeat Results Must Not Rewrite a New OTA Assignment
 url: /posts/sticky-heartbeat-results-must-not-rewrite-a-new-ota-assignment.html
-date: '2026-09-14'
+date: '2026-06-28'
 read_time: 1
 excerpt: Old local status text can outlive the release that originally produced it.
 topic: loup-engineering

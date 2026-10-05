@@ -1,7 +1,7 @@
 ---
 title: Blocked Has to Override Normal Device Behaviour
 url: /posts/blocked-has-to-override-normal-device-behaviour.html
-date: '2026-09-14'
+date: '2022-09-12'
 read_time: 1
 excerpt: A backend revocation is ineffective if the device keeps registering and calling
   because local state still says active.

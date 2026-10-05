@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See The Immune System"
-date: '2026-10-03'
+date: '2024-11-25'
 draft: false
 language: en
 url: /posts/systems-reality-064-immune-system-history.html

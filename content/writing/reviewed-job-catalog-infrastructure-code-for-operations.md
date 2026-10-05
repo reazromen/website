@@ -1,7 +1,7 @@
 ---
 title: A Reviewed Job Catalog Is Infrastructure Code for Operations
 url: /posts/reviewed-job-catalog-infrastructure-code-for-operations.html
-date: '2026-09-14'
+date: '2021-12-03'
 read_time: 1
 excerpt: The safest operational button is one whose command, risk and parameters were
   already reviewed before the incident started.

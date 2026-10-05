@@ -1,7 +1,7 @@
 ---
 title: Terraform State Locking Prevents Concurrent Writers, Not Bad Decisions
 url: /posts/terraform-state-locking-does-not-make-apply-safe/index.html
-date: '2026-09-26'
+date: '2025-12-17'
 read_time: 8
 excerpt: State locking serializes writers against one state. It cannot tell whether
   a plan is destructive, credentials point at the right account, or force-unlock is

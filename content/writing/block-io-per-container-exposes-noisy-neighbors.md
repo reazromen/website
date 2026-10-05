@@ -1,7 +1,7 @@
 ---
 title: Block I/O per Container Exposes Noisy Neighbors
 url: /posts/block-io-per-container-exposes-noisy-neighbors.html
-date: '2026-09-14'
+date: '2026-08-05'
 read_time: 1
 excerpt: Host disk latency can rise because one container is performing heavy reads
   or writes while every other service only sees the consequence.

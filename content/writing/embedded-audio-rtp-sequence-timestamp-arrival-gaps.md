@@ -1,7 +1,7 @@
 ---
 title: Reading RTP Sequence, Timestamp and Arrival Gaps Together
 url: /posts/embedded-audio-rtp-sequence-timestamp-arrival-gaps.html
-date: '2026-09-15'
+date: '2021-04-24'
 read_time: 12
 excerpt: Packet loss, reordering and burst arrival can sound similar but require different
   fixes.

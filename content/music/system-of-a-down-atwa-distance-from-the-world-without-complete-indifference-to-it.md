@@ -1,7 +1,7 @@
 ---
 title: ATWA — Distance From the World Without Complete Indifference to It
 url: /posts/system-of-a-down-atwa-distance-from-the-world-without-complete-indifference-to-it.html
-date: '2026-09-26'
+date: '2020-01-28'
 read_time: 5
 excerpt: Distance From the World Without Complete Indifference to It
 topic: ''

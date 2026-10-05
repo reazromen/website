@@ -1,6 +1,6 @@
 ---
 title: গড়ের মধ্যে ধীর মানুষগুলো হারিয়ে যায়
-date: '2026-10-02'
+date: '2024-04-15'
 draft: false
 language: bn
 url: /posts/bn-average-tail-experience.html

@@ -1,7 +1,7 @@
 ---
 title: freeDiameter Taught Me Why a DRA Is More Than a TCP Proxy
 url: /posts/freediameter-taught-me-why-a-dra-is-more-than-a-tcp-proxy.html
-date: '2026-09-14'
+date: '2025-06-01'
 read_time: 2
 excerpt: Diameter routing depends on realms, applications and peer capabilities, so
   a routing agent has to understand more than destination IP addresses.

@@ -1,7 +1,7 @@
 ---
 title: Time — The Cost of Not Noticing Life While It Passes
 url: /posts/pink-floyd-time-the-cost-of-not-noticing-life-while-it-passes.html
-date: '2026-09-26'
+date: '2024-08-10'
 read_time: 5
 excerpt: The Cost of Not Noticing Life While It Passes
 topic: ''

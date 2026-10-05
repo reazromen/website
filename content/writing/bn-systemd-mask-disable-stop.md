@@ -1,6 +1,6 @@
 ---
 title: স্টপ, ডিসেবল আর মাস্ক কেন আলাদা
-date: '2026-10-02'
+date: '2023-10-13'
 draft: false
 language: bn
 url: /posts/bn-systemd-mask-disable-stop.html

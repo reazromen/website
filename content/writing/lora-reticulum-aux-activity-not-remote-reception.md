@@ -1,7 +1,7 @@
 ---
 title: AUX Activity Proved Transmission Work, Not Remote Reception
 url: /posts/lora-reticulum-aux-activity-not-remote-reception.html
-date: '2026-09-15'
+date: '2024-10-06'
 read_time: 8
 excerpt: The E22 AUX pin changed around transmissions, but the remote EWM still returned
   no bytes.

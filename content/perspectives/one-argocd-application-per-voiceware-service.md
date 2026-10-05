@@ -1,7 +1,7 @@
 ---
 title: One ArgoCD Application per Voiceware Service
 url: /posts/one-argocd-application-per-voiceware-service.html
-date: '2026-09-18'
+date: '2024-05-19'
 read_time: 2
 excerpt: The benefits and costs of independently reconciling each major workload.
 topic: voiceware-engineering

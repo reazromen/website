@@ -1,6 +1,6 @@
 ---
 title: "Where the federation of services Analogy Breaks"
-date: '2026-10-03'
+date: '2025-11-29'
 draft: false
 language: en
 url: /posts/systems-reality-053-multicellularity-metaphor.html

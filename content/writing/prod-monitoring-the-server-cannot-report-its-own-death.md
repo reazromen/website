@@ -1,7 +1,7 @@
 ---
 title: The Server Cannot Report Its Own Death
 url: /posts/prod-monitoring-the-server-cannot-report-its-own-death.html
-date: '2026-09-15'
+date: '2023-10-23'
 read_time: 33
 excerpt: A production-engineering deep dive into the server cannot report its own
   death, grounded in the 2014 Mac mini hserver observability stack and its accepted

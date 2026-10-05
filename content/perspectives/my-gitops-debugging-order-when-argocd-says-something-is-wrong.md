@@ -1,7 +1,7 @@
 ---
 title: My GitOps Debugging Order When ArgoCD Says Something Is Wrong
 url: /posts/my-gitops-debugging-order-when-argocd-says-something-is-wrong.html
-date: '2026-09-18'
+date: '2026-02-10'
 read_time: 3
 excerpt: A deterministic path from Application source to rendered chart to Kubernetes
   object to runtime process.

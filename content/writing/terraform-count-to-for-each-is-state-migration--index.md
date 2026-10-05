@@ -1,7 +1,7 @@
 ---
 title: Moving Terraform from count to for_each Is a State Migration
 url: /posts/terraform-count-to-for-each-is-state-migration/index.html
-date: '2026-09-26'
+date: '2025-03-26'
 read_time: 8
 excerpt: count identities are numeric indexes; for_each identities are keys. Switching
   syntax without mapping addresses can make unchanged infrastructure look like replacement

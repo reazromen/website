@@ -1,7 +1,7 @@
 ---
 title: Clock Synchronization Is an Availability Dependency
 url: /posts/prod-monitoring-clock-synchronization-is-an-availability-dependency.html
-date: '2026-09-15'
+date: '2023-08-27'
 read_time: 33
 excerpt: A production-engineering deep dive into clock synchronization is an availability
   dependency, grounded in the 2014 Mac mini hserver observability stack and its accepted

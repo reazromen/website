@@ -1,7 +1,7 @@
 ---
 title: A Single Redis Replica Is a Design Choice, Not a Default Truth
 url: /posts/a-single-redis-replica-is-a-design-choice-not-a-default-truth.html
-date: '2026-09-18'
+date: '2024-10-04'
 read_time: 2
 excerpt: How I interpret the current one-replica values and what changes when availability
   requirements grow.

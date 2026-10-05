@@ -1,7 +1,7 @@
 ---
 title: Mother — Protection That Slowly Becomes a Wall
 url: /posts/pink-floyd-mother-protection-that-slowly-becomes-a-wall.html
-date: '2026-09-26'
+date: '2023-05-22'
 read_time: 5
 excerpt: Protection That Slowly Becomes a Wall
 topic: ''

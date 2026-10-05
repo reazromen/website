@@ -1,7 +1,7 @@
 ---
 title: Goodbye Blue Sky — Beauty Seen Through the Memory of Destruction
 url: /posts/pink-floyd-goodbye-blue-sky-beauty-seen-through-the-memory-of-destruction.html
-date: '2026-09-26'
+date: '2021-07-09'
 read_time: 5
 excerpt: Beauty Seen Through the Memory of Destruction
 topic: ''

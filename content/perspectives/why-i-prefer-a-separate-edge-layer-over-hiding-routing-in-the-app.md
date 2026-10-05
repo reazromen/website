@@ -1,7 +1,7 @@
 ---
 title: Why I Prefer a Separate Edge Layer Over Hiding Routing in the App
 url: /posts/why-i-prefer-a-separate-edge-layer-over-hiding-routing-in-the-app.html
-date: '2026-09-18'
+date: '2026-06-24'
 read_time: 3
 excerpt: The trade-off between fewer containers and clearer network responsibility.
 topic: voiceware-engineering

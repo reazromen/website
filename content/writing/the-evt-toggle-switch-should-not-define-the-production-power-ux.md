@@ -1,7 +1,7 @@
 ---
 title: The EVT Toggle Switch Should Not Define the Production Power UX
 url: /posts/the-evt-toggle-switch-should-not-define-the-production-power-ux.html
-date: '2026-09-14'
+date: '2023-09-01'
 read_time: 1
 excerpt: Prototype hardware can be adapted in firmware without turning the prototype
   limitation into the final product.

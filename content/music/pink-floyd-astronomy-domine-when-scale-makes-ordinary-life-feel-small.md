@@ -1,7 +1,7 @@
 ---
 title: Astronomy Domine — When Scale Makes Ordinary Life Feel Small
 url: /posts/pink-floyd-astronomy-domine-when-scale-makes-ordinary-life-feel-small.html
-date: '2026-09-26'
+date: '2022-03-04'
 read_time: 5
 excerpt: When Scale Makes Ordinary Life Feel Small
 topic: ''

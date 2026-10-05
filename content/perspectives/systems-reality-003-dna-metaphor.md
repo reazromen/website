@@ -1,6 +1,6 @@
 ---
 title: "Where the source code Analogy Breaks"
-date: '2026-10-03'
+date: '2025-04-16'
 draft: false
 language: en
 url: /posts/systems-reality-003-dna-metaphor.html

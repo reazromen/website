@@ -1,7 +1,7 @@
 ---
 title: Redis Eviction Means Policy Is Already Affecting Data
 url: /posts/prod-monitoring-redis-eviction-means-policy-is-already-affecting-data.html
-date: '2026-09-15'
+date: '2025-06-04'
 read_time: 34
 excerpt: A production-engineering deep dive into redis eviction means policy is already
   affecting data, grounded in the 2014 Mac mini hserver observability stack and its

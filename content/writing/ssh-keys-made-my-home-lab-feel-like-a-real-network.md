@@ -1,7 +1,7 @@
 ---
 title: SSH Keys Made My Home Lab Feel Like a Real Network
 url: /posts/ssh-keys-made-my-home-lab-feel-like-a-real-network.html
-date: '2026-09-14'
+date: '2022-07-24'
 read_time: 3
 excerpt: Moving from local console access to SSH keys changed the lab from a collection
   of machines into something I could actually operate and troubleshoot remotely.

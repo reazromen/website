@@ -1,7 +1,7 @@
 ---
 title: From Demo-Ready Audio to Production Acceptance
 url: /posts/embedded-audio-demo-ready-to-production-audio-acceptance.html
-date: '2026-09-15'
+date: '2026-04-27'
 read_time: 12
 excerpt: One strong call can prove a candidate is promising but not that it is ready
   for manufacturing or field release.

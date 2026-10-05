@@ -1,7 +1,7 @@
 ---
 title: CSP connect-src Should Be a Small Network Allowlist
 url: /posts/csp-connect-src-small-network-allowlist.html
-date: '2026-09-14'
+date: '2024-06-02'
 read_time: 1
 excerpt: Browser-side health checks needed cross-origin access, but the fix was two
   explicit origins rather than a broad wildcard.

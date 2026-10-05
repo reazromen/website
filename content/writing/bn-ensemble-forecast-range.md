@@ -1,6 +1,6 @@
 ---
 title: পূর্বাভাসের একটা সংখ্যার বদলে সম্ভাবনার পরিসর
-date: '2026-10-02'
+date: '2024-01-26'
 draft: false
 language: bn
 url: /posts/bn-ensemble-forecast-range.html

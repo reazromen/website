@@ -1,7 +1,7 @@
 ---
 title: A Stable /dev/serial/by-id Path Is Part of Radio Reliability
 url: /posts/lora-reticulum-stable-serial-by-id-radio-reliability.html
-date: '2026-09-15'
+date: '2023-06-06'
 read_time: 9
 excerpt: A working RNode can disappear after reboot if the host binds to a transient
   tty name that changes when USB devices reorder.

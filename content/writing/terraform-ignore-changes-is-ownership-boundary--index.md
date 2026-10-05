@@ -1,7 +1,7 @@
 ---
 title: Terraform ignore_changes Is an Ownership Boundary, Not a Drift Fix
 url: /posts/terraform-ignore-changes-is-ownership-boundary/index.html
-date: '2026-09-26'
+date: '2021-05-23'
 read_time: 8
 excerpt: ignore_changes tells Terraform that selected attributes may be controlled
   elsewhere after creation. Used casually, it can hide real drift and make configuration

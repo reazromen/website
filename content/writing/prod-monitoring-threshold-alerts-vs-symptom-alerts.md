@@ -1,7 +1,7 @@
 ---
 title: Threshold Alerts vs Symptom Alerts
 url: /posts/prod-monitoring-threshold-alerts-vs-symptom-alerts.html
-date: '2026-09-15'
+date: '2022-10-01'
 read_time: 34
 excerpt: A production-engineering deep dive into threshold alerts vs symptom alerts,
   grounded in the 2014 Mac mini hserver observability stack and its accepted runtime

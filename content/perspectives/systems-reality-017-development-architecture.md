@@ -1,6 +1,6 @@
 ---
 title: "Embryonic Development Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2024-06-23'
 draft: false
 language: en
 url: /posts/systems-reality-017-development-architecture.html

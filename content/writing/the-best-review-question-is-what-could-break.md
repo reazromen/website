@@ -1,7 +1,7 @@
 ---
 title: The Best Review Question Is What Could Break
 url: /posts/the-best-review-question-is-what-could-break.html
-date: '2026-09-14'
+date: '2022-07-08'
 read_time: 1
 excerpt: Change review improves when it examines failure modes, rollback and observability
   rather than only code style.

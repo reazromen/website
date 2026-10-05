@@ -1,7 +1,7 @@
 ---
 title: When mlock Is Gone, Swap Policy Becomes Part of Secret-Server Hardening
 url: /posts/when-mlock-is-gone-swap-policy-becomes-hardening.html
-date: '2026-09-14'
+date: '2025-03-04'
 read_time: 1
 excerpt: If the application cannot pin sensitive memory, the container and host memory
   policy becomes part of the threat model.

@@ -1,7 +1,7 @@
 ---
 title: Lost in Hollywood — The Dream That Eats the Dreamer
 url: /posts/lost-in-hollywood-the-dream-that-eats-the-dreamer.html
-date: '2026-09-26'
+date: '2026-08-24'
 read_time: 7
 excerpt: 'Hollywood is usually sold as a destination. This song hears it as a machine:
   something that attracts people with a dream, then slowly teaches them what they

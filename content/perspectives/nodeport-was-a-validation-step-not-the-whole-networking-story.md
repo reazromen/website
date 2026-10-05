@@ -1,7 +1,7 @@
 ---
 title: NodePort Was a Validation Step, Not the Whole Networking Story
 url: /posts/nodeport-was-a-validation-step-not-the-whole-networking-story.html
-date: '2026-09-18'
+date: '2025-08-28'
 read_time: 2
 excerpt: How I think about the later web-app NodePort in the context of a production
   edge design.

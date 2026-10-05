@@ -1,6 +1,6 @@
 ---
 title: "The Cosmos and Life Beyond Earth Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2024-11-01'
 draft: false
 language: en
 url: /posts/systems-reality-182-cosmos-astrobiology-architecture.html

@@ -1,7 +1,7 @@
 ---
 title: Resolved Notifications Are Part of the Incident Lifecycle
 url: /posts/prod-monitoring-resolved-notifications-are-part-of-the-incident-lifecycle.html
-date: '2026-09-15'
+date: '2020-02-22'
 read_time: 33
 excerpt: A production-engineering deep dive into resolved notifications are part of
   the incident lifecycle, grounded in the 2014 Mac mini hserver observability stack

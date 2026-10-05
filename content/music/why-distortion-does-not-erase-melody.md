@@ -1,7 +1,7 @@
 ---
 title: Why Distortion Does Not Erase Melody
 url: /posts/why-distortion-does-not-erase-melody.html
-date: '2026-09-26'
+date: '2026-01-19'
 read_time: 5
 excerpt: How harsh texture and memorable melodic contour can reinforce each other
 topic: ''

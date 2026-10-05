@@ -1,7 +1,7 @@
 ---
 title: Rendering Safely When Some Voiceware Workers Are Optional
 url: /posts/rendering-safely-when-some-voiceware-workers-are-optional.html
-date: '2026-09-18'
+date: '2025-07-17'
 read_time: 2
 excerpt: Why optional components need explicit enablement logic and safe defaults.
 topic: voiceware-engineering

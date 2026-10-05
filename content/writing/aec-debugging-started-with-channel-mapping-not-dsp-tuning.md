@@ -1,7 +1,7 @@
 ---
 title: AEC Debugging Started with Channel Mapping, Not DSP Tuning
 url: /posts/aec-debugging-started-with-channel-mapping-not-dsp-tuning.html
-date: '2026-09-14'
+date: '2023-01-16'
 read_time: 1
 excerpt: Before tuning echo cancellation I verified that the algorithm was receiving
   the microphone and far-end reference channels I thought it was.

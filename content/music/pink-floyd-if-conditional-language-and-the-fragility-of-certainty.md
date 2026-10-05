@@ -1,7 +1,7 @@
 ---
 title: If — Conditional Language and the Fragility of Certainty
 url: /posts/pink-floyd-if-conditional-language-and-the-fragility-of-certainty.html
-date: '2026-09-26'
+date: '2024-12-30'
 read_time: 5
 excerpt: Conditional Language and the Fragility of Certainty
 topic: ''

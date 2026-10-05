@@ -1,7 +1,7 @@
 ---
 title: Manufacturer Scope and Firmware Scope Need a Written Interface
 url: /posts/manufacturer-scope-and-firmware-scope-need-a-written-interface.html
-date: '2026-09-14'
+date: '2023-09-15'
 read_time: 1
 excerpt: Teams move faster when hardware decisions and application decisions meet
   at explicit contracts.

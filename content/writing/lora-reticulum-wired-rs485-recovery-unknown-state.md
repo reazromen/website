@@ -1,7 +1,7 @@
 ---
 title: Wired RS485 Was the Recovery Path for Unknown Remote State
 url: /posts/lora-reticulum-wired-rs485-recovery-unknown-state.html
-date: '2026-09-15'
+date: '2025-12-14'
 read_time: 9
 excerpt: Over-air configuration cannot recover a remote module whose stored mode/profile
   is unknown if that unknown state prevents the OTA command itself.

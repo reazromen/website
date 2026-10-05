@@ -1,7 +1,7 @@
 ---
 title: Rollback in GitOps Is Simple Only When Releases Are Identifiable
 url: /posts/rollback-in-gitops-is-simple-only-when-releases-are-identifiable.html
-date: '2026-09-18'
+date: '2026-06-20'
 read_time: 2
 excerpt: Connecting Git reverts, ArgoCD reconciliation, and immutable artifacts into
   one recovery model.

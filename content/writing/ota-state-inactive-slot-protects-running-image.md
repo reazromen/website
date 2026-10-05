@@ -1,7 +1,7 @@
 ---
 title: The Inactive OTA Slot Protects the Running Image
 url: /posts/ota-state-inactive-slot-protects-running-image.html
-date: '2026-09-15'
+date: '2022-07-03'
 read_time: 8
 excerpt: An update should be able to fail during download or write without destroying
   the last working firmware.

@@ -1,7 +1,7 @@
 ---
 title: A Pillow of Winds — Gentleness That Does Not Need to Be Small
 url: /posts/pink-floyd-a-pillow-of-winds-gentleness-that-does-not-need-to-be-small.html
-date: '2026-09-26'
+date: '2025-06-30'
 read_time: 5
 excerpt: Gentleness That Does Not Need to Be Small
 topic: ''

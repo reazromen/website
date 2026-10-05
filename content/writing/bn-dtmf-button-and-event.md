@@ -1,6 +1,6 @@
 ---
 title: 'ডিটিএমএফ: বোতামের শব্দ আর বোতামের ঘটনা'
-date: '2026-10-02'
+date: '2025-01-27'
 draft: false
 language: bn
 url: /posts/bn-dtmf-button-and-event.html

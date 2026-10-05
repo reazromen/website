@@ -1,7 +1,7 @@
 ---
 title: One RGB LED Is Enough When Its States Are Designed
 url: /posts/one-rgb-led-is-enough-when-its-states-are-designed.html
-date: '2026-09-14'
+date: '2026-07-30'
 read_time: 1
 excerpt: A single status light can become confusing if color, blink and priority are
   not treated as a protocol.

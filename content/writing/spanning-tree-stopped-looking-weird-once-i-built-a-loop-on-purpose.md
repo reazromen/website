@@ -1,7 +1,7 @@
 ---
 title: Spanning Tree Stopped Looking Weird Once I Built a Loop on Purpose
 url: /posts/spanning-tree-stopped-looking-weird-once-i-built-a-loop-on-purpose.html
-date: '2026-09-14'
+date: '2026-03-15'
 read_time: 3
 excerpt: 'STP made more sense after I created the failure it is designed to prevent:
   a Layer 2 loop with no TTL to save the network.'

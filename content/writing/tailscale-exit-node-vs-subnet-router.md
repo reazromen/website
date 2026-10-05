@@ -1,7 +1,7 @@
 ---
 title: Exit Node or Subnet Router? I Choose Based on Which Traffic Must Move
 url: /posts/tailscale-exit-node-vs-subnet-router.html
-date: '2026-09-18'
+date: '2026-04-16'
 read_time: 2
 excerpt: Both features route packets through another tailnet device, but they solve
   different problems.

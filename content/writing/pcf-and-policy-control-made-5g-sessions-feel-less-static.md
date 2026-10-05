@@ -1,7 +1,7 @@
 ---
 title: PCF and Policy Control Made 5G Sessions Feel Less Static
 url: /posts/pcf-and-policy-control-made-5g-sessions-feel-less-static.html
-date: '2026-09-14'
+date: '2024-11-24'
 read_time: 1
 excerpt: Policy is not just a config file on the gateway; in 5GC it can actively influence
   session behavior through dedicated network functions.

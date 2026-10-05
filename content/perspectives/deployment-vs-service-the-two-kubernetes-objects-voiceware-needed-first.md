@@ -1,7 +1,7 @@
 ---
 title: 'Deployment vs Service: The Two Kubernetes Objects Voiceware Needed First'
 url: /posts/deployment-vs-service-the-two-kubernetes-objects-voiceware-needed-first.html
-date: '2026-09-18'
+date: '2021-08-21'
 read_time: 2
 excerpt: The separation between process lifecycle and network reachability.
 topic: voiceware-engineering

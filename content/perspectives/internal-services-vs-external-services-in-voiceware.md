@@ -1,7 +1,7 @@
 ---
 title: Internal Services vs External Services in Voiceware
 url: /posts/internal-services-vs-external-services-in-voiceware.html
-date: '2026-09-18'
+date: '2025-10-18'
 read_time: 2
 excerpt: How I separate east-west service communication from user-facing exposure.
 topic: voiceware-engineering

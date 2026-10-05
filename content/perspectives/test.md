@@ -1,7 +1,7 @@
 ---
 title: test
 url: /posts/test.html
-date: 2026-10-03
+date: '2021-02-24'
 read_time: 8
 excerpt: wqs
 topic: test

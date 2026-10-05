@@ -1,6 +1,6 @@
 ---
 title: "Where the continuous production migration Analogy Breaks"
-date: '2026-10-03'
+date: '2020-02-17'
 draft: false
 language: en
 url: /posts/systems-reality-038-evolution-metaphor.html

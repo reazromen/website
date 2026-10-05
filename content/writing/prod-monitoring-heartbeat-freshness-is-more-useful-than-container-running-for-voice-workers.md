@@ -1,7 +1,7 @@
 ---
 title: Heartbeat Freshness Is More Useful Than “Container Running” for Voice Workers
 url: /posts/prod-monitoring-heartbeat-freshness-is-more-useful-than-container-running-for-voice-workers.html
-date: '2026-09-15'
+date: '2020-05-28'
 read_time: 33
 excerpt: A production-engineering deep dive into heartbeat freshness is more useful
   than “container running” for voice workers, grounded in the 2014 Mac mini hserver

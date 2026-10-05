@@ -1,7 +1,7 @@
 ---
 title: Terraform Drift Detection Is Not the Same Thing as Drift Repair
 url: /posts/terraform-drift-detection-is-not-drift-repair/index.html
-date: '2026-09-26'
+date: '2021-02-23'
 read_time: 8
 excerpt: A normal plan refreshes reality before calculating changes. Refresh-only
   mode updates Terraform's recorded view without changing infrastructure. The real

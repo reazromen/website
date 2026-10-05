@@ -1,7 +1,7 @@
 ---
 title: A Failed Canary Must Block Stable Promotion
 url: /posts/failed-canary-must-block-stable-promotion.html
-date: '2026-09-14'
+date: '2025-06-14'
 read_time: 1
 excerpt: Success evidence loses meaning if failed or rolled-back assignments are ignored
   during promotion.

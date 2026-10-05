@@ -1,7 +1,7 @@
 ---
 title: Wi-Fi Signal Needed Two Measurement Paths, Not One Assumption
 url: /posts/wifi-signal-needed-two-measurement-paths.html
-date: '2026-09-14'
+date: '2022-07-18'
 read_time: 1
 excerpt: Hardware and drivers expose radio state differently, so a production metric
   may need a fallback without hiding uncertainty.

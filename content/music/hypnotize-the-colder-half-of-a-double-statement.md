@@ -1,7 +1,7 @@
 ---
 title: Hypnotize — The Colder Half of a Double Statement
 url: /posts/hypnotize-the-colder-half-of-a-double-statement.html
-date: '2026-09-26'
+date: '2022-05-11'
 read_time: 5
 excerpt: How the second 2005 album often turns inward, darker, and more exhausted
   without becoming passive

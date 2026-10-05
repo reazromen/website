@@ -1,7 +1,7 @@
 ---
 title: Know — When Certainty Becomes a Performance
 url: /posts/system-of-a-down-know-when-certainty-becomes-a-performance.html
-date: '2026-09-26'
+date: '2026-03-02'
 read_time: 5
 excerpt: When Certainty Becomes a Performance
 topic: ''

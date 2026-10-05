@@ -1,7 +1,7 @@
 ---
 title: On the Run — Modern Motion That Feels Like Escape and Entrapment at Once
 url: /posts/pink-floyd-on-the-run-modern-motion-that-feels-like-escape-and-entrapment-at-once.html
-date: '2026-09-26'
+date: '2021-08-02'
 read_time: 5
 excerpt: Modern Motion That Feels Like Escape and Entrapment at Once
 topic: ''

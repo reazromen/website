@@ -2,7 +2,7 @@
 title: Terraform Ephemeral Values and Write-Only Arguments Change the Secret-Handling
   Model
 url: /posts/terraform-ephemeral-write-only-change-secret-handling/index.html
-date: '2026-09-26'
+date: '2022-05-19'
 read_time: 8
 excerpt: Terraform 1.10+ ephemeral values and 1.11+ write-only arguments let temporary
   values pass through a run without being persisted in state or plan artifacts when

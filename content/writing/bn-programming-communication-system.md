@@ -1,6 +1,6 @@
 ---
 title: প্রোগ্রামিং শেখা শুরু হতে পারে একটা যোগাযোগ দিয়ে
-date: '2026-10-02'
+date: '2026-07-14'
 draft: false
 language: bn
 url: /posts/bn-programming-communication-system.html

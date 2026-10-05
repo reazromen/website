@@ -1,6 +1,6 @@
 ---
 title: পুরোনো কোডে ফেরা আর পুরোনো ডেটায় ফেরা
-date: '2026-10-02'
+date: '2020-11-03'
 draft: false
 language: bn
 url: /posts/bn-rollback-data-direction.html

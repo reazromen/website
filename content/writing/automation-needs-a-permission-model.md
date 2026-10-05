@@ -1,7 +1,7 @@
 ---
 title: Automation Needs a Permission Model
 url: /posts/automation-needs-a-permission-model.html
-date: '2026-09-14'
+date: '2026-06-19'
 read_time: 1
 excerpt: Automation should be fast inside a narrow authority boundary rather than
   powerful enough to mutate anything.

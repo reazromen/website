@@ -1,7 +1,7 @@
 ---
 title: Voiceware Started With One Deployable Service, Not a “Platform”
 url: /posts/voiceware-started-with-one-deployable-service-not-a-platform.html
-date: '2026-09-18'
+date: '2024-05-08'
 read_time: 2
 excerpt: Why I validated the delivery path with the web application before expanding
   to the rest of the stack.

@@ -2,7 +2,7 @@
 title: Alan's Psychedelic Breakfast — Making the Ordinary Strange by Listening Too
   Closely
 url: /posts/pink-floyd-alans-psychedelic-breakfast-making-the-ordinary-strange-by-listening-too-closely.html
-date: '2026-09-26'
+date: '2025-05-12'
 read_time: 5
 excerpt: Making the Ordinary Strange by Listening Too Closely
 topic: ''

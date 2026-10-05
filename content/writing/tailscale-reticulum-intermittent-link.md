@@ -1,7 +1,7 @@
 ---
 title: What Happens to Reticulum When the Tailscale Path Drops and Returns
 url: /posts/tailscale-reticulum-intermittent-link.html
-date: '2026-09-18'
+date: '2022-12-09'
 read_time: 2
 excerpt: The useful property is not that the IP path never fails; it is that the transport
   can recover without redefining the whole Reticulum network.

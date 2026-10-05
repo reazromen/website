@@ -1,7 +1,7 @@
 ---
 title: When Downlink Suppression Makes Speech Worse
 url: /posts/field-note-2026-downlink-suppression.html
-date: '2026-09-18'
+date: '2026-07-31'
 read_time: 2
 excerpt: A processor that removes noise can also remove speech detail when its assumptions
   do not match the signal.

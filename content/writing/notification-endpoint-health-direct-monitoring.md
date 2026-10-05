@@ -1,7 +1,7 @@
 ---
 title: Notification Endpoint Health Needs Direct Monitoring
 url: /posts/notification-endpoint-health-direct-monitoring.html
-date: '2026-09-14'
+date: '2023-10-30'
 read_time: 1
 excerpt: Delivery counters only change when an alert is sent, so a quiet system could
   leave a dead notification service unnoticed for hours.

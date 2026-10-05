@@ -1,7 +1,7 @@
 ---
 title: Why a 302 Redirect Can Mean the Service Is Healthy
 url: /posts/prod-monitoring-why-a-302-redirect-can-mean-the-service-is-healthy.html
-date: '2026-09-15'
+date: '2023-05-18'
 read_time: 32
 excerpt: A production-engineering deep dive into why a 302 redirect can mean the service
   is healthy, grounded in the 2014 Mac mini hserver observability stack and its accepted

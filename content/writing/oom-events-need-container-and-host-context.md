@@ -1,7 +1,7 @@
 ---
 title: OOM Events Need Container and Host Context
 url: /posts/oom-events-need-container-and-host-context.html
-date: '2026-09-14'
+date: '2024-09-02'
 read_time: 1
 excerpt: An application disappearing under load can be either a container memory-limit
   event or a host-wide memory emergency.

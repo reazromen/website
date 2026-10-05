@@ -1,7 +1,7 @@
 ---
 title: The Exact CF CF C0 05 01 17 Command Was a Compatibility Probe
 url: /posts/lora-reticulum-exact-cfcfc0-command-probe.html
-date: '2026-09-15'
+date: '2023-05-29'
 read_time: 9
 excerpt: Generic transparent traffic could fail for many reasons, so the investigation
   needed one manufacturer-documented transaction with a predictable reply.

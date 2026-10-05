@@ -1,7 +1,7 @@
 ---
 title: Clocked Playout Beats Packet-Driven Audio
 url: /posts/field-note-2026-clocked-playout.html
-date: '2026-09-18'
+date: '2026-09-14'
 read_time: 2
 excerpt: Network packets arrive when the network allows; speakers need samples when
   the audio clock demands them.

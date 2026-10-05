@@ -2,7 +2,7 @@
 title: Stealing Society — Alienation, Complicity, and the Feeling That the System
   Is Already Inside
 url: /posts/system-of-a-down-stealing-society-alienation-complicity-and-the-feeling-that-the-system-is-already-inside.html
-date: '2026-09-26'
+date: '2024-03-03'
 read_time: 5
 excerpt: Alienation, Complicity, and the Feeling That the System Is Already Inside
 topic: ''

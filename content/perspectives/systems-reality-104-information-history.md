@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Information"
-date: '2026-10-03'
+date: '2025-05-24'
 draft: false
 language: en
 url: /posts/systems-reality-104-information-history.html

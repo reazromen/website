@@ -1,7 +1,7 @@
 ---
 title: Terraform -target Is an Emergency Tool, Not a Deployment Strategy
 url: /posts/terraform-target-is-emergency-tool/index.html
-date: '2026-09-26'
+date: '2023-04-04'
 read_time: 8
 excerpt: Resource targeting narrows Terraform to a selected subset plus dependencies.
   It is valuable for exceptional recovery but can leave the rest of the configuration

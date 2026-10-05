@@ -1,6 +1,6 @@
 ---
 title: "What Evolution Really Is"
-date: '2026-10-03'
+date: '2022-03-22'
 draft: false
 language: en
 url: /posts/systems-reality-036-evolution-mechanism.html

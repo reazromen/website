@@ -1,7 +1,7 @@
 ---
 title: Sugar — Chaos That Sounds Like a Mind Refusing to Stay Still
 url: /posts/system-of-a-down-sugar-chaos-that-sounds-like-a-mind-refusing-to-stay-still.html
-date: '2026-09-26'
+date: '2021-05-20'
 read_time: 5
 excerpt: Chaos That Sounds Like a Mind Refusing to Stay Still
 topic: ''

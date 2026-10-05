@@ -2,7 +2,7 @@
 title: The Narrow Way, Parts 1-3 — A Journey That Changes Form While You Are Inside
   It
 url: /posts/pink-floyd-the-narrow-way-parts-1-3-a-journey-that-changes-form-while-you-are-inside-it.html
-date: '2026-09-26'
+date: '2023-04-16'
 read_time: 5
 excerpt: A Journey That Changes Form While You Are Inside It
 topic: ''

@@ -1,7 +1,7 @@
 ---
 title: PostgreSQL Connection Utilization Needs a Denominator
 url: /posts/postgres-connection-utilization-needs-denominator.html
-date: '2026-09-14'
+date: '2023-02-12'
 read_time: 1
 excerpt: A count of sixty active PostgreSQL connections is meaningless until it is
   compared with the configured maximum for that server.

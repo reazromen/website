@@ -1,7 +1,7 @@
 ---
 title: Compose Rendering Is a Cheap Test That Catches Expensive Deployment Mistakes
 url: /posts/compose-rendering-catches-expensive-deployment-mistakes.html
-date: '2026-09-14'
+date: '2025-05-22'
 read_time: 2
 excerpt: A configuration should render successfully from a clean checkout before it
   is trusted on a production host.

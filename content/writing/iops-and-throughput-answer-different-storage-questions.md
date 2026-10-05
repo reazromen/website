@@ -1,7 +1,7 @@
 ---
 title: IOPS and Throughput Answer Different Storage Questions
 url: /posts/iops-and-throughput-answer-different-storage-questions.html
-date: '2026-09-14'
+date: '2021-12-02'
 read_time: 1
 excerpt: A database doing many tiny synchronous operations and a backup streaming
   large files can show similar disk utilization with very different access patterns.

@@ -1,7 +1,7 @@
 ---
 title: SIP and 5G Core Troubleshooting Started Converging for Me
 url: /posts/sip-and-5g-core-troubleshooting-started-converging-for-me.html
-date: '2026-09-14'
+date: '2023-09-29'
 read_time: 1
 excerpt: 'Different protocols, same debugging discipline: establish state, identify
   the boundary, then follow the next dependency.'

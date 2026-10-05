@@ -1,7 +1,7 @@
 ---
 title: A Reference Softphone Is Valuable Because It Is Not the Device Under Test
 url: /posts/a-reference-softphone-is-valuable-because-it-is-not-the-device-under-test.html
-date: '2026-09-14'
+date: '2023-08-31'
 read_time: 1
 excerpt: Linphone provides a known endpoint for separating PBX problems from embedded
   endpoint problems.

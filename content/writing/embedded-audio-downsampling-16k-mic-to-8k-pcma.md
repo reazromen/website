@@ -1,7 +1,7 @@
 ---
 title: Downsampling 16 kHz Microphone Audio to 8 kHz PCMA
 url: /posts/embedded-audio-downsampling-16k-mic-to-8k-pcma.html
-date: '2026-09-15'
+date: '2023-11-26'
 read_time: 12
 excerpt: The physical capture clock and the network codec did not run at the same
   sample rate.

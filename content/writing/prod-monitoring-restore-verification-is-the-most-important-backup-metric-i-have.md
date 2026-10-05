@@ -1,7 +1,7 @@
 ---
 title: Restore Verification Is the Most Important Backup Metric I Have
 url: /posts/prod-monitoring-restore-verification-is-the-most-important-backup-metric-i-have.html
-date: '2026-09-15'
+date: '2026-03-01'
 read_time: 35
 excerpt: A production-engineering deep dive into restore verification is the most
   important backup metric i have, grounded in the 2014 Mac mini hserver observability

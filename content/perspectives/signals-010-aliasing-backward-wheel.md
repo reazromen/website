@@ -1,6 +1,6 @@
 ---
 title: "Aliasing and the Apparently Backward Wheel"
-date: '2026-10-03'
+date: '2023-03-19'
 draft: false
 language: en
 url: /posts/signals-010-aliasing-backward-wheel.html

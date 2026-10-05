@@ -1,7 +1,7 @@
 ---
 title: Keep Device Firmware PBX-Agnostic
 url: /posts/field-note-2026-pbx-agnostic-firmware.html
-date: '2026-09-18'
+date: '2026-04-20'
 read_time: 2
 excerpt: Firmware should consume SIP account and transport configuration without embedding
   one PBX vendor's deployment assumptions.

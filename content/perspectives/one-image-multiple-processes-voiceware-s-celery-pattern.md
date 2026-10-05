@@ -1,7 +1,7 @@
 ---
 title: 'One Image, Multiple Processes: Voiceware’s Celery Pattern'
 url: /posts/one-image-multiple-processes-voiceware-s-celery-pattern.html
-date: '2026-09-18'
+date: '2023-12-12'
 read_time: 2
 excerpt: Reusing the Django application image for several worker roles while changing
   how the container starts.

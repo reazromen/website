@@ -1,7 +1,7 @@
 ---
 title: Swap Usage Alone Is a Bad Memory Alert
 url: /posts/prod-monitoring-swap-usage-alone-is-a-bad-memory-alert.html
-date: '2026-09-15'
+date: '2023-07-05'
 read_time: 34
 excerpt: A production-engineering deep dive into swap usage alone is a bad memory
   alert, grounded in the 2014 Mac mini hserver observability stack and its accepted

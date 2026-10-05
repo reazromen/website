@@ -1,7 +1,7 @@
 ---
 title: Stop — The Moment a System of Thought Finally Interrupts Itself
 url: /posts/pink-floyd-stop-the-moment-a-system-of-thought-finally-interrupts-itself.html
-date: '2026-09-26'
+date: '2024-11-30'
 read_time: 5
 excerpt: The Moment a System of Thought Finally Interrupts Itself
 topic: ''

@@ -1,7 +1,7 @@
 ---
 title: Tailscale SSH and Ordinary SSH over Tailscale Are Two Different Models
 url: /posts/tailscale-ssh-two-models.html
-date: '2026-09-18'
+date: '2025-04-06'
 read_time: 2
 excerpt: I can send SSH packets over the tailnet without asking Tailscale to become
   the SSH authentication system.

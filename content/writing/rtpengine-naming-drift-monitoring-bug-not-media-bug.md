@@ -1,7 +1,7 @@
 ---
 title: RTPengine Naming Drift Was a Monitoring Bug, Not a Media Bug
 url: /posts/rtpengine-naming-drift-monitoring-bug-not-media-bug.html
-date: '2026-09-14'
+date: '2023-09-20'
 read_time: 1
 excerpt: When a sentinel references yesterday's container name, the monitoring system
   becomes the failed component.

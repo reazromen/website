@@ -2,7 +2,7 @@
 title: Production Infrastructure Became Easier Once Git, Runtime State and Secrets
   Had Different Jobs
 url: /posts/production-infrastructure-became-easier-once-git-runtime-state-and-secrets-had-different-jobs.html
-date: '2026-09-14'
+date: '2021-08-14'
 read_time: 1
 excerpt: Most operational confusion came from mixing desired configuration, live state
   and credentials into the same place.

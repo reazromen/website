@@ -1,7 +1,7 @@
 ---
 title: SHA-256 Proves Integrity; ECDSA Adds Authorship
 url: /posts/ota-state-sha256-and-ecdsa-different-trust.html
-date: '2026-09-15'
+date: '2024-04-10'
 read_time: 8
 excerpt: A correct hash could prove that downloaded bytes matched the manifest but
   not that an authorized release process created that manifest and artifact.

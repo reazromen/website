@@ -1,7 +1,7 @@
 ---
 title: Append-Only Audit Events Make Operational History Harder to Rewrite
 url: /posts/append-only-audit-events-operational-history.html
-date: '2026-09-14'
+date: '2022-05-12'
 read_time: 1
 excerpt: Control-plane actions are easier to trust when later updates cannot silently
   replace the original event record.

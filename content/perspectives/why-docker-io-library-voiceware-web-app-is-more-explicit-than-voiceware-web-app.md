@@ -1,7 +1,7 @@
 ---
 title: Why docker.io/library/voiceware-web-app Is More Explicit Than voiceware-web-app
 url: /posts/why-docker-io-library-voiceware-web-app-is-more-explicit-than-voiceware-web-app.html
-date: '2026-09-18'
+date: '2026-01-04'
 read_time: 2
 excerpt: How a fully qualified-ish image path reduces ambiguity for the runtime.
 topic: voiceware-engineering

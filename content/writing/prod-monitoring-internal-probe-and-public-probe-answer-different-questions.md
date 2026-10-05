@@ -1,7 +1,7 @@
 ---
 title: Internal Probe and Public Probe Answer Different Questions
 url: /posts/prod-monitoring-internal-probe-and-public-probe-answer-different-questions.html
-date: '2026-09-15'
+date: '2022-10-14'
 read_time: 32
 excerpt: A production-engineering deep dive into internal probe and public probe answer
   different questions, grounded in the 2014 Mac mini hserver observability stack and

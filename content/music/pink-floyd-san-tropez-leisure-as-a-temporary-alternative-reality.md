@@ -1,7 +1,7 @@
 ---
 title: San Tropez — Leisure as a Temporary Alternative Reality
 url: /posts/pink-floyd-san-tropez-leisure-as-a-temporary-alternative-reality.html
-date: '2026-09-26'
+date: '2026-04-12'
 read_time: 5
 excerpt: Leisure as a Temporary Alternative Reality
 topic: ''

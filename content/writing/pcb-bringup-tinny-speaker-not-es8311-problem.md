@@ -1,7 +1,7 @@
 ---
 title: A Tinny Speaker Is Not Automatically an ES8311 Problem
 url: /posts/pcb-bringup-tinny-speaker-not-es8311-problem.html
-date: '2026-09-15'
+date: '2026-09-10'
 read_time: 9
 excerpt: Field feedback described the EVT speaker as very tinny even though the digital
   voice path and codec communication were functioning.

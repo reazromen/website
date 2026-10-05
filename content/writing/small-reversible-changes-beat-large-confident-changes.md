@@ -1,7 +1,7 @@
 ---
 title: Small Reversible Changes Beat Large Confident Changes
 url: /posts/small-reversible-changes-beat-large-confident-changes.html
-date: '2026-09-14'
+date: '2023-08-25'
 read_time: 1
 excerpt: Reducing change size lowers diagnosis time and makes rollback a practical
   control instead of a theoretical option.

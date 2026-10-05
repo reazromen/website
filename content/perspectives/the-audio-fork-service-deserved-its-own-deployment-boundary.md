@@ -1,7 +1,7 @@
 ---
 title: The audio-fork Service Deserved Its Own Deployment Boundary
 url: /posts/the-audio-fork-service-deserved-its-own-deployment-boundary.html
-date: '2026-09-18'
+date: '2024-08-04'
 read_time: 2
 excerpt: Why audio-related processing should not be forced into the lifecycle of the
   web process.

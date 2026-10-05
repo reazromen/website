@@ -1,6 +1,6 @@
 ---
 title: কম্পিউটেশন ভৌত জগতের বাইরে না
-date: '2026-10-02'
+date: '2025-04-26'
 draft: false
 language: bn
 url: /posts/bn-energy-computation-boundary.html

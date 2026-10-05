@@ -1,7 +1,7 @@
 ---
 title: I-E-A-I-A-I-O — Memory, Nonsense, and the Strange Persistence of Sound
 url: /posts/system-of-a-down-i-e-a-i-a-i-o-memory-nonsense-and-the-strange-persistence-of-sound.html
-date: '2026-09-26'
+date: '2020-06-14'
 read_time: 5
 excerpt: Memory, Nonsense, and the Strange Persistence of Sound
 topic: ''

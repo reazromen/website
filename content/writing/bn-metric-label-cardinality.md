@@ -1,6 +1,6 @@
 ---
 title: লেবেলের স্বাধীনতার সঙ্গে সিরিজের খরচ
-date: '2026-10-02'
+date: '2026-08-01'
 draft: false
 language: bn
 url: /posts/bn-metric-label-cardinality.html

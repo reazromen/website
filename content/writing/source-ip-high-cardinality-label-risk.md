@@ -1,7 +1,7 @@
 ---
 title: Do Not Turn Source IP into a High-Cardinality Metric Label
 url: /posts/source-ip-high-cardinality-label-risk.html
-date: '2026-09-14'
+date: '2023-01-12'
 read_time: 1
 excerpt: Security logs contain useful source addresses, but promoting every IP to
   a Prometheus or Loki index label would create unbounded cardinality on an Internet-facing

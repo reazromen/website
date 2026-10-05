@@ -1,7 +1,7 @@
 ---
 title: Using Tailscale as the IP Underlay for Reticulum
 url: /posts/tailscale-reticulum-underlay.html
-date: '2026-09-18'
+date: '2026-07-12'
 read_time: 2
 excerpt: Reticulum does not need Tailscale, but its TCP interfaces can use a Tailscale
   path just like any other private IP network.

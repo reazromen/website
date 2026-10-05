@@ -1,7 +1,7 @@
 ---
 title: A Successful TCP Connection Does Not Mean the Database Is Healthy
 url: /posts/prod-monitoring-a-successful-tcp-connection-does-not-mean-the-database-is-healthy.html
-date: '2026-09-15'
+date: '2022-02-27'
 read_time: 35
 excerpt: A production-engineering deep dive into a successful tcp connection does
   not mean the database is healthy, grounded in the 2014 Mac mini hserver observability

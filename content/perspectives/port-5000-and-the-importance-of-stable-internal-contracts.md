@@ -1,7 +1,7 @@
 ---
 title: Port 5000 and the Importance of Stable Internal Contracts
 url: /posts/port-5000-and-the-importance-of-stable-internal-contracts.html
-date: '2026-09-18'
+date: '2025-09-03'
 read_time: 2
 excerpt: How a service port becomes part of the dependency interface between components.
 topic: voiceware-engineering

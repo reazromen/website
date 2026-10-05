@@ -1,7 +1,7 @@
 ---
 title: Docker Daemon Error Bursts Need a Separate Alert
 url: /posts/docker-daemon-error-bursts-need-alert.html
-date: '2026-09-14'
+date: '2023-01-25'
 read_time: 1
 excerpt: Individual container logs can all look normal while the Docker daemon is
   failing image, network, storage or runtime operations underneath them.

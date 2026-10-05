@@ -1,7 +1,7 @@
 ---
 title: Why Voiceware Had Multiple Celery Worker Roles
 url: /posts/why-voiceware-had-multiple-celery-worker-roles.html
-date: '2026-09-18'
+date: '2025-04-27'
 read_time: 2
 excerpt: Separating scheduled, high-priority, standard, and low-priority execution
   concerns.

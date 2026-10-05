@@ -1,7 +1,7 @@
 ---
 title: Dual OTA Slots Need an Acceptance State
 url: /posts/dual-ota-slots-need-an-acceptance-state.html
-date: '2026-09-14'
+date: '2023-02-17'
 read_time: 1
 excerpt: Booting the new partition once is not enough to declare it safe.
 topic: loup-engineering

@@ -1,7 +1,7 @@
 ---
 title: Restart Counts Without Context Create Noise
 url: /posts/prod-monitoring-restart-counts-without-context-create-noise.html
-date: '2026-09-15'
+date: '2024-06-17'
 read_time: 34
 excerpt: A production-engineering deep dive into restart counts without context create
   noise, grounded in the 2014 Mac mini hserver observability stack and its accepted

@@ -1,7 +1,7 @@
 ---
 title: Why Observability Workloads Keep Ending Up in ClickHouse
 url: /posts/why-observability-workloads-end-up-clickhouse.html
-date: '2026-09-26'
+date: '2026-07-14'
 read_time: 9
 excerpt: Logs and traces are wide, append-heavy events that are usually filtered by
   time and a few fields, then aggregated. That workload shape explains the attraction

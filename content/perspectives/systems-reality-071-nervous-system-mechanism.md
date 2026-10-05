@@ -1,6 +1,6 @@
 ---
 title: "What The Nervous System Really Is"
-date: '2026-10-03'
+date: '2022-09-03'
 draft: false
 language: en
 url: /posts/systems-reality-071-nervous-system-mechanism.html

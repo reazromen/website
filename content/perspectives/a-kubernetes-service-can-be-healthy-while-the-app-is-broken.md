@@ -1,7 +1,7 @@
 ---
 title: A Kubernetes Service Can Be Healthy While the App Is Broken
 url: /posts/a-kubernetes-service-can-be-healthy-while-the-app-is-broken.html
-date: '2026-09-18'
+date: '2023-02-27'
 read_time: 2
 excerpt: A layered method for checking pods, endpoints, ports, and application behavior
   separately.

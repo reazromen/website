@@ -1,6 +1,6 @@
 ---
 title: "Where the global system clock Analogy Breaks"
-date: '2026-10-03'
+date: '2025-08-20'
 draft: false
 language: en
 url: /posts/systems-reality-153-time-metaphor.html

@@ -1,7 +1,7 @@
 ---
 title: Queue Isolation Is a Capacity-Control Tool
 url: /posts/queue-isolation-is-a-capacity-control-tool.html
-date: '2026-09-18'
+date: '2024-07-15'
 read_time: 2
 excerpt: Why worker pools give operators a place to assign and protect capacity.
 topic: voiceware-engineering

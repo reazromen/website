@@ -1,7 +1,7 @@
 ---
 title: Sync Word Mismatch Can Look Like a Dead Receiver
 url: /posts/lora-reticulum-sync-word-mismatch-dead-receiver.html
-date: '2026-09-15'
+date: '2024-06-30'
 read_time: 8
 excerpt: A receiver can detect energy or even preamble-like activity while rejecting
   the packet format expected by the application.

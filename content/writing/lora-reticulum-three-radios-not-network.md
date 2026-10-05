@@ -1,7 +1,7 @@
 ---
 title: Three Powered Radios Are Not Yet a Network
 url: /posts/lora-reticulum-three-radios-not-network.html
-date: '2026-09-15'
+date: '2024-08-13'
 read_time: 9
 excerpt: Having multiple radio boards powered and visible created a false sense that
   a multi-node Reticulum network already existed.

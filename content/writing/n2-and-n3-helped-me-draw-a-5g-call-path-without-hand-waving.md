@@ -1,7 +1,7 @@
 ---
 title: N2 and N3 Helped Me Draw a 5G Call Path Without Hand-Waving
 url: /posts/n2-and-n3-helped-me-draw-a-5g-call-path-without-hand-waving.html
-date: '2026-09-14'
+date: '2021-10-09'
 read_time: 2
 excerpt: Separating N2 signalling from N3 user traffic made the gNB-to-core boundary
   much easier to troubleshoot.

@@ -1,7 +1,7 @@
 ---
 title: Firmware Compatibility Is More Than a Version String
 url: /posts/firmware-release-firmware-compatibility-more-than-version-string.html
-date: '2026-09-15'
+date: '2022-08-04'
 read_time: 9
 excerpt: A numerically newer release can still be unsafe for a device with a different
   hardware revision, partition generation, bootloader generation or configuration

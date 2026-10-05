@@ -1,7 +1,7 @@
 ---
 title: Path-Based Policies Make Least Privilege Concrete
 url: /posts/path-based-policies-make-least-privilege-concrete.html
-date: '2026-09-14'
+date: '2024-03-21'
 read_time: 1
 excerpt: The difference between operator, runtime and backup identities is visible
   in the exact OpenBao paths and capabilities they receive.

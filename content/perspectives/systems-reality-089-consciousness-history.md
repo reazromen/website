@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Consciousness"
-date: '2026-10-03'
+date: '2024-03-26'
 draft: false
 language: en
 url: /posts/systems-reality-089-consciousness-history.html

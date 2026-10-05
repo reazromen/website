@@ -1,6 +1,6 @@
 ---
 title: ফ্ল্যাশে লেখা চলার সময় বিদ্যুৎ গেলে
-date: '2026-10-02'
+date: '2024-10-30'
 draft: false
 language: bn
 url: /posts/bn-power-failure-writing-flash.html

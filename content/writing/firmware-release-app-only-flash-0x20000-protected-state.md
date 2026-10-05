@@ -1,7 +1,7 @@
 ---
 title: App-Only Flashing at 0x20000 Protected the State I Was Not Trying to Change
 url: /posts/firmware-release-app-only-flash-0x20000-protected-state.html
-date: '2026-09-15'
+date: '2024-03-22'
 read_time: 9
 excerpt: Audio iteration needed to replace application code without repeatedly erasing
   NVS, bootloader, partition metadata or other persistent device state.

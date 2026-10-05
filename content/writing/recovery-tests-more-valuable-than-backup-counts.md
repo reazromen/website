@@ -1,7 +1,7 @@
 ---
 title: Recovery Tests Are More Valuable Than Backup Counts
 url: /posts/recovery-tests-more-valuable-than-backup-counts.html
-date: '2026-09-14'
+date: '2020-11-15'
 read_time: 1
 excerpt: A pile of backup files measures storage activity; restore tests measure whether
   the organization can recover.

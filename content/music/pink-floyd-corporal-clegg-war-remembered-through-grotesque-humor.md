@@ -1,7 +1,7 @@
 ---
 title: Corporal Clegg — War Remembered Through Grotesque Humor
 url: /posts/pink-floyd-corporal-clegg-war-remembered-through-grotesque-humor.html
-date: '2026-09-26'
+date: '2021-03-29'
 read_time: 5
 excerpt: War Remembered Through Grotesque Humor
 topic: ''

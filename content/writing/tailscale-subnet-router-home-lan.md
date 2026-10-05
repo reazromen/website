@@ -1,7 +1,7 @@
 ---
 title: How I Use a Tailscale Subnet Router to Reach Devices That Cannot Run Tailscale
 url: /posts/tailscale-subnet-router-home-lan.html
-date: '2026-09-18'
+date: '2024-01-31'
 read_time: 2
 excerpt: The tailnet can reach printers, embedded devices and LAN-only services without
   installing a Tailscale client on every endpoint.

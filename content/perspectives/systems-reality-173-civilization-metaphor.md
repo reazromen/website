@@ -1,6 +1,6 @@
 ---
 title: "Where the distributed platform Analogy Breaks"
-date: '2026-10-03'
+date: '2025-08-05'
 draft: false
 language: en
 url: /posts/systems-reality-173-civilization-metaphor.html

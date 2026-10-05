@@ -1,7 +1,7 @@
 ---
 title: The Mobile Core Lab Became Useful When I Could Break It Predictably
 url: /posts/the-mobile-core-lab-became-useful-when-i-could-break-it-predictably.html
-date: '2026-09-14'
+date: '2025-05-26'
 read_time: 1
 excerpt: A working lab proves very little. A lab becomes valuable when failures can
   be introduced, observed and explained on demand.

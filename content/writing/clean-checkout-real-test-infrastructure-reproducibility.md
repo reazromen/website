@@ -1,7 +1,7 @@
 ---
 title: A Clean Checkout Is the Real Test of Infrastructure Reproducibility
 url: /posts/clean-checkout-real-test-infrastructure-reproducibility.html
-date: '2026-09-14'
+date: '2024-08-16'
 read_time: 1
 excerpt: Live files that are absent from Git are technical debt even when the service
   is currently healthy.

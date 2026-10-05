@@ -1,6 +1,6 @@
 ---
 title: "Where the optimizer Analogy Breaks"
-date: '2026-10-03'
+date: '2021-08-06'
 draft: false
 language: en
 url: /posts/systems-reality-043-natural-selection-metaphor.html

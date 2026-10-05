@@ -1,7 +1,7 @@
 ---
 title: RTP Relays Made Container Boundaries Easier to Control
 url: /posts/rtp-relays-made-container-boundaries-easier-to-control.html
-date: '2026-09-14'
+date: '2024-05-07'
 read_time: 1
 excerpt: Anchoring media at a deliberate boundary reduced the number of private addresses
   that leaked into SDP and simplified firewall policy.

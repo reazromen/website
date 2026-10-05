@@ -1,7 +1,7 @@
 ---
 title: The Power of the Two-Minute Song
 url: /posts/the-power-of-the-two-minute-song.html
-date: '2026-09-26'
+date: '2024-11-10'
 read_time: 5
 excerpt: How compressed songs can make one idea feel more volatile because there is
   no room for explanation

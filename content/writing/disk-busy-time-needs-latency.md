@@ -1,7 +1,7 @@
 ---
 title: Disk Busy Time Needs Latency Beside It
 url: /posts/disk-busy-time-needs-latency.html
-date: '2026-09-14'
+date: '2022-09-26'
 read_time: 1
 excerpt: A device at high utilization can be handling work efficiently, while a lower-utilization
   device can still be returning slow requests.

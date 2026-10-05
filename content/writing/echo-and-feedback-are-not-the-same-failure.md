@@ -1,7 +1,7 @@
 ---
 title: Echo and Feedback Are Not the Same Failure
 url: /posts/echo-and-feedback-are-not-the-same-failure.html
-date: '2026-09-14'
+date: '2025-02-15'
 read_time: 1
 excerpt: A delayed copy of far-end speech and an unstable acoustic loop require different
   diagnosis.

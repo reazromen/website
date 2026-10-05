@@ -1,7 +1,7 @@
 ---
 title: The RTP Port Range Is Part of the Deployment Contract
 url: /posts/field-note-2026-rtp-range-contract.html
-date: '2026-09-18'
+date: '2026-05-17'
 read_time: 2
 excerpt: Media ports must agree across PBX configuration, firewall policy, containers
   and the surrounding network.

@@ -1,7 +1,7 @@
 ---
 title: Why Filebeat Was Treated as a First-Class Voiceware Component
 url: /posts/why-filebeat-was-treated-as-a-first-class-voiceware-component.html
-date: '2026-09-18'
+date: '2024-06-12'
 read_time: 2
 excerpt: Making log shipping visible in the deployment model rather than treating
   logs as an afterthought.

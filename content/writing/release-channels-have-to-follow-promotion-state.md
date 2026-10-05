@@ -1,7 +1,7 @@
 ---
 title: Release Channels Have to Follow Promotion State
 url: /posts/release-channels-have-to-follow-promotion-state.html
-date: '2026-09-14'
+date: '2025-08-19'
 read_time: 1
 excerpt: Calling a release STABLE while its channel remains canary creates two sources
   of truth.

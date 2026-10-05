@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Time"
-date: '2026-10-03'
+date: '2024-04-01'
 draft: false
 language: en
 url: /posts/systems-reality-154-time-history.html

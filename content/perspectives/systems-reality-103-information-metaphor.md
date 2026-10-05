@@ -1,6 +1,6 @@
 ---
 title: "Where the data Analogy Breaks"
-date: '2026-10-03'
+date: '2025-12-01'
 draft: false
 language: en
 url: /posts/systems-reality-103-information-metaphor.html

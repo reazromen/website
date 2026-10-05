@@ -1,7 +1,7 @@
 ---
 title: Automated Sync Changed the Way I Thought About Deployment
 url: /posts/automated-sync-changed-the-way-i-thought-about-deployment.html
-date: '2026-09-18'
+date: '2022-08-04'
 read_time: 2
 excerpt: Moving from imperative deploy commands to controller-driven convergence.
 topic: voiceware-engineering

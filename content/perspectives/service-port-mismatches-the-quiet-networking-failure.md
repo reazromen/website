@@ -1,7 +1,7 @@
 ---
 title: 'Service Port Mismatches: The Quiet Networking Failure'
 url: /posts/service-port-mismatches-the-quiet-networking-failure.html
-date: '2026-09-18'
+date: '2025-08-12'
 read_time: 2
 excerpt: Why I verify listener, container port, Service port, and targetPort as one
   chain.

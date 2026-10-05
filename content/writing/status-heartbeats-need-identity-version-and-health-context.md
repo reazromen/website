@@ -1,7 +1,7 @@
 ---
 title: Status Heartbeats Need Identity, Version and Health Context
 url: /posts/status-heartbeats-need-identity-version-and-health-context.html
-date: '2026-09-14'
+date: '2026-01-31'
 read_time: 1
 excerpt: A backend cannot manage a fleet from a last-seen timestamp alone.
 topic: loup-engineering

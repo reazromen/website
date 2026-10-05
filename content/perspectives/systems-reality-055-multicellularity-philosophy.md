@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Multicellularity"
-date: '2026-10-03'
+date: '2022-12-15'
 draft: false
 language: en
 url: /posts/systems-reality-055-multicellularity-philosophy.html

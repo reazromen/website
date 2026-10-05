@@ -1,7 +1,7 @@
 ---
 title: FLASH_PORT and Test Pads Are Insurance for the Unit That Does Not Boot
 url: /posts/pcb-bringup-flash-port-test-pads-insurance.html
-date: '2026-09-15'
+date: '2024-05-30'
 read_time: 9
 excerpt: Factory and service workflows need a path that still works when firmware,
   provisioning or normal UI cannot start.

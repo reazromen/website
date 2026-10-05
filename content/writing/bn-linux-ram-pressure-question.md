@@ -1,6 +1,6 @@
 ---
 title: র‍্যাম ভরা আর র‍্যামের চাপে কাজ থামা আলাদা
-date: '2026-10-02'
+date: '2024-09-07'
 draft: false
 language: bn
 url: /posts/bn-linux-ram-pressure-question.html

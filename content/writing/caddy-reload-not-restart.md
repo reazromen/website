@@ -1,7 +1,7 @@
 ---
 title: Stop Restarting Caddy to Apply a Caddyfile Change
 url: /posts/caddy-reload-not-restart.html
-date: '2026-09-18'
+date: '2024-04-21'
 read_time: 18
 excerpt: Caddy has graceful config reloads; restarting the process turns a routing
   edit into avoidable downtime.

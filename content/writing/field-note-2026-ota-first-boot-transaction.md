@@ -1,7 +1,7 @@
 ---
 title: First Boot After OTA Is Still a Transaction
 url: /posts/field-note-2026-ota-first-boot-transaction.html
-date: '2026-09-18'
+date: '2026-08-26'
 read_time: 2
 excerpt: A successful flash write does not prove the new image can initialize hardware,
   load state and stay healthy.

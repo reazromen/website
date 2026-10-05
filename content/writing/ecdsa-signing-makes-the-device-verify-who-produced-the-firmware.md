@@ -1,7 +1,7 @@
 ---
 title: ECDSA Signing Makes the Device Verify Who Produced the Firmware
 url: /posts/ecdsa-signing-makes-the-device-verify-who-produced-the-firmware.html
-date: '2026-09-14'
+date: '2025-03-21'
 read_time: 1
 excerpt: Transport security alone does not prove an artifact should be trusted after
   download.

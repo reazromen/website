@@ -1,7 +1,7 @@
 ---
 title: Terraform check, precondition, and postcondition Blocks Fail at Different Boundaries
 url: /posts/terraform-checks-preconditions-postconditions-are-different/index.html
-date: '2026-09-26'
+date: '2024-03-30'
 read_time: 8
 excerpt: Terraform has several validation primitives because not every rule should
   fail at the same time. Preconditions protect assumptions, postconditions protect

@@ -1,6 +1,6 @@
 ---
 title: "What Embryonic Development Really Is"
-date: '2026-10-03'
+date: '2022-02-04'
 draft: false
 language: en
 url: /posts/systems-reality-016-development-mechanism.html

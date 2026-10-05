@@ -1,7 +1,7 @@
 ---
 title: Publisher Retries Need Idempotency or They Create Duplicate Posts
 url: /posts/publisher-retries-need-idempotency.html
-date: '2026-09-14'
+date: '2026-01-13'
 read_time: 1
 excerpt: When a network response is lost, retrying a create request can duplicate
   the side effect even if the first request succeeded remotely.

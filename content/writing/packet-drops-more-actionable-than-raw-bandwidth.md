@@ -1,7 +1,7 @@
 ---
 title: Packet Drops Are More Actionable Than Raw Bandwidth
 url: /posts/packet-drops-more-actionable-than-raw-bandwidth.html
-date: '2026-09-14'
+date: '2020-11-24'
 read_time: 1
 excerpt: High interface traffic can be completely healthy, while a small but sustained
   drop rate can damage voice, APIs and tunnel reliability.

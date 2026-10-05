@@ -1,7 +1,7 @@
 ---
 title: Dance Rhythms Inside Heavy Music
 url: /posts/dance-rhythms-inside-heavy-music.html
-date: '2026-09-26'
+date: '2023-08-30'
 read_time: 5
 excerpt: How groove can make disturbing material more physically immediate instead
   of less serious

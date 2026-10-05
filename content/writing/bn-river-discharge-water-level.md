@@ -1,6 +1,6 @@
 ---
 title: নদীর ডিসচার্জ আর পানির উচ্চতা এক না
-date: '2026-10-02'
+date: '2023-11-15'
 draft: false
 language: bn
 url: /posts/bn-river-discharge-water-level.html

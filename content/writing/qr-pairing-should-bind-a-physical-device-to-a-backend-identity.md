@@ -1,7 +1,7 @@
 ---
 title: QR Pairing Should Bind a Physical Device to a Backend Identity
 url: /posts/qr-pairing-should-bind-a-physical-device-to-a-backend-identity.html
-date: '2026-09-14'
+date: '2024-12-02'
 read_time: 1
 excerpt: Scanning a code is useful only if the backend can prove which unit and account
   the ceremony joins.

@@ -1,7 +1,7 @@
 ---
 title: B.Y.O.B. — War, Celebration, and the Obscenity of Keeping the Party Going
 url: /posts/system-of-a-down-b-y-o-b-war-celebration-and-the-obscenity-of-keeping-the-party-going.html
-date: '2026-09-26'
+date: '2022-07-09'
 read_time: 5
 excerpt: War, Celebration, and the Obscenity of Keeping the Party Going
 topic: ''

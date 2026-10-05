@@ -1,6 +1,6 @@
 ---
 title: ডিএনএস ঠিক মানেই অ্যাপ্লিকেশন ঠিক না
-date: '2026-10-02'
+date: '2021-08-26'
 draft: false
 language: bn
 url: /posts/bn-dns-path-not-application-health.html

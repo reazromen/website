@@ -1,7 +1,7 @@
 ---
 title: Speaker Quality Needs a Reference Signal Before Subjective Listening
 url: /posts/speaker-quality-needs-a-reference-signal-before-subjective-listening.html
-date: '2026-09-14'
+date: '2025-04-21'
 read_time: 1
 excerpt: Listening tests become more useful when the input and operating point are
   controlled.

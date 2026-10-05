@@ -1,7 +1,7 @@
 ---
 title: The PBX Scheduler Bug That Looked Like an ESP32 Audio Bug
 url: /posts/embedded-audio-pbx-scheduler-bug-looked-like-esp32-audio.html
-date: '2026-09-15'
+date: '2024-11-24'
 read_time: 12
 excerpt: The device received media in repeating bursts that looked like a local queue
   or I2S starvation problem.

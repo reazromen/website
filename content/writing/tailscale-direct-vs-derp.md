@@ -2,7 +2,7 @@
 title: 'How I Read Tailscale Status: Direct Paths, Relays and What They Actually Tell
   Me'
 url: /posts/tailscale-direct-vs-derp.html
-date: '2026-09-18'
+date: '2024-07-30'
 read_time: 2
 excerpt: A peer marked online is only the start. I also care whether the path is direct,
   relayed and stable enough for the workload.

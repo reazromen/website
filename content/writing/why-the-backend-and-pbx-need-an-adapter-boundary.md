@@ -1,7 +1,7 @@
 ---
 title: Why the Backend and PBX Need an Adapter Boundary
 url: /posts/why-the-backend-and-pbx-need-an-adapter-boundary.html
-date: '2026-09-14'
+date: '2026-03-02'
 read_time: 1
 excerpt: Identity and parental policy should not be embedded inside SIP routing rules.
 topic: loup-engineering

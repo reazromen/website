@@ -1,7 +1,7 @@
 ---
 title: Journal Cursor Persistence Prevented Duplicate Log Ingestion
 url: /posts/journal-cursor-persistence-prevented-duplicate-log-ingestion.html
-date: '2026-09-14'
+date: '2024-02-07'
 read_time: 1
 excerpt: Restarting a log collector can replay old journal entries or skip new ones
   if it does not persist its position correctly.

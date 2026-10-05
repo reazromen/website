@@ -2,7 +2,7 @@
 title: Secure Boot and Flash Encryption Should Not Be Burned into Prototype eFuses
   Casually
 url: /posts/firmware-release-secure-boot-flash-encryption-efuse-discipline.html
-date: '2026-09-15'
+date: '2020-12-12'
 read_time: 9
 excerpt: Prototype recovery work still depended on flexible flashing and rollback,
   while production security eventually needs stronger hardware enforcement.

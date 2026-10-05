@@ -1,7 +1,7 @@
 ---
 title: ClusterIP and Service Discovery for Redis
 url: /posts/clusterip-and-service-discovery-for-redis.html
-date: '2026-09-18'
+date: '2021-08-19'
 read_time: 1
 excerpt: How an internal service name is preferable to hard-coding pod identity.
 topic: voiceware-engineering

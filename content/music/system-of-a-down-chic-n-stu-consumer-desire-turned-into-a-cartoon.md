@@ -1,7 +1,7 @@
 ---
 title: Chic 'n' Stu — Consumer Desire Turned Into a Cartoon
 url: /posts/system-of-a-down-chic-n-stu-consumer-desire-turned-into-a-cartoon.html
-date: '2026-09-26'
+date: '2024-12-26'
 read_time: 5
 excerpt: Consumer Desire Turned Into a Cartoon
 topic: ''

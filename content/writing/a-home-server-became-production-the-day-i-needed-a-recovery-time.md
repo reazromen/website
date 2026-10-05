@@ -1,7 +1,7 @@
 ---
 title: A Home Server Became Production the Day I Needed a Recovery Time
 url: /posts/a-home-server-became-production-the-day-i-needed-a-recovery-time.html
-date: '2026-09-14'
+date: '2024-10-08'
 read_time: 1
 excerpt: The difference between a lab box and production infrastructure is not the
   hardware; it is whether failure has a documented recovery path.

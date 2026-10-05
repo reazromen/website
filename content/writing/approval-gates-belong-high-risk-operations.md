@@ -1,7 +1,7 @@
 ---
 title: Approval Gates Belong on High-Risk Operations, Not Every Button
 url: /posts/approval-gates-belong-high-risk-operations.html
-date: '2026-09-14'
+date: '2022-03-06'
 read_time: 1
 excerpt: Blanket approvals create friction; risk-based approvals preserve review where
   it actually reduces danger.

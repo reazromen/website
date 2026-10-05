@@ -1,7 +1,7 @@
 ---
 title: The VoIP Dashboard Must Follow a Call Across Layers
 url: /posts/prod-monitoring-the-voip-dashboard-must-follow-a-call-across-layers.html
-date: '2026-09-15'
+date: '2024-07-27'
 read_time: 34
 excerpt: A production-engineering deep dive into the voip dashboard must follow a
   call across layers, grounded in the 2014 Mac mini hserver observability stack and

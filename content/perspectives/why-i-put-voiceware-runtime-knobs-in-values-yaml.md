@@ -1,7 +1,7 @@
 ---
 title: Why I Put Voiceware Runtime Knobs in values.yaml
 url: /posts/why-i-put-voiceware-runtime-knobs-in-values-yaml.html
-date: '2026-09-18'
+date: '2022-07-01'
 read_time: 1
 excerpt: Separating reusable Kubernetes structure from service-specific image, replica,
   and port settings.

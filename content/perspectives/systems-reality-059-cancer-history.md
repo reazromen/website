@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Cancer as a Systems Failure"
-date: '2026-10-03'
+date: '2023-11-02'
 draft: false
 language: en
 url: /posts/systems-reality-059-cancer-history.html

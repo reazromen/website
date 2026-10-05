@@ -1,7 +1,7 @@
 ---
 title: Backend-Delivered SIP Configuration Keeps Secrets Out of Factory Images
 url: /posts/backend-delivered-sip-configuration-keeps-secrets-out-of-factory-images.html
-date: '2026-09-14'
+date: '2023-06-20'
 read_time: 1
 excerpt: Per-device PBX credentials should be provisioned after identity is established,
   not cloned into every unit.

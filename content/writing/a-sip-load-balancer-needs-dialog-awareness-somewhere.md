@@ -1,7 +1,7 @@
 ---
 title: A SIP Load Balancer Needs Dialog Awareness Somewhere
 url: /posts/a-sip-load-balancer-needs-dialog-awareness-somewhere.html
-date: '2026-09-14'
+date: '2020-04-11'
 read_time: 1
 excerpt: Distributing initial INVITEs is easy; keeping in-dialog requests on a valid
   path is where the architecture starts to matter.

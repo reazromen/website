@@ -1,7 +1,7 @@
 ---
 title: The Audio Bug Was Not One Bug
 url: /posts/embedded-audio-audio-bug-was-not-one-bug.html
-date: '2026-09-15'
+date: '2024-04-18'
 read_time: 12
 excerpt: Robotic speech, cutouts, lag and echo initially collapsed into one vague
   complaint called bad audio.

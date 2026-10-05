@@ -1,6 +1,6 @@
 ---
 title: "What Mutation Really Is"
-date: '2026-10-03'
+date: '2024-12-30'
 draft: false
 language: en
 url: /posts/systems-reality-046-mutation-mechanism.html

@@ -1,7 +1,7 @@
 ---
 title: V117 Was Useful Because It Failed Clearly
 url: /posts/v117-was-useful-because-it-failed-clearly.html
-date: '2026-09-14'
+date: '2023-02-03'
 read_time: 1
 excerpt: A bad experimental build can be valuable when it changes a small set of variables
   and is easy to revert.

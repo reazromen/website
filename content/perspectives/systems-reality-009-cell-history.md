@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See The Cell"
-date: '2026-10-03'
+date: '2023-08-21'
 draft: false
 language: en
 url: /posts/systems-reality-009-cell-history.html

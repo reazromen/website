@@ -1,7 +1,7 @@
 ---
 title: Up the Khyber — Rhythm as a Landscape Rather Than a Song Form
 url: /posts/pink-floyd-up-the-khyber-rhythm-as-a-landscape-rather-than-a-song-form.html
-date: '2026-09-26'
+date: '2020-01-09'
 read_time: 5
 excerpt: Rhythm as a Landscape Rather Than a Song Form
 topic: ''

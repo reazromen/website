@@ -1,7 +1,7 @@
 ---
 title: The Caddyfile Says dns cloudflare, but Caddy Says the Module Does Not Exist
 url: /posts/caddy-cloudflare-dns-plugin-missing.html
-date: '2026-09-18'
+date: '2025-05-27'
 read_time: 16
 excerpt: DNS challenge syntax only works when the running binary contains that provider
   module.

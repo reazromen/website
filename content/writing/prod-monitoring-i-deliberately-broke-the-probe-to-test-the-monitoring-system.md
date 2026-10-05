@@ -1,7 +1,7 @@
 ---
 title: I Deliberately Broke the Probe to Test the Monitoring System
 url: /posts/prod-monitoring-i-deliberately-broke-the-probe-to-test-the-monitoring-system.html
-date: '2026-09-15'
+date: '2024-02-17'
 read_time: 35
 excerpt: A production-engineering deep dive into i deliberately broke the probe to
   test the monitoring system, grounded in the 2014 Mac mini hserver observability

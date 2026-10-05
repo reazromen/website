@@ -1,7 +1,7 @@
 ---
 title: Load Average Without CPU Count Is Almost Meaningless
 url: /posts/prod-monitoring-load-average-without-cpu-count-is-almost-meaningless.html
-date: '2026-09-15'
+date: '2024-04-07'
 read_time: 34
 excerpt: A production-engineering deep dive into load average without cpu count is
   almost meaningless, grounded in the 2014 Mac mini hserver observability stack and

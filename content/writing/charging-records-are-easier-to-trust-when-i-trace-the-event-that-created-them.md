@@ -1,7 +1,7 @@
 ---
 title: Charging Records Are Easier to Trust When I Trace the Event That Created Them
 url: /posts/charging-records-are-easier-to-trust-when-i-trace-the-event-that-created-them.html
-date: '2026-09-14'
+date: '2020-06-02'
 read_time: 1
 excerpt: Usage records become meaningful only when they can be tied back to the session,
   rule and network event that produced them.

@@ -1,7 +1,7 @@
 ---
 title: Kill Rock 'N Roll — Guilt Made Absurd Without Becoming Meaningless
 url: /posts/system-of-a-down-kill-rock-n-roll-guilt-made-absurd-without-becoming-meaningless.html
-date: '2026-09-26'
+date: '2026-04-11'
 read_time: 5
 excerpt: Guilt Made Absurd Without Becoming Meaningless
 topic: ''

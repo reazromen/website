@@ -1,7 +1,7 @@
 ---
 title: One Missing Semicolon Broke HTML Escaping in the Command Center
 url: /posts/missing-semicolon-broke-html-escaping-command-center.html
-date: '2026-09-14'
+date: '2023-11-04'
 read_time: 1
 excerpt: Tiny output-encoding defects matter more in admin surfaces because they render
   operational data from many sources.

@@ -1,7 +1,7 @@
 ---
 title: Long-Call Drift Is Different from Short-Call Sound Quality
 url: /posts/embedded-audio-long-call-drift-vs-short-call-quality.html
-date: '2026-09-15'
+date: '2024-08-16'
 read_time: 12
 excerpt: A call can sound excellent for thirty seconds while two media clocks slowly
   walk apart.

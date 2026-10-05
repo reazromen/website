@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Homeostasis"
-date: '2026-10-03'
+date: '2025-06-15'
 draft: false
 language: en
 url: /posts/systems-reality-035-homeostasis-philosophy.html

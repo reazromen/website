@@ -1,7 +1,7 @@
 ---
 title: Canary to Cohort to Stable Is a Feedback Loop
 url: /posts/ota-state-canary-cohort-stable-feedback-loop.html
-date: '2026-09-15'
+date: '2023-10-16'
 read_time: 8
 excerpt: Rolling all boards at once would maximize blast radius before the first device
   produced field evidence.

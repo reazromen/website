@@ -1,7 +1,7 @@
 ---
 title: Container Running, Healthy and Useful Are Three Different States
 url: /posts/prod-monitoring-container-running-healthy-and-useful-are-three-different-states.html
-date: '2026-09-15'
+date: '2026-05-26'
 read_time: 34
 excerpt: A production-engineering deep dive into container running, healthy and useful
   are three different states, grounded in the 2014 Mac mini hserver observability

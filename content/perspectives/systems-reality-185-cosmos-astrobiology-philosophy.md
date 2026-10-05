@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside the Search for Life Beyond Earth"
-date: '2026-10-03'
+date: '2021-05-20'
 draft: false
 language: en
 url: /posts/systems-reality-185-cosmos-astrobiology-philosophy.html

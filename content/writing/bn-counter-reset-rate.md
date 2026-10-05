@@ -1,6 +1,6 @@
 ---
 title: কাউন্টার রিসেট হলে গ্রাফের গল্প বদলায়
-date: '2026-10-02'
+date: '2023-04-22'
 draft: false
 language: bn
 url: /posts/bn-counter-reset-rate.html

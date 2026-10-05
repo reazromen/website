@@ -1,6 +1,6 @@
 ---
 title: রিং বাফারে জায়গার চেয়ে মালিকানা বেশি জরুরি
-date: '2026-10-02'
+date: '2025-11-17'
 draft: false
 language: bn
 url: /posts/bn-ring-buffer-ownership.html

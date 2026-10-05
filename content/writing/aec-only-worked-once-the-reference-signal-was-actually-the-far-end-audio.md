@@ -1,7 +1,7 @@
 ---
 title: AEC Only Worked Once the Reference Signal Was Actually the Far-End Audio
 url: /posts/aec-only-worked-once-the-reference-signal-was-actually-the-far-end-audio.html
-date: '2026-09-14'
+date: '2023-07-08'
 read_time: 1
 excerpt: An echo canceller cannot remove what its reference channel does not represent.
 topic: embedded-firmware

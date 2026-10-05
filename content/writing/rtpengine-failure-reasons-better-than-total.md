@@ -1,7 +1,7 @@
 ---
 title: RTPEngine Failure Reasons Are Better Than One Failure Total
 url: /posts/rtpengine-failure-reasons-better-than-total.html
-date: '2026-09-14'
+date: '2026-05-06'
 read_time: 1
 excerpt: Media sessions can close for rejection, timeout, silent timeout, final timeout
   or offer timeout, and those reasons point to different failure paths.

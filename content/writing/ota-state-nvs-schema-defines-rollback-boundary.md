@@ -1,7 +1,7 @@
 ---
 title: Rollback Safety Ends at Persistent Schema Compatibility
 url: /posts/ota-state-nvs-schema-defines-rollback-boundary.html
-date: '2026-09-15'
+date: '2025-09-09'
 read_time: 8
 excerpt: A previous binary is not a valid rollback target if the new firmware transformed
   NVS into a format the old firmware cannot read.

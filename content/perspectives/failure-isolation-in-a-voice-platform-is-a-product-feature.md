@@ -1,7 +1,7 @@
 ---
 title: Failure Isolation in a Voice Platform Is a Product Feature
 url: /posts/failure-isolation-in-a-voice-platform-is-a-product-feature.html
-date: '2026-09-18'
+date: '2026-07-04'
 read_time: 2
 excerpt: Why runtime boundaries influence user experience even though users never
   see Kubernetes.

@@ -1,7 +1,7 @@
 ---
 title: Deployment Is Not Acceptance
 url: /posts/deployment-is-not-acceptance.html
-date: '2026-09-14'
+date: '2025-05-11'
 read_time: 1
 excerpt: Applying a change and proving it works are separate milestones that need
   separate evidence.

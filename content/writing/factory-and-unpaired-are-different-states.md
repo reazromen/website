@@ -1,7 +1,7 @@
 ---
 title: Factory and Unpaired Are Different States
 url: /posts/factory-and-unpaired-are-different-states.html
-date: '2026-09-14'
+date: '2022-01-21'
 read_time: 1
 excerpt: A board leaving production and a consumer device waiting for ownership are
   not the same operational condition.

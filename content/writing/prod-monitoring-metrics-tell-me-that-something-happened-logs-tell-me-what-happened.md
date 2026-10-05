@@ -1,7 +1,7 @@
 ---
 title: Metrics Tell Me That Something Happened; Logs Tell Me What Happened
 url: /posts/prod-monitoring-metrics-tell-me-that-something-happened-logs-tell-me-what-happened.html
-date: '2026-09-15'
+date: '2021-09-04'
 read_time: 35
 excerpt: A production-engineering deep dive into metrics tell me that something happened;
   logs tell me what happened, grounded in the 2014 Mac mini hserver observability

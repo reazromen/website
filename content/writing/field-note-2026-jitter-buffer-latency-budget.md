@@ -1,7 +1,7 @@
 ---
 title: Jitter Buffer Depth Is a Latency Budget
 url: /posts/field-note-2026-jitter-buffer-latency-budget.html
-date: '2026-09-18'
+date: '2026-06-08'
 read_time: 2
 excerpt: Every extra buffered frame trades conversational responsiveness for tolerance
   to arrival variation.

@@ -1,7 +1,7 @@
 ---
 title: mDNS and Tailscale Fail in Different Ways
 url: /posts/field-note-2026-mdns-vs-tailscale.html
-date: '2026-09-18'
+date: '2026-05-22'
 read_time: 2
 excerpt: A .local name and a Tailscale peer can refer to the same host while depending
   on different discovery systems.

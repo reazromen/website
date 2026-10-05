@@ -1,7 +1,7 @@
 ---
 title: CI Should Protect Invariants, Not Just Syntax
 url: /posts/ci-should-protect-invariants-not-just-syntax.html
-date: '2026-09-14'
+date: '2022-09-30'
 read_time: 1
 excerpt: The most valuable CI checks encode production truths that previously failed
   in real systems.

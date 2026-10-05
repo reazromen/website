@@ -1,6 +1,6 @@
 ---
 title: "Where the service ecosystem Analogy Breaks"
-date: '2026-10-03'
+date: '2021-01-09'
 draft: false
 language: en
 url: /posts/systems-reality-163-ecosystems-metaphor.html

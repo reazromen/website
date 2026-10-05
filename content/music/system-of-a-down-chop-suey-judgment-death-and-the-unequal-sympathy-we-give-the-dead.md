@@ -1,7 +1,7 @@
 ---
 title: Chop Suey! — Judgment, Death, and the Unequal Sympathy We Give the Dead
 url: /posts/system-of-a-down-chop-suey-judgment-death-and-the-unequal-sympathy-we-give-the-dead.html
-date: '2026-09-26'
+date: '2023-02-08'
 read_time: 5
 excerpt: Judgment, Death, and the Unequal Sympathy We Give the Dead
 topic: ''

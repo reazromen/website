@@ -1,7 +1,7 @@
 ---
 title: Reconciling Concurrent Git Changes Without Force Push
 url: /posts/reconcile-concurrent-git-changes-without-force-push.html
-date: '2026-09-14'
+date: '2026-01-27'
 read_time: 1
 excerpt: Production work continued in multiple streams, so safe synchronization had
   to preserve both histories rather than overwrite whichever side moved first.

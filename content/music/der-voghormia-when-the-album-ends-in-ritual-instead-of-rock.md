@@ -1,7 +1,7 @@
 ---
 title: Der Voghormia — When the Album Ends in Ritual Instead of Rock
 url: /posts/der-voghormia-when-the-album-ends-in-ritual-instead-of-rock.html
-date: '2026-09-26'
+date: '2022-02-27'
 read_time: 5
 excerpt: Why a spiritual Armenian hymn changes the emotional meaning of the album's
   ending

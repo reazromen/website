@@ -1,6 +1,6 @@
 ---
 title: ফার্মওয়্যার ডাউনলোড শেষ হলেই আপডেট শেষ না
-date: '2026-10-02'
+date: '2022-07-07'
 draft: false
 language: bn
 url: /posts/bn-ota-download-not-update.html

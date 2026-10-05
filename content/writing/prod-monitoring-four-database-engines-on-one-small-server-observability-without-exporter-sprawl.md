@@ -2,7 +2,7 @@
 title: 'Four Database Engines on One Small Server: Observability Without Exporter
   Sprawl'
 url: /posts/prod-monitoring-four-database-engines-on-one-small-server-observability-without-exporter-sprawl.html
-date: '2026-09-15'
+date: '2021-07-03'
 read_time: 37
 excerpt: 'A production-engineering deep dive into four database engines on one small
   server: observability without exporter sprawl, grounded in the 2014 Mac mini hserver

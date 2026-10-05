@@ -1,7 +1,7 @@
 ---
 title: The `for` Clause Is an Anti-Flap Tool, Not Decoration
 url: /posts/prometheus-for-clause-anti-flap.html
-date: '2026-09-14'
+date: '2021-07-20'
 read_time: 1
 excerpt: CPU, packet loss and endpoint probes can cross thresholds for a few seconds
   during harmless transitions or deployment activity.

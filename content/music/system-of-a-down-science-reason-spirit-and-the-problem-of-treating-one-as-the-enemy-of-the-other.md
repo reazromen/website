@@ -2,7 +2,7 @@
 title: Science — Reason, Spirit, and the Problem of Treating One as the Enemy of the
   Other
 url: /posts/system-of-a-down-science-reason-spirit-and-the-problem-of-treating-one-as-the-enemy-of-the-other.html
-date: '2026-09-26'
+date: '2026-08-14'
 read_time: 5
 excerpt: Reason, Spirit, and the Problem of Treating One as the Enemy of the Other
 topic: ''

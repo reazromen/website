@@ -1,7 +1,7 @@
 ---
 title: Innervision — Searching Inward Without Pretending the Answer Is Simple
 url: /posts/system-of-a-down-innervision-searching-inward-without-pretending-the-answer-is-simple.html
-date: '2026-09-26'
+date: '2026-07-25'
 read_time: 5
 excerpt: Searching Inward Without Pretending the Answer Is Simple
 topic: ''

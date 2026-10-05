@@ -1,7 +1,7 @@
 ---
 title: SSH Failure Alerts Need Warning and Critical Bursts
 url: /posts/ssh-failure-alerts-need-burst-levels.html
-date: '2026-09-14'
+date: '2024-09-05'
 read_time: 1
 excerpt: A few failed SSH logins are normal on an administered server, while a rapid
   burst can indicate brute-force activity or a broken automation credential.

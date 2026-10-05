@@ -1,6 +1,6 @@
 ---
 title: রেজিস্ট্রেশন একটা ঠিকানা, জীবিত থাকার পূর্ণ প্রমাণ না
-date: '2026-10-02'
+date: '2024-01-20'
 draft: false
 language: bn
 url: /posts/bn-sip-registration-expiry-liveness.html

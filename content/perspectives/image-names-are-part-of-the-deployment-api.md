@@ -1,7 +1,7 @@
 ---
 title: Image Names Are Part of the Deployment API
 url: /posts/image-names-are-part-of-the-deployment-api.html
-date: '2026-09-18'
+date: '2024-08-28'
 read_time: 2
 excerpt: Why repository, tag, and pull policy deserve review like any other runtime
   contract.

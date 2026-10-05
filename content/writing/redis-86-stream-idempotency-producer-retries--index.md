@@ -1,7 +1,7 @@
 ---
 title: Redis 8.6 Streams Finally Address the Producer Retry Ambiguity Directly
 url: /posts/redis-86-stream-idempotency-producer-retries/index.html
-date: '2026-09-26'
+date: '2025-09-20'
 read_time: 8
 excerpt: A producer can time out after XADD without knowing whether Redis accepted
   the entry. Redis 8.6 adds stream idempotency so retries can be recognized without

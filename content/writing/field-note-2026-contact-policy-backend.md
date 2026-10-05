@@ -1,7 +1,7 @@
 ---
 title: Contact Authorization Belongs to Backend Policy, Not Dialing Logic
 url: /posts/field-note-2026-contact-policy-backend.html
-date: '2026-09-18'
+date: '2026-07-13'
 read_time: 2
 excerpt: SIP addresses endpoints; the product still needs an explicit policy for who
   is allowed to contact whom.

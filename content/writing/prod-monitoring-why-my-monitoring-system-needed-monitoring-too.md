@@ -1,7 +1,7 @@
 ---
 title: Why My Monitoring System Needed Monitoring Too
 url: /posts/prod-monitoring-why-my-monitoring-system-needed-monitoring-too.html
-date: '2026-09-15'
+date: '2025-06-24'
 read_time: 32
 excerpt: A production-engineering deep dive into why my monitoring system needed monitoring
   too, grounded in the 2014 Mac mini hserver observability stack and its accepted

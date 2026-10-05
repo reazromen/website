@@ -1,7 +1,7 @@
 ---
 title: Soil — Grief, Anger, and the Question of What Remains After Loss
 url: /posts/system-of-a-down-soil-grief-anger-and-the-question-of-what-remains-after-loss.html
-date: '2026-09-26'
+date: '2024-04-06'
 read_time: 5
 excerpt: Grief, Anger, and the Question of What Remains After Loss
 topic: ''

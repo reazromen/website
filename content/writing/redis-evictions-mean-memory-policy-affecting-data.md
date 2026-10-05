@@ -1,7 +1,7 @@
 ---
 title: Redis Evictions Mean Memory Policy Is Affecting Data
 url: /posts/redis-evictions-mean-memory-policy-affecting-data.html
-date: '2026-09-14'
+date: '2025-06-21'
 read_time: 1
 excerpt: Redis can remain responsive while silently evicting keys because the configured
   memory limit has been reached.

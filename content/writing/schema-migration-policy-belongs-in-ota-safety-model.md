@@ -1,7 +1,7 @@
 ---
 title: Schema Migration Policy Belongs in the OTA Safety Model
 url: /posts/schema-migration-policy-belongs-in-ota-safety-model.html
-date: '2026-09-14'
+date: '2026-01-14'
 read_time: 1
 excerpt: Rollback is only safe when persistent data remains readable by the previous
   firmware or a migration policy accounts for the change.

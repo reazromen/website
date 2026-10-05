@@ -1,7 +1,7 @@
 ---
 title: The TLS Key Existed, but OpenBao Still Could Not Read It
 url: /posts/tls-key-existed-openbao-could-not-read-it.html
-date: '2026-09-14'
+date: '2022-11-03'
 read_time: 2
 excerpt: A file can have the right contents and still be unusable when directory traversal
   or group permissions are wrong.

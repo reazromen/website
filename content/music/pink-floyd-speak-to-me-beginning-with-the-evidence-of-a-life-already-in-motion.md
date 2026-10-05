@@ -1,7 +1,7 @@
 ---
 title: Speak to Me — Beginning With the Evidence of a Life Already in Motion
 url: /posts/pink-floyd-speak-to-me-beginning-with-the-evidence-of-a-life-already-in-motion.html
-date: '2026-09-26'
+date: '2026-07-26'
 read_time: 5
 excerpt: Beginning With the Evidence of a Life Already in Motion
 topic: ''

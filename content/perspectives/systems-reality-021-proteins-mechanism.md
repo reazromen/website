@@ -1,6 +1,6 @@
 ---
 title: "What Proteins Really Is"
-date: '2026-10-03'
+date: '2022-02-09'
 draft: false
 language: en
 url: /posts/systems-reality-021-proteins-mechanism.html

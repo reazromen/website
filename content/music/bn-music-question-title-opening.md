@@ -1,6 +1,6 @@
 ---
 title: 'কোয়েশ্চেন: একটা প্রশ্ন কতক্ষণ খোলা থাকতে পারে'
-date: '2026-10-02'
+date: '2024-03-07'
 draft: false
 language: bn
 url: /posts/bn-music-question-title-opening.html

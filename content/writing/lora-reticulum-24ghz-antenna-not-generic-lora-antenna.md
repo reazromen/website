@@ -1,7 +1,7 @@
 ---
 title: A 2.4 GHz Antenna Is Not a Generic Antenna for 433 or 868 MHz
 url: /posts/lora-reticulum-24ghz-antenna-not-generic-lora-antenna.html
-date: '2026-09-15'
+date: '2025-01-20'
 read_time: 9
 excerpt: Having only a 2.4 GHz antenna available created pressure to use it for sub-GHz
   experiments just to continue testing.

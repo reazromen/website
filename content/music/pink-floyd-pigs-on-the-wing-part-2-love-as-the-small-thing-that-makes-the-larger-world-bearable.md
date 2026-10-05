@@ -2,7 +2,7 @@
 title: Pigs on the Wing, Part 2 — Love as the Small Thing That Makes the Larger World
   Bearable
 url: /posts/pink-floyd-pigs-on-the-wing-part-2-love-as-the-small-thing-that-makes-the-larger-world-bearable.html
-date: '2026-09-26'
+date: '2026-01-28'
 read_time: 5
 excerpt: Love as the Small Thing That Makes the Larger World Bearable
 topic: ''

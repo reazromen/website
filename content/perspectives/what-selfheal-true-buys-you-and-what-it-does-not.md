@@ -1,7 +1,7 @@
 ---
 title: 'What selfHeal: true Buys You—and What It Does Not'
 url: /posts/what-selfheal-true-buys-you-and-what-it-does-not.html
-date: '2026-09-18'
+date: '2022-09-13'
 read_time: 2
 excerpt: The difference between correcting resource drift and fixing a broken application.
 topic: voiceware-engineering

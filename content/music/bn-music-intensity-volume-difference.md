@@ -1,6 +1,6 @@
 ---
 title: তীব্রতা শুধু ভলিউমে থাকে না
-date: '2026-10-02'
+date: '2025-12-05'
 draft: false
 language: bn
 url: /posts/bn-music-intensity-volume-difference.html

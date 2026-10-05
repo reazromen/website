@@ -1,7 +1,7 @@
 ---
 title: Thermals on a 2014 Mac mini Are a Production Signal
 url: /posts/prod-monitoring-thermals-on-a-2014-mac-mini-are-a-production-signal.html
-date: '2026-09-15'
+date: '2026-07-19'
 read_time: 34
 excerpt: A production-engineering deep dive into thermals on a 2014 mac mini are a
   production signal, grounded in the 2014 Mac mini hserver observability stack and

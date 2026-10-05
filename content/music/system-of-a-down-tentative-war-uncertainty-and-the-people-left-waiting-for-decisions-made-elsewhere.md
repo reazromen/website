@@ -2,7 +2,7 @@
 title: Tentative — War, Uncertainty, and the People Left Waiting for Decisions Made
   Elsewhere
 url: /posts/system-of-a-down-tentative-war-uncertainty-and-the-people-left-waiting-for-decisions-made-elsewhere.html
-date: '2026-09-26'
+date: '2021-01-30'
 read_time: 5
 excerpt: War, Uncertainty, and the People Left Waiting for Decisions Made Elsewhere
 topic: ''

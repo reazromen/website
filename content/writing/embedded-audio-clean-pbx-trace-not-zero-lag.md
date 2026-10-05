@@ -1,7 +1,7 @@
 ---
 title: Why a Clean PBX Forwarding Trace Still Did Not Mean Zero Lag
 url: /posts/embedded-audio-clean-pbx-trace-not-zero-lag.html
-date: '2026-09-15'
+date: '2025-01-31'
 read_time: 12
 excerpt: After server cleanup, Asterisk forwarding became fast, but conversation still
   felt delayed.

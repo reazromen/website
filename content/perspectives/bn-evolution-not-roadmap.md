@@ -1,6 +1,6 @@
 ---
 title: ইভলিউশনের কোনো প্রোডাক্ট রোডম্যাপ নেই
-date: '2026-10-02'
+date: '2026-05-18'
 draft: false
 language: bn
 url: /posts/bn-evolution-not-roadmap.html

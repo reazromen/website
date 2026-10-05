@@ -1,7 +1,7 @@
 ---
 title: Why Every Monitoring Component Had to Justify Its RAM
 url: /posts/prod-monitoring-why-every-monitoring-component-had-to-justify-its-ram.html
-date: '2026-09-15'
+date: '2024-01-14'
 read_time: 33
 excerpt: A production-engineering deep dive into why every monitoring component had
   to justify its ram, grounded in the 2014 Mac mini hserver observability stack and

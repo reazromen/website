@@ -1,7 +1,7 @@
 ---
 title: How I Add a Linux Machine to My Tailnet Without Turning It into a Snowflake
 url: /posts/tailscale-join-linux-node.html
-date: '2026-09-18'
+date: '2021-08-18'
 read_time: 2
 excerpt: Joining a machine is easy; making its identity, hostname, access and role
   predictable is the part that matters later.

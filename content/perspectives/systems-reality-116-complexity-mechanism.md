@@ -1,6 +1,6 @@
 ---
 title: "What Complexity Really Is"
-date: '2026-10-03'
+date: '2026-07-12'
 draft: false
 language: en
 url: /posts/systems-reality-116-complexity-mechanism.html

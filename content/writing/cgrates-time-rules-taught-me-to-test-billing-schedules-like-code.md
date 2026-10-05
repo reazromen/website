@@ -1,7 +1,7 @@
 ---
 title: CGrates Time Rules Taught Me to Test Billing Schedules Like Code
 url: /posts/cgrates-time-rules-taught-me-to-test-billing-schedules-like-code.html
-date: '2026-09-14'
+date: '2025-03-20'
 read_time: 1
 excerpt: Recurring charging rules look harmless until timezone, month-end and relative-time
   semantics collide.

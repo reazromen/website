@@ -1,7 +1,7 @@
 ---
 title: Caddy tls internal Works — So Why Does the Browser Still Say Untrusted?
 url: /posts/caddy-tls-internal-browser-untrusted.html
-date: '2026-09-18'
+date: '2025-03-11'
 read_time: 16
 excerpt: Private TLS is only trusted by clients that possess and trust the private
   root CA.

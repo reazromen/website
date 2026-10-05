@@ -1,7 +1,7 @@
 ---
 title: Observability Is Part of Delivery Definition
 url: /posts/observability-is-part-of-delivery-definition.html
-date: '2026-09-14'
+date: '2021-07-09'
 read_time: 1
 excerpt: A feature is harder to operate safely when the team cannot tell whether it
   is healthy after release.

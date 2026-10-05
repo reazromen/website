@@ -1,7 +1,7 @@
 ---
 title: Freshness Guards Prevent Stale Metrics from Firing Misleading Alerts
 url: /posts/freshness-guards-prevent-stale-alerts.html
-date: '2026-09-14'
+date: '2025-05-10'
 read_time: 1
 excerpt: A target that disappeared can leave its last sample available long enough
   for threshold expressions to evaluate against stale data.

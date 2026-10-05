@@ -1,7 +1,7 @@
 ---
 title: 'V132A: Turning Clear Audio into a Preserved Release Asset'
 url: /posts/embedded-audio-v132a-clear-audio-preserved-release.html
-date: '2026-09-15'
+date: '2020-06-01'
 read_time: 12
 excerpt: A working phone is not a release unless the exact artifact and source context
   can survive the next experiment.

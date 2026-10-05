@@ -1,7 +1,7 @@
 ---
 title: The Voice Product Stack Was Finally One System, Not Three Projects
 url: /posts/the-voice-product-stack-was-finally-one-system-not-three-projects.html
-date: '2026-09-14'
+date: '2023-02-14'
 read_time: 1
 excerpt: Firmware, backend and telephony stopped being separate workstreams once their
   failure states and deployment policies were designed together.

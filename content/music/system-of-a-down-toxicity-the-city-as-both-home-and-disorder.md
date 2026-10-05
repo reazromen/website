@@ -1,7 +1,7 @@
 ---
 title: Toxicity — The City as Both Home and Disorder
 url: /posts/system-of-a-down-toxicity-the-city-as-both-home-and-disorder.html
-date: '2026-09-26'
+date: '2024-07-09'
 read_time: 5
 excerpt: The City as Both Home and Disorder
 topic: ''

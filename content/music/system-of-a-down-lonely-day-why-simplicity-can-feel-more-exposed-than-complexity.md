@@ -1,7 +1,7 @@
 ---
 title: Lonely Day — Why Simplicity Can Feel More Exposed Than Complexity
 url: /posts/system-of-a-down-lonely-day-why-simplicity-can-feel-more-exposed-than-complexity.html
-date: '2026-09-26'
+date: '2024-05-21'
 read_time: 5
 excerpt: Why Simplicity Can Feel More Exposed Than Complexity
 topic: ''

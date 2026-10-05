@@ -1,6 +1,6 @@
 ---
 title: "Where the formal language Analogy Breaks"
-date: '2026-10-03'
+date: '2024-09-11'
 draft: false
 language: en
 url: /posts/systems-reality-143-mathematics-metaphor.html

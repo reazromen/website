@@ -1,7 +1,7 @@
 ---
 title: Rollback Is a Product Feature, Not a Bootloader Detail
 url: /posts/field-note-2026-rollback-product-feature.html
-date: '2026-09-18'
+date: '2026-04-25'
 read_time: 2
 excerpt: Recovery changes how safely a fleet can ship updates and how clearly operators
   can diagnose failures.

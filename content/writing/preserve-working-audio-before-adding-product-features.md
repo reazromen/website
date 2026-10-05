@@ -1,7 +1,7 @@
 ---
 title: Preserve Working Audio Before Adding Product Features
 url: /posts/preserve-working-audio-before-adding-product-features.html
-date: '2026-09-14'
+date: '2026-03-11'
 read_time: 1
 excerpt: A stable voice path is more valuable than several new features built on a
   regression.

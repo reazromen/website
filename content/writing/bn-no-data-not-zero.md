@@ -1,6 +1,6 @@
 ---
 title: নো ডেটা আর শূন্য এক না
-date: '2026-10-02'
+date: '2024-09-09'
 draft: false
 language: bn
 url: /posts/bn-no-data-not-zero.html

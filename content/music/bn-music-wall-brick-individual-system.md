@@ -1,6 +1,6 @@
 ---
 title: 'দ্য ওয়াল: ব্যক্তি আর কাঠামোর সম্পর্কের প্রশ্ন'
-date: '2026-10-02'
+date: '2025-11-29'
 draft: false
 language: bn
 url: /posts/bn-music-wall-brick-individual-system.html

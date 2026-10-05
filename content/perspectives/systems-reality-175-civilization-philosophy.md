@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Civilization"
-date: '2026-10-03'
+date: '2025-08-07'
 draft: false
 language: en
 url: /posts/systems-reality-175-civilization-philosophy.html

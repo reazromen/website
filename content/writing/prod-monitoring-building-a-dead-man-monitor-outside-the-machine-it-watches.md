@@ -1,7 +1,7 @@
 ---
 title: Building a Dead-Man Monitor Outside the Machine It Watches
 url: /posts/prod-monitoring-building-a-dead-man-monitor-outside-the-machine-it-watches.html
-date: '2026-09-15'
+date: '2023-04-18'
 read_time: 35
 excerpt: A production-engineering deep dive into building a dead-man monitor outside
   the machine it watches, grounded in the 2014 Mac mini hserver observability stack

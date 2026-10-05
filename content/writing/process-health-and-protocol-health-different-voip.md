@@ -1,7 +1,7 @@
 ---
 title: Process Health and Protocol Health Are Different in VoIP
 url: /posts/process-health-and-protocol-health-different-voip.html
-date: '2026-09-14'
+date: '2026-05-03'
 read_time: 1
 excerpt: A running SIP or RTP process is necessary but not sufficient evidence that
   calls can establish and carry media.

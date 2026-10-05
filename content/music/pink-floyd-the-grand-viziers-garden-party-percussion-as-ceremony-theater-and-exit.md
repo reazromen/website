@@ -1,7 +1,7 @@
 ---
 title: The Grand Vizier's Garden Party — Percussion as Ceremony, Theater, and Exit
 url: /posts/pink-floyd-the-grand-viziers-garden-party-percussion-as-ceremony-theater-and-exit.html
-date: '2026-09-26'
+date: '2024-11-01'
 read_time: 5
 excerpt: Percussion as Ceremony, Theater, and Exit
 topic: ''

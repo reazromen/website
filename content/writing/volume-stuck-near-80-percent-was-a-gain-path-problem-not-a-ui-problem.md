@@ -1,7 +1,7 @@
 ---
 title: Volume Stuck Near 80 Percent Was a Gain-Path Problem, Not a UI Problem
 url: /posts/volume-stuck-near-80-percent-was-a-gain-path-problem-not-a-ui-problem.html
-date: '2026-09-14'
+date: '2021-10-01'
 read_time: 1
 excerpt: A slider value is meaningless until every digital and analog gain stage is
   mapped.

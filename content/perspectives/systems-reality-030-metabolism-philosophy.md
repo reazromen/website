@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Metabolism"
-date: '2026-10-03'
+date: '2025-09-11'
 draft: false
 language: en
 url: /posts/systems-reality-030-metabolism-philosophy.html

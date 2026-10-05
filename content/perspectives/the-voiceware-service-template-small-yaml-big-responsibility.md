@@ -1,7 +1,7 @@
 ---
 title: 'The Voiceware Service Template: Small YAML, Big Responsibility'
 url: /posts/the-voiceware-service-template-small-yaml-big-responsibility.html
-date: '2026-09-18'
+date: '2026-08-29'
 read_time: 2
 excerpt: How a short Service template binds a logical name to selected pods and a
   target port.

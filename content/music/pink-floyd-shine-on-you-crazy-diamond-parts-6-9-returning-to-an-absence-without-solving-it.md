@@ -2,7 +2,7 @@
 title: Shine On You Crazy Diamond (Parts 6-9) — Returning to an Absence Without Solving
   It
 url: /posts/pink-floyd-shine-on-you-crazy-diamond-parts-6-9-returning-to-an-absence-without-solving-it.html
-date: '2026-09-26'
+date: '2026-03-21'
 read_time: 5
 excerpt: Returning to an Absence Without Solving It
 topic: ''

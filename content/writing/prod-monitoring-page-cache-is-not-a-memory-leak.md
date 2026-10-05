@@ -1,7 +1,7 @@
 ---
 title: Page Cache Is Not a Memory Leak
 url: /posts/prod-monitoring-page-cache-is-not-a-memory-leak.html
-date: '2026-09-15'
+date: '2020-08-31'
 read_time: 33
 excerpt: A production-engineering deep dive into page cache is not a memory leak,
   grounded in the 2014 Mac mini hserver observability stack and its accepted runtime

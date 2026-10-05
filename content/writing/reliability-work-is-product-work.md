@@ -1,7 +1,7 @@
 ---
 title: Reliability Work Is Product Work
 url: /posts/reliability-work-is-product-work.html
-date: '2026-09-14'
+date: '2025-11-17'
 read_time: 1
 excerpt: Users experience latency, outages, broken recovery and bad upgrades as product
   behavior, not as internal infrastructure details.

@@ -1,7 +1,7 @@
 ---
 title: Darts — Ritual Language and the Strange Authority of Repetition
 url: /posts/system-of-a-down-darts-ritual-language-and-the-strange-authority-of-repetition.html
-date: '2026-09-26'
+date: '2022-08-13'
 read_time: 5
 excerpt: Ritual Language and the Strange Authority of Repetition
 topic: ''

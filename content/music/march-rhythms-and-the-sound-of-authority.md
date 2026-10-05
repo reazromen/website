@@ -1,7 +1,7 @@
 ---
 title: March Rhythms and the Sound of Authority
 url: /posts/march-rhythms-and-the-sound-of-authority.html
-date: '2026-09-26'
+date: '2025-08-25'
 read_time: 5
 excerpt: Why martial pulse can support songs about institutions, war, and collective
   pressure

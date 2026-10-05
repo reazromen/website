@@ -1,7 +1,7 @@
 ---
 title: A Green Dashboard Can Still Be Wrong
 url: /posts/green-dashboard-can-still-be-wrong.html
-date: '2026-09-14'
+date: '2023-03-20'
 read_time: 1
 excerpt: Reliability culture includes skepticism about stale, incomplete or semantically
   weak telemetry.

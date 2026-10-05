@@ -1,7 +1,7 @@
 ---
 title: Absolutely Curtains — Closure That Opens Into Another Culture and Texture
 url: /posts/pink-floyd-absolutely-curtains-closure-that-opens-into-another-culture-and-texture.html
-date: '2026-09-26'
+date: '2023-10-17'
 read_time: 5
 excerpt: Closure That Opens Into Another Culture and Texture
 topic: ''

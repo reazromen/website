@@ -1,7 +1,7 @@
 ---
 title: Socket Counts Are Capacity Clues, Not Health by Themselves
 url: /posts/socket-counts-are-capacity-clues-not-health.html
-date: '2026-09-14'
+date: '2021-11-10'
 read_time: 1
 excerpt: A rising established-connection count can represent normal load, a leak,
   slow clients or a downstream dependency holding sockets open.

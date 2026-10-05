@@ -1,6 +1,6 @@
 ---
 title: 'রিকনসাইল: ইচ্ছা আর বাস্তবতার মধ্যে বারবার ফিরে যাওয়া'
-date: '2026-10-02'
+date: '2026-04-05'
 draft: false
 language: bn
 url: /posts/bn-distributed-state-reconcile.html

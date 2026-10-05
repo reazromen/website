@@ -1,7 +1,7 @@
 ---
 title: Power Loss Has Multiple OTA Failure Windows
 url: /posts/ota-state-power-loss-ota-failure-windows.html
-date: '2026-09-15'
+date: '2023-07-15'
 read_time: 8
 excerpt: Power can disappear during download, inactive-slot write, after boot-partition
   selection or during first boot.

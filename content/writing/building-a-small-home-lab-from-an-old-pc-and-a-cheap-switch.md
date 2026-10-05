@@ -1,7 +1,7 @@
 ---
 title: Building a Small Home Lab from an Old PC and a Cheap Switch
 url: /posts/building-a-small-home-lab-from-an-old-pc-and-a-cheap-switch.html
-date: '2026-09-14'
+date: '2023-07-03'
 read_time: 3
 excerpt: A useful home lab does not need enterprise hardware. A spare PC, a small
   switch and a few isolated network experiments are enough to learn a lot about real

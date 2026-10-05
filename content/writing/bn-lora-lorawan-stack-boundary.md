@@ -1,6 +1,6 @@
 ---
 title: লোরার রেডিও আর লোরাওয়ানের নেটওয়ার্ক
-date: '2026-10-02'
+date: '2022-04-24'
 draft: false
 language: bn
 url: /posts/bn-lora-lorawan-stack-boundary.html

@@ -1,7 +1,7 @@
 ---
 title: A Container Entrypoint Can Break a Perfectly Valid Validation Command
 url: /posts/container-entrypoint-can-break-validation-command.html
-date: '2026-09-14'
+date: '2022-09-07'
 read_time: 1
 excerpt: CI failed because the image entrypoint changed how arguments were interpreted,
   not because the OpenBao configuration was invalid.

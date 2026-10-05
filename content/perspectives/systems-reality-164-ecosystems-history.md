@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Ecosystems"
-date: '2026-10-03'
+date: '2022-02-27'
 draft: false
 language: en
 url: /posts/systems-reality-164-ecosystems-history.html

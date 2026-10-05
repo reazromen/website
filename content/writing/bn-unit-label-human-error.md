@@ -1,6 +1,6 @@
 ---
 title: এককের লেবেল ছোট, ভুলের পরিধি বড়
-date: '2026-10-02'
+date: '2021-07-20'
 draft: false
 language: bn
 url: /posts/bn-unit-label-human-error.html

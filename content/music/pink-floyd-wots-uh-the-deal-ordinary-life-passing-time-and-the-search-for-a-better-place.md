@@ -2,7 +2,7 @@
 title: Wot's... Uh the Deal — Ordinary Life, Passing Time, and the Search for a Better
   Place
 url: /posts/pink-floyd-wots-uh-the-deal-ordinary-life-passing-time-and-the-search-for-a-better-place.html
-date: '2026-09-26'
+date: '2025-12-06'
 read_time: 5
 excerpt: Ordinary Life, Passing Time, and the Search for a Better Place
 topic: ''

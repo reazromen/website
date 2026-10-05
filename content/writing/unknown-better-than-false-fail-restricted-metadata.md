@@ -1,7 +1,7 @@
 ---
 title: UNKNOWN Is Better Than a False FAIL When Metadata Is Restricted
 url: /posts/unknown-better-than-false-fail-restricted-metadata.html
-date: '2026-09-14'
+date: '2024-09-21'
 read_time: 1
 excerpt: A posture check should distinguish evidence it cannot read from evidence
   that proves the system is wrong.

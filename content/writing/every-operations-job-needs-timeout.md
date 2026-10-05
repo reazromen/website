@@ -1,7 +1,7 @@
 ---
 title: Every Operations Job Needs a Timeout
 url: /posts/every-operations-job-needs-timeout.html
-date: '2026-09-14'
+date: '2024-05-07'
 read_time: 1
 excerpt: A safe command can still become unsafe operationally if it can occupy the
   runner forever.

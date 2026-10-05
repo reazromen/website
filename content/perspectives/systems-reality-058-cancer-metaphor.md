@@ -1,6 +1,6 @@
 ---
 title: "Where the runaway service Analogy Breaks"
-date: '2026-10-03'
+date: '2022-09-01'
 draft: false
 language: en
 url: /posts/systems-reality-058-cancer-metaphor.html

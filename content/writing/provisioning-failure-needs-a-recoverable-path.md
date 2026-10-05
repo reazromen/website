@@ -1,7 +1,7 @@
 ---
 title: Provisioning Failure Needs a Recoverable Path
 url: /posts/provisioning-failure-needs-a-recoverable-path.html
-date: '2026-09-14'
+date: '2020-08-12'
 read_time: 1
 excerpt: A device that loses power or Wi-Fi halfway through setup should not become
   permanently ambiguous.

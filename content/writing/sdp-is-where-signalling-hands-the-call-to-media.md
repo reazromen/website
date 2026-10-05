@@ -1,7 +1,7 @@
 ---
 title: SDP Is Where Signalling Hands the Call to Media
 url: /posts/sdp-is-where-signalling-hands-the-call-to-media.html
-date: '2026-09-14'
+date: '2025-07-04'
 read_time: 1
 excerpt: A SIP call can connect perfectly and still carry no useful audio if the negotiated
   media description is wrong.

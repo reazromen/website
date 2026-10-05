@@ -1,7 +1,7 @@
 ---
 title: Why PCAP Evidence Cannot Prove Acoustic Latency
 url: /posts/embedded-audio-pcap-cannot-prove-acoustic-latency.html
-date: '2026-09-15'
+date: '2025-06-09'
 read_time: 12
 excerpt: It was tempting to use server packet timing as proof of the complete mouth-to-ear
   delay.

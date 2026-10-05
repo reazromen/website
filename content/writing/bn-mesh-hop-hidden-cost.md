@@ -1,6 +1,6 @@
 ---
 title: মেশ নেটওয়ার্কে আরেকটা হপের দাম
-date: '2026-10-02'
+date: '2025-04-10'
 draft: false
 language: bn
 url: /posts/bn-mesh-hop-hidden-cost.html

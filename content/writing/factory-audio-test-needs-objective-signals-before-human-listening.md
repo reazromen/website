@@ -1,7 +1,7 @@
 ---
 title: Factory Audio Test Needs Objective Signals Before Human Listening
 url: /posts/factory-audio-test-needs-objective-signals-before-human-listening.html
-date: '2026-09-14'
+date: '2025-10-30'
 read_time: 1
 excerpt: A worker saying a unit sounds fine cannot be the only acoustic acceptance
   criterion.

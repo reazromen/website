@@ -1,7 +1,7 @@
 ---
 title: Childlike Melodies Inside Adult Subjects
 url: /posts/childlike-melodies-inside-adult-subjects.html
-date: '2026-09-26'
+date: '2025-12-18'
 read_time: 5
 excerpt: Why simple melodic shapes can make violence, politics, or grief feel more
   unsettling

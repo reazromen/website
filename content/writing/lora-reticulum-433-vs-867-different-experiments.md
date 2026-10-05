@@ -1,7 +1,7 @@
 ---
 title: 433 MHz and 867.2 MHz Belonged to Different Experiments
 url: /posts/lora-reticulum-433-vs-867-different-experiments.html
-date: '2026-09-15'
+date: '2025-05-06'
 read_time: 9
 excerpt: The lab used both 433-class LR1121/E22 work and an 867.2 MHz RNode profile,
   which could easily be mixed in memory.

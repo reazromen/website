@@ -1,7 +1,7 @@
 ---
 title: BYE Handling Is Part of Resource Correctness
 url: /posts/bye-handling-is-part-of-resource-correctness.html
-date: '2026-09-14'
+date: '2020-08-30'
 read_time: 1
 excerpt: A call that starts and carries audio but does not terminate cleanly can leak
   state across the device and PBX.

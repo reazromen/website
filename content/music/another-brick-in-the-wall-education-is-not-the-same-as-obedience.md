@@ -1,7 +1,7 @@
 ---
 title: Another Brick in the Wall (Part 2) — Education Is Not the Same as Obedience
 url: /posts/another-brick-in-the-wall-education-is-not-the-same-as-obedience.html
-date: '2026-09-26'
+date: '2023-11-21'
 read_time: 7
 excerpt: 'The famous line sounds like a rejection of education. The more interesting
   reading is almost the opposite: what happens when a system that is supposed to expand

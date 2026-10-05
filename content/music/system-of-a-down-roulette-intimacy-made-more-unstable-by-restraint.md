@@ -1,7 +1,7 @@
 ---
 title: Roulette — Intimacy Made More Unstable by Restraint
 url: /posts/system-of-a-down-roulette-intimacy-made-more-unstable-by-restraint.html
-date: '2026-09-26'
+date: '2026-06-16'
 read_time: 5
 excerpt: Intimacy Made More Unstable by Restraint
 topic: ''

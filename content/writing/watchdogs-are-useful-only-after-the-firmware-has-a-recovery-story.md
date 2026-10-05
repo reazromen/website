@@ -1,7 +1,7 @@
 ---
 title: Watchdogs Are Useful Only After the Firmware Has a Recovery Story
 url: /posts/watchdogs-are-useful-only-after-the-firmware-has-a-recovery-story.html
-date: '2026-09-14'
+date: '2023-05-14'
 read_time: 1
 excerpt: Resetting a stuck device is not the same as fixing it; watchdog design needs
   crash evidence and bounded recovery behavior.

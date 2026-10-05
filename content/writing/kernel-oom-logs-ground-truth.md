@@ -1,7 +1,7 @@
 ---
 title: Kernel OOM Logs Are the Ground Truth for Host Memory Kills
 url: /posts/kernel-oom-logs-ground-truth.html
-date: '2026-09-14'
+date: '2026-02-08'
 read_time: 1
 excerpt: A process disappearing can look like an application crash unless the kernel
   journal is checked for OOM-killer activity.

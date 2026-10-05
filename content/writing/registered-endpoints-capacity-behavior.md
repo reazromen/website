@@ -1,7 +1,7 @@
 ---
 title: Registered Endpoints Are Capacity and Behavior Signals
 url: /posts/registered-endpoints-capacity-behavior.html
-date: '2026-09-14'
+date: '2022-02-14'
 read_time: 1
 excerpt: A sudden drop in registered SIP endpoints can indicate network reachability,
   credential, expiry or registrar problems even when call processing components are

@@ -1,7 +1,7 @@
 ---
 title: Holy Mountains — Historical Memory, Sacred Geography, and the Refusal to Forget
 url: /posts/system-of-a-down-holy-mountains-historical-memory-sacred-geography-and-the-refusal-to-forget.html
-date: '2026-09-26'
+date: '2026-04-25'
 read_time: 5
 excerpt: Historical Memory, Sacred Geography, and the Refusal to Forget
 topic: ''

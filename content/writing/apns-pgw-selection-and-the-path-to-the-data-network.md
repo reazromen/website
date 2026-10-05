@@ -1,7 +1,7 @@
 ---
 title: APNs, PGW Selection and the Path to the Data Network
 url: /posts/apns-pgw-selection-and-the-path-to-the-data-network.html
-date: '2026-09-14'
+date: '2023-01-05'
 read_time: 2
 excerpt: An APN is more than a label on the handset; it influences how a subscriber
   session reaches a packet gateway and an external data network.

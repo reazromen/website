@@ -1,7 +1,7 @@
 ---
 title: AEC Startup Needs a Defined State
 url: /posts/aec-startup-needs-a-defined-state.html
-date: '2026-09-14'
+date: '2023-03-28'
 read_time: 1
 excerpt: The first seconds of a call should not depend on whatever history remains
   in DSP buffers.

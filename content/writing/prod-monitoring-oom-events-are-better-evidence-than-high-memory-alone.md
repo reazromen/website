@@ -1,7 +1,7 @@
 ---
 title: OOM Events Are Better Evidence Than “High Memory” Alone
 url: /posts/prod-monitoring-oom-events-are-better-evidence-than-high-memory-alone.html
-date: '2026-09-15'
+date: '2023-01-05'
 read_time: 35
 excerpt: A production-engineering deep dive into oom events are better evidence than
   “high memory” alone, grounded in the 2014 Mac mini hserver observability stack and

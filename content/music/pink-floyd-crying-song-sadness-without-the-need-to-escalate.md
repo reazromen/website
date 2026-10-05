@@ -1,7 +1,7 @@
 ---
 title: Crying Song — Sadness Without the Need to Escalate
 url: /posts/pink-floyd-crying-song-sadness-without-the-need-to-escalate.html
-date: '2026-09-26'
+date: '2026-03-17'
 read_time: 5
 excerpt: Sadness Without the Need to Escalate
 topic: ''

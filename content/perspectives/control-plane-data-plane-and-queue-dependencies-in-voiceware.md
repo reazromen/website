@@ -1,7 +1,7 @@
 ---
 title: Control Plane, Data Plane, and Queue Dependencies in Voiceware
 url: /posts/control-plane-data-plane-and-queue-dependencies-in-voiceware.html
-date: '2026-09-18'
+date: '2024-04-02'
 read_time: 1
 excerpt: A mental model for separating deployment control from application traffic
   and background work.

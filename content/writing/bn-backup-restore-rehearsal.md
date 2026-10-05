@@ -1,6 +1,6 @@
 ---
 title: ব্যাকআপের বিশ্বাস রিস্টোরে পরীক্ষা হয়
-date: '2026-10-02'
+date: '2022-10-14'
 draft: false
 language: bn
 url: /posts/bn-backup-restore-rehearsal.html

@@ -1,6 +1,6 @@
 ---
 title: "Where the security stack Analogy Breaks"
-date: '2026-10-03'
+date: '2024-01-21'
 draft: false
 language: en
 url: /posts/systems-reality-063-immune-system-metaphor.html

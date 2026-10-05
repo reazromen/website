@@ -1,7 +1,7 @@
 ---
 title: Compatibility Metadata Is Release Policy, Not Tribal Knowledge
 url: /posts/field-note-2026-compatibility-release-policy.html
-date: '2026-09-18'
+date: '2026-02-07'
 read_time: 2
 excerpt: Hardware and software eligibility rules should be machine-readable where
   rollout decisions are made.

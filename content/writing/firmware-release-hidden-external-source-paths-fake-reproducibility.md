@@ -1,7 +1,7 @@
 ---
 title: Hidden ../.. Source Paths Can Make a Broken Repository Look Healthy
 url: /posts/firmware-release-hidden-external-source-paths-fake-reproducibility.html
-date: '2026-09-15'
+date: '2021-02-23'
 read_time: 9
 excerpt: A repository can appear self-contained when relative include or source paths
   escape into an old workstation tree that happens to contain missing files.

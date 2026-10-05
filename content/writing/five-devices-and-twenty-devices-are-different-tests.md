@@ -1,7 +1,7 @@
 ---
 title: Five Devices and Twenty Devices Are Different Tests
 url: /posts/five-devices-and-twenty-devices-are-different-tests.html
-date: '2026-09-14'
+date: '2020-11-30'
 read_time: 1
 excerpt: Fleet size introduces registration churn, simultaneous calls and operational
   visibility that a pair cannot show.

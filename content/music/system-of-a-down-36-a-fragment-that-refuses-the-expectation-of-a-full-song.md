@@ -1,7 +1,7 @@
 ---
 title: 36 — A Fragment That Refuses the Expectation of a Full Song
 url: /posts/system-of-a-down-36-a-fragment-that-refuses-the-expectation-of-a-full-song.html
-date: '2026-09-26'
+date: '2026-05-25'
 read_time: 5
 excerpt: A Fragment That Refuses the Expectation of a Full Song
 topic: ''

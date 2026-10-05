@@ -1,7 +1,7 @@
 ---
 title: How I Would Separate Dev, Staging, and Production Next
 url: /posts/how-i-would-separate-dev-staging-and-production-next.html
-date: '2026-09-18'
+date: '2026-04-24'
 read_time: 2
 excerpt: Turning the current single-destination pattern into an environment promotion
   model.

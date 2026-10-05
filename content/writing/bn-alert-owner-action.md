@@ -1,6 +1,6 @@
 ---
 title: অ্যালার্ট বাজলে কে কী করবেন
-date: '2026-10-02'
+date: '2025-12-15'
 draft: false
 language: bn
 url: /posts/bn-alert-owner-action.html

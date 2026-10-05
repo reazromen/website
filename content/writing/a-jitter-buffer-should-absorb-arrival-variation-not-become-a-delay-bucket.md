@@ -1,7 +1,7 @@
 ---
 title: A Jitter Buffer Should Absorb Arrival Variation, Not Become a Delay Bucket
 url: /posts/a-jitter-buffer-should-absorb-arrival-variation-not-become-a-delay-bucket.html
-date: '2026-09-14'
+date: '2023-09-03'
 read_time: 1
 excerpt: More buffering reduces underruns until it starts creating latency and hiding
   drift.

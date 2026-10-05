@@ -1,6 +1,6 @@
 ---
 title: "Civilization Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2025-12-27'
 draft: false
 language: en
 url: /posts/systems-reality-172-civilization-architecture.html

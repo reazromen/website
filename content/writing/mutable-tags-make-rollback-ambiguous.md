@@ -1,7 +1,7 @@
 ---
 title: Mutable Tags Make Rollback Ambiguous
 url: /posts/mutable-tags-make-rollback-ambiguous.html
-date: '2026-09-14'
+date: '2025-07-08'
 read_time: 1
 excerpt: You cannot reliably roll back to yesterday's image if the tag you used yesterday
   points somewhere else today.

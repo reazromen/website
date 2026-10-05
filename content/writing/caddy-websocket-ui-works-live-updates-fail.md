@@ -1,7 +1,7 @@
 ---
 title: The Web UI Loads Through Caddy but Live Updates Never Connect
 url: /posts/caddy-websocket-ui-works-live-updates-fail.html
-date: '2026-09-18'
+date: '2024-08-31'
 read_time: 16
 excerpt: Normal HTTP can succeed while a WebSocket upgrade fails on the same application.
 topic: caddy-reverse-proxy

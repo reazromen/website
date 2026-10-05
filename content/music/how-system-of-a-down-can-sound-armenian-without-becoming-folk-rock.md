@@ -1,7 +1,7 @@
 ---
 title: How System of a Down Can Sound Armenian Without Becoming Folk Rock
 url: /posts/how-system-of-a-down-can-sound-armenian-without-becoming-folk-rock.html
-date: '2026-09-26'
+date: '2021-05-03'
 read_time: 5
 excerpt: Cultural influence as grammar and melodic instinct rather than decorative
   genre borrowing

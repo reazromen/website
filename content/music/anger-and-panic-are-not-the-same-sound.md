@@ -1,7 +1,7 @@
 ---
 title: Anger and Panic Are Not the Same Sound
 url: /posts/anger-and-panic-are-not-the-same-sound.html
-date: '2026-09-26'
+date: '2021-09-01'
 read_time: 5
 excerpt: How tempo, phrasing, and vocal shape distinguish controlled rage from loss
   of control

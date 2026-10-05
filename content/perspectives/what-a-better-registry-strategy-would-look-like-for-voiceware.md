@@ -1,7 +1,7 @@
 ---
 title: What a Better Registry Strategy Would Look Like for Voiceware
 url: /posts/what-a-better-registry-strategy-would-look-like-for-voiceware.html
-date: '2026-09-18'
+date: '2025-09-10'
 read_time: 2
 excerpt: A production-oriented path from local-style image names to controlled artifact
   distribution.

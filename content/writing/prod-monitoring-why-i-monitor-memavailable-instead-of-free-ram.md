@@ -1,7 +1,7 @@
 ---
 title: Why I Monitor MemAvailable Instead of “Free RAM”
 url: /posts/prod-monitoring-why-i-monitor-memavailable-instead-of-free-ram.html
-date: '2026-09-15'
+date: '2025-05-04'
 read_time: 35
 excerpt: A production-engineering deep dive into why i monitor memavailable instead
   of “free ram”, grounded in the 2014 Mac mini hserver observability stack and its

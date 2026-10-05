@@ -1,6 +1,6 @@
 ---
 title: "ADC Resolution Is Not Measurement Accuracy"
-date: '2026-10-03'
+date: '2026-02-21'
 draft: false
 language: en
 url: /posts/signals-029-adc-resolution-accuracy.html

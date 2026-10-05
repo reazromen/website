@@ -1,6 +1,6 @@
 ---
 title: আবহাওয়ার মডেল আর মাঠের মাপ আলাদা তথ্য
-date: '2026-10-02'
+date: '2026-09-06'
 draft: false
 language: bn
 url: /posts/bn-weather-observation-model.html

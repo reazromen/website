@@ -1,7 +1,7 @@
 ---
 title: She's Like Heroin — Dependency Recast as a Relationship
 url: /posts/system-of-a-down-shes-like-heroin-dependency-recast-as-a-relationship.html
-date: '2026-09-26'
+date: '2025-09-02'
 read_time: 5
 excerpt: Dependency Recast as a Relationship
 topic: ''

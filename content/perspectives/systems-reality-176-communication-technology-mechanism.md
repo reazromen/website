@@ -1,6 +1,6 @@
 ---
 title: "What Communication Technology Really Is"
-date: '2026-10-03'
+date: '2025-01-15'
 draft: false
 language: en
 url: /posts/systems-reality-176-communication-technology-mechanism.html

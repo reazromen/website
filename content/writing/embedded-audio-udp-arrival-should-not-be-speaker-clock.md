@@ -1,7 +1,7 @@
 ---
 title: Why UDP Arrival Should Not Be the Speaker Clock
 url: /posts/embedded-audio-udp-arrival-should-not-be-speaker-clock.html
-date: '2026-09-15'
+date: '2026-09-01'
 read_time: 12
 excerpt: RTP arrived in bursts even when packet sequence was mostly healthy, so directly
   pacing I2S from receive callbacks made network jitter audible.

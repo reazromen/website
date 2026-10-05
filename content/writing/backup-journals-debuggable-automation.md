@@ -1,7 +1,7 @@
 ---
 title: Backup Journals Make Failed Automation Debuggable
 url: /posts/backup-journals-debuggable-automation.html
-date: '2026-09-14'
+date: '2022-12-08'
 read_time: 1
 excerpt: A red backup alert identifies the outcome but usually does not explain which
   command, mount or permission caused the failure.

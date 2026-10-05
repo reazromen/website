@@ -1,7 +1,7 @@
 ---
 title: A Network Map Should Show Boundaries Before Services
 url: /posts/field-note-2026-network-map-boundaries.html
-date: '2026-09-18'
+date: '2026-03-08'
 read_time: 2
 excerpt: Topology is most useful when it explains packet movement across gateways,
   hosts, overlays and ingress first.

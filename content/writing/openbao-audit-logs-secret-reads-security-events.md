@@ -1,7 +1,7 @@
 ---
 title: Audit Logs Matter Because Secret Reads Are Security Events
 url: /posts/openbao-audit-logs-secret-reads-security-events.html
-date: '2026-09-14'
+date: '2020-05-29'
 read_time: 1
 excerpt: A successful secret request is operationally normal and still important enough
   to leave durable evidence.

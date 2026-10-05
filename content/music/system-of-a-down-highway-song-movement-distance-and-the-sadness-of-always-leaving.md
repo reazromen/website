@@ -1,7 +1,7 @@
 ---
 title: Highway Song — Movement, Distance, and the Sadness of Always Leaving
 url: /posts/system-of-a-down-highway-song-movement-distance-and-the-sadness-of-always-leaving.html
-date: '2026-09-26'
+date: '2025-09-09'
 read_time: 5
 excerpt: Movement, Distance, and the Sadness of Always Leaving
 topic: ''

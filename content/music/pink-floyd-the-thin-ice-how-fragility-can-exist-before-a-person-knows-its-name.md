@@ -1,7 +1,7 @@
 ---
 title: The Thin Ice — How Fragility Can Exist Before a Person Knows Its Name
 url: /posts/pink-floyd-the-thin-ice-how-fragility-can-exist-before-a-person-knows-its-name.html
-date: '2026-09-26'
+date: '2023-11-12'
 read_time: 5
 excerpt: How Fragility Can Exist Before a Person Knows Its Name
 topic: ''

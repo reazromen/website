@@ -1,7 +1,7 @@
 ---
 title: How Much Prometheus Is Too Much for an 8 GB Machine?
 url: /posts/prod-monitoring-how-much-prometheus-is-too-much-for-an-8-gb-machine.html
-date: '2026-09-15'
+date: '2020-10-06'
 read_time: 36
 excerpt: A production-engineering deep dive into how much prometheus is too much for
   an 8 gb machine?, grounded in the 2014 Mac mini hserver observability stack and

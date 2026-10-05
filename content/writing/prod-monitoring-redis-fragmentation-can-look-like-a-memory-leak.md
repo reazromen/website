@@ -1,7 +1,7 @@
 ---
 title: Redis Fragmentation Can Look Like a Memory Leak
 url: /posts/prod-monitoring-redis-fragmentation-can-look-like-a-memory-leak.html
-date: '2026-09-15'
+date: '2025-02-01'
 read_time: 34
 excerpt: A production-engineering deep dive into redis fragmentation can look like
   a memory leak, grounded in the 2014 Mac mini hserver observability stack and its

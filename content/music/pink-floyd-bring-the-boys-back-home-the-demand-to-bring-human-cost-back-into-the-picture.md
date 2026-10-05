@@ -1,7 +1,7 @@
 ---
 title: Bring the Boys Back Home — The Demand to Bring Human Cost Back Into the Picture
 url: /posts/pink-floyd-bring-the-boys-back-home-the-demand-to-bring-human-cost-back-into-the-picture.html
-date: '2026-09-26'
+date: '2025-05-24'
 read_time: 5
 excerpt: The Demand to Bring Human Cost Back Into the Picture
 topic: ''

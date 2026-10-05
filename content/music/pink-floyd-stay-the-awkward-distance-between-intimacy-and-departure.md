@@ -1,7 +1,7 @@
 ---
 title: Stay — The Awkward Distance Between Intimacy and Departure
 url: /posts/pink-floyd-stay-the-awkward-distance-between-intimacy-and-departure.html
-date: '2026-09-26'
+date: '2024-06-03'
 read_time: 5
 excerpt: The Awkward Distance Between Intimacy and Departure
 topic: ''

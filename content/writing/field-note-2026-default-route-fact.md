@@ -1,7 +1,7 @@
 ---
 title: The Default Route Is a Fact, Not a UI Guess
 url: /posts/field-note-2026-default-route-fact.html
-date: '2026-09-18'
+date: '2026-06-21'
 read_time: 2
 excerpt: A topology view should consume routing state rather than infer a gateway
   from labels or layout.

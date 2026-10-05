@@ -1,7 +1,7 @@
 ---
 title: GDEY029T71H vs GDEY029T94 Was Not a Cosmetic Part-Number Detail
 url: /posts/pcb-bringup-gdey029t71h-vs-t94-not-cosmetic.html
-date: '2026-09-15'
+date: '2026-10-01'
 read_time: 9
 excerpt: The display firmware could be perfectly written for the wrong panel if the
   exact part number was not reconciled with the schematic.

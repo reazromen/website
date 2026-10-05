@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Gene Regulation"
-date: '2026-10-03'
+date: '2022-05-04'
 draft: false
 language: en
 url: /posts/systems-reality-014-gene-regulation-history.html

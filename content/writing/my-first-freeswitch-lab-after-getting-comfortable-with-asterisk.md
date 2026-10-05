@@ -1,7 +1,7 @@
 ---
 title: My First FreeSWITCH Lab After Getting Comfortable with Asterisk
 url: /posts/my-first-freeswitch-lab-after-getting-comfortable-with-asterisk.html
-date: '2026-09-14'
+date: '2025-04-03'
 read_time: 2
 excerpt: FreeSWITCH forced me to separate the concepts I understood from Asterisk
   from the implementation details I had simply memorized.

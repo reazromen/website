@@ -1,7 +1,7 @@
 ---
 title: One of These Days — Threat Built Almost Entirely From Momentum
 url: /posts/pink-floyd-one-of-these-days-threat-built-almost-entirely-from-momentum.html
-date: '2026-09-26'
+date: '2024-07-18'
 read_time: 5
 excerpt: Threat Built Almost Entirely From Momentum
 topic: ''

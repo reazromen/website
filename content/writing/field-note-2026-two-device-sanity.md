@@ -1,7 +1,7 @@
 ---
 title: Two-Device Local Calling Is the Fastest Telephony Sanity Check
 url: /posts/field-note-2026-two-device-sanity.html
-date: '2026-09-18'
+date: '2026-08-18'
 read_time: 2
 excerpt: A small closed call loop isolates core SIP/RTP behavior before carrier and
   DID complexity is introduced.

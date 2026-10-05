@@ -1,7 +1,7 @@
 ---
 title: Long Calls Expose Drift That Short Calls Hide
 url: /posts/long-calls-expose-drift-that-short-calls-hide.html
-date: '2026-09-14'
+date: '2025-07-14'
 read_time: 1
 excerpt: A 30-second audio test can pass while two clocks slowly walk apart over several
   minutes.

@@ -1,7 +1,7 @@
 ---
 title: tcpdump Became My First Tool Before Wireshark
 url: /posts/tcpdump-became-my-first-tool-before-wireshark.html
-date: '2026-09-14'
+date: '2021-12-17'
 read_time: 3
 excerpt: On a headless Linux box, tcpdump was faster than moving captures around blindly.
   A narrow capture at the right interface often answered the question immediately.

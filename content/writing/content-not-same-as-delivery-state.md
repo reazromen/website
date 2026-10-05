@@ -1,7 +1,7 @@
 ---
 title: Content Is Not the Same Thing as Delivery State
 url: /posts/content-not-same-as-delivery-state.html
-date: '2026-09-14'
+date: '2026-02-22'
 read_time: 1
 excerpt: The authoritative article text can remain stable while each destination has
   its own mutable publishing lifecycle.

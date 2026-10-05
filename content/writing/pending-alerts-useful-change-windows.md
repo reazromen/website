@@ -1,7 +1,7 @@
 ---
 title: Pending Alerts Are Useful During Change Windows
 url: /posts/pending-alerts-useful-change-windows.html
-date: '2026-09-14'
+date: '2024-10-16'
 read_time: 1
 excerpt: A deployment may push a metric over threshold without immediately firing
   because the configured `for` period has not elapsed.

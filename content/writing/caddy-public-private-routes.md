@@ -1,7 +1,7 @@
 ---
 title: 'One Hostname, Some Public Paths, Some Private Paths: Make the Boundary Obvious'
 url: /posts/caddy-public-private-routes.html
-date: '2026-09-18'
+date: '2025-09-27'
 read_time: 16
 excerpt: Path-based access control is safest when protected and public branches cannot
   accidentally fall through.

@@ -1,7 +1,7 @@
 ---
 title: Laptop-to-Desktop Failover Needs Agent State, Not Hope
 url: /posts/field-note-2026-failover-agent-state.html
-date: '2026-09-18'
+date: '2026-05-01'
 read_time: 2
 excerpt: A second worker is useful only if it knows what the first worker already
   changed.

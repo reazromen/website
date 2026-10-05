@@ -1,7 +1,7 @@
 ---
 title: Separate Raw Sensor Data from Interpreted State
 url: /posts/field-note-2026-raw-vs-derived-sensor.html
-date: '2026-09-18'
+date: '2026-03-21'
 read_time: 2
 excerpt: Presence, motion and occupancy are conclusions; retain enough underlying
   evidence to debug those conclusions.

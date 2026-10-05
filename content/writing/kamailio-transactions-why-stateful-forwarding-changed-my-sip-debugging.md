@@ -1,7 +1,7 @@
 ---
 title: 'Kamailio Transactions: Why Stateful Forwarding Changed My SIP Debugging'
 url: /posts/kamailio-transactions-why-stateful-forwarding-changed-my-sip-debugging.html
-date: '2026-09-14'
+date: '2026-02-19'
 read_time: 3
 excerpt: Once I separated stateless forwarding from transaction-aware forwarding,
   retransmissions, replies and failure handling in Kamailio became much easier to

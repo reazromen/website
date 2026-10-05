@@ -1,6 +1,6 @@
 ---
 title: "Where the disorder counter Analogy Breaks"
-date: '2026-10-03'
+date: '2021-08-15'
 draft: false
 language: en
 url: /posts/systems-reality-148-entropy-metaphor.html

@@ -1,7 +1,7 @@
 ---
 title: Sticky Heartbeat Results Need Release-Scoped Causality
 url: /posts/ota-state-sticky-heartbeat-release-scoped-causality.html
-date: '2026-09-15'
+date: '2025-09-22'
 read_time: 8
 excerpt: A terminal-looking last_ota_result could survive a later reassignment and
   incorrectly poison or complete the new assignment.

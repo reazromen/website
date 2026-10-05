@@ -1,7 +1,7 @@
 ---
 title: Background Jobs Are Part of the Product Latency Budget
 url: /posts/background-jobs-are-part-of-the-product-latency-budget.html
-date: '2026-09-18'
+date: '2022-06-19'
 read_time: 2
 excerpt: Why asynchronous does not mean unimportant or invisible.
 topic: voiceware-engineering

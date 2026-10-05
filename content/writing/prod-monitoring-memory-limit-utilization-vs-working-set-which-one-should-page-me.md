@@ -1,7 +1,7 @@
 ---
 title: 'Memory Limit Utilization vs Working Set: Which One Should Page Me?'
 url: /posts/prod-monitoring-memory-limit-utilization-vs-working-set-which-one-should-page-me.html
-date: '2026-09-15'
+date: '2023-02-02'
 read_time: 36
 excerpt: 'A production-engineering deep dive into memory limit utilization vs working
   set: which one should page me?, grounded in the 2014 Mac mini hserver observability

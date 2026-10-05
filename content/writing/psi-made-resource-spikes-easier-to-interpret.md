@@ -1,7 +1,7 @@
 ---
 title: PSI Made Short Resource Spikes Easier to Interpret
 url: /posts/psi-made-resource-spikes-easier-to-interpret.html
-date: '2026-09-14'
+date: '2026-01-07'
 read_time: 1
 excerpt: Some periods looked acceptable in average CPU and RAM graphs while interactive
   services still felt slow.

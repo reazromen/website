@@ -1,6 +1,6 @@
 ---
 title: "What Civilization Really Is"
-date: '2026-10-03'
+date: '2025-04-04'
 draft: false
 language: en
 url: /posts/systems-reality-171-civilization-mechanism.html

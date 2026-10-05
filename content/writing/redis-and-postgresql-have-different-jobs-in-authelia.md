@@ -1,7 +1,7 @@
 ---
 title: Redis and PostgreSQL Have Different Jobs in the Authelia Stack
 url: /posts/redis-and-postgresql-have-different-jobs-in-authelia.html
-date: '2026-09-14'
+date: '2021-12-03'
 read_time: 1
 excerpt: Persistent SSO works better when ephemeral session state and durable identity-provider
   state are not confused.

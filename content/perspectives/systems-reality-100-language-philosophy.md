@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Language"
-date: '2026-10-03'
+date: '2023-07-23'
 draft: false
 language: en
 url: /posts/systems-reality-100-language-philosophy.html

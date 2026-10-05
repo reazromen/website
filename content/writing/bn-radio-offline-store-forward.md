@@ -1,6 +1,6 @@
 ---
 title: অফলাইন নোডের জন্য বার্তা অপেক্ষা করবে কোথায়
-date: '2026-10-02'
+date: '2020-08-12'
 draft: false
 language: bn
 url: /posts/bn-radio-offline-store-forward.html

@@ -1,7 +1,7 @@
 ---
 title: DNS Is a Production Dependency, Not Plumbing
 url: /posts/prod-monitoring-dns-is-a-production-dependency-not-plumbing.html
-date: '2026-09-15'
+date: '2026-01-29'
 read_time: 32
 excerpt: A production-engineering deep dive into dns is a production dependency, not
   plumbing, grounded in the 2014 Mac mini hserver observability stack and its accepted

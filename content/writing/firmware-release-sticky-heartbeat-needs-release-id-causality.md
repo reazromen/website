@@ -1,7 +1,7 @@
 ---
 title: A Sticky Heartbeat Result Can Rewrite the Wrong OTA Story
 url: /posts/firmware-release-sticky-heartbeat-needs-release-id-causality.html
-date: '2026-09-15'
+date: '2025-05-16'
 read_time: 9
 excerpt: A device heartbeat may carry the last OTA result after the server has already
   assigned a newer release, so an unscoped success/failure flag can be applied to

@@ -1,7 +1,7 @@
 ---
 title: Normalize Load Average by CPU Count
 url: /posts/normalize-load-average-by-cpu-count.html
-date: '2026-09-14'
+date: '2024-10-06'
 read_time: 1
 excerpt: A load average of four means something very different on a two-core system
   than on an eight-core system.

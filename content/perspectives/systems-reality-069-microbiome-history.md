@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See The Microbiome"
-date: '2026-10-03'
+date: '2022-03-20'
 draft: false
 language: en
 url: /posts/systems-reality-069-microbiome-history.html

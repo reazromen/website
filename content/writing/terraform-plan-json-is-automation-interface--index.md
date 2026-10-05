@@ -1,7 +1,7 @@
 ---
 title: terraform show -json Is an Automation Interface With a Security Footgun
 url: /posts/terraform-plan-json-is-automation-interface/index.html
-date: '2026-09-26'
+date: '2026-06-19'
 read_time: 8
 excerpt: The JSON form of a plan exposes structured resource actions, configuration
   and state for automation. It can also expose sensitive values in plaintext, so policy

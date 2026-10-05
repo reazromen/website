@@ -1,7 +1,7 @@
 ---
 title: The 80 to 240 Millisecond Bursts Needed Packet and Audio Timelines Together
 url: /posts/the-80-to-240-millisecond-bursts-needed-packet-and-audio-timelines-together.html
-date: '2026-09-14'
+date: '2024-11-08'
 read_time: 1
 excerpt: Short audible failures can be network gaps, scheduling gaps or local conversion
   artifacts.

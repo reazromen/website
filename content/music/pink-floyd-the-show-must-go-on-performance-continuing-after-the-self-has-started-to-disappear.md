@@ -2,7 +2,7 @@
 title: The Show Must Go On — Performance Continuing After the Self Has Started to
   Disappear
 url: /posts/pink-floyd-the-show-must-go-on-performance-continuing-after-the-self-has-started-to-disappear.html
-date: '2026-09-26'
+date: '2025-10-31'
 read_time: 5
 excerpt: Performance Continuing After the Self Has Started to Disappear
 topic: ''

@@ -1,7 +1,7 @@
 ---
 title: Monitoring the System That Is Supposed to Save the System
 url: /posts/prod-monitoring-monitoring-the-system-that-is-supposed-to-save-the-system.html
-date: '2026-09-15'
+date: '2022-05-11'
 read_time: 34
 excerpt: A production-engineering deep dive into monitoring the system that is supposed
   to save the system, grounded in the 2014 Mac mini hserver observability stack and

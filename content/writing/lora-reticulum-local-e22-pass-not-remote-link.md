@@ -1,7 +1,7 @@
 ---
 title: Local E22 Control Passing Did Not Prove the Remote Link
 url: /posts/lora-reticulum-local-e22-pass-not-remote-link.html
-date: '2026-09-15'
+date: '2021-12-14'
 read_time: 9
 excerpt: The local module read and configured correctly, creating a strong temptation
   to declare the radio side healthy.

@@ -1,7 +1,7 @@
 ---
 title: Git safe.directory Can Turn Provenance into UNKNOWN
 url: /posts/git-safe-directory-can-turn-provenance-unknown.html
-date: '2026-09-14'
+date: '2025-06-03'
 read_time: 1
 excerpt: A production checkout owned by another identity can be readable on disk while
   Git refuses to trust it.

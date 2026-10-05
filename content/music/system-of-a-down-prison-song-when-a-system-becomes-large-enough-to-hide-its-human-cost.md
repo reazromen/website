@@ -1,7 +1,7 @@
 ---
 title: Prison Song — When a System Becomes Large Enough to Hide Its Human Cost
 url: /posts/system-of-a-down-prison-song-when-a-system-becomes-large-enough-to-hide-its-human-cost.html
-date: '2026-09-26'
+date: '2024-03-30'
 read_time: 5
 excerpt: When a System Becomes Large Enough to Hide Its Human Cost
 topic: ''

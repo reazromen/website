@@ -1,7 +1,7 @@
 ---
 title: Certificate Expiry Is an Availability Signal
 url: /posts/certificate-expiry-is-availability-signal.html
-date: '2026-09-14'
+date: '2026-01-16'
 read_time: 1
 excerpt: TLS can work perfectly today and still have a known future outage date embedded
   in the certificate.

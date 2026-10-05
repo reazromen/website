@@ -2,7 +2,7 @@
 title: Violent Pornography — Consumption, Repetition, and the Machine-Like Side of
   Desire
 url: /posts/system-of-a-down-violent-pornography-consumption-repetition-and-the-machine-like-side-of-desire.html
-date: '2026-09-26'
+date: '2020-09-24'
 read_time: 5
 excerpt: Consumption, Repetition, and the Machine-Like Side of Desire
 topic: ''

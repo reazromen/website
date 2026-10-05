@@ -1,7 +1,7 @@
 ---
 title: The Nile Song — When Force Becomes the Entire Argument
 url: /posts/pink-floyd-the-nile-song-when-force-becomes-the-entire-argument.html
-date: '2026-09-26'
+date: '2021-06-27'
 read_time: 5
 excerpt: When Force Becomes the Entire Argument
 topic: ''

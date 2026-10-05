@@ -1,7 +1,7 @@
 ---
 title: The Fastest Team Learns Faster, Not Just Deploys Faster
 url: /posts/fastest-team-learns-faster-not-just-deploys-faster.html
-date: '2026-09-14'
+date: '2024-03-24'
 read_time: 1
 excerpt: Deployment frequency matters because it shortens feedback loops only when
   teams can interpret and act on the result.

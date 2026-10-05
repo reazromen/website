@@ -1,7 +1,7 @@
 ---
 title: Grantchester Meadows — Pastoral Calm With Memory Underneath It
 url: /posts/pink-floyd-grantchester-meadows-pastoral-calm-with-memory-underneath-it.html
-date: '2026-09-26'
+date: '2025-10-30'
 read_time: 5
 excerpt: Pastoral Calm With Memory Underneath It
 topic: ''

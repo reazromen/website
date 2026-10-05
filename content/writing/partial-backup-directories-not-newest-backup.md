@@ -1,7 +1,7 @@
 ---
 title: Partial Backup Directories Should Not Win the 'Newest Backup' Contest
 url: /posts/partial-backup-directories-not-newest-backup.html
-date: '2026-09-14'
+date: '2025-06-08'
 read_time: 1
 excerpt: A failed job can leave a fresh-looking directory that should never replace
   the last known complete recovery point.

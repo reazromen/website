@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Natural Selection"
-date: '2026-10-03'
+date: '2025-12-15'
 draft: false
 language: en
 url: /posts/systems-reality-045-natural-selection-philosophy.html

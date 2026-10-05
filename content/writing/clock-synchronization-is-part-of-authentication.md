@@ -1,7 +1,7 @@
 ---
 title: Clock Synchronization Is Part of the Authentication System
 url: /posts/clock-synchronization-is-part-of-authentication.html
-date: '2026-09-14'
+date: '2023-01-17'
 read_time: 1
 excerpt: A correct TOTP secret can still fail when the verifier and authenticator
   disagree about time.

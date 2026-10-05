@@ -1,7 +1,7 @@
 ---
 title: Global Factory Credentials Would Turn One Leak into a Fleet Incident
 url: /posts/global-factory-credentials-would-turn-one-leak-into-a-fleet-incident.html
-date: '2026-09-14'
+date: '2025-06-17'
 read_time: 1
 excerpt: Convenient shared bootstrap secrets create the largest possible blast radius.
 topic: loup-engineering

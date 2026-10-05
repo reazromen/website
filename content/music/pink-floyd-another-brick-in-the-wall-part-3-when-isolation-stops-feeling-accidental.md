@@ -1,7 +1,7 @@
 ---
 title: Another Brick in the Wall, Part 3 — When Isolation Stops Feeling Accidental
 url: /posts/pink-floyd-another-brick-in-the-wall-part-3-when-isolation-stops-feeling-accidental.html
-date: '2026-09-26'
+date: '2020-06-14'
 read_time: 5
 excerpt: When Isolation Stops Feeling Accidental
 topic: ''

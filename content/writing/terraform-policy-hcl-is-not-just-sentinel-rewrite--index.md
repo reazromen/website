@@ -1,7 +1,7 @@
 ---
 title: Terraform Policy Is Not Just Sentinel Rewritten in HCL
 url: /posts/terraform-policy-hcl-is-not-just-sentinel-rewrite/index.html
-date: '2026-09-26'
+date: '2026-03-01'
 read_time: 8
 excerpt: HashiCorp's 2026 Terraform Policy beta evaluates provider-aware infrastructure
   policies using HCL and a dedicated tfpolicy test workflow. It changes where platform

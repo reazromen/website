@@ -2,7 +2,7 @@
 title: The Happiest Days of Our Lives — Why Institutional Cruelty Often Hides Behind
   Routine
 url: /posts/pink-floyd-the-happiest-days-of-our-lives-why-institutional-cruelty-often-hides-behind-routine.html
-date: '2026-09-26'
+date: '2020-01-19'
 read_time: 5
 excerpt: Why Institutional Cruelty Often Hides Behind Routine
 topic: ''

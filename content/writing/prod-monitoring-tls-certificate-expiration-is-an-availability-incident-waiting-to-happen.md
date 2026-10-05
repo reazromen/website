@@ -1,7 +1,7 @@
 ---
 title: TLS Certificate Expiration Is an Availability Incident Waiting to Happen
 url: /posts/prod-monitoring-tls-certificate-expiration-is-an-availability-incident-waiting-to-happen.html
-date: '2026-09-15'
+date: '2025-10-31'
 read_time: 32
 excerpt: A production-engineering deep dive into tls certificate expiration is an
   availability incident waiting to happen, grounded in the 2014 Mac mini hserver observability

@@ -1,6 +1,6 @@
 ---
 title: "Signals Are Everywhere. Why Do We Notice So Few of Them?"
-date: '2026-10-03'
+date: '2025-10-19'
 draft: false
 language: en
 url: /posts/signals-001-hidden-communication.html

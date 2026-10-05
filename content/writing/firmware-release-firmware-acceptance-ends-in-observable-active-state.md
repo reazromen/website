@@ -1,7 +1,7 @@
 ---
 title: Firmware Acceptance Should End in an Observable ACTIVE State
 url: /posts/firmware-release-firmware-acceptance-ends-in-observable-active-state.html
-date: '2026-09-15'
+date: '2025-10-21'
 read_time: 9
 excerpt: Download success and reboot success are intermediate states; the fleet needs
   to know what image is actually running and whether it passed the device acceptance

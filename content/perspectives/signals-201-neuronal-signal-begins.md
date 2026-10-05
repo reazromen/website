@@ -1,6 +1,6 @@
 ---
 title: "How a Neuronal Signal Begins"
-date: '2026-10-03'
+date: '2023-06-01'
 draft: false
 language: en
 url: /posts/signals-201-neuronal-signal-begins.html

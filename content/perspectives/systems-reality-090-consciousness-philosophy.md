@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Consciousness"
-date: '2026-10-03'
+date: '2026-08-06'
 draft: false
 language: en
 url: /posts/systems-reality-090-consciousness-philosophy.html

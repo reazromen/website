@@ -1,7 +1,7 @@
 ---
 title: Open5GS Made the EPC Feel Like a Set of Services Instead of One Big Core
 url: /posts/open5gs-made-the-epc-feel-like-a-set-of-services.html
-date: '2026-09-14'
+date: '2025-04-10'
 read_time: 2
 excerpt: Breaking the EPC into MME, HSS, SGW, PGW and PCRF roles made LTE core traffic
   much easier to follow in captures and logs.

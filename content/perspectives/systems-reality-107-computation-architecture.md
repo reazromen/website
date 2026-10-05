@@ -1,6 +1,6 @@
 ---
 title: "Computation Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2024-08-10'
 draft: false
 language: en
 url: /posts/systems-reality-107-computation-architecture.html

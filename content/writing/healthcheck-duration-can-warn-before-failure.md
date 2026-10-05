@@ -1,7 +1,7 @@
 ---
 title: Healthcheck Duration Can Warn Before Healthcheck Failure
 url: /posts/healthcheck-duration-can-warn-before-failure.html
-date: '2026-09-14'
+date: '2025-07-11'
 read_time: 1
 excerpt: A probe may keep returning success while taking progressively longer, showing
   a dependency slowdown before Docker marks the container unhealthy.

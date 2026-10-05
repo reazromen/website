@@ -1,7 +1,7 @@
 ---
 title: Vera — Remembering a Promise That History Could Not Keep
 url: /posts/pink-floyd-vera-remembering-a-promise-that-history-could-not-keep.html
-date: '2026-09-26'
+date: '2021-03-10'
 read_time: 5
 excerpt: Remembering a Promise That History Could Not Keep
 topic: ''

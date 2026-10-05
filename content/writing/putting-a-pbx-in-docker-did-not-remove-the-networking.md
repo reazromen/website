@@ -1,7 +1,7 @@
 ---
 title: Putting a PBX in Docker Did Not Remove the Networking
 url: /posts/putting-a-pbx-in-docker-did-not-remove-the-networking.html
-date: '2026-09-14'
+date: '2026-08-22'
 read_time: 2
 excerpt: Containerizing a SIP service added another address and NAT boundary, which
   made port publishing, advertised addresses and RTP ranges more important rather

@@ -1,7 +1,7 @@
 ---
 title: Why LOUP Is Speakerphone-First Instead of a Small Smartphone
 url: /posts/why-loup-is-speakerphone-first-instead-of-a-small-smartphone.html
-date: '2026-09-14'
+date: '2022-01-05'
 read_time: 1
 excerpt: Removing the browser, camera and text stack changes both the product and
   the firmware architecture.

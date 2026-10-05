@@ -1,7 +1,7 @@
 ---
 title: Brain Damage — The Fear of Losing the Shape of the Self
 url: /posts/pink-floyd-brain-damage-the-fear-of-losing-the-shape-of-the-self.html
-date: '2026-09-26'
+date: '2025-12-17'
 read_time: 5
 excerpt: The Fear of Losing the Shape of the Self
 topic: ''

@@ -1,7 +1,7 @@
 ---
 title: tcpdump on a PBX Taught Me to Trust the Wire Before the GUI
 url: /posts/tcpdump-on-a-pbx-taught-me-to-trust-the-wire-before-the-gui.html
-date: '2026-09-14'
+date: '2020-10-06'
 read_time: 2
 excerpt: 'On a headless PBX, a narrow tcpdump capture often answered the important
   question faster than a full GUI trace: did the signaling or media packet actually

@@ -1,7 +1,7 @@
 ---
 title: Partition, Bootloader and Security Changes Are Not Normal App OTA
 url: /posts/ota-state-service-mode-release-classes.html
-date: '2026-09-15'
+date: '2026-01-23'
 read_time: 8
 excerpt: Some changes alter the substrate that makes normal A/B OTA safe and therefore
   cannot be treated like another application image.

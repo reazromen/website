@@ -1,7 +1,7 @@
 ---
 title: Stateful Nomad Failover Gets Hard at the CSI Volume Boundary
 url: /posts/nomad-stateful-failover-csi-boundary.html
-date: '2026-09-26'
+date: '2025-12-31'
 read_time: 9
 excerpt: Nomad can decide that an allocation belongs on another node before the storage
   system has safely detached, unpublished, and made its volume available there. Scheduler

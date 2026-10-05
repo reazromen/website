@@ -1,7 +1,7 @@
 ---
 title: 'RPO, RTO and Evidence: When a Home Server Becomes a Production System'
 url: /posts/prod-monitoring-rpo-rto-and-evidence-when-a-home-server-becomes-a-production-system.html
-date: '2026-09-15'
+date: '2025-10-04'
 read_time: 36
 excerpt: 'A production-engineering deep dive into rpo, rto and evidence: when a home
   server becomes a production system, grounded in the 2014 Mac mini hserver observability

@@ -1,7 +1,7 @@
 ---
 title: Restore Verification Needs Its Own Age
 url: /posts/restore-verification-needs-own-age.html
-date: '2026-09-14'
+date: '2024-03-16'
 read_time: 1
 excerpt: A restore drill that passed months ago does not prove that today's schema,
   credentials and backup format can still be recovered.

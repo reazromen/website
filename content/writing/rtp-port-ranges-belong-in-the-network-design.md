@@ -1,7 +1,7 @@
 ---
 title: RTP Port Ranges Belong in the Network Design
 url: /posts/rtp-port-ranges-belong-in-the-network-design.html
-date: '2026-09-14'
+date: '2025-01-29'
 read_time: 1
 excerpt: Media cannot be debugged reliably if the firewall and PBX disagree on where
   RTP is allowed.

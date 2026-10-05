@@ -1,7 +1,7 @@
 ---
 title: NAT Overload Made More Sense When I Looked at the Translation Table
 url: /posts/nat-overload-made-more-sense-translation-table.html
-date: '2026-09-14'
+date: '2025-03-31'
 read_time: 3
 excerpt: PAT stopped feeling like a magic Internet-sharing feature once I watched
   inside local addresses, public translations and transport ports change in the NAT

@@ -1,7 +1,7 @@
 ---
 title: MySQL Slow Queries Belong in Infrastructure Monitoring
 url: /posts/prod-monitoring-mysql-slow-queries-belong-in-infrastructure-monitoring.html
-date: '2026-09-15'
+date: '2021-06-18'
 read_time: 34
 excerpt: A production-engineering deep dive into mysql slow queries belong in infrastructure
   monitoring, grounded in the 2014 Mac mini hserver observability stack and its accepted

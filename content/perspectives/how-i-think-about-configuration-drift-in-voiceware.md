@@ -1,7 +1,7 @@
 ---
 title: How I Think About Configuration Drift in Voiceware
 url: /posts/how-i-think-about-configuration-drift-in-voiceware.html
-date: '2026-09-18'
+date: '2025-03-16'
 read_time: 3
 excerpt: What drift is, how reconciliation changes it, and when a manual change is
   a warning sign.

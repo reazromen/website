@@ -1,6 +1,6 @@
 ---
 title: একই বোতাম দুইবার চাপলে কাজ দুইবার হবে কি
-date: '2026-10-02'
+date: '2023-05-04'
 draft: false
 language: bn
 url: /posts/bn-idempotent-button-retry.html

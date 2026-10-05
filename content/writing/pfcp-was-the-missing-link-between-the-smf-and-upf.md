@@ -1,7 +1,7 @@
 ---
 title: PFCP Was the Missing Link Between the SMF and UPF
 url: /posts/pfcp-was-the-missing-link-between-the-smf-and-upf.html
-date: '2026-09-14'
+date: '2022-12-11'
 read_time: 2
 excerpt: 5G user-plane programming became clearer once I followed PFCP instead of
   treating the UPF as a static router.

@@ -1,7 +1,7 @@
 ---
 title: Why publish technical notes as an onion service?
 url: /posts/first-note.html
-date: '2026-09-14'
+date: '2026-07-28'
 read_time: 1
 excerpt: A small engineering blog can be served directly through Tor without opening
   an inbound port on the home router.

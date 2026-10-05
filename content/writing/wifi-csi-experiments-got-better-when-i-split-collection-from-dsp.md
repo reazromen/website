@@ -1,7 +1,7 @@
 ---
 title: Wi-Fi CSI Experiments Got Better When I Split Collection from DSP
 url: /posts/wifi-csi-experiments-got-better-when-i-split-collection-from-dsp.html
-date: '2026-09-14'
+date: '2024-09-09'
 read_time: 1
 excerpt: Keeping the ESP32 focused on reliable CSI capture and moving heavier analysis
   elsewhere made the sensing pipeline easier to debug.

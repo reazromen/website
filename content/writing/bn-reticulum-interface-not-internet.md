@@ -1,6 +1,6 @@
 ---
 title: রেটিকুলামের ইন্টারফেস আর ইন্টারনেট এক জিনিস না
-date: '2026-10-02'
+date: '2023-01-24'
 draft: false
 language: bn
 url: /posts/bn-reticulum-interface-not-internet.html

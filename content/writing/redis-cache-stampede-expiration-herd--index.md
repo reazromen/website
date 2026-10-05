@@ -1,7 +1,7 @@
 ---
 title: A Redis Cache Miss Can Become a Database Outage
 url: /posts/redis-cache-stampede-expiration-herd/index.html
-date: '2026-09-26'
+date: '2021-08-02'
 read_time: 8
 excerpt: When a popular key expires, many callers can observe the same miss and rebuild
   the value simultaneously. Stampede protection is admission control for the source

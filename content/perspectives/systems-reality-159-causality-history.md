@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Causality"
-date: '2026-10-03'
+date: '2026-05-08'
 draft: false
 language: en
 url: /posts/systems-reality-159-causality-history.html

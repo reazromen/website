@@ -1,7 +1,7 @@
 ---
 title: Mudmen — Instrumental Weight Without a Verbal Story
 url: /posts/pink-floyd-mudmen-instrumental-weight-without-a-verbal-story.html
-date: '2026-09-26'
+date: '2026-08-17'
 read_time: 5
 excerpt: Instrumental Weight Without a Verbal Story
 topic: ''

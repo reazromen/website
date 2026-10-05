@@ -1,7 +1,7 @@
 ---
 title: Local Knowledge Should Become Team Knowledge
 url: /posts/local-knowledge-should-become-team-knowledge.html
-date: '2026-09-14'
+date: '2024-06-06'
 read_time: 1
 excerpt: A production fix is incomplete until the reasoning can survive outside the
   engineer who discovered it.

@@ -1,7 +1,7 @@
 ---
 title: Reticulum Radio Parameters Must Match Exactly
 url: /posts/lora-reticulum-reticulum-radio-parameters-match.html
-date: '2026-09-15'
+date: '2022-08-26'
 read_time: 8
 excerpt: Two healthy RNodes can be mutually deaf when frequency, bandwidth, spreading
   factor or coding rate differ.

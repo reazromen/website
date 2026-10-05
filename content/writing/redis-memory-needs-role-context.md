@@ -1,7 +1,7 @@
 ---
 title: Redis Memory Needs Role Context
 url: /posts/redis-memory-needs-role-context.html
-date: '2026-09-14'
+date: '2021-08-06'
 read_time: 1
 excerpt: A Redis instance serving disposable cache and one serving authentication
   sessions can show the same memory growth with very different operational risk.

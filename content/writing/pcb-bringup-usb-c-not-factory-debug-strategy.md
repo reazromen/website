@@ -1,7 +1,7 @@
 ---
 title: USB-C Charging Is Not a Factory Debug Strategy
 url: /posts/pcb-bringup-usb-c-not-factory-debug-strategy.html
-date: '2026-09-15'
+date: '2026-07-30'
 read_time: 9
 excerpt: A product can have a USB-C connector and still lack a reliable programming/recovery
   path for failed units.

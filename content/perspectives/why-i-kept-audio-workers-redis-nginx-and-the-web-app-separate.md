@@ -1,7 +1,7 @@
 ---
 title: Why I Kept Audio, Workers, Redis, Nginx, and the Web App Separate
 url: /posts/why-i-kept-audio-workers-redis-nginx-and-the-web-app-separate.html
-date: '2026-09-18'
+date: '2025-06-27'
 read_time: 2
 excerpt: The operational reasons for not collapsing supporting services into one large
   deployment.

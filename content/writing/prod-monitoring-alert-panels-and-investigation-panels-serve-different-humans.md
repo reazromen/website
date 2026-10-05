@@ -1,7 +1,7 @@
 ---
 title: Alert Panels and Investigation Panels Serve Different Humans
 url: /posts/prod-monitoring-alert-panels-and-investigation-panels-serve-different-humans.html
-date: '2026-09-15'
+date: '2025-08-09'
 read_time: 29
 excerpt: A production-engineering deep dive into alert panels and investigation panels
   serve different humans, grounded in the 2014 Mac mini hserver observability stack

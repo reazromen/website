@@ -1,7 +1,7 @@
 ---
 title: Store Device Enrollment Secrets as Hashes When the Server Only Needs Verification
 url: /posts/store-device-enrollment-secrets-as-hashes.html
-date: '2026-09-14'
+date: '2024-02-14'
 read_time: 1
 excerpt: If a token only needs to be checked, retaining the plaintext creates unnecessary
   breach impact.

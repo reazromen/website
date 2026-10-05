@@ -1,7 +1,7 @@
 ---
 title: A SIP Endpoint on an Embedded Device Changed My Definition of 'Small'
 url: /posts/a-sip-endpoint-on-an-embedded-device-changed-my-definition-of-small.html
-date: '2026-09-14'
+date: '2021-02-25'
 read_time: 1
 excerpt: Once SIP, RTP, codecs, Wi-Fi and a UI share one MCU, memory and timing decisions
   stop being implementation details.

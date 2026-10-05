@@ -1,7 +1,7 @@
 ---
 title: Cymbaline — Anxiety That Feels Like Being Watched
 url: /posts/pink-floyd-cymbaline-anxiety-that-feels-like-being-watched.html
-date: '2026-09-26'
+date: '2023-10-29'
 read_time: 5
 excerpt: Anxiety That Feels Like Being Watched
 topic: ''

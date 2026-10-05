@@ -2,7 +2,7 @@
 title: Dedicated Bearers Stopped Feeling Abstract Once I Traced the Create Bearer
   Request
 url: /posts/dedicated-bearers-stopped-feeling-abstract-once-i-traced-the-create-bearer-request.html
-date: '2026-09-14'
+date: '2021-09-09'
 read_time: 1
 excerpt: Tracing a Create Bearer Request tied policy, QoS and user-plane classification
   together in one procedure.

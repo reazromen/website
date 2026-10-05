@@ -1,7 +1,7 @@
 ---
 title: What an ArgoCD Application Actually Did for Voiceware
 url: /posts/what-an-argocd-application-actually-did-for-voiceware.html
-date: '2026-09-18'
+date: '2023-11-09'
 read_time: 2
 excerpt: Breaking down repository source, chart path, destination cluster, namespace,
   and sync policy.

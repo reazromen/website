@@ -1,7 +1,7 @@
 ---
 title: “Stub Is Already Running” Was Evidence About the Flash Path
 url: /posts/lora-reticulum-stub-running-flash-path.html
-date: '2026-09-15'
+date: '2022-07-24'
 read_time: 9
 excerpt: Flashing through the bridge looked ambiguous because the USB side and target
   side were different MCUs.

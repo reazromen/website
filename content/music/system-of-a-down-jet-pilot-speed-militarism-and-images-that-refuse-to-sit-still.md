@@ -1,7 +1,7 @@
 ---
 title: Jet Pilot — Speed, Militarism, and Images That Refuse to Sit Still
 url: /posts/system-of-a-down-jet-pilot-speed-militarism-and-images-that-refuse-to-sit-still.html
-date: '2026-09-26'
+date: '2023-10-29'
 read_time: 5
 excerpt: Speed, Militarism, and Images That Refuse to Sit Still
 topic: ''

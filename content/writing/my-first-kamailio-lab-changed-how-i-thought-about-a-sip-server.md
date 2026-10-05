@@ -1,7 +1,7 @@
 ---
 title: My First Kamailio Lab Changed How I Thought About a SIP Server
 url: /posts/my-first-kamailio-lab-changed-how-i-thought-about-a-sip-server.html
-date: '2026-09-14'
+date: '2026-06-13'
 read_time: 2
 excerpt: Kamailio made it obvious that SIP routing, registration and media handling
   do not have to live inside one PBX process.

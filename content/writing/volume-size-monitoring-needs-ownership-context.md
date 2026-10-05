@@ -1,7 +1,7 @@
 ---
 title: Volume Size Monitoring Needs Ownership Context
 url: /posts/volume-size-monitoring-needs-ownership-context.html
-date: '2026-09-14'
+date: '2022-08-27'
 read_time: 1
 excerpt: A large Docker volume is not actionable if the dashboard cannot tell which
   service owns it or whether that growth is expected.

@@ -1,7 +1,7 @@
 ---
 title: The Monitoring Stack Needs a Memory Budget Too
 url: /posts/monitoring-stack-needs-memory-budget.html
-date: '2026-09-14'
+date: '2025-06-01'
 read_time: 1
 excerpt: Observability was becoming one of the larger workloads on a small production
   server, which is dangerous when monitoring competes with the services it protects.

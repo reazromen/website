@@ -1,7 +1,7 @@
 ---
 title: A LoRa Range Test Without the Right Antenna Is Not a Range Test
 url: /posts/lora-reticulum-range-test-needs-antenna.html
-date: '2026-09-15'
+date: '2022-10-14'
 read_time: 9
 excerpt: Early experiments were tempting to interpret as radio-range evidence even
   when the nodes did not yet have confirmed band-appropriate antennas.

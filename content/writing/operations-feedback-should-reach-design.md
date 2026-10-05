@@ -1,7 +1,7 @@
 ---
 title: Operations Feedback Should Reach Design
 url: /posts/operations-feedback-should-reach-design.html
-date: '2026-09-14'
+date: '2026-03-30'
 read_time: 1
 excerpt: Production problems are product information, not just tickets to close.
 topic: devops-culture

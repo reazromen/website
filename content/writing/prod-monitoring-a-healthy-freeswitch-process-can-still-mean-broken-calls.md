@@ -1,7 +1,7 @@
 ---
 title: A Healthy FreeSWITCH Process Can Still Mean Broken Calls
 url: /posts/prod-monitoring-a-healthy-freeswitch-process-can-still-mean-broken-calls.html
-date: '2026-09-15'
+date: '2025-11-19'
 read_time: 32
 excerpt: A production-engineering deep dive into a healthy freeswitch process can
   still mean broken calls, grounded in the 2014 Mac mini hserver observability stack

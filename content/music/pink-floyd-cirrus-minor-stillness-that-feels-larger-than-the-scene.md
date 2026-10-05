@@ -1,7 +1,7 @@
 ---
 title: Cirrus Minor — Stillness That Feels Larger Than the Scene
 url: /posts/pink-floyd-cirrus-minor-stillness-that-feels-larger-than-the-scene.html
-date: '2026-09-26'
+date: '2020-06-02'
 read_time: 5
 excerpt: Stillness That Feels Larger Than the Scene
 topic: ''

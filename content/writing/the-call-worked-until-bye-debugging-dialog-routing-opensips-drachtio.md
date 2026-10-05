@@ -1,7 +1,7 @@
 ---
 title: 'The Call Worked Until BYE: Debugging Dialog Routing in OpenSIPS and Drachtio'
 url: /posts/the-call-worked-until-bye-debugging-dialog-routing-opensips-drachtio.html
-date: '2026-09-14'
+date: '2024-12-19'
 read_time: 29
 excerpt: A call can establish, carry clean audio, and still fail at BYE when the dialog
   route set, backend affinity, or media cleanup path is wrong.

@@ -1,6 +1,6 @@
 ---
 title: ফোন নম্বর যোগাযোগের ঠিকানা, পূর্ণ পরিচয় না
-date: '2026-10-02'
+date: '2022-06-01'
 draft: false
 language: bn
 url: /posts/bn-phone-number-identity-limit.html

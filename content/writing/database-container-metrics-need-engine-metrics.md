@@ -1,7 +1,7 @@
 ---
 title: Database Container Metrics Need Engine Metrics Beside Them
 url: /posts/database-container-metrics-need-engine-metrics.html
-date: '2026-09-14'
+date: '2024-05-03'
 read_time: 1
 excerpt: High database container CPU or memory can be an important symptom, but it
   cannot identify whether the engine is busy with useful work, blocked transactions

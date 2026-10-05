@@ -1,7 +1,7 @@
 ---
 title: UNKNOWN and FAIL Mean Different Things in Backup Monitoring
 url: /posts/unknown-and-fail-different-backup-monitoring.html
-date: '2026-09-14'
+date: '2023-01-31'
 read_time: 1
 excerpt: Protected evidence that a low-privilege checker cannot read should not be
   reported as healthy or corrupt.

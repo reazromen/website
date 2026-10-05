@@ -1,7 +1,7 @@
 ---
 title: Childhood's End — Growing Up as an Ending You Cannot Reverse
 url: /posts/pink-floyd-childhoods-end-growing-up-as-an-ending-you-cannot-reverse.html
-date: '2026-09-26'
+date: '2025-10-18'
 read_time: 5
 excerpt: Growing Up as an Ending You Cannot Reverse
 topic: ''

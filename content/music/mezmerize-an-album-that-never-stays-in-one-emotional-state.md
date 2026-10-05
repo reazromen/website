@@ -1,7 +1,7 @@
 ---
 title: Mezmerize — An Album That Never Stays in One Emotional State
 url: /posts/mezmerize-an-album-that-never-stays-in-one-emotional-state.html
-date: '2026-09-26'
+date: '2022-03-02'
 read_time: 8
 excerpt: Some albums create a mood and protect it. Mezmerize seems almost suspicious
   of that idea. It keeps changing its face—funny, violent, melodic, political, ridiculous,

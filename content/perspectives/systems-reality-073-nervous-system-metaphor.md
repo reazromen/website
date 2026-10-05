@@ -1,6 +1,6 @@
 ---
 title: "Where the communication network Analogy Breaks"
-date: '2026-10-03'
+date: '2022-06-16'
 draft: false
 language: en
 url: /posts/systems-reality-073-nervous-system-metaphor.html

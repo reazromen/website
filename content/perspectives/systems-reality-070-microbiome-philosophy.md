@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside The Microbiome"
-date: '2026-10-03'
+date: '2025-04-18'
 draft: false
 language: en
 url: /posts/systems-reality-070-microbiome-philosophy.html

@@ -1,6 +1,6 @@
 ---
 title: "Complexity Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2025-04-20'
 draft: false
 language: en
 url: /posts/systems-reality-117-complexity-architecture.html

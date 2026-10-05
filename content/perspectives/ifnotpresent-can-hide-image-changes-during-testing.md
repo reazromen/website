@@ -1,7 +1,7 @@
 ---
 title: IfNotPresent Can Hide Image Changes During Testing
 url: /posts/ifnotpresent-can-hide-image-changes-during-testing.html
-date: '2026-09-18'
+date: '2026-07-05'
 read_time: 2
 excerpt: How pull policy interacts with mutable image tags and node caches.
 topic: voiceware-engineering

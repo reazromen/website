@@ -1,7 +1,7 @@
 ---
 title: The Great Gig in the Sky — Mortality Without Needing a Full Sentence
 url: /posts/pink-floyd-the-great-gig-in-the-sky-mortality-without-needing-a-full-sentence.html
-date: '2026-09-26'
+date: '2021-09-13'
 read_time: 5
 excerpt: Mortality Without Needing a Full Sentence
 topic: ''

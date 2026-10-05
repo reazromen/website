@@ -1,7 +1,7 @@
 ---
 title: AEC Starts with the Correct Far-End Reference
 url: /posts/aec-starts-with-the-correct-far-end-reference.html
-date: '2026-09-14'
+date: '2026-07-22'
 read_time: 1
 excerpt: An echo canceller cannot remove playback it never receives as a reference
   signal.

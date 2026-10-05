@@ -1,7 +1,7 @@
 ---
 title: 'High, Standard, and Low Queues: Designing for Contention'
 url: /posts/high-standard-and-low-queues-designing-for-contention.html
-date: '2026-09-18'
+date: '2024-05-02'
 read_time: 2
 excerpt: How priority classes can turn one background-processing system into controlled
   lanes.

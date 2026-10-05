@@ -1,7 +1,7 @@
 ---
 title: 'My First OSPF Lab: Watching Routes Appear Instead of Typing Them'
 url: /posts/first-ospf-lab-watching-routes-appear.html
-date: '2026-09-14'
+date: '2024-12-07'
 read_time: 3
 excerpt: OSPF became useful when I compared it directly with the static routes I had
   been maintaining by hand and watched neighbors and learned routes change with the

@@ -1,7 +1,7 @@
 ---
 title: See-Saw — Emotional Motion That Never Quite Settles
 url: /posts/pink-floyd-see-saw-emotional-motion-that-never-quite-settles.html
-date: '2026-09-26'
+date: '2023-10-22'
 read_time: 5
 excerpt: Emotional Motion That Never Quite Settles
 topic: ''

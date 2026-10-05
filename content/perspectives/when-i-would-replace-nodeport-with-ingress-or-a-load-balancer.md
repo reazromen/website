@@ -1,7 +1,7 @@
 ---
 title: When I Would Replace NodePort With Ingress or a Load Balancer
 url: /posts/when-i-would-replace-nodeport-with-ingress-or-a-load-balancer.html
-date: '2026-09-18'
+date: '2026-03-03'
 read_time: 2
 excerpt: The conditions that justify moving from direct node exposure to a richer
   edge abstraction.

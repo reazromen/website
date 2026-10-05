@@ -1,7 +1,7 @@
 ---
 title: War? — How a Question Mark Changes a Word We Think We Understand
 url: /posts/system-of-a-down-war-how-a-question-mark-changes-a-word-we-think-we-understand.html
-date: '2026-09-26'
+date: '2023-09-28'
 read_time: 5
 excerpt: How a Question Mark Changes a Word We Think We Understand
 topic: ''

@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Homeostasis"
-date: '2026-10-03'
+date: '2024-12-16'
 draft: false
 language: en
 url: /posts/systems-reality-034-homeostasis-history.html

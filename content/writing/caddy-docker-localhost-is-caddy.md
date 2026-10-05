@@ -1,7 +1,7 @@
 ---
 title: Inside a Caddy Container, localhost Is Caddy — Not Your App
 url: /posts/caddy-docker-localhost-is-caddy.html
-date: '2026-09-18'
+date: '2024-02-26'
 read_time: 16
 excerpt: The most common Docker reverse-proxy mistake is technically valid networking
   aimed at the wrong namespace.

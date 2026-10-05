@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside The Immune System"
-date: '2026-10-03'
+date: '2020-03-12'
 draft: false
 language: en
 url: /posts/systems-reality-065-immune-system-philosophy.html

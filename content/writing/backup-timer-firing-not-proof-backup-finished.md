@@ -1,7 +1,7 @@
 ---
 title: A Backup Timer Firing Is Not Proof That the Backup Finished
 url: /posts/backup-timer-firing-not-proof-backup-finished.html
-date: '2026-09-14'
+date: '2025-04-23'
 read_time: 1
 excerpt: Scheduling evidence and completion evidence belong to different layers of
   a batch job.

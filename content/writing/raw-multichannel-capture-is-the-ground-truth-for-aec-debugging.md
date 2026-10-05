@@ -1,7 +1,7 @@
 ---
 title: Raw Multichannel Capture Is the Ground Truth for AEC Debugging
 url: /posts/raw-multichannel-capture-is-the-ground-truth-for-aec-debugging.html
-date: '2026-09-14'
+date: '2024-08-31'
 read_time: 1
 excerpt: Processed audio alone hides whether the wrong signal entered the algorithm.
 topic: loup-engineering

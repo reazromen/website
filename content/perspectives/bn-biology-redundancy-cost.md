@@ -1,6 +1,6 @@
 ---
 title: একাধিক পথ থাকা মানেই বিনা খরচে নিরাপত্তা না
-date: '2026-10-02'
+date: '2020-02-14'
 draft: false
 language: bn
 url: /posts/bn-biology-redundancy-cost.html

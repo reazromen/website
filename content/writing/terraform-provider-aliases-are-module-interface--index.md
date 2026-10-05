@@ -1,7 +1,7 @@
 ---
 title: Terraform Provider Aliases Are Part of a Module's Public Interface
 url: /posts/terraform-provider-aliases-are-module-interface/index.html
-date: '2026-09-26'
+date: '2023-04-22'
 read_time: 8
 excerpt: Provider configurations carry account, region and credential context. A reusable
   module that needs aliases is declaring runtime dependencies, not merely HCL syntax.

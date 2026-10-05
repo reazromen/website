@@ -1,7 +1,7 @@
 ---
 title: ALDO2 and ALDO3 Became Named Product Rails
 url: /posts/pcb-bringup-aldo2-aldo3-named-product-rails.html
-date: '2026-09-15'
+date: '2020-11-15'
 read_time: 9
 excerpt: Display and audio bring-up failed more predictably once regulator names were
   tied to actual product loads instead of generic PMIC outputs.

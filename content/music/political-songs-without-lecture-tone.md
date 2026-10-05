@@ -1,7 +1,7 @@
 ---
 title: Political Songs Without Lecture Tone
 url: /posts/political-songs-without-lecture-tone.html
-date: '2026-09-26'
+date: '2025-12-19'
 read_time: 5
 excerpt: How theatricality, rhythm, and compression can carry politics without turning
   songs into speeches

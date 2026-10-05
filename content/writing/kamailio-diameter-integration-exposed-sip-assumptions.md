@@ -1,7 +1,7 @@
 ---
 title: Kamailio Diameter Integration Exposed the Limits of Reusing SIP Assumptions
 url: /posts/kamailio-diameter-integration-exposed-sip-assumptions.html
-date: '2026-09-14'
+date: '2026-08-07'
 read_time: 2
 excerpt: Kamailio felt familiar on the SIP side, but Diameter peer state and application
   routing forced me to treat the second protocol on its own terms.

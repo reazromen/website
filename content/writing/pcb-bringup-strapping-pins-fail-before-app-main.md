@@ -1,7 +1,7 @@
 ---
 title: Some Boot Bugs Exist Before app_main Ever Runs
 url: /posts/pcb-bringup-strapping-pins-fail-before-app-main.html
-date: '2026-09-15'
+date: '2023-05-28'
 read_time: 9
 excerpt: Peripheral connections on ESP32-S3 strapping pins can influence reset before
   application diagnostics have a chance to run.

@@ -1,7 +1,7 @@
 ---
 title: Lucifer Sam — Character, Playfulness, and the Strange Logic of Psychedelia
 url: /posts/pink-floyd-lucifer-sam-character-playfulness-and-the-strange-logic-of-psychedelia.html
-date: '2026-09-26'
+date: '2021-07-22'
 read_time: 5
 excerpt: Character, Playfulness, and the Strange Logic of Psychedelia
 topic: ''

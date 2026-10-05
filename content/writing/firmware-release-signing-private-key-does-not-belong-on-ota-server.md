@@ -1,7 +1,7 @@
 ---
 title: The Firmware Signing Private Key Does Not Belong on the OTA Server
 url: /posts/firmware-release-signing-private-key-does-not-belong-on-ota-server.html
-date: '2026-09-15'
+date: '2021-05-23'
 read_time: 9
 excerpt: If the same runtime host that stores and serves firmware also holds the signing
   private key, compromise of that host can become compromise of release authority.

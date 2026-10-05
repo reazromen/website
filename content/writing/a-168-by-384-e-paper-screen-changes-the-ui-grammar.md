@@ -1,7 +1,7 @@
 ---
 title: A 168 by 384 E-Paper Screen Changes the UI Grammar
 url: /posts/a-168-by-384-e-paper-screen-changes-the-ui-grammar.html
-date: '2026-09-14'
+date: '2023-11-09'
 read_time: 1
 excerpt: Portrait monochrome e-paper rewards stable hierarchy and punishes unnecessary
   redraws.

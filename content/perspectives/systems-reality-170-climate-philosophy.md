@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Climate"
-date: '2026-10-03'
+date: '2025-04-22'
 draft: false
 language: en
 url: /posts/systems-reality-170-climate-philosophy.html

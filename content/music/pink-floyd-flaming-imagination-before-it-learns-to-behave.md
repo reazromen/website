@@ -1,7 +1,7 @@
 ---
 title: Flaming — Imagination Before It Learns to Behave
 url: /posts/pink-floyd-flaming-imagination-before-it-learns-to-behave.html
-date: '2026-09-26'
+date: '2026-05-18'
 read_time: 5
 excerpt: Imagination Before It Learns to Behave
 topic: ''

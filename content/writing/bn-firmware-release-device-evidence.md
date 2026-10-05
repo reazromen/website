@@ -1,6 +1,6 @@
 ---
 title: রিলিজের সত্য ডিভাইসের কাছেই থাকে
-date: '2026-10-02'
+date: '2025-10-28'
 draft: false
 language: bn
 url: /posts/bn-firmware-release-device-evidence.html

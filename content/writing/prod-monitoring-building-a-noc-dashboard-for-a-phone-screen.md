@@ -1,7 +1,7 @@
 ---
 title: Building a NOC Dashboard for a Phone Screen
 url: /posts/prod-monitoring-building-a-noc-dashboard-for-a-phone-screen.html
-date: '2026-09-15'
+date: '2023-07-21'
 read_time: 30
 excerpt: A production-engineering deep dive into building a noc dashboard for a phone
   screen, grounded in the 2014 Mac mini hserver observability stack and its accepted

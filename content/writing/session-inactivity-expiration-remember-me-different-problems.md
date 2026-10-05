@@ -1,7 +1,7 @@
 ---
 title: Session Inactivity, Expiration and Remember Me Solve Different Problems
 url: /posts/session-inactivity-expiration-remember-me-different-problems.html
-date: '2026-09-14'
+date: '2023-04-21'
 read_time: 1
 excerpt: A session can have an idle timeout, a hard lifetime and a trusted-browser
   persistence policy at the same time.

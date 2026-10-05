@@ -1,6 +1,6 @@
 ---
 title: এসএসএইচ না খুললে ব্যর্থতার স্তর আলাদা করা
-date: '2026-10-02'
+date: '2024-09-01'
 draft: false
 language: bn
 url: /posts/bn-ssh-network-service-auth-layers.html

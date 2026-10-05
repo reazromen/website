@@ -1,7 +1,7 @@
 ---
 title: Why Firmware Ownership Stays Separate from the Manufacturer
 url: /posts/why-firmware-ownership-stays-separate-from-the-manufacturer.html
-date: '2026-09-14'
+date: '2022-04-04'
 read_time: 1
 excerpt: Hardware development and firmware product logic have different long-term
   ownership requirements.

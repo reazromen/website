@@ -1,7 +1,7 @@
 ---
 title: Terraform State Is Not a Cache — It Is the Binding Database
 url: /posts/terraform-state-is-binding-database/index.html
-date: '2026-09-26'
+date: '2023-07-21'
 read_time: 8
 excerpt: State maps resource addresses in configuration to real remote objects. Treating
   it as disposable cache data is how infrastructure gets orphaned or recreated.

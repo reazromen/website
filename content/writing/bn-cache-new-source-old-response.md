@@ -1,6 +1,6 @@
 ---
 title: সোর্স বদলেছে, কিন্তু মানুষ পুরোনো পেজ দেখছে কেন
-date: '2026-10-02'
+date: '2025-03-22'
 draft: false
 language: bn
 url: /posts/bn-cache-new-source-old-response.html

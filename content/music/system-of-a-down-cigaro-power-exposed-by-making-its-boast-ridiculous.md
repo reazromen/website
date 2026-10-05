@@ -1,7 +1,7 @@
 ---
 title: Cigaro — Power Exposed by Making Its Boast Ridiculous
 url: /posts/system-of-a-down-cigaro-power-exposed-by-making-its-boast-ridiculous.html
-date: '2026-09-26'
+date: '2023-09-22'
 read_time: 5
 excerpt: Power Exposed by Making Its Boast Ridiculous
 topic: ''

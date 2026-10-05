@@ -1,7 +1,7 @@
 ---
 title: Celery Beat Is Not “Just Another Worker”
 url: /posts/celery-beat-is-not-just-another-worker.html
-date: '2026-09-18'
+date: '2024-11-29'
 read_time: 2
 excerpt: Why scheduled task orchestration deserves different lifecycle thinking from
   queue consumers.

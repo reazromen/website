@@ -1,6 +1,6 @@
 ---
 title: ঘড়ি না মিললে ঘটনার ক্রমও গুলিয়ে যায়
-date: '2026-10-02'
+date: '2025-11-16'
 draft: false
 language: bn
 url: /posts/bn-clock-drift-incident-order.html

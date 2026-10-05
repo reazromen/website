@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Ecosystems"
-date: '2026-10-03'
+date: '2022-07-13'
 draft: false
 language: en
 url: /posts/systems-reality-165-ecosystems-philosophy.html

@@ -1,7 +1,7 @@
 ---
 title: Dead Synthetic Targets Should Be Removed, Not Hidden
 url: /posts/dead-synthetic-targets-removed-not-hidden.html
-date: '2026-09-14'
+date: '2026-09-02'
 read_time: 1
 excerpt: Placeholder or obsolete probe targets can stay in configuration after architecture
   changes and permanently pollute availability dashboards.

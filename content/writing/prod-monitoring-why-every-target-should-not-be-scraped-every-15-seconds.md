@@ -1,7 +1,7 @@
 ---
 title: Why Every Target Should Not Be Scraped Every 15 Seconds
 url: /posts/prod-monitoring-why-every-target-should-not-be-scraped-every-15-seconds.html
-date: '2026-09-15'
+date: '2025-06-14'
 read_time: 36
 excerpt: A production-engineering deep dive into why every target should not be scraped
   every 15 seconds, grounded in the 2014 Mac mini hserver observability stack and

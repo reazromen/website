@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Time"
-date: '2026-10-03'
+date: '2025-10-09'
 draft: false
 language: en
 url: /posts/systems-reality-155-time-philosophy.html

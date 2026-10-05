@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Memory"
-date: '2026-10-03'
+date: '2026-04-24'
 draft: false
 language: en
 url: /posts/systems-reality-084-memory-history.html

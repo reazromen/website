@@ -1,7 +1,7 @@
 ---
 title: Retention Needs Both Time and Size Limits
 url: /posts/retention-needs-time-and-size-limits.html
-date: '2026-09-14'
+date: '2020-03-18'
 read_time: 1
 excerpt: Keeping thirty days of Prometheus data is useful until series growth causes
   the TSDB to consume more disk than the host can safely spare.

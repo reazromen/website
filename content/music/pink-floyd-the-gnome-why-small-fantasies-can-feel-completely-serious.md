@@ -1,7 +1,7 @@
 ---
 title: The Gnome — Why Small Fantasies Can Feel Completely Serious
 url: /posts/pink-floyd-the-gnome-why-small-fantasies-can-feel-completely-serious.html
-date: '2026-09-26'
+date: '2024-12-07'
 read_time: 5
 excerpt: Why Small Fantasies Can Feel Completely Serious
 topic: ''

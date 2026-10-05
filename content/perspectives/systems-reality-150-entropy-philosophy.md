@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Entropy"
-date: '2026-10-03'
+date: '2023-11-13'
 draft: false
 language: en
 url: /posts/systems-reality-150-entropy-philosophy.html

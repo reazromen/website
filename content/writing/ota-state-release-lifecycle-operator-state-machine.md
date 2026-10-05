@@ -1,7 +1,7 @@
 ---
 title: Release Lifecycle Is an Operator State Machine
 url: /posts/ota-state-release-lifecycle-operator-state-machine.html
-date: '2026-09-15'
+date: '2024-08-15'
 read_time: 7
 excerpt: A release needed gates between registration and fleet-wide use rather than
   one published flag.

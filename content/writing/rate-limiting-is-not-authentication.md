@@ -1,7 +1,7 @@
 ---
 title: Rate Limiting Is Not Authentication
 url: /posts/rate-limiting-is-not-authentication.html
-date: '2026-09-14'
+date: '2024-12-26'
 read_time: 1
 excerpt: The public machine API uses request throttling as abuse resistance while
   retaining Bearer validation as the real identity check.

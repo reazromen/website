@@ -1,7 +1,7 @@
 ---
 title: SDP Was the Part of SIP Calls I Had Been Ignoring
 url: /posts/sdp-was-the-part-of-sip-calls-i-had-been-ignoring.html
-date: '2026-09-14'
+date: '2022-10-07'
 read_time: 2
 excerpt: A SIP call can signal perfectly and still have broken audio because SDP is
   where the endpoints describe media addresses, ports and codecs.

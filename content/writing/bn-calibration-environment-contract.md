@@ -1,6 +1,6 @@
 ---
 title: ক্যালিব্রেশন একটা সংখ্যা না, পরিবেশের সঙ্গে চুক্তি
-date: '2026-10-02'
+date: '2025-07-01'
 draft: false
 language: bn
 url: /posts/bn-calibration-environment-contract.html

@@ -1,6 +1,6 @@
 ---
 title: উপজেলার ড্যাশবোর্ডে মানচিত্রের পরে কাজ
-date: '2026-10-02'
+date: '2021-03-23'
 draft: false
 language: bn
 url: /posts/bn-upazila-dashboard-decision.html

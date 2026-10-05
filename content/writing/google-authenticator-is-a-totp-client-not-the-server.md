@@ -1,7 +1,7 @@
 ---
 title: Google Authenticator Is a TOTP Client, Not the Authentication Server
 url: /posts/google-authenticator-is-a-totp-client-not-the-server.html
-date: '2026-09-14'
+date: '2022-08-15'
 read_time: 2
 excerpt: The six-digit code comes from a shared TOTP secret and time step; Google
   Authenticator is only one compatible client.

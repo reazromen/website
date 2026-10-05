@@ -1,7 +1,7 @@
 ---
 title: Sysyphus, Parts 1-4 — The Absurd Labor of Building and Starting Again
 url: /posts/pink-floyd-sysyphus-parts-1-4-the-absurd-labor-of-building-and-starting-again.html
-date: '2026-09-26'
+date: '2023-05-29'
 read_time: 5
 excerpt: The Absurd Labor of Building and Starting Again
 topic: ''

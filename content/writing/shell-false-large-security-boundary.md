@@ -1,7 +1,7 @@
 ---
 title: shell=False Is a Small Setting with a Large Security Boundary
 url: /posts/shell-false-large-security-boundary.html
-date: '2026-09-14'
+date: '2025-12-04'
 read_time: 1
 excerpt: Passing an argument array directly to exec avoids an entire class of shell
   expansion and injection behavior.

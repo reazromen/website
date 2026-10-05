@@ -1,7 +1,7 @@
 ---
 title: Why Green Dashboards Can Still Lie
 url: /posts/prod-monitoring-why-green-dashboards-can-still-lie.html
-date: '2026-09-15'
+date: '2026-04-12'
 read_time: 29
 excerpt: A production-engineering deep dive into why green dashboards can still lie,
   grounded in the 2014 Mac mini hserver observability stack and its accepted runtime

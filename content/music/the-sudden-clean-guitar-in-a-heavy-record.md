@@ -1,7 +1,7 @@
 ---
 title: The Sudden Clean Guitar in a Heavy Record
 url: /posts/the-sudden-clean-guitar-in-a-heavy-record.html
-date: '2026-09-26'
+date: '2021-04-03'
 read_time: 5
 excerpt: Why restraint can sound more vulnerable when surrounded by density
 topic: ''

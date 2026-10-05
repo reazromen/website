@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Gene Regulation"
-date: '2026-10-03'
+date: '2026-05-21'
 draft: false
 language: en
 url: /posts/systems-reality-015-gene-regulation-philosophy.html

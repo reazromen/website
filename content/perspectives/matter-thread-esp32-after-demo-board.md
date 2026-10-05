@@ -1,7 +1,7 @@
 ---
 title: 'Matter-over-Thread on ESP32: The Hard Part Starts After the Demo Board Works'
 url: /posts/matter-thread-esp32-after-demo-board.html
-date: '2026-09-26'
+date: '2025-04-29'
 read_time: 9
 excerpt: A Matter demo proves the SDK and radio can talk. A product has to survive
   commissioning, Thread topology, memory limits, power loss, manufacturing, OTA, and

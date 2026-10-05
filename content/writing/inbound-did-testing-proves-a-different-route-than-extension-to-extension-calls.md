@@ -1,7 +1,7 @@
 ---
 title: Inbound DID Testing Proves a Different Route Than Extension-to-Extension Calls
 url: /posts/inbound-did-testing-proves-a-different-route-than-extension-to-extension-calls.html
-date: '2026-09-14'
+date: '2022-01-22'
 read_time: 1
 excerpt: External ingress adds routing and policy that a local PBX call does not exercise.
 topic: loup-engineering

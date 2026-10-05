@@ -1,7 +1,7 @@
 ---
 title: Your SPA Homepage Works Through Caddy, but Refreshing /settings Returns 404
 url: /posts/caddy-spa-deep-link-404.html
-date: '2026-09-18'
+date: '2025-10-10'
 read_time: 16
 excerpt: Client-side routes exist only after index.html loads; the server still needs
   a fallback for direct requests.

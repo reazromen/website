@@ -1,7 +1,7 @@
 ---
 title: Two-Device Local Calls Are a Better Milestone Than a Single Loopback Test
 url: /posts/two-device-local-calls-are-a-better-milestone-than-a-single-loopback-test.html
-date: '2026-09-14'
+date: '2025-11-28'
 read_time: 1
 excerpt: A real endpoint pair exposes assumptions hidden by softphones and local echo
   tests.

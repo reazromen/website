@@ -1,7 +1,7 @@
 ---
 title: A Restore Drill Is Stronger Evidence Than a Successful Backup Command
 url: /posts/restore-drill-stronger-than-successful-backup-command.html
-date: '2026-09-14'
+date: '2022-03-19'
 read_time: 1
 excerpt: The backup process can exit zero while the recovery process is still incomplete,
   undocumented or impossible on another machine.

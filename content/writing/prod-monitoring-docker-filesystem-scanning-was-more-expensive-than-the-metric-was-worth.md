@@ -1,7 +1,7 @@
 ---
 title: Docker Filesystem Scanning Was More Expensive Than the Metric Was Worth
 url: /posts/prod-monitoring-docker-filesystem-scanning-was-more-expensive-than-the-metric-was-worth.html
-date: '2026-09-15'
+date: '2021-10-09'
 read_time: 35
 excerpt: A production-engineering deep dive into docker filesystem scanning was more
   expensive than the metric was worth, grounded in the 2014 Mac mini hserver observability

@@ -1,7 +1,7 @@
 ---
 title: The Trade-Off of Deploying Voiceware Into the default Namespace
 url: /posts/the-trade-off-of-deploying-voiceware-into-the-default-namespace.html
-date: '2026-09-18'
+date: '2025-01-26'
 read_time: 2
 excerpt: What the current ArgoCD destination implies and what I would revisit as environments
   grow.

@@ -1,6 +1,6 @@
 ---
 title: ডকুমেন্টেশনে ফলের সঙ্গে প্রমাণের পথ রাখা
-date: '2026-10-02'
+date: '2023-06-30'
 draft: false
 language: bn
 url: /posts/bn-documentation-evidence-chain.html

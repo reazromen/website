@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Geometry"
-date: '2026-10-03'
+date: '2020-12-06'
 draft: false
 language: en
 url: /posts/systems-reality-134-geometry-history.html

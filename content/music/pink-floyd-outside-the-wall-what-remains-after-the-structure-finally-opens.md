@@ -1,7 +1,7 @@
 ---
 title: Outside the Wall — What Remains After the Structure Finally Opens
 url: /posts/pink-floyd-outside-the-wall-what-remains-after-the-structure-finally-opens.html
-date: '2026-09-26'
+date: '2024-07-06'
 read_time: 5
 excerpt: What Remains After the Structure Finally Opens
 topic: ''

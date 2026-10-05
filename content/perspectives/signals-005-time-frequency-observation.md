@@ -1,6 +1,6 @@
 ---
 title: "Time and Frequency: Two Views of One Observation"
-date: '2026-10-03'
+date: '2021-01-06'
 draft: false
 language: en
 url: /posts/signals-005-time-frequency-observation.html

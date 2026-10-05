@@ -1,7 +1,7 @@
 ---
 title: How Logging Itself Can Become an I/O Workload
 url: /posts/prod-monitoring-how-logging-itself-can-become-an-i-o-workload.html
-date: '2026-09-15'
+date: '2025-12-10'
 read_time: 34
 excerpt: A production-engineering deep dive into how logging itself can become an
   i/o workload, grounded in the 2014 Mac mini hserver observability stack and its

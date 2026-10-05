@@ -1,7 +1,7 @@
 ---
 title: Why I Started Saving Packet Captures with the Incident Notes
 url: /posts/why-i-started-saving-packet-captures-with-the-incident-notes.html
-date: '2026-09-14'
+date: '2026-02-23'
 read_time: 1
 excerpt: A short pcap plus context is often more useful six months later than a page
   of remembered conclusions.

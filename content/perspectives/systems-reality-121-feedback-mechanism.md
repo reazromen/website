@@ -1,6 +1,6 @@
 ---
 title: "What Feedback Really Is"
-date: '2026-10-03'
+date: '2020-03-02'
 draft: false
 language: en
 url: /posts/systems-reality-121-feedback-mechanism.html

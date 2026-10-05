@@ -1,7 +1,7 @@
 ---
 title: IPX4 Has to Be Designed Around Openings, Not Added at Certification
 url: /posts/ipx4-has-to-be-designed-around-openings-not-added-at-certification.html
-date: '2026-09-14'
+date: '2022-05-14'
 read_time: 1
 excerpt: Speaker, microphone, buttons and battery access all create splash-resistance
   paths.

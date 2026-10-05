@@ -1,7 +1,7 @@
 ---
 title: Device Provisioning Is an Identity Problem Disguised as Wi-Fi Setup
 url: /posts/device-provisioning-is-an-identity-problem-disguised-as-wifi-setup.html
-date: '2026-09-14'
+date: '2026-08-16'
 read_time: 1
 excerpt: Getting credentials onto a device is easy; binding the right device to the
   right backend identity is the security boundary.

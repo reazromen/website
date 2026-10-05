@@ -1,7 +1,7 @@
 ---
 title: Pow R. Toc H. — What Happens When Sound Arrives Before Meaning
 url: /posts/pink-floyd-pow-r-toc-h-what-happens-when-sound-arrives-before-meaning.html
-date: '2026-09-26'
+date: '2026-08-27'
 read_time: 5
 excerpt: What Happens When Sound Arrives Before Meaning
 topic: ''

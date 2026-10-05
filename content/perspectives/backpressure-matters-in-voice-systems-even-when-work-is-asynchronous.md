@@ -1,7 +1,7 @@
 ---
 title: Backpressure Matters in Voice Systems Even When Work Is Asynchronous
 url: /posts/backpressure-matters-in-voice-systems-even-when-work-is-asynchronous.html
-date: '2026-09-18'
+date: '2024-08-10'
 read_time: 2
 excerpt: How queue separation can protect interactive paths from background processing
   pressure.

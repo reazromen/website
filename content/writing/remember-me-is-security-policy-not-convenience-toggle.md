@@ -1,7 +1,7 @@
 ---
 title: Remember-Me Is a Security Policy, Not a Convenience Toggle
 url: /posts/remember-me-is-security-policy-not-convenience-toggle.html
-date: '2026-09-14'
+date: '2021-09-02'
 read_time: 1
 excerpt: Long-lived trusted-browser sessions change the authentication risk model
   and should be chosen deliberately.

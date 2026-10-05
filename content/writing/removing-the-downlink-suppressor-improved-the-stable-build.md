@@ -1,7 +1,7 @@
 ---
 title: Removing the Downlink Suppressor Improved the Stable Build
 url: /posts/removing-the-downlink-suppressor-improved-the-stable-build.html
-date: '2026-09-14'
+date: '2026-08-22'
 read_time: 1
 excerpt: More signal processing is not automatically better audio.
 topic: loup-engineering

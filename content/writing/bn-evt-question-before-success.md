@@ -1,6 +1,6 @@
 ---
 title: ইভিটিতে সফলতার আগে প্রশ্নগুলো ঠিক করা
-date: '2026-10-02'
+date: '2024-07-10'
 draft: false
 language: bn
 url: /posts/bn-evt-question-before-success.html

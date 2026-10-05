@@ -1,7 +1,7 @@
 ---
 title: STABLE Requires Evidence from ACTIVE Devices
 url: /posts/ota-state-stable-requires-active-device-evidence.html
-date: '2026-09-15'
+date: '2026-08-20'
 read_time: 7
 excerpt: A release could look administratively complete before any device proved it
   was actually running.

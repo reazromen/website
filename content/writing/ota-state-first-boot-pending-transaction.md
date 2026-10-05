@@ -1,7 +1,7 @@
 ---
 title: First Boot Is a Pending Transaction, Not Success
 url: /posts/ota-state-first-boot-pending-transaction.html
-date: '2026-09-15'
+date: '2024-08-10'
 read_time: 7
 excerpt: A reboot into the new partition was too weak to count as a successful update.
 topic: production-ota-fleet

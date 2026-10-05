@@ -1,7 +1,7 @@
 ---
 title: Version Names Are Labels; Hashes and Commits Are Identity
 url: /posts/firmware-release-version-names-are-labels-hashes-commits-identity.html
-date: '2026-09-15'
+date: '2021-09-24'
 read_time: 9
 excerpt: Names such as V132A and V133A were convenient in conversation but too weak
   to prove which bytes or source tree were actually under test.

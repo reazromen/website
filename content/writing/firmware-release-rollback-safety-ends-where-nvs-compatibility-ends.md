@@ -1,7 +1,7 @@
 ---
 title: Rollback Safety Ends Where NVS Compatibility Ends
 url: /posts/firmware-release-rollback-safety-ends-where-nvs-compatibility-ends.html
-date: '2026-09-15'
+date: '2022-08-08'
 read_time: 9
 excerpt: An older application image is not a safe rollback target if the newer image
   has already migrated persistent configuration into a format the old code cannot

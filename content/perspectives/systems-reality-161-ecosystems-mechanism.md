@@ -1,6 +1,6 @@
 ---
 title: "What Ecosystems Really Is"
-date: '2026-10-03'
+date: '2025-11-11'
 draft: false
 language: en
 url: /posts/systems-reality-161-ecosystems-mechanism.html

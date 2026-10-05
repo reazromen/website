@@ -1,7 +1,7 @@
 ---
 title: An AEC-Off Run Is a Control Experiment, Not a Product Setting
 url: /posts/embedded-audio-aec-off-control-experiment.html
-date: '2026-09-15'
+date: '2020-03-21'
 read_time: 12
 excerpt: AEC was implicated in several symptoms, but disabling it permanently would
   remove a required speakerphone function.

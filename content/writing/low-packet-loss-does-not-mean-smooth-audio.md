@@ -1,7 +1,7 @@
 ---
 title: Low Packet Loss Does Not Mean Smooth Audio
 url: /posts/low-packet-loss-does-not-mean-smooth-audio.html
-date: '2026-09-14'
+date: '2025-05-17'
 read_time: 1
 excerpt: Burst timing can hurt a speakerphone even when aggregate RTP loss is close
   to zero.

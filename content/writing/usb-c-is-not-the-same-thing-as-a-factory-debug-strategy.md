@@ -1,7 +1,7 @@
 ---
 title: USB-C Is Not the Same Thing as a Factory Debug Strategy
 url: /posts/usb-c-is-not-the-same-thing-as-a-factory-debug-strategy.html
-date: '2026-09-14'
+date: '2021-01-08'
 read_time: 1
 excerpt: One external connector does not remove the need for reliable programming
   and recovery access.

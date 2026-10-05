@@ -1,7 +1,7 @@
 ---
 title: Your Caddy Admin API Is a Deployment Interface - Treat It Like Root
 url: /posts/caddy-admin-api-exposure.html
-date: '2026-09-18'
+date: '2026-10-05'
 read_time: 16
 excerpt: The admin endpoint can replace active configuration, so broad exposure changes
   the security boundary of the edge.

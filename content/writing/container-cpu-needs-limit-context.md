@@ -1,7 +1,7 @@
 ---
 title: CPU by Container Is Useful Only Beside Limits
 url: /posts/container-cpu-needs-limit-context.html
-date: '2026-09-14'
+date: '2025-12-02'
 read_time: 1
 excerpt: A container using one full CPU may be expected on an unrestricted worker
   and catastrophic for a service capped at a fraction of a core.

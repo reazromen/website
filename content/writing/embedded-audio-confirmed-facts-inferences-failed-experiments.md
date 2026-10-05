@@ -1,7 +1,7 @@
 ---
 title: How I Separate Confirmed Facts, Inferences and Failed Experiments
 url: /posts/embedded-audio-confirmed-facts-inferences-failed-experiments.html
-date: '2026-09-15'
+date: '2023-10-25'
 read_time: 12
 excerpt: Fast-moving firmware work made it easy for an attractive theory to become
   remembered as fact.

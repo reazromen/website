@@ -1,7 +1,7 @@
 ---
 title: Container Restart Counts Are Incident Breadcrumbs
 url: /posts/container-restart-counts-are-incident-breadcrumbs.html
-date: '2026-09-14'
+date: '2024-06-24'
 read_time: 1
 excerpt: A service can look healthy now and still have restarted repeatedly overnight,
   erasing the evidence from a simple current-state view.

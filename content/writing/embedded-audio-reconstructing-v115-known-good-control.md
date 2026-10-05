@@ -1,7 +1,7 @@
 ---
 title: Reconstructing V115 as a Known-Good Behavioral Control
 url: /posts/embedded-audio-reconstructing-v115-known-good-control.html
-date: '2026-09-15'
+date: '2020-02-12'
 read_time: 12
 excerpt: Later experiments had changed queues, PLC, timing and logs until nobody could
   safely say which behavior belonged to the last clear build.

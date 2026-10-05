@@ -1,7 +1,7 @@
 ---
 title: OTA Installation Must Lose to an Active Voice Call
 url: /posts/firmware-release-ota-installation-must-lose-to-active-call.html
-date: '2026-09-15'
+date: '2025-06-28'
 read_time: 9
 excerpt: A voice device can be idle from the server perspective while a user is in
   an active SIP conversation that must not be interrupted by an update.

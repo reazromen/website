@@ -1,7 +1,7 @@
 ---
 title: Why V116–V131 Did Not Automatically Replace V115
 url: /posts/embedded-audio-later-experiments-did-not-replace-v115.html
-date: '2026-09-15'
+date: '2026-01-05'
 read_time: 12
 excerpt: Later queue, PLC and timer experiments looked more sophisticated on paper
   but repeatedly introduced crackle, echo or additional delay.

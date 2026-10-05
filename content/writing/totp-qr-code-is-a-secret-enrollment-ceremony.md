@@ -1,7 +1,7 @@
 ---
 title: The TOTP QR Code Is a Secret-Enrollment Ceremony
 url: /posts/totp-qr-code-is-a-secret-enrollment-ceremony.html
-date: '2026-09-14'
+date: '2026-06-20'
 read_time: 1
 excerpt: Scanning the QR code transfers long-lived secret material; it should be treated
   more carefully than an ordinary setup screen.

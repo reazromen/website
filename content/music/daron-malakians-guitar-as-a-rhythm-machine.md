@@ -1,7 +1,7 @@
 ---
 title: Daron Malakian's Guitar as a Rhythm Machine
 url: /posts/daron-malakians-guitar-as-a-rhythm-machine.html
-date: '2026-09-26'
+date: '2021-09-01'
 read_time: 5
 excerpt: How guitar parts often function as percussion, punctuation, and momentum
   as much as harmony

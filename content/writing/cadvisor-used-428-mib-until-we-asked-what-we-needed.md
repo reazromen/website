@@ -1,7 +1,7 @@
 ---
 title: cAdvisor Used 428 MiB Until We Asked What We Actually Needed
 url: /posts/cadvisor-used-428-mib-until-we-asked-what-we-needed.html
-date: '2026-09-14'
+date: '2025-11-27'
 read_time: 2
 excerpt: Observability can become the workload if collection is broader than the questions
   operators actually need to answer.

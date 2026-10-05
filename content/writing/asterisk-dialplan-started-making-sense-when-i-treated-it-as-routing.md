@@ -1,7 +1,7 @@
 ---
 title: Asterisk Dialplan Started Making Sense When I Treated It as Routing
 url: /posts/asterisk-dialplan-started-making-sense-when-i-treated-it-as-routing.html
-date: '2026-09-14'
+date: '2025-08-12'
 read_time: 2
 excerpt: The Asterisk dialplan felt less like telephony syntax once I treated contexts
   and extensions as a routing policy for calls.

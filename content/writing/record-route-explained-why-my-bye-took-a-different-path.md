@@ -1,7 +1,7 @@
 ---
 title: Record-Route Explained Why My BYE Took a Different Path
 url: /posts/record-route-explained-why-my-bye-took-a-different-path.html
-date: '2026-09-14'
+date: '2024-11-22'
 read_time: 3
 excerpt: Initial SIP routing and in-dialog routing are different problems. Record-Route
   was the mechanism that made the proxy stay on the path after the call was established.

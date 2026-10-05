@@ -1,7 +1,7 @@
 ---
 title: Two-Factor Policy Belongs at the Shared Access Boundary
 url: /posts/two-factor-policy-belongs-at-shared-access-boundary.html
-date: '2026-09-14'
+date: '2021-05-13'
 read_time: 1
 excerpt: Putting MFA in front of each application separately creates duplicated policy;
   Authelia gives the protected subdomains one identity boundary.

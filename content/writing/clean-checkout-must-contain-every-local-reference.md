@@ -1,7 +1,7 @@
 ---
 title: A Clean Checkout Must Contain Every Local Build and Config Reference
 url: /posts/clean-checkout-must-contain-every-local-reference.html
-date: '2026-09-14'
+date: '2022-07-26'
 read_time: 1
 excerpt: Infrastructure source is incomplete if Compose points at files that only
   exist on the current server.

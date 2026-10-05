@@ -1,6 +1,6 @@
 ---
 title: প্রেজেন্স ডিটেকশনে একটা ডেমোর চেয়ে পুনরাবৃত্তি জরুরি
-date: '2026-10-02'
+date: '2026-05-09'
 draft: false
 language: bn
 url: /posts/bn-csi-presence-repetition-test.html

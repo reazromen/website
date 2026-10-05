@@ -1,6 +1,6 @@
 ---
 title: "A Connected Call with Silence at Both Ends"
-date: '2026-10-03'
+date: '2021-07-15'
 draft: false
 language: en
 url: /posts/signals-101-connected-call-silence.html

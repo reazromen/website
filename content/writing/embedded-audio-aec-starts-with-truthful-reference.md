@@ -1,7 +1,7 @@
 ---
 title: AEC Starts with a Truthful Reference Signal
 url: /posts/embedded-audio-aec-starts-with-truthful-reference.html
-date: '2026-09-15'
+date: '2020-03-21'
 read_time: 12
 excerpt: Echo tuning was meaningless if the AEC reference did not represent what the
   loudspeaker actually played.

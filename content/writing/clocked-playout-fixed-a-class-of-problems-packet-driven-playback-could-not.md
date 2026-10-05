@@ -1,7 +1,7 @@
 ---
 title: Clocked Playout Fixed a Class of Problems Packet-Driven Playback Could Not
 url: /posts/clocked-playout-fixed-a-class-of-problems-packet-driven-playback-could-not.html
-date: '2026-09-14'
+date: '2023-03-07'
 read_time: 1
 excerpt: RTP arrival time should not directly schedule the speaker.
 topic: loup-engineering

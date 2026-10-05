@@ -1,6 +1,6 @@
 ---
 title: কোডেক বদলালে অডিওর সঙ্গে কাজও বদলায়
-date: '2026-10-02'
+date: '2022-01-13'
 draft: false
 language: bn
 url: /posts/bn-codec-conversion-hidden-work.html

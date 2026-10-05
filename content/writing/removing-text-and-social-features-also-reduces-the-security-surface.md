@@ -1,7 +1,7 @@
 ---
 title: Removing Text and Social Features Also Reduces the Security Surface
 url: /posts/removing-text-and-social-features-also-reduces-the-security-surface.html
-date: '2026-09-14'
+date: '2020-08-03'
 read_time: 1
 excerpt: Product restraint changes threat modeling as much as it changes UX.
 topic: loup-engineering

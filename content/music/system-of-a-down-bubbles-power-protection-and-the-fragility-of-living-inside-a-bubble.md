@@ -1,7 +1,7 @@
 ---
 title: Bubbles — Power, Protection, and the Fragility of Living Inside a Bubble
 url: /posts/system-of-a-down-bubbles-power-protection-and-the-fragility-of-living-inside-a-bubble.html
-date: '2026-09-26'
+date: '2022-06-10'
 read_time: 5
 excerpt: Power, Protection, and the Fragility of Living Inside a Bubble
 topic: ''

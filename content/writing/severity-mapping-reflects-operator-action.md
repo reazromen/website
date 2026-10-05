@@ -1,7 +1,7 @@
 ---
 title: Severity Mapping Should Reflect Operator Action
 url: /posts/severity-mapping-reflects-operator-action.html
-date: '2026-09-14'
+date: '2022-06-05'
 read_time: 1
 excerpt: If every alert is critical, operators lose the distinction between conditions
   that require immediate intervention and those that need scheduled review.

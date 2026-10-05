@@ -1,7 +1,7 @@
 ---
 title: Reading the ESP32-S3 Memory Map Before Blaming Firmware
 url: /posts/reading-the-esp32-s3-memory-map-before-blaming-firmware.html
-date: '2026-09-14'
+date: '2023-04-29'
 read_time: 1
 excerpt: Observed flash and PSRAM capacity define what the build and runtime can actually
   support.

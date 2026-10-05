@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Embryonic Development"
-date: '2026-10-03'
+date: '2025-10-21'
 draft: false
 language: en
 url: /posts/systems-reality-019-development-history.html

@@ -1,7 +1,7 @@
 ---
 title: Redis RDB vs AOF Is Really an RPO Decision
 url: /posts/redis-rdb-aof-durability-is-rpo/index.html
-date: '2026-09-26'
+date: '2026-07-09'
 read_time: 8
 excerpt: RDB and AOF are not just file formats. They encode how much acknowledged
   state you are willing to lose, how much persistence overhead you accept, and how

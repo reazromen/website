@@ -1,7 +1,7 @@
 ---
 title: Anonymous Monitoring Probes Do Not Prove a Human Session Is Broken
 url: /posts/anonymous-monitoring-probes-do-not-prove-human-session-broken.html
-date: '2026-09-14'
+date: '2025-02-21'
 read_time: 1
 excerpt: Synthetic health checks normally have no browser cookie, so anonymous AuthRequest
   logs can be completely healthy behavior.

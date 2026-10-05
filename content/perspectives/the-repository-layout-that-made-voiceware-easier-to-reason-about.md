@@ -1,7 +1,7 @@
 ---
 title: The Repository Layout That Made Voiceware Easier to Reason About
 url: /posts/the-repository-layout-that-made-voiceware-easier-to-reason-about.html
-date: '2026-09-18'
+date: '2024-10-11'
 read_time: 2
 excerpt: Using an apps directory for Helm packages and an argocd directory for deployment
   controllers.

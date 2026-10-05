@@ -1,7 +1,7 @@
 ---
 title: The ESP32-C6 Bridge Was a Transport Tool, Not the Radio Node
 url: /posts/lora-reticulum-c6-bridge-transport-not-radio.html
-date: '2026-09-15'
+date: '2026-05-03'
 read_time: 9
 excerpt: The USB-visible ESP32-C6 bridge made it easy to confuse the bridge MCU with
   the ESP32-S3/LR1121 radio target behind it.

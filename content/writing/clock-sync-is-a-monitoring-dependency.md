@@ -1,7 +1,7 @@
 ---
 title: Clock Synchronization Is a Monitoring Dependency
 url: /posts/clock-sync-is-a-monitoring-dependency.html
-date: '2026-09-14'
+date: '2026-03-06'
 read_time: 1
 excerpt: Logs, TLS checks, backup ages and distributed event ordering all become harder
   to trust when the host clock drifts.

@@ -1,7 +1,7 @@
 ---
 title: V115 Stayed Valuable Because It Was Preserved as a Known-Good Artifact
 url: /posts/v115-stayed-valuable-because-it-was-preserved-as-a-known-good-artifact.html
-date: '2026-09-14'
+date: '2022-01-19'
 read_time: 1
 excerpt: An old build can be more useful than a new branch when a regression removes
   the reference point.

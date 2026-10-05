@@ -1,7 +1,7 @@
 ---
 title: Factory Programming Should Produce Traceable Device Identity
 url: /posts/factory-programming-should-produce-traceable-device-identity.html
-date: '2026-09-14'
+date: '2026-05-10'
 read_time: 1
 excerpt: Flashing firmware is only one step in turning a PCB into a managed product.
 topic: loup-engineering

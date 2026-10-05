@@ -1,7 +1,7 @@
 ---
 title: 'The Biggest Voiceware Lesson: Platform Engineering Is Contract Engineering'
 url: /posts/the-biggest-voiceware-lesson-platform-engineering-is-contract-engineering.html
-date: '2026-09-18'
+date: '2023-09-28'
 read_time: 2
 excerpt: The common thread connecting ports, images, values, commands, Services, ArgoCD
   paths, and queues.

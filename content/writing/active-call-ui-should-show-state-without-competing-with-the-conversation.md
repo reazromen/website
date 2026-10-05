@@ -1,7 +1,7 @@
 ---
 title: Active Call UI Should Show State Without Competing with the Conversation
 url: /posts/active-call-ui-should-show-state-without-competing-with-the-conversation.html
-date: '2026-09-14'
+date: '2026-03-03'
 read_time: 1
 excerpt: During a call, the screen is for confirmation and control feedback rather
   than continuous content.

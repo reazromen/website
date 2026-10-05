@@ -1,7 +1,7 @@
 ---
 title: KillMode Matters When a Backup Script Spawns Child Processes
 url: /posts/killmode-matters-backup-script-child-processes.html
-date: '2026-09-14'
+date: '2022-03-02'
 read_time: 1
 excerpt: Stopping only the shell does not necessarily stop pg_dump, tar or helper
   processes that the shell launched.

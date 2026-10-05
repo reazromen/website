@@ -1,6 +1,6 @@
 ---
 title: "What Natural Selection Really Is"
-date: '2026-10-03'
+date: '2023-03-14'
 draft: false
 language: en
 url: /posts/systems-reality-041-natural-selection-mechanism.html

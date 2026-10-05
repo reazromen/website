@@ -1,7 +1,7 @@
 ---
 title: When the Caddyfile Becomes Copy-Paste Infrastructure
 url: /posts/caddyfile-too-big-import-snippets.html
-date: '2026-09-18'
+date: '2021-06-20'
 read_time: 16
 excerpt: Repeated auth, TLS and header policy drifts when every site block is cloned
   by hand.

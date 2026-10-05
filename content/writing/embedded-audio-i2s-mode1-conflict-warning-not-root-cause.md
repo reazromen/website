@@ -1,7 +1,7 @@
 ---
 title: 'When a Warning Is Not the Root Cause: The I2S Mode1 Conflict'
 url: /posts/embedded-audio-i2s-mode1-conflict-warning-not-root-cause.html
-date: '2026-09-15'
+date: '2025-09-23'
 read_time: 11
 excerpt: An I2S Mode1 conflict warning looked suspicious enough to become a candidate
   explanation for crackle.

@@ -1,7 +1,7 @@
 ---
 title: PBX Registration Health Is Not Call Health
 url: /posts/pbx-registration-health-is-not-call-health.html
-date: '2026-09-14'
+date: '2024-11-28'
 read_time: 1
 excerpt: A green registration table can coexist with broken dialog routing or media.
 topic: loup-engineering

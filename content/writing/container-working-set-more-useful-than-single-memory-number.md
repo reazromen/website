@@ -1,7 +1,7 @@
 ---
 title: Working Set Is More Useful Than a Single Memory Number
 url: /posts/container-working-set-more-useful-than-single-memory-number.html
-date: '2026-09-14'
+date: '2020-03-28'
 read_time: 1
 excerpt: Container memory graphs become noisy when cache and reclaimable pages are
   treated exactly like unreclaimable application working memory.

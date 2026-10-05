@@ -1,7 +1,7 @@
 ---
 title: Helm Render Errors Are Not Kubernetes Errors
 url: /posts/helm-render-errors-are-not-kubernetes-errors.html
-date: '2026-09-18'
+date: '2022-04-06'
 read_time: 2
 excerpt: Why nil-pointer failures should be solved before looking at pods or cluster
   networking.

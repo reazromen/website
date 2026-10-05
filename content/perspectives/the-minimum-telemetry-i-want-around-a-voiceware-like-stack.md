@@ -1,7 +1,7 @@
 ---
 title: The Minimum Telemetry I Want Around a Voiceware-Like Stack
 url: /posts/the-minimum-telemetry-i-want-around-a-voiceware-like-stack.html
-date: '2026-09-18'
+date: '2025-08-14'
 read_time: 3
 excerpt: A practical monitoring baseline derived from the workload types in the deployment
   graph.

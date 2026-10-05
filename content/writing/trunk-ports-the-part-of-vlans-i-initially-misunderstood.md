@@ -1,7 +1,7 @@
 ---
 title: 'Trunk Ports: The Part of VLANs I Initially Misunderstood'
 url: /posts/trunk-ports-the-part-of-vlans-i-initially-misunderstood.html
-date: '2026-09-14'
+date: '2020-12-08'
 read_time: 3
 excerpt: A trunk does not merge VLANs. It preserves multiple Layer 2 domains across
   one physical link by carrying VLAN identity with the frame.

@@ -1,7 +1,7 @@
 ---
 title: Battery and Signal Indicators Need Honest Granularity
 url: /posts/battery-and-signal-indicators-need-honest-granularity.html
-date: '2026-09-14'
+date: '2024-10-02'
 read_time: 1
 excerpt: Tiny icons can imply precision the underlying measurements do not actually
   support.

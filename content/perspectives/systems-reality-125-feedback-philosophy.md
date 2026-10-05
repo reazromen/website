@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Feedback"
-date: '2026-10-03'
+date: '2025-09-28'
 draft: false
 language: en
 url: /posts/systems-reality-125-feedback-philosophy.html

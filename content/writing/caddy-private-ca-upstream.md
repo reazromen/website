@@ -1,7 +1,7 @@
 ---
 title: How I Proxy from One Caddy to Another Without tls_insecure_skip_verify
 url: /posts/caddy-private-ca-upstream.html
-date: '2026-09-18'
+date: '2022-07-06'
 read_time: 17
 excerpt: Internal HTTPS between proxies is useful only when the caller can verify
   the upstream identity.

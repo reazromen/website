@@ -1,7 +1,7 @@
 ---
 title: 30-Day Retention and a 15 GB Cap Were Capacity Decisions
 url: /posts/prod-monitoring-30-day-retention-and-a-15-gb-cap-were-capacity-decisions.html
-date: '2026-09-15'
+date: '2025-02-09'
 read_time: 35
 excerpt: A production-engineering deep dive into 30-day retention and a 15 gb cap
   were capacity decisions, grounded in the 2014 Mac mini hserver observability stack

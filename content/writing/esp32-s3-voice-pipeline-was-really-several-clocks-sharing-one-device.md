@@ -1,7 +1,7 @@
 ---
 title: The ESP32-S3 Voice Pipeline Was Really Several Clocks Sharing One Device
 url: /posts/esp32-s3-voice-pipeline-was-really-several-clocks-sharing-one-device.html
-date: '2026-09-14'
+date: '2025-09-05'
 read_time: 1
 excerpt: Microphone sampling, RTP packetization, network arrival and speaker playout
   each have their own timing domain.

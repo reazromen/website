@@ -1,7 +1,7 @@
 ---
 title: Why System of a Down Songs Change Direction So Quickly
 url: /posts/why-system-of-a-down-songs-change-direction-so-quickly.html
-date: '2026-09-26'
+date: '2025-05-07'
 read_time: 5
 excerpt: Abrupt transitions as an emotional grammar rather than novelty for its own
   sake

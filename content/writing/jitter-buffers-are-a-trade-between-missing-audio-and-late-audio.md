@@ -1,7 +1,7 @@
 ---
 title: Jitter Buffers Are a Trade Between Missing Audio and Late Audio
 url: /posts/jitter-buffers-are-a-trade-between-missing-audio-and-late-audio.html
-date: '2026-09-14'
+date: '2026-04-24'
 read_time: 1
 excerpt: A larger jitter buffer can hide network variation while quietly making conversation
   worse through extra delay.

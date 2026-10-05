@@ -1,7 +1,7 @@
 ---
 title: Scrape Interval Should Match Signal Speed and Collection Cost
 url: /posts/scrape-interval-match-signal-speed-cost.html
-date: '2026-09-14'
+date: '2024-10-26'
 read_time: 1
 excerpt: CPU can change meaningfully in seconds while Docker image storage or Grafana
   process memory does not need the same fifteen-second collection cadence.

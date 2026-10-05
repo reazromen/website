@@ -1,7 +1,7 @@
 ---
 title: Running Containers Are Not Healthy Containers
 url: /posts/running-containers-are-not-healthy-containers.html
-date: '2026-09-14'
+date: '2025-03-24'
 read_time: 1
 excerpt: The Docker daemon can report a container as running even when the application
   inside it has stopped serving useful traffic.

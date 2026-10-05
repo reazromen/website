@@ -1,7 +1,7 @@
 ---
 title: Monitoring Secrets Without Monitoring Secret Values
 url: /posts/prod-monitoring-monitoring-secrets-without-monitoring-secret-values.html
-date: '2026-09-15'
+date: '2026-07-23'
 read_time: 30
 excerpt: A production-engineering deep dive into monitoring secrets without monitoring
   secret values, grounded in the 2014 Mac mini hserver observability stack and its

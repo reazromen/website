@@ -1,6 +1,6 @@
 ---
 title: রেডিও সিগন্যাল শক্ত হলেই যোগাযোগ ভালো হয় না
-date: '2026-10-02'
+date: '2026-10-03'
 draft: false
 language: bn
 url: /posts/bn-rf-strength-is-not-quality.html

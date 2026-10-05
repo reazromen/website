@@ -1,7 +1,7 @@
 ---
 title: Latency Can Break AEC Even When the Signals Are Correct
 url: /posts/latency-can-break-aec-even-when-the-signals-are-correct.html
-date: '2026-09-14'
+date: '2024-08-30'
 read_time: 1
 excerpt: A valid reference that arrives at the wrong time can be almost as useless
   as the wrong reference.

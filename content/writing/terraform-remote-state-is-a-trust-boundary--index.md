@@ -1,7 +1,7 @@
 ---
 title: terraform_remote_state Is a Trust Boundary, Not Just a Convenience
 url: /posts/terraform-remote-state-is-a-trust-boundary/index.html
-date: '2026-09-26'
+date: '2025-01-07'
 read_time: 8
 excerpt: Reading outputs from another Terraform state is convenient, but consumers
   generally need access to the full underlying state snapshot. That couples security

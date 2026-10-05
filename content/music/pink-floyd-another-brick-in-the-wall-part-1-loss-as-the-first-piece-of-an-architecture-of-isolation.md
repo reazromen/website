@@ -2,7 +2,7 @@
 title: Another Brick in the Wall, Part 1 — Loss as the First Piece of an Architecture
   of Isolation
 url: /posts/pink-floyd-another-brick-in-the-wall-part-1-loss-as-the-first-piece-of-an-architecture-of-isolation.html
-date: '2026-09-26'
+date: '2022-01-24'
 read_time: 5
 excerpt: Loss as the First Piece of an Architecture of Isolation
 topic: ''

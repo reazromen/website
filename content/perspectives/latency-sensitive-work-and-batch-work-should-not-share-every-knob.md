@@ -1,7 +1,7 @@
 ---
 title: Latency-Sensitive Work and Batch Work Should Not Share Every Knob
 url: /posts/latency-sensitive-work-and-batch-work-should-not-share-every-knob.html
-date: '2026-09-18'
+date: '2026-03-24'
 read_time: 2
 excerpt: Why the presence of audio services and background workers argues for differentiated
   scaling and monitoring.

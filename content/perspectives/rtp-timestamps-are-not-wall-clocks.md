@@ -1,7 +1,7 @@
 ---
 title: RTP Timestamps Are Not Wall Clocks
 url: /posts/rtp-timestamps-are-not-wall-clocks.html
-date: '2026-09-26'
+date: '2022-03-10'
 read_time: 10
 excerpt: A packet can arrive at 09:17:25 and carry an RTP timestamp like 2873419200.
   Those values describe different things. Confusing them is one of the fastest ways

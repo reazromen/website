@@ -1,6 +1,6 @@
 ---
 title: নদীর ইতিহাস দেখতে পয়েন্টের পরিচয় দরকার
-date: '2026-10-02'
+date: '2025-06-23'
 draft: false
 language: bn
 url: /posts/bn-river-history-point-identity.html

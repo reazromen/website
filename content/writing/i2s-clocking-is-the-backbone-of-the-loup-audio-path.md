@@ -1,7 +1,7 @@
 ---
 title: I2S Clocking Is the Backbone of the LOUP Audio Path
 url: /posts/i2s-clocking-is-the-backbone-of-the-loup-audio-path.html
-date: '2026-09-14'
+date: '2026-03-11'
 read_time: 1
 excerpt: MCLK, BCLK and LRCK have to agree before higher-level audio debugging means
   anything.

@@ -1,7 +1,7 @@
 ---
 title: Radio/Video — When a Happy Song Remembers Something Sad
 url: /posts/radio-video-when-a-happy-song-remembers-something-sad.html
-date: '2026-09-26'
+date: '2023-06-20'
 read_time: 6
 excerpt: It sounds like movement, celebration and memory all at once. The strange
   part is that the celebration never feels completely happy.

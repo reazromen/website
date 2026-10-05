@@ -1,7 +1,7 @@
 ---
 title: OTA Compatibility Is More Than a Version String
 url: /posts/ota-compatibility-more-than-version-string.html
-date: '2026-09-14'
+date: '2021-06-12'
 read_time: 1
 excerpt: A firmware artifact can be newer and still be unsafe for the target partition
   table, bootloader or hardware revision.

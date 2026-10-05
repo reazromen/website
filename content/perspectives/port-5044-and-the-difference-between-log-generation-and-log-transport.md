@@ -1,7 +1,7 @@
 ---
 title: Port 5044 and the Difference Between Log Generation and Log Transport
 url: /posts/port-5044-and-the-difference-between-log-generation-and-log-transport.html
-date: '2026-09-18'
+date: '2020-05-13'
 read_time: 2
 excerpt: Separating application logging from the system that moves or ingests those
   logs.

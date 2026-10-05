@@ -1,7 +1,7 @@
 ---
 title: DevOps Is a Relationship Between Disciplines
 url: /posts/devops-is-a-relationship-between-disciplines.html
-date: '2026-09-14'
+date: '2025-12-16'
 read_time: 1
 excerpt: DevOps works when development and operations constraints influence each other
   before deployment, not after.

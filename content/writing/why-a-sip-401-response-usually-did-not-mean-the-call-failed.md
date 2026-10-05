@@ -1,7 +1,7 @@
 ---
 title: Why a SIP 401 Response Usually Did Not Mean the Call Failed
 url: /posts/why-a-sip-401-response-usually-did-not-mean-the-call-failed.html
-date: '2026-09-14'
+date: '2025-05-30'
 read_time: 2
 excerpt: Digest authentication made much more sense once I saw 401 as part of a challenge-response
   exchange rather than a generic failure code.

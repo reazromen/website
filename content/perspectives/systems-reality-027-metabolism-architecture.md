@@ -1,6 +1,6 @@
 ---
 title: "Metabolism Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2025-05-20'
 draft: false
 language: en
 url: /posts/systems-reality-027-metabolism-architecture.html

@@ -1,7 +1,7 @@
 ---
 title: What a 30-Second TOTP Window Actually Means
 url: /posts/what-a-30-second-totp-window-actually-means.html
-date: '2026-09-14'
+date: '2022-12-19'
 read_time: 2
 excerpt: TOTP is not a random six-digit number every half minute; it is a deterministic
   moving-factor calculation with a strict verifier window.

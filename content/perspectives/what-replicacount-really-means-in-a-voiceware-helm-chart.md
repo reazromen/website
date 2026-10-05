@@ -1,7 +1,7 @@
 ---
 title: What replicaCount Really Means in a Voiceware Helm Chart
 url: /posts/what-replicacount-really-means-in-a-voiceware-helm-chart.html
-date: '2026-09-18'
+date: '2023-03-07'
 read_time: 2
 excerpt: Why a single integer represents an operational scaling decision rather than
   a cosmetic value.

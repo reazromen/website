@@ -1,7 +1,7 @@
 ---
 title: The ESL Service as an Explicit Integration Boundary
 url: /posts/the-esl-service-as-an-explicit-integration-boundary.html
-date: '2026-09-18'
+date: '2023-08-27'
 read_time: 2
 excerpt: Why I prefer to see integration adapters represented directly in the deployment
   graph.

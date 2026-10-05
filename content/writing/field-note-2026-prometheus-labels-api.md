@@ -1,7 +1,7 @@
 ---
 title: Prometheus Labels Are Part of the API
 url: /posts/field-note-2026-prometheus-labels-api.html
-date: '2026-09-18'
+date: '2026-04-02'
 read_time: 2
 excerpt: Label names and cardinality are query contracts for dashboards, recording
   rules and alerts.

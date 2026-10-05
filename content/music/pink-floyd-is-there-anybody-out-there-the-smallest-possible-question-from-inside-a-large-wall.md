@@ -2,7 +2,7 @@
 title: Is There Anybody Out There? — The Smallest Possible Question From Inside a
   Large Wall
 url: /posts/pink-floyd-is-there-anybody-out-there-the-smallest-possible-question-from-inside-a-large-wall.html
-date: '2026-09-26'
+date: '2023-01-24'
 read_time: 5
 excerpt: The Smallest Possible Question From Inside a Large Wall
 topic: ''

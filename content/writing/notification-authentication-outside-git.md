@@ -1,7 +1,7 @@
 ---
 title: Notification Authentication Belongs Outside Git
 url: /posts/notification-authentication-outside-git.html
-date: '2026-09-14'
+date: '2024-02-17'
 read_time: 1
 excerpt: Moving alert delivery to authenticated self-hosted ntfy introduced a publisher
   token that the alert-sink needs at runtime.

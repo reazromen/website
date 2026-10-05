@@ -1,6 +1,6 @@
 ---
 title: প্রকৃতিকে বাইনারিতে লিখলে প্রকৃতি বাইনারি হয়ে যায় না
-date: '2026-10-02'
+date: '2026-02-23'
 draft: false
 language: bn
 url: /posts/bn-nature-digital-model.html

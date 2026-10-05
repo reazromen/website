@@ -1,7 +1,7 @@
 ---
 title: 'My Tailscale Failure Drill for a Home Server: Name, Peer, Policy, Port, Service'
 url: /posts/tailscale-failure-drill.html
-date: '2026-09-18'
+date: '2024-07-13'
 read_time: 2
 excerpt: I troubleshoot from the network boundary inward so I do not restart a healthy
   server because one naming or authorization layer failed.

@@ -1,7 +1,7 @@
 ---
 title: A 100 Percent End-of-Line Test Needs Traceability, Not Just a Green LED
 url: /posts/pcb-bringup-eol-test-needs-traceability.html
-date: '2026-09-15'
+date: '2024-08-28'
 read_time: 9
 excerpt: A factory test that says PASS without linking the result to a specific unit,
   programmed identity and relevant component history is weak forensic evidence.

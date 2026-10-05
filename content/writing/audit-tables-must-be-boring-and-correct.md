@@ -1,7 +1,7 @@
 ---
 title: Audit Tables Must Be Boring and Correct
 url: /posts/audit-tables-must-be-boring-and-correct.html
-date: '2026-09-14'
+date: '2023-03-22'
 read_time: 1
 excerpt: An audit trail is only useful if its schema is simpler and more dependable
   than the systems it records.

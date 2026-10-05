@@ -1,6 +1,6 @@
 ---
 title: স্যাটেলাইটের একটা পিক্সেল মাঠের একটা ঘটনা না
-date: '2026-10-02'
+date: '2021-06-12'
 draft: false
 language: bn
 url: /posts/bn-satellite-pixel-local-event.html

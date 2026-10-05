@@ -1,7 +1,7 @@
 ---
 title: A Fresh Backup Can Still Be Corrupt
 url: /posts/prod-monitoring-a-fresh-backup-can-still-be-corrupt.html
-date: '2026-09-15'
+date: '2026-06-26'
 read_time: 33
 excerpt: A production-engineering deep dive into a fresh backup can still be corrupt,
   grounded in the 2014 Mac mini hserver observability stack and its accepted runtime

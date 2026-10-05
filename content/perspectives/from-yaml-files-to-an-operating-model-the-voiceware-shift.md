@@ -1,7 +1,7 @@
 ---
 title: 'From YAML Files to an Operating Model: The Voiceware Shift'
 url: /posts/from-yaml-files-to-an-operating-model-the-voiceware-shift.html
-date: '2026-09-18'
+date: '2022-06-09'
 read_time: 2
 excerpt: The broader change from manually thinking about containers to thinking about
   desired state, reconciliation, and service responsibility.

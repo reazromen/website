@@ -1,6 +1,6 @@
 ---
 title: যা মাপছি তা পুরো সিস্টেম না
-date: '2026-10-02'
+date: '2022-12-31'
 draft: false
 language: bn
 url: /posts/bn-observation-is-model.html

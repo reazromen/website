@@ -1,7 +1,7 @@
 ---
 title: ES8311 and ES7210 Split the Audio Problem in Two
 url: /posts/es8311-and-es7210-split-the-audio-problem-in-two.html
-date: '2026-09-14'
+date: '2025-06-21'
 read_time: 1
 excerpt: Speaker output and microphone capture travel through different codec responsibilities.
 topic: loup-engineering

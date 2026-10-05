@@ -1,7 +1,7 @@
 ---
 title: Why System of a Down's Absurdity Still Feels Serious
 url: /posts/why-system-of-a-downs-absurdity-still-feels-serious.html
-date: '2026-09-26'
+date: '2025-06-07'
 read_time: 5
 excerpt: The difference between nonsense used to escape meaning and nonsense used
   to expose it

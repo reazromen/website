@@ -1,7 +1,7 @@
 ---
 title: Signed Firmware Changed OTA from File Delivery into a Trust Decision
 url: /posts/signed-firmware-changed-ota-from-file-delivery-into-a-trust-decision.html
-date: '2026-09-14'
+date: '2025-09-17'
 read_time: 1
 excerpt: A device should decide whether firmware is authorized, not merely whether
   the download completed successfully.

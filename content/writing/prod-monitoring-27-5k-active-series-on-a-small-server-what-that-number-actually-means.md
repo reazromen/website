@@ -1,7 +1,7 @@
 ---
 title: '27.5k Active Series on a Small Server: What That Number Actually Means'
 url: /posts/prod-monitoring-27-5k-active-series-on-a-small-server-what-that-number-actually-means.html
-date: '2026-09-15'
+date: '2023-02-09'
 read_time: 36
 excerpt: 'A production-engineering deep dive into 27.5k active series on a small server:
   what that number actually means, grounded in the 2014 Mac mini hserver observability

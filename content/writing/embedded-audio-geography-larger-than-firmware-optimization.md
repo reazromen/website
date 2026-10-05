@@ -1,7 +1,7 @@
 ---
 title: The Geography Was Larger Than the Firmware Optimization
 url: /posts/embedded-audio-geography-larger-than-firmware-optimization.html
-date: '2026-09-15'
+date: '2025-10-02'
 read_time: 13
 excerpt: Engineering time was being spent chasing tens of milliseconds in firmware
   while the media route crossed Bangladesh and Ohio twice.

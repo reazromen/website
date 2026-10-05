@@ -1,7 +1,7 @@
 ---
 title: Burning Bridges — Letting Go Before You Know What Comes Next
 url: /posts/pink-floyd-burning-bridges-letting-go-before-you-know-what-comes-next.html
-date: '2026-09-26'
+date: '2023-06-23'
 read_time: 5
 excerpt: Letting Go Before You Know What Comes Next
 topic: ''

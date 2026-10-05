@@ -1,7 +1,7 @@
 ---
 title: Local DNS Failure Can Look Like a Dead Server
 url: /posts/field-note-2026-dns-failure-dead-server.html
-date: '2026-09-18'
+date: '2026-09-20'
 read_time: 2
 excerpt: Test the known address before rebooting a host just because its name stopped
   resolving.

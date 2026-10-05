@@ -1,7 +1,7 @@
 ---
 title: SSH Access Is Infrastructure, Not a Deployment Step
 url: /posts/field-note-2026-ssh-is-infrastructure.html
-date: '2026-09-18'
+date: '2026-05-01'
 read_time: 2
 excerpt: Remote deployment is unreliable when host identity, user and access policy
   are rediscovered every time.

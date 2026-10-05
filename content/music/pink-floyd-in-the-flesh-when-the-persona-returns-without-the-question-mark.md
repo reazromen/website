@@ -1,7 +1,7 @@
 ---
 title: In the Flesh — When the Persona Returns Without the Question Mark
 url: /posts/pink-floyd-in-the-flesh-when-the-persona-returns-without-the-question-mark.html
-date: '2026-09-26'
+date: '2025-07-23'
 read_time: 5
 excerpt: When the Persona Returns Without the Question Mark
 topic: ''

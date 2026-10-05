@@ -1,7 +1,7 @@
 ---
 title: Dead-Man Monitoring Should Not Need a Credential from the Dead System
 url: /posts/prod-monitoring-dead-man-monitoring-should-not-need-a-credential-from-the-dead-system.html
-date: '2026-09-15'
+date: '2025-02-18'
 read_time: 33
 excerpt: A production-engineering deep dive into dead-man monitoring should not need
   a credential from the dead system, grounded in the 2014 Mac mini hserver observability

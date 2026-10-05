@@ -1,6 +1,6 @@
 ---
 title: "Intelligence Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2021-02-01'
 draft: false
 language: en
 url: /posts/systems-reality-092-intelligence-architecture.html

@@ -1,7 +1,7 @@
 ---
 title: Pin Maps Belong in the Bring-Up Evidence
 url: /posts/pin-maps-belong-in-the-bring-up-evidence.html
-date: '2026-09-14'
+date: '2026-09-21'
 read_time: 1
 excerpt: One wrong GPIO can imitate a codec, driver or clocking failure.
 topic: loup-engineering

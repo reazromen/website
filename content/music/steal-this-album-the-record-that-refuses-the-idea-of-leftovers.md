@@ -1,7 +1,7 @@
 ---
 title: Steal This Album! — The Record That Refuses the Idea of Leftovers
 url: /posts/steal-this-album-the-record-that-refuses-the-idea-of-leftovers.html
-date: '2026-09-26'
+date: '2021-05-30'
 read_time: 5
 excerpt: Why material outside a conventional album cycle can still form a coherent
   statement

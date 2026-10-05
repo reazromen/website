@@ -1,7 +1,7 @@
 ---
 title: Authelia Authentication Failures Need Context, Not Panic
 url: /posts/authelia-auth-failures-need-context.html
-date: '2026-09-14'
+date: '2022-09-01'
 read_time: 1
 excerpt: A two-factor login system naturally records failed credentials, expired sessions
   and rejected access, so any single failure is not automatically an attack.

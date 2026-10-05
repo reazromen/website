@@ -1,7 +1,7 @@
 ---
 title: Metric Relabeling Can Be a Memory Optimization
 url: /posts/metric-relabeling-memory-optimization.html
-date: '2026-09-14'
+date: '2020-10-31'
 read_time: 1
 excerpt: Grafana, Loki and Alloy expose many internal metrics that are useful for
   development but unnecessary on a small production Prometheus.

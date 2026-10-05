@@ -1,7 +1,7 @@
 ---
 title: My ESP32 Wi-Fi Lab Started with Reconnects, Not Features
 url: /posts/my-esp32-wifi-lab-started-with-reconnects-not-features.html
-date: '2026-09-14'
+date: '2023-01-22'
 read_time: 1
 excerpt: An embedded network client is only useful if it survives AP loss, DHCP renewal
   and reconnect loops without wedging the application.

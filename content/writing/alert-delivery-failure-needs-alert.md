@@ -1,7 +1,7 @@
 ---
 title: Alert Delivery Failure Needs an Alert of Its Own
 url: /posts/alert-delivery-failure-needs-alert.html
-date: '2026-09-14'
+date: '2021-05-19'
 read_time: 1
 excerpt: A monitoring system that detects failures but cannot notify anyone is partially
   failed even if every Prometheus target remains green.

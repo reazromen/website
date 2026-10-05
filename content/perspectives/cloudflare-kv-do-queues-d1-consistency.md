@@ -2,7 +2,7 @@
 title: Cloudflare KV, Durable Objects, Queues, and D1 Fail Differently Because Their
   Consistency Models Differ
 url: /posts/cloudflare-kv-do-queues-d1-consistency.html
-date: '2026-09-26'
+date: '2020-06-02'
 read_time: 9
 excerpt: A lost counter, duplicate job, stale read, or runaway write bill is usually
   not 'a Cloudflare bug.' Each storage primitive makes different consistency and delivery

@@ -1,7 +1,7 @@
 ---
 title: Internal CA Trust Is an Operator Onboarding Problem
 url: /posts/internal-ca-trust-operator-onboarding-problem.html
-date: '2026-09-14'
+date: '2026-07-01'
 read_time: 1
 excerpt: A valid internal TLS certificate is still unusable on a new operator device
   until its trust root is installed correctly.

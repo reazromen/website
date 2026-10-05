@@ -1,7 +1,7 @@
 ---
 title: An INVITE Is Only the Start of the Call Contract
 url: /posts/an-invite-is-only-the-start-of-the-call-contract.html
-date: '2026-09-14'
+date: '2024-07-25'
 read_time: 1
 excerpt: Call setup includes dialog state, SDP negotiation and route continuity after
   the first request.

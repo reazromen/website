@@ -1,7 +1,7 @@
 ---
 title: CPRI and eCPRI Made the RAN Transport Boundary Much Clearer
 url: /posts/cpri-and-ecpri-made-the-ran-transport-boundary-much-clearer.html
-date: '2026-09-14'
+date: '2022-09-13'
 read_time: 1
 excerpt: The move from digitized radio samples toward packetized fronthaul explains
   a lot about modern RAN architecture.

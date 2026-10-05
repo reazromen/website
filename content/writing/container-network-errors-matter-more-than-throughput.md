@@ -1,7 +1,7 @@
 ---
 title: Container Network Errors Matter More Than Throughput Alone
 url: /posts/container-network-errors-matter-more-than-throughput.html
-date: '2026-09-14'
+date: '2020-05-25'
 read_time: 1
 excerpt: RX and TX graphs looked busy enough, but throughput by itself could not tell
   whether traffic was healthy.

@@ -1,7 +1,7 @@
 ---
 title: SIP Registration Success Does Not Mean Calls Will Work
 url: /posts/field-note-2026-sip-registration-not-readiness.html
-date: '2026-09-18'
+date: '2026-02-02'
 read_time: 2
 excerpt: REGISTER proves one control-plane exchange; it does not prove two-way media,
   codecs or call-state behavior.

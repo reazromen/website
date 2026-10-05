@@ -1,6 +1,6 @@
 ---
 title: "Ecosystems Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2026-05-31'
 draft: false
 language: en
 url: /posts/systems-reality-162-ecosystems-architecture.html

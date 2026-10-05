@@ -1,7 +1,7 @@
 ---
 title: Reticulum and RNode Made LoRa Feel More Like Networking Than Radio Demos
 url: /posts/reticulum-and-rnode-made-lora-feel-more-like-networking-than-radio-demos.html
-date: '2026-09-14'
+date: '2022-10-20'
 read_time: 1
 excerpt: Once identity, addressing and transport were layered over LoRa, the experiment
   stopped being just two radios sending bytes.

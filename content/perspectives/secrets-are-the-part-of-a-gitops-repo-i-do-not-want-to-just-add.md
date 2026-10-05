@@ -1,7 +1,7 @@
 ---
 title: Secrets Are the Part of a GitOps Repo I Do Not Want to “Just Add”
 url: /posts/secrets-are-the-part-of-a-gitops-repo-i-do-not-want-to-just-add.html
-date: '2026-09-18'
+date: '2024-09-23'
 read_time: 2
 excerpt: How to think about credentials when application manifests are intentionally
   stored in Git.

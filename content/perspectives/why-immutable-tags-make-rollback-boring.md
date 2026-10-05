@@ -1,7 +1,7 @@
 ---
 title: Why Immutable Tags Make Rollback Boring
 url: /posts/why-immutable-tags-make-rollback-boring.html
-date: '2026-09-18'
+date: '2023-08-01'
 read_time: 2
 excerpt: How precise image identity simplifies GitOps recovery.
 topic: voiceware-engineering

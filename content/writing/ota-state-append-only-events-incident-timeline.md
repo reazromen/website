@@ -1,7 +1,7 @@
 ---
 title: Append-Only OTA Events Are the Fleet’s Incident Timeline
 url: /posts/ota-state-append-only-events-incident-timeline.html
-date: '2026-09-15'
+date: '2024-08-19'
 read_time: 8
 excerpt: Heartbeat snapshots alone could not reconstruct the sequence of download,
   validation, rollback and operator actions during a failed rollout.

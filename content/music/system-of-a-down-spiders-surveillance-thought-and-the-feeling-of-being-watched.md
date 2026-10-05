@@ -1,7 +1,7 @@
 ---
 title: Spiders — Surveillance, Thought, and the Feeling of Being Watched
 url: /posts/system-of-a-down-spiders-surveillance-thought-and-the-feeling-of-being-watched.html
-date: '2026-09-26'
+date: '2026-08-02'
 read_time: 5
 excerpt: Surveillance, Thought, and the Feeling of Being Watched
 topic: ''

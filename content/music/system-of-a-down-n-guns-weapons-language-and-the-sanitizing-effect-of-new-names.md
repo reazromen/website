@@ -1,7 +1,7 @@
 ---
 title: Nüguns — Weapons, Language, and the Sanitizing Effect of New Names
 url: /posts/system-of-a-down-n-guns-weapons-language-and-the-sanitizing-effect-of-new-names.html
-date: '2026-09-26'
+date: '2024-11-23'
 read_time: 5
 excerpt: Weapons, Language, and the Sanitizing Effect of New Names
 topic: ''

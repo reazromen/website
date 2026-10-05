@@ -1,7 +1,7 @@
 ---
 title: Database Size Growth Is a Capacity Trend, Not an Emergency Metric
 url: /posts/database-size-growth-capacity-trend.html
-date: '2026-09-14'
+date: '2025-02-01'
 read_time: 1
 excerpt: A database normally grows, so alerting on size alone would create noise while
   ignoring the important question of growth rate and disk headroom.

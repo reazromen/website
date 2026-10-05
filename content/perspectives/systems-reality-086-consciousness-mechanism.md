@@ -1,6 +1,6 @@
 ---
 title: "What Consciousness Really Is"
-date: '2026-10-03'
+date: '2024-10-28'
 draft: false
 language: en
 url: /posts/systems-reality-086-consciousness-mechanism.html

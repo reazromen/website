@@ -1,7 +1,7 @@
 ---
 title: A Newer Binary Does Not Mean a Device Should Update
 url: /posts/ota-state-newer-binary-not-update-decision.html
-date: '2026-09-15'
+date: '2023-07-22'
 read_time: 7
 excerpt: Simply placing a newer firmware file on the server risked turning storage
   into rollout policy.

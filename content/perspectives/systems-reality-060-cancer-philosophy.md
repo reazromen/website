@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Cancer as a Systems Failure"
-date: '2026-10-03'
+date: '2024-02-12'
 draft: false
 language: en
 url: /posts/systems-reality-060-cancer-philosophy.html

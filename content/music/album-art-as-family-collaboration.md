@@ -1,7 +1,7 @@
 ---
 title: Album Art as Family Collaboration
 url: /posts/album-art-as-family-collaboration.html
-date: '2026-09-26'
+date: '2020-03-16'
 read_time: 5
 excerpt: The significance of Vartan Malakian's artwork framing two albums made in
   the same creative period

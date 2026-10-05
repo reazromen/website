@@ -1,7 +1,7 @@
 ---
 title: Echo at High Volume Is Partly an Acoustic Design Problem
 url: /posts/echo-at-high-volume-is-partly-an-acoustic-design-problem.html
-date: '2026-09-14'
+date: '2022-02-07'
 read_time: 1
 excerpt: AEC has finite cancellation authority when the speaker physically couples
   strongly into the microphones.

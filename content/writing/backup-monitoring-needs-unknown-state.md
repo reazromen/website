@@ -1,7 +1,7 @@
 ---
 title: Backup Monitoring Needs UNKNOWN as a Real State
 url: /posts/backup-monitoring-needs-unknown-state.html
-date: '2026-09-14'
+date: '2025-07-20'
 read_time: 1
 excerpt: Least-privilege monitoring sometimes cannot read protected backup evidence,
   and treating that access failure as healthy would be dangerous.

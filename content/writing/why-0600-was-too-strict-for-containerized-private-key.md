@@ -1,7 +1,7 @@
 ---
 title: Why 0600 Was Too Strict for a Containerized Private Key
 url: /posts/why-0600-was-too-strict-for-containerized-private-key.html
-date: '2026-09-14'
+date: '2025-08-16'
 read_time: 1
 excerpt: The strictest-looking file mode is not automatically the safest usable mode
   when a non-root service must read the key.

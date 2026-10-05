@@ -1,7 +1,7 @@
 ---
 title: 'X — Compression: How Very Little Time Can Still Carry an Argument'
 url: /posts/system-of-a-down-x-compression-how-very-little-time-can-still-carry-an-argument.html
-date: '2026-09-26'
+date: '2024-03-23'
 read_time: 5
 excerpt: 'Compression: How Very Little Time Can Still Carry an Argument'
 topic: ''

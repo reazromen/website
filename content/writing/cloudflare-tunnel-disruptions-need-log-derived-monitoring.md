@@ -1,7 +1,7 @@
 ---
 title: Cloudflare Tunnel Disruptions Need Log-Derived Monitoring
 url: /posts/cloudflare-tunnel-disruptions-need-log-derived-monitoring.html
-date: '2026-09-14'
+date: '2024-03-29'
 read_time: 1
 excerpt: An external endpoint can flap because the tunnel reconnects even when the
   local service and LAN probe remain healthy.

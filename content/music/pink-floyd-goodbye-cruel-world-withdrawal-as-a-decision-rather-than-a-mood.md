@@ -1,7 +1,7 @@
 ---
 title: Goodbye Cruel World — Withdrawal as a Decision Rather Than a Mood
 url: /posts/pink-floyd-goodbye-cruel-world-withdrawal-as-a-decision-rather-than-a-mood.html
-date: '2026-09-26'
+date: '2024-08-18'
 read_time: 5
 excerpt: Withdrawal as a Decision Rather Than a Mood
 topic: ''

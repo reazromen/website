@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See The Brain"
-date: '2026-10-03'
+date: '2025-03-02'
 draft: false
 language: en
 url: /posts/systems-reality-079-brain-history.html

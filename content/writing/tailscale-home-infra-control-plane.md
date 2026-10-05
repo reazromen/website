@@ -1,7 +1,7 @@
 ---
 title: Why Tailscale Became the Control Plane for My Home Infrastructure
 url: /posts/tailscale-home-infra-control-plane.html
-date: '2026-09-18'
+date: '2025-03-20'
 read_time: 2
 excerpt: I do not use Tailscale as a generic VPN. I use it as the stable identity
   and reachability layer between my laptop, desktop and home server.

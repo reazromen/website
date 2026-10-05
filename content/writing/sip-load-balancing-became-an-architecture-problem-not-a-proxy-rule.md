@@ -1,7 +1,7 @@
 ---
 title: SIP Load Balancing Became an Architecture Problem, Not a Proxy Rule
 url: /posts/sip-load-balancing-became-an-architecture-problem-not-a-proxy-rule.html
-date: '2026-09-14'
+date: '2026-08-13'
 read_time: 1
 excerpt: Once dialog state, media anchoring and backend health mattered, forwarding
   INVITEs round-robin was the easy part.

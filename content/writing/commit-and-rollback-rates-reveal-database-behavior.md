@@ -1,7 +1,7 @@
 ---
 title: Commit and Rollback Rates Reveal Database Behavior
 url: /posts/commit-and-rollback-rates-reveal-database-behavior.html
-date: '2026-09-14'
+date: '2025-03-14'
 read_time: 1
 excerpt: Database traffic volume looked normal even when applications were rolling
   back more transactions than usual.

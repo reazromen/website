@@ -1,7 +1,7 @@
 ---
 title: In the Flesh? — Performance, Identity, and the Question Mark After the Persona
 url: /posts/pink-floyd-in-the-flesh-performance-identity-and-the-question-mark-after-the-persona.html
-date: '2026-09-26'
+date: '2023-11-23'
 read_time: 5
 excerpt: Performance, Identity, and the Question Mark After the Persona
 topic: ''

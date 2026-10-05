@@ -1,7 +1,7 @@
 ---
 title: Young Lust — Desire Used as a Distraction From Isolation
 url: /posts/pink-floyd-young-lust-desire-used-as-a-distraction-from-isolation.html
-date: '2026-09-26'
+date: '2022-04-11'
 read_time: 5
 excerpt: Desire Used as a Distraction From Isolation
 topic: ''

@@ -1,7 +1,7 @@
 ---
 title: Why the First Voiceware Web Service Used ClusterIP
 url: /posts/why-the-first-voiceware-web-service-used-clusterip.html
-date: '2026-09-18'
+date: '2026-04-03'
 read_time: 2
 excerpt: Why internal reachability was the safer default during the first deployment
   slice.

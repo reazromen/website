@@ -1,7 +1,7 @@
 ---
 title: The pbx Application Name Inside the Celery Command Is an Architecture Clue
 url: /posts/the-pbx-application-name-inside-the-celery-command-is-an-architecture-clue.html
-date: '2026-09-18'
+date: '2025-09-03'
 read_time: 1
 excerpt: What process entrypoints reveal about how telephony logic and background
   work connect.

@@ -1,6 +1,6 @@
 ---
 title: সিরিয়াল লগও প্রসেসরের কাছে একটা কাজ
-date: '2026-10-02'
+date: '2024-12-19'
 draft: false
 language: bn
 url: /posts/bn-serial-log-realtime-cost.html

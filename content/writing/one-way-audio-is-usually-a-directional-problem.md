@@ -1,7 +1,7 @@
 ---
 title: One-Way Audio Is Usually a Directional Problem
 url: /posts/one-way-audio-is-usually-a-directional-problem.html
-date: '2026-09-14'
+date: '2023-10-05'
 read_time: 1
 excerpt: If one side hears audio, several parts of the media path are already proven.
 topic: loup-engineering

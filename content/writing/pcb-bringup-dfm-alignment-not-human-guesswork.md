@@ -1,7 +1,7 @@
 ---
 title: DFM Means Alignment Cannot Depend on Human Guesswork
 url: /posts/pcb-bringup-dfm-alignment-not-human-guesswork.html
-date: '2026-09-15'
+date: '2026-05-19'
 read_time: 9
 excerpt: A prototype can be assembled carefully by an engineer even when its geometry
   is too ambiguous for repeatable production.

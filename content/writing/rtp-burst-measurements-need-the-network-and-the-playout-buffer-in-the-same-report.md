@@ -2,7 +2,7 @@
 title: RTP Burst Measurements Need the Network and the Playout Buffer in the Same
   Report
 url: /posts/rtp-burst-measurements-need-the-network-and-the-playout-buffer-in-the-same-report.html
-date: '2026-09-14'
+date: '2025-01-08'
 read_time: 1
 excerpt: Packet timing only becomes actionable when it is tied to endpoint tolerance.
 topic: loup-engineering

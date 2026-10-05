@@ -1,7 +1,7 @@
 ---
 title: The containerd Image-Path Bug That Looked Bigger Than It Was
 url: /posts/the-containerd-image-path-bug-that-looked-bigger-than-it-was.html
-date: '2026-09-18'
+date: '2025-05-21'
 read_time: 1
 excerpt: Why image naming semantics matter when moving from local Docker assumptions
   into Kubernetes.

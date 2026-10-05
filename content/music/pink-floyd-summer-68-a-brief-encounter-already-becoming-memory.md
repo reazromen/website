@@ -1,7 +1,7 @@
 ---
 title: Summer '68 — A Brief Encounter Already Becoming Memory
 url: /posts/pink-floyd-summer-68-a-brief-encounter-already-becoming-memory.html
-date: '2026-09-26'
+date: '2025-11-28'
 read_time: 5
 excerpt: A Brief Encounter Already Becoming Memory
 topic: ''

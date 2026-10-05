@@ -2,7 +2,7 @@
 title: Disabling One Metric Family Can Be Better Than Tuning the Whole Monitoring
   Stack
 url: /posts/disable-one-expensive-metric-family-before-tuning-everything.html
-date: '2026-09-14'
+date: '2025-02-08'
 read_time: 1
 excerpt: The fastest observability optimization came from identifying one costly collector
   instead of globally lowering fidelity.

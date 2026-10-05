@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Memory"
-date: '2026-10-03'
+date: '2021-03-25'
 draft: false
 language: en
 url: /posts/systems-reality-085-memory-philosophy.html

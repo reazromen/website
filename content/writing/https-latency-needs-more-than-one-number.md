@@ -1,7 +1,7 @@
 ---
 title: HTTPS Latency Needs More Than One Number
 url: /posts/https-latency-needs-more-than-one-number.html
-date: '2026-09-14'
+date: '2025-11-22'
 read_time: 1
 excerpt: A single total probe duration hides whether slowness came from name resolution,
   TCP connection, TLS negotiation or server response.

@@ -1,7 +1,7 @@
 ---
 title: Machine APIs Need Machine Credentials, Not Browser Redirects
 url: /posts/machine-apis-need-machine-credentials-not-browser-redirects.html
-date: '2026-09-14'
+date: '2025-03-28'
 read_time: 1
 excerpt: A firmware client cannot solve an interactive login flow, and treating the
   redirect as success hides the real authentication failure.

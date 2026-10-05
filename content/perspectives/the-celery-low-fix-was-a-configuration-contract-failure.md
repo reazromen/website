@@ -1,7 +1,7 @@
 ---
 title: The celery-low Fix Was a Configuration-Contract Failure
 url: /posts/the-celery-low-fix-was-a-configuration-contract-failure.html
-date: '2026-09-18'
+date: '2024-09-24'
 read_time: 1
 excerpt: Connecting missing type, missing service port, and command fixes into one
   root lesson.

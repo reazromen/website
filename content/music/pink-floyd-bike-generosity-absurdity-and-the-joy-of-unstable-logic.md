@@ -1,7 +1,7 @@
 ---
 title: Bike — Generosity, Absurdity, and the Joy of Unstable Logic
 url: /posts/pink-floyd-bike-generosity-absurdity-and-the-joy-of-unstable-logic.html
-date: '2026-09-26'
+date: '2024-02-08'
 read_time: 5
 excerpt: Generosity, Absurdity, and the Joy of Unstable Logic
 topic: ''

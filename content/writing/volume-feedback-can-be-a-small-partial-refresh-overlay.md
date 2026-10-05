@@ -1,7 +1,7 @@
 ---
 title: Volume Feedback Can Be a Small Partial-Refresh Overlay
 url: /posts/volume-feedback-can-be-a-small-partial-refresh-overlay.html
-date: '2026-09-14'
+date: '2025-03-07'
 read_time: 1
 excerpt: A physical button needs visible confirmation without forcing a page transition.
 topic: loup-engineering

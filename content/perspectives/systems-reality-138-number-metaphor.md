@@ -1,6 +1,6 @@
 ---
 title: "Where the universal identifier Analogy Breaks"
-date: '2026-10-03'
+date: '2023-06-10'
 draft: false
 language: en
 url: /posts/systems-reality-138-number-metaphor.html

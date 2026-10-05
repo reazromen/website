@@ -1,7 +1,7 @@
 ---
 title: Prometheus Is My Metrics Control Plane, Not Just a Scraper
 url: /posts/prod-monitoring-prometheus-is-my-metrics-control-plane-not-just-a-scraper.html
-date: '2026-09-15'
+date: '2023-02-17'
 read_time: 34
 excerpt: A production-engineering deep dive into prometheus is my metrics control
   plane, not just a scraper, grounded in the 2014 Mac mini hserver observability stack

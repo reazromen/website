@@ -1,7 +1,7 @@
 ---
 title: 'eBPF/XDP: The Verifier Passing Does Not Mean Your Network Program Is Safe'
 url: /posts/ebpf-xdp-verifier-operational-safety.html
-date: '2026-09-26'
+date: '2022-08-05'
 read_time: 8
 excerpt: The verifier proves classes of memory and control-flow safety. It does not
   prove that returning the wrong XDP action, updating the wrong map, or attaching

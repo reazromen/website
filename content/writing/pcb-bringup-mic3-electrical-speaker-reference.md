@@ -1,7 +1,7 @@
 ---
 title: MIC3 Was an Electrical Speaker Reference, Not Just Another Microphone
 url: /posts/pcb-bringup-mic3-electrical-speaker-reference.html
-date: '2026-09-15'
+date: '2021-07-10'
 read_time: 9
 excerpt: AEC debugging initially suffered because the channel expected to carry a
   far-end reference appeared almost dead.

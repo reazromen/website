@@ -1,6 +1,6 @@
 ---
 title: "The Microbiome Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2025-01-30'
 draft: false
 language: en
 url: /posts/systems-reality-067-microbiome-architecture.html

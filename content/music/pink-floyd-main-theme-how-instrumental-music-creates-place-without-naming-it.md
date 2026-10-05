@@ -1,7 +1,7 @@
 ---
 title: Main Theme — How Instrumental Music Creates Place Without Naming It
 url: /posts/pink-floyd-main-theme-how-instrumental-music-creates-place-without-naming-it.html
-date: '2026-09-26'
+date: '2026-01-19'
 read_time: 5
 excerpt: How Instrumental Music Creates Place Without Naming It
 topic: ''

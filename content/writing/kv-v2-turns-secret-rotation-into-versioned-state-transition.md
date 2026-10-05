@@ -1,7 +1,7 @@
 ---
 title: KV v2 Turns Secret Rotation into a Versioned State Transition
 url: /posts/kv-v2-turns-secret-rotation-into-versioned-state-transition.html
-date: '2026-09-14'
+date: '2025-08-11'
 read_time: 1
 excerpt: Keeping versions makes rotation and rollback explicit instead of overwriting
   the only known credential value.

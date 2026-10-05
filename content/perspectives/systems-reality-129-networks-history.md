@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Networks"
-date: '2026-10-03'
+date: '2023-10-15'
 draft: false
 language: en
 url: /posts/systems-reality-129-networks-history.html

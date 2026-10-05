@@ -1,6 +1,6 @@
 ---
 title: সিস্টেম অব আ ডাউনের পরিবর্তনে নিয়ম খোঁজা
-date: '2026-10-02'
+date: '2025-06-26'
 draft: false
 language: bn
 url: /posts/bn-music-soad-contrast-grammar.html

@@ -1,6 +1,6 @@
 ---
 title: "Feedback Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2024-02-10'
 draft: false
 language: en
 url: /posts/systems-reality-122-feedback-architecture.html

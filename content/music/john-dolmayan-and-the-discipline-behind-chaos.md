@@ -1,7 +1,7 @@
 ---
 title: John Dolmayan and the Discipline Behind Chaos
 url: /posts/john-dolmayan-and-the-discipline-behind-chaos.html
-date: '2026-09-26'
+date: '2021-07-31'
 read_time: 5
 excerpt: Why music that sounds unstable still depends on precise rhythmic control
 topic: ''

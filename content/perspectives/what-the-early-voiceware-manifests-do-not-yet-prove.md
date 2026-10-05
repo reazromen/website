@@ -1,7 +1,7 @@
 ---
 title: What the Early Voiceware Manifests Do Not Yet Prove
 url: /posts/what-the-early-voiceware-manifests-do-not-yet-prove.html
-date: '2026-09-18'
+date: '2024-04-02'
 read_time: 2
 excerpt: Being precise about the difference between a working deployment model and
   production hardening.

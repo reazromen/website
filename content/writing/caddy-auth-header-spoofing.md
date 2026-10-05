@@ -1,7 +1,7 @@
 ---
 title: Do Not Trust a User Identity Header Just Because Caddy Forwarded It
 url: /posts/caddy-auth-header-spoofing.html
-date: '2026-09-18'
+date: '2023-04-25'
 read_time: 17
 excerpt: Identity headers are safe only when clients cannot inject equivalent values
   around the auth boundary.

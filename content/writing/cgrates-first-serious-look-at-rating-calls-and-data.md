@@ -1,7 +1,7 @@
 ---
 title: CGrates Was My First Serious Look at Rating Calls and Data Sessions
 url: /posts/cgrates-first-serious-look-at-rating-calls-and-data.html
-date: '2026-09-14'
+date: '2025-05-18'
 read_time: 2
 excerpt: Rating made telecom architecture feel less like packet forwarding and more
   like a business system where usage events, balances and policy all have to agree.

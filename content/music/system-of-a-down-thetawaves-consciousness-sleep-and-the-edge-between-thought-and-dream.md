@@ -1,7 +1,7 @@
 ---
 title: Thetawaves — Consciousness, Sleep, and the Edge Between Thought and Dream
 url: /posts/system-of-a-down-thetawaves-consciousness-sleep-and-the-edge-between-thought-and-dream.html
-date: '2026-09-26'
+date: '2021-11-11'
 read_time: 5
 excerpt: Consciousness, Sleep, and the Edge Between Thought and Dream
 topic: ''

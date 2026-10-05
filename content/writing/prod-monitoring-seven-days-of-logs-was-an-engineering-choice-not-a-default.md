@@ -1,7 +1,7 @@
 ---
 title: Seven Days of Logs Was an Engineering Choice, Not a Default
 url: /posts/prod-monitoring-seven-days-of-logs-was-an-engineering-choice-not-a-default.html
-date: '2026-09-15'
+date: '2024-10-16'
 read_time: 35
 excerpt: A production-engineering deep dive into seven days of logs was an engineering
   choice, not a default, grounded in the 2014 Mac mini hserver observability stack

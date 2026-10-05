@@ -1,7 +1,7 @@
 ---
 title: GraphRAG Is Useful When the Question Is About Relationships, Not Similarity
 url: /posts/graphrag-relationships-not-similarity.html
-date: '2026-09-26'
+date: '2023-12-14'
 read_time: 9
 excerpt: Vector retrieval is excellent when the answer lives near semantically similar
   text. Graph-oriented retrieval earns its cost when the answer depends on relationships,

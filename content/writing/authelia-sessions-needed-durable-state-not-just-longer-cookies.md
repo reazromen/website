@@ -1,7 +1,7 @@
 ---
 title: Authelia Sessions Needed Durable State, Not Just Longer Cookies
 url: /posts/authelia-sessions-needed-durable-state-not-just-longer-cookies.html
-date: '2026-09-14'
+date: '2023-11-14'
 read_time: 1
 excerpt: A longer browser cookie does not help if the server forgets the session behind
   it.

@@ -1,7 +1,7 @@
 ---
 title: Scaling from a Lab Pair to a Reticulum Mesh Changes the Acceptance Test
 url: /posts/lora-reticulum-lab-pair-to-reticulum-mesh.html
-date: '2026-09-15'
+date: '2026-01-04'
 read_time: 9
 excerpt: A successful point-to-point packet is necessary but insufficient evidence
   for a useful multi-node transport network.

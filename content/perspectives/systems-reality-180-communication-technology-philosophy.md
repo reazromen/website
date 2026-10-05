@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Communication Technology"
-date: '2026-10-03'
+date: '2026-02-16'
 draft: false
 language: en
 url: /posts/systems-reality-180-communication-technology-philosophy.html

@@ -1,7 +1,7 @@
 ---
 title: systemd Logs Became Part of My VoIP Troubleshooting
 url: /posts/systemd-logs-became-part-of-my-voip-troubleshooting.html
-date: '2026-09-14'
+date: '2024-05-26'
 read_time: 2
 excerpt: Service state, bind failures and restart loops often explained a broken PBX
   before I needed to inspect a single SIP packet.

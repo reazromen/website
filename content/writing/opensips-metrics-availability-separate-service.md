@@ -1,7 +1,7 @@
 ---
 title: OpenSIPS Metrics Availability Is Separate from OpenSIPS Availability
 url: /posts/opensips-metrics-availability-separate-service.html
-date: '2026-09-14'
+date: '2023-12-30'
 read_time: 1
 excerpt: OpenSIPS can continue processing calls while the MI metrics collector fails,
   leaving the service healthy but observability blind.

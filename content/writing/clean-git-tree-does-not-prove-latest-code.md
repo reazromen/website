@@ -1,7 +1,7 @@
 ---
 title: A Clean Git Tree Does Not Prove You Deployed the Latest Code
 url: /posts/clean-git-tree-does-not-prove-latest-code.html
-date: '2026-09-14'
+date: '2024-01-22'
 read_time: 1
 excerpt: Cleanliness answers whether local tracked files changed; freshness answers
   whether the revision is the one you intended to run.

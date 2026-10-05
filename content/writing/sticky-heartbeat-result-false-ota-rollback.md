@@ -1,7 +1,7 @@
 ---
 title: A Sticky Heartbeat Result Almost Became a False OTA Rollback
 url: /posts/sticky-heartbeat-result-false-ota-rollback.html
-date: '2026-09-14'
+date: '2023-01-22'
 read_time: 1
 excerpt: Telemetry from a previous release must not be allowed to mutate the state
   of a newly assigned release.

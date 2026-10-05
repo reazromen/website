@@ -1,7 +1,7 @@
 ---
 title: 'V126 to V127: What 68.201 ms to 0.457 ms Actually Proved'
 url: /posts/embedded-audio-v126-v127-68ms-to-0457ms.html
-date: '2026-09-15'
+date: '2026-04-19'
 read_time: 12
 excerpt: A large first callback-to-speaker delay suggested work was accumulating between
   RTP reception and physical output.

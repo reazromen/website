@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Feedback"
-date: '2026-10-03'
+date: '2026-05-30'
 draft: false
 language: en
 url: /posts/systems-reality-124-feedback-history.html

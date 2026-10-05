@@ -1,7 +1,7 @@
 ---
 title: 128-Sample AEC Blocks vs 160-Sample G.711 Frames
 url: /posts/embedded-audio-aec-128-vs-g711-160-frame-boundary.html
-date: '2026-09-15'
+date: '2025-03-28'
 read_time: 12
 excerpt: The AEC library consumed a block size that did not divide evenly into the
   telephony frame size.

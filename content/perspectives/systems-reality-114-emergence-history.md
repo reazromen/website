@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Emergence"
-date: '2026-10-03'
+date: '2021-02-24'
 draft: false
 language: en
 url: /posts/systems-reality-114-emergence-history.html

@@ -1,7 +1,7 @@
 ---
 title: The Intermittent 502 That Appears Only After a Connection Has Been Idle
 url: /posts/caddy-keepalive-intermittent-502.html
-date: '2026-09-18'
+date: '2024-08-30'
 read_time: 16
 excerpt: Keepalive timeout mismatches can fail a request even while proxy and backend
   are otherwise healthy.

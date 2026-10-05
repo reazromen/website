@@ -1,7 +1,7 @@
 ---
 title: Psycho — Obsession, Performance, and the Point Where Desire Becomes Loop
 url: /posts/system-of-a-down-psycho-obsession-performance-and-the-point-where-desire-becomes-loop.html
-date: '2026-09-26'
+date: '2020-12-23'
 read_time: 5
 excerpt: Obsession, Performance, and the Point Where Desire Becomes Loop
 topic: ''

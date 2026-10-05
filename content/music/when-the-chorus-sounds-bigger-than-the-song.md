@@ -1,7 +1,7 @@
 ---
 title: When the Chorus Sounds Bigger Than the Song
 url: /posts/when-the-chorus-sounds-bigger-than-the-song.html
-date: '2026-09-26'
+date: '2023-11-24'
 read_time: 5
 excerpt: Why broad melodic choruses can make compact, jagged songs suddenly feel public
   and collective

@@ -1,6 +1,6 @@
 ---
 title: "What Bandwidth Actually Limits"
-date: '2026-10-03'
+date: '2023-01-25'
 draft: false
 language: en
 url: /posts/signals-011-bandwidth-limits.html

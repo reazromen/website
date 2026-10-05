@@ -1,7 +1,7 @@
 ---
 title: Firmware Acceptance Should End in an Observable ACTIVE State
 url: /posts/firmware-acceptance-should-end-in-an-observable-active-state.html
-date: '2026-09-14'
+date: '2022-02-21'
 read_time: 1
 excerpt: A successful download is not the same thing as a successful deployment.
 topic: loup-engineering

@@ -1,7 +1,7 @@
 ---
 title: The S6a Interface Connected LTE Authentication to the HSS for Me
 url: /posts/s6a-connected-lte-authentication-to-the-hss.html
-date: '2026-09-14'
+date: '2021-08-12'
 read_time: 2
 excerpt: Tracing S6a made the HSS feel less like a subscriber database and more like
   an active control-plane participant in LTE attach and mobility.

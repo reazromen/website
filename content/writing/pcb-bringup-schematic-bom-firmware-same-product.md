@@ -1,7 +1,7 @@
 ---
 title: The Schematic, BOM and Firmware Must Describe the Same Product
 url: /posts/pcb-bringup-schematic-bom-firmware-same-product.html
-date: '2026-09-15'
+date: '2025-05-18'
 read_time: 9
 excerpt: Board bring-up became risky whenever the schematic, BOM, datasheet package
   and firmware assumptions described different parts or behaviors.

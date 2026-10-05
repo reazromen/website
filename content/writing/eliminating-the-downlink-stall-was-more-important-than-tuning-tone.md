@@ -1,7 +1,7 @@
 ---
 title: Eliminating the Downlink Stall Was More Important Than Tuning Tone
 url: /posts/eliminating-the-downlink-stall-was-more-important-than-tuning-tone.html
-date: '2026-09-14'
+date: '2024-09-25'
 read_time: 1
 excerpt: A clean frequency response is irrelevant if the playback path periodically
   stops feeding samples.

@@ -1,7 +1,7 @@
 ---
 title: Observability Needs a Source of Truth and an Acceptance Artifact
 url: /posts/observability-source-of-truth-acceptance-artifact.html
-date: '2026-09-14'
+date: '2023-02-28'
 read_time: 1
 excerpt: A monitoring stack can drift through dashboard edits, local files and runtime
   tuning until nobody knows whether Git can reproduce what is currently trusted in

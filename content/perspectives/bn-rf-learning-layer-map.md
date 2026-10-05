@@ -1,6 +1,6 @@
 ---
 title: আরএফ শেখার সময় স্তরের একটা মানচিত্র রাখা
-date: '2026-10-02'
+date: '2025-05-28'
 draft: false
 language: bn
 url: /posts/bn-rf-learning-layer-map.html

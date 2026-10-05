@@ -1,7 +1,7 @@
 ---
 title: Terraform for_each Keys Are Resource Identity, Not Loop Variables
 url: /posts/terraform-for-each-keys-are-resource-identity/index.html
-date: '2026-09-26'
+date: '2024-12-02'
 read_time: 8
 excerpt: The keys in for_each become part of resource addresses. Renaming a key can
   look like deleting one object and creating another even when the human thinks only

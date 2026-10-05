@@ -1,7 +1,7 @@
 ---
 title: TLS Key Custody Is Part of the OpenBao Root of Trust
 url: /posts/tls-key-custody-part-openbao-root-of-trust.html
-date: '2026-09-14'
+date: '2021-01-24'
 read_time: 1
 excerpt: The server needs its TLS private key to operate, while the CA private key
   is more powerful and should remain off-host.

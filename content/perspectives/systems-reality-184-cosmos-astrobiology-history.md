@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See the Cosmos and Life Beyond Earth"
-date: '2026-10-03'
+date: '2025-07-04'
 draft: false
 language: en
 url: /posts/systems-reality-184-cosmos-astrobiology-history.html

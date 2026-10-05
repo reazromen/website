@@ -1,7 +1,7 @@
 ---
 title: How I Exposed OpenBao Metrics Without Exposing OpenBao
 url: /posts/prod-monitoring-how-i-exposed-openbao-metrics-without-exposing-openbao.html
-date: '2026-09-15'
+date: '2021-01-30'
 read_time: 32
 excerpt: A production-engineering deep dive into how i exposed openbao metrics without
   exposing openbao, grounded in the 2014 Mac mini hserver observability stack and

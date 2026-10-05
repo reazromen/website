@@ -1,7 +1,7 @@
 ---
 title: Local Images and Cluster Images Are Different Problems
 url: /posts/local-images-and-cluster-images-are-different-problems.html
-date: '2026-09-18'
+date: '2025-05-23'
 read_time: 2
 excerpt: Why “it exists on my machine” is irrelevant unless the node runtime can resolve
   the same artifact.

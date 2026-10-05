@@ -2,7 +2,7 @@
 title: This Cocaine Makes Me Feel Like I'm on This Song — Disorientation Turned Into
   a Self-Aware Joke
 url: /posts/system-of-a-down-this-cocaine-makes-me-feel-like-im-on-this-song-disorientation-turned-into-a-self-aware-joke.html
-date: '2026-09-26'
+date: '2022-03-15'
 read_time: 5
 excerpt: Disorientation Turned Into a Self-Aware Joke
 topic: ''

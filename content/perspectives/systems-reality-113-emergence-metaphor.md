@@ -1,6 +1,6 @@
 ---
 title: "Where the unexpected system behavior Analogy Breaks"
-date: '2026-10-03'
+date: '2020-11-07'
 draft: false
 language: en
 url: /posts/systems-reality-113-emergence-metaphor.html

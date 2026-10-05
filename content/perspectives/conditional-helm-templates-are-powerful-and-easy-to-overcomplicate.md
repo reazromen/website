@@ -1,7 +1,7 @@
 ---
 title: Conditional Helm Templates Are Powerful—and Easy to Overcomplicate
 url: /posts/conditional-helm-templates-are-powerful-and-easy-to-overcomplicate.html
-date: '2026-09-18'
+date: '2025-02-16'
 read_time: 2
 excerpt: Using conditionals for workload-specific behavior without turning templates
   into a programming language.

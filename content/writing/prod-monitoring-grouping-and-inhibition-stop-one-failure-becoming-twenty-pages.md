@@ -1,7 +1,7 @@
 ---
 title: Grouping and Inhibition Stop One Failure Becoming Twenty Pages
 url: /posts/prod-monitoring-grouping-and-inhibition-stop-one-failure-becoming-twenty-pages.html
-date: '2026-09-15'
+date: '2026-03-28'
 read_time: 34
 excerpt: A production-engineering deep dive into grouping and inhibition stop one
   failure becoming twenty pages, grounded in the 2014 Mac mini hserver observability

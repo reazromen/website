@@ -1,7 +1,7 @@
 ---
 title: Canary and Stable Are Different Release States
 url: /posts/firmware-release-canary-and-stable-are-different-release-states.html
-date: '2026-09-15'
+date: '2022-02-03'
 read_time: 9
 excerpt: A release that is available to one test device has not earned the same operational
   meaning as a release intended for the fleet.

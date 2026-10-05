@@ -1,7 +1,7 @@
 ---
 title: Deleting a Secret from the Current Git Tree Does Not Remove It from History
 url: /posts/deleting-secret-current-git-tree-does-not-remove-history.html
-date: '2026-09-14'
+date: '2025-03-06'
 read_time: 1
 excerpt: Production readiness has to treat leaked credentials as compromised even
   after the file disappears from the latest commit.

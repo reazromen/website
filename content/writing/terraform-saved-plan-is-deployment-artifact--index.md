@@ -1,7 +1,7 @@
 ---
 title: A Saved Terraform Plan Is a Deployment Artifact, Not Just Pretty Diff Output
 url: /posts/terraform-saved-plan-is-deployment-artifact/index.html
-date: '2026-09-26'
+date: '2026-01-11'
 read_time: 8
 excerpt: A saved plan captures the exact actions Terraform intends to apply. In CI/CD
   it becomes the handoff between review and execution—and a sensitive artifact that

@@ -2,7 +2,7 @@
 title: Shine On You Crazy Diamond (Parts 1-5) — Absence Made Large Enough to Become
   Architecture
 url: /posts/pink-floyd-shine-on-you-crazy-diamond-parts-1-5-absence-made-large-enough-to-become-architecture.html
-date: '2026-09-26'
+date: '2022-10-03'
 read_time: 5
 excerpt: Absence Made Large Enough to Become Architecture
 topic: ''

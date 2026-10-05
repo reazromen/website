@@ -1,7 +1,7 @@
 ---
 title: Why Every Request Looks Like It Came from Cloudflare Instead of the User
 url: /posts/caddy-real-client-ip-cloudflare.html
-date: '2026-09-18'
+date: '2024-08-22'
 read_time: 18
 excerpt: Original client IP is trustworthy only when Caddy knows which proxy was allowed
   to write it.

@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Climate"
-date: '2026-10-03'
+date: '2020-03-30'
 draft: false
 language: en
 url: /posts/systems-reality-169-climate-history.html

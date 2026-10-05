@@ -1,7 +1,7 @@
 ---
 title: Free Four — Mortality Delivered With an Almost Casual Surface
 url: /posts/pink-floyd-free-four-mortality-delivered-with-an-almost-casual-surface.html
-date: '2026-09-26'
+date: '2024-11-07'
 read_time: 5
 excerpt: Mortality Delivered With an Almost Casual Surface
 topic: ''

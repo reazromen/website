@@ -1,7 +1,7 @@
 ---
 title: Fat Old Sun — Warmth, Slowness, and the Luxury of Staying Put
 url: /posts/pink-floyd-fat-old-sun-warmth-slowness-and-the-luxury-of-staying-put.html
-date: '2026-09-26'
+date: '2025-03-17'
 read_time: 5
 excerpt: Warmth, Slowness, and the Luxury of Staying Put
 topic: ''

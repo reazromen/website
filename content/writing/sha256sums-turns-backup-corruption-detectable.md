@@ -1,7 +1,7 @@
 ---
 title: A SHA256SUMS File Turns Backup Corruption into a Detectable Failure
 url: /posts/sha256sums-turns-backup-corruption-detectable.html
-date: '2026-09-14'
+date: '2022-08-14'
 read_time: 1
 excerpt: Checksums do not replace restore tests, but they catch silent byte changes
   before a disaster forces you to discover them.

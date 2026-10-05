@@ -2,7 +2,7 @@
 title: WebRTC Connectivity Is Not “STUN or TURN” — It Is an ICE Candidate Selection
   Problem
 url: /posts/webrtc-ice-candidate-selection-not-stun-turn.html
-date: '2026-09-26'
+date: '2024-03-06'
 read_time: 9
 excerpt: STUN discovers reachability information and TURN provides a relay, but ICE
   is the algorithm that gathers candidates, checks candidate pairs, prioritizes working

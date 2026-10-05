@@ -1,7 +1,7 @@
 ---
 title: DNS Lookup Time Belongs in an Edge Dashboard
 url: /posts/dns-lookup-time-belongs-in-edge-dashboard.html
-date: '2026-09-14'
+date: '2022-06-02'
 read_time: 1
 excerpt: A slow public request is not always slow application code; DNS resolution
   can consume a meaningful part of the user-visible path.

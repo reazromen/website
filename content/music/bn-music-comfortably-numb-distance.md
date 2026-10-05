@@ -1,6 +1,6 @@
 ---
 title: 'কমফর্টেবলি নাম্ব: স্বস্তি আর দূরত্বের একটা পাঠ'
-date: '2026-10-02'
+date: '2021-12-01'
 draft: false
 language: bn
 url: /posts/bn-music-comfortably-numb-distance.html

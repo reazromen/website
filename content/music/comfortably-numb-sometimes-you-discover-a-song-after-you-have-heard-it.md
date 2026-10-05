@@ -1,7 +1,7 @@
 ---
 title: Comfortably Numb — Sometimes You Discover a Song After You Have Heard It
 url: /posts/comfortably-numb-sometimes-you-discover-a-song-after-you-have-heard-it.html
-date: '2026-09-26'
+date: '2026-07-04'
 read_time: 7
 excerpt: I had heard Comfortably Numb before. But during a period when I was deeply
   introspective and sad, I heard the guitar again and it felt like a song I had never

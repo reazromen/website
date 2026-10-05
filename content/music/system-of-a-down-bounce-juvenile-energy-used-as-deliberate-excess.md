@@ -1,7 +1,7 @@
 ---
 title: Bounce — Juvenile Energy Used as Deliberate Excess
 url: /posts/system-of-a-down-bounce-juvenile-energy-used-as-deliberate-excess.html
-date: '2026-09-26'
+date: '2026-07-29'
 read_time: 5
 excerpt: Juvenile Energy Used as Deliberate Excess
 topic: ''

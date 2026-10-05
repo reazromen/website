@@ -1,7 +1,7 @@
 ---
 title: ArgoCD Green Does Not Mean Voiceware Is Healthy
 url: /posts/argocd-green-does-not-mean-voiceware-is-healthy.html
-date: '2026-09-18'
+date: '2026-01-01'
 read_time: 2
 excerpt: The difference between desired-state convergence and application correctness.
 topic: voiceware-engineering

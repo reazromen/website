@@ -1,6 +1,6 @@
 ---
 title: "Traffic Lights and the Shared Rules Behind a Signal"
-date: '2026-10-03'
+date: '2024-07-11'
 draft: false
 language: en
 url: /posts/signals-232-traffic-lights-shared-rules.html

@@ -1,7 +1,7 @@
 ---
 title: Health Probes Should Not Follow Redirects Blindly
 url: /posts/health-probes-should-not-follow-redirects-blindly.html
-date: '2026-09-14'
+date: '2026-03-27'
 read_time: 1
 excerpt: A probe that follows a redirect can report success for the wrong endpoint
   and hide an authentication or routing failure.

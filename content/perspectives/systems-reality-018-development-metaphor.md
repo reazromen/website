@@ -1,6 +1,6 @@
 ---
 title: "Where the deployment plan Analogy Breaks"
-date: '2026-10-03'
+date: '2025-01-06'
 draft: false
 language: en
 url: /posts/systems-reality-018-development-metaphor.html

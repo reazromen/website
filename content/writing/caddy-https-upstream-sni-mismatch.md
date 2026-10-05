@@ -1,7 +1,7 @@
 ---
 title: Caddy Can Reach the HTTPS Upstream and Still Fail the TLS Handshake
 url: /posts/caddy-https-upstream-sni-mismatch.html
-date: '2026-09-18'
+date: '2021-03-21'
 read_time: 16
 excerpt: An IP can be the correct route to an upstream while being the wrong identity
   for its certificate.

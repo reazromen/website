@@ -1,7 +1,7 @@
 ---
 title: App-Only Flashing at 0x20000 Made Audio Iteration Faster
 url: /posts/app-only-flashing-at-0x20000-made-audio-iteration-faster.html
-date: '2026-09-14'
+date: '2024-10-08'
 read_time: 1
 excerpt: Updating only the application partition avoids rewriting unrelated state
   during tight firmware experiments.

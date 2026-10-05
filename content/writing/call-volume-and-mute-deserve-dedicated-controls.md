@@ -1,7 +1,7 @@
 ---
 title: Call, Volume and Mute Deserve Dedicated Controls
 url: /posts/call-volume-and-mute-deserve-dedicated-controls.html
-date: '2026-09-14'
+date: '2023-04-09'
 read_time: 1
 excerpt: Critical in-call actions should not require navigating back to a menu.
 topic: loup-engineering

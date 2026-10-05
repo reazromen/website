@@ -1,6 +1,6 @@
 ---
 title: "Where the planetary control system Analogy Breaks"
-date: '2026-10-03'
+date: '2024-08-02'
 draft: false
 language: en
 url: /posts/systems-reality-168-climate-metaphor.html

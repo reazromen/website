@@ -1,7 +1,7 @@
 ---
 title: terraform test Is Not terraform validate — and It Can Create Real Infrastructure
 url: /posts/terraform-test-is-not-validate/index.html
-date: '2026-09-26'
+date: '2025-08-10'
 read_time: 8
 excerpt: validate checks syntax and internal consistency. terraform test can run plan/apply
   test cases and assertions, including real provider operations, so it belongs in

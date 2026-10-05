@@ -1,6 +1,6 @@
 ---
 title: "Sonar and the Time of a Returning Echo"
-date: '2026-10-03'
+date: '2024-09-07'
 draft: false
 language: en
 url: /posts/signals-153-sonar-returning-echo.html

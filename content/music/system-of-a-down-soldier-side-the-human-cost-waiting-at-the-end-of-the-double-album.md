@@ -1,7 +1,7 @@
 ---
 title: Soldier Side — The Human Cost Waiting at the End of the Double Album
 url: /posts/system-of-a-down-soldier-side-the-human-cost-waiting-at-the-end-of-the-double-album.html
-date: '2026-09-26'
+date: '2026-01-27'
 read_time: 5
 excerpt: The Human Cost Waiting at the End of the Double Album
 topic: ''

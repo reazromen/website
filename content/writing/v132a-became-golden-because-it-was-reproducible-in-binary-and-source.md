@@ -1,7 +1,7 @@
 ---
 title: V132A Became Golden Because It Was Reproducible in Binary and Source
 url: /posts/v132a-became-golden-because-it-was-reproducible-in-binary-and-source.html
-date: '2026-09-14'
+date: '2026-02-16'
 read_time: 1
 excerpt: A release is stronger when the exact app image and the source snapshot both
   survive.

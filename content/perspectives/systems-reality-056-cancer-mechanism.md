@@ -1,6 +1,6 @@
 ---
 title: "What Cancer as a Systems Failure Really Is"
-date: '2026-10-03'
+date: '2022-09-11'
 draft: false
 language: en
 url: /posts/systems-reality-056-cancer-mechanism.html

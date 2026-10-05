@@ -1,6 +1,6 @@
 ---
 title: "What The Immune System Really Is"
-date: '2026-10-03'
+date: '2025-11-26'
 draft: false
 language: en
 url: /posts/systems-reality-061-immune-system-mechanism.html

@@ -1,7 +1,7 @@
 ---
 title: Why Subnetting Felt Hard Until I Stopped Memorizing Tables
 url: /posts/why-subnetting-felt-hard-until-i-stopped-memorizing-tables.html
-date: '2026-09-14'
+date: '2026-07-27'
 read_time: 3
 excerpt: Subnetting became much easier once I treated it as address boundaries and
   binary arithmetic instead of a collection of shortcut tables.

@@ -1,6 +1,6 @@
 ---
 title: "Evolution Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2026-06-13'
 draft: false
 language: en
 url: /posts/systems-reality-037-evolution-architecture.html

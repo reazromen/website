@@ -1,7 +1,7 @@
 ---
 title: When to Reuse a Helm Template and When to Fork It
 url: /posts/when-to-reuse-a-helm-template-and-when-to-fork-it.html
-date: '2026-09-18'
+date: '2025-08-23'
 read_time: 2
 excerpt: The boundary between common deployment structure and service-specific commands
   such as celery-low.

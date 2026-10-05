@@ -1,7 +1,7 @@
 ---
 title: Why Caddy Will Not Issue a Wildcard Certificate with the Normal HTTP Challenge
 url: /posts/caddy-wildcard-cert-dns-challenge.html
-date: '2026-09-18'
+date: '2025-04-19'
 read_time: 16
 excerpt: Wildcard ACME certificates require DNS validation of the parent zone.
 topic: caddy-reverse-proxy

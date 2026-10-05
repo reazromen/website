@@ -1,7 +1,7 @@
 ---
 title: Redis Functions Are Atomic — Which Is Exactly Why Slow Ones Hurt
 url: /posts/redis-functions-atomic-does-not-mean-cheap/index.html
-date: '2026-09-26'
+date: '2024-09-15'
 read_time: 8
 excerpt: Lua scripts and Redis Functions avoid races and network round trips by executing
   atomically on the server. The same property means long-running server-side code

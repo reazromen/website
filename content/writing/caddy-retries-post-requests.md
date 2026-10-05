@@ -1,7 +1,7 @@
 ---
 title: Proxy Retries Can Save a GET and Duplicate a POST
 url: /posts/caddy-retries-post-requests.html
-date: '2026-09-18'
+date: '2026-02-05'
 read_time: 17
 excerpt: 'Retry policy is also application semantics: replaying a write may repeat
   a side effect.'

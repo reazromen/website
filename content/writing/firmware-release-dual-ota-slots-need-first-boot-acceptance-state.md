@@ -1,7 +1,7 @@
 ---
 title: Dual OTA Slots Need a First-Boot Acceptance State
 url: /posts/firmware-release-dual-ota-slots-need-first-boot-acceptance-state.html
-date: '2026-09-15'
+date: '2025-08-15'
 read_time: 9
 excerpt: Writing a new image into an inactive slot proves only that bytes were stored;
   it does not prove the application is safe to keep.

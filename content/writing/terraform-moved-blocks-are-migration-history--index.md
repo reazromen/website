@@ -1,7 +1,7 @@
 ---
 title: Terraform moved Blocks Are Migration History, Not Cleanup Noise
 url: /posts/terraform-moved-blocks-are-migration-history/index.html
-date: '2026-09-26'
+date: '2025-05-21'
 read_time: 8
 excerpt: A moved block records that a resource address changed while the remote object
   did not. Removing it too early can make older module consumers see a destructive

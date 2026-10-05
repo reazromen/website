@@ -1,6 +1,6 @@
 ---
 title: ভেরিয়েবলের নাম অবস্থার অর্থ ধরে রাখে
-date: '2026-10-02'
+date: '2023-04-04'
 draft: false
 language: bn
 url: /posts/bn-variable-name-state-meaning.html

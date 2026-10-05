@@ -1,7 +1,7 @@
 ---
 title: Any Colour You Like — Choice, Illusion, and the Pleasure of Pure Motion
 url: /posts/pink-floyd-any-colour-you-like-choice-illusion-and-the-pleasure-of-pure-motion.html
-date: '2026-09-26'
+date: '2025-01-05'
 read_time: 5
 excerpt: Choice, Illusion, and the Pleasure of Pure Motion
 topic: ''

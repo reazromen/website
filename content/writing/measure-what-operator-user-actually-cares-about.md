@@ -1,7 +1,7 @@
 ---
 title: Measure What the Operator or User Actually Cares About
 url: /posts/measure-what-operator-user-actually-cares-about.html
-date: '2026-09-14'
+date: '2026-09-15'
 read_time: 1
 excerpt: CPU and container counts are supporting signals; service reachability, backup
   validity and call-path health are closer to the real objective.

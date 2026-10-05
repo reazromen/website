@@ -1,7 +1,7 @@
 ---
 title: 'Ping Works but the Browser Does Not: Separating IP, DNS and Applications'
 url: /posts/ping-works-but-browser-does-not-separating-ip-dns-applications.html
-date: '2026-09-14'
+date: '2024-09-27'
 read_time: 3
 excerpt: 'Connectivity tests become useful only when each test is tied to a layer:
   local addressing, routing, DNS resolution, TCP reachability and the application

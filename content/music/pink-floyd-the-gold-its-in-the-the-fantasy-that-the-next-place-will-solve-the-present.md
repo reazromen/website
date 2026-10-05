@@ -1,7 +1,7 @@
 ---
 title: The Gold It's in the... — The Fantasy That the Next Place Will Solve the Present
 url: /posts/pink-floyd-the-gold-its-in-the-the-fantasy-that-the-next-place-will-solve-the-present.html
-date: '2026-09-26'
+date: '2026-03-19'
 read_time: 5
 excerpt: The Fantasy That the Next Place Will Solve the Present
 topic: ''

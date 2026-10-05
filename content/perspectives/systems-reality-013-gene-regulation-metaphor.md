@@ -1,6 +1,6 @@
 ---
 title: "Where the feature flags Analogy Breaks"
-date: '2026-10-03'
+date: '2023-03-21'
 draft: false
 language: en
 url: /posts/systems-reality-013-gene-regulation-metaphor.html

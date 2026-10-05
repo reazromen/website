@@ -1,6 +1,6 @@
 ---
 title: "Where the nervous system of civilization Analogy Breaks"
-date: '2026-10-03'
+date: '2026-02-18'
 draft: false
 language: en
 url: /posts/systems-reality-178-communication-technology-metaphor.html

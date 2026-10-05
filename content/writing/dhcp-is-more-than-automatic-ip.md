@@ -1,7 +1,7 @@
 ---
 title: DHCP Is More Than Automatic IP
 url: /posts/dhcp-is-more-than-automatic-ip.html
-date: '2026-09-14'
+date: '2022-03-23'
 read_time: 3
 excerpt: DHCP is easier to troubleshoot when treated as a timed client-server exchange
   that delivers an address plus the parameters a host needs to participate in the

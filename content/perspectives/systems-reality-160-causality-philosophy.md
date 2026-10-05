@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Causality"
-date: '2026-10-03'
+date: '2024-12-31'
 draft: false
 language: en
 url: /posts/systems-reality-160-causality-philosophy.html

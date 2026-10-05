@@ -1,7 +1,7 @@
 ---
 title: Party Sequence — A Brief Ritual Before the Story Moves On
 url: /posts/pink-floyd-party-sequence-a-brief-ritual-before-the-story-moves-on.html
-date: '2026-09-26'
+date: '2021-05-02'
 read_time: 5
 excerpt: A Brief Ritual Before the Story Moves On
 topic: ''

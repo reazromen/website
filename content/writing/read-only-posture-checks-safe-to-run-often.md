@@ -1,7 +1,7 @@
 ---
 title: Read-Only Posture Checks Are Useful Because They Are Safe to Run Often
 url: /posts/read-only-posture-checks-safe-to-run-often.html
-date: '2026-09-14'
+date: '2024-11-12'
 read_time: 1
 excerpt: Observability improves when operators can refresh evidence without opening
   a risky change window.

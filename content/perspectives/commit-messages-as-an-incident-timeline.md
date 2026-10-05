@@ -1,7 +1,7 @@
 ---
 title: Commit Messages as an Incident Timeline
 url: /posts/commit-messages-as-an-incident-timeline.html
-date: '2026-09-18'
+date: '2022-08-03'
 read_time: 2
 excerpt: How the sequence of small fixes reconstructed the actual migration story.
 topic: voiceware-engineering

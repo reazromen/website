@@ -1,7 +1,7 @@
 ---
 title: The Production Hardening Pass I Would Apply to Voiceware
 url: /posts/the-production-hardening-pass-i-would-apply-to-voiceware.html
-date: '2026-09-18'
+date: '2026-01-06'
 read_time: 3
 excerpt: A prioritized list of reliability controls to layer onto the validated deployment
   foundation.

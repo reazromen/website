@@ -1,6 +1,6 @@
 ---
 title: "Where the resource scheduler Analogy Breaks"
-date: '2026-10-03'
+date: '2023-07-25'
 draft: false
 language: en
 url: /posts/systems-reality-028-metabolism-metaphor.html

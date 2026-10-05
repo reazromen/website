@@ -1,7 +1,7 @@
 ---
 title: V117 Taught Me to Revert a Bad Audio Architecture Quickly
 url: /posts/embedded-audio-v117-revert-bad-audio-architecture.html
-date: '2026-09-15'
+date: '2026-01-27'
 read_time: 12
 excerpt: A rebuffer/AEC/volume experiment produced obvious bad crackle instead of
   the intended stability improvement.

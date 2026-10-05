@@ -1,6 +1,6 @@
 ---
 title: "Networks Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2026-07-18'
 draft: false
 language: en
 url: /posts/systems-reality-127-networks-architecture.html

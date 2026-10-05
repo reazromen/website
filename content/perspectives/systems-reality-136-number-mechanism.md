@@ -1,6 +1,6 @@
 ---
 title: "What Number Really Is"
-date: '2026-10-03'
+date: '2021-05-04'
 draft: false
 language: en
 url: /posts/systems-reality-136-number-mechanism.html

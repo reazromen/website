@@ -1,7 +1,7 @@
 ---
 title: Runtime Probes Beat Human-Friendly Channel Names
 url: /posts/pcb-bringup-runtime-probes-beat-channel-names.html
-date: '2026-09-15'
+date: '2023-05-17'
 read_time: 9
 excerpt: The Minewing ES7210 wrapper labeled four int16 positions as four physical
   channels, but the host transport packing did not match those names.

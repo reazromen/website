@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Intelligence"
-date: '2026-10-03'
+date: '2025-01-26'
 draft: false
 language: en
 url: /posts/systems-reality-094-intelligence-history.html

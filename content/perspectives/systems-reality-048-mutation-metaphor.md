@@ -1,6 +1,6 @@
 ---
 title: "Where the random code change Analogy Breaks"
-date: '2026-10-03'
+date: '2024-04-17'
 draft: false
 language: en
 url: /posts/systems-reality-048-mutation-metaphor.html

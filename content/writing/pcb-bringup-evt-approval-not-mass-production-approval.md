@@ -1,7 +1,7 @@
 ---
 title: EVT Approval Is Not Mass-Production Approval
 url: /posts/pcb-bringup-evt-approval-not-mass-production-approval.html
-date: '2026-09-15'
+date: '2025-12-14'
 read_time: 9
 excerpt: Moving quickly toward EVT created pressure to interpret every interim approval
   as a final product freeze.

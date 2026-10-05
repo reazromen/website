@@ -1,7 +1,7 @@
 ---
 title: AEC Acceptance Should Include Double-Talk
 url: /posts/aec-acceptance-should-include-double-talk.html
-date: '2026-09-14'
+date: '2023-05-14'
 read_time: 1
 excerpt: A speakerphone must handle the user talking while the far end is also active.
 topic: loup-engineering

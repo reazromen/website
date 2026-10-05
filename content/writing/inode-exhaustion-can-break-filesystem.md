@@ -1,7 +1,7 @@
 ---
 title: Inode Exhaustion Can Break a Filesystem with Free Gigabytes
 url: /posts/inode-exhaustion-can-break-filesystem.html
-date: '2026-09-14'
+date: '2026-04-02'
 read_time: 1
 excerpt: Free-space graphs can remain green while a workload creates huge numbers
   of tiny files and consumes the available inode table.

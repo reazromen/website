@@ -1,7 +1,7 @@
 ---
 title: Cookie Domain and SameSite Settings Are Part of SSO Architecture
 url: /posts/cookie-domain-samesite-part-of-sso-architecture.html
-date: '2026-09-14'
+date: '2022-01-29'
 read_time: 1
 excerpt: Cross-subdomain authentication only works predictably when cookie scope and
   redirect boundaries match the domain design.

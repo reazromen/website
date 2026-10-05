@@ -1,7 +1,7 @@
 ---
 title: My First SIPp Load Test Was Mostly About Defining a Useful Scenario
 url: /posts/my-first-sipp-load-test-was-mostly-about-defining-a-useful-scenario.html
-date: '2026-09-14'
+date: '2026-04-08'
 read_time: 2
 excerpt: SIPp could generate a lot of calls, but the hard part was deciding what behavior
   to simulate and what failure actually meant.

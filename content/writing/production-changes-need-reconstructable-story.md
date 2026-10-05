@@ -1,7 +1,7 @@
 ---
 title: Production Changes Need a Story You Can Reconstruct
 url: /posts/production-changes-need-reconstructable-story.html
-date: '2026-09-14'
+date: '2026-09-29'
 read_time: 1
 excerpt: A reliable delivery system leaves enough evidence to explain what changed,
   why, when and how it was verified.

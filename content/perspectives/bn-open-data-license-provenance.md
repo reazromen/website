@@ -1,6 +1,6 @@
 ---
 title: ওপেন ডেটা ব্যবহারেও উৎসের দায়িত্ব থাকে
-date: '2026-10-02'
+date: '2023-06-10'
 draft: false
 language: bn
 url: /posts/bn-open-data-license-provenance.html

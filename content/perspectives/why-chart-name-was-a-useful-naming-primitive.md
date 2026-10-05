@@ -1,7 +1,7 @@
 ---
 title: Why Chart.Name Was a Useful Naming Primitive
 url: /posts/why-chart-name-was-a-useful-naming-primitive.html
-date: '2026-09-18'
+date: '2024-06-27'
 read_time: 2
 excerpt: Using the Helm chart identity to keep Deployment, labels, and Services aligned.
 topic: voiceware-engineering

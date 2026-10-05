@@ -1,7 +1,7 @@
 ---
 title: Ten Kilometres Starts with a Link Budget, Not Maximum TX Power
 url: /posts/lora-reticulum-ten-km-starts-link-budget.html
-date: '2026-09-15'
+date: '2026-09-10'
 read_time: 9
 excerpt: The desire for multi-kilometre range could easily turn into a single-variable
   question about how many dBm the radio can transmit.

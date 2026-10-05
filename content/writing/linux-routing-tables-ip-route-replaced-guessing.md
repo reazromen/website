@@ -1,7 +1,7 @@
 ---
 title: 'Linux Routing Tables: The Moment `ip route` Replaced Guessing'
 url: /posts/linux-routing-tables-ip-route-replaced-guessing.html
-date: '2026-09-14'
+date: '2023-07-12'
 read_time: 3
 excerpt: Once I started reading Linux routes as prefix decisions instead of interface
   settings, multi-interface hosts and lab gateways became much easier to debug.

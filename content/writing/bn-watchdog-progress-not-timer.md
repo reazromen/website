@@ -1,6 +1,6 @@
 ---
 title: ওয়াচডগকে সময়ের বদলে অগ্রগতি দেখতে দেওয়া
-date: '2026-10-02'
+date: '2023-08-23'
 draft: false
 language: bn
 url: /posts/bn-watchdog-progress-not-timer.html

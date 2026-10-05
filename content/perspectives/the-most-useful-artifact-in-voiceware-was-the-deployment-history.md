@@ -1,7 +1,7 @@
 ---
 title: The Most Useful Artifact in Voiceware Was the Deployment History
 url: /posts/the-most-useful-artifact-in-voiceware-was-the-deployment-history.html
-date: '2026-09-18'
+date: '2023-07-31'
 read_time: 2
 excerpt: What I learned by treating commit history as a record of engineering decisions
   instead of noise.

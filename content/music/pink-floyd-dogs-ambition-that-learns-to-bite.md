@@ -1,7 +1,7 @@
 ---
 title: Dogs — Ambition That Learns to Bite
 url: /posts/pink-floyd-dogs-ambition-that-learns-to-bite.html
-date: '2026-09-26'
+date: '2025-09-03'
 read_time: 5
 excerpt: Ambition That Learns to Bite
 topic: ''

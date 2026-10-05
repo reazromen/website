@@ -1,7 +1,7 @@
 ---
 title: Metric Relabeling Is Resource Control
 url: /posts/prod-monitoring-metric-relabeling-is-resource-control.html
-date: '2026-09-15'
+date: '2021-01-28'
 read_time: 34
 excerpt: A production-engineering deep dive into metric relabeling is resource control,
   grounded in the 2014 Mac mini hserver observability stack and its accepted runtime

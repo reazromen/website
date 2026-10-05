@@ -1,6 +1,6 @@
 ---
 title: "Time Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2023-11-28'
 draft: false
 language: en
 url: /posts/systems-reality-152-time-architecture.html

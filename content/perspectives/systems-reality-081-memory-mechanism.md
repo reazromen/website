@@ -1,6 +1,6 @@
 ---
 title: "What Memory Really Is"
-date: '2026-10-03'
+date: '2022-06-02'
 draft: false
 language: en
 url: /posts/systems-reality-081-memory-mechanism.html

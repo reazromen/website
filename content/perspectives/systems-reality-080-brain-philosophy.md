@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside The Brain"
-date: '2026-10-03'
+date: '2023-04-26'
 draft: false
 language: en
 url: /posts/systems-reality-080-brain-philosophy.html

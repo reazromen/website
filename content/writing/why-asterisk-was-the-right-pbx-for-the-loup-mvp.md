@@ -1,7 +1,7 @@
 ---
 title: Why Asterisk Was the Right PBX for the LOUP MVP
 url: /posts/why-asterisk-was-the-right-pbx-for-the-loup-mvp.html
-date: '2026-09-14'
+date: '2025-11-26'
 read_time: 1
 excerpt: The first PBX needed to be inspectable, scriptable and easy to correlate
   with packet captures.

@@ -1,7 +1,7 @@
 ---
 title: Backup Age Is a Freshness Signal, Not a Recovery Guarantee
 url: /posts/backup-age-freshness-not-recovery-guarantee.html
-date: '2026-09-14'
+date: '2024-06-29'
 read_time: 1
 excerpt: A recent backup timestamp can look reassuring even when the archive is incomplete,
   corrupt or impossible to restore.

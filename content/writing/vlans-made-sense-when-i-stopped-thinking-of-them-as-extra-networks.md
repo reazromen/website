@@ -1,7 +1,7 @@
 ---
 title: VLANs Made Sense When I Stopped Thinking of Them as Extra Networks
 url: /posts/vlans-made-sense-when-i-stopped-thinking-of-them-as-extra-networks.html
-date: '2026-09-14'
+date: '2024-11-22'
 read_time: 3
 excerpt: A VLAN is first a Layer 2 boundary. IP subnets often map to VLANs, but keeping
   those two concepts separate makes switching and routing much easier to reason about.

@@ -1,7 +1,7 @@
 ---
 title: Empty Spaces — The Need to Fill a Gap That May Not Be Fillable
 url: /posts/pink-floyd-empty-spaces-the-need-to-fill-a-gap-that-may-not-be-fillable.html
-date: '2026-09-26'
+date: '2023-11-08'
 read_time: 5
 excerpt: The Need to Fill a Gap That May Not Be Fillable
 topic: ''

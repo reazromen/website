@@ -1,7 +1,7 @@
 ---
 title: Why an App Works on a Subdomain but Breaks Under /app
 url: /posts/caddy-subfolder-problem.html
-date: '2026-09-18'
+date: '2025-06-20'
 read_time: 16
 excerpt: Stripping a prefix is easy; making the application believe it lives under
   that prefix is harder.

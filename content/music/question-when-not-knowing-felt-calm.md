@@ -1,7 +1,7 @@
 ---
 title: Question! — The Calm I Found in Not Knowing
 url: /posts/question-when-not-knowing-felt-calm.html
-date: '2026-09-26'
+date: '2024-01-31'
 read_time: 6
 excerpt: Last year, during a bad migraine, I kept playing this song on loop. I felt
   as if I was floating or flying, while another part of me was thinking that maybe

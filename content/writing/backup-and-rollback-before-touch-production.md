@@ -1,7 +1,7 @@
 ---
 title: Back Up and Define Rollback Before You Touch Production
 url: /posts/backup-and-rollback-before-touch-production.html
-date: '2026-09-14'
+date: '2026-06-19'
 read_time: 1
 excerpt: The safest time to decide how to recover is before the change has modified
   the evidence you depend on.

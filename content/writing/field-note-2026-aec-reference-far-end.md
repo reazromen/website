@@ -1,7 +1,7 @@
 ---
 title: AEC Reference Is the Far-End Signal, Not Another Microphone
 url: /posts/field-note-2026-aec-reference-far-end.html
-date: '2026-09-18'
+date: '2026-04-21'
 read_time: 2
 excerpt: Echo cancellation only has a useful reference when the reference represents
   what the loudspeaker actually played.

@@ -1,7 +1,7 @@
 ---
 title: Pinned Image Digests Turn a Container Tag into a Reproducible Dependency
 url: /posts/pinned-image-digests-reproducible-container-dependency.html
-date: '2026-09-14'
+date: '2026-09-19'
 read_time: 1
 excerpt: A mutable tag tells you what to ask for; a digest tells you what bytes you
   actually accepted.

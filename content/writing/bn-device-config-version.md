@@ -1,6 +1,6 @@
 ---
 title: ফার্মওয়্যারের ভার্সন আছে, কনফিগেরও দরকার
-date: '2026-10-02'
+date: '2024-12-07'
 draft: false
 language: bn
 url: /posts/bn-device-config-version.html

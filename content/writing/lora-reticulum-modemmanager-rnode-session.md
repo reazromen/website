@@ -1,7 +1,7 @@
 ---
 title: ModemManager Can Break a Perfectly Good RNode Session
 url: /posts/lora-reticulum-modemmanager-rnode-session.html
-date: '2026-09-15'
+date: '2024-04-10'
 read_time: 8
 excerpt: Linux services can probe new serial devices and interfere with a host-controlled
   radio before Reticulum starts.

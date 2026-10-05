@@ -1,7 +1,7 @@
 ---
 title: Terraform Stacks vs Workspaces Is a Lifecycle Design Choice
 url: /posts/terraform-stacks-vs-workspaces-is-lifecycle-choice/index.html
-date: '2026-09-26'
+date: '2020-10-20'
 read_time: 8
 excerpt: A workspace manages one root module and one state. HCP Terraform Stacks coordinate
   multiple components and repeated deployments. The choice is about how many infrastructure

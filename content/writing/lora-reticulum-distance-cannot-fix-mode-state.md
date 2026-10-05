@@ -1,7 +1,7 @@
 ---
 title: Changing Distance Did Not Turn an Unknown Mode into a Known Mode
 url: /posts/lora-reticulum-distance-cannot-fix-mode-state.html
-date: '2026-09-15'
+date: '2022-02-26'
 read_time: 9
 excerpt: Repeated no-response behavior at different physical setups did not prove
   a pure propagation problem because the remote device mode/profile was still uncertain.

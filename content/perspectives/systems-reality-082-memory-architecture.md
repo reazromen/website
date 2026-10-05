@@ -1,6 +1,6 @@
 ---
 title: "Memory Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2026-03-30'
 draft: false
 language: en
 url: /posts/systems-reality-082-memory-architecture.html

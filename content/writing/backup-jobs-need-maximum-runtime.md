@@ -1,7 +1,7 @@
 ---
 title: Backup Jobs Need a Maximum Runtime
 url: /posts/backup-jobs-need-maximum-runtime.html
-date: '2026-09-14'
+date: '2021-07-19'
 read_time: 1
 excerpt: A backup that hangs forever can block future runs and create false confidence
   without ever producing a usable recovery point.

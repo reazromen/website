@@ -1,7 +1,7 @@
 ---
 title: Forest — Family Language, Authority, and the Question of Who Gets to Lead
 url: /posts/system-of-a-down-forest-family-language-authority-and-the-question-of-who-gets-to-lead.html
-date: '2026-09-26'
+date: '2020-04-06'
 read_time: 5
 excerpt: Family Language, Authority, and the Question of Who Gets to Lead
 topic: ''

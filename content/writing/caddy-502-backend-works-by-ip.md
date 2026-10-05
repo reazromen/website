@@ -1,7 +1,7 @@
 ---
 title: Why Caddy Gives 502 When the Backend Works Fine by IP
 url: /posts/caddy-502-backend-works-by-ip.html
-date: '2026-09-18'
+date: '2026-09-21'
 read_time: 16
 excerpt: A 502 usually means the browser-to-Caddy leg worked and the Caddy-to-upstream
   leg did not.

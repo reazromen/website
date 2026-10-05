@@ -1,7 +1,7 @@
 ---
 title: Diameter Started Making Sense When I Followed CER and CEA First
 url: /posts/diameter-started-making-sense-with-cer-and-cea.html
-date: '2026-09-14'
+date: '2024-02-28'
 read_time: 2
 excerpt: Before looking at subscriber procedures, I needed to understand how Diameter
   peers identify themselves, advertise applications and establish a usable relationship.

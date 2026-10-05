@@ -1,7 +1,7 @@
 ---
 title: Der Voghormia — Grief, Ritual, and Memory Without a Conventional Rock Ending
 url: /posts/system-of-a-down-der-voghormia-grief-ritual-and-memory-without-a-conventional-rock-ending.html
-date: '2026-09-26'
+date: '2026-08-21'
 read_time: 5
 excerpt: Grief, Ritual, and Memory Without a Conventional Rock Ending
 topic: ''

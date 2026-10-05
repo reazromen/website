@@ -1,7 +1,7 @@
 ---
 title: Using `dig` to Stop Treating DNS Like a Black Box
 url: /posts/using-dig-to-stop-treating-dns-like-a-black-box.html
-date: '2026-09-14'
+date: '2025-09-29'
 read_time: 3
 excerpt: '`dig` gave me a way to separate resolver configuration, authoritative answers,
   record types and response timing instead of reducing DNS to ''name works'' or ''name

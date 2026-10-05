@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Number"
-date: '2026-10-03'
+date: '2024-01-03'
 draft: false
 language: en
 url: /posts/systems-reality-140-number-philosophy.html

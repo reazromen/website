@@ -1,6 +1,6 @@
 ---
 title: প্রসেস চলছে, কিন্তু সার্ভিস কী করছে
-date: '2026-10-02'
+date: '2021-10-01'
 draft: false
 language: bn
 url: /posts/bn-process-running-service-useful.html

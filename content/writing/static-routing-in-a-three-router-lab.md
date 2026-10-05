@@ -1,7 +1,7 @@
 ---
 title: Static Routing in a Three-Router Lab
 url: /posts/static-routing-in-a-three-router-lab.html
-date: '2026-09-14'
+date: '2023-06-11'
 read_time: 3
 excerpt: 'A three-router topology is enough to show the most important routing lesson:
   reachability is directional, and the return path matters just as much as the forward

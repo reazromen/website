@@ -1,7 +1,7 @@
 ---
 title: Ego Brain — Love, Ego, and the Stories the Mind Builds Around Attachment
 url: /posts/system-of-a-down-ego-brain-love-ego-and-the-stories-the-mind-builds-around-attachment.html
-date: '2026-09-26'
+date: '2026-09-25'
 read_time: 5
 excerpt: Love, Ego, and the Stories the Mind Builds Around Attachment
 topic: ''

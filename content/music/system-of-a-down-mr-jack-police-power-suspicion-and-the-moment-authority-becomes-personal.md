@@ -1,7 +1,7 @@
 ---
 title: Mr. Jack — Police Power, Suspicion, and the Moment Authority Becomes Personal
 url: /posts/system-of-a-down-mr-jack-police-power-suspicion-and-the-moment-authority-becomes-personal.html
-date: '2026-09-26'
+date: '2024-04-26'
 read_time: 5
 excerpt: Police Power, Suspicion, and the Moment Authority Becomes Personal
 topic: ''

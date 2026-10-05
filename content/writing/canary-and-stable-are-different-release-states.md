@@ -1,7 +1,7 @@
 ---
 title: Canary and Stable Are Different Release States
 url: /posts/canary-and-stable-are-different-release-states.html
-date: '2026-09-14'
+date: '2023-09-23'
 read_time: 1
 excerpt: A release that works on one device should not silently become the fleet default.
 topic: loup-engineering

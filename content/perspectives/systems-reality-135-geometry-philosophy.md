@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Geometry"
-date: '2026-10-03'
+date: '2025-07-24'
 draft: false
 language: en
 url: /posts/systems-reality-135-geometry-philosophy.html

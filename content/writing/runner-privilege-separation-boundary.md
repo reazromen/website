@@ -1,7 +1,7 @@
 ---
 title: The Runner Is a Privilege-Separation Boundary, Not Just a Worker
 url: /posts/runner-privilege-separation-boundary.html
-date: '2026-09-14'
+date: '2025-10-23'
 read_time: 1
 excerpt: Keeping host execution outside the portal containers limits what a web compromise
   can directly control.

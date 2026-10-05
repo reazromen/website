@@ -1,7 +1,7 @@
 ---
 title: Suite-Pee — Faith, Mockery, and the Violence of Certainty
 url: /posts/system-of-a-down-suite-pee-faith-mockery-and-the-violence-of-certainty.html
-date: '2026-09-26'
+date: '2023-04-06'
 read_time: 5
 excerpt: Faith, Mockery, and the Violence of Certainty
 topic: ''

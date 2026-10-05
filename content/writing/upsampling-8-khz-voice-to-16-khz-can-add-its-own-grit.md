@@ -1,7 +1,7 @@
 ---
 title: Upsampling 8 kHz Voice to 16 kHz Can Add Its Own Grit
 url: /posts/upsampling-8-khz-voice-to-16-khz-can-add-its-own-grit.html
-date: '2026-09-14'
+date: '2023-06-03'
 read_time: 1
 excerpt: Sample-rate conversion is audible when the implementation is crude or placed
   in the wrong part of the pipeline.

@@ -1,7 +1,7 @@
 ---
 title: Rule Evaluation Failures Mean Monitoring Logic Is Broken
 url: /posts/prod-monitoring-rule-evaluation-failures-mean-monitoring-logic-is-broken.html
-date: '2026-09-15'
+date: '2023-05-04'
 read_time: 35
 excerpt: A production-engineering deep dive into rule evaluation failures mean monitoring
   logic is broken, grounded in the 2014 Mac mini hserver observability stack and its

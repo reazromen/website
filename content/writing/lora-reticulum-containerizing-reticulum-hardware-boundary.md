@@ -1,7 +1,7 @@
 ---
 title: Containerizing Reticulum Did Not Remove the Hardware Boundary
 url: /posts/lora-reticulum-containerizing-reticulum-hardware-boundary.html
-date: '2026-09-15'
+date: '2022-04-30'
 read_time: 9
 excerpt: Docker made RNS reproducible, but the radio still existed as a physical character
   device outside the container.

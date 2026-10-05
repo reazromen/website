@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Civilization"
-date: '2026-10-03'
+date: '2022-07-16'
 draft: false
 language: en
 url: /posts/systems-reality-174-civilization-history.html

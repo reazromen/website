@@ -1,7 +1,7 @@
 ---
 title: An Operations Portal Should Not Become a Web Terminal
 url: /posts/operations-portal-should-not-become-web-terminal.html
-date: '2026-09-14'
+date: '2026-06-14'
 read_time: 1
 excerpt: Convenient arbitrary shell access would collapse the separation between reviewed
   operations and unrestricted host control.

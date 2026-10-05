@@ -1,7 +1,7 @@
 ---
 title: Why Worker Scaling Must Follow Queue Behavior
 url: /posts/why-worker-scaling-must-follow-queue-behavior.html
-date: '2026-09-18'
+date: '2023-11-20'
 read_time: 2
 excerpt: Thinking about replicas from queue latency and task cost rather than CPU
   alone.

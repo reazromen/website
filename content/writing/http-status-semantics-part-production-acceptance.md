@@ -1,7 +1,7 @@
 ---
 title: HTTP Status Semantics Are Part of Production Acceptance
 url: /posts/http-status-semantics-part-production-acceptance.html
-date: '2026-09-14'
+date: '2025-05-19'
 read_time: 1
 excerpt: A service can be reachable and still be routed through the wrong authentication
   or application layer.

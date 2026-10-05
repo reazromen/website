@@ -1,7 +1,7 @@
 ---
 title: Quicksilver — Atmosphere That Refuses to Become a Clear Object
 url: /posts/pink-floyd-quicksilver-atmosphere-that-refuses-to-become-a-clear-object.html
-date: '2026-09-26'
+date: '2025-09-05'
 read_time: 5
 excerpt: Atmosphere That Refuses to Become a Clear Object
 topic: ''

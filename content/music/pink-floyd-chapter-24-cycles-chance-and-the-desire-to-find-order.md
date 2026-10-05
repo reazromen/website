@@ -1,7 +1,7 @@
 ---
 title: Chapter 24 — Cycles, Chance, and the Desire to Find Order
 url: /posts/pink-floyd-chapter-24-cycles-chance-and-the-desire-to-find-order.html
-date: '2026-09-26'
+date: '2023-02-02'
 read_time: 5
 excerpt: Cycles, Chance, and the Desire to Find Order
 topic: ''

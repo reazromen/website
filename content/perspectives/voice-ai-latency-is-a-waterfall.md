@@ -1,7 +1,7 @@
 ---
 title: Voice AI Latency Is a Waterfall, Not One Number
 url: /posts/voice-ai-latency-is-a-waterfall.html
-date: '2026-09-26'
+date: '2023-05-27'
 read_time: 9
 excerpt: A voice agent can report fast STT, fast LLM, and fast TTS while still feeling
   slow because endpointing, network boundaries, tool calls, buffering, and playout

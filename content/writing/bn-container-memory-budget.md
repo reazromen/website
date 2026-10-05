@@ -1,6 +1,6 @@
 ---
 title: কনটেইনারের সংখ্যা দিয়ে মেমোরির বাজেট হয় না
-date: '2026-10-02'
+date: '2025-04-13'
 draft: false
 language: bn
 url: /posts/bn-container-memory-budget.html

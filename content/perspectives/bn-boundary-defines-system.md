@@ -1,6 +1,6 @@
 ---
 title: সিস্টেমের সীমানা কোথায় আঁকছেন
-date: '2026-10-02'
+date: '2025-09-28'
 draft: false
 language: bn
 url: /posts/bn-boundary-defines-system.html

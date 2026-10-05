@@ -1,7 +1,7 @@
 ---
 title: Network Reliability Starts by Naming the Failure Domain
 url: /posts/field-note-2026-name-failure-domain.html
-date: '2026-09-18'
+date: '2026-02-04'
 read_time: 2
 excerpt: Resolve the symptom into DNS, routing, transport, policy, ingress or application
   before changing configuration.

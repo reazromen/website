@@ -1,7 +1,7 @@
 ---
 title: Obscured by Clouds — When Atmosphere Becomes the Subject
 url: /posts/pink-floyd-obscured-by-clouds-when-atmosphere-becomes-the-subject.html
-date: '2026-09-26'
+date: '2020-07-22'
 read_time: 5
 excerpt: When Atmosphere Becomes the Subject
 topic: ''

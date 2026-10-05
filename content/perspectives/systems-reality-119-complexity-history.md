@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Complexity"
-date: '2026-10-03'
+date: '2020-04-09'
 draft: false
 language: en
 url: /posts/systems-reality-119-complexity-history.html

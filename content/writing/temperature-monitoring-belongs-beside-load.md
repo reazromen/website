@@ -1,7 +1,7 @@
 ---
 title: Temperature Monitoring Belongs Beside Load
 url: /posts/temperature-monitoring-belongs-beside-load.html
-date: '2026-09-14'
+date: '2023-11-13'
 read_time: 1
 excerpt: A small Mac mini running many containers can hit thermal constraints before
   ordinary CPU graphs explain why performance changed.

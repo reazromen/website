@@ -1,7 +1,7 @@
 ---
 title: Mode 2 Initiator and Mode 0 Target Was a Topology Contract
 url: /posts/lora-reticulum-mode2-initiator-mode0-target.html
-date: '2026-09-15'
+date: '2024-05-31'
 read_time: 9
 excerpt: Different EBYTE operating modes made it possible for both devices to be powered
   and configured yet unable to execute the intended over-air management transaction.

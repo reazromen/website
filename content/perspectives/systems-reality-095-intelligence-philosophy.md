@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Intelligence"
-date: '2026-10-03'
+date: '2023-12-07'
 draft: false
 language: en
 url: /posts/systems-reality-095-intelligence-philosophy.html

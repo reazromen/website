@@ -1,6 +1,6 @@
 ---
 title: অ্যান্টেনা বোর্ডের বাইরে শেষ হয় না
-date: '2026-10-02'
+date: '2023-06-25'
 draft: false
 language: bn
 url: /posts/bn-antenna-physical-context.html

@@ -1,7 +1,7 @@
 ---
 title: Why Loki Labels Need to Stay Boring
 url: /posts/prod-monitoring-why-loki-labels-need-to-stay-boring.html
-date: '2026-09-15'
+date: '2022-06-02'
 read_time: 36
 excerpt: A production-engineering deep dive into why loki labels need to stay boring,
   grounded in the 2014 Mac mini hserver observability stack and its accepted runtime

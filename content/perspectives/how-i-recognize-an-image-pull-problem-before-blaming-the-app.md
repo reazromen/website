@@ -1,7 +1,7 @@
 ---
 title: How I Recognize an Image-Pull Problem Before Blaming the App
 url: /posts/how-i-recognize-an-image-pull-problem-before-blaming-the-app.html
-date: '2026-09-18'
+date: '2024-10-05'
 read_time: 2
 excerpt: Using Kubernetes events and image references to separate runtime startup
   failures from application failures.

@@ -1,7 +1,7 @@
 ---
 title: Wi-Fi Provisioning Is the First Real Device-Onboarding Boundary
 url: /posts/wi-fi-provisioning-is-the-first-real-device-onboarding-boundary.html
-date: '2026-09-14'
+date: '2026-04-01'
 read_time: 1
 excerpt: A factory-fresh device has to join a trusted network before any cloud or
   PBX workflow can begin.

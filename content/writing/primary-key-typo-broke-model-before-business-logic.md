@@ -1,7 +1,7 @@
 ---
 title: A Typo in primary_key=True Broke the Model Before Any Business Logic Ran
 url: /posts/primary-key-typo-broke-model-before-business-logic.html
-date: '2026-09-14'
+date: '2022-02-27'
 read_time: 1
 excerpt: Schema declarations are executable code; a one-word typo can prevent the
   application model from initializing correctly.

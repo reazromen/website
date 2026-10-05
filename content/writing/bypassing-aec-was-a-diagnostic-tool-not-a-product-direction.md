@@ -1,7 +1,7 @@
 ---
 title: Bypassing AEC Was a Diagnostic Tool, Not a Product Direction
 url: /posts/bypassing-aec-was-a-diagnostic-tool-not-a-product-direction.html
-date: '2026-09-14'
+date: '2025-03-09'
 read_time: 1
 excerpt: Turning processing off can reveal whether the artifact is created before,
   inside or after the algorithm.

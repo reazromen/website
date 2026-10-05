@@ -1,6 +1,6 @@
 ---
 title: কোডের ভবিষ্যৎ পাঠকও একজন ব্যবহারকারী
-date: '2026-10-02'
+date: '2026-01-17'
 draft: false
 language: bn
 url: /posts/bn-maintenance-future-reader.html

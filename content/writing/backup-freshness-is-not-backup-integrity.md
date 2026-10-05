@@ -1,7 +1,7 @@
 ---
 title: Backup Freshness Is Not Backup Integrity
 url: /posts/backup-freshness-is-not-backup-integrity.html
-date: '2026-09-14'
+date: '2022-09-14'
 read_time: 1
 excerpt: A newly created directory can still be incomplete or corrupt, so age alone
   is weak recovery evidence.

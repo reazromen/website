@@ -1,7 +1,7 @@
 ---
 title: A PHY Scan Should Produce Evidence, Not Just Console Noise
 url: /posts/lora-reticulum-phy-scan-evidence-not-console-noise.html
-date: '2026-09-15'
+date: '2024-11-14'
 read_time: 9
 excerpt: Long automatic scans produced hundreds of lines that were hard to compare
   across runs.

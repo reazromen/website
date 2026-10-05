@@ -1,7 +1,7 @@
 ---
 title: Streamline — Loss, Distance, and the Finality of Not Getting Another Conversation
 url: /posts/system-of-a-down-streamline-loss-distance-and-the-finality-of-not-getting-another-conversation.html
-date: '2026-09-26'
+date: '2020-08-21'
 read_time: 5
 excerpt: Loss, Distance, and the Finality of Not Getting Another Conversation
 topic: ''

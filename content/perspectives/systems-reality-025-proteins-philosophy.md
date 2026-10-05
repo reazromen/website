@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Proteins"
-date: '2026-10-03'
+date: '2024-10-03'
 draft: false
 language: en
 url: /posts/systems-reality-025-proteins-philosophy.html

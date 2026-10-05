@@ -1,7 +1,7 @@
 ---
 title: 'Ubuntu 18.04 on a Lab Machine: The Networking Commands I Kept Reusing'
 url: /posts/ubuntu-18-04-lab-machine-networking-commands.html
-date: '2026-09-14'
+date: '2025-07-22'
 read_time: 3
 excerpt: Ubuntu 18.04 was a good excuse to stop relying on desktop network icons and
   start reading interface state, routes, sockets and DNS configuration directly from

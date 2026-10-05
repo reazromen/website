@@ -1,7 +1,7 @@
 ---
 title: Why Voiceware Needed More Than Docker Compose Thinking
 url: /posts/why-voiceware-needed-more-than-docker-compose-thinking.html
-date: '2026-09-18'
+date: '2023-06-25'
 read_time: 2
 excerpt: The conceptual shift from “start these containers” to declaring desired state
   and independent service lifecycles.

@@ -1,7 +1,7 @@
 ---
 title: Kubernetes Gateway API Is Not Just a New Ingress YAML
 url: /posts/kubernetes-gateway-api-not-new-ingress-yaml.html
-date: '2026-09-26'
+date: '2023-09-09'
 read_time: 9
 excerpt: Gateway API changes who owns the network boundary, how routes attach, and
   what a migration has to prove. Treating it as an Ingress syntax upgrade misses the

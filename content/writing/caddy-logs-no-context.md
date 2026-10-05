@@ -1,7 +1,7 @@
 ---
 title: Caddy Logs Exist, but They Still Do Not Answer Which User Request Failed
 url: /posts/caddy-logs-no-context.html
-date: '2026-09-18'
+date: '2024-10-13'
 read_time: 16
 excerpt: Logs become useful when access records, proxy errors and request identity
   can be correlated.

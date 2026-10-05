@@ -1,7 +1,7 @@
 ---
 title: A WS2812 Powered from VBAT Makes Logic Margin a Hardware Question
 url: /posts/pcb-bringup-ws2812-vbat-logic-margin-hardware-question.html
-date: '2026-09-15'
+date: '2024-02-04'
 read_time: 10
 excerpt: The single RGB status LED looked like a simple GPIO peripheral, but the schematic
   powered the WS2812B-2020 from a switched VBAT-derived RGB_VDD while its data came

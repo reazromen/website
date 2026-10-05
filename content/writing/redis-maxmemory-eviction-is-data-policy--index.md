@@ -1,7 +1,7 @@
 ---
 title: Redis maxmemory Is Not a Capacity Setting — It Is a Data-Loss Policy
 url: /posts/redis-maxmemory-eviction-is-data-policy/index.html
-date: '2026-09-26'
+date: '2023-09-20'
 read_time: 8
 excerpt: When Redis reaches maxmemory, the eviction policy decides which data may
   disappear or whether new writes should fail. That makes memory configuration part

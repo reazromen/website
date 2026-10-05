@@ -1,7 +1,7 @@
 ---
 title: 'A Year of Small Network Labs: What Broke Most Often'
 url: /posts/a-year-of-small-network-labs-what-broke-most-often.html
-date: '2026-09-14'
+date: '2024-08-22'
 read_time: 3
 excerpt: Most beginner lab failures were not exotic protocol bugs. They were wrong
   masks, wrong VLANs, missing routes, stale assumptions and tests that did not isolate

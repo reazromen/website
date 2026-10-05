@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Complexity"
-date: '2026-10-03'
+date: '2023-01-28'
 draft: false
 language: en
 url: /posts/systems-reality-120-complexity-philosophy.html

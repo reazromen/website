@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside DNA"
-date: '2026-10-03'
+date: '2021-11-11'
 draft: false
 language: en
 url: /posts/systems-reality-005-dna-philosophy.html

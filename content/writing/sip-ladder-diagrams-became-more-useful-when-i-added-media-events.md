@@ -1,7 +1,7 @@
 ---
 title: SIP Ladder Diagrams Became More Useful When I Added Media Events
 url: /posts/sip-ladder-diagrams-became-more-useful-when-i-added-media-events.html
-date: '2026-09-14'
+date: '2024-05-11'
 read_time: 1
 excerpt: A signalling-only ladder can say a call succeeded while the user heard silence;
   adding SDP and RTP events fixes that blind spot.

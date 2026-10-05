@@ -1,7 +1,7 @@
 ---
 title: Green Is the Colour — Tenderness Inside a Restless Period
 url: /posts/pink-floyd-green-is-the-colour-tenderness-inside-a-restless-period.html
-date: '2026-09-26'
+date: '2025-11-18'
 read_time: 5
 excerpt: Tenderness Inside a Restless Period
 topic: ''

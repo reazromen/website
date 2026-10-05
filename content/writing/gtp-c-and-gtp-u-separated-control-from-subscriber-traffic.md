@@ -1,7 +1,7 @@
 ---
 title: GTP-C and GTP-U Finally Separated Control from Subscriber Traffic
 url: /posts/gtp-c-and-gtp-u-separated-control-from-subscriber-traffic.html
-date: '2026-09-14'
+date: '2026-06-07'
 read_time: 2
 excerpt: GTP made more sense once I stopped treating it as one protocol and separated
   tunnel-control signalling from the packets that actually carry user traffic.

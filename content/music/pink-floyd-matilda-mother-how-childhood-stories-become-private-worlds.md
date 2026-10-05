@@ -1,7 +1,7 @@
 ---
 title: Matilda Mother — How Childhood Stories Become Private Worlds
 url: /posts/pink-floyd-matilda-mother-how-childhood-stories-become-private-worlds.html
-date: '2026-09-26'
+date: '2026-06-06'
 read_time: 5
 excerpt: How Childhood Stories Become Private Worlds
 topic: ''

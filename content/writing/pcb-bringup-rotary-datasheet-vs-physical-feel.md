@@ -1,7 +1,7 @@
 ---
 title: The Rotary Encoder Datasheet and the Desired Feel Disagreed
 url: /posts/pcb-bringup-rotary-datasheet-vs-physical-feel.html
-date: '2026-09-15'
+date: '2026-03-30'
 read_time: 9
 excerpt: The proposed encoder had push and six pulses per revolution, but its datasheet
   listed zero rotational detents while the product required clear tactile detents.

@@ -1,6 +1,6 @@
 ---
 title: "Where the user interface Analogy Breaks"
-date: '2026-10-03'
+date: '2020-11-17'
 draft: false
 language: en
 url: /posts/systems-reality-088-consciousness-metaphor.html

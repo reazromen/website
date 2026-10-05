@@ -1,6 +1,6 @@
 ---
 title: পরিবেশের ডেটায় লাইভ শব্দের বয়স
-date: '2026-10-02'
+date: '2024-04-22'
 draft: false
 language: bn
 url: /posts/bn-environment-data-age.html

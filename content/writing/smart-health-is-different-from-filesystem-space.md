@@ -1,7 +1,7 @@
 ---
 title: SMART Health Is Different from Filesystem Free Space
 url: /posts/smart-health-is-different-from-filesystem-space.html
-date: '2026-09-14'
+date: '2025-04-26'
 read_time: 1
 excerpt: A disk can have plenty of free capacity while the underlying SSD is reporting
   temperature or device-health problems.

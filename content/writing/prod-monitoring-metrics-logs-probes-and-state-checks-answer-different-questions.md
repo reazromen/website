@@ -1,7 +1,7 @@
 ---
 title: Metrics, Logs, Probes and State Checks Answer Different Questions
 url: /posts/prod-monitoring-metrics-logs-probes-and-state-checks-answer-different-questions.html
-date: '2026-09-15'
+date: '2024-07-30'
 read_time: 32
 excerpt: A production-engineering deep dive into metrics, logs, probes and state checks
   answer different questions, grounded in the 2014 Mac mini hserver observability

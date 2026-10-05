@@ -1,7 +1,7 @@
 ---
 title: Stale Telemetry Should Not Render as Healthy
 url: /posts/stale-telemetry-should-not-render-as-healthy.html
-date: '2026-09-14'
+date: '2023-12-24'
 read_time: 1
 excerpt: A last-known-good value becomes misleading when the system does not show
   how old the evidence is.

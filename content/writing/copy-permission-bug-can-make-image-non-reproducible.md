@@ -1,7 +1,7 @@
 ---
 title: A One-Line COPY Permission Bug Can Make an Image Non-Reproducible
 url: /posts/copy-permission-bug-can-make-image-non-reproducible.html
-date: '2026-09-14'
+date: '2022-02-14'
 read_time: 1
 excerpt: A configuration file copied with the wrong mode can behave differently depending
   on the build context and base image defaults.

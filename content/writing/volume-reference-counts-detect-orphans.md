@@ -1,7 +1,7 @@
 ---
 title: Volume Reference Counts Help Detect Orphaned Docker State
 url: /posts/volume-reference-counts-detect-orphans.html
-date: '2026-09-14'
+date: '2026-02-06'
 read_time: 1
 excerpt: Old Docker volumes can consume storage after services are removed, and their
   names alone do not always reveal whether anything still depends on them.

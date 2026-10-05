@@ -1,7 +1,7 @@
 ---
 title: 'Labels and Selectors: The Tiny Contract That Can Break an Entire Service'
 url: /posts/labels-and-selectors-the-tiny-contract-that-can-break-an-entire-service.html
-date: '2026-09-18'
+date: '2022-12-26'
 read_time: 2
 excerpt: Why the app label shared by a Deployment and Service matters more than it
   looks.

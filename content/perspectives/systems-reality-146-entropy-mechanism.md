@@ -1,6 +1,6 @@
 ---
 title: "What Entropy Really Is"
-date: '2026-10-03'
+date: '2026-04-09'
 draft: false
 language: en
 url: /posts/systems-reality-146-entropy-mechanism.html

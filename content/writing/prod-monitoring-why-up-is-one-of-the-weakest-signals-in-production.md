@@ -1,7 +1,7 @@
 ---
 title: Why “Up” Is One of the Weakest Signals in Production
 url: /posts/prod-monitoring-why-up-is-one-of-the-weakest-signals-in-production.html
-date: '2026-09-15'
+date: '2026-08-30'
 read_time: 32
 excerpt: A production-engineering deep dive into why “up” is one of the weakest signals
   in production, grounded in the 2014 Mac mini hserver observability stack and its

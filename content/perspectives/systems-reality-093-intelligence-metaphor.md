@@ -1,6 +1,6 @@
 ---
 title: "Where the optimization engine Analogy Breaks"
-date: '2026-10-03'
+date: '2023-05-25'
 draft: false
 language: en
 url: /posts/systems-reality-093-intelligence-metaphor.html

@@ -1,7 +1,7 @@
 ---
 title: Why I Would Still Start a Voiceware Migration With One Workload Today
 url: /posts/why-i-would-still-start-a-voiceware-migration-with-one-workload-today.html
-date: '2026-09-18'
+date: '2025-12-23'
 read_time: 2
 excerpt: The repeatable migration strategy that survived the real project.
 topic: voiceware-engineering

@@ -1,6 +1,6 @@
 ---
 title: "Proteins Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2023-04-19'
 draft: false
 language: en
 url: /posts/systems-reality-022-proteins-architecture.html

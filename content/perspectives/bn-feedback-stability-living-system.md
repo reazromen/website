@@ -1,6 +1,6 @@
 ---
 title: ফিডব্যাক থাকলেই স্থিরতা আসে না
-date: '2026-10-02'
+date: '2025-01-18'
 draft: false
 language: bn
 url: /posts/bn-feedback-stability-living-system.html

@@ -1,7 +1,7 @@
 ---
 title: Mongo Connections and Query Rate Tell Different Stories
 url: /posts/mongo-connections-and-query-rate-different-stories.html
-date: '2026-09-14'
+date: '2021-12-21'
 read_time: 1
 excerpt: A MongoDB service can accumulate client connections without a matching rise
   in useful query work, which can point to pooling or application lifecycle problems.

@@ -1,7 +1,7 @@
 ---
 title: Multi-Window Burn-Rate Alerts on a Tiny Self-Hosted Stack
 url: /posts/prod-monitoring-multi-window-burn-rate-alerts-on-a-tiny-self-hosted-stack.html
-date: '2026-09-15'
+date: '2026-02-20'
 read_time: 35
 excerpt: A production-engineering deep dive into multi-window burn-rate alerts on
   a tiny self-hosted stack, grounded in the 2014 Mac mini hserver observability stack

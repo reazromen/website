@@ -1,7 +1,7 @@
 ---
 title: 'Manifest Bugs vs Runtime Bugs: Voiceware Had Both Kinds of Risk'
 url: /posts/manifest-bugs-vs-runtime-bugs-voiceware-had-both-kinds-of-risk.html
-date: '2026-09-18'
+date: '2024-12-25'
 read_time: 2
 excerpt: Separating incorrect desired state from a correctly declared process that
   behaves badly.

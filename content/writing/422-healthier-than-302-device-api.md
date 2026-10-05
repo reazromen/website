@@ -1,7 +1,7 @@
 ---
 title: A 422 Can Be Healthier Than a 302 for a Device API
 url: /posts/422-healthier-than-302-device-api.html
-date: '2026-09-14'
+date: '2023-10-08'
 read_time: 1
 excerpt: For an intentionally invalid API payload, validation failure proves the request
   reached the correct application boundary.

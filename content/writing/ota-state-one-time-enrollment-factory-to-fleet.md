@@ -1,7 +1,7 @@
 ---
 title: One-Time Enrollment Turns Factory State into Fleet State
 url: /posts/ota-state-one-time-enrollment-factory-to-fleet.html
-date: '2026-09-15'
+date: '2023-08-05'
 read_time: 8
 excerpt: Factory-programmed boards needed a controlled transition into an enrolled
   state without shipping a reusable fleet credential.

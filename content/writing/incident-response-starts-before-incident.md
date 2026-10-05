@@ -1,7 +1,7 @@
 ---
 title: Incident Response Starts Before the Incident
 url: /posts/incident-response-starts-before-incident.html
-date: '2026-09-14'
+date: '2020-03-05'
 read_time: 1
 excerpt: Backups, dashboards, ownership and rollback paths are incident-response work
   performed while the system is calm.

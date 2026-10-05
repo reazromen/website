@@ -1,7 +1,7 @@
 ---
 title: I2C Detection Proves Presence, Not Functional Correctness
 url: /posts/pcb-bringup-i2c-detection-presence-not-function.html
-date: '2026-09-15'
+date: '2022-01-16'
 read_time: 9
 excerpt: Seeing ES8311, ES7210 and AXP2101 on the I2C bus was necessary but insufficient
   evidence that the audio and power architecture worked correctly.

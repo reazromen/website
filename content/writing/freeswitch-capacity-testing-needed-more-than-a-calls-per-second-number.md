@@ -1,7 +1,7 @@
 ---
 title: FreeSWITCH Capacity Testing Needed More Than a Calls-Per-Second Number
 url: /posts/freeswitch-capacity-testing-needed-more-than-a-calls-per-second-number.html
-date: '2026-09-14'
+date: '2025-09-09'
 read_time: 1
 excerpt: Call setup rate, concurrent calls and media work stress different parts of
   a voice platform.

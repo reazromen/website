@@ -1,7 +1,7 @@
 ---
 title: My Voiceware-to-Kubernetes Migration Checklist
 url: /posts/my-voiceware-to-kubernetes-migration-checklist.html
-date: '2026-09-18'
+date: '2025-04-02'
 read_time: 3
 excerpt: A practical sequence for moving a service without losing track of runtime
   assumptions.

@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Communication Technology"
-date: '2026-10-03'
+date: '2020-09-21'
 draft: false
 language: en
 url: /posts/systems-reality-179-communication-technology-history.html

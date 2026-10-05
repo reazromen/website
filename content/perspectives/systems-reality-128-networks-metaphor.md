@@ -1,6 +1,6 @@
 ---
 title: "Where the graph Analogy Breaks"
-date: '2026-10-03'
+date: '2026-01-02'
 draft: false
 language: en
 url: /posts/systems-reality-128-networks-metaphor.html

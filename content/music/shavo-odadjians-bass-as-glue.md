@@ -1,7 +1,7 @@
 ---
 title: Shavo Odadjian's Bass as Glue
 url: /posts/shavo-odadjians-bass-as-glue.html
-date: '2026-09-26'
+date: '2025-02-20'
 read_time: 5
 excerpt: The value of low-end continuity when guitars and vocals keep changing direction
 topic: ''

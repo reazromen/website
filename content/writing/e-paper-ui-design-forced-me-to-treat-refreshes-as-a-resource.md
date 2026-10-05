@@ -1,7 +1,7 @@
 ---
 title: E-Paper UI Design Forced Me to Treat Refreshes as a Resource
 url: /posts/e-paper-ui-design-forced-me-to-treat-refreshes-as-a-resource.html
-date: '2026-09-14'
+date: '2023-09-27'
 read_time: 1
 excerpt: 'A slow monochrome display changes interaction design: information hierarchy
   matters more than animation.'

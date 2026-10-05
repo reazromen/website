@@ -1,7 +1,7 @@
 ---
 title: Why a Worker Might Disable Gossip, Mingle, and Heartbeats
 url: /posts/why-a-worker-might-disable-gossip-mingle-and-heartbeats.html
-date: '2026-09-18'
+date: '2025-07-21'
 read_time: 3
 excerpt: The operational trade-offs visible in the Voiceware low-worker command.
 topic: voiceware-engineering

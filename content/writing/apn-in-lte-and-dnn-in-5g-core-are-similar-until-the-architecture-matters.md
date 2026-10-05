@@ -1,7 +1,7 @@
 ---
 title: APN in LTE and DNN in 5G Core Are Similar Until the Architecture Matters
 url: /posts/apn-in-lte-and-dnn-in-5g-core-are-similar-until-the-architecture-matters.html
-date: '2026-09-14'
+date: '2025-10-06'
 read_time: 2
 excerpt: APN and DNN both identify data-network intent, but the surrounding EPC and
   5GC procedures are different enough that treating them as pure renames is misleading.

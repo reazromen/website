@@ -1,6 +1,6 @@
 ---
 title: "What Networks Really Is"
-date: '2026-10-03'
+date: '2022-02-03'
 draft: false
 language: en
 url: /posts/systems-reality-126-networks-mechanism.html

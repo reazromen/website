@@ -1,7 +1,7 @@
 ---
 title: RTP Is Not SIP, and That Difference Explains a Lot of Broken Calls
 url: /posts/rtp-is-not-sip-and-that-difference-explains-broken-calls.html
-date: '2026-09-14'
+date: '2025-01-29'
 read_time: 2
 excerpt: Signaling and media usually take different paths, use different ports and
   fail for different reasons, so a working SIP registration says very little about

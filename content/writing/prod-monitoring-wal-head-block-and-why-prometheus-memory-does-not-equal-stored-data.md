@@ -1,7 +1,7 @@
 ---
 title: WAL, Head Block and Why Prometheus Memory Does Not Equal Stored Data
 url: /posts/prod-monitoring-wal-head-block-and-why-prometheus-memory-does-not-equal-stored-data.html
-date: '2026-09-15'
+date: '2022-03-15'
 read_time: 36
 excerpt: A production-engineering deep dive into wal, head block and why prometheus
   memory does not equal stored data, grounded in the 2014 Mac mini hserver observability

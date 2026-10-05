@@ -1,6 +1,6 @@
 ---
 title: "What Information Really Is"
-date: '2026-10-03'
+date: '2026-04-14'
 draft: false
 language: en
 url: /posts/systems-reality-101-information-mechanism.html

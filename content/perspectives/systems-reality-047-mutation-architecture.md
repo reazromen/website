@@ -1,6 +1,6 @@
 ---
 title: "Mutation Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2024-05-07'
 draft: false
 language: en
 url: /posts/systems-reality-047-mutation-architecture.html

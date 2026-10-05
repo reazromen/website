@@ -1,7 +1,7 @@
 ---
 title: OpenSIPS 5xx Spikes Show Signaling Quality
 url: /posts/opensips-5xx-spikes-signaling-quality.html
-date: '2026-09-14'
+date: '2025-12-23'
 read_time: 1
 excerpt: Registration counts and dialog counts can look stable while transaction failures
   increase for a subset of calls.

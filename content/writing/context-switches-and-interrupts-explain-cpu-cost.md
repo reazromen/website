@@ -1,7 +1,7 @@
 ---
 title: Context Switches and Interrupts Explain Some Invisible CPU Cost
 url: /posts/context-switches-and-interrupts-explain-cpu-cost.html
-date: '2026-09-14'
+date: '2020-01-13'
 read_time: 1
 excerpt: CPU percentage alone did not reveal when the kernel was spending more work
   scheduling tasks or servicing device activity.

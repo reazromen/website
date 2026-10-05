@@ -1,7 +1,7 @@
 ---
 title: Alert Fatigue Is an Architecture Bug
 url: /posts/prod-monitoring-alert-fatigue-is-an-architecture-bug.html
-date: '2026-09-15'
+date: '2023-07-23'
 read_time: 33
 excerpt: A production-engineering deep dive into alert fatigue is an architecture
   bug, grounded in the 2014 Mac mini hserver observability stack and its accepted

@@ -1,7 +1,7 @@
 ---
 title: ZFS Scrub, Resilver, Snapshot, and Replication Solve Different Failure Modes
 url: /posts/zfs-scrub-resilver-snapshot-replication.html
-date: '2026-09-26'
+date: '2025-06-19'
 read_time: 8
 excerpt: A scrub detects latent corruption, a resilver reconstructs missing redundancy,
   a snapshot preserves an earlier dataset state, and replication puts that state somewhere

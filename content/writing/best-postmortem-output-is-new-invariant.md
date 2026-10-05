@@ -1,7 +1,7 @@
 ---
 title: The Best Postmortem Output Is a New Invariant
 url: /posts/best-postmortem-output-is-new-invariant.html
-date: '2026-09-14'
+date: '2026-06-15'
 read_time: 1
 excerpt: Fixing one incident is useful; changing the system so the same class of failure
   becomes detectable or impossible is more valuable.

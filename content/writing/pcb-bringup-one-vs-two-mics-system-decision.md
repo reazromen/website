@@ -1,7 +1,7 @@
 ---
 title: One Microphone or Two Is a System Decision
 url: /posts/pcb-bringup-one-vs-two-mics-system-decision.html
-date: '2026-09-15'
+date: '2021-01-13'
 read_time: 9
 excerpt: The microphone count could not be chosen only by firmware or only by mechanical
   design because it changes acoustics, channels, BOM, placement, assembly and test.

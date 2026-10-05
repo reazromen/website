@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Evolution"
-date: '2026-10-03'
+date: '2020-06-15'
 draft: false
 language: en
 url: /posts/systems-reality-040-evolution-philosophy.html

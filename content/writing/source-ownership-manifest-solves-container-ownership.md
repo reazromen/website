@@ -1,7 +1,7 @@
 ---
 title: A Source-Ownership Manifest Solved the 'Who Owns This Container?' Problem
 url: /posts/source-ownership-manifest-solves-container-ownership.html
-date: '2026-09-14'
+date: '2020-03-28'
 read_time: 1
 excerpt: Seeing a service in Portainer does not tell you which repository, runbook
   or backup path can recreate it.

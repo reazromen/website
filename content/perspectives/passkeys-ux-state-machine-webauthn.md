@@ -1,7 +1,7 @@
 ---
 title: Passkeys Are Cryptographically Simple Compared With Their UX State Machine
 url: /posts/passkeys-ux-state-machine-webauthn.html
-date: '2026-09-26'
+date: '2021-12-27'
 read_time: 9
 excerpt: WebAuthn can prove possession of a scoped private key. The product still
   has to reason about synced credentials, discoverable accounts, conditional UI, recovery,

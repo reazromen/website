@@ -1,7 +1,7 @@
 ---
 title: Self-Hosted ntfy Removed an External Delivery Dependency
 url: /posts/self-hosted-ntfy-removes-external-dependency.html
-date: '2026-09-14'
+date: '2026-06-22'
 read_time: 1
 excerpt: The alert sink originally targeted a public ntfy service, which made production
   notification depend on infrastructure outside the hserver control boundary.

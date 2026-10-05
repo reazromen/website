@@ -1,7 +1,7 @@
 ---
 title: Device Enrollment and Heartbeat Are Different Events
 url: /posts/field-note-2026-enrollment-not-heartbeat.html
-date: '2026-09-18'
+date: '2026-01-19'
 read_time: 2
 excerpt: Enrollment establishes trusted identity; heartbeat reports what an already
   known device is doing.

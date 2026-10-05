@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Number"
-date: '2026-10-03'
+date: '2020-02-12'
 draft: false
 language: en
 url: /posts/systems-reality-139-number-history.html

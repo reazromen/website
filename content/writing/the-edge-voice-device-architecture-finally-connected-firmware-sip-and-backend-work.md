@@ -2,7 +2,7 @@
 title: The Edge Voice Device Architecture Finally Connected Firmware, SIP and Backend
   Work
 url: /posts/the-edge-voice-device-architecture-finally-connected-firmware-sip-and-backend-work.html
-date: '2026-09-14'
+date: '2023-02-20'
 read_time: 1
 excerpt: By the end of the year the interesting problem was no longer a codec or PBX;
   it was the boundary between device identity, firmware, SIP and backend control.

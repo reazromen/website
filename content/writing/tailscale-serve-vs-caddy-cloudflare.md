@@ -1,7 +1,7 @@
 ---
 title: Where Tailscale Serve Fits Beside Caddy and a Public Cloudflare Tunnel
 url: /posts/tailscale-serve-vs-caddy-cloudflare.html
-date: '2026-09-18'
+date: '2025-10-12'
 read_time: 2
 excerpt: Private tailnet publishing and public internet publishing are different ingress
   jobs, even when they reach the same container.

@@ -1,7 +1,7 @@
 ---
 title: Why the Firmware Has to Stay PBX-Agnostic
 url: /posts/why-the-firmware-has-to-stay-pbx-agnostic.html
-date: '2026-09-14'
+date: '2026-07-06'
 read_time: 1
 excerpt: Hard-coding one PBX would turn infrastructure choice into a firmware release
   dependency.

@@ -1,7 +1,7 @@
 ---
 title: Failure Injection Is Part of the OTA Definition of Done
 url: /posts/ota-state-failure-injection-definition-of-done.html
-date: '2026-09-15'
+date: '2025-04-05'
 read_time: 8
 excerpt: A successful happy-path download could not prove rollback, credential rejection,
   compatibility gates or interrupted writes behaved safely.

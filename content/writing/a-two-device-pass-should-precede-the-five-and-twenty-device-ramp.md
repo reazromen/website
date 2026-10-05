@@ -1,7 +1,7 @@
 ---
 title: A Two-Device Pass Should Precede the Five- and Twenty-Device Ramp
 url: /posts/a-two-device-pass-should-precede-the-five-and-twenty-device-ramp.html
-date: '2026-09-14'
+date: '2025-11-09'
 read_time: 1
 excerpt: Fleet growth should happen after the representative call path is stable on
   real hardware.

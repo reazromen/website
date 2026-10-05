@@ -1,7 +1,7 @@
 ---
 title: Why System of a Down Choruses Often Feel Like Public Speech
 url: /posts/why-system-of-a-down-choruses-often-feel-like-public-speech.html
-date: '2026-09-26'
+date: '2023-07-09'
 read_time: 5
 excerpt: How melody can transform a private line into something that sounds collective
 topic: ''

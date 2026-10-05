@@ -1,7 +1,7 @@
 ---
 title: Culture Shows Up in the Default Path
 url: /posts/culture-shows-up-in-the-default-path.html
-date: '2026-09-14'
+date: '2026-05-21'
 read_time: 1
 excerpt: A team’s real values are visible in what the normal workflow makes easy,
   not in what the handbook says.

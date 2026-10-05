@@ -1,7 +1,7 @@
 ---
 title: Anchoring RTP with rtpengine Solved a Different Problem Than SIP Routing
 url: /posts/anchoring-rtp-with-rtpengine-solved-a-different-problem-than-sip-routing.html
-date: '2026-09-14'
+date: '2026-03-22'
 read_time: 3
 excerpt: Kamailio could route the signaling perfectly while media still failed. rtpengine
   made the signaling path and media path explicit instead of treating them as one

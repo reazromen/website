@@ -1,7 +1,7 @@
 ---
 title: Compatibility Is Checked at Assignment and Artifact Request
 url: /posts/ota-state-compatibility-checked-twice.html
-date: '2026-09-15'
+date: '2021-08-05'
 read_time: 8
 excerpt: A device can change state after assignment, so one compatibility decision
   made earlier may become stale before download.

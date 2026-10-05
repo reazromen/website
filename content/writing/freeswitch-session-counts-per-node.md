@@ -1,7 +1,7 @@
 ---
 title: FreeSWITCH Session Counts Need Per-Node Breakdown
 url: /posts/freeswitch-session-counts-per-node.html
-date: '2026-09-14'
+date: '2025-02-03'
 read_time: 1
 excerpt: A healthy total session count can hide a load-balancing problem if one FreeSWITCH
   node carries nearly all calls while another remains idle.

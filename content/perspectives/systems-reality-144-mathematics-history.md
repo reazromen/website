@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Mathematics"
-date: '2026-10-03'
+date: '2022-01-23'
 draft: false
 language: en
 url: /posts/systems-reality-144-mathematics-history.html

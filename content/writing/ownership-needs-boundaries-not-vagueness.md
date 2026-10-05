@@ -1,7 +1,7 @@
 ---
 title: Ownership Needs Boundaries, Not Vagueness
 url: /posts/ownership-needs-boundaries-not-vagueness.html
-date: '2026-09-14'
+date: '2022-06-05'
 read_time: 1
 excerpt: Shared responsibility works only when teams also know which decisions they
   actually own.

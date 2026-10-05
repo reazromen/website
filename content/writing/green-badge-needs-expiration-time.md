@@ -1,7 +1,7 @@
 ---
 title: A Green Badge Needs an Expiration Time
 url: /posts/green-badge-needs-expiration-time.html
-date: '2026-09-14'
+date: '2023-01-17'
 read_time: 1
 excerpt: Operational evidence should age out automatically rather than remaining green
   until someone notices it is old.

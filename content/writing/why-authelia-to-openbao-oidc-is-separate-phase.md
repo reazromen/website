@@ -1,7 +1,7 @@
 ---
 title: Why Authelia-to-OpenBao OIDC Is a Separate Phase
 url: /posts/why-authelia-to-openbao-oidc-is-separate-phase.html
-date: '2026-09-14'
+date: '2022-12-01'
 read_time: 1
 excerpt: Human federation should be added after the secret authority is stable, not
   mixed into the initial bootstrap trust ceremony.

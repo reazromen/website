@@ -1,7 +1,7 @@
 ---
 title: Why I Chose Detached ECDSA P-256 Signatures for Production OTA
 url: /posts/firmware-release-detached-ecdsa-p256-production-ota.html
-date: '2026-09-15'
+date: '2025-04-03'
 read_time: 9
 excerpt: Production needed a release artifact that the server and device could verify
   without embedding a private signing secret into either runtime.

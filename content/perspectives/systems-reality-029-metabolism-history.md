@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Metabolism"
-date: '2026-10-03'
+date: '2026-02-25'
 draft: false
 language: en
 url: /posts/systems-reality-029-metabolism-history.html

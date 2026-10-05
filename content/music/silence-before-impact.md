@@ -1,7 +1,7 @@
 ---
 title: Silence Before Impact
 url: /posts/silence-before-impact.html
-date: '2026-09-26'
+date: '2022-10-09'
 read_time: 5
 excerpt: How brief reductions in density make the next loud moment feel structural
   rather than merely louder

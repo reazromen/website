@@ -1,7 +1,7 @@
 ---
 title: The Voiceware Deployment Template and the Value of Boring Repetition
 url: /posts/the-voiceware-deployment-template-and-the-value-of-boring-repetition.html
-date: '2026-09-18'
+date: '2025-01-15'
 read_time: 2
 excerpt: Why a predictable Deployment shape across services made the repository easier
   to scan.

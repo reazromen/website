@@ -1,7 +1,7 @@
 ---
 title: No Reply Was an Inconclusive Result, Not Proof of RF Failure
 url: /posts/lora-reticulum-no-reply-inconclusive-not-rf-failure.html
-date: '2026-09-15'
+date: '2024-09-09'
 read_time: 9
 excerpt: Silence from the EWM looked like a hardware failure but the observation did
   not isolate which half of the wireless path was wrong.

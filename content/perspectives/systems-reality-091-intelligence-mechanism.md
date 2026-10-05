@@ -1,6 +1,6 @@
 ---
 title: "What Intelligence Really Is"
-date: '2026-10-03'
+date: '2020-11-05'
 draft: false
 language: en
 url: /posts/systems-reality-091-intelligence-mechanism.html

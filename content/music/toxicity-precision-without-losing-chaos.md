@@ -1,7 +1,7 @@
 ---
 title: Toxicity — Precision Without Losing Chaos
 url: /posts/toxicity-precision-without-losing-chaos.html
-date: '2026-09-26'
+date: '2026-01-11'
 read_time: 5
 excerpt: How tighter structure can make volatility hit harder rather than make it
   safer

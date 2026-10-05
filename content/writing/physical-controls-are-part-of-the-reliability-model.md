@@ -1,7 +1,7 @@
 ---
 title: Physical Controls Are Part of the Reliability Model
 url: /posts/physical-controls-are-part-of-the-reliability-model.html
-date: '2026-09-14'
+date: '2024-02-19'
 read_time: 1
 excerpt: A voice device should remain operable when the display is slow or partially
   refreshing.

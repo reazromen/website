@@ -1,7 +1,7 @@
 ---
 title: A Tinny Speaker Is Not Automatically a Codec Problem
 url: /posts/embedded-audio-tinny-speaker-not-codec-problem.html
-date: '2026-09-15'
+date: '2026-09-23'
 read_time: 12
 excerpt: Field feedback described the speaker as very tinny even though the digital
   call path was working.

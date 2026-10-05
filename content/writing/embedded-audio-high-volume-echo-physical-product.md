@@ -1,7 +1,7 @@
 ---
 title: High-Volume Echo Moved the Bug into the Physical Product
 url: /posts/embedded-audio-high-volume-echo-physical-product.html
-date: '2026-09-15'
+date: '2025-02-25'
 read_time: 12
 excerpt: After digital timing became stable, echo increased at high speaker volume
   and could no longer be treated as only a network or queue problem.

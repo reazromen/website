@@ -1,6 +1,6 @@
 ---
 title: একই জায়গা, আলাদা কোঅর্ডিনেট
-date: '2026-10-02'
+date: '2026-05-30'
 draft: false
 language: bn
 url: /posts/bn-geometry-coordinate-choice.html

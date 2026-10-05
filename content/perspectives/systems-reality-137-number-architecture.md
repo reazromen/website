@@ -1,6 +1,6 @@
 ---
 title: "Number Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2023-08-28'
 draft: false
 language: en
 url: /posts/systems-reality-137-number-architecture.html

@@ -1,7 +1,7 @@
 ---
 title: Why Voice Processing and Web Serving Should Fail Independently
 url: /posts/why-voice-processing-and-web-serving-should-fail-independently.html
-date: '2026-09-18'
+date: '2023-12-07'
 read_time: 2
 excerpt: Using deployment separation to reduce cross-component blast radius.
 topic: voiceware-engineering

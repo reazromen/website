@@ -2,7 +2,7 @@
 title: A Distributed Lock Without Fencing Can Let a Dead Worker Come Back and Corrupt
   State
 url: /posts/distributed-lock-needs-fencing-token.html
-date: '2026-09-26'
+date: '2025-04-30'
 read_time: 8
 excerpt: A lease can expire while its old owner is paused rather than dead. If that
   process later resumes, the lock service may have moved on—but the storage system

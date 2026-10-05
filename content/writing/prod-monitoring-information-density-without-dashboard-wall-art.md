@@ -1,7 +1,7 @@
 ---
 title: Information Density Without Dashboard Wall Art
 url: /posts/prod-monitoring-information-density-without-dashboard-wall-art.html
-date: '2026-09-15'
+date: '2023-06-06'
 read_time: 30
 excerpt: A production-engineering deep dive into information density without dashboard
   wall art, grounded in the 2014 Mac mini hserver observability stack and its accepted

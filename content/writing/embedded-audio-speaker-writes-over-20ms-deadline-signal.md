@@ -1,7 +1,7 @@
 ---
 title: Speaker Writes Over 20 ms Became My Local Deadline Signal
 url: /posts/embedded-audio-speaker-writes-over-20ms-deadline-signal.html
-date: '2026-09-15'
+date: '2024-09-26'
 read_time: 12
 excerpt: Crackle and cutouts needed a device-side timing metric that was closer to
   the DAC than packet arrival.

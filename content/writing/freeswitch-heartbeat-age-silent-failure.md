@@ -1,7 +1,7 @@
 ---
 title: Worker Heartbeat Age Catches Silent FreeSWITCH Failure
 url: /posts/freeswitch-heartbeat-age-silent-failure.html
-date: '2026-09-14'
+date: '2020-03-25'
 read_time: 1
 excerpt: A FreeSWITCH process may remain alive while its worker integration stops
   reporting useful state to the signaling layer.

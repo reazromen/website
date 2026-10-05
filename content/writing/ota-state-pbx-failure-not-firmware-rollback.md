@@ -1,7 +1,7 @@
 ---
 title: PBX Failure Must Not Roll Back Healthy Firmware
 url: /posts/ota-state-pbx-failure-not-firmware-rollback.html
-date: '2026-09-15'
+date: '2025-06-19'
 read_time: 8
 excerpt: A temporary network, DNS, backend or PBX outage could otherwise make a healthy
   image look defective during first boot.

@@ -1,7 +1,7 @@
 ---
 title: Docker Networks Hid Less Once I Drew the Packet Path
 url: /posts/docker-networks-hid-less-once-i-drew-the-packet-path.html
-date: '2026-09-14'
+date: '2024-06-24'
 read_time: 1
 excerpt: Container networking stopped feeling magical when I separated host routing,
   bridge interfaces, NAT and the application socket.

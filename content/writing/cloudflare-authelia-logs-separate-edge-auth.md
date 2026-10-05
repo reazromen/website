@@ -1,7 +1,7 @@
 ---
 title: Cloudflare and Authelia Logs Explain Edge Failures Differently
 url: /posts/cloudflare-authelia-logs-separate-edge-auth.html
-date: '2026-09-14'
+date: '2021-12-29'
 read_time: 1
 excerpt: A public request can fail before reaching Authelia, inside the authentication
   flow, or after authentication while the upstream application is unavailable.

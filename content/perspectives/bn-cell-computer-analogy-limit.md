@@ -1,6 +1,6 @@
 ---
 title: সেলকে কম্পিউটার বললে কোথায় তুলনাটা থামে
-date: '2026-10-02'
+date: '2020-06-16'
 draft: false
 language: bn
 url: /posts/bn-cell-computer-analogy-limit.html

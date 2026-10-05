@@ -1,7 +1,7 @@
 ---
 title: 'HTTP/3 in Enterprise Networks: QUIC Broke the Old Inspection Assumptions'
 url: /posts/http3-quic-enterprise-inspection-assumptions.html
-date: '2026-09-26'
+date: '2024-02-22'
 read_time: 9
 excerpt: Blocking UDP/443 is not merely a firewall rule. QUIC moves transport, security,
   streams, and connection identity into a model that old TCP/TLS inspection architectures

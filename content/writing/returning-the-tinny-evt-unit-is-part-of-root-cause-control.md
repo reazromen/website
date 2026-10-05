@@ -1,7 +1,7 @@
 ---
 title: Returning the Tinny EVT Unit Is Part of Root-Cause Control
 url: /posts/returning-the-tinny-evt-unit-is-part-of-root-cause-control.html
-date: '2026-09-14'
+date: '2025-04-29'
 read_time: 1
 excerpt: Remote descriptions of sound are not enough when hardware, assembly and enclosure
   can all differ.

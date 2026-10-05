@@ -1,7 +1,7 @@
 ---
 title: The Missing service.port Bug in celery-low
 url: /posts/the-missing-service-port-bug-in-celery-low.html
-date: '2026-09-18'
+date: '2022-06-16'
 read_time: 1
 excerpt: Why one absent value can break an otherwise familiar chart pattern.
 topic: voiceware-engineering

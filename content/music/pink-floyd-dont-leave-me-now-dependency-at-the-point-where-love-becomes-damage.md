@@ -1,7 +1,7 @@
 ---
 title: Don't Leave Me Now — Dependency at the Point Where Love Becomes Damage
 url: /posts/pink-floyd-dont-leave-me-now-dependency-at-the-point-where-love-becomes-damage.html
-date: '2026-09-26'
+date: '2025-07-15'
 read_time: 5
 excerpt: Dependency at the Point Where Love Becomes Damage
 topic: ''

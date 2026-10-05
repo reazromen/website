@@ -1,7 +1,7 @@
 ---
 title: Deer Dance — Power, Protest, and the Distance Between Order and Violence
 url: /posts/system-of-a-down-deer-dance-power-protest-and-the-distance-between-order-and-violence.html
-date: '2026-09-26'
+date: '2026-06-03'
 read_time: 5
 excerpt: Power, Protest, and the Distance Between Order and Violence
 topic: ''

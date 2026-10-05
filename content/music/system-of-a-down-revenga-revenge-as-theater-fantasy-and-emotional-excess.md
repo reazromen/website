@@ -1,7 +1,7 @@
 ---
 title: Revenga — Revenge as Theater, Fantasy, and Emotional Excess
 url: /posts/system-of-a-down-revenga-revenge-as-theater-fantasy-and-emotional-excess.html
-date: '2026-09-26'
+date: '2022-06-05'
 read_time: 5
 excerpt: Revenge as Theater, Fantasy, and Emotional Excess
 topic: ''

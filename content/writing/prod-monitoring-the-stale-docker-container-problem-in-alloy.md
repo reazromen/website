@@ -1,7 +1,7 @@
 ---
 title: The Stale Docker Container Problem in Alloy
 url: /posts/prod-monitoring-the-stale-docker-container-problem-in-alloy.html
-date: '2026-09-15'
+date: '2025-06-05'
 read_time: 36
 excerpt: A production-engineering deep dive into the stale docker container problem
   in alloy, grounded in the 2014 Mac mini hserver observability stack and its accepted

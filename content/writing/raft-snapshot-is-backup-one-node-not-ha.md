@@ -1,7 +1,7 @@
 ---
 title: Two OpenBao Services on One Host Are Still Not High Availability
 url: /posts/raft-snapshot-is-backup-one-node-not-ha.html
-date: '2026-09-14'
+date: '2026-08-10'
 read_time: 1
 excerpt: Separating the main secret authority from the Transit seal service improves
   trust boundaries, but both still share the same physical host failure domain.

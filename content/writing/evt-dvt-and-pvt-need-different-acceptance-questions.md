@@ -1,7 +1,7 @@
 ---
 title: EVT, DVT and PVT Need Different Acceptance Questions
 url: /posts/evt-dvt-and-pvt-need-different-acceptance-questions.html
-date: '2026-09-14'
+date: '2025-10-17'
 read_time: 1
 excerpt: A prototype phase name is useful only when the team knows what evidence graduates
   the build.

@@ -1,7 +1,7 @@
 ---
 title: Self-Titled Rawness vs Toxicity Precision
 url: /posts/self-titled-rawness-vs-toxicity-precision.html
-date: '2026-09-26'
+date: '2020-08-12'
 read_time: 5
 excerpt: What is gained and lost when a band's language becomes more controlled
 topic: ''

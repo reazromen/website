@@ -1,6 +1,6 @@
 ---
 title: আরটিপির টাইমস্ট্যাম্প ঘড়ির সময় না
-date: '2026-10-02'
+date: '2023-12-25'
 draft: false
 language: bn
 url: /posts/bn-rtp-timestamp-not-wall-clock.html

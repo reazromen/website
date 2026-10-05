@@ -1,7 +1,7 @@
 ---
 title: Wish You Were Here — Presence, Absence, and the Person Missing From the Room
 url: /posts/pink-floyd-wish-you-were-here-presence-absence-and-the-person-missing-from-the-room.html
-date: '2026-09-26'
+date: '2026-09-27'
 read_time: 5
 excerpt: Presence, Absence, and the Person Missing From the Room
 topic: ''

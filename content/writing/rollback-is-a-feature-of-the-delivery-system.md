@@ -1,7 +1,7 @@
 ---
 title: Rollback Is a Feature of the Delivery System
 url: /posts/rollback-is-a-feature-of-the-delivery-system.html
-date: '2026-09-14'
+date: '2024-12-16'
 read_time: 1
 excerpt: A rollback plan has to exist before deployment and be exercised by the same
   system that performs forward changes.

@@ -1,7 +1,7 @@
 ---
 title: The Terraform Dependency Lock File Is Part of Your Reproducibility Boundary
 url: /posts/terraform-lock-file-is-reproducibility-boundary/index.html
-date: '2026-09-26'
+date: '2022-02-26'
 read_time: 8
 excerpt: required_providers constrains acceptable versions; .terraform.lock.hcl records
   the exact provider selections and checksums Terraform should install. Committing

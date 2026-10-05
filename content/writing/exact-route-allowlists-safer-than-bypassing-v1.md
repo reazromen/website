@@ -1,7 +1,7 @@
 ---
 title: Exact Route Allowlists Are Safer Than Bypassing Authentication for /v1
 url: /posts/exact-route-allowlists-safer-than-bypassing-v1.html
-date: '2026-09-14'
+date: '2025-02-14'
 read_time: 1
 excerpt: A broad path prefix can expose future endpoints that did not exist when the
   exception was created.

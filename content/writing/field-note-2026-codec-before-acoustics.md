@@ -1,7 +1,7 @@
 ---
 title: Separate Codec Bring-Up from Acoustic Tuning
 url: /posts/field-note-2026-codec-before-acoustics.html
-date: '2026-09-18'
+date: '2026-08-19'
 read_time: 2
 excerpt: Prove clocks, framing, routing and gain before judging microphones, speakers
   or enclosure acoustics.

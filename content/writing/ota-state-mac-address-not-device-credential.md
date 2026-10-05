@@ -1,7 +1,7 @@
 ---
 title: A Wi-Fi MAC Address Is Not a Device Credential
 url: /posts/ota-state-mac-address-not-device-credential.html
-date: '2026-09-15'
+date: '2023-09-15'
 read_time: 8
 excerpt: A board needed a stable fleet identity without turning a public hardware
   identifier into an authentication secret.

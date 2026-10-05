@@ -1,7 +1,7 @@
 ---
 title: Caddy Automatic HTTPS Cannot Fix a Port 80/443 Ownership Problem
 url: /posts/caddy-automatic-https-ports-80-443.html
-date: '2026-09-18'
+date: '2024-10-19'
 read_time: 18
 excerpt: ACME automation still depends on the challenge traffic reaching the Caddy
   instance that requested the certificate.

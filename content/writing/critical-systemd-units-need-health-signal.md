@@ -1,7 +1,7 @@
 ---
 title: Critical systemd Units Need Their Own Health Signal
 url: /posts/critical-systemd-units-need-health-signal.html
-date: '2026-09-14'
+date: '2026-06-08'
 read_time: 1
 excerpt: Container monitoring does not cover host services such as Docker, networking,
   tunnels, backup timers or other systemd-managed dependencies.

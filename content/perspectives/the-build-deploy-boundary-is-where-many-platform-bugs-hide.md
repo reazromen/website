@@ -1,7 +1,7 @@
 ---
 title: The Build/Deploy Boundary Is Where Many Platform Bugs Hide
 url: /posts/the-build-deploy-boundary-is-where-many-platform-bugs-hide.html
-date: '2026-09-18'
+date: '2025-03-16'
 read_time: 2
 excerpt: How image identity, chart values, and runtime resolution meet at one interface.
 topic: voiceware-engineering

@@ -1,7 +1,7 @@
 ---
 title: Vicinity of Obscenity — Nonsense, Desire, and the Musical Logic of Overload
 url: /posts/system-of-a-down-vicinity-of-obscenity-nonsense-desire-and-the-musical-logic-of-overload.html
-date: '2026-09-26'
+date: '2025-08-31'
 read_time: 5
 excerpt: Nonsense, Desire, and the Musical Logic of Overload
 topic: ''

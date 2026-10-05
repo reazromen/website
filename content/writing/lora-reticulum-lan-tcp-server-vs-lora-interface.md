@@ -1,7 +1,7 @@
 ---
 title: A LAN TCP Server and a LoRa Interface Solve Different Reachability Problems
 url: /posts/lora-reticulum-lan-tcp-server-vs-lora-interface.html
-date: '2026-09-15'
+date: '2026-01-21'
 read_time: 8
 excerpt: The same Reticulum instance needed to bridge local IP-connected peers and
   radio-connected peers without pretending TCP and LoRa were the same medium.

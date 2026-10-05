@@ -1,6 +1,6 @@
 ---
 title: "Where the request trace Analogy Breaks"
-date: '2026-10-03'
+date: '2023-09-05'
 draft: false
 language: en
 url: /posts/systems-reality-158-causality-metaphor.html

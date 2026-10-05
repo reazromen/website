@@ -1,7 +1,7 @@
 ---
 title: How I Know Caddy Is Healthy but One Upstream Is Not
 url: /posts/caddy-prometheus-upstream-health.html
-date: '2026-09-18'
+date: '2023-11-16'
 read_time: 17
 excerpt: The edge process can be green while one proxied service is failing behind
   it.

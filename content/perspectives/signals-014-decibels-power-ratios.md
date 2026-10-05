@@ -1,6 +1,6 @@
 ---
 title: "Why Decibels Add While Power Ratios Multiply"
-date: '2026-10-03'
+date: '2025-12-29'
 draft: false
 language: en
 url: /posts/signals-014-decibels-power-ratios.html

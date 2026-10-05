@@ -1,7 +1,7 @@
 ---
 title: SF, Bandwidth and Coding Rate Are a Three-Way Trade
 url: /posts/lora-reticulum-sf-bandwidth-coding-rate-trade.html
-date: '2026-09-15'
+date: '2026-02-15'
 read_time: 9
 excerpt: Changing one LoRa parameter to chase range can quietly change airtime, sensitivity
   and compatibility elsewhere.

@@ -1,7 +1,7 @@
 ---
 title: Ingress Telemetry Is a Boundary You Must Test
 url: /posts/field-note-2026-ingress-telemetry-boundary.html
-date: '2026-09-18'
+date: '2026-06-04'
 read_time: 2
 excerpt: A topology UI can pass synthetic tests and still misread production traffic
   at the first adapter.

@@ -1,7 +1,7 @@
 ---
 title: Desired State, Observed State and User-Visible State Are Three Different Things
 url: /posts/prod-monitoring-desired-state-observed-state-and-user-visible-state-are-three-different-things.html
-date: '2026-09-15'
+date: '2021-09-17'
 read_time: 34
 excerpt: A production-engineering deep dive into desired state, observed state and
   user-visible state are three different things, grounded in the 2014 Mac mini hserver

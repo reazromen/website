@@ -1,7 +1,7 @@
 ---
 title: Call and Response as Social Structure
 url: /posts/call-and-response-as-social-structure.html
-date: '2026-09-26'
+date: '2025-11-21'
 read_time: 5
 excerpt: How alternating voices make songs feel like crowds, arguments, rituals, or
   commands

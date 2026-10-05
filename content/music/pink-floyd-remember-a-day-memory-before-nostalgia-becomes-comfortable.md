@@ -1,7 +1,7 @@
 ---
 title: Remember a Day — Memory Before Nostalgia Becomes Comfortable
 url: /posts/pink-floyd-remember-a-day-memory-before-nostalgia-becomes-comfortable.html
-date: '2026-09-26'
+date: '2024-04-24'
 read_time: 5
 excerpt: Memory Before Nostalgia Becomes Comfortable
 topic: ''

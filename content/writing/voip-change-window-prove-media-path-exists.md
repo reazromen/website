@@ -1,7 +1,7 @@
 ---
 title: A VoIP Change Window Should Prove the Media Path Still Exists
 url: /posts/voip-change-window-prove-media-path-exists.html
-date: '2026-09-14'
+date: '2025-03-19'
 read_time: 1
 excerpt: Checking only the SIP proxy is not enough when a healthy call depends on
   signaling and media components staying aligned.

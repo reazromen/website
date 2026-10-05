@@ -1,7 +1,7 @@
 ---
 title: TLS Protected My SIP Signaling, Not My RTP
 url: /posts/tls-protected-my-sip-signaling-not-my-rtp.html
-date: '2026-09-14'
+date: '2025-10-13'
 read_time: 2
 excerpt: A secure SIP transport and encrypted media are separate decisions. TLS can
   protect signaling while RTP remains completely visible on the wire.

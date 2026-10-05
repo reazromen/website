@@ -1,6 +1,6 @@
 ---
 title: স্ট্যাটিক সাইটে অরিজিন বন্ধ থাকলেও কী বাঁচে
-date: '2026-10-02'
+date: '2021-04-18'
 draft: false
 language: bn
 url: /posts/bn-static-site-origin-offline.html

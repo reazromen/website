@@ -1,6 +1,6 @@
 ---
 title: "What The Brain Really Is"
-date: '2026-10-03'
+date: '2021-04-05'
 draft: false
 language: en
 url: /posts/systems-reality-076-brain-mechanism.html

@@ -1,7 +1,7 @@
 ---
 title: RPO and RTO Turn 'We Have Backups' into an Operational Requirement
 url: /posts/rpo-rto-turn-backups-into-operational-requirement.html
-date: '2026-09-14'
+date: '2024-01-19'
 read_time: 1
 excerpt: Recovery planning becomes actionable when data-loss tolerance and recovery-time
   tolerance are explicit.

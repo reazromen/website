@@ -1,7 +1,7 @@
 ---
 title: Why More Jitter Buffer Was Not Automatically Better
 url: /posts/embedded-audio-why-more-jitter-buffer-not-better.html
-date: '2026-09-15'
+date: '2023-07-23'
 read_time: 12
 excerpt: Increasing jitter tolerance seemed like the obvious response to bursty packet
   arrival.

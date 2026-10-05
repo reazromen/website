@@ -1,7 +1,7 @@
 ---
 title: One Device, One SIP Identity
 url: /posts/one-device-one-sip-identity.html
-date: '2026-09-14'
+date: '2025-11-06'
 read_time: 1
 excerpt: Sharing SIP credentials across devices makes revocation, auditing and fleet
   diagnosis ambiguous.

@@ -1,6 +1,6 @@
 ---
 title: "What the Search for Life Beyond Earth Can Tell Us"
-date: '2026-10-03'
+date: '2022-05-17'
 draft: false
 language: en
 url: /posts/systems-reality-181-cosmos-astrobiology-mechanism.html

@@ -1,6 +1,6 @@
 ---
 title: ডিস্ক ধীর হলে পুরো পড়ার পথ দেখতে হয়
-date: '2026-10-02'
+date: '2024-10-12'
 draft: false
 language: bn
 url: /posts/bn-disk-slow-read-path.html

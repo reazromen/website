@@ -1,7 +1,7 @@
 ---
 title: 'Killing sngrep Was Not Enough: Finding the Orphan Process Behind 80 ms Bursts'
 url: /posts/embedded-audio-orphan-process-behind-80ms-bursts.html
-date: '2026-09-15'
+date: '2026-04-27'
 read_time: 13
 excerpt: A long-running packet tool looked suspicious, but removing it did not fully
   restore 20 ms scheduling.

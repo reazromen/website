@@ -1,7 +1,7 @@
 ---
 title: A Docker Healthcheck Must Test the Dependency You Actually Need
 url: /posts/field-note-2026-healthcheck-real-dependency.html
-date: '2026-09-18'
+date: '2026-08-14'
 read_time: 2
 excerpt: A process can be alive while the service contract its neighbors depend on
   is broken.

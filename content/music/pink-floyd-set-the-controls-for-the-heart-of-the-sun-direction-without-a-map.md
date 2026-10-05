@@ -1,7 +1,7 @@
 ---
 title: Set the Controls for the Heart of the Sun — Direction Without a Map
 url: /posts/pink-floyd-set-the-controls-for-the-heart-of-the-sun-direction-without-a-map.html
-date: '2026-09-26'
+date: '2023-05-04'
 read_time: 5
 excerpt: Direction Without a Map
 topic: ''

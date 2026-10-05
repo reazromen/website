@@ -1,7 +1,7 @@
 ---
 title: OTA Required Is a Policy State, Not Just a Notification
 url: /posts/ota-required-is-a-policy-state-not-just-a-notification.html
-date: '2026-09-14'
+date: '2026-01-25'
 read_time: 1
 excerpt: Some firmware updates are optional improvements; others must gate service
   because compatibility or security changed.

@@ -1,7 +1,7 @@
 ---
 title: pgvector HNSW Can Return Fast Answers That Are Operationally Wrong
 url: /posts/pgvector-hnsw-fast-operationally-wrong.html
-date: '2026-09-26'
+date: '2020-02-05'
 read_time: 9
 excerpt: Approximate nearest-neighbor search is allowed to trade recall for speed.
   Add tenant or metadata filters after the ANN scan and a fast query can return too

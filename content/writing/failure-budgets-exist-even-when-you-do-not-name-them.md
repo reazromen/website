@@ -1,7 +1,7 @@
 ---
 title: Failure Budgets Exist Even When You Do Not Name Them
 url: /posts/failure-budgets-exist-even-when-you-do-not-name-them.html
-date: '2026-09-14'
+date: '2025-09-15'
 read_time: 1
 excerpt: Every team spends reliability to move faster; explicit tradeoffs are safer
   than accidental ones.

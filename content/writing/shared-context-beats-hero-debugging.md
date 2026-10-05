@@ -1,7 +1,7 @@
 ---
 title: Shared Context Beats Hero Debugging
 url: /posts/shared-context-beats-hero-debugging.html
-date: '2026-09-14'
+date: '2021-01-11'
 read_time: 1
 excerpt: Systems become safer when diagnosis can be reproduced by the team instead
   of depending on one person remembering the magic command.

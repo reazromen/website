@@ -1,7 +1,7 @@
 ---
 title: FreeSWITCH Health Is a Fleet Count, Not One Boolean
 url: /posts/freeswitch-health-fleet-count.html
-date: '2026-09-14'
+date: '2022-11-02'
 read_time: 1
 excerpt: A multi-worker voice stack can keep serving calls after one FreeSWITCH node
   fails, so one global up/down flag hides degraded capacity.

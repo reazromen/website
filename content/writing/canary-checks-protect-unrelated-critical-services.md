@@ -1,7 +1,7 @@
 ---
 title: Canary Checks Should Protect Unrelated Critical Services Too
 url: /posts/canary-checks-protect-unrelated-critical-services.html
-date: '2026-09-14'
+date: '2024-12-01'
 read_time: 1
 excerpt: A successful target deployment is not a full success if the change quietly
   damages another workload on the same host.

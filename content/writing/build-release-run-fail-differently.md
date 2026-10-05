@@ -1,7 +1,7 @@
 ---
 title: Build, Release and Run Fail Differently
 url: /posts/build-release-run-fail-differently.html
-date: '2026-09-14'
+date: '2025-12-12'
 read_time: 1
 excerpt: Separating image construction, configuration injection and runtime startup
   makes failures easier to localize.

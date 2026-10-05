@@ -1,7 +1,7 @@
 ---
 title: Seamus — What Happens When a Band Lets the Room Into the Record
 url: /posts/pink-floyd-seamus-what-happens-when-a-band-lets-the-room-into-the-record.html
-date: '2026-09-26'
+date: '2024-06-06'
 read_time: 5
 excerpt: What Happens When a Band Lets the Room Into the Record
 topic: ''

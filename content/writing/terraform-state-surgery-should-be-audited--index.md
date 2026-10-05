@@ -1,7 +1,7 @@
 ---
 title: Terraform State Surgery Should Be Rare, Explicit, and Audited
 url: /posts/terraform-state-surgery-should-be-audited/index.html
-date: '2026-09-26'
+date: '2022-12-03'
 read_time: 8
 excerpt: state mv, state rm, state replace-provider, state pull and state push can
   change Terraform's ownership model without directly changing remote infrastructure.

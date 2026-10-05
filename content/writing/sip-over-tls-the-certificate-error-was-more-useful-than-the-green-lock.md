@@ -1,7 +1,7 @@
 ---
 title: 'SIP over TLS: The Certificate Error Was More Useful Than the Green Lock'
 url: /posts/sip-over-tls-the-certificate-error-was-more-useful-than-the-green-lock.html
-date: '2026-09-14'
+date: '2021-06-12'
 read_time: 2
 excerpt: Moving SIP signaling to TLS exposed certificate names, trust chains and transport
   assumptions that UDP had allowed me to ignore.

@@ -1,7 +1,7 @@
 ---
 title: Hey You — The Need for Contact After Building the Barrier Yourself
 url: /posts/pink-floyd-hey-you-the-need-for-contact-after-building-the-barrier-yourself.html
-date: '2026-09-26'
+date: '2025-07-12'
 read_time: 5
 excerpt: The Need for Contact After Building the Barrier Yourself
 topic: ''

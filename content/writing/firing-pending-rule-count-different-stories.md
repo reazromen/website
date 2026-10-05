@@ -1,7 +1,7 @@
 ---
 title: Firing, Pending and Rule Count Tell Different Alerting Stories
 url: /posts/firing-pending-rule-count-different-stories.html
-date: '2026-09-14'
+date: '2026-06-16'
 read_time: 1
 excerpt: A dashboard that only shows firing alerts hides whether conditions are approaching
   thresholds or whether the expected rule set is even loaded.

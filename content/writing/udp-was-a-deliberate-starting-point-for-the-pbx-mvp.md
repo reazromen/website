@@ -1,7 +1,7 @@
 ---
 title: UDP Was a Deliberate Starting Point for the PBX MVP
 url: /posts/udp-was-a-deliberate-starting-point-for-the-pbx-mvp.html
-date: '2026-09-14'
+date: '2024-07-01'
 read_time: 1
 excerpt: Transport choice should match the test objective before adding more complexity.
 topic: loup-engineering

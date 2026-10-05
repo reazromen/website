@@ -1,7 +1,7 @@
 ---
 title: The ACL That Worked Perfectly and Locked Me Out
 url: /posts/the-acl-that-worked-perfectly-and-locked-me-out.html
-date: '2026-09-14'
+date: '2024-04-18'
 read_time: 3
 excerpt: 'My first memorable ACL mistake was technically correct: it blocked exactly
   what I told it to block, including the management traffic I still needed.'

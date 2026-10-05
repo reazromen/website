@@ -1,7 +1,7 @@
 ---
 title: No Healthy Worker Is a User-Facing Signal
 url: /posts/prod-monitoring-no-healthy-worker-is-a-user-facing-signal.html
-date: '2026-09-15'
+date: '2024-12-18'
 read_time: 32
 excerpt: A production-engineering deep dive into no healthy worker is a user-facing
   signal, grounded in the 2014 Mac mini hserver observability stack and its accepted

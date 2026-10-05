@@ -1,7 +1,7 @@
 ---
 title: Unused AXP2101 Rails Should Be Explicitly Disabled
 url: /posts/unused-axp2101-rails-should-be-explicitly-disabled.html
-date: '2026-09-14'
+date: '2026-05-08'
 read_time: 1
 excerpt: Power rails that are not part of the design should not be left in an accidental
   state.

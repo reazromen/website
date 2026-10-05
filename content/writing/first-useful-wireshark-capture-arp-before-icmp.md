@@ -1,7 +1,7 @@
 ---
 title: 'My First Useful Wireshark Capture: ARP Before ICMP'
 url: /posts/first-useful-wireshark-capture-arp-before-icmp.html
-date: '2026-09-14'
+date: '2025-02-06'
 read_time: 3
 excerpt: 'Capturing a simple ping showed that the interesting packet often arrives
   before ICMP: ARP has to resolve the Layer 2 destination first.'

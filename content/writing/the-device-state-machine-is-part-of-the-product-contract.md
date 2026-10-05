@@ -1,7 +1,7 @@
 ---
 title: The Device State Machine Is Part of the Product Contract
 url: /posts/the-device-state-machine-is-part-of-the-product-contract.html
-date: '2026-09-14'
+date: '2020-05-13'
 read_time: 1
 excerpt: Factory, pairing, active, blocked and retired are operational states with
   different permissions.

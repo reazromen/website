@@ -1,7 +1,7 @@
 ---
 title: The Real Architecture Work Was Finding Voiceware’s Runtime Boundaries
 url: /posts/the-real-architecture-work-was-finding-voiceware-s-runtime-boundaries.html
-date: '2026-09-18'
+date: '2024-04-29'
 read_time: 2
 excerpt: How I treated process boundaries as deployment boundaries instead of forcing
   the application into one monolithic unit.

@@ -1,7 +1,7 @@
 ---
 title: The Reticulum Container Needed to Observe Its Own Interface
 url: /posts/lora-reticulum-reticulum-container-observe-interface.html
-date: '2026-09-15'
+date: '2024-10-27'
 read_time: 8
 excerpt: A long-running rnsd process could appear healthy while its RNode device disappeared
   or the interface failed.

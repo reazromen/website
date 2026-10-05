@@ -1,7 +1,7 @@
 ---
 title: VSYS Bulk Capacitance Shows Up as a System Problem
 url: /posts/vsys-bulk-capacitance-shows-up-as-a-system-problem.html
-date: '2026-09-14'
+date: '2025-01-28'
 read_time: 1
 excerpt: Short current transients can make a stable-looking digital design fail under
   real audio and radio load.

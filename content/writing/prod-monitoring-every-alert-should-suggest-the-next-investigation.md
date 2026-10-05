@@ -1,7 +1,7 @@
 ---
 title: Every Alert Should Suggest the Next Investigation
 url: /posts/prod-monitoring-every-alert-should-suggest-the-next-investigation.html
-date: '2026-09-15'
+date: '2023-07-09'
 read_time: 33
 excerpt: A production-engineering deep dive into every alert should suggest the next
   investigation, grounded in the 2014 Mac mini hserver observability stack and its

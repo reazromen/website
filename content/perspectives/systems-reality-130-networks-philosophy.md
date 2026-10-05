@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Networks"
-date: '2026-10-03'
+date: '2026-09-17'
 draft: false
 language: en
 url: /posts/systems-reality-130-networks-philosophy.html

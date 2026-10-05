@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Computation"
-date: '2026-10-03'
+date: '2025-11-30'
 draft: false
 language: en
 url: /posts/systems-reality-109-computation-history.html

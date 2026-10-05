@@ -1,7 +1,7 @@
 ---
 title: Hypnotize — Media, Attention, and the Problem of Watching While Being Shaped
 url: /posts/system-of-a-down-hypnotize-media-attention-and-the-problem-of-watching-while-being-shaped.html
-date: '2026-09-26'
+date: '2023-01-09'
 read_time: 5
 excerpt: Media, Attention, and the Problem of Watching While Being Shaped
 topic: ''

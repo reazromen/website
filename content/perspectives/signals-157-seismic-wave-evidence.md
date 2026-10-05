@@ -1,6 +1,6 @@
 ---
 title: "Seismic Waves as Evidence of Earthquakes"
-date: '2026-10-03'
+date: '2023-10-15'
 draft: false
 language: en
 url: /posts/signals-157-seismic-wave-evidence.html

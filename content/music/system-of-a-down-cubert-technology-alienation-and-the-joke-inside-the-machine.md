@@ -1,7 +1,7 @@
 ---
 title: CUBErt — Technology, Alienation, and the Joke Inside the Machine
 url: /posts/system-of-a-down-cubert-technology-alienation-and-the-joke-inside-the-machine.html
-date: '2026-09-26'
+date: '2025-03-19'
 read_time: 5
 excerpt: Technology, Alienation, and the Joke Inside the Machine
 topic: ''

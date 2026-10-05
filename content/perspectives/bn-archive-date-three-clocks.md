@@ -1,6 +1,6 @@
 ---
 title: লেখার তারিখ, স্মৃতির বছর আর প্রকাশের দিন
-date: '2026-10-02'
+date: '2022-11-28'
 draft: false
 language: bn
 url: /posts/bn-archive-date-three-clocks.html

@@ -1,6 +1,6 @@
 ---
 title: "Where the search space Analogy Breaks"
-date: '2026-10-03'
+date: '2026-09-23'
 draft: false
 language: en
 url: /posts/systems-reality-183-cosmos-astrobiology-metaphor.html

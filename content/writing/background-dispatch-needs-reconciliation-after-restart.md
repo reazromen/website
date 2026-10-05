@@ -1,7 +1,7 @@
 ---
 title: Background Dispatch Needs Reconciliation After Restart
 url: /posts/background-dispatch-needs-reconciliation-after-restart.html
-date: '2026-09-14'
+date: '2021-12-30'
 read_time: 1
 excerpt: A scheduler can enqueue work before crashing; recovery logic must discover
   incomplete deliveries after the process returns.

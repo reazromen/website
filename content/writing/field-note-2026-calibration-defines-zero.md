@@ -1,7 +1,7 @@
 ---
 title: Calibration Defines Zero; Detection Measures Deviation
 url: /posts/field-note-2026-calibration-defines-zero.html
-date: '2026-09-18'
+date: '2026-03-31'
 read_time: 2
 excerpt: The useful baseline is the room's normal operating condition, not an imaginary
   perfectly quiet environment.

@@ -1,7 +1,7 @@
 ---
 title: Radio Configuration Belongs in Versioned Infrastructure
 url: /posts/lora-reticulum-radio-config-versioned-infrastructure.html
-date: '2026-09-15'
+date: '2025-04-17'
 read_time: 8
 excerpt: Frequency, bandwidth, SF, coding rate and device mapping were being changed
   during experiments and could easily become undocumented shell history.

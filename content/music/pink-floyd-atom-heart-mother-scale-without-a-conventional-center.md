@@ -1,7 +1,7 @@
 ---
 title: Atom Heart Mother — Scale Without a Conventional Center
 url: /posts/pink-floyd-atom-heart-mother-scale-without-a-conventional-center.html
-date: '2026-09-26'
+date: '2024-07-04'
 read_time: 5
 excerpt: Scale Without a Conventional Center
 topic: ''

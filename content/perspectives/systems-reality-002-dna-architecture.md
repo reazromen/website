@@ -1,6 +1,6 @@
 ---
 title: "DNA Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2025-07-28'
 draft: false
 language: en
 url: /posts/systems-reality-002-dna-architecture.html

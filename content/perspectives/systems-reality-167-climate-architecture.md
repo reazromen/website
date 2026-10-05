@@ -1,6 +1,6 @@
 ---
 title: "Climate Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2023-04-12'
 draft: false
 language: en
 url: /posts/systems-reality-167-climate-architecture.html

@@ -1,7 +1,7 @@
 ---
 title: Why Nginx Was Its Own Voiceware Application
 url: /posts/why-nginx-was-its-own-voiceware-application.html
-date: '2026-09-18'
+date: '2021-03-29'
 read_time: 2
 excerpt: The operational value of separating edge/proxy concerns from the application
   container.

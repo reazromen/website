@@ -1,7 +1,7 @@
 ---
 title: Redis used_memory Can Look Fine While RSS Keeps Growing
 url: /posts/redis-memory-fragmentation-rss-not-used-memory/index.html
-date: '2026-09-26'
+date: '2023-05-21'
 read_time: 8
 excerpt: Allocator fragmentation, active pages, copy-on-write during forks, and persistence
   work can make process RSS diverge from the logical size of the Redis dataset.

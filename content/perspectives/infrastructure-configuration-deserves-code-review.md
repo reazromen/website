@@ -1,7 +1,7 @@
 ---
 title: Infrastructure Configuration Deserves Code Review
 url: /posts/infrastructure-configuration-deserves-code-review.html
-date: '2026-09-18'
+date: '2020-06-24'
 read_time: 3
 excerpt: Why a one-line port, image, or sync-policy change can have production impact.
 topic: voiceware-engineering

@@ -1,7 +1,7 @@
 ---
 title: Prometheus Series Count Is an Observability Capacity Metric
 url: /posts/prometheus-series-count-capacity-metric.html
-date: '2026-09-14'
+date: '2024-01-22'
 read_time: 1
 excerpt: The hserver stack carried roughly twenty-seven thousand active Prometheus
   series, enough that label growth and exporter changes could materially change memory

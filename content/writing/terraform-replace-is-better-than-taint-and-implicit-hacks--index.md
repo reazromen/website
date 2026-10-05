@@ -1,7 +1,7 @@
 ---
 title: Use Terraform -replace When the Object Is Broken but the Configuration Is Right
 url: /posts/terraform-replace-is-better-than-taint-and-implicit-hacks/index.html
-date: '2026-09-26'
+date: '2024-02-21'
 read_time: 8
 excerpt: Sometimes infrastructure is unhealthy in ways Terraform cannot infer from
   HCL. -replace makes that one-run replacement intent visible in the plan instead

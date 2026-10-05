@@ -1,7 +1,7 @@
 ---
 title: Sheep — What Happens When Obedience Becomes a Crowd
 url: /posts/pink-floyd-sheep-what-happens-when-obedience-becomes-a-crowd.html
-date: '2026-09-26'
+date: '2022-07-27'
 read_time: 5
 excerpt: What Happens When Obedience Becomes a Crowd
 topic: ''

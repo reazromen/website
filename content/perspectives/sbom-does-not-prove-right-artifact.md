@@ -2,7 +2,7 @@
 title: An SBOM Tells You What You Shipped; It Does Not Prove You Shipped the Right
   Thing
 url: /posts/sbom-does-not-prove-right-artifact.html
-date: '2026-09-26'
+date: '2022-01-06'
 read_time: 9
 excerpt: An SBOM inventories components. Supply-chain trust also needs provenance,
   build identity, signatures, policy, artifact verification, and release evidence

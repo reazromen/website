@@ -1,7 +1,7 @@
 ---
 title: Dramatic Theme — When a Soundtrack Knows It Is Closing a Scene
 url: /posts/pink-floyd-dramatic-theme-when-a-soundtrack-knows-it-is-closing-a-scene.html
-date: '2026-09-26'
+date: '2020-11-05'
 read_time: 5
 excerpt: When a Soundtrack Knows It Is Closing a Scene
 topic: ''

@@ -1,7 +1,7 @@
 ---
 title: Local PBX Testing Removes the Internet Before It Removes Complexity
 url: /posts/local-pbx-testing-removes-the-internet-before-it-removes-complexity.html
-date: '2026-09-14'
+date: '2023-01-21'
 read_time: 1
 excerpt: A LAN test still exercises SIP, RTP, codecs and clocks while excluding WAN
   variability.

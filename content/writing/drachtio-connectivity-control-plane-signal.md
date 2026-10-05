@@ -1,7 +1,7 @@
 ---
 title: Drachtio Connectivity Is a Control-Plane Health Signal
 url: /posts/drachtio-connectivity-control-plane-signal.html
-date: '2026-09-14'
+date: '2024-08-18'
 read_time: 1
 excerpt: The SIP proxy can be running as a process while its control connection to
   drachtio is down, leaving signaling logic unable to operate correctly.

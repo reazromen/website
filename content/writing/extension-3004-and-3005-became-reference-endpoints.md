@@ -1,7 +1,7 @@
 ---
 title: Extension 3004 and 3005 Became Reference Endpoints
 url: /posts/extension-3004-and-3005-became-reference-endpoints.html
-date: '2026-09-14'
+date: '2023-03-07'
 read_time: 1
 excerpt: Named test identities make repeatable call scenarios easier to describe and
   automate.

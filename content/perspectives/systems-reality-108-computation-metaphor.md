@@ -1,6 +1,6 @@
 ---
 title: "Where the universal explanatory language Analogy Breaks"
-date: '2026-10-03'
+date: '2024-01-02'
 draft: false
 language: en
 url: /posts/systems-reality-108-computation-metaphor.html

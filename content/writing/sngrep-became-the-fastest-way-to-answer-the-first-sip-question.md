@@ -1,7 +1,7 @@
 ---
 title: sngrep Became the Fastest Way to Answer the First SIP Question
 url: /posts/sngrep-became-the-fastest-way-to-answer-the-first-sip-question.html
-date: '2026-09-14'
+date: '2023-06-26'
 read_time: 2
 excerpt: Before opening a full packet capture, sngrep gave me a quick view of call
   legs, response codes and dialog timing directly on the server.

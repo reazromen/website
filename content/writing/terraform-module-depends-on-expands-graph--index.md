@@ -1,7 +1,7 @@
 ---
 title: Module-Level depends_on Can Make Terraform's Graph Much Bigger Than You Think
 url: /posts/terraform-module-depends-on-expands-graph/index.html
-date: '2026-09-26'
+date: '2022-08-20'
 read_time: 8
 excerpt: A module-level depends_on creates a broad ordering relationship between groups
   of resources. It can make plans more conservative and hide the specific dependency

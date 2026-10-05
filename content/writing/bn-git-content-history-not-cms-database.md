@@ -1,6 +1,6 @@
 ---
 title: গিটে ব্লগ রাখলে ইতিহাসটা কীভাবে কাজে লাগে
-date: '2026-10-02'
+date: '2024-01-12'
 draft: false
 language: bn
 url: /posts/bn-git-content-history-not-cms-database.html

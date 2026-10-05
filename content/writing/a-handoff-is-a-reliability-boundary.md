@@ -1,7 +1,7 @@
 ---
 title: A Handoff Is a Reliability Boundary
 url: /posts/a-handoff-is-a-reliability-boundary.html
-date: '2026-09-14'
+date: '2024-01-10'
 read_time: 1
 excerpt: Every boundary between firmware, backend, hardware, factory and operations
   needs an explicit contract.

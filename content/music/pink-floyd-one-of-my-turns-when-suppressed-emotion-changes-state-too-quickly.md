@@ -1,7 +1,7 @@
 ---
 title: One of My Turns — When Suppressed Emotion Changes State Too Quickly
 url: /posts/pink-floyd-one-of-my-turns-when-suppressed-emotion-changes-state-too-quickly.html
-date: '2026-09-26'
+date: '2025-01-19'
 read_time: 5
 excerpt: When Suppressed Emotion Changes State Too Quickly
 topic: ''

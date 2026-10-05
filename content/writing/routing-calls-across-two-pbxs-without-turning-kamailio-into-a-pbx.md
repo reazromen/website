@@ -1,7 +1,7 @@
 ---
 title: Routing Calls Across Two PBXs Without Turning Kamailio into a PBX
 url: /posts/routing-calls-across-two-pbxs-without-turning-kamailio-into-a-pbx.html
-date: '2026-09-14'
+date: '2025-09-11'
 read_time: 2
 excerpt: A two-PBX lab clarified the boundary between SIP routing at the proxy and
   dialplan or application behavior inside the PBX.

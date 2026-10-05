@@ -1,6 +1,6 @@
 ---
 title: "The Immune System Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2021-04-24'
 draft: false
 language: en
 url: /posts/systems-reality-062-immune-system-architecture.html

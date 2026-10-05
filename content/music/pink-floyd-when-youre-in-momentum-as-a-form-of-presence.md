@@ -1,7 +1,7 @@
 ---
 title: When You're In — Momentum as a Form of Presence
 url: /posts/pink-floyd-when-youre-in-momentum-as-a-form-of-presence.html
-date: '2026-09-26'
+date: '2026-04-17'
 read_time: 5
 excerpt: Momentum as a Form of Presence
 topic: ''

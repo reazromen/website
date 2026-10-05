@@ -1,7 +1,7 @@
 ---
 title: One PostgreSQL Deadlock Is Worth Recording
 url: /posts/prod-monitoring-one-postgresql-deadlock-is-worth-recording.html
-date: '2026-09-15'
+date: '2025-02-19'
 read_time: 34
 excerpt: A production-engineering deep dive into one postgresql deadlock is worth
   recording, grounded in the 2014 Mac mini hserver observability stack and its accepted

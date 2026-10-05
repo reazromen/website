@@ -1,7 +1,7 @@
 ---
 title: Git Became Part of the Voiceware Control Plane
 url: /posts/git-became-part-of-the-voiceware-control-plane.html
-date: '2026-09-18'
+date: '2026-02-28'
 read_time: 2
 excerpt: The moment Git stopped being a storage location for YAML and became the source
   of intended runtime state.

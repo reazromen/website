@@ -1,7 +1,7 @@
 ---
 title: Dashboards Should Follow Troubleshooting Workflows
 url: /posts/dashboards-follow-troubleshooting-workflows.html
-date: '2026-09-14'
+date: '2026-04-11'
 read_time: 1
 excerpt: A wall of attractive graphs is slow during an incident if related signals
   are scattered by exporter rather than by the question an operator is trying to answer.

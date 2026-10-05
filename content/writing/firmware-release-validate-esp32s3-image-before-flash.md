@@ -1,7 +1,7 @@
 ---
 title: I Validate an ESP32-S3 Image Before I Let It Touch the Phone
 url: /posts/firmware-release-validate-esp32s3-image-before-flash.html
-date: '2026-09-15'
+date: '2025-12-10'
 read_time: 9
 excerpt: A successful linker exit does not prove the produced file is the intended
   target image or that its metadata/checksum are sane.

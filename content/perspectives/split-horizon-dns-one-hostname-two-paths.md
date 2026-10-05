@@ -1,7 +1,7 @@
 ---
 title: 'Split-Horizon DNS: One Hostname, Two Network Paths, and a Lot of TLS Confusion'
 url: /posts/split-horizon-dns-one-hostname-two-paths.html
-date: '2026-09-26'
+date: '2022-06-13'
 read_time: 8
 excerpt: The same hostname can resolve to a local reverse proxy on LAN and a Cloudflare
   Tunnel externally. That is clean when DNS, SNI, certificates, and origin routing

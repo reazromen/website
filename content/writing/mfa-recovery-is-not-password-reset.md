@@ -1,7 +1,7 @@
 ---
 title: MFA Recovery Is Not the Same Problem as Password Reset
 url: /posts/mfa-recovery-is-not-password-reset.html
-date: '2026-09-14'
+date: '2022-12-22'
 read_time: 1
 excerpt: Losing the authenticator device creates a second-factor recovery problem
   that should not silently collapse to the password path.

@@ -1,7 +1,7 @@
 ---
 title: SQN Sync in IMS AKA Was the Authentication Detail I Kept Missing
 url: /posts/sqn-sync-in-ims-aka-was-the-authentication-detail-i-kept-missing.html
-date: '2026-09-14'
+date: '2026-08-12'
 read_time: 2
 excerpt: IMS AKA stopped looking like a simple password check once I traced the sequence
   number and resynchronization path.

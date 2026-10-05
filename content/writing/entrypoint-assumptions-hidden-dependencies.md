@@ -1,7 +1,7 @@
 ---
 title: Entrypoint Assumptions Are Hidden Dependencies
 url: /posts/entrypoint-assumptions-hidden-dependencies.html
-date: '2026-09-14'
+date: '2023-01-31'
 read_time: 1
 excerpt: A container command is only reproducible when you know whether the image
   entrypoint wraps, replaces or transforms it.

@@ -1,7 +1,7 @@
 ---
 title: 'Via, Contact and NAT: Three SIP Addresses I Kept Mixing Up'
 url: /posts/via-contact-and-nat-three-sip-addresses-i-kept-mixing-up.html
-date: '2026-09-14'
+date: '2026-05-26'
 read_time: 3
 excerpt: NAT problems became easier once I stopped treating every SIP URI and IP header
   as the same kind of return address.

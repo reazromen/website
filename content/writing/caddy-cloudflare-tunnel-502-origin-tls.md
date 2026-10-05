@@ -1,7 +1,7 @@
 ---
 title: Cloudflare Tunnel Reaches Caddy but Still Returns 502
 url: /posts/caddy-cloudflare-tunnel-502-origin-tls.html
-date: '2026-09-18'
+date: '2020-11-18'
 read_time: 16
 excerpt: The failing TLS identity may be on the Cloudflare-to-origin leg rather than
   in Caddy's upstream proxy.

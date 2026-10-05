@@ -1,7 +1,7 @@
 ---
 title: Scanning 32 PHY Profiles Was a Diagnostic, Not a Network Design
 url: /posts/lora-reticulum-phy-scan-diagnostic-not-design.html
-date: '2026-09-15'
+date: '2025-09-06'
 read_time: 9
 excerpt: Auto-scanning many SF/BW combinations helped discover compatibility clues
   but could not replace an agreed production PHY.

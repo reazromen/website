@@ -1,6 +1,6 @@
 ---
 title: লিনাক্সের ছোট অংশগুলো বুঝলে বড় সিস্টেম পড়া যায়
-date: '2026-10-02'
+date: '2024-07-20'
 draft: false
 language: bn
 url: /posts/bn-linux-small-parts-understanding.html

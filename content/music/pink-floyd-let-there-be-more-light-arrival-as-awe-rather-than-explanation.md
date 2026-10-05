@@ -1,7 +1,7 @@
 ---
 title: Let There Be More Light — Arrival as Awe Rather Than Explanation
 url: /posts/pink-floyd-let-there-be-more-light-arrival-as-awe-rather-than-explanation.html
-date: '2026-09-26'
+date: '2021-07-01'
 read_time: 5
 excerpt: Arrival as Awe Rather Than Explanation
 topic: ''

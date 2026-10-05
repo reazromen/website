@@ -1,7 +1,7 @@
 ---
 title: A Spanish Piece — Caricature, Performance, and the Risk of Musical Masks
 url: /posts/pink-floyd-a-spanish-piece-caricature-performance-and-the-risk-of-musical-masks.html
-date: '2026-09-26'
+date: '2025-12-25'
 read_time: 5
 excerpt: Caricature, Performance, and the Risk of Musical Masks
 topic: ''

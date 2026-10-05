@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Evolution"
-date: '2026-10-03'
+date: '2026-04-04'
 draft: false
 language: en
 url: /posts/systems-reality-039-evolution-history.html

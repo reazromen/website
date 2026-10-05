@@ -1,7 +1,7 @@
 ---
 title: Critical Container Log Spikes Are a Triage Signal
 url: /posts/critical-container-log-spikes-triage-signal.html
-date: '2026-09-14'
+date: '2023-08-30'
 read_time: 1
 excerpt: A container can remain healthy by its HTTP probe while its logs suddenly
   fill with exceptions, retries or failed dependency calls.

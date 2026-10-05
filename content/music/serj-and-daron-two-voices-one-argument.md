@@ -1,7 +1,7 @@
 ---
 title: Serj and Daron — Two Voices, One Argument
 url: /posts/serj-and-daron-two-voices-one-argument.html
-date: '2026-09-26'
+date: '2025-03-18'
 read_time: 5
 excerpt: How contrasting vocal personalities let agreement and disagreement exist
   in the same song

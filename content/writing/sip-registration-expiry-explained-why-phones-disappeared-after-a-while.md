@@ -1,7 +1,7 @@
 ---
 title: SIP Registration Expiry Explained Why Phones Disappeared After a While
 url: /posts/sip-registration-expiry-explained-why-phones-disappeared-after-a-while.html
-date: '2026-09-14'
+date: '2024-02-15'
 read_time: 2
 excerpt: A successful REGISTER is temporary state, so expiry, refresh timing and NAT
   mappings all matter if an endpoint is expected to remain reachable.

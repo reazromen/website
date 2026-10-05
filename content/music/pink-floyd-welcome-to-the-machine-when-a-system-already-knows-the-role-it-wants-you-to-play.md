@@ -2,7 +2,7 @@
 title: Welcome to the Machine — When a System Already Knows the Role It Wants You
   to Play
 url: /posts/pink-floyd-welcome-to-the-machine-when-a-system-already-knows-the-role-it-wants-you-to-play.html
-date: '2026-09-26'
+date: '2022-04-06'
 read_time: 5
 excerpt: When a System Already Knows the Role It Wants You to Play
 topic: ''

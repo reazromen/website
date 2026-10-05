@@ -1,7 +1,7 @@
 ---
 title: The Observability Dashboard That Watches the Observability Stack
 url: /posts/prod-monitoring-the-observability-dashboard-that-watches-the-observability-stack.html
-date: '2026-09-15'
+date: '2026-01-30'
 read_time: 29
 excerpt: A production-engineering deep dive into the observability dashboard that
   watches the observability stack, grounded in the 2014 Mac mini hserver observability

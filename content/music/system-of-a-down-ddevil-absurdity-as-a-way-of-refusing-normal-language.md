@@ -1,7 +1,7 @@
 ---
 title: DDevil — Absurdity as a Way of Refusing Normal Language
 url: /posts/system-of-a-down-ddevil-absurdity-as-a-way-of-refusing-normal-language.html
-date: '2026-09-26'
+date: '2025-12-18'
 read_time: 5
 excerpt: Absurdity as a Way of Refusing Normal Language
 topic: ''

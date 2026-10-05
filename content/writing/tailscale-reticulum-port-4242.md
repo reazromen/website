@@ -1,7 +1,7 @@
 ---
 title: A Practical Reticulum TCP Bridge over Tailscale on Port 4242
 url: /posts/tailscale-reticulum-port-4242.html
-date: '2026-09-18'
+date: '2025-05-06'
 read_time: 2
 excerpt: The configuration is small, but binding address and access policy decide
   whether the bridge is private or accidentally broader than intended.

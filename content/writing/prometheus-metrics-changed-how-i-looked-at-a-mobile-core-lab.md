@@ -1,7 +1,7 @@
 ---
 title: Prometheus Metrics Changed How I Looked at a Mobile Core Lab
 url: /posts/prometheus-metrics-changed-how-i-looked-at-a-mobile-core-lab.html
-date: '2026-09-14'
+date: '2021-03-17'
 read_time: 1
 excerpt: Logs explain individual failures; metrics show whether the system is drifting
   before the failures become obvious.

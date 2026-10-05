@@ -1,7 +1,7 @@
 ---
 title: 'One Machine, Many Failure Domains: Mapping the 2014 Mac mini'
 url: /posts/prod-monitoring-one-machine-many-failure-domains-mapping-the-2014-mac-mini.html
-date: '2026-09-15'
+date: '2022-06-10'
 read_time: 34
 excerpt: 'A production-engineering deep dive into one machine, many failure domains:
   mapping the 2014 mac mini, grounded in the 2014 Mac mini hserver observability stack

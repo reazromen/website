@@ -1,7 +1,7 @@
 ---
 title: Peephole — Reality Seen Through a Narrow Opening
 url: /posts/system-of-a-down-peephole-reality-seen-through-a-narrow-opening.html
-date: '2026-09-26'
+date: '2022-12-11'
 read_time: 5
 excerpt: Reality Seen Through a Narrow Opening
 topic: ''

@@ -1,7 +1,7 @@
 ---
 title: Run Like Hell — Fear Turned Into Command and Momentum
 url: /posts/pink-floyd-run-like-hell-fear-turned-into-command-and-momentum.html
-date: '2026-09-26'
+date: '2026-08-18'
 read_time: 5
 excerpt: Fear Turned Into Command and Momentum
 topic: ''

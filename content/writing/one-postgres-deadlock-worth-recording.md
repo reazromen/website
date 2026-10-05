@@ -1,7 +1,7 @@
 ---
 title: One Deadlock Is Worth Recording
 url: /posts/one-postgres-deadlock-worth-recording.html
-date: '2026-09-14'
+date: '2020-10-29'
 read_time: 1
 excerpt: A PostgreSQL deadlock can resolve automatically by aborting one transaction,
   leaving the service apparently healthy after the incident.

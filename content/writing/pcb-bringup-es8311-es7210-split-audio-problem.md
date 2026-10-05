@@ -1,7 +1,7 @@
 ---
 title: ES8311 and ES7210 Split the Audio Problem in Two
 url: /posts/pcb-bringup-es8311-es7210-split-audio-problem.html
-date: '2026-09-15'
+date: '2026-09-16'
 read_time: 9
 excerpt: Speaker and microphone failures were easy to discuss as one audio problem
   even though playback and capture used different codecs and different analog paths.

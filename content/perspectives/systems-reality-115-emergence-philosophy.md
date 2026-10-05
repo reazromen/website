@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Emergence"
-date: '2026-10-03'
+date: '2024-06-09'
 draft: false
 language: en
 url: /posts/systems-reality-115-emergence-philosophy.html

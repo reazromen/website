@@ -1,6 +1,6 @@
 ---
 title: ডিপ্লয়মেন্টে ফাইলের পরিচয় ধরে রাখা
-date: '2026-10-02'
+date: '2022-04-11'
 draft: false
 language: bn
 url: /posts/bn-deployment-artifact-identity.html

@@ -1,7 +1,7 @@
 ---
 title: The Rotary Encoder Makes Lists Work Without a Touchscreen
 url: /posts/the-rotary-encoder-makes-lists-work-without-a-touchscreen.html
-date: '2026-09-14'
+date: '2020-08-19'
 read_time: 1
 excerpt: Infinite scroll plus push maps naturally to small menu selection when the
   display is not interactive.

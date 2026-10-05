@@ -1,7 +1,7 @@
 ---
 title: 32x32 MIMO Made More Sense When I Stopped Counting Antennas
 url: /posts/32x32-mimo-made-more-sense-when-i-stopped-counting-antennas.html
-date: '2026-09-14'
+date: '2020-04-05'
 read_time: 2
 excerpt: Large antenna arrays are interesting because of beams, spatial layers and
   RF chains, not because the front panel contains a big number of elements.

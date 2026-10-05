@@ -2,7 +2,7 @@
 title: Three Caddy Instances Can All Be Healthy While Nobody Knows Which One Owns
   the Request
 url: /posts/caddy-multiple-instances-ingress-owner.html
-date: '2026-09-18'
+date: '2025-09-22'
 read_time: 17
 excerpt: Multiple proxies are fine when each boundary has one explicit owner.
 topic: caddy-reverse-proxy

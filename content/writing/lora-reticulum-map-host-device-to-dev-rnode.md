@@ -1,7 +1,7 @@
 ---
 title: Why I Mapped the Host Device to /dev/rnode
 url: /posts/lora-reticulum-map-host-device-to-dev-rnode.html
-date: '2026-09-15'
+date: '2023-06-24'
 read_time: 8
 excerpt: Raw host tty names leak host enumeration details into Reticulum configuration
   and make migration harder.

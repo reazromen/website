@@ -1,7 +1,7 @@
 ---
 title: Take Up Thy Stethoscope and Walk — The Body as a Source of Urgency
 url: /posts/pink-floyd-take-up-thy-stethoscope-and-walk-the-body-as-a-source-of-urgency.html
-date: '2026-09-26'
+date: '2024-07-18'
 read_time: 5
 excerpt: The Body as a Source of Urgency
 topic: ''

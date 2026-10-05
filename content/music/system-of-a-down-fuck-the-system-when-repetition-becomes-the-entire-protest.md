@@ -1,7 +1,7 @@
 ---
 title: Fuck the System — When Repetition Becomes the Entire Protest
 url: /posts/system-of-a-down-fuck-the-system-when-repetition-becomes-the-entire-protest.html
-date: '2026-09-26'
+date: '2022-11-20'
 read_time: 5
 excerpt: When Repetition Becomes the Entire Protest
 topic: ''

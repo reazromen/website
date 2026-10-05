@@ -1,6 +1,6 @@
 ---
 title: "Mathematics Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2025-07-07'
 draft: false
 language: en
 url: /posts/systems-reality-142-mathematics-architecture.html

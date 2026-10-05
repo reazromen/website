@@ -1,7 +1,7 @@
 ---
 title: Monitor the Log Pipeline for Dropped Entries
 url: /posts/monitor-the-log-pipeline-for-dropped-entries.html
-date: '2026-09-14'
+date: '2025-06-07'
 read_time: 1
 excerpt: A logging stack can look healthy at the process level while silently discarding
   entries because of relabeling, backpressure or write failures.

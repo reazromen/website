@@ -1,7 +1,7 @@
 ---
 title: Album Sequencing as Emotional Whiplash
 url: /posts/album-sequencing-as-emotional-whiplash.html
-date: '2026-09-26'
+date: '2021-12-02'
 read_time: 5
 excerpt: How neighboring tracks can make each other more extreme through contrast
 topic: ''

@@ -1,7 +1,7 @@
 ---
 title: A Five-Minute Cache Was the Right Place for Expensive Docker Storage Inventory
 url: /posts/five-minute-cache-for-expensive-docker-storage-inventory.html
-date: '2026-09-14'
+date: '2025-03-16'
 read_time: 1
 excerpt: Not every metric needs to be collected at the same cadence; expensive inventory
   can be cached without weakening real-time health signals.

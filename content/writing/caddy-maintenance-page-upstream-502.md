@@ -1,7 +1,7 @@
 ---
 title: Why handle_errors Does Not Catch the 502 Your Upstream Returned
 url: /posts/caddy-maintenance-page-upstream-502.html
-date: '2026-09-18'
+date: '2023-02-25'
 read_time: 16
 excerpt: A proxied 5xx status is a response, not automatically a Caddy handler error.
 topic: caddy-reverse-proxy

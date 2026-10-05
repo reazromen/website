@@ -1,7 +1,7 @@
 ---
 title: The Manufacturer/Firmware Boundary Needs a Written Interface
 url: /posts/pcb-bringup-manufacturer-firmware-boundary-written-interface.html
-date: '2026-09-15'
+date: '2025-06-13'
 read_time: 9
 excerpt: Hardware and firmware teams could each make locally reasonable decisions
   that violate assumptions on the other side unless ownership and interfaces were

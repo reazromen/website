@@ -1,6 +1,6 @@
 ---
 title: পড়ার নোটে উত্তরের পাশাপাশি প্রশ্ন রাখা
-date: '2026-10-02'
+date: '2025-07-25'
 draft: false
 language: bn
 url: /posts/bn-reading-notes-question-bank.html

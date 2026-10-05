@@ -1,6 +1,6 @@
 ---
 title: "What Homeostasis Really Is"
-date: '2026-10-03'
+date: '2025-08-21'
 draft: false
 language: en
 url: /posts/systems-reality-031-homeostasis-mechanism.html

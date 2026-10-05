@@ -1,6 +1,6 @@
 ---
 title: "What Metabolism Really Is"
-date: '2026-10-03'
+date: '2021-06-24'
 draft: false
 language: en
 url: /posts/systems-reality-026-metabolism-mechanism.html

@@ -1,7 +1,7 @@
 ---
 title: Parent-Approved Contacts Are an Architecture Rule, Not a UI Filter
 url: /posts/parent-approved-contacts-are-an-architecture-rule-not-a-ui-filter.html
-date: '2026-09-14'
+date: '2025-11-27'
 read_time: 1
 excerpt: Contact approval has to be enforced by backend identity and call routing,
   not only hidden buttons.

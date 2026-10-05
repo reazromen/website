@@ -1,7 +1,7 @@
 ---
 title: External Runtimes Still Need an Owner Even If They Live in Another Repository
 url: /posts/external-runtimes-still-need-owner.html
-date: '2026-09-14'
+date: '2023-03-09'
 read_time: 1
 excerpt: Repository boundaries should not become operational blind spots on a shared
   production host.

@@ -1,7 +1,7 @@
 ---
 title: When One VLAN Would Not Cross the Trunk
 url: /posts/when-one-vlan-would-not-cross-the-trunk.html
-date: '2026-09-14'
+date: '2024-01-25'
 read_time: 3
 excerpt: A trunk can be up while one VLAN is still broken. That lab pushed me to verify
   allowed VLANs and operational state instead of assuming the link was simply good

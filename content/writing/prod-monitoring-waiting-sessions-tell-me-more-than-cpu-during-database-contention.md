@@ -1,7 +1,7 @@
 ---
 title: Waiting Sessions Tell Me More Than CPU During Database Contention
 url: /posts/prod-monitoring-waiting-sessions-tell-me-more-than-cpu-during-database-contention.html
-date: '2026-09-15'
+date: '2026-06-16'
 read_time: 36
 excerpt: A production-engineering deep dive into waiting sessions tell me more than
   cpu during database contention, grounded in the 2014 Mac mini hserver observability

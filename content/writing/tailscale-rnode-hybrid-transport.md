@@ -1,7 +1,7 @@
 ---
 title: Combining an RNode LoRa Link and a Tailscale TCP Link in One Reticulum System
 url: /posts/tailscale-rnode-hybrid-transport.html
-date: '2026-09-18'
+date: '2026-04-26'
 read_time: 2
 excerpt: The interesting architecture is not choosing radio or IP; it is letting Reticulum
   use different interfaces for different reachability conditions.

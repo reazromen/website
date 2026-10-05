@@ -1,7 +1,7 @@
 ---
 title: You Build It, You Help Operate It
 url: /posts/you-build-it-you-help-operate-it.html
-date: '2026-09-14'
+date: '2022-04-26'
 read_time: 1
 excerpt: DevOps ownership gets real when the team that changes a service also cares
   about its runtime behavior.

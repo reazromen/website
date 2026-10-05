@@ -1,7 +1,7 @@
 ---
 title: The Call Connected but Only One Side Had Audio
 url: /posts/the-call-connected-but-only-one-side-had-audio.html
-date: '2026-09-14'
+date: '2021-09-07'
 read_time: 2
 excerpt: One-way audio was my first VoIP problem where the signaling looked healthy
   and the real fault was the address and port information used for RTP.

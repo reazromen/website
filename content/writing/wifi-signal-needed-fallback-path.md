@@ -1,7 +1,7 @@
 ---
 title: Wi-Fi Signal Needed a Fallback Path
 url: /posts/wifi-signal-needed-fallback-path.html
-date: '2026-09-14'
+date: '2022-03-06'
 read_time: 1
 excerpt: The host collector originally relied on `iw`, but driver and interface behavior
   did not always expose the active connection signal consistently.

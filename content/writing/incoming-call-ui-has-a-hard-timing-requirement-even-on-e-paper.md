@@ -1,7 +1,7 @@
 ---
 title: Incoming Call UI Has a Hard Timing Requirement Even on E-Paper
 url: /posts/incoming-call-ui-has-a-hard-timing-requirement-even-on-e-paper.html
-date: '2026-09-14'
+date: '2022-06-19'
 read_time: 1
 excerpt: The user must see caller identity before deciding whether to answer, despite
   slow display behavior.

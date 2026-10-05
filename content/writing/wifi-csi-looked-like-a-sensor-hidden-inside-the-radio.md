@@ -1,7 +1,7 @@
 ---
 title: Wi-Fi CSI Looked Like a Sensor Hidden Inside the Radio
 url: /posts/wifi-csi-looked-like-a-sensor-hidden-inside-the-radio.html
-date: '2026-09-14'
+date: '2026-07-04'
 read_time: 1
 excerpt: Channel State Information exposes how multipath changes, which turns ordinary
   Wi-Fi links into crude environmental sensors.

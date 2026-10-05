@@ -1,6 +1,6 @@
 ---
 title: দেখতে একই প্যাটার্ন মানেই একই প্রক্রিয়া না
-date: '2026-10-02'
+date: '2023-09-05'
 draft: false
 language: bn
 url: /posts/bn-scale-similarity-not-same-system.html

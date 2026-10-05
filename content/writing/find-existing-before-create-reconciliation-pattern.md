@@ -1,7 +1,7 @@
 ---
 title: Find Existing Before Create Is a Practical Reconciliation Pattern
 url: /posts/find-existing-before-create-reconciliation-pattern.html
-date: '2026-09-14'
+date: '2025-01-23'
 read_time: 1
 excerpt: When the remote API lacks your preferred idempotency primitive, deterministic
   discovery can recover an uncertain previous attempt.

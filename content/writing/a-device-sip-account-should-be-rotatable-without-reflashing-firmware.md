@@ -1,7 +1,7 @@
 ---
 title: A Device SIP Account Should Be Rotatable Without Reflashing Firmware
 url: /posts/a-device-sip-account-should-be-rotatable-without-reflashing-firmware.html
-date: '2026-09-14'
+date: '2025-06-28'
 read_time: 1
 excerpt: Telephony credentials are runtime configuration, not compiled product identity.
 topic: loup-engineering

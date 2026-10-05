@@ -1,7 +1,7 @@
 ---
 title: Wi-Fi CSI Presence Detection Fails First at Calibration, Drift, and Synchronization
 url: /posts/wifi-csi-presence-calibration-drift-synchronization.html
-date: '2026-09-26'
+date: '2024-03-24'
 read_time: 9
 excerpt: CSI is extremely sensitive to the radio channel—which is why it can sense
   motion and why uncontrolled rooms, clocks, channels, furniture, fans, and hardware

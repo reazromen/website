@@ -1,7 +1,7 @@
 ---
 title: Terraform Provider Upgrades Are Schema Migrations, Not Dependency Chores
 url: /posts/terraform-provider-upgrades-are-schema-migrations/index.html
-date: '2026-09-26'
+date: '2021-12-29'
 read_time: 8
 excerpt: A provider defines resource schemas, planning behavior, defaults, import
   rules, and state upgrades. Changing its version can alter plans even when no HCL

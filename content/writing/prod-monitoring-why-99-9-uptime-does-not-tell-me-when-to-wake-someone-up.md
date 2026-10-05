@@ -1,7 +1,7 @@
 ---
 title: Why 99.9% Uptime Does Not Tell Me When to Wake Someone Up
 url: /posts/prod-monitoring-why-99-9-uptime-does-not-tell-me-when-to-wake-someone-up.html
-date: '2026-09-15'
+date: '2020-08-21'
 read_time: 35
 excerpt: A production-engineering deep dive into why 99.9% uptime does not tell me
   when to wake someone up, grounded in the 2014 Mac mini hserver observability stack

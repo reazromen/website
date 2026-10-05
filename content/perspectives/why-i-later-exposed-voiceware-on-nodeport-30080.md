@@ -1,7 +1,7 @@
 ---
 title: Why I Later Exposed Voiceware on NodePort 30080
 url: /posts/why-i-later-exposed-voiceware-on-nodeport-30080.html
-date: '2026-09-18'
+date: '2026-06-01'
 read_time: 2
 excerpt: The practical reason for adding a simple external access path while validating
   the web deployment.

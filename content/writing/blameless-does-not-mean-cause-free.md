@@ -1,7 +1,7 @@
 ---
 title: Blameless Does Not Mean Cause-Free
 url: /posts/blameless-does-not-mean-cause-free.html
-date: '2026-09-14'
+date: '2020-02-22'
 read_time: 1
 excerpt: A useful postmortem removes personal blame without removing technical accountability
   or causal analysis.

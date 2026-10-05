@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Mutation"
-date: '2026-10-03'
+date: '2024-08-12'
 draft: false
 language: en
 url: /posts/systems-reality-050-mutation-philosophy.html

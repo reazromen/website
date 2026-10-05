@@ -2,7 +2,7 @@
 title: Several Species of Small Furry Animals Gathered Together in a Cave and Grooving
   with a Pict — When Experiment Becomes Its Own Joke
 url: /posts/pink-floyd-several-species-of-small-furry-animals-gathered-together-in-a-cave-and-grooving-with-a-pict-when-ex.html
-date: '2026-09-26'
+date: '2026-03-20'
 read_time: 5
 excerpt: When Experiment Becomes Its Own Joke
 topic: ''

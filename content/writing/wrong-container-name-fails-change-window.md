@@ -1,7 +1,7 @@
 ---
 title: A Wrong Container Name Can Fail a Change Window Even When VoIP Is Healthy
 url: /posts/wrong-container-name-fails-change-window.html
-date: '2026-09-14'
+date: '2024-07-27'
 read_time: 1
 excerpt: A preflight sentinel is only useful if it names the runtime object that actually
   exists today.

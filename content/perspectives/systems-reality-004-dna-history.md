@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See DNA"
-date: '2026-10-03'
+date: '2026-02-24'
 draft: false
 language: en
 url: /posts/systems-reality-004-dna-history.html

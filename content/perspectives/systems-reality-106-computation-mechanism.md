@@ -1,6 +1,6 @@
 ---
 title: "What Computation Really Is"
-date: '2026-10-03'
+date: '2020-06-22'
 draft: false
 language: en
 url: /posts/systems-reality-106-computation-mechanism.html

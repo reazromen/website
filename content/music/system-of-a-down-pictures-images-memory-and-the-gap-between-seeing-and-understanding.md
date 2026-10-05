@@ -1,7 +1,7 @@
 ---
 title: Pictures — Images, Memory, and the Gap Between Seeing and Understanding
 url: /posts/system-of-a-down-pictures-images-memory-and-the-gap-between-seeing-and-understanding.html
-date: '2026-09-26'
+date: '2025-09-01'
 read_time: 5
 excerpt: Images, Memory, and the Gap Between Seeing and Understanding
 topic: ''

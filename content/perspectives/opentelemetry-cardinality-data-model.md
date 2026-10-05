@@ -1,7 +1,7 @@
 ---
 title: OpenTelemetry Cardinality Is a Data-Model Problem, Not Just a Cost Problem
 url: /posts/opentelemetry-cardinality-data-model.html
-date: '2026-09-26'
+date: '2024-06-07'
 read_time: 8
 excerpt: ''
 topic: ''

@@ -1,7 +1,7 @@
 ---
 title: I2S Audio Made Timing Bugs Audible
 url: /posts/i2s-audio-made-timing-bugs-audible.html
-date: '2026-09-14'
+date: '2025-11-15'
 read_time: 1
 excerpt: Digital audio bugs are often scheduling and buffer bugs that happen to come
   out of a speaker.

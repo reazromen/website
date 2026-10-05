@@ -1,7 +1,7 @@
 ---
 title: Zero Firing Alerts Does Not Mean Monitoring Is Healthy
 url: /posts/zero-alerts-does-not-mean-monitoring-healthy.html
-date: '2026-09-14'
+date: '2024-10-23'
 read_time: 1
 excerpt: A broken rule evaluator or missing target can produce a beautifully quiet
   alert dashboard while the system is blind.

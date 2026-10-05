@@ -1,6 +1,6 @@
 ---
 title: "The Philosophical Problem Hidden Inside Mathematics"
-date: '2026-10-03'
+date: '2026-06-22'
 draft: false
 language: en
 url: /posts/systems-reality-145-mathematics-philosophy.html

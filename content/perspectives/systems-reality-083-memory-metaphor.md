@@ -1,6 +1,6 @@
 ---
 title: "Where the storage Analogy Breaks"
-date: '2026-10-03'
+date: '2025-04-22'
 draft: false
 language: en
 url: /posts/systems-reality-083-memory-metaphor.html

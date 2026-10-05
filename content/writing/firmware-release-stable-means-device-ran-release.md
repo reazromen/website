@@ -1,7 +1,7 @@
 ---
 title: STABLE Should Mean a Device Actually Ran the Release
 url: /posts/firmware-release-stable-means-device-ran-release.html
-date: '2026-09-15'
+date: '2024-09-10'
 read_time: 9
 excerpt: A release can pass CI, upload and signature verification yet still fail on
   the real device path that matters.

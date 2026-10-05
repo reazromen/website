@@ -1,7 +1,7 @@
 ---
 title: Using Redis Beside Kamailio Without Making Redis the Whole Architecture
 url: /posts/using-redis-beside-kamailio-without-making-redis-the-whole-architecture.html
-date: '2026-09-14'
+date: '2023-05-24'
 read_time: 2
 excerpt: Redis was useful for fast shared state in a SIP lab, but the important decision
   was which state belonged there and how the proxy behaved when it disappeared.

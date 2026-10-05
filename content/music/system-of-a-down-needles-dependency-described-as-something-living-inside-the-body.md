@@ -1,7 +1,7 @@
 ---
 title: Needles — Dependency Described as Something Living Inside the Body
 url: /posts/system-of-a-down-needles-dependency-described-as-something-living-inside-the-body.html
-date: '2026-09-26'
+date: '2024-05-14'
 read_time: 5
 excerpt: Dependency Described as Something Living Inside the Body
 topic: ''

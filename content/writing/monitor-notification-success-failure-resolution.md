@@ -1,7 +1,7 @@
 ---
 title: Monitor Notification Success, Failure and Resolution Separately
 url: /posts/monitor-notification-success-failure-resolution.html
-date: '2026-09-14'
+date: '2023-01-24'
 read_time: 1
 excerpt: An alert can fire correctly and still never reach the operator if Alertmanager
   or the external delivery path fails.

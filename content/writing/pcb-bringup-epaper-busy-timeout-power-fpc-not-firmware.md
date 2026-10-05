@@ -1,7 +1,7 @@
 ---
 title: An E-Paper BUSY Timeout Can Be Power or FPC, Not Firmware
 url: /posts/pcb-bringup-epaper-busy-timeout-power-fpc-not-firmware.html
-date: '2026-09-15'
+date: '2025-08-22'
 read_time: 9
 excerpt: A BUSY timeout is easy to interpret as a display-driver bug, but the panel
   can remain busy or silent when its power rail or flex connection is wrong.

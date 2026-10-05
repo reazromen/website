@@ -1,6 +1,6 @@
 ---
 title: হেলথ চেকে সব ডিপেনডেন্সি ফেল করালে
-date: '2026-10-02'
+date: '2025-04-20'
 draft: false
 language: bn
 url: /posts/bn-health-check-dependency-cascade.html

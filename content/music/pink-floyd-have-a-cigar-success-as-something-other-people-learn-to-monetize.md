@@ -1,7 +1,7 @@
 ---
 title: Have a Cigar — Success as Something Other People Learn to Monetize
 url: /posts/pink-floyd-have-a-cigar-success-as-something-other-people-learn-to-monetize.html
-date: '2026-09-26'
+date: '2026-02-24'
 read_time: 5
 excerpt: Success as Something Other People Learn to Monetize
 topic: ''

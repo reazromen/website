@@ -1,7 +1,7 @@
 ---
 title: A WS2812 on a 3.3 V GPIO Needs a Real Logic-Level Decision
 url: /posts/a-ws2812-on-a-3-3-v-gpio-needs-a-real-logic-level-decision.html
-date: '2026-09-14'
+date: '2020-09-21'
 read_time: 1
 excerpt: A digital LED can still sit on an analog margin problem.
 topic: loup-engineering

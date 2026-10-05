@@ -1,7 +1,7 @@
 ---
 title: Swap Usage Needs Duration and Context
 url: /posts/swap-usage-needs-duration-and-context.html
-date: '2026-09-14'
+date: '2025-05-11'
 read_time: 1
 excerpt: A few megabytes of swap on an old Linux host did not automatically mean an
   incident, especially after long uptime.

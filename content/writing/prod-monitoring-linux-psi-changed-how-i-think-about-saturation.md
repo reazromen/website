@@ -1,7 +1,7 @@
 ---
 title: Linux PSI Changed How I Think About Saturation
 url: /posts/prod-monitoring-linux-psi-changed-how-i-think-about-saturation.html
-date: '2026-09-15'
+date: '2026-05-24'
 read_time: 35
 excerpt: A production-engineering deep dive into linux psi changed how i think about
   saturation, grounded in the 2014 Mac mini hserver observability stack and its accepted

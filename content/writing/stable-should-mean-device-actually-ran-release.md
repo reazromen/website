@@ -1,7 +1,7 @@
 ---
 title: STABLE Should Mean a Device Actually Ran the Release
 url: /posts/stable-should-mean-device-actually-ran-release.html
-date: '2026-09-14'
+date: '2025-02-26'
 read_time: 1
 excerpt: A release should not become stable merely because an administrator clicked
   a promotion button.

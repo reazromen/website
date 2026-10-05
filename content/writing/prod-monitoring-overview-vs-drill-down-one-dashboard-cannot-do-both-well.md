@@ -1,7 +1,7 @@
 ---
 title: 'Overview vs Drill-Down: One Dashboard Cannot Do Both Well'
 url: /posts/prod-monitoring-overview-vs-drill-down-one-dashboard-cannot-do-both-well.html
-date: '2026-09-15'
+date: '2020-06-15'
 read_time: 29
 excerpt: 'A production-engineering deep dive into overview vs drill-down: one dashboard
   cannot do both well, grounded in the 2014 Mac mini hserver observability stack and

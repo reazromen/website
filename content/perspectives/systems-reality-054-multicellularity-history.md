@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Multicellularity"
-date: '2026-10-03'
+date: '2026-06-12'
 draft: false
 language: en
 url: /posts/systems-reality-054-multicellularity-history.html

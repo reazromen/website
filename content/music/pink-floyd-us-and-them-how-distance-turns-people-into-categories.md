@@ -1,7 +1,7 @@
 ---
 title: Us and Them — How Distance Turns People Into Categories
 url: /posts/pink-floyd-us-and-them-how-distance-turns-people-into-categories.html
-date: '2026-09-26'
+date: '2021-04-20'
 read_time: 5
 excerpt: How Distance Turns People Into Categories
 topic: ''

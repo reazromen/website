@@ -1,7 +1,7 @@
 ---
 title: Release ID Is Stronger Than a Version String
 url: /posts/ota-state-release-id-not-version-string.html
-date: '2026-09-15'
+date: '2023-10-16'
 read_time: 7
 excerpt: Version text alone could not uniquely identify artifact lineage or distinguish
   reissued builds.

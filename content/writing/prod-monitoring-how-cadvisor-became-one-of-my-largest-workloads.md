@@ -1,7 +1,7 @@
 ---
 title: How cAdvisor Became One of My Largest Workloads
 url: /posts/prod-monitoring-how-cadvisor-became-one-of-my-largest-workloads.html
-date: '2026-09-15'
+date: '2026-05-20'
 read_time: 36
 excerpt: A production-engineering deep dive into how cadvisor became one of my largest
   workloads, grounded in the 2014 Mac mini hserver observability stack and its accepted

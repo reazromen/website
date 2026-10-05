@@ -1,7 +1,7 @@
 ---
 title: Writable Layer Size Should Not Be Polled Expensively Every Scrape
 url: /posts/writable-layer-size-should-not-be-polled-expensively.html
-date: '2026-09-14'
+date: '2025-01-06'
 read_time: 1
 excerpt: Docker storage size is useful, but asking the daemon for deep filesystem
   inventory on every fast scrape consumed too much monitoring overhead.

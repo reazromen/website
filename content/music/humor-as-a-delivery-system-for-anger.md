@@ -1,7 +1,7 @@
 ---
 title: Humor as a Delivery System for Anger
 url: /posts/humor-as-a-delivery-system-for-anger.html
-date: '2026-09-26'
+date: '2026-01-10'
 read_time: 5
 excerpt: How absurdity can sharpen political or social criticism instead of weakening
   it

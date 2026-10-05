@@ -1,7 +1,7 @@
 ---
 title: A Post-Deploy Inventory Snapshot Is Forensic Evidence
 url: /posts/post-deploy-inventory-snapshot-forensic-evidence.html
-date: '2026-09-14'
+date: '2023-01-12'
 read_time: 1
 excerpt: Recording containers, ports and revisions after deployment gives future incident
   response a known-good comparison point.

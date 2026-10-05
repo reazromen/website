@@ -1,7 +1,7 @@
 ---
 title: Warning and Critical Are Different Response Contracts
 url: /posts/prod-monitoring-warning-and-critical-are-different-response-contracts.html
-date: '2026-09-15'
+date: '2026-07-01'
 read_time: 34
 excerpt: A production-engineering deep dive into warning and critical are different
   response contracts, grounded in the 2014 Mac mini hserver observability stack and

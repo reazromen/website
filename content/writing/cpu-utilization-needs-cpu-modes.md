@@ -1,7 +1,7 @@
 ---
 title: CPU Utilization Without CPU Modes Hides the Bottleneck
 url: /posts/cpu-utilization-needs-cpu-modes.html
-date: '2026-09-14'
+date: '2022-07-03'
 read_time: 1
 excerpt: The host can report high CPU usage even when the useful question is whether
   time is going to user work, system work, steal, or I/O wait.

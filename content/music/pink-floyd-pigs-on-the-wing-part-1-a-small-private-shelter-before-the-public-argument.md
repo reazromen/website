@@ -1,7 +1,7 @@
 ---
 title: Pigs on the Wing, Part 1 — A Small Private Shelter Before the Public Argument
 url: /posts/pink-floyd-pigs-on-the-wing-part-1-a-small-private-shelter-before-the-public-argument.html
-date: '2026-09-26'
+date: '2023-03-24'
 read_time: 5
 excerpt: A Small Private Shelter Before the Public Argument
 topic: ''

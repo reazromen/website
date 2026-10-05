@@ -1,7 +1,7 @@
 ---
 title: CAD for Presell and EVT for Engineering Solve Different Problems
 url: /posts/cad-for-presell-and-evt-for-engineering-solve-different-problems.html
-date: '2026-09-14'
+date: '2025-07-11'
 read_time: 1
 excerpt: A polished render can validate product communication while an ugly prototype
   answers technical questions.

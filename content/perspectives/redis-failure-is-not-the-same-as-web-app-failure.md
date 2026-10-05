@@ -1,7 +1,7 @@
 ---
 title: Redis Failure Is Not the Same as Web-App Failure
 url: /posts/redis-failure-is-not-the-same-as-web-app-failure.html
-date: '2026-09-18'
+date: '2025-04-04'
 read_time: 1
 excerpt: Why dependency failures should be diagnosed as graph problems instead of
   pod problems.

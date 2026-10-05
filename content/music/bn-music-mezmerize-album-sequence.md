@@ -1,6 +1,6 @@
 ---
 title: মেজমারাইজকে তালিকা না, ক্রম হিসেবে শোনা
-date: '2026-10-02'
+date: '2025-11-03'
 draft: false
 language: bn
 url: /posts/bn-music-mezmerize-album-sequence.html

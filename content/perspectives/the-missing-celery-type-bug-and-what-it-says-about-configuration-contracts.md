@@ -1,7 +1,7 @@
 ---
 title: The Missing celery.type Bug and What It Says About Configuration Contracts
 url: /posts/the-missing-celery-type-bug-and-what-it-says-about-configuration-contracts.html
-date: '2026-09-18'
+date: '2025-07-03'
 read_time: 1
 excerpt: How conditional behavior depends on values being present and semantically
   correct.

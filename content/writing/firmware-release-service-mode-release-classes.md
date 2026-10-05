@@ -1,7 +1,7 @@
 ---
 title: Partition Table, Bootloader and Security Epoch Are Different Release Classes
 url: /posts/firmware-release-service-mode-release-classes.html
-date: '2026-09-15'
+date: '2025-08-09'
 read_time: 9
 excerpt: Not every firmware-related change is safe to distribute through the same
   application OTA endpoint.

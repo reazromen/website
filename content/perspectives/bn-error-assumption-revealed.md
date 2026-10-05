@@ -1,6 +1,6 @@
 ---
 title: এরর আমাদের লুকানো অনুমান দেখায়
-date: '2026-10-02'
+date: '2026-02-28'
 draft: false
 language: bn
 url: /posts/bn-error-assumption-revealed.html

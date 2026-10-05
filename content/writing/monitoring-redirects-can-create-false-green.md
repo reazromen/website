@@ -1,7 +1,7 @@
 ---
 title: Monitoring Redirects Can Create False Green Probes
 url: /posts/monitoring-redirects-can-create-false-green.html
-date: '2026-09-14'
+date: '2026-05-14'
 read_time: 1
 excerpt: A health probe that automatically follows redirects may end on an authentication
   page and report successful HTTP even though the original service route is wrong.

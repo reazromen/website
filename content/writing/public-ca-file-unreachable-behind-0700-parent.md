@@ -1,7 +1,7 @@
 ---
 title: A Public CA File Can Be Unreachable Behind a 0700 Parent Directory
 url: /posts/public-ca-file-unreachable-behind-0700-parent.html
-date: '2026-09-14'
+date: '2024-01-29'
 read_time: 1
 excerpt: Publishing a certificate means every directory in its path must support the
   intended reader, even if neighboring secrets remain private.

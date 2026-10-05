@@ -1,7 +1,7 @@
 ---
 title: How Voiceware Grew From a Web-App Chart Into a Multi-Service Deployment Repository
 url: /posts/how-voiceware-grew-from-a-web-app-chart-into-a-multi-service-deployment-repository.html
-date: '2026-09-18'
+date: '2023-07-29'
 read_time: 2
 excerpt: The transition from a single Helm chart to a repository containing ten independently
   represented workloads.

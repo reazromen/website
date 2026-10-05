@@ -1,7 +1,7 @@
 ---
 title: Backup Success Is Not Recoverability
 url: /posts/prod-monitoring-backup-success-is-not-recoverability.html
-date: '2026-09-15'
+date: '2025-07-04'
 read_time: 33
 excerpt: A production-engineering deep dive into backup success is not recoverability,
   grounded in the 2014 Mac mini hserver observability stack and its accepted runtime

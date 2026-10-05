@@ -1,7 +1,7 @@
 ---
 title: Migration Tests Catch a Different Class of Failure Than Unit Tests
 url: /posts/migration-tests-catch-different-failures-than-unit-tests.html
-date: '2026-09-14'
+date: '2024-11-23'
 read_time: 1
 excerpt: An application can pass isolated logic tests while its database schema still
   fails to create, upgrade or enforce the intended constraint.

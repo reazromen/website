@@ -1,7 +1,7 @@
 ---
 title: A Pin Map Is an Interface Contract, Not a Convenience Header
 url: /posts/pcb-bringup-pin-map-interface-contract.html
-date: '2026-09-15'
+date: '2025-07-06'
 read_time: 9
 excerpt: Audio debugging depended on exact MCLK, BCLK, LRCK, data and control wiring,
   yet pin values could easily be copied from stale board revisions.

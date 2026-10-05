@@ -1,7 +1,7 @@
 ---
 title: AppRole Is Machine Identity, Not a Shared Master Password
 url: /posts/approle-is-machine-identity-not-shared-master-password.html
-date: '2026-09-14'
+date: '2022-05-07'
 read_time: 1
 excerpt: Workloads should authenticate to the secret authority with narrow machine
   identities rather than one credential copied across services.

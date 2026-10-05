@@ -1,7 +1,7 @@
 ---
 title: Mezmerize and Hypnotize as One Split Statement
 url: /posts/mezmerize-and-hypnotize-as-one-split-statement.html
-date: '2026-09-26'
+date: '2025-11-10'
 read_time: 5
 excerpt: How two separate releases can still behave like halves of one argument
 topic: ''

@@ -1,7 +1,7 @@
 ---
 title: Why 8 kHz Telephony Can Sound Robotic After 16 kHz Playback Conversion
 url: /posts/embedded-audio-8k-telephony-16k-playback-robotic-texture.html
-date: '2026-09-15'
+date: '2022-07-21'
 read_time: 12
 excerpt: The downlink could be packet-complete and still sound gritty or artificial
   after conversion to the physical playback rate.

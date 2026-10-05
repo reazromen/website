@@ -1,7 +1,7 @@
 ---
 title: GPIO17 Was Not Enough to Explain the Speaker PA Control
 url: /posts/pcb-bringup-speaker-pa-control-source-of-truth.html
-date: '2026-09-15'
+date: '2023-06-30'
 read_time: 9
 excerpt: Historical board notes associated amplifier enable with GPIO17, while later
   verified board-path evidence showed the physical speaker PA controlled through TCA9555

@@ -1,7 +1,7 @@
 ---
 title: Disk Latency Explains More Than Disk Throughput
 url: /posts/disk-latency-explains-more-than-throughput.html
-date: '2026-09-14'
+date: '2022-07-27'
 read_time: 1
 excerpt: The host can show modest megabytes per second while applications still wait
   because each storage request takes too long.

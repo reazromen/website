@@ -1,7 +1,7 @@
 ---
 title: What Prometheus `for:` Really Buys You—and What It Cannot
 url: /posts/prod-monitoring-what-prometheus-for-really-buys-you-and-what-it-cannot.html
-date: '2026-09-15'
+date: '2024-05-24'
 read_time: 35
 excerpt: A production-engineering deep dive into what prometheus `for:` really buys
   you—and what it cannot, grounded in the 2014 Mac mini hserver observability stack

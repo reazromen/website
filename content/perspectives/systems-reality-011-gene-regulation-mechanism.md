@@ -1,6 +1,6 @@
 ---
 title: "What Gene Regulation Really Is"
-date: '2026-10-03'
+date: '2022-11-25'
 draft: false
 language: en
 url: /posts/systems-reality-011-gene-regulation-mechanism.html

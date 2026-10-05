@@ -1,7 +1,7 @@
 ---
 title: Shimmy — Discipline, Scheduling, and the Absurdity of a Life Over-Programmed
 url: /posts/system-of-a-down-shimmy-discipline-scheduling-and-the-absurdity-of-a-life-over-programmed.html
-date: '2026-09-26'
+date: '2023-07-14'
 read_time: 5
 excerpt: Discipline, Scheduling, and the Absurdity of a Life Over-Programmed
 topic: ''

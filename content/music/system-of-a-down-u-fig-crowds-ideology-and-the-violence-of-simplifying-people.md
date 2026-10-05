@@ -1,7 +1,7 @@
 ---
 title: U-Fig — Crowds, Ideology, and the Violence of Simplifying People
 url: /posts/system-of-a-down-u-fig-crowds-ideology-and-the-violence-of-simplifying-people.html
-date: '2026-09-26'
+date: '2026-06-30'
 read_time: 5
 excerpt: Crowds, Ideology, and the Violence of Simplifying People
 topic: ''

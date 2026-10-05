@@ -1,7 +1,7 @@
 ---
 title: A Service-Replaceable Battery Changes Mechanical and Firmware Assumptions
 url: /posts/a-service-replaceable-battery-changes-mechanical-and-firmware-assumptions.html
-date: '2026-09-14'
+date: '2025-07-10'
 read_time: 1
 excerpt: A screwed back plate makes battery replacement possible but also affects
   sealing, state retention and service procedure.

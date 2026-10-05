@@ -1,7 +1,7 @@
 ---
 title: SIP Registration Is a Device-Identity Checkpoint
 url: /posts/sip-registration-is-a-device-identity-checkpoint.html
-date: '2026-09-14'
+date: '2025-12-04'
 read_time: 1
 excerpt: A successful REGISTER proves more than network reachability because it joins
   device credentials to PBX state.

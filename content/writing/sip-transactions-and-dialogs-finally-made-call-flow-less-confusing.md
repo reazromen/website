@@ -1,7 +1,7 @@
 ---
 title: SIP Transactions and Dialogs Finally Made Call Flow Less Confusing
 url: /posts/sip-transactions-and-dialogs-finally-made-call-flow-less-confusing.html
-date: '2026-09-14'
+date: '2024-06-14'
 read_time: 2
 excerpt: SIP became easier to debug once I stopped treating an entire call as one
   exchange and separated individual transactions from the dialog that ties them together.

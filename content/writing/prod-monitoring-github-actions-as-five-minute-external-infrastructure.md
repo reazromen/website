@@ -1,7 +1,7 @@
 ---
 title: GitHub Actions as Five-Minute External Infrastructure
 url: /posts/prod-monitoring-github-actions-as-five-minute-external-infrastructure.html
-date: '2026-09-15'
+date: '2025-03-26'
 read_time: 33
 excerpt: A production-engineering deep dive into github actions as five-minute external
   infrastructure, grounded in the 2014 Mac mini hserver observability stack and its

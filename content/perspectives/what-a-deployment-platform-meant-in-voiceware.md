@@ -1,7 +1,7 @@
 ---
 title: What a “Deployment Platform” Meant in Voiceware
 url: /posts/what-a-deployment-platform-meant-in-voiceware.html
-date: '2026-09-18'
+date: '2023-12-21'
 read_time: 2
 excerpt: The difference between having Kubernetes manifests and having a repeatable
   delivery system.

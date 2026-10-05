@@ -1,7 +1,7 @@
 ---
 title: The Ethics of Interpreting Ambiguous Lyrics
 url: /posts/the-ethics-of-interpreting-ambiguous-lyrics.html
-date: '2026-09-26'
+date: '2024-04-07'
 read_time: 5
 excerpt: How to separate documented artist intent, public interpretation, and the
   listener's own reading

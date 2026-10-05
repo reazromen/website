@@ -1,6 +1,6 @@
 ---
 title: লেখা মানে চিন্তাকে নিজের মাথার বাইরে রাখা
-date: '2026-10-02'
+date: '2025-01-14'
 draft: false
 language: bn
 url: /posts/bn-writing-thought-external-memory.html

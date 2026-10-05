@@ -1,7 +1,7 @@
 ---
 title: 'My First Packet Tracer Lab: Two PCs, One Switch, No Magic'
 url: /posts/first-packet-tracer-lab-two-pcs-one-switch.html
-date: '2026-09-14'
+date: '2026-04-29'
 read_time: 3
 excerpt: 'A two-PC switch lab is simple enough to expose the actual sequence behind
   a successful ping: addressing, ARP, MAC learning and frame forwarding.'

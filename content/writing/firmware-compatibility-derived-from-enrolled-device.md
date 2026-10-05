@@ -1,7 +1,7 @@
 ---
 title: Firmware Compatibility Should Be Derived from the Enrolled Device
 url: /posts/firmware-compatibility-derived-from-enrolled-device.html
-date: '2026-09-14'
+date: '2025-10-22'
 read_time: 1
 excerpt: Release metadata is safer when it comes from authoritative device capabilities
   instead of copied operator input.

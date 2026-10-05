@@ -1,7 +1,7 @@
 ---
 title: Tracing an IMS REGISTER Showed Me Where SIP Meets Diameter
 url: /posts/tracing-an-ims-register-showed-me-where-sip-meets-diameter.html
-date: '2026-09-14'
+date: '2025-10-16'
 read_time: 2
 excerpt: An IMS registration capture connected familiar SIP REGISTER messages with
   the less visible Diameter exchanges used to select and authorize serving functions.

@@ -1,7 +1,7 @@
 ---
 title: Queue Retry Policy Is Part of Data Integrity
 url: /posts/queue-retry-policy-part-of-data-integrity.html
-date: '2026-09-14'
+date: '2024-05-03'
 read_time: 1
 excerpt: Retry counts and backoff are not just performance settings when the job performs
   external side effects.

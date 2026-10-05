@@ -1,7 +1,7 @@
 ---
 title: Terraform import Blocks Make Brownfield Adoption Reviewable
 url: /posts/terraform-import-blocks-make-brownfield-reviewable/index.html
-date: '2026-09-26'
+date: '2024-03-15'
 read_time: 8
 excerpt: Configuration-driven import turns existing infrastructure adoption into code
   that can be planned, reviewed, repeated, and paired with the resource configuration

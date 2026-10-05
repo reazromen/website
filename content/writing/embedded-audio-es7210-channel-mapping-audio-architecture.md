@@ -1,7 +1,7 @@
 ---
 title: ES7210 Channel Mapping Was an Audio-Architecture Problem
 url: /posts/embedded-audio-es7210-channel-mapping-audio-architecture.html
-date: '2026-09-15'
+date: '2025-03-19'
 read_time: 12
 excerpt: Codec detection alone did not prove the capture channels meant what the DSP
   assumed they meant.

@@ -1,7 +1,7 @@
 ---
 title: A Local Remote-Tracking Ref Can Be Stale While Git Says You Match Upstream
 url: /posts/remote-tracking-ref-can-be-stale.html
-date: '2026-09-14'
+date: '2024-08-14'
 read_time: 1
 excerpt: Comparing HEAD with origin/main proves consistency with the last fetched
   view, not with the current remote repository.

@@ -1,7 +1,7 @@
 ---
 title: Disk Full and Inodes Full Are Two Different Outages
 url: /posts/prod-monitoring-disk-full-and-inodes-full-are-two-different-outages.html
-date: '2026-09-15'
+date: '2022-11-28'
 read_time: 34
 excerpt: A production-engineering deep dive into disk full and inodes full are two
   different outages, grounded in the 2014 Mac mini hserver observability stack and

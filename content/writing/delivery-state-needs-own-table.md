@@ -1,7 +1,7 @@
 ---
 title: Delivery State Needs Its Own Table
 url: /posts/delivery-state-needs-own-table.html
-date: '2026-09-14'
+date: '2025-08-27'
 read_time: 1
 excerpt: Content intent and remote-delivery progress are different state machines
   and should not be collapsed into one post status.

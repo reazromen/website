@@ -1,7 +1,7 @@
 ---
 title: Waiting for the Worms — How Authoritarian Thinking Grows Inside Isolation
 url: /posts/pink-floyd-waiting-for-the-worms-how-authoritarian-thinking-grows-inside-isolation.html
-date: '2026-09-26'
+date: '2026-04-22'
 read_time: 5
 excerpt: How Authoritarian Thinking Grows Inside Isolation
 topic: ''

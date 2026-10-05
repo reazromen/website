@@ -1,7 +1,7 @@
 ---
 title: QCI 5 for IMS Signalling and QCI 1 for Voice Made QoS Concrete
 url: /posts/qci-5-signalling-qci-1-voice-made-qos-concrete.html
-date: '2026-09-14'
+date: '2026-02-08'
 read_time: 2
 excerpt: VoLTE QoS became easier to understand when I separated the persistent IMS
   signalling bearer from the dedicated low-latency bearer created for voice media.

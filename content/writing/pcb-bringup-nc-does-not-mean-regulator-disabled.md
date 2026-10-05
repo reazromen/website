@@ -1,7 +1,7 @@
 ---
 title: NC on the Schematic Does Not Mean the Regulator Is Disabled
 url: /posts/pcb-bringup-nc-does-not-mean-regulator-disabled.html
-date: '2026-09-15'
+date: '2023-01-06'
 read_time: 9
 excerpt: Unused AXP2101 regulator pins could appear electrically unconnected while
   still being enabled internally by default or firmware.

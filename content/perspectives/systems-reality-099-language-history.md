@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Language"
-date: '2026-10-03'
+date: '2026-09-03'
 draft: false
 language: en
 url: /posts/systems-reality-099-language-history.html

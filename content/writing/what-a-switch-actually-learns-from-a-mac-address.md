@@ -1,7 +1,7 @@
 ---
 title: What a Switch Actually Learns from a MAC Address
 url: /posts/what-a-switch-actually-learns-from-a-mac-address.html
-date: '2026-09-14'
+date: '2026-08-28'
 read_time: 3
 excerpt: A switch learns from source MAC addresses, not destination addresses. Watching
   the table populate makes unknown unicast, flooding and forwarding much easier to

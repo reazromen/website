@@ -1,7 +1,7 @@
 ---
 title: RTP Playout Got Better When I Stopped Letting Packet Arrival Drive the Speaker
 url: /posts/rtp-playout-got-better-when-i-stopped-letting-packet-arrival-drive-the-speaker.html
-date: '2026-09-14'
+date: '2026-01-22'
 read_time: 1
 excerpt: Network arrival time is not an audio clock. A stable playout schedule needs
   its own timing and buffer policy.

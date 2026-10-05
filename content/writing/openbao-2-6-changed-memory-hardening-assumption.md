@@ -1,7 +1,7 @@
 ---
 title: OpenBao 2.6 Changed the Memory-Hardening Assumption
 url: /posts/openbao-2-6-changed-memory-hardening-assumption.html
-date: '2026-09-14'
+date: '2025-03-16'
 read_time: 1
 excerpt: Version-aware hardening matters because a security control can disappear
   or change semantics between releases.

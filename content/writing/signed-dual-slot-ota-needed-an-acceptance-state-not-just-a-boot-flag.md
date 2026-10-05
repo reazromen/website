@@ -1,7 +1,7 @@
 ---
 title: Signed Dual-Slot OTA Needed an Acceptance State, Not Just a Boot Flag
 url: /posts/signed-dual-slot-ota-needed-an-acceptance-state-not-just-a-boot-flag.html
-date: '2026-09-14'
+date: '2026-04-30'
 read_time: 1
 excerpt: A new image should become permanent only after the device proves it can boot,
   verify, connect and report healthy.

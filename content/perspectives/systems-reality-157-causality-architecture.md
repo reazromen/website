@@ -1,6 +1,6 @@
 ---
 title: "Causality Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2024-07-11'
 draft: false
 language: en
 url: /posts/systems-reality-157-causality-architecture.html

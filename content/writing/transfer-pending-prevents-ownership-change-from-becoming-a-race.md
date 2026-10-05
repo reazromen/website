@@ -1,7 +1,7 @@
 ---
 title: Transfer Pending Prevents Ownership Change from Becoming a Race
 url: /posts/transfer-pending-prevents-ownership-change-from-becoming-a-race.html
-date: '2026-09-14'
+date: '2022-04-18'
 read_time: 1
 excerpt: Moving a device between accounts needs an intermediate state while old and
   new authority are resolved.

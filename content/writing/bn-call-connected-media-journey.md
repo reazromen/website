@@ -1,6 +1,6 @@
 ---
 title: কল কানেক্ট হওয়া আর কথা পৌঁছানো আলাদা ঘটনা
-date: '2026-10-02'
+date: '2022-10-28'
 draft: false
 language: bn
 url: /posts/bn-call-connected-media-journey.html

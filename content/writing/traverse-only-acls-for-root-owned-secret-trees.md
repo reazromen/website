@@ -1,7 +1,7 @@
 ---
 title: Traverse-Only ACLs Are Useful When Secrets Live Under Root-Owned Trees
 url: /posts/traverse-only-acls-for-root-owned-secret-trees.html
-date: '2026-09-14'
+date: '2022-05-10'
 read_time: 1
 excerpt: A service can be allowed through one protected directory without being allowed
   to inspect the directory itself.

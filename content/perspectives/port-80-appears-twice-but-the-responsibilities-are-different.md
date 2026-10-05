@@ -1,7 +1,7 @@
 ---
 title: Port 80 Appears Twice, but the Responsibilities Are Different
 url: /posts/port-80-appears-twice-but-the-responsibilities-are-different.html
-date: '2026-09-18'
+date: '2024-10-03'
 read_time: 1
 excerpt: Distinguishing an Nginx listener from the web application service contract
   even when both use port 80.

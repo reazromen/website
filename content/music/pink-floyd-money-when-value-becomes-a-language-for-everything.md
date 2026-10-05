@@ -1,7 +1,7 @@
 ---
 title: Money — When Value Becomes a Language for Everything
 url: /posts/pink-floyd-money-when-value-becomes-a-language-for-everything.html
-date: '2026-09-26'
+date: '2026-05-28'
 read_time: 5
 excerpt: When Value Becomes a Language for Everything
 topic: ''

@@ -1,7 +1,7 @@
 ---
 title: Suggestions — Authority, Fear, and the Suggestion That Becomes a Command
 url: /posts/system-of-a-down-suggestions-authority-fear-and-the-suggestion-that-becomes-a-command.html
-date: '2026-09-26'
+date: '2024-10-04'
 read_time: 5
 excerpt: Authority, Fear, and the Suggestion That Becomes a Command
 topic: ''

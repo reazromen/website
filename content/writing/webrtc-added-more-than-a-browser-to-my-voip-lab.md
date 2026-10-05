@@ -1,7 +1,7 @@
 ---
 title: WebRTC Added More Than a Browser to My VoIP Lab
 url: /posts/webrtc-added-more-than-a-browser-to-my-voip-lab.html
-date: '2026-09-14'
+date: '2022-09-04'
 read_time: 2
 excerpt: WebRTC forced me to deal with WSS, ICE, DTLS-SRTP and browser security assumptions
   instead of treating a browser as just another SIP phone.

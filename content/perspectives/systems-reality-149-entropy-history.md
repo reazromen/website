@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Entropy"
-date: '2026-10-03'
+date: '2026-02-10'
 draft: false
 language: en
 url: /posts/systems-reality-149-entropy-history.html

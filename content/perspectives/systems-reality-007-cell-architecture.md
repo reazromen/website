@@ -1,6 +1,6 @@
 ---
 title: "The Cell Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2026-09-23'
 draft: false
 language: en
 url: /posts/systems-reality-007-cell-architecture.html

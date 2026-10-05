@@ -1,7 +1,7 @@
 ---
 title: Test One Layer at a Time or Debug Five Layers at Once
 url: /posts/test-one-layer-at-a-time-or-debug-five-layers-at-once.html
-date: '2026-09-18'
+date: '2024-11-11'
 read_time: 2
 excerpt: Why staged validation mattered throughout the Helm and ArgoCD work.
 topic: voiceware-engineering

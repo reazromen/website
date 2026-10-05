@@ -1,6 +1,6 @@
 ---
 title: "Multicellularity Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2021-01-09'
 draft: false
 language: en
 url: /posts/systems-reality-052-multicellularity-architecture.html

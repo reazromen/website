@@ -1,7 +1,7 @@
 ---
 title: Documentation Is Part of the Runtime
 url: /posts/documentation-is-part-of-the-runtime.html
-date: '2026-09-14'
+date: '2022-07-26'
 read_time: 1
 excerpt: Runbooks and architecture notes reduce recovery time only when they evolve
   with the system they describe.

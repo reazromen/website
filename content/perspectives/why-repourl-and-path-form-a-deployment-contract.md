@@ -1,7 +1,7 @@
 ---
 title: Why repoURL and path Form a Deployment Contract
 url: /posts/why-repourl-and-path-form-a-deployment-contract.html
-date: '2026-09-18'
+date: '2025-01-17'
 read_time: 2
 excerpt: How ArgoCD finds the intended service definition inside the repository.
 topic: voiceware-engineering

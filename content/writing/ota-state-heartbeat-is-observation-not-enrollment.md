@@ -1,7 +1,7 @@
 ---
 title: Heartbeat Is Observation, Not Enrollment
 url: /posts/ota-state-heartbeat-is-observation-not-enrollment.html
-date: '2026-09-15'
+date: '2026-01-15'
 read_time: 8
 excerpt: A device sending telemetry could look alive even when its identity or enrollment
   state was not valid for production operations.

@@ -1,7 +1,7 @@
 ---
 title: timerfd Gave Me 21–26 Ticks When I Needed About 50
 url: /posts/embedded-audio-asterisk-timerfd-21-26-vs-50.html
-date: '2026-09-15'
+date: '2020-04-07'
 read_time: 12
 excerpt: Asterisk was configured for 20 ms media timing, yet packet forwarding arrived
   in scheduler-sized bursts.

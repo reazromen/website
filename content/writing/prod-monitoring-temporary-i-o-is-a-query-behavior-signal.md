@@ -1,7 +1,7 @@
 ---
 title: Temporary I/O Is a Query-Behavior Signal
 url: /posts/prod-monitoring-temporary-i-o-is-a-query-behavior-signal.html
-date: '2026-09-15'
+date: '2022-01-21'
 read_time: 34
 excerpt: A production-engineering deep dive into temporary i/o is a query-behavior
   signal, grounded in the 2014 Mac mini hserver observability stack and its accepted

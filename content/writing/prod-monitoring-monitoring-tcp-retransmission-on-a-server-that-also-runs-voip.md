@@ -1,7 +1,7 @@
 ---
 title: Monitoring TCP Retransmission on a Server That Also Runs VoIP
 url: /posts/prod-monitoring-monitoring-tcp-retransmission-on-a-server-that-also-runs-voip.html
-date: '2026-09-15'
+date: '2023-07-06'
 read_time: 34
 excerpt: A production-engineering deep dive into monitoring tcp retransmission on
   a server that also runs voip, grounded in the 2014 Mac mini hserver observability

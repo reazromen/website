@@ -1,7 +1,7 @@
 ---
 title: Boom! — War Reduced to Images, Numbers, and Repetition
 url: /posts/system-of-a-down-boom-war-reduced-to-images-numbers-and-repetition.html
-date: '2026-09-26'
+date: '2025-06-17'
 read_time: 5
 excerpt: War Reduced to Images, Numbers, and Repetition
 topic: ''

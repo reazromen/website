@@ -1,6 +1,6 @@
 ---
 title: "Natural Selection Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2022-08-25'
 draft: false
 language: en
 url: /posts/systems-reality-042-natural-selection-architecture.html

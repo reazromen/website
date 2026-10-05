@@ -1,7 +1,7 @@
 ---
 title: Container I/O Pressure Shows Waiting, Not Just Bytes
 url: /posts/container-io-pressure-shows-waiting.html
-date: '2026-09-14'
+date: '2024-11-15'
 read_time: 1
 excerpt: A workload can perform modest disk throughput and still suffer because requests
   are waiting behind slow storage or competing I/O.

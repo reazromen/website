@@ -1,7 +1,7 @@
 ---
 title: Running Is Not the Same as Healthy
 url: /posts/running-is-not-the-same-as-healthy.html
-date: '2026-09-14'
+date: '2025-12-02'
 read_time: 1
 excerpt: Container process state only proves that PID 1 exists; readiness has to test
   the behavior the dependency actually needs.

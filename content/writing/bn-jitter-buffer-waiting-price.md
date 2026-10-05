@@ -1,6 +1,6 @@
 ---
 title: 'জিটার বাফার: একটু অপেক্ষা করে ধারাবাহিক শব্দ পাওয়া'
-date: '2026-10-02'
+date: '2024-11-09'
 draft: false
 language: bn
 url: /posts/bn-jitter-buffer-waiting-price.html

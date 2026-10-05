@@ -1,7 +1,7 @@
 ---
 title: What a 36-Minute Album Can Do
 url: /posts/what-a-36-minute-album-can-do.html
-date: '2026-09-26'
+date: '2022-02-05'
 read_time: 5
 excerpt: How brevity increases collision, contrast, and the feeling that emotional
   states arrive without recovery time

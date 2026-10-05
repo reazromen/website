@@ -1,7 +1,7 @@
 ---
 title: A Known-Good Binary Is a Release Asset, Not a Temporary Build
 url: /posts/firmware-release-known-good-binary-is-a-release-asset.html
-date: '2026-09-15'
+date: '2026-07-07'
 read_time: 10
 excerpt: The clearest audio build could have disappeared under the next firmware experiment
   if it remained only a file in a working build directory.

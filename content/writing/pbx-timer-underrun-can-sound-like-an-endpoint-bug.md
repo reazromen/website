@@ -1,7 +1,7 @@
 ---
 title: PBX Timer Underrun Can Sound Like an Endpoint Bug
 url: /posts/pbx-timer-underrun-can-sound-like-an-endpoint-bug.html
-date: '2026-09-14'
+date: '2023-05-14'
 read_time: 1
 excerpt: Server scheduling can inject media timing problems even when embedded firmware
   has not changed.

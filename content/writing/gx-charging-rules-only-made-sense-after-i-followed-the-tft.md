@@ -1,7 +1,7 @@
 ---
 title: Gx Charging Rules Only Made Sense After I Followed the TFT
 url: /posts/gx-charging-rules-only-made-sense-after-i-followed-the-tft.html
-date: '2026-09-14'
+date: '2025-04-20'
 read_time: 1
 excerpt: A charging rule becomes concrete when its packet filters are followed all
   the way into bearer treatment.

@@ -1,7 +1,7 @@
 ---
 title: Debug Pads Are Insurance for the Units That Do Not Boot
 url: /posts/debug-pads-are-insurance-for-the-units-that-do-not-boot.html
-date: '2026-09-14'
+date: '2024-03-25'
 read_time: 1
 excerpt: Production fixtures need a recovery path below the application firmware.
 topic: loup-engineering

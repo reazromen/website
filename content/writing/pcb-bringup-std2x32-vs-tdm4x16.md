@@ -1,7 +1,7 @@
 ---
 title: STD 2x32 Beat My “More Obvious” TDM 4x16 Experiment
 url: /posts/pcb-bringup-std2x32-vs-tdm4x16.html
-date: '2026-09-15'
+date: '2022-05-09'
 read_time: 9
 excerpt: Seeing four 16-bit-looking positions in memory made true four-slot TDM seem
   like the natural host configuration.

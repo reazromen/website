@@ -1,7 +1,7 @@
 ---
 title: Metric Cardinality Is a Capacity Problem Disguised as a Naming Problem
 url: /posts/metric-cardinality-capacity-problem-disguised-as-naming-problem.html
-date: '2026-09-14'
+date: '2025-03-04'
 read_time: 1
 excerpt: Labels make dashboards flexible, but uncontrolled label values multiply time
   series and memory cost quickly.

@@ -1,7 +1,7 @@
 ---
 title: I Treat Tailscale Access Policy as Infrastructure Code
 url: /posts/tailscale-policy-home-infra.html
-date: '2026-09-18'
+date: '2021-07-10'
 read_time: 2
 excerpt: Once the tailnet becomes a real operational network, who can reach which
   host and service should not live only in memory.

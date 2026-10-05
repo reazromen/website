@@ -1,7 +1,7 @@
 ---
 title: More TX Power Can Make the Experiment Worse
 url: /posts/lora-reticulum-more-tx-power-can-hurt-experiment.html
-date: '2026-09-15'
+date: '2025-11-25'
 read_time: 9
 excerpt: A high-power remote module made it tempting to run both nodes at maximum
   output during bench debugging.

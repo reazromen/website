@@ -1,7 +1,7 @@
 ---
 title: The Backend Can Be Down Without Making the Phone Useless
 url: /posts/ota-state-cached-config-survives-backend-outage.html
-date: '2026-09-15'
+date: '2020-03-11'
 read_time: 8
 excerpt: Provisioning and OTA control were new dependencies, but a temporary backend
   outage should not break an already configured voice device.

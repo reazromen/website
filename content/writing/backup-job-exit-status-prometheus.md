@@ -1,7 +1,7 @@
 ---
 title: Backup Job Exit Status Belongs in Prometheus
 url: /posts/backup-job-exit-status-prometheus.html
-date: '2026-09-14'
+date: '2023-11-22'
 read_time: 1
 excerpt: A systemd timer can fire on schedule while the backup service itself fails,
   times out or exits before producing a valid set.

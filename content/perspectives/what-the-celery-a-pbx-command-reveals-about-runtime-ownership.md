@@ -1,7 +1,7 @@
 ---
 title: What the celery -A pbx Command Reveals About Runtime Ownership
 url: /posts/what-the-celery-a-pbx-command-reveals-about-runtime-ownership.html
-date: '2026-09-18'
+date: '2024-04-20'
 read_time: 1
 excerpt: How the worker command ties infrastructure configuration to an application
   module.

@@ -1,7 +1,7 @@
 ---
 title: Psychological Safety Improves Telemetry
 url: /posts/psychological-safety-improves-telemetry.html
-date: '2026-09-14'
+date: '2023-07-20'
 read_time: 1
 excerpt: Teams get better operational data when engineers can report weak signals
   and mistakes before they become outages.

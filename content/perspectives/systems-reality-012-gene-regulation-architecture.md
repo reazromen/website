@@ -1,6 +1,6 @@
 ---
 title: "Gene Regulation Through a Systems Architect's Eyes"
-date: '2026-10-03'
+date: '2023-07-21'
 draft: false
 language: en
 url: /posts/systems-reality-012-gene-regulation-architecture.html

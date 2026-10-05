@@ -1,6 +1,6 @@
 ---
 title: লগের ইতিহাস রাখতে গিয়ে বর্তমান কাজ আটকে দেওয়া
-date: '2026-10-02'
+date: '2025-06-24'
 draft: false
 language: bn
 url: /posts/bn-logs-retention-disk-budget.html

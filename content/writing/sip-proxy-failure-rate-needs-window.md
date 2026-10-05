@@ -1,7 +1,7 @@
 ---
 title: SIP Proxy Failure Rate Needs a Window
 url: /posts/sip-proxy-failure-rate-needs-window.html
-date: '2026-09-14'
+date: '2024-05-17'
 read_time: 1
 excerpt: A single SIP proxy error may be harmless noise, but repeated failures over
   a short interval can indicate backend, routing or dependency trouble.

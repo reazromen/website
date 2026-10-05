@@ -1,7 +1,7 @@
 ---
 title: The Measurement Stack That Made Subjective Audio Debuggable
 url: /posts/embedded-audio-measurement-stack-for-subjective-audio.html
-date: '2026-09-15'
+date: '2024-11-26'
 read_time: 12
 excerpt: Words like robotic, delayed and crackly were useful user reports but poor
   root-cause evidence.

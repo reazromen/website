@@ -1,7 +1,7 @@
 ---
 title: TCP Retransmit Ratio Is Better Than Counting Retransmits Alone
 url: /posts/tcp-retransmit-ratio-better-than-count.html
-date: '2026-09-14'
+date: '2024-10-17'
 read_time: 1
 excerpt: A few retransmissions during heavy traffic may be normal, while the same
   count during low traffic can represent a serious quality problem.

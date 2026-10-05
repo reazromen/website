@@ -1,6 +1,6 @@
 ---
 title: ড্যাশবোর্ডের আগে সিদ্ধান্তের প্রশ্ন
-date: '2026-10-02'
+date: '2024-10-24'
 draft: false
 language: bn
 url: /posts/bn-dashboard-action-question.html

@@ -1,6 +1,6 @@
 ---
 title: "What Time Really Is"
-date: '2026-10-03'
+date: '2026-07-08'
 draft: false
 language: en
 url: /posts/systems-reality-151-time-mechanism.html

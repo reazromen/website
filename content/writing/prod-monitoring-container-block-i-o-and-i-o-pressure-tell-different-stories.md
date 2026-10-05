@@ -1,7 +1,7 @@
 ---
 title: Container Block I/O and I/O Pressure Tell Different Stories
 url: /posts/prod-monitoring-container-block-i-o-and-i-o-pressure-tell-different-stories.html
-date: '2026-09-15'
+date: '2021-03-17'
 read_time: 35
 excerpt: A production-engineering deep dive into container block i/o and i/o pressure
   tell different stories, grounded in the 2014 Mac mini hserver observability stack

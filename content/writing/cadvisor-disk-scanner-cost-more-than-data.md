@@ -1,7 +1,7 @@
 ---
 title: The cAdvisor Disk Scanner Was More Expensive Than the Data Was Worth
 url: /posts/cadvisor-disk-scanner-cost-more-than-data.html
-date: '2026-09-14'
+date: '2024-06-07'
 read_time: 1
 excerpt: The production monitoring stack measured roughly 428 MiB of cAdvisor memory
   with filesystem disk collection enabled on a small host.

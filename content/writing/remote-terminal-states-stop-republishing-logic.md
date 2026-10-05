@@ -1,7 +1,7 @@
 ---
 title: Remote Terminal States Should Stop Re-Publishing Logic
 url: /posts/remote-terminal-states-stop-republishing-logic.html
-date: '2026-09-14'
+date: '2026-03-21'
 read_time: 1
 excerpt: If the provider already reports scheduled, publishing or published, the reconciler
   should observe rather than repeat the side effect.

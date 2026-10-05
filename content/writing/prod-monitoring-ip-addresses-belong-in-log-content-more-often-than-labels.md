@@ -1,7 +1,7 @@
 ---
 title: IP Addresses Belong in Log Content More Often Than Labels
 url: /posts/prod-monitoring-ip-addresses-belong-in-log-content-more-often-than-labels.html
-date: '2026-09-15'
+date: '2026-08-30'
 read_time: 35
 excerpt: A production-engineering deep dive into ip addresses belong in log content
   more often than labels, grounded in the 2014 Mac mini hserver observability stack

@@ -1,7 +1,7 @@
 ---
 title: A Mobile NOC Dashboard Should Show Decisions, Not Every Metric
 url: /posts/mobile-noc-dashboard-decisions-not-every-metric.html
-date: '2026-09-14'
+date: '2020-08-09'
 read_time: 1
 excerpt: The phone-sized operations view cannot carry hundreds of panels without turning
   urgent information into scrolling noise.

@@ -1,6 +1,6 @@
 ---
 title: সোয়াপ জায়গা দেয়, কিন্তু সময়ের দাম আছে
-date: '2026-10-02'
+date: '2025-11-02'
 draft: false
 language: bn
 url: /posts/bn-swap-time-tradeoff.html

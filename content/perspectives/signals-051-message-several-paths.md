@@ -1,6 +1,6 @@
 ---
 title: "One Message Arriving Along Several Paths"
-date: '2026-10-03'
+date: '2021-01-27'
 draft: false
 language: en
 url: /posts/signals-051-message-several-paths.html

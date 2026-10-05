@@ -1,7 +1,7 @@
 ---
 title: My First Asterisk Lab Was Mostly a Networking Lab
 url: /posts/first-asterisk-lab-mostly-a-networking-lab.html
-date: '2026-09-14'
+date: '2026-08-11'
 read_time: 3
 excerpt: 'Two softphones and one Asterisk server were enough to show that a phone
   call is really several network problems stacked together: registration, signaling,

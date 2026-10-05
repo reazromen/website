@@ -1,7 +1,7 @@
 ---
 title: The Ignored zconf.h Incident Was a Release-Provenance Failure
 url: /posts/firmware-release-ignored-zconf-h-release-provenance-failure.html
-date: '2026-09-15'
+date: '2026-08-07'
 read_time: 9
 excerpt: The V133A isolated workspace contained synchronized feature files, but Git
   staging stopped because a required managed-component zconf.h was intentionally ignored.

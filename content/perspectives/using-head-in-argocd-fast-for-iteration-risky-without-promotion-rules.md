@@ -1,7 +1,7 @@
 ---
 title: 'Using HEAD in ArgoCD: Fast for Iteration, Risky Without Promotion Rules'
 url: /posts/using-head-in-argocd-fast-for-iteration-risky-without-promotion-rules.html
-date: '2026-09-18'
+date: '2023-04-19'
 read_time: 3
 excerpt: The trade-off of following the current branch head rather than pinning a
   release revision.

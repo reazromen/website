@@ -1,7 +1,7 @@
 ---
 title: A Single Redis Hot Key Can Defeat the Point of a Cluster
 url: /posts/redis-hot-key-can-beat-cluster/index.html
-date: '2026-09-26'
+date: '2025-04-30'
 read_time: 8
 excerpt: Redis Cluster spreads hash slots across shards, not one key across shards.
   A single extremely popular key can saturate the shard that owns it while the rest

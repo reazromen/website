@@ -1,7 +1,7 @@
 ---
 title: I2S Auto-Clear Prevented Old Samples from Becoming New Noise
 url: /posts/i2s-auto-clear-prevented-old-samples-from-becoming-new-noise.html
-date: '2026-09-14'
+date: '2026-03-05'
 read_time: 1
 excerpt: DMA behavior after underrun can shape what a user hears during gaps.
 topic: loup-engineering

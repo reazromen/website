@@ -1,7 +1,7 @@
 ---
 title: OpenSIPS 5xx Spikes Are More Useful Than Total SIP Traffic
 url: /posts/prod-monitoring-opensips-5xx-spikes-are-more-useful-than-total-sip-traffic.html
-date: '2026-09-15'
+date: '2025-12-13'
 read_time: 32
 excerpt: A production-engineering deep dive into opensips 5xx spikes are more useful
   than total sip traffic, grounded in the 2014 Mac mini hserver observability stack

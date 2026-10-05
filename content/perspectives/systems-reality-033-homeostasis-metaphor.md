@@ -1,6 +1,6 @@
 ---
 title: "Where the control loop Analogy Breaks"
-date: '2026-10-03'
+date: '2023-08-24'
 draft: false
 language: en
 url: /posts/systems-reality-033-homeostasis-metaphor.html

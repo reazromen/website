@@ -1,7 +1,7 @@
 ---
 title: Caddy Says My Upstream Is Unhealthy, but the App Is Fine
 url: /posts/caddy-health-check-false-negative.html
-date: '2026-09-18'
+date: '2024-09-03'
 read_time: 16
 excerpt: A synthetic health request measures the service only if it looks like a request
   the service considers valid.

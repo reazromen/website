@@ -1,7 +1,7 @@
 ---
 title: Dreaming — Private Thought Colliding With Public Violence
 url: /posts/system-of-a-down-dreaming-private-thought-colliding-with-public-violence.html
-date: '2026-09-26'
+date: '2022-07-22'
 read_time: 5
 excerpt: Private Thought Colliding With Public Violence
 topic: ''

@@ -1,7 +1,7 @@
 ---
 title: Eclipse — When Everything Belongs to the Same Cycle
 url: /posts/pink-floyd-eclipse-when-everything-belongs-to-the-same-cycle.html
-date: '2026-09-26'
+date: '2025-05-24'
 read_time: 5
 excerpt: When Everything Belongs to the Same Cycle
 topic: ''

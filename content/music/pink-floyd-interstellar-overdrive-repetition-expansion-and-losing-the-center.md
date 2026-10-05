@@ -1,7 +1,7 @@
 ---
 title: Interstellar Overdrive — Repetition, Expansion, and Losing the Center
 url: /posts/pink-floyd-interstellar-overdrive-repetition-expansion-and-losing-the-center.html
-date: '2026-09-26'
+date: '2024-01-21'
 read_time: 5
 excerpt: Repetition, Expansion, and Losing the Center
 topic: ''

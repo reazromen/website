@@ -1,7 +1,7 @@
 ---
 title: Why I Preserve ELF, MAP, Binaries and Failed Build Logs
 url: /posts/firmware-release-preserve-elf-map-binaries-failed-build-logs.html
-date: '2026-09-15'
+date: '2024-07-27'
 read_time: 9
 excerpt: Build artifacts that looked obsolete became the only evidence for reconstructing
   which toolchain, sections and symbols belonged to an earlier working or failing

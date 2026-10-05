@@ -1,7 +1,7 @@
 ---
 title: Blocked and Revoked Are Different Fleet States
 url: /posts/ota-state-blocked-vs-revoked-device-state.html
-date: '2026-09-15'
+date: '2021-07-07'
 read_time: 8
 excerpt: Operators needed to stop a device temporarily without confusing that action
   with permanent credential invalidation.

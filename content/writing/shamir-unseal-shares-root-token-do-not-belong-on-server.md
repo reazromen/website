@@ -1,7 +1,7 @@
 ---
 title: Static Auto-Unseal Is a Temporary Root of Trust, Not HA
 url: /posts/shamir-unseal-shares-root-token-do-not-belong-on-server.html
-date: '2026-09-14'
+date: '2025-01-24'
 read_time: 2
 excerpt: The same-host seal service removes manual unseal entry, but its static key
   remains a temporary bootstrap root of trust on the same failure domain.

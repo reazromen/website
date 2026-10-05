@@ -1,7 +1,7 @@
 ---
 title: One Ingress Is Easier to Reason About Than Three
 url: /posts/field-note-2026-one-ingress.html
-date: '2026-09-18'
+date: '2026-04-14'
 read_time: 2
 excerpt: Every extra reverse proxy adds another place for routing, TLS and headers
   to disagree.

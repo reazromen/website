@@ -1,7 +1,7 @@
 ---
 title: 'Tailscale with Docker: Host-Level Tailnet or Per-Container Sidecar?'
 url: /posts/tailscale-docker-host-vs-sidecar.html
-date: '2026-09-18'
+date: '2024-08-17'
 read_time: 2
 excerpt: I choose the networking boundary before I add Tailscale to a Docker stack,
   because the two patterns create different operational models.

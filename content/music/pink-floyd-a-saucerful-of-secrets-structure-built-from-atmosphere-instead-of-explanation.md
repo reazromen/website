@@ -1,7 +1,7 @@
 ---
 title: A Saucerful of Secrets — Structure Built From Atmosphere Instead of Explanation
 url: /posts/pink-floyd-a-saucerful-of-secrets-structure-built-from-atmosphere-instead-of-explanation.html
-date: '2026-09-26'
+date: '2024-10-14'
 read_time: 5
 excerpt: Structure Built From Atmosphere Instead of Explanation
 topic: ''

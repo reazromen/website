@@ -1,7 +1,7 @@
 ---
 title: Router-on-a-Stick Was My First Clean Inter-VLAN Routing Lab
 url: /posts/router-on-a-stick-first-clean-inter-vlan-routing-lab.html
-date: '2026-09-14'
+date: '2023-03-04'
 read_time: 3
 excerpt: One router interface, an 802.1Q trunk and a few subinterfaces were enough
   to connect separate VLANs without hiding what was happening at Layer 2 and Layer

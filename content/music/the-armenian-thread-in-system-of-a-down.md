@@ -1,7 +1,7 @@
 ---
 title: The Armenian Thread in System of a Down
 url: /posts/the-armenian-thread-in-system-of-a-down.html
-date: '2026-09-26'
+date: '2020-12-27'
 read_time: 5
 excerpt: How cultural memory can appear through subject, rhythm, melody, and historical
   insistence

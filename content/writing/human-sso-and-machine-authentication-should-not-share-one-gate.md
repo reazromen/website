@@ -1,7 +1,7 @@
 ---
 title: Human SSO and Machine Authentication Should Not Share One Gate
 url: /posts/human-sso-and-machine-authentication-should-not-share-one-gate.html
-date: '2026-09-14'
+date: '2026-04-21'
 read_time: 1
 excerpt: Firmware cannot complete an interactive Authelia login, but bypassing authentication
   entirely would expose the OTA control plane.

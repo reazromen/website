@@ -1,7 +1,7 @@
 ---
 title: Attack — Urgency That Refuses a Gentle Introduction
 url: /posts/system-of-a-down-attack-urgency-that-refuses-a-gentle-introduction.html
-date: '2026-09-26'
+date: '2020-09-07'
 read_time: 5
 excerpt: Urgency That Refuses a Gentle Introduction
 topic: ''

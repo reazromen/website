@@ -1,7 +1,7 @@
 ---
 title: 'What prune: true Means in a Real Repository'
 url: /posts/what-prune-true-means-in-a-real-repository.html
-date: '2026-09-18'
+date: '2024-07-11'
 read_time: 2
 excerpt: Why deleted desired-state resources should not silently live forever in the
   cluster.

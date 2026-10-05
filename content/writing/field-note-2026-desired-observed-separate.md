@@ -1,7 +1,7 @@
 ---
 title: Desired and Observed State Should Never Share a Field
 url: /posts/field-note-2026-desired-observed-separate.html
-date: '2026-09-18'
+date: '2026-03-20'
 read_time: 2
 excerpt: Operator intent and device-reported reality can disagree legitimately during
   rollout, reboot, outage or rollback.

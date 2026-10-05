@@ -1,7 +1,7 @@
 ---
 title: enable_transport Changes the Node’s Responsibility
 url: /posts/lora-reticulum-enable-transport-changes-responsibility.html
-date: '2026-09-15'
+date: '2022-05-04'
 read_time: 8
 excerpt: Turning on Reticulum transport was more than a logging preference because
   it changed how the host participates in forwarding.

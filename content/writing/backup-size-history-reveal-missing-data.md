@@ -1,7 +1,7 @@
 ---
 title: Backup Size History Can Reveal Missing Data
 url: /posts/backup-size-history-reveal-missing-data.html
-date: '2026-09-14'
+date: '2020-12-23'
 read_time: 1
 excerpt: A backup that suddenly becomes much smaller may have completed successfully
   while silently omitting a database, artifact directory or other expected state.

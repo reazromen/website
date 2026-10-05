@@ -1,7 +1,7 @@
 ---
 title: Deep Database Collection Did Not Need Copied Passwords
 url: /posts/deep-database-collection-without-copied-passwords.html
-date: '2026-09-14'
+date: '2023-02-09'
 read_time: 1
 excerpt: Copying every application database password into the observability stack
   would have expanded the secret blast radius just to collect metrics.

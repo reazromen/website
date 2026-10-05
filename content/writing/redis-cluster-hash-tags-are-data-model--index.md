@@ -1,7 +1,7 @@
 ---
 title: Redis Cluster Hash Tags Are a Data-Model Decision, Not a Syntax Trick
 url: /posts/redis-cluster-hash-tags-are-data-model/index.html
-date: '2026-09-26'
+date: '2023-01-10'
 read_time: 8
 excerpt: Hash tags let related keys share one slot so multi-key commands and scripts
   can remain atomic. Overuse them and you can create hot slots that undo the cluster's

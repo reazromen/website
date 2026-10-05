@@ -1,7 +1,7 @@
 ---
 title: SSH, sudo, Authelia and Docker Errors as One Security Telemetry Plane
 url: /posts/prod-monitoring-ssh-sudo-authelia-and-docker-errors-as-one-security-telemetry-plane.html
-date: '2026-09-15'
+date: '2023-04-17'
 read_time: 32
 excerpt: A production-engineering deep dive into ssh, sudo, authelia and docker errors
   as one security telemetry plane, grounded in the 2014 Mac mini hserver observability

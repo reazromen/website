@@ -1,7 +1,7 @@
 ---
 title: How Tailscale Keeps My Home Server Reachable When the Operator Machine Changes
 url: /posts/tailscale-home-server-continuity.html
-date: '2026-09-18'
+date: '2026-10-02'
 read_time: 2
 excerpt: The server stays the service anchor while the laptop or desktop can change;
   the tailnet keeps the relationship stable.

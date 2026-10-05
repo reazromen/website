@@ -1,6 +1,6 @@
 ---
 title: "Where the compiled binaries Analogy Breaks"
-date: '2026-10-03'
+date: '2025-08-03'
 draft: false
 language: en
 url: /posts/systems-reality-023-proteins-metaphor.html

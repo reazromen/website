@@ -1,7 +1,7 @@
 ---
 title: Serj Tankian's Voice Between Theater and Protest
 url: /posts/serj-tankians-voice-between-theater-and-protest.html
-date: '2026-09-26'
+date: '2022-12-11'
 read_time: 5
 excerpt: How character, exaggeration, melody, and command coexist inside one vocal
   identity

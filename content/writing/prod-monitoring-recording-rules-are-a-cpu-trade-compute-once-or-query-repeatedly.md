@@ -1,7 +1,7 @@
 ---
 title: 'Recording Rules Are a CPU Trade: Compute Once or Query Repeatedly'
 url: /posts/prod-monitoring-recording-rules-are-a-cpu-trade-compute-once-or-query-repeatedly.html
-date: '2026-09-15'
+date: '2025-08-03'
 read_time: 35
 excerpt: 'A production-engineering deep dive into recording rules are a cpu trade:
   compute once or query repeatedly, grounded in the 2014 Mac mini hserver observability

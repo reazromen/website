@@ -1,7 +1,7 @@
 ---
 title: Fast Burn and Slow Burn Are Different Incidents
 url: /posts/prod-monitoring-fast-burn-and-slow-burn-are-different-incidents.html
-date: '2026-09-15'
+date: '2024-04-29'
 read_time: 35
 excerpt: A production-engineering deep dive into fast burn and slow burn are different
   incidents, grounded in the 2014 Mac mini hserver observability stack and its accepted

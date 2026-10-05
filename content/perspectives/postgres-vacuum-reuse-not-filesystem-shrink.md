@@ -1,7 +1,7 @@
 ---
 title: PostgreSQL VACUUM Reclaims Space Without Giving the File Back to the Filesystem
 url: /posts/postgres-vacuum-reuse-not-filesystem-shrink.html
-date: '2026-09-26'
+date: '2025-08-25'
 read_time: 8
 excerpt: Standard VACUUM makes dead-tuple space reusable inside a table. It usually
   does not shrink the table file, which is why a successful vacuum and unchanged disk

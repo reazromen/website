@@ -1,7 +1,7 @@
 ---
 title: Public and Internal Probes Answer Different Availability Questions
 url: /posts/public-and-internal-probes-answer-different-availability-questions.html
-date: '2026-09-14'
+date: '2023-11-15'
 read_time: 1
 excerpt: A service can be healthy on the LAN and unreachable through Cloudflare, TLS,
   DNS or authentication at the public edge.

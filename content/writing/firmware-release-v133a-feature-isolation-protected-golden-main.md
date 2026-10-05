@@ -1,7 +1,7 @@
 ---
 title: V133A Was Safe Because the Power Feature Could Not Rewrite Golden Main
 url: /posts/firmware-release-v133a-feature-isolation-protected-golden-main.html
-date: '2026-09-15'
+date: '2020-12-12'
 read_time: 9
 excerpt: A physical power-toggle feature needed to move forward without allowing an
   unrelated control change to destabilize the proven clear-audio baseline.

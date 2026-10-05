@@ -1,7 +1,7 @@
 ---
 title: A Tinny Speaker Is Not Automatically a Codec Bug
 url: /posts/a-tinny-speaker-is-not-automatically-a-codec-bug.html
-date: '2026-09-14'
+date: '2025-10-07'
 read_time: 1
 excerpt: Acoustic complaints have to be separated into source, amplifier, transducer
   and enclosure effects.

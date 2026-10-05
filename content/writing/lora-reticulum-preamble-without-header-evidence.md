@@ -1,7 +1,7 @@
 ---
 title: Preamble Detected but No Header Was Better Than “Nothing Happened”
 url: /posts/lora-reticulum-preamble-without-header-evidence.html
-date: '2026-09-15'
+date: '2023-05-18'
 read_time: 9
 excerpt: A scan could fail to decode a packet yet still reveal that one PHY was closer
   to the transmitter than all the others.

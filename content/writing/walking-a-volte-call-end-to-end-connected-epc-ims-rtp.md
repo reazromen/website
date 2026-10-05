@@ -1,7 +1,7 @@
 ---
 title: Walking a VoLTE Call End to End Connected the EPC, IMS and RTP Pieces
 url: /posts/walking-a-volte-call-end-to-end-connected-epc-ims-rtp.html
-date: '2026-09-14'
+date: '2024-01-08'
 read_time: 3
 excerpt: Following one VoLTE call from LTE attachment through IMS registration, SIP
   session setup, bearer creation and RTP finally connected the year's separate labs.

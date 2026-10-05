@@ -2,7 +2,7 @@
 title: A.D.D. (American Dream Denial) — The Dream as a Political Story That Can Be
   Refused
 url: /posts/system-of-a-down-a-d-d-american-dream-denial-the-dream-as-a-political-story-that-can-be-refused.html
-date: '2026-09-26'
+date: '2025-02-05'
 read_time: 5
 excerpt: The Dream as a Political Story That Can Be Refused
 topic: ''

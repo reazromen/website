@@ -1,7 +1,7 @@
 ---
 title: No Healthy SIP Worker Is a User-Facing Failure Counter
 url: /posts/no-healthy-sip-worker-user-facing-counter.html
-date: '2026-09-14'
+date: '2022-11-24'
 read_time: 1
 excerpt: The most important load-balancer failure is not that a backend probe failed;
   it is that an incoming SIP request could not be assigned to any healthy worker.

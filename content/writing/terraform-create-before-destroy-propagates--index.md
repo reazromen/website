@@ -1,7 +1,7 @@
 ---
 title: Terraform create_before_destroy Can Propagate Through the Dependency Graph
 url: /posts/terraform-create-before-destroy-propagates/index.html
-date: '2026-09-26'
+date: '2024-02-03'
 read_time: 8
 excerpt: create_before_destroy changes replacement ordering to reduce downtime, but
   naming constraints, quotas, dependencies, and temporary double-capacity decide whether

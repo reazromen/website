@@ -1,7 +1,7 @@
 ---
 title: The Observability Tax on a 7.1 GiB Linux Server
 url: /posts/prod-monitoring-the-observability-tax-on-a-7-1-gib-linux-server.html
-date: '2026-09-15'
+date: '2023-09-08'
 read_time: 34
 excerpt: A production-engineering deep dive into the observability tax on a 7.1 gib
   linux server, grounded in the 2014 Mac mini hserver observability stack and its

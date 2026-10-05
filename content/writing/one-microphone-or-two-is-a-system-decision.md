@@ -1,7 +1,7 @@
 ---
 title: One Microphone or Two Is a System Decision
 url: /posts/one-microphone-or-two-is-a-system-decision.html
-date: '2026-09-14'
+date: '2026-05-12'
 read_time: 1
 excerpt: Microphone count changes acoustics, PCB, enclosure, DSP assumptions and factory
   test.

@@ -1,7 +1,7 @@
 ---
 title: Production Acceptance Requires Live Evidence, Not Code Review Alone
 url: /posts/production-acceptance-requires-live-evidence.html
-date: '2026-09-14'
+date: '2026-04-06'
 read_time: 1
 excerpt: A reviewed repository can still be disconnected from the state actually running
   on the host.

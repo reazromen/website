@@ -1,7 +1,7 @@
 ---
 title: Terminal OTA Events Need a Release ID
 url: /posts/terminal-ota-events-need-release-id.html
-date: '2026-09-14'
+date: '2023-06-06'
 read_time: 1
 excerpt: Rollback and validation failure are too important to infer from an unscoped
   status string.

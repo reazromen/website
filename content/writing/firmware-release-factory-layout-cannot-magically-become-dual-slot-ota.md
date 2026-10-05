@@ -1,7 +1,7 @@
 ---
 title: A Factory-Only Partition Layout Cannot Magically Become Dual-Slot OTA
 url: /posts/firmware-release-factory-layout-cannot-magically-become-dual-slot-ota.html
-date: '2026-09-15'
+date: '2022-05-06'
 read_time: 9
 excerpt: The earlier firmware context used a factory application partition and had
   no otadata, ota_0 or ota_1, yet production OTA required dual application slots.

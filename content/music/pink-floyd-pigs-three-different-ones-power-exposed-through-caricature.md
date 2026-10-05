@@ -1,7 +1,7 @@
 ---
 title: Pigs (Three Different Ones) — Power Exposed Through Caricature
 url: /posts/pink-floyd-pigs-three-different-ones-power-exposed-through-caricature.html
-date: '2026-09-26'
+date: '2023-12-13'
 read_time: 5
 excerpt: Power Exposed Through Caricature
 topic: ''

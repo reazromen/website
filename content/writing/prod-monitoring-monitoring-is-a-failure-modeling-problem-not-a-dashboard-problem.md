@@ -1,7 +1,7 @@
 ---
 title: Monitoring Is a Failure-Modeling Problem, Not a Dashboard Problem
 url: /posts/prod-monitoring-monitoring-is-a-failure-modeling-problem-not-a-dashboard-problem.html
-date: '2026-09-15'
+date: '2021-07-06'
 read_time: 34
 excerpt: A production-engineering deep dive into monitoring is a failure-modeling
   problem, not a dashboard problem, grounded in the 2014 Mac mini hserver observability

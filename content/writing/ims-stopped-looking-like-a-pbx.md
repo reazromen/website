@@ -1,7 +1,7 @@
 ---
 title: IMS Stopped Looking Like a PBX Once I Split P-CSCF, I-CSCF and S-CSCF
 url: /posts/ims-stopped-looking-like-a-pbx.html
-date: '2026-09-14'
+date: '2026-09-22'
 read_time: 2
 excerpt: The three CSCF roles made IMS easier to understand when I treated them as
   separate signalling responsibilities instead of one oversized SIP server.

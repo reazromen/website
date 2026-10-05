@@ -1,7 +1,7 @@
 ---
 title: V132A Taught Me That Binary Truth and Source Truth Are Different
 url: /posts/firmware-release-v132a-binary-truth-vs-source-truth.html
-date: '2026-09-15'
+date: '2023-12-24'
 read_time: 9
 excerpt: The device had a proven clear-audio application image before the repository
   had been proven to rebuild the same product behavior from a clean checkout.

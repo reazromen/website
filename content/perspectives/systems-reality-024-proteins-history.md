@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Proteins"
-date: '2026-10-03'
+date: '2022-04-27'
 draft: false
 language: en
 url: /posts/systems-reality-024-proteins-history.html

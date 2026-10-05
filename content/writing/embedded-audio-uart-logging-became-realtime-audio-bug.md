@@ -1,7 +1,7 @@
 ---
 title: When UART Logging Became a Real-Time Audio Bug
 url: /posts/embedded-audio-uart-logging-became-realtime-audio-bug.html
-date: '2026-09-15'
+date: '2025-01-02'
 read_time: 13
 excerpt: The firmware sounded worse while producing the very diagnostics intended
   to explain it.

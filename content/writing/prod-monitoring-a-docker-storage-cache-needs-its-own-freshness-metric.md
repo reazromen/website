@@ -1,7 +1,7 @@
 ---
 title: A Docker Storage Cache Needs Its Own Freshness Metric
 url: /posts/prod-monitoring-a-docker-storage-cache-needs-its-own-freshness-metric.html
-date: '2026-09-15'
+date: '2024-11-13'
 read_time: 34
 excerpt: A production-engineering deep dive into a docker storage cache needs its
   own freshness metric, grounded in the 2014 Mac mini hserver observability stack

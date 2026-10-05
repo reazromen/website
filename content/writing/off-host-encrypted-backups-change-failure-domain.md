@@ -1,7 +1,7 @@
 ---
 title: Off-Host Encrypted Backups Change the Failure Domain
 url: /posts/off-host-encrypted-backups-change-failure-domain.html
-date: '2026-09-14'
+date: '2024-03-17'
 read_time: 1
 excerpt: A backup on the same disk protects against application mistakes better than
   it protects against host or disk loss.

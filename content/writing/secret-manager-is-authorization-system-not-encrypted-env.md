@@ -1,7 +1,7 @@
 ---
 title: A Secret Manager Is an Authorization System, Not Just Encrypted .env
 url: /posts/secret-manager-is-authorization-system-not-encrypted-env.html
-date: '2026-09-14'
+date: '2025-01-25'
 read_time: 1
 excerpt: OpenBao adds identity, policy, versioning, leases and audit around secrets
   instead of merely moving plaintext to a different file.

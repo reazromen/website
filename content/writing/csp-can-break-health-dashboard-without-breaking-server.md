@@ -1,7 +1,7 @@
 ---
 title: A CSP Can Break a Health Dashboard Without Breaking the Server
 url: /posts/csp-can-break-health-dashboard-without-breaking-server.html
-date: '2026-09-14'
+date: '2022-08-31'
 read_time: 1
 excerpt: Browser security policy is part of application behavior; a blocked fetch
   can make a healthy backend look unreachable.

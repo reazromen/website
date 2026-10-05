@@ -1,7 +1,7 @@
 ---
 title: 2005 as One Continuous System of a Down Statement
 url: /posts/2005-as-one-continuous-system-of-a-down-statement.html
-date: '2026-09-26'
+date: '2022-10-05'
 read_time: 5
 excerpt: What changes when two albums are heard as one extended sequence rather than
   separate releases

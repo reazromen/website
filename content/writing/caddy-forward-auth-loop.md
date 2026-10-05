@@ -1,7 +1,7 @@
 ---
 title: Forward Auth Works, Then the Browser Gets Stuck in a Login Redirect Loop
 url: /posts/caddy-forward-auth-loop.html
-date: '2026-09-18'
+date: '2025-08-13'
 read_time: 16
 excerpt: Auth gateways need the original request context to decide and redirect correctly.
 topic: caddy-reverse-proxy

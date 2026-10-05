@@ -1,7 +1,7 @@
 ---
 title: Buffer Hits, Disk Reads and the Shape of PostgreSQL Cache Pressure
 url: /posts/prod-monitoring-buffer-hits-disk-reads-and-the-shape-of-postgresql-cache-pressure.html
-date: '2026-09-15'
+date: '2023-04-01'
 read_time: 36
 excerpt: A production-engineering deep dive into buffer hits, disk reads and the shape
   of postgresql cache pressure, grounded in the 2014 Mac mini hserver observability

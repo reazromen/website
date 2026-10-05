@@ -1,7 +1,7 @@
 ---
 title: The Execute Bit on a Directory Is Really a Path Permission
 url: /posts/directory-execute-bit-is-path-permission.html
-date: '2026-09-14'
+date: '2024-09-20'
 read_time: 1
 excerpt: A protected parent directory can block a perfectly readable child file because
   directory execute controls traversal.

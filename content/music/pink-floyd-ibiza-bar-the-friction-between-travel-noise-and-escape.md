@@ -1,7 +1,7 @@
 ---
 title: Ibiza Bar — The Friction Between Travel, Noise, and Escape
 url: /posts/pink-floyd-ibiza-bar-the-friction-between-travel-noise-and-escape.html
-date: '2026-09-26'
+date: '2021-11-11'
 read_time: 5
 excerpt: The Friction Between Travel, Noise, and Escape
 topic: ''

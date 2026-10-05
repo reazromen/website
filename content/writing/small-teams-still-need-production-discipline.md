@@ -1,7 +1,7 @@
 ---
 title: Small Teams Still Need Production Discipline
 url: /posts/small-teams-still-need-production-discipline.html
-date: '2026-09-14'
+date: '2024-03-25'
 read_time: 1
 excerpt: Team size changes process weight, not the need for rollback, observability
   and ownership.

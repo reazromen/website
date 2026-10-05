@@ -1,6 +1,6 @@
 ---
 title: অ্যালবামের ছবি ব্যাখ্যার দরজা, প্রমাণের শেষ না
-date: '2026-10-02'
+date: '2024-05-15'
 draft: false
 language: bn
 url: /posts/bn-music-album-art-not-evidence.html

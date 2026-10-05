@@ -1,7 +1,7 @@
 ---
 title: Cardinality Is Usually a Schema Problem
 url: /posts/prod-monitoring-cardinality-is-usually-a-schema-problem.html
-date: '2026-09-15'
+date: '2021-03-19'
 read_time: 35
 excerpt: A production-engineering deep dive into cardinality is usually a schema problem,
   grounded in the 2014 Mac mini hserver observability stack and its accepted runtime

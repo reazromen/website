@@ -1,7 +1,7 @@
 ---
 title: Cookie Domain and SameSite Policy Are Part of Cross-Subdomain SSO
 url: /posts/cookie-domain-and-samesite-part-of-cross-subdomain-sso.html
-date: '2026-09-14'
+date: '2025-08-15'
 read_time: 1
 excerpt: One identity portal can protect many subdomains only if browser cookie scope
   and request behavior match the intended trust boundary.

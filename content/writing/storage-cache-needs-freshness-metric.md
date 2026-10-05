@@ -1,7 +1,7 @@
 ---
 title: A Storage Cache Needs Its Own Freshness Metric
 url: /posts/storage-cache-needs-freshness-metric.html
-date: '2026-09-14'
+date: '2024-03-31'
 read_time: 1
 excerpt: Caching Docker storage inventory reduced overhead, but a silent refresh failure
   could otherwise leave old values looking current indefinitely.

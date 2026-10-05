@@ -1,7 +1,7 @@
 ---
 title: The Comedy of Exaggeration
 url: /posts/the-comedy-of-exaggeration.html
-date: '2026-09-26'
+date: '2025-09-07'
 read_time: 5
 excerpt: How pushing an image beyond realism can reveal the power structure inside
   it

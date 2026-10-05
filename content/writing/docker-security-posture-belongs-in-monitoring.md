@@ -1,7 +1,7 @@
 ---
 title: Docker Security Posture Belongs in Monitoring
 url: /posts/docker-security-posture-belongs-in-monitoring.html
-date: '2026-09-14'
+date: '2025-08-28'
 read_time: 1
 excerpt: Privileged containers, Docker socket mounts, root users and published ports
   are configuration facts that can silently drift after deployment.

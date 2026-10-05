@@ -1,7 +1,7 @@
 ---
 title: 'Git as Desired State: The Voiceware Mental Model'
 url: /posts/git-as-desired-state-the-voiceware-mental-model.html
-date: '2026-09-18'
+date: '2024-02-21'
 read_time: 2
 excerpt: Why a GitOps repo is more than a backup of manifests.
 topic: voiceware-engineering

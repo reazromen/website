@@ -1,7 +1,7 @@
 ---
 title: Aerials — Identity, Ego, and the Freedom of Letting the Self Become Smaller
 url: /posts/system-of-a-down-aerials-identity-ego-and-the-freedom-of-letting-the-self-become-smaller.html
-date: '2026-09-26'
+date: '2026-06-22'
 read_time: 5
 excerpt: Identity, Ego, and the Freedom of Letting the Self Become Smaller
 topic: ''

@@ -1,6 +1,6 @@
 ---
 title: "Where the factory Analogy Breaks"
-date: '2026-10-03'
+date: '2026-02-13'
 draft: false
 language: en
 url: /posts/systems-reality-008-cell-metaphor.html

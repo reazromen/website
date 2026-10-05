@@ -1,7 +1,7 @@
 ---
 title: When a Docker Service Name Does Not Resolve from Caddy
 url: /posts/caddy-docker-service-name-does-not-resolve.html
-date: '2026-09-18'
+date: '2023-11-12'
 read_time: 17
 excerpt: Docker DNS only resolves service names inside the networks where those services
   actually meet.

@@ -2,7 +2,7 @@
 title: Old School Hollywood — Celebrity, Artificiality, and the Comedy of Being Out
   of Place
 url: /posts/system-of-a-down-old-school-hollywood-celebrity-artificiality-and-the-comedy-of-being-out-of-place.html
-date: '2026-09-26'
+date: '2025-12-03'
 read_time: 5
 excerpt: Celebrity, Artificiality, and the Comedy of Being Out of Place
 topic: ''

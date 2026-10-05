@@ -1,6 +1,6 @@
 ---
 title: ইনবাউন্ড আর আউটবাউন্ড কল একই পরীক্ষার দুই নাম না
-date: '2026-10-02'
+date: '2023-09-21'
 draft: false
 language: bn
 url: /posts/bn-inbound-outbound-different-contracts.html

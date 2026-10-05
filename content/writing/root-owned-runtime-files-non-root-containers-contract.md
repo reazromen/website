@@ -1,7 +1,7 @@
 ---
 title: Root-Owned Runtime Files and Non-Root Containers Need an Explicit Contract
 url: /posts/root-owned-runtime-files-non-root-containers-contract.html
-date: '2026-09-14'
+date: '2025-03-13'
 read_time: 1
 excerpt: Dropping container privileges is only safe when mounts, ownership and startup
   scripts are designed for the new identity.

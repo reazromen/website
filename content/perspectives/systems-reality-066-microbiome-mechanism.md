@@ -1,6 +1,6 @@
 ---
 title: "What The Microbiome Really Is"
-date: '2026-10-03'
+date: '2026-04-14'
 draft: false
 language: en
 url: /posts/systems-reality-066-microbiome-mechanism.html

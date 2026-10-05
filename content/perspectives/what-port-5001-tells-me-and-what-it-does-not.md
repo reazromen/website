@@ -1,7 +1,7 @@
 ---
 title: What Port 5001 Tells Me—and What It Does Not
 url: /posts/what-port-5001-tells-me-and-what-it-does-not.html
-date: '2026-09-18'
+date: '2021-08-10'
 read_time: 2
 excerpt: Reading infrastructure signal carefully without inventing application internals.
 topic: voiceware-engineering

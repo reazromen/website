@@ -1,7 +1,7 @@
 ---
 title: A Sealed Secret Server Can Be Secure and Still Be Down
 url: /posts/prod-monitoring-a-sealed-secret-server-can-be-secure-and-still-be-down.html
-date: '2026-09-15'
+date: '2026-04-29'
 read_time: 33
 excerpt: A production-engineering deep dive into a sealed secret server can be secure
   and still be down, grounded in the 2014 Mac mini hserver observability stack and

@@ -1,7 +1,7 @@
 ---
 title: Sad Statue — When a Symbol Outlives the Belief Behind It
 url: /posts/sad-statue-when-a-symbol-outlives-the-belief-behind-it.html
-date: '2026-09-26'
+date: '2025-04-19'
 read_time: 7
 excerpt: A monument can keep standing long after people stop agreeing on what it is
   supposed to mean. That gap between symbol and behavior is where this song becomes

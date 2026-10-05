@@ -1,6 +1,6 @@
 ---
 title: টাইম নিয়ে গান শোনা মানেও সময় খরচ করা
-date: '2026-10-02'
+date: '2022-05-19'
 draft: false
 language: bn
 url: /posts/bn-music-time-song-real-duration.html

@@ -2,7 +2,7 @@
 title: Secrets Are Part of Disaster Recovery Even When They Are Correctly Missing
   from Git
 url: /posts/secrets-are-part-of-disaster-recovery-even-when-missing-from-git.html
-date: '2026-09-14'
+date: '2024-05-06'
 read_time: 1
 excerpt: Separating secrets from source control creates a recovery dependency that
   must be documented and tested.

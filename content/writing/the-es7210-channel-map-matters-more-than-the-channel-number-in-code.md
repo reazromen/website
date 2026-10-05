@@ -1,7 +1,7 @@
 ---
 title: The ES7210 Channel Map Matters More Than the Channel Number in Code
 url: /posts/the-es7210-channel-map-matters-more-than-the-channel-number-in-code.html
-date: '2026-09-14'
+date: '2021-05-03'
 read_time: 1
 excerpt: AEC depends on what signal actually lands in each TDM slot.
 topic: loup-engineering

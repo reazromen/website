@@ -1,7 +1,7 @@
 ---
 title: Least-Privilege Backup Receipts Let Operators Verify Without Reading the Backups
 url: /posts/least-privilege-backup-receipts-operator-verification.html
-date: '2026-09-14'
+date: '2020-08-02'
 read_time: 1
 excerpt: Operators need evidence that backups succeeded without necessarily gaining
   access to the protected data itself.

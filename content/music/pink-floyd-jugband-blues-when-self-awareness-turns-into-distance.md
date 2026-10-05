@@ -1,7 +1,7 @@
 ---
 title: Jugband Blues — When Self-Awareness Turns Into Distance
 url: /posts/pink-floyd-jugband-blues-when-self-awareness-turns-into-distance.html
-date: '2026-09-26'
+date: '2026-08-15'
 read_time: 5
 excerpt: When Self-Awareness Turns Into Distance
 topic: ''

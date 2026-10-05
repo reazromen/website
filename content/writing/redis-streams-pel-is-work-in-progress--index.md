@@ -1,7 +1,7 @@
 ---
 title: The Redis Streams Pending Entries List Is Your Work-in-Progress Ledger
 url: /posts/redis-streams-pel-is-work-in-progress/index.html
-date: '2026-09-26'
+date: '2025-05-10'
 read_time: 8
 excerpt: Consumer groups do not make a stream entry disappear when it is delivered.
   Until XACK succeeds, Redis tracks it as pending, which is what makes crashed-consumer

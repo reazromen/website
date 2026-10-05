@@ -1,7 +1,7 @@
 ---
 title: Breathe (In the Air) — Learning to Live Before Habit Learns to Live for You
 url: /posts/pink-floyd-breathe-in-the-air-learning-to-live-before-habit-learns-to-live-for-you.html
-date: '2026-09-26'
+date: '2025-01-11'
 read_time: 5
 excerpt: Learning to Live Before Habit Learns to Live for You
 topic: ''

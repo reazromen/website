@@ -1,7 +1,7 @@
 ---
 title: Memory Usage Is Not the Same as Memory Pressure
 url: /posts/memory-usage-is-not-memory-pressure.html
-date: '2026-09-14'
+date: '2024-09-07'
 read_time: 1
 excerpt: The host looked busy enough that a simple percentage could easily become
   the whole diagnosis, but Linux memory reclaim makes that misleading.

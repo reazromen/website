@@ -1,6 +1,6 @@
 ---
 title: গানকে সিগন্যাল বললে কতটা বোঝা যায়
-date: '2026-10-02'
+date: '2026-09-13'
 draft: false
 language: bn
 url: /posts/bn-music-engineering-metaphor-limit.html

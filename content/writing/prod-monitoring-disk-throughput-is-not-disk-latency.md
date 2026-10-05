@@ -1,7 +1,7 @@
 ---
 title: Disk Throughput Is Not Disk Latency
 url: /posts/prod-monitoring-disk-throughput-is-not-disk-latency.html
-date: '2026-09-15'
+date: '2025-10-29'
 read_time: 35
 excerpt: A production-engineering deep dive into disk throughput is not disk latency,
   grounded in the 2014 Mac mini hserver observability stack and its accepted runtime

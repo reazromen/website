@@ -1,7 +1,7 @@
 ---
 title: PostgreSQL Connection Utilization Needs a Denominator
 url: /posts/prod-monitoring-postgresql-connection-utilization-needs-a-denominator.html
-date: '2026-09-15'
+date: '2024-10-16'
 read_time: 34
 excerpt: A production-engineering deep dive into postgresql connection utilization
   needs a denominator, grounded in the 2014 Mac mini hserver observability stack and

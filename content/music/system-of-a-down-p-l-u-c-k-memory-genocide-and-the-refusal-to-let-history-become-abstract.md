@@ -1,7 +1,7 @@
 ---
 title: P.L.U.C.K. — Memory, Genocide, and the Refusal to Let History Become Abstract
 url: /posts/system-of-a-down-p-l-u-c-k-memory-genocide-and-the-refusal-to-let-history-become-abstract.html
-date: '2026-09-26'
+date: '2022-12-24'
 read_time: 5
 excerpt: Memory, Genocide, and the Refusal to Let History Become Abstract
 topic: ''

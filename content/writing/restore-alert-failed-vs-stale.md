@@ -1,7 +1,7 @@
 ---
 title: A Restore Alert Should Distinguish Failed from Stale
 url: /posts/restore-alert-failed-vs-stale.html
-date: '2026-09-14'
+date: '2024-11-23'
 read_time: 1
 excerpt: No recent restore verification and a recent restore verification that actively
   failed are both bad, but they communicate different operational urgency.

@@ -1,7 +1,7 @@
 ---
 title: Nobody Home — Private Inventory as Evidence of Disconnection
 url: /posts/pink-floyd-nobody-home-private-inventory-as-evidence-of-disconnection.html
-date: '2026-09-26'
+date: '2023-03-31'
 read_time: 5
 excerpt: Private Inventory as Evidence of Disconnection
 topic: ''

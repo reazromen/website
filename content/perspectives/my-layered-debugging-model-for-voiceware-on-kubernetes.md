@@ -1,7 +1,7 @@
 ---
 title: My Layered Debugging Model for Voiceware on Kubernetes
 url: /posts/my-layered-debugging-model-for-voiceware-on-kubernetes.html
-date: '2026-09-18'
+date: '2023-04-10'
 read_time: 3
 excerpt: A repeatable order for diagnosing delivery, scheduling, networking, dependencies,
   and application behavior.

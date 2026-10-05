@@ -1,7 +1,7 @@
 ---
 title: The Signing Private Key Does Not Belong on the OTA Runtime Host
 url: /posts/ota-state-signing-key-off-ota-runtime.html
-date: '2026-09-15'
+date: '2023-11-19'
 read_time: 8
 excerpt: If the OTA server stored the production signing private key, compromise of
   the delivery plane could become authority to mint trusted firmware.

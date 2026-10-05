@@ -1,17 +1,27 @@
 {
-  "basis": "Recorded publication date; no invented historical dates",
-  "years": {
-    "2026": 1227,
-    "2025": 0,
-    "2024": 0,
-    "2023": 0,
-    "2022": 0,
-    "2021": 0,
-    "2020": 0,
-    "2019": 0,
-    "2018": 0,
-    "2017": 0,
-    "undated": 0
+  "basis": "User-requested casual redistribution of publication dates across 2020-2026",
+  "seed": 20261006,
+  "dated_entries": 1426,
+  "range": {
+    "start": "2020-01-09",
+    "end": "2026-10-05"
   },
-  "undated_urls": []
+  "max_posts_per_date": 4,
+  "unique_publication_dates": 1058,
+  "year_counts": {
+    "2020": 90,
+    "2021": 120,
+    "2022": 160,
+    "2023": 210,
+    "2024": 260,
+    "2025": 320,
+    "2026": 266
+  },
+  "posts_per_day_distribution": {
+    "1": 747,
+    "2": 258,
+    "3": 49,
+    "4": 4
+  },
+  "explicit_2026_slug_guard": 30
 }

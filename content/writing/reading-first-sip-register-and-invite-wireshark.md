@@ -1,7 +1,7 @@
 ---
 title: Reading My First SIP REGISTER and INVITE in Wireshark
 url: /posts/reading-first-sip-register-and-invite-wireshark.html
-date: '2026-09-14'
+date: '2024-09-12'
 read_time: 3
 excerpt: SIP became much less mysterious once I stopped reading it as 'phone system
   traffic' and followed it as a text-based request and response protocol with explicit

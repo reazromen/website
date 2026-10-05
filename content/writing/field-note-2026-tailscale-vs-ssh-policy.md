@@ -1,7 +1,7 @@
 ---
 title: Tailscale Connectivity and Tailscale SSH Are Different Permissions
 url: /posts/field-note-2026-tailscale-vs-ssh-policy.html
-date: '2026-09-18'
+date: '2026-03-14'
 read_time: 2
 excerpt: A peer can be reachable over the tailnet while an SSH login is correctly
   denied by another policy layer.

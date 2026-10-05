@@ -1,6 +1,6 @@
 ---
 title: বৃষ্টি আর নদীর সাড়ার মাঝখানে সময় আছে
-date: '2026-10-02'
+date: '2025-12-18'
 draft: false
 language: bn
 url: /posts/bn-rain-river-time-delay.html

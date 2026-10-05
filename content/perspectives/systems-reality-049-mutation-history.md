@@ -1,6 +1,6 @@
 ---
 title: "How We Learned to See Mutation"
-date: '2026-10-03'
+date: '2024-04-08'
 draft: false
 language: en
 url: /posts/systems-reality-049-mutation-history.html

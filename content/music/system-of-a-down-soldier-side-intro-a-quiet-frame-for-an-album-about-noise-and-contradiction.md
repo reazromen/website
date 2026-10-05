@@ -1,7 +1,7 @@
 ---
 title: Soldier Side (Intro) — A Quiet Frame for an Album About Noise and Contradiction
 url: /posts/system-of-a-down-soldier-side-intro-a-quiet-frame-for-an-album-about-noise-and-contradiction.html
-date: '2026-09-26'
+date: '2021-10-19'
 read_time: 5
 excerpt: A Quiet Frame for an Album About Noise and Contradiction
 topic: ''
