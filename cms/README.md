@@ -1,6 +1,6 @@
 # Website publishing
 
-Open https://reazromen.com/admin. Authelia remains the only login. No GitHub token is requested by the CMS.
+Open https://reazromen.com/admin. Authelia remains the only login. No GitHub token is requested by the CMS. The browser stays on /admin/ after sign-in; the studio hostname is only the protected upstream. Edge routing and its checks are versioned in cms/cloudflare-pages-router/.
 
 ## Where to edit
 
