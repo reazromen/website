@@ -1,0 +1,1757 @@
+{
+  "project": "Signals of Reality",
+  "target": 200,
+  "timezone": "Asia/Dhaka",
+  "checkpoint_date": "2026-10-07",
+  "published_source_count": 10,
+  "draft_count": 150,
+  "missing_count": 40,
+  "next_to_review": 11,
+  "next_to_write": 161,
+  "live_verification": "pending for 006–010 until deployment completes",
+  "publication_batches": [
+    {
+      "date": "2026-10-07",
+      "ids": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verification": "pending"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Reality: What Do We Actually See?",
+      "series": "Reality Is Not What You See",
+      "status": "published_source",
+      "file": "content/perspectives/signals-of-reality-001-what-do-we-see.md",
+      "url": "/posts/signals-of-reality-001-what-do-we-see.html",
+      "body_words": 1169,
+      "date": "2026-01-24"
+    },
+    {
+      "id": 2,
+      "title": "The Map Is Not the Territory",
+      "series": "Reality Is Not What You See",
+      "status": "published_source",
+      "file": "content/perspectives/signals-of-reality-002-map-and-territory.md",
+      "url": "/posts/signals-of-reality-002-map-and-territory.html",
+      "body_words": 1137,
+      "date": "2026-09-07"
+    },
+    {
+      "id": 3,
+      "title": "This Is Not a Pipe",
+      "series": "Reality Is Not What You See",
+      "status": "published_source",
+      "file": "content/perspectives/signals-of-reality-003-not-a-pipe.md",
+      "url": "/posts/signals-of-reality-003-not-a-pipe.html",
+      "body_words": 1195,
+      "date": "2026-09-06"
+    },
+    {
+      "id": 4,
+      "title": "The Picture Is Not the Thing",
+      "series": "Reality Is Not What You See",
+      "status": "published_source",
+      "file": "content/perspectives/signals-of-reality-004-picture-and-thing.md",
+      "url": "/posts/signals-of-reality-004-picture-and-thing.html",
+      "body_words": 1175,
+      "date": "2026-09-02"
+    },
+    {
+      "id": 5,
+      "title": "When a Model Becomes the World",
+      "series": "Reality Is Not What You See",
+      "status": "published_source",
+      "file": "content/perspectives/signals-of-reality-005-model-becomes-world.md",
+      "url": "/posts/signals-of-reality-005-model-becomes-world.html",
+      "body_words": 1170,
+      "date": "2026-09-01"
+    },
+    {
+      "id": 6,
+      "title": "Is There Such a Thing as Raw Observation?",
+      "series": "Reality Is Not What You See",
+      "status": "published_source",
+      "file": "content/perspectives/signals-of-reality-006-raw-observation.md",
+      "url": "/posts/signals-of-reality-006-raw-observation.html",
+      "body_words": 1157,
+      "date": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Facts, Measurements and Reality",
+      "series": "Reality Is Not What You See",
+      "status": "published_source",
+      "file": "content/perspectives/signals-of-reality-007-facts-measurements-reality.md",
+      "url": "/posts/signals-of-reality-007-facts-measurements-reality.html",
+      "body_words": 1174,
+      "date": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "The World Before Language",
+      "series": "Reality Is Not What You See",
+      "status": "published_source",
+      "file": "content/perspectives/signals-of-reality-008-world-before-language.md",
+      "url": "/posts/signals-of-reality-008-world-before-language.html",
+      "body_words": 1170,
+      "date": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Sign, Symbol and Object",
+      "series": "Reality Is Not What You See",
+      "status": "published_source",
+      "file": "content/perspectives/signals-of-reality-009-sign-symbol-object.md",
+      "url": "/posts/signals-of-reality-009-sign-symbol-object.html",
+      "body_words": 1097,
+      "date": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "What Does “Real” Mean?",
+      "series": "Reality Is Not What You See",
+      "status": "published_source",
+      "file": "content/perspectives/signals-of-reality-010-what-does-real-mean.md",
+      "url": "/posts/signals-of-reality-010-what-does-real-mean.html",
+      "body_words": 1086,
+      "date": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Reality Has Layers",
+      "series": "Reality Is Not What You See",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-011-reality-has-layers.md",
+      "url": "/posts/signals-of-reality-011-reality-has-layers.html",
+      "body_words": 1275
+    },
+    {
+      "id": 12,
+      "title": "Representation Is Always a Choice",
+      "series": "Reality Is Not What You See",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-012-representation-is-always-a-choice.md",
+      "url": "/posts/signals-of-reality-012-representation-is-always-a-choice.html",
+      "body_words": 1248
+    },
+    {
+      "id": 13,
+      "title": "Accuracy Is Not Completeness",
+      "series": "Reality Is Not What You See",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-013-accuracy-not-completeness.md",
+      "url": "/posts/signals-of-reality-013-accuracy-not-completeness.html",
+      "body_words": 1033
+    },
+    {
+      "id": 14,
+      "title": "Why Perfect Models Are Useless",
+      "series": "Reality Is Not What You See",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-014-perfect-models-useless.md",
+      "url": "/posts/signals-of-reality-014-perfect-models-useless.html",
+      "body_words": 1017
+    },
+    {
+      "id": 15,
+      "title": "The Observer Is Part of the Story",
+      "series": "Reality Is Not What You See",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-015-observer-part-of-story.md",
+      "url": "/posts/signals-of-reality-015-observer-part-of-story.html",
+      "body_words": 1115
+    },
+    {
+      "id": 16,
+      "title": "Reality vs Interpretation",
+      "series": "Reality Is Not What You See",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-016-reality-vs-interpretation.md",
+      "url": "/posts/signals-of-reality-016-reality-vs-interpretation.html",
+      "body_words": 1208
+    },
+    {
+      "id": 17,
+      "title": "When Labels Replace Explanations",
+      "series": "Reality Is Not What You See",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-017-labels-replace-explanations.md",
+      "url": "/posts/signals-of-reality-017-labels-replace-explanations.html",
+      "body_words": 1194
+    },
+    {
+      "id": 18,
+      "title": "The Epistemology of Everyday Life",
+      "series": "Reality Is Not What You See",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-018-epistemology-everyday-life.md",
+      "url": "/posts/signals-of-reality-018-epistemology-everyday-life.html",
+      "body_words": 1086
+    },
+    {
+      "id": 19,
+      "title": "Reality Without Humans",
+      "series": "Reality Is Not What You See",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-019-reality-without-humans.md",
+      "url": "/posts/signals-of-reality-019-reality-without-humans.html",
+      "body_words": 1067
+    },
+    {
+      "id": 20,
+      "title": "How Much of the World Is Reconstruction?",
+      "series": "Reality Is Not What You See",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-020-world-reconstruction.md",
+      "url": "/posts/signals-of-reality-020-world-reconstruction.html",
+      "body_words": 1088
+    },
+    {
+      "id": 21,
+      "title": "Why Do We See the Road While Walking?",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-021-seeing-the-road.md",
+      "url": "/posts/signals-of-reality-021-seeing-the-road.html",
+      "body_words": 1207
+    },
+    {
+      "id": 22,
+      "title": "We Never See Matter Directly",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-022-seeing-matter.md",
+      "url": "/posts/signals-of-reality-022-seeing-matter.html",
+      "body_words": 1192
+    },
+    {
+      "id": 23,
+      "title": "Your Brain Never Receives a Photograph",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-023-brain-never-receives-photograph.md",
+      "url": "/posts/signals-of-reality-023-brain-never-receives-photograph.html",
+      "body_words": 1076
+    },
+    {
+      "id": 24,
+      "title": "Darkness Is Not Empty",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-024-darkness-is-not-empty.md",
+      "url": "/posts/signals-of-reality-024-darkness-is-not-empty.html",
+      "body_words": 909
+    },
+    {
+      "id": 25,
+      "title": "The Tiny Window Humans Call Visible Light",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-025-visible-light-window.md",
+      "url": "/posts/signals-of-reality-025-visible-light-window.html",
+      "body_words": 957
+    },
+    {
+      "id": 26,
+      "title": "If Humans Saw Infrared",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-026-if-humans-saw-infrared.md",
+      "url": "/posts/signals-of-reality-026-if-humans-saw-infrared.html",
+      "body_words": 1176
+    },
+    {
+      "id": 27,
+      "title": "Color Is Not Simply Inside the Object",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-027-color-not-simply-inside-object.md",
+      "url": "/posts/signals-of-reality-027-color-not-simply-inside-object.html",
+      "body_words": 1138
+    },
+    {
+      "id": 28,
+      "title": "Why Red Is Not Simply “In” the Apple",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-028-red-not-in-apple.md",
+      "url": "/posts/signals-of-reality-028-red-not-in-apple.html",
+      "body_words": 976
+    },
+    {
+      "id": 29,
+      "title": "What Is a Photon?",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-029-what-is-a-photon.md",
+      "url": "/posts/signals-of-reality-029-what-is-a-photon.html",
+      "body_words": 946
+    },
+    {
+      "id": 30,
+      "title": "Is Light a Wave or a Particle?",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-030-wave-or-particle.md",
+      "url": "/posts/signals-of-reality-030-wave-or-particle.html",
+      "body_words": 888
+    },
+    {
+      "id": 31,
+      "title": "Light Before Eyes Existed",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-031-light-before-eyes.md",
+      "url": "/posts/signals-of-reality-031-light-before-eyes.html",
+      "body_words": 765
+    },
+    {
+      "id": 32,
+      "title": "The Universe Is Full of Invisible Light",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-032-invisible-light-universe.md",
+      "url": "/posts/signals-of-reality-032-invisible-light-universe.html",
+      "body_words": 763
+    },
+    {
+      "id": 33,
+      "title": "Spectroscopy: Reading Matter Through Light",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-033-spectroscopy-reading-matter.md",
+      "url": "/posts/signals-of-reality-033-spectroscopy-reading-matter.html",
+      "body_words": 840
+    },
+    {
+      "id": 34,
+      "title": "Seeing Is an Inference",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-034-seeing-is-inference.md",
+      "url": "/posts/signals-of-reality-034-seeing-is-inference.html",
+      "body_words": 882
+    },
+    {
+      "id": 35,
+      "title": "Eyes Are Sensors, Not Windows",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-035-eyes-are-sensors-not-windows.md",
+      "url": "/posts/signals-of-reality-035-eyes-are-sensors-not-windows.html",
+      "body_words": 1048
+    },
+    {
+      "id": 36,
+      "title": "Why a Camera Does Not See Like You",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-036-camera-does-not-see-like-you.md",
+      "url": "/posts/signals-of-reality-036-camera-does-not-see-like-you.html",
+      "body_words": 931
+    },
+    {
+      "id": 37,
+      "title": "Can Machines See More Reality Than Humans?",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-037-machines-see-more-reality.md",
+      "url": "/posts/signals-of-reality-037-machines-see-more-reality.html",
+      "body_words": 643
+    },
+    {
+      "id": 38,
+      "title": "When Light Becomes Electricity",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-038-light-becomes-electricity.md",
+      "url": "/posts/signals-of-reality-038-light-becomes-electricity.html",
+      "body_words": 855
+    },
+    {
+      "id": 39,
+      "title": "The Bandwidth of Human Reality",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-039-bandwidth-human-reality.md",
+      "url": "/posts/signals-of-reality-039-bandwidth-human-reality.html",
+      "body_words": 932
+    },
+    {
+      "id": 40,
+      "title": "The Street Exists When You Close Your Eyes",
+      "series": "The Physics of Seeing",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-040-street-exists-eyes-closed.md",
+      "url": "/posts/signals-of-reality-040-street-exists-eyes-closed.html",
+      "body_words": 840
+    },
+    {
+      "id": 41,
+      "title": "What Is a Signal?",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-041-what-is-a-signal.md",
+      "url": "/posts/signals-of-reality-041-what-is-a-signal.html",
+      "body_words": 867
+    },
+    {
+      "id": 42,
+      "title": "What Is Noise?",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-042-what-is-noise.md",
+      "url": "/posts/signals-of-reality-042-what-is-noise.html",
+      "body_words": 801
+    },
+    {
+      "id": 43,
+      "title": "One Person’s Noise Is Another Person’s Signal",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-043-one-persons-noise-anothers-signal.md",
+      "url": "/posts/signals-of-reality-043-one-persons-noise-anothers-signal.html",
+      "body_words": 773
+    },
+    {
+      "id": 44,
+      "title": "Noise Is Relative, Not Arbitrary",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-044-noise-relative-not-arbitrary.md",
+      "url": "/posts/signals-of-reality-044-noise-relative-not-arbitrary.html",
+      "body_words": 785
+    },
+    {
+      "id": 45,
+      "title": "Unknown Does Not Mean Meaningless",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-045-unknown-not-meaningless.md",
+      "url": "/posts/signals-of-reality-045-unknown-not-meaningless.html",
+      "body_words": 814
+    },
+    {
+      "id": 46,
+      "title": "Unknown Does Not Mean Important",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-046-unknown-not-important.md",
+      "url": "/posts/signals-of-reality-046-unknown-not-important.html",
+      "body_words": 629
+    },
+    {
+      "id": 47,
+      "title": "Anomaly Is Not Discovery",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-047-anomaly-not-discovery.md",
+      "url": "/posts/signals-of-reality-047-anomaly-not-discovery.html",
+      "body_words": 720
+    },
+    {
+      "id": 48,
+      "title": "When Noise Became the CMB",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-048-noise-became-cmb.md",
+      "url": "/posts/signals-of-reality-048-noise-became-cmb.html",
+      "body_words": 761
+    },
+    {
+      "id": 49,
+      "title": "Signal-to-Noise Ratio as a Way of Thinking",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-049-snr-way-of-thinking.md",
+      "url": "/posts/signals-of-reality-049-snr-way-of-thinking.html",
+      "body_words": 804
+    },
+    {
+      "id": 50,
+      "title": "Shannon’s Radical Idea: Meaning Is Not Required",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-050-shannon-meaning-not-required.md",
+      "url": "/posts/signals-of-reality-050-shannon-meaning-not-required.html",
+      "body_words": 847
+    },
+    {
+      "id": 51,
+      "title": "Information Is Not Meaning",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-051-information-not-meaning.md",
+      "url": "/posts/signals-of-reality-051-information-not-meaning.html",
+      "body_words": 788
+    },
+    {
+      "id": 52,
+      "title": "Metadata Can Be the Signal",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-052-metadata-can-be-signal.md",
+      "url": "/posts/signals-of-reality-052-metadata-can-be-signal.html",
+      "body_words": 698
+    },
+    {
+      "id": 53,
+      "title": "Silence Can Carry Information",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-053-silence-carries-information.md",
+      "url": "/posts/signals-of-reality-053-silence-carries-information.html",
+      "body_words": 649
+    },
+    {
+      "id": 54,
+      "title": "Repetition Is Information Too",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-054-repetition-is-information.md",
+      "url": "/posts/signals-of-reality-054-repetition-is-information.html",
+      "body_words": 690
+    },
+    {
+      "id": 55,
+      "title": "Randomness Is Not Ignorance",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-055-randomness-not-ignorance.md",
+      "url": "/posts/signals-of-reality-055-randomness-not-ignorance.html",
+      "body_words": 754
+    },
+    {
+      "id": 56,
+      "title": "Can Noise Create Information?",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-056-can-noise-create-information.md",
+      "url": "/posts/signals-of-reality-056-can-noise-create-information.html",
+      "body_words": 613
+    },
+    {
+      "id": 57,
+      "title": "The Noise Floor of Reality",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-057-noise-floor-reality.md",
+      "url": "/posts/signals-of-reality-057-noise-floor-reality.html",
+      "body_words": 711
+    },
+    {
+      "id": 58,
+      "title": "Filtering Changes What You Can Discover",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-058-filtering-changes-discovery.md",
+      "url": "/posts/signals-of-reality-058-filtering-changes-discovery.html",
+      "body_words": 739
+    },
+    {
+      "id": 59,
+      "title": "Store the Raw Data",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-059-store-raw-data.md",
+      "url": "/posts/signals-of-reality-059-store-raw-data.html",
+      "body_words": 700
+    },
+    {
+      "id": 60,
+      "title": "“Why Does It Keep Happening?”",
+      "series": "Signal / Noise",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-060-why-does-it-keep-happening.md",
+      "url": "/posts/signals-of-reality-060-why-does-it-keep-happening.html",
+      "body_words": 784
+    },
+    {
+      "id": 61,
+      "title": "The Instrument Is Part of the Experiment",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-061-instrument-part-of-experiment.md",
+      "url": "/posts/signals-of-reality-061-instrument-part-of-experiment.html",
+      "body_words": 783
+    },
+    {
+      "id": 62,
+      "title": "Calibration: How Do We Know the Ruler Is Right?",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-062-calibration-ruler-right.md",
+      "url": "/posts/signals-of-reality-062-calibration-ruler-right.html",
+      "body_words": 754
+    },
+    {
+      "id": 63,
+      "title": "Every Number Has a History",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-063-every-number-has-history.md",
+      "url": "/posts/signals-of-reality-063-every-number-has-history.html",
+      "body_words": 661
+    },
+    {
+      "id": 64,
+      "title": "Data Without Provenance Is Half a Fact",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-064-data-without-provenance.md",
+      "url": "/posts/signals-of-reality-064-data-without-provenance.html",
+      "body_words": 686
+    },
+    {
+      "id": 65,
+      "title": "Outliers: Delete, Keep, or Investigate?",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-065-outliers-delete-keep-investigate.md",
+      "url": "/posts/signals-of-reality-065-outliers-delete-keep-investigate.html",
+      "body_words": 707
+    },
+    {
+      "id": 66,
+      "title": "Delete Late, Classify Carefully",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-066-delete-late-classify-carefully.md",
+      "url": "/posts/signals-of-reality-066-delete-late-classify-carefully.html",
+      "body_words": 587
+    },
+    {
+      "id": 67,
+      "title": "The Seduction of a Beautiful Pattern",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-067-seduction-beautiful-pattern.md",
+      "url": "/posts/signals-of-reality-067-seduction-beautiful-pattern.html",
+      "body_words": 625
+    },
+    {
+      "id": 68,
+      "title": "Correlation Is a Clue, Not a Mechanism",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-068-correlation-clue-not-mechanism.md",
+      "url": "/posts/signals-of-reality-068-correlation-clue-not-mechanism.html",
+      "body_words": 666
+    },
+    {
+      "id": 69,
+      "title": "Repetition Is Not Causation",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-069-repetition-not-causation.md",
+      "url": "/posts/signals-of-reality-069-repetition-not-causation.html",
+      "body_words": 607
+    },
+    {
+      "id": 70,
+      "title": "The Null Hypothesis Is Not “Nothing Happened”",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-070-null-hypothesis-not-nothing.md",
+      "url": "/posts/signals-of-reality-070-null-hypothesis-not-nothing.html",
+      "body_words": 683
+    },
+    {
+      "id": 71,
+      "title": "Statistical Significance Is Not Importance",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-071-statistical-significance-not-importance.md",
+      "url": "/posts/signals-of-reality-071-statistical-significance-not-importance.html",
+      "body_words": 605
+    },
+    {
+      "id": 72,
+      "title": "Measurement Error Is Not Failure",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-072-measurement-error-not-failure.md",
+      "url": "/posts/signals-of-reality-072-measurement-error-not-failure.html",
+      "body_words": 582
+    },
+    {
+      "id": 73,
+      "title": "Error Bars Are Part of the Result",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-073-error-bars-part-result.md",
+      "url": "/posts/signals-of-reality-073-error-bars-part-result.html",
+      "body_words": 592
+    },
+    {
+      "id": 74,
+      "title": "Averages Can Hide Catastrophes",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-074-averages-hide-catastrophes.md",
+      "url": "/posts/signals-of-reality-074-averages-hide-catastrophes.html",
+      "body_words": 570
+    },
+    {
+      "id": 75,
+      "title": "One Number Cannot Describe a System",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-075-one-number-cannot-describe-system.md",
+      "url": "/posts/signals-of-reality-075-one-number-cannot-describe-system.html",
+      "body_words": 642
+    },
+    {
+      "id": 76,
+      "title": "Can an Experiment Prove a Theory?",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-076-can-experiment-prove-theory.md",
+      "url": "/posts/signals-of-reality-076-can-experiment-prove-a-theory.html",
+      "body_words": 676
+    },
+    {
+      "id": 77,
+      "title": "Negative Results Are Still Information",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-077-negative-results-information.md",
+      "url": "/posts/signals-of-reality-077-negative-results-information.html",
+      "body_words": 604
+    },
+    {
+      "id": 78,
+      "title": "Replication Is Reality Checking",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-078-replication-reality-checking.md",
+      "url": "/posts/signals-of-reality-078-replication-reality-checking.html",
+      "body_words": 589
+    },
+    {
+      "id": 79,
+      "title": "Science Is a Correction System",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-079-science-correction-system.md",
+      "url": "/posts/signals-of-reality-079-science-correction-system.html",
+      "body_words": 601
+    },
+    {
+      "id": 80,
+      "title": "“I Don’t Know” as a Scientific Result",
+      "series": "How Do We Know?",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-080-i-dont-know-scientific-result.md",
+      "url": "/posts/signals-of-reality-080-i-dont-know-scientific-result.html",
+      "body_words": 614
+    },
+    {
+      "id": 81,
+      "title": "404 Not Found Is Not Ontology",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-081-404-not-found-not-ontology.md",
+      "url": "/posts/signals-of-reality-081-404-not-found-not-ontology.html",
+      "body_words": 598
+    },
+    {
+      "id": 82,
+      "title": "You Found the 404 Page",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-082-you-found-404-page.md",
+      "url": "/posts/signals-of-reality-082-you-found-404-page.html",
+      "body_words": 565
+    },
+    {
+      "id": 83,
+      "title": "A Server Can Hide Behind 404",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-083-server-can-hide-behind-404.md",
+      "url": "/posts/signals-of-reality-083-server-can-hide-behind-404.html",
+      "body_words": 543
+    },
+    {
+      "id": 84,
+      "title": "410 Gone vs 404 Not Found",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-084-410-gone-vs-404.md",
+      "url": "/posts/signals-of-reality-084-410-gone-vs-404-not-found.html",
+      "body_words": 542
+    },
+    {
+      "id": 85,
+      "title": "200 OK Does Not Mean the User Is OK",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-085-200-ok-user-not-ok.md",
+      "url": "/posts/signals-of-reality-085-200-ok-user-not-ok.html",
+      "body_words": 565
+    },
+    {
+      "id": 86,
+      "title": "Success Depends on Which Layer You Ask",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-086-success-depends-on-layer.md",
+      "url": "/posts/signals-of-reality-086-success-depends-on-layer.html",
+      "body_words": 582
+    },
+    {
+      "id": 87,
+      "title": "Status Is Not State",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-087-status-is-not-state.md",
+      "url": "/posts/signals-of-reality-087-status-is-not-state.html",
+      "body_words": 518
+    },
+    {
+      "id": 88,
+      "title": "A Protocol Message Is a Claim",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-088-protocol-message-is-claim.md",
+      "url": "/posts/signals-of-reality-088-protocol-message-is-claim.html",
+      "body_words": 556
+    },
+    {
+      "id": 89,
+      "title": "SIP 486 Busy Here: How Much Does the Server Know?",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-089-sip-486-how-much-server-knows.md",
+      "url": "/posts/signals-of-reality-089-sip-486-how-much-server-knows.html",
+      "body_words": 587
+    },
+    {
+      "id": 90,
+      "title": "486 Busy Here vs 600 Busy Everywhere",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-090-486-vs-600.md",
+      "url": "/posts/signals-of-reality-090-486-vs-600.html",
+      "body_words": 522
+    },
+    {
+      "id": 91,
+      "title": "SIP 480 Does Not Mean the Human Disappeared",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-091-sip-480-human-not-disappeared.md",
+      "url": "/posts/signals-of-reality-091-sip-480-human-not-disappeared.html",
+      "body_words": 549
+    },
+    {
+      "id": 92,
+      "title": "Signaling Is Not Media",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-092-signaling-not-media.md",
+      "url": "/posts/signals-of-reality-092-signaling-not-media.html",
+      "body_words": 530
+    },
+    {
+      "id": 93,
+      "title": "SDP Is a Proposal, Not the Actual Media Path",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-093-sdp-proposal-not-media-path.md",
+      "url": "/posts/signals-of-reality-093-sdp-proposal-not-media-path.html",
+      "body_words": 534
+    },
+    {
+      "id": 94,
+      "title": "The Call Connected, but Nobody Can Hear",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-094-call-connected-nobody-hears.md",
+      "url": "/posts/signals-of-reality-094-call-connected-nobody-hears.html",
+      "body_words": 551
+    },
+    {
+      "id": 95,
+      "title": "DNS Answers Are Views of Reality",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-095-dns-answers-views-reality.md",
+      "url": "/posts/signals-of-reality-095-dns-answers-views-reality.html",
+      "body_words": 530
+    },
+    {
+      "id": 96,
+      "title": "NXDOMAIN: What Exactly Is Missing?",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-096-nxdomain-what-missing.md",
+      "url": "/posts/signals-of-reality-096-nxdomain-what-missing.html",
+      "body_words": 538
+    },
+    {
+      "id": 97,
+      "title": "Cache: Yesterday’s Truth Served Today",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-097-cache-yesterdays-truth.md",
+      "url": "/posts/signals-of-reality-097-cache-yesterdays-truth.html",
+      "body_words": 594
+    },
+    {
+      "id": 98,
+      "title": "Routing Is a Belief About Reachability",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-098-routing-belief-reachability.md",
+      "url": "/posts/signals-of-reality-098-routing-belief-reachability.html",
+      "body_words": 561
+    },
+    {
+      "id": 99,
+      "title": "Control Plane vs Data Plane",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-099-control-plane-vs-data-plane.md",
+      "url": "/posts/signals-of-reality-099-control-plane-vs-data-plane.html",
+      "body_words": 527
+    },
+    {
+      "id": 100,
+      "title": "Protocols as Epistemology",
+      "series": "Protocols Lie Carefully",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-100-protocols-as-epistemology.md",
+      "url": "/posts/signals-of-reality-100-protocols-as-epistemology.html",
+      "body_words": 573
+    },
+    {
+      "id": 101,
+      "title": "Dashboard Is Not the System",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-101-dashboard-not-system.md",
+      "url": "/posts/signals-of-reality-101-dashboard-not-system.html",
+      "body_words": 619
+    },
+    {
+      "id": 102,
+      "title": "Green Dashboard, Broken Product",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-102-green-dashboard-broken-product.md",
+      "url": "/posts/signals-of-reality-102-green-dashboard-broken-product.html",
+      "body_words": 576
+    },
+    {
+      "id": 103,
+      "title": "What Does “UP” Actually Mean?",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-103-what-does-up-mean.md",
+      "url": "/posts/signals-of-reality-103-what-does-up-mean.html",
+      "body_words": 473
+    },
+    {
+      "id": 104,
+      "title": "Running Is Not Healthy",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-104-running-not-healthy.md",
+      "url": "/posts/signals-of-reality-104-running-not-healthy.html",
+      "body_words": 501
+    },
+    {
+      "id": 105,
+      "title": "Logs Are Memories, Not Reality",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-105-logs-memories-not-reality.md",
+      "url": "/posts/signals-of-reality-105-logs-memories-not-reality.html",
+      "body_words": 541
+    },
+    {
+      "id": 106,
+      "title": "Metrics Compress Reality",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-106-metrics-compress-reality.md",
+      "url": "/posts/signals-of-reality-106-metrics-compress-reality.html",
+      "body_words": 609
+    },
+    {
+      "id": 107,
+      "title": "Traces Tell Stories Across Services",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-107-traces-stories-across-services.md",
+      "url": "/posts/signals-of-reality-107-traces-stories-across-services.html",
+      "body_words": 585
+    },
+    {
+      "id": 108,
+      "title": "The Three Signals See Different Worlds",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-108-three-signals-different-worlds.md",
+      "url": "/posts/signals-of-reality-108-three-signals-different-worlds.html",
+      "body_words": 566
+    },
+    {
+      "id": 109,
+      "title": "Unknown Unknowns and Observability",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-109-unknown-unknowns-observability.md",
+      "url": "/posts/signals-of-reality-109-unknown-unknowns-observability.html",
+      "body_words": 568
+    },
+    {
+      "id": 110,
+      "title": "Telemetry Is Not Neutral",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-110-telemetry-not-neutral.md",
+      "url": "/posts/signals-of-reality-110-telemetry-not-neutral.html",
+      "body_words": 539
+    },
+    {
+      "id": 111,
+      "title": "If You Did Not Measure It, Did It Happen?",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-111-if-not-measured-did-it-happen.md",
+      "url": "/posts/signals-of-reality-111-if-not-measured-did-it-happen.html",
+      "body_words": 540
+    },
+    {
+      "id": 112,
+      "title": "Distributed Systems Have Multiple Presents",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-112-distributed-systems-multiple-presents.md",
+      "url": "/posts/signals-of-reality-112-distributed-systems-multiple-presents.html",
+      "body_words": 545
+    },
+    {
+      "id": 113,
+      "title": "Truth Can Have Replication Lag",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-113-truth-replication-lag.md",
+      "url": "/posts/signals-of-reality-113-truth-replication-lag.html",
+      "body_words": 518
+    },
+    {
+      "id": 114,
+      "title": "Eventual Consistency as Epistemology",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-114-eventual-consistency-epistemology.md",
+      "url": "/posts/signals-of-reality-114-eventual-consistency-epistemology.html",
+      "body_words": 545
+    },
+    {
+      "id": 115,
+      "title": "There Is No Universal Single Source of Truth",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-115-no-universal-single-source-truth.md",
+      "url": "/posts/signals-of-reality-115-no-universal-single-source-truth.html",
+      "body_words": 531
+    },
+    {
+      "id": 116,
+      "title": "Source of Truth vs Source of Record",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-116-source-truth-vs-source-record.md",
+      "url": "/posts/signals-of-reality-116-source-truth-vs-source-record.html",
+      "body_words": 550
+    },
+    {
+      "id": 117,
+      "title": "Data Lineage: Where Did This Number Come From?",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-117-data-lineage-number-origin.md",
+      "url": "/posts/signals-of-reality-117-data-lineage-number-origin.html",
+      "body_words": 532
+    },
+    {
+      "id": 118,
+      "title": "The Incident Before the Incident",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-118-incident-before-incident.md",
+      "url": "/posts/signals-of-reality-118-incident-before-incident.html",
+      "body_words": 535
+    },
+    {
+      "id": 119,
+      "title": "Observability as Reconstruction",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-119-observability-as-reconstruction.md",
+      "url": "/posts/signals-of-reality-119-observability-as-reconstruction.html",
+      "body_words": 527
+    },
+    {
+      "id": 120,
+      "title": "Systems Whisper Before They Scream",
+      "series": "The System Behind the Dashboard",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-120-systems-whisper-before-scream.md",
+      "url": "/posts/signals-of-reality-120-systems-whisper-before-scream.html",
+      "body_words": 571
+    },
+    {
+      "id": 121,
+      "title": "DNA Is Not Source Code",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-121-dna-not-source-code.md",
+      "url": "/posts/signals-of-reality-121-dna-not-source-code.html",
+      "body_words": 618
+    },
+    {
+      "id": 122,
+      "title": "The Problem With “Junk DNA”",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-122-problem-with-junk-dna.md",
+      "url": "/posts/signals-of-reality-122-problem-with-junk-dna.html",
+      "body_words": 578
+    },
+    {
+      "id": 123,
+      "title": "But Not Every Base Has a Secret Purpose",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-123-not-every-base-secret-purpose.md",
+      "url": "/posts/signals-of-reality-123-not-every-base-secret-purpose.html",
+      "body_words": 546
+    },
+    {
+      "id": 124,
+      "title": "Unknown Function ≠ No Function",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-124-unknown-function-not-no-function.md",
+      "url": "/posts/signals-of-reality-124-unknown-function-not-no-function.html",
+      "body_words": 473
+    },
+    {
+      "id": 125,
+      "title": "Unknown Function ≠ Hidden Purpose",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-125-unknown-function-not-hidden-purpose.md",
+      "url": "/posts/signals-of-reality-125-unknown-function-not-hidden-purpose.html",
+      "body_words": 481
+    },
+    {
+      "id": 126,
+      "title": "Evolution Is Not an Engineer",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-126-evolution-not-engineer.md",
+      "url": "/posts/signals-of-reality-126-evolution-not-engineer.html",
+      "body_words": 594
+    },
+    {
+      "id": 127,
+      "title": "Genome as an Old Production System",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-127-genome-old-production-system.md",
+      "url": "/posts/signals-of-reality-127-genome-old-production-system.html",
+      "body_words": 578
+    },
+    {
+      "id": 128,
+      "title": "Can New Genes Come From Non-Coding DNA?",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-128-new-genes-from-noncoding-dna.md",
+      "url": "/posts/signals-of-reality-128-new-genes-from-noncoding-dna.html",
+      "body_words": 616
+    },
+    {
+      "id": 129,
+      "title": "Function Is Contextual in Biology",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-129-function-contextual-biology.md",
+      "url": "/posts/signals-of-reality-129-function-contextual-biology.html",
+      "body_words": 572
+    },
+    {
+      "id": 130,
+      "title": "Mutation Is Not the Same as Evolution",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-130-mutation-not-evolution.md",
+      "url": "/posts/signals-of-reality-130-mutation-not-evolution.html",
+      "body_words": 524
+    },
+    {
+      "id": 131,
+      "title": "Random Mutation Does Not Mean Random Evolution",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-131-random-mutation-not-random-evolution.md",
+      "url": "/posts/signals-of-reality-131-random-mutation-not-random-evolution.html",
+      "body_words": 477
+    },
+    {
+      "id": 132,
+      "title": "Biology Runs on Signals",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-132-biology-runs-on-signals.md",
+      "url": "/posts/signals-of-reality-132-biology-runs-on-signals.html",
+      "body_words": 545
+    },
+    {
+      "id": 133,
+      "title": "A Neuron Is Not Simply On or Off",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-133-neuron-not-on-off.md",
+      "url": "/posts/signals-of-reality-133-neuron-not-on-off.html",
+      "body_words": 515
+    },
+    {
+      "id": 134,
+      "title": "Optogenetics: When Light Became a Neural Control Signal",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-134-optogenetics-light-neural-control.md",
+      "url": "/posts/signals-of-reality-134-optogenetics-light-neural-control.html",
+      "body_words": 575
+    },
+    {
+      "id": 135,
+      "title": "From Algae to the Brain",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-135-from-algae-to-brain.md",
+      "url": "/posts/signals-of-reality-135-from-algae-to-brain.html",
+      "body_words": 544
+    },
+    {
+      "id": 136,
+      "title": "Seeing the Brain by Intervening in It",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-136-seeing-brain-by-intervening.md",
+      "url": "/posts/signals-of-reality-136-seeing-brain-by-intervening.html",
+      "body_words": 586
+    },
+    {
+      "id": 137,
+      "title": "The Brain Reconstructs a World It Never Touches",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-137-brain-reconstructs-world.md",
+      "url": "/posts/signals-of-reality-137-brain-reconstructs-world.html",
+      "body_words": 603
+    },
+    {
+      "id": 138,
+      "title": "Memory Is Not a Video File",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-138-memory-not-video-file.md",
+      "url": "/posts/signals-of-reality-138-memory-not-video-file.html",
+      "body_words": 519
+    },
+    {
+      "id": 139,
+      "title": "Life Maintains Order by Spending Energy",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-139-life-maintains-order-spending-energy.md",
+      "url": "/posts/signals-of-reality-139-life-maintains-order-spending-energy.html",
+      "body_words": 569
+    },
+    {
+      "id": 140,
+      "title": "Biology as Information Without Turning It Into Software",
+      "series": "Biology Is Not Software",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-140-biology-information-not-software.md",
+      "url": "/posts/signals-of-reality-140-biology-information-not-software.html",
+      "body_words": 551
+    },
+    {
+      "id": 141,
+      "title": "CMB: The Oldest Light We Can See",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-141-cmb-oldest-light.md",
+      "url": "/posts/signals-of-reality-141-cmb-oldest-light.html",
+      "body_words": 672
+    },
+    {
+      "id": 142,
+      "title": "Why the Early Universe Was Opaque",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-142-early-universe-opaque.md",
+      "url": "/posts/signals-of-reality-142-early-universe-opaque.html",
+      "body_words": 617
+    },
+    {
+      "id": 143,
+      "title": "A Universe Full of Light That You Could Not See Through",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-143-light-but-not-see-through.md",
+      "url": "/posts/signals-of-reality-143-light-but-not-see-through.html",
+      "body_words": 582
+    },
+    {
+      "id": 144,
+      "title": "The Cosmic Fog Lifted",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-144-cosmic-fog-lifted.md",
+      "url": "/posts/signals-of-reality-144-cosmic-fog-lifted.html",
+      "body_words": 545
+    },
+    {
+      "id": 145,
+      "title": "Why CMB Is Microwave Today",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-145-why-cmb-microwave-today.md",
+      "url": "/posts/signals-of-reality-145-why-cmb-microwave-today.html",
+      "body_words": 543
+    },
+    {
+      "id": 146,
+      "title": "The Universe Has a Baby Picture",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-146-universe-baby-picture.md",
+      "url": "/posts/signals-of-reality-146-universe-baby-picture.html",
+      "body_words": 576
+    },
+    {
+      "id": 147,
+      "title": "Tiny Fluctuations That Became Galaxies",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-147-tiny-fluctuations-became-galaxies.md",
+      "url": "/posts/signals-of-reality-147-tiny-fluctuations-became-galaxies.html",
+      "body_words": 571
+    },
+    {
+      "id": 148,
+      "title": "The Signal Penzias and Wilson Tried to Remove",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-148-penzias-wilson-signal.md",
+      "url": "/posts/signals-of-reality-148-penzias-wilson-signal.html",
+      "body_words": 499
+    },
+    {
+      "id": 149,
+      "title": "How Can Light Travel for Billions of Years?",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-149-light-travel-billions-years.md",
+      "url": "/posts/signals-of-reality-149-light-travel-billions-years.html",
+      "body_words": 531
+    },
+    {
+      "id": 150,
+      "title": "Looking Far Away Is Looking Back in Time",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-150-looking-far-back-time.md",
+      "url": "/posts/signals-of-reality-150-looking-far-back-time.html",
+      "body_words": 584
+    },
+    {
+      "id": 151,
+      "title": "Hydrogen Is Older Than Stars",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-151-hydrogen-older-than-stars.md",
+      "url": "/posts/signals-of-reality-151-hydrogen-older-than-stars.html",
+      "body_words": 550
+    },
+    {
+      "id": 152,
+      "title": "Oxygen Had to Be Forged",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-152-oxygen-had-to-be-forged.md",
+      "url": "/posts/signals-of-reality-152-oxygen-had-to-be-forged.html",
+      "body_words": 486
+    },
+    {
+      "id": 153,
+      "title": "Stars Are Chemical Factories",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-153-stars-chemical-factories.md",
+      "url": "/posts/signals-of-reality-153-stars-chemical-factories.html",
+      "body_words": 550
+    },
+    {
+      "id": 154,
+      "title": "A Star Must Give Its Elements Back",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-154-star-must-give-elements-back.md",
+      "url": "/posts/signals-of-reality-154-star-must-give-elements-back.html",
+      "body_words": 492
+    },
+    {
+      "id": 155,
+      "title": "When Could the First Water Exist?",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-155-when-first-water-exist.md",
+      "url": "/posts/signals-of-reality-155-when-first-water-exist.html",
+      "body_words": 538
+    },
+    {
+      "id": 156,
+      "title": "The First Water May Be Shockingly Old",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-156-first-water-shockingly-old.md",
+      "url": "/posts/signals-of-reality-156-first-water-shockingly-old.html",
+      "body_words": 553
+    },
+    {
+      "id": 157,
+      "title": "Your Water Contains Two Cosmic Histories",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-157-water-two-cosmic-histories.md",
+      "url": "/posts/signals-of-reality-157-water-two-cosmic-histories.html",
+      "body_words": 514
+    },
+    {
+      "id": 158,
+      "title": "Molecules Before Planets",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-158-molecules-before-planets.md",
+      "url": "/posts/signals-of-reality-158-molecules-before-planets.html",
+      "body_words": 498
+    },
+    {
+      "id": 159,
+      "title": "From Hydrogen Cloud to Living Chemistry",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-159-hydrogen-cloud-living-chemistry.md",
+      "url": "/posts/signals-of-reality-159-hydrogen-cloud-living-chemistry.html",
+      "body_words": 499
+    },
+    {
+      "id": 160,
+      "title": "We Are Made of Different Ages of the Universe",
+      "series": "Messages From the Early Universe",
+      "status": "draft_needs_review",
+      "file": "content/perspectives/signals-of-reality-160-made-of-different-cosmic-ages.md",
+      "url": "/posts/signals-of-reality-160-made-of-different-cosmic-ages.html",
+      "body_words": 561
+    },
+    {
+      "id": 161,
+      "title": "t = 0: Where Does Physics Stop?",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 162,
+      "title": "Was There Really a t = 0?",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 163,
+      "title": "What Was Before the Universe?",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 164,
+      "title": "What If “Before” Did Not Exist?",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 165,
+      "title": "The North Pole Analogy for Time",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 166,
+      "title": "Big Bang Was Not a Bomb",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 167,
+      "title": "Rewinding the Universe",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 168,
+      "title": "The Planck Wall",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 169,
+      "title": "General Relativity Meets Quantum Mechanics",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 170,
+      "title": "Singularity: Beginning or Warning Sign?",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 171,
+      "title": "What Does the BGV Theorem Actually Say?",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 172,
+      "title": "Inflation Before the Hot Big Bang",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 173,
+      "title": "Did Inflation Have a Beginning?",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 174,
+      "title": "Big Bounce: Was There a Universe Before Ours?",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 175,
+      "title": "Loop Quantum Cosmology in Plain Language",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 176,
+      "title": "No-Boundary: A Beginning Without an Edge",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 177,
+      "title": "Can Time Emerge?",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 178,
+      "title": "What Would Evidence From Before Inflation Look Like?",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 179,
+      "title": "How Do You Test the Beginning of Everything?",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 180,
+      "title": "Maybe the Mystery Is Whether “Before” Existed at All",
+      "series": "t = 0",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 181,
+      "title": "Why Repetition Feels Like Truth",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 182,
+      "title": "Familiarity Is Not Evidence",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 183,
+      "title": "Confirmation Bias: Searching for the World You Already Believe In",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 184,
+      "title": "Motivated Reasoning: When the Conclusion Comes First",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 185,
+      "title": "Narrative Is a Compression Algorithm for Reality",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 186,
+      "title": "Framing: Same Event, Different World",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 187,
+      "title": "Propaganda Is More Than Lying",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 188,
+      "title": "Manufacturing Consent as a Model, Not a Law",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 189,
+      "title": "Who Decides What Deserves Attention?",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 190,
+      "title": "Information Overload Can Hide Truth",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 191,
+      "title": "When Everyone Has a Version of Reality",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 192,
+      "title": "“Both Sides” Does Not Mean Both Are Equally Supported",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 193,
+      "title": "Identity Can Become an Evidence Filter",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 194,
+      "title": "The Echo Chamber Inside the Head",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 195,
+      "title": "The Most Effective Propaganda May Feel Self-Generated",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 196,
+      "title": "Plato’s Cave With a Recommendation Algorithm",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 197,
+      "title": "Mezmerize → Hypnotize: Pop Culture as Media Criticism",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 198,
+      "title": "The Feed Is Not the World",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 199,
+      "title": "How to Know When Everyone Is Trying to Persuade You",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    },
+    {
+      "id": 200,
+      "title": "Reality Arrives as Signals",
+      "series": "Who Builds Your Reality?",
+      "status": "missing",
+      "body_words": 0
+    }
+  ]
+}
