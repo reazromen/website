@@ -11,6 +11,17 @@
   "live_verification": "pending for 006–010 until deployment completes",
   "publication_batches": [
     {
+      "date": "2026-10-06",
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "verification": "previous release verified; metadata dates retained"
+    },
+    {
       "date": "2026-10-07",
       "ids": [
         6,
@@ -1753,5 +1764,12 @@
       "status": "missing",
       "body_words": 0
     }
+  ],
+  "verified_live_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
   ]
 }
