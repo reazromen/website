@@ -1,0 +1,4 @@
+---
+id: reality
+title: Reality
+---
