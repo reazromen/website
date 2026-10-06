@@ -9,7 +9,10 @@ body: 'This is a personal movie notebook built from films that came up in our co
   I am not using ratings here. The notes are about craft, mood, structure, character, memory, class, institutions, relationships and the questions a film creates. Some titles are films I explicitly said I had already seen; others came up while we were building recommendation lists. These articles do not invent viewing memories where I never gave one.
 
 
-  The archive currently contains 87 spoiler-light notes, dated across 2020–2026 so the site reads like an evolving notebook rather than a one-day content dump.'
+  The archive currently contains 87 spoiler-light notes, dated across 2020–2026 so the site reads like an evolving notebook rather than a one-day content dump.
+
+
+  **Editorial note.** These notes were revised against IMDb title metadata and IMDb''s public external-review indexes. I use those critic directories to pressure-test what the film does well and where its trade-offs are, but the analysis and wording here are original; I do not copy review text or invent personal viewing memories.'
 lists:
 - key: MOVIES
   filter:

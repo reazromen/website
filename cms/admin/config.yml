@@ -258,6 +258,20 @@ collections:
   - *id012
   - *id013
   - *id014
+  - name: imdb_id
+    label: IMDb ID
+    widget: string
+    required: false
+    hint: Stable IMDb title ID, such as tt8413338.
+  - name: imdb_year
+    label: Film year
+    widget: number
+    value_type: int
+    required: false
+  - name: critical_revision
+    label: Critical revision
+    widget: hidden
+    required: false
   - *id015
 - name: bangla
   label: বাংলা

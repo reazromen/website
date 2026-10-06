@@ -1,7 +1,7 @@
 ---
 title: I Saw the Devil — Revenge becomes a machine that cannot recognize completion
 url: /posts/movie-i-saw-the-devil.html
-date: '2026-07-16'
+date: '2020-05-03'
 read_time: 2
 excerpt: 'A spoiler-light note on I Saw the Devil: grief, violence, punishment, obsession, cruelty, and moral erosion.'
 topic: movies
@@ -11,14 +11,19 @@ featured: false
 language: en
 eyebrow: MOVIE NOTE · KOREAN
 editorial_batch: movies-20261007-87
+imdb_id: tt1588170
+imdb_year: 2010
+critical_revision: imdb-external-reviews-20261007
 ---
 
-What I like about discussing *I Saw the Devil* is that the film can be described in a sentence, yet the sentence is not the experience. The experience comes from grief, violence, punishment, obsession, cruelty, and moral erosion. Those elements create a human scale that is difficult to preserve in a conventional “review,” where plot summary and verdict usually take over.
+What makes *I Saw the Devil* worth writing about is not simply what happens, but what the film chooses to notice. Its focus on grief, violence, punishment, obsession, cruelty, and moral erosion gives small gestures, pauses and social arrangements more weight than a plot summary can capture.
 
-The film's method helps. Repetition and escalation used to strip revenge of cathartic simplicity. That method slows down the instinct to categorize every character immediately. We have to watch behavior long enough for the contradictions to appear. In films like this, a person may be caring and selfish, brave and frightened, funny and cruel within the same emotional system.
+The crucial formal decision is repetition and escalation used to strip revenge of cathartic simplicity. That lets the movie communicate sideways. Meaning arrives through duration, background activity or an uncomfortable silence, allowing pressure to become visible before the screenplay names it.
 
-The most useful question is what remains of justice when the person seeking it starts designing suffering as carefully as the killer. I do not think the film needs to answer that question cleanly. In fact, the lack of a clean answer is often the point. Human relationships and institutions rarely behave like closed problems. They carry history, hierarchy and incomplete information into every decision.
+The acting works because the characters rarely seem aware that they are demonstrating themes. Affection and selfishness, courage and fear, tenderness and control can occupy the same person, giving grief, violence, punishment, obsession, cruelty, and moral erosion dramatic weight without a moral lecture.
 
-There is also a practical lesson in the storytelling. Cinema does not always need more events to create more meaning. Sometimes density comes from context: who has power in a room, what a family refuses to say, what a character assumes is normal, or what a place remembers that the people would rather forget. That kind of density rewards attention instead of speed.
+In *I Saw the Devil*, the suspense is strongest when uncertainty changes judgment rather than merely delaying a reveal. Partial knowledge becomes an emotional condition, not just a plotting device.
 
-That is the reason *I Saw the Devil* fits this movie section. It is not here as a ranking entry. It is here because the film gives shape to grief, violence, punishment, obsession, cruelty, and moral erosion, and because its form gives us something specific to examine. The best note I can make is not a number; it is a question about how the film turns ordinary human pressure into cinema.
+The relentlessness is the argument and also the danger. Repeated brutality strips revenge of nobility, but the film can push so hard that horror risks turning into endurance. The question is whether numbness is a flaw in the experience or part of the moral design.
+
+The larger question is: what remains of justice when the person seeking it starts designing suffering as carefully as the killer. *I Saw the Devil* is most successful when it leaves that question open enough to survive the ending. Plot can resolve while the moral problem remains unsettled, which is a better reason to revisit the movie than any numerical score.
