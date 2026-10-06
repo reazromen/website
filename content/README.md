@@ -3,6 +3,7 @@
 These folders are the authoring source for new CMS-created editorial content.
 
 - music/ — listening notes, album notes and performance notes
+- movies/ — movie notes and film essays
 - perspectives/ — long-form technical/editorial writing
 - bangla/ — Bangla writing
 

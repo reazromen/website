@@ -9,6 +9,7 @@ Open https://reazromen.com/admin. Authelia remains the only login. No GitHub tok
 | Writing | Existing engineering articles and new technical writing |
 | Perspectives | Long-form essays |
 | Music | Personal song notes, album notes, performance notes and research listening notes |
+| Movies | Movie notes and film essays |
 | বাংলা | Bangla articles |
 | Topics | Broad subjects, their names, descriptions and archive introductions |
 | Tags | Reusable detailed labels and tag archive descriptions |

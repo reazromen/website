@@ -8,6 +8,9 @@ main:
 - label: Music
   href: /music.html
   enabled: true
+- label: Movies
+  href: /movies.html
+  enabled: true
 - label: বাংলা
   href: /bangla.html
   lang: bn

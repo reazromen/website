@@ -5,7 +5,7 @@ from email.utils import format_datetime
 from collections import defaultdict
 import xml.etree.ElementTree as ET
 
-SECTIONS=('writing','perspectives','music','bangla')
+SECTIONS=('writing','perspectives','music','movies','bangla')
 ASSET_VERSIONS={}
 
 def load_all():
@@ -106,7 +106,11 @@ def select(entries,rule):
 
 def render_page(m,entries,tax):
     if not m.get('template'):
-        return shell(m['title'],'<article class="article" data-pagefind-body><h1>'+esc(m['title'])+'</h1><div class="prose">'+render_md(m.get('body',''))+'</div></article>',m.get('description',''))
+        body='<article class="article" data-pagefind-body><h1>'+esc(m['title'])+'</h1><div class="prose">'+render_md(m.get('body',''))+'</div></article>'
+        for listing in m.get('lists',[]):
+            rows=select(entries,listing['filter'])
+            body+='<section class="section-block"><div class="post-list editorial-list">'+''.join(card(x,tax,listing.get('style','cards'),i+1) for i,x in enumerate(rows))+'</div></section>'
+        return shell(m['title'],body,m.get('description',''))
     template=(ROOT/m['template']).read_text();sources=json.loads((ROOT/m['source']).read_text());values={}
     # Blocks are stable template locations. Removed blocks become empty, never leak slot markers.
     for ident,source in sources.items():values[ident]=''

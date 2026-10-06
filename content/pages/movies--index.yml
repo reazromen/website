@@ -1,0 +1,17 @@
+title: Movies I keep thinking about.
+browser_title: Movies — Reaz Romen
+description: Movie notes on character, storytelling, mood, psychology and the films that came up in my conversations.
+url: /movies/index.html
+draft: false
+body: 'This is a personal movie notebook built from films that came up in our conversations: Malayalam character dramas, Indian independent cinema, Korean psychological thrillers and a few films from elsewhere.
+
+
+  I am not using ratings here. The notes are about craft, mood, structure, character, memory, class, institutions, relationships and the questions a film creates. Some titles are films I explicitly said I had already seen; others came up while we were building recommendation lists. These articles do not invent viewing memories where I never gave one.
+
+
+  The archive currently contains 87 spoiler-light notes, dated across 2020–2026 so the site reads like an evolving notebook rather than a one-day content dump.'
+lists:
+- key: MOVIES
+  filter:
+    section: movies
+  style: cards

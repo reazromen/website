@@ -224,6 +224,41 @@ collections:
       value: research
     default: song
   - *id015
+- name: movies
+  label: Movies
+  folder: content/movies
+  create: true
+  delete: true
+  extension: md
+  format: frontmatter
+  slug: '{{slug}}'
+  summary: '{{title}}'
+  sortable_fields:
+  - title
+  - date
+  view_filters:
+  - label: Drafts
+    field: draft
+    pattern: true
+  - label: Published
+    field: draft
+    pattern: false
+  fields:
+  - *id001
+  - *id002
+  - *id003
+  - *id004
+  - *id005
+  - *id006
+  - *id007
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id012
+  - *id013
+  - *id014
+  - *id015
 - name: bangla
   label: বাংলা
   folder: content/bangla
