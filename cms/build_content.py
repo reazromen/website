@@ -154,6 +154,36 @@ def finalize(raw,url,nav,entry=None,tax=None):
     canonical['href']='https://reazromen.com'+url
     if entry:
         s.html['lang']=entry.get('language','en')
+        # Explicit schema.org identity: make every published article unambiguously
+        # attributable to the site's canonical author entity.
+        author_url='https://reazromen.com/author/reaz-romen.html'
+        article_url='https://reazromen.com'+url
+        schema={
+            '@context':'https://schema.org',
+            '@type':'Article',
+            'headline':entry['title'],
+            'description':entry.get('excerpt',''),
+            'url':article_url,
+            'mainEntityOfPage':{'@type':'WebPage','@id':article_url},
+            'datePublished':str(entry.get('date',''))[:10],
+            'author':{
+                '@type':'Person',
+                '@id':author_url+'#person',
+                'name':'Reaz Romen',
+                'url':author_url,
+                'sameAs':[
+                    'https://reazromen.com/',
+                    'https://www.linkedin.com/in/reaz-romen',
+                    'https://github.com/reazromen',
+                    'https://medium.com/@returnofhe'
+                ]
+            },
+            'publisher':{'@type':'Person','@id':author_url+'#person','name':'Reaz Romen'},
+            'isPartOf':{'@type':'WebSite','@id':'https://reazromen.com/#website','name':'Reaz Romen','url':'https://reazromen.com/'}
+        }
+        node=s.new_tag('script',type='application/ld+json')
+        node.string=json.dumps(schema,ensure_ascii=False,separators=(',',':'))
+        s.head.append(node)
         article=s.select_one('main article')
         if article:article['data-pagefind-body']=''
         if entry.get('cover_image'):
@@ -171,6 +201,44 @@ def finalize(raw,url,nav,entry=None,tax=None):
             n=s.select_one('meta[property="'+prop+'"]')
             if not n:n=s.new_tag('meta',property=prop);s.head.append(n)
             n['content']=val
+    # The author page is the canonical identity record used by Article.author/@id.
+    if url == '/author/reaz-romen.html':
+        author_schema={
+            '@context':'https://schema.org',
+            '@type':'Person',
+            '@id':'https://reazromen.com/author/reaz-romen.html#person',
+            'name':'Reaz Romen',
+            'url':'https://reazromen.com/author/reaz-romen.html',
+            'jobTitle':'Systems Engineer & Technical Author',
+            'description':'Systems engineer working across embedded devices, networks, real-time communications, backend systems, Linux infrastructure, observability, and operational tooling.',
+            'sameAs':[
+                'https://reazromen.com/',
+                'https://www.linkedin.com/in/reaz-romen',
+                'https://github.com/reazromen',
+                'https://medium.com/@returnofhe'
+            ],
+            'knowsAbout':[
+                'SIP','RTP','WebRTC','FreeSWITCH','VoIP','Linux',
+                'embedded systems','Kubernetes','networking','observability',
+                'real-time audio','telecommunications'
+            ]
+        }
+        node=s.new_tag('script',type='application/ld+json')
+        node.string=json.dumps(author_schema,ensure_ascii=False,separators=(',',':'))
+        s.head.append(node)
+    if url == '/':
+        website_schema={
+            '@context':'https://schema.org',
+            '@type':'WebSite',
+            '@id':'https://reazromen.com/#website',
+            'name':'Reaz Romen',
+            'url':'https://reazromen.com/',
+            'description':'Systems engineering across embedded devices, real-time communications, Linux infrastructure, networking and observability.',
+            'author':{'@id':'https://reazromen.com/author/reaz-romen.html#person'}
+        }
+        node=s.new_tag('script',type='application/ld+json')
+        node.string=json.dumps(website_schema,ensure_ascii=False,separators=(',',':'))
+        s.head.append(node)
     if '{{RR_' in str(s):raise ValueError('Unresolved template slot at '+url)
     return html_string(s)
 
