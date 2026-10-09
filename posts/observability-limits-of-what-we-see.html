@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="bn">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>৪৭. অবজারভেবিলিটি: যা আমরা দেখতে পাই না — Reaz Romen</title>
+<meta content="সিস্টেম ইঞ্জিনিয়ারিংয়ে অবজারভেবিলিটি বলতে একটি সিস্টেমের পর্যবেক্ষণযোগ্য আউটপুট থেকে তার অভ্যন্তরীণ অবস্থা কতটা নির্ণয় করা যায়, সেই ধারণাকে বোঝায়।…" name="description"/>
+<meta content="index,follow" name="robots"/>
+<link href="/assets/site.css" rel="stylesheet"/>
+<link href="/assets/sitewide-v2.css" rel="stylesheet"/>
+<link href="/assets/phase1.css" rel="stylesheet"/>
+<link href="/assets/phase2.css" rel="stylesheet"/>
+<link href="/assets/responsive-v3.css" rel="stylesheet"/>
+<meta content="Perspective" data-pagefind-filter="type[content]"/>
+<meta content="Article" data-pagefind-filter="format[content]"/>
+<meta content="৪৭. অবজারভেবিলিটি: যা আমরা দেখতে পাই না" data-pagefind-meta="title[content]"/>
+<link href="https://reazromen.com/posts/observability-limits-of-what-we-see.html" rel="canonical"/><meta content="observability" data-pagefind-filter="topic[content]"/><meta content="৪৭. অবজারভেবিলিটি: যা আমরা দেখতে পাই না" property="og:title"/><meta content="সিস্টেম ইঞ্জিনিয়ারিংয়ে অবজারভেবিলিটি বলতে একটি সিস্টেমের পর্যবেক্ষণযোগ্য আউটপুট থেকে তার অভ্যন্তরীণ অবস্থা কতটা নির্ণয় করা যায়, সেই ধারণাকে বোঝায়।…" property="og:description"/><meta content="https://reazromen.com/posts/observability-limits-of-what-we-see.html" property="og:url"/></head>
+<body class="rr-themed">
+<!-- RR-CMS-GENERATED:v1 -->
+<a class="skip-link" href="#rr-main">Skip to content</a>
+<header class="site-header rr-global-header"><div class="site-header-inner"><a aria-label="Reaz Romen home" class="brand" href="/">RR</a><nav aria-label="Main navigation" class="nav"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/perspectives.html">Perspectives</a><a href="/music.html">Music</a><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><a aria-label="GitHub" class="icon-link github-action" href="https://github.com/reazromen" rel="noopener" target="_blank">GH</a><button aria-label="Toggle color scheme" class="theme-toggle" onclick="toggleTheme()" type="button">◐</button></div></nav></div></header>
+<main class="shell site-main" id="rr-main"><article class="article" data-pagefind-body="">
+<nav aria-label="Breadcrumb" class="breadcrumbs"><a href="/bangla.html" lang="bn">বাংলা</a> / <a href="/writing.html" lang="bn">লেখা</a> / Observability</nav>
+<p class="eyebrow">বাংলা লেখা · Observability</p><h1>৪৭. অবজারভেবিলিটি: যা আমরা দেখতে পাই না</h1><p class="lede">সিস্টেম ইঞ্জিনিয়ারিংয়ে অবজারভেবিলিটি বলতে একটি সিস্টেমের পর্যবেক্ষণযোগ্য আউটপুট থেকে তার অভ্যন্তরীণ অবস্থা কতটা নির্ণয় করা যায়, সেই ধারণাকে বোঝায়। বাস্তব সিস্টেমে লগ, মেট্রিক, ট্রেস এবং সেন্সরের তথ্য বিশ্লেষণ করে এমন অভ্যন্তরীণ সমস্যা শনাক্ত করার চেষ্টা করা হয়, যা সরাসরি দেখা যায় না।</p>
+<div class="article-meta"><address class="author-line">By <a href="/about.html">Reaz Romen</a><span class="verified">✓ Site verified</span></address><span>Published 2026-10-10</span><span>2 min read</span></div>
+<div class="tags"></div><div class="prose"><h2>অবজারভেবিলিটি: যা আমরা দেখতে পাই না (Observability: The Limits of What We Can See)</h2>
+<p>সিস্টেম ইঞ্জিনিয়ারিংয়ে অবজারভেবিলিটি বলতে একটি সিস্টেমের পর্যবেক্ষণযোগ্য আউটপুট থেকে তার অভ্যন্তরীণ অবস্থা কতটা নির্ণয় করা যায়, সেই ধারণাকে বোঝায়। বাস্তব সিস্টেমে লগ, মেট্রিক, ট্রেস এবং সেন্সরের তথ্য বিশ্লেষণ করে এমন অভ্যন্তরীণ সমস্যা শনাক্ত করার চেষ্টা করা হয়, যা সরাসরি দেখা যায় না।</p>
+<p>জ্যোতির্বিজ্ঞানে আমাদের পর্যবেক্ষণও সীমাবদ্ধ। মানুষের চোখ দৃশ্যমান আলোর কেবল একটি ছোট অংশ শনাক্ত করতে পারে। ইনফ্রারেড, অতিবেগুনি, এক্স রে এবং গামা রশ্মি পর্যবেক্ষণের জন্য বিশেষ যন্ত্র লাগে। বিভিন্ন তরঙ্গদৈর্ঘ্যে মহাবিশ্বকে দেখলে নক্ষত্র, গ্যাস, ধূলিকণা এবং উচ্চশক্তির ঘটনার ভিন্ন ভিন্ন তথ্য পাওয়া যায়।</p>
+<p>দূরবর্তী মহাজাগতিক বস্তু থেকে আলো আমাদের কাছে পৌঁছাতে সময় লাগে। তাই দূরের গ্যালাক্সি পর্যবেক্ষণ করার অর্থ হলো তার অতীতের আলো দেখা। যত দূরের বস্তু দেখি, সাধারণত তত আগের মহাজাগতিক সময়ের তথ্য পাই।</p>
+<p>মহাবিশ্বের মোট শক্তি ও পদার্থের অধিকাংশ সম্পর্কে আমাদের ধারণা পরোক্ষ পর্যবেক্ষণের ওপর নির্ভর করে। মহাজাগতিক মডেল অনুযায়ী ডার্ক ম্যাটার ও ডার্ক এনার্জি মহাবিশ্বের শক্তি ও পদার্থের বাজেটে বড় অংশ জুড়ে আছে। ডার্ক ম্যাটারের প্রমাণ প্রধানত মহাকর্ষীয় প্রভাব থেকে আসে, আর ডার্ক এনার্জি মহাবিশ্বের ত্বরিত প্রসারণ ব্যাখ্যা করতে ব্যবহৃত হয়। এদের প্রকৃতি এখনো সম্পূর্ণ বোঝা যায়নি।</p>
+<p>বিজ্ঞানীরা অনেক সময় সরাসরি কোনো বস্তু না দেখেও তার প্রভাব মেপে অস্তিত্ব ও বৈশিষ্ট্য সম্পর্কে অনুমান করেন। তবে পর্যবেক্ষণ, ব্যাখ্যা ও অনুমানকে আলাদা রাখা জরুরি। একটি মডেল পর্যবেক্ষণের সঙ্গে কতটা মেলে এবং বিকল্প ব্যাখ্যা কতটা সম্ভব, তা পরীক্ষা করতে হয়।</p>
+<p>অবজারভেবিলিটি আমাদের মনে করিয়ে দেয়, যা দেখা যায় না তা যে নেই, এমন নয়। একই সঙ্গে অদৃশ্য কোনো কিছুর অস্তিত্ব দাবি করার জন্যও প্রমাণ দরকার। নতুন টেলিস্কোপ, ডিটেক্টর ও বিশ্লেষণপদ্ধতি আমাদের জ্ঞানের সীমা বাড়ায়, আর সেই সঙ্গে নতুন প্রশ্নও তৈরি করে।</p></div>
+<nav aria-label="Article series navigation" class="article-nav"><a href="/writing.html">← সব বাংলা লেখা</a></nav></article></main>
+<footer class="shell site-footer">
+<div><span class="status-dot"></span><strong>Reaz Romen — independent systems engineer.</strong></div>
+<p>Firmware, real-time communications, infrastructure and field notes. First-party HTML/CSS, no analytics, no third-party scripts.</p>
+<nav aria-label="Footer"><a href="/tags.html">Tags</a></nav>
+</footer>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><script src="/assets/phase1.js"></script><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script>
+</body>
+</html>
