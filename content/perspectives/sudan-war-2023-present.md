@@ -7,8 +7,7 @@ excerpt: The war between Sudan’s Armed Forces and the Rapid Support Forces tra
 topic: human-world
 tags:
 - history
-- conflict
-- africa
+- war
 draft: false
 featured: false
 language: en
