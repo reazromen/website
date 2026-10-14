@@ -7,7 +7,6 @@ excerpt: The Sinai insurgency involved Egyptian security forces and jihadist arm
 topic: human-world
 tags:
 - history
-- conflict
 - war
 draft: false
 featured: false
