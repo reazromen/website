@@ -70,21 +70,21 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 25. **Israel–Iran direct and indirect confrontation** — distinguish direct interstate exchanges from proxy theatres in Lebanon, Syria, Iraq and elsewhere. [Read the essay](/posts/israel-iran-direct-indirect-confrontation.html).
 26. **Lebanon’s internal armed clashes and spillover** — include only episodes meeting organized-violence criteria; avoid treating every political crisis as a war. [Read the essay](/posts/lebanon-internal-armed-clashes-spillover.html).
 27. **Iranian Kurdish insurgencies and Iran–PJAK fighting** — actor-specific and time-bounded. [Read the essay](/posts/iranian-kurdish-insurgencies-pjak.html).
-28. **Iran–Pakistan border strikes and armed incidents** — short interstate episode, not a continuous war.
-29. **Libyan civil wars and rival-government conflict (2011 onward)** — distinguish the 2011 uprising, 2014–2020 wars and later localized fighting.
-30. **Sinai insurgency (2011 onward)** — Egyptian state forces and jihadist armed groups.
-31. **Al-Qaeda in the Arabian Peninsula (AQAP) and Yemen’s wider insurgencies** — distinguish AQAP’s campaign from the state-based Yemen war.
-32. **Palestinian factional armed clashes** — include only well-documented organized fighting and connect it to the wider Palestinian conflict.
+28. **Iran–Pakistan border strikes and armed incidents** — short interstate episode, not a continuous war. [Read the essay](/posts/iran-pakistan-border-strikes-2024.html).
+29. **Libyan civil wars and rival-government conflict (2011 onward)** — distinguish the 2011 uprising, 2014–2020 wars and later localized fighting. [Read the essay](/posts/libya-civil-wars-rival-governments-2011-present.html).
+30. **Sinai insurgency (2011 onward)** — Egyptian state forces and jihadist armed groups. [Read the essay](/posts/sinai-insurgency-egypt-2011-present.html).
+31. **Al-Qaeda in the Arabian Peninsula (AQAP) and Yemen’s wider insurgencies** — distinguish AQAP’s campaign from the state-based Yemen war. [Read the essay](/posts/aqap-yemen-insurgency.html).
+32. **Palestinian factional armed clashes** — include only well-documented organized fighting and connect it to the wider Palestinian conflict. [Read the essay](/posts/palestinian-factional-armed-clashes.html).
 33. **Gulf and Levant proxy-conflict theatres** — use as cross-links, not as a substitute for naming each local conflict and its parties.
 
 ## Sub-Saharan Africa
 
 34. **Darfur conflict (2003 onward)** — Sudanese government-aligned forces, rebel groups, civilian targeting and renewed violence. **Published:** [Read the essay](/posts/darfur-war-sudan-2003.html).
-35. **Sudan war (April 2023 onward)** — Sudanese Armed Forces and Rapid Support Forces; distinct from but historically connected to earlier Sudanese conflicts.
-36. **South Sudan civil war (2013–2018) and recurrent violence** — national armed conflict and subsequent localized clashes.
-37. **Sudan–South Sudan border and oil-region clashes** — separate interstate and local episodes where supported by evidence.
-38. **Democratic Republic of the Congo: Kivu conflicts** — state forces, M23 and other armed groups; maintain actor and period distinctions.
-39. **M23 insurgency and Rwanda–DRC regional escalation** — a related but separately tracked phase of the eastern DRC conflict.
+35. **Sudan war (April 2023 onward)** — Sudanese Armed Forces and Rapid Support Forces; distinct from but historically connected to earlier Sudanese conflicts. [Read the essay](/posts/sudan-war-2023-present.html).
+36. **South Sudan civil war (2013–2018) and recurrent violence** — national armed conflict and subsequent localized clashes. [Read the essay](/posts/south-sudan-civil-war-recurrent-violence.html).
+37. **Sudan–South Sudan border and oil-region clashes** — separate interstate and local episodes where supported by evidence. [Read the essay](/posts/sudan-south-sudan-border-clashes.html).
+38. **Democratic Republic of the Congo: Kivu conflicts** — state forces, M23 and other armed groups; maintain actor and period distinctions. [Read the essay](/posts/dr-congo-kivu-conflicts.html).
+39. **M23 insurgency and Rwanda–DRC regional escalation** — a related but separately tracked phase of the eastern DRC conflict. [Read the essay](/posts/m23-insurgency-rwanda-drc-escalation.html).
 40. **Lord’s Resistance Army (LRA) conflict** — Uganda and cross-border theatres in Central Africa.
 41. **Central African Republic civil war (2012 onward)** — Séléka, anti-balaka, state and external forces.
 42. **Somalia conflict and al-Shabaab insurgency (2000 onward)** — federal and regional forces, al-Shabaab and international operations.
