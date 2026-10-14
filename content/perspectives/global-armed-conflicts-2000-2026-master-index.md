@@ -95,17 +95,17 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 47. **Oromia conflict in Ethiopia** — OLA and federal/regional forces; distinguish from the Tigray and Amhara wars. [Read the essay](/posts/oromia-ola-insurgency-ethiopia.html).
 48. **Boko Haram insurgency and Lake Chad Basin conflict (2009 onward)** — Nigeria, ISWAP, Cameroon, Chad and Niger. [Read the essay](/posts/boko-haram-lake-chad-basin-conflict.html).
 49. **Mali conflict (2012 onward)** — Tuareg rebellion, jihadist groups, state forces, foreign missions and local armed actors. [Read the essay](/posts/mali-conflict-2012-present.html).
-50. **Burkina Faso insurgency (2015 onward)** — jihadist armed groups, state forces and civilian self-defence formations.
-51. **Niger insurgencies and coups-related armed violence** — distinguish western Sahel and Lake Chad theatres and avoid treating a coup itself as a war.
-52. **Central Sahel regional insurgency** — a cross-border analytical umbrella linking Mali, Burkina Faso and Niger, not a replacement for national records.
-53. **Cameroon Anglophone conflict (2017 onward)** — separatist armed groups and state forces.
-54. **Mozambique’s Cabo Delgado insurgency (2017 onward)** — insurgents, Mozambican forces and regional intervention.
-55. **Casamance conflict in Senegal** — MFDC factions, state forces and the long peace process.
-56. **Algerian Islamist insurgency and Sahel spillover** — distinguish the major 1990s civil-conflict period from violence continuing into the 2000s.
-57. **Chad’s recurrent rebel campaigns and armed transitions** — separate named campaigns and years instead of one continuous label.
+50. **Burkina Faso insurgency (2015 onward)** — jihadist armed groups, state forces and civilian self-defence formations. Read the essay: [Burkina Faso’s Insurgency: Armed Groups, State Forces, and Civilian Defence](/posts/burkina-faso-insurgency-2015-present.html).
+51. **Niger insurgencies and coups-related armed violence** — distinguish western Sahel and Lake Chad theatres and avoid treating a coup itself as a war. Read the essay: [Niger’s Insurgencies: Western Sahel and Lake Chad Theatres](/posts/niger-insurgencies-western-sahel-lake-chad.html).
+52. **Central Sahel regional insurgency** — a cross-border analytical umbrella linking Mali, Burkina Faso and Niger, not a replacement for national records. Read the essay: [The Central Sahel Insurgency: A Regional Conflict System, Not One War](/posts/central-sahel-regional-insurgency.html).
+53. **Cameroon Anglophone conflict (2017 onward)** — separatist armed groups and state forces. Read the essay: [Cameroon’s Anglophone Conflict: Separatist Groups and State Forces](/posts/cameroon-anglophone-conflict-2017-present.html).
+54. **Mozambique’s Cabo Delgado insurgency (2017 onward)** — insurgents, Mozambican forces and regional intervention. Read the essay: [Mozambique’s Cabo Delgado Insurgency: Local Grievances and Regional Intervention](/posts/mozambique-cabo-delgado-insurgency-2017-present.html).
+55. **Casamance conflict in Senegal** — MFDC factions, state forces and the long peace process. Read the essay: [The Casamance Conflict in Senegal: MFDC Factions and a Long Peace Process](/posts/casamance-conflict-senegal-mfdc.html).
+56. **Algerian Islamist insurgency and Sahel spillover** — distinguish the major 1990s civil-conflict period from violence continuing into the 2000s. Read the essay: [Algeria’s Islamist Insurgency After 2000: From Civil-War Legacy to Sahel Networks](/posts/algerian-islamist-insurgency-sahel-spillover.html).
+57. **Chad’s recurrent rebel campaigns and armed transitions** — separate named campaigns and years instead of one continuous label. Read the essay: [Chad’s Rebel Campaigns and Armed Transitions: Separate Episodes, Changing Coalitions](/posts/chad-rebel-campaigns-armed-transitions.html).
 58. **Burundi’s post-war armed groups and political violence** — include only episodes that meet the archive’s organized-violence threshold.
-59. **Rwanda–DRC regional involvement** — document as external involvement in specific Congolese theatres, not as a free-standing war unless the evidence supports it.
-60. **Sudan’s South Kordofan and Blue Nile conflicts** — separate from Darfur and the 2023 national war while documenting their links.
+59. **Rwanda–DRC regional involvement** — document as external involvement in specific Congolese theatres, not as a free-standing war unless the evidence supports it. Read the essay: [Rwanda and the DR Congo: External Involvement Across Eastern Congo’s Conflicts](/posts/rwanda-drc-regional-involvement.html).
+60. **Sudan’s South Kordofan and Blue Nile conflicts** — separate from Darfur and the 2023 national war while documenting their links. Read the essay: [Sudan’s South Kordofan and Blue Nile Conflicts: Separate Fronts, Connected Histories](/posts/sudan-south-kordofan-blue-nile-conflicts.html).
 61. **Ethiopian–Somali borderland and regional armed violence** — use discrete conflict records rather than a broad geographic label.
 62. **Other documented African non-state conflicts** — identify communal and organized-group conflicts from UCDP non-state records, then determine whether each warrants a standalone essay.
 
