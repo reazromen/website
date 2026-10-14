@@ -1,9 +1,11 @@
 ---
-title: "AI and Open Source Are Challenging Microsoft's Business Model"
-url: /posts/ai-open-source-and-microsoft-business-model-en.html
+title: AI and Open Source Are Challenging Microsoft's Business Model
+url: /posts/ai-open-source-and-microsoft-business-model-en-legacy-draft.html
 date: '2026-10-13'
 read_time: 7
-excerpt: AI, open source and self-hosting are lowering barriers to building software. The question is not whether Microsoft will disappear, but how much control users and businesses can reclaim.
+excerpt: AI, open source and self-hosting are lowering barriers to building software.
+  The question is not whether Microsoft will disappear, but how much control users
+  and businesses can reclaim.
 topic: systems-thinking
 tags:
 - linux
@@ -11,10 +13,10 @@ tags:
 - self-hosted
 - platform-engineering
 - product
-draft: false
+draft: true
 featured: false
 language: en
-eyebrow: 'Systems Thinking · Technology & Business'
+eyebrow: Systems Thinking · Technology & Business
 ---
 
 I think the growing adoption of AI and open source raises a serious question: how durable is Microsoft's current business model? That does not mean Microsoft is about to disappear. It means the economics of building software, the distribution of technical capability and the amount of control customers have over their systems are changing in ways that could challenge the advantages large software vendors have enjoyed for decades.
