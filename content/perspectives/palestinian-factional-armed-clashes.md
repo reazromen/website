@@ -7,7 +7,6 @@ excerpt: Internal Palestinian armed clashes should be recorded as discrete episo
 topic: human-world
 tags:
 - history
-- conflict
 - war
 draft: false
 featured: false
