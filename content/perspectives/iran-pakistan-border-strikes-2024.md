@@ -7,7 +7,6 @@ excerpt: The January 2024 Iran–Pakistan exchange was a brief but serious cross
 topic: human-world
 tags:
 - history
-- conflict
 - war
 draft: false
 featured: false
