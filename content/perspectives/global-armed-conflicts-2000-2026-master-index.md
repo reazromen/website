@@ -8,7 +8,6 @@ topic: human-world
 tags:
 - history
 - war
-- research
 draft: false
 featured: true
 language: en
