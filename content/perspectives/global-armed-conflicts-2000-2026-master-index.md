@@ -59,17 +59,17 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 14. **Iraq insurgency and sectarian war (2003–2011)** — insurgent factions, militias, coalition forces and state forces. [Read the essay](/posts/iraq-insurgency-sectarian-war-2003-2011.html).
 15. **Iraq and the Islamic State (2013 onward)** — ISIS territorial expansion, Iraqi and Kurdish forces, and the campaign to retake territory. [Read the essay](/posts/iraq-islamic-state-conflict-2013-present.html).
 16. **Syrian civil war (2011 onward)** — government forces, opposition groups, foreign intervention and changing territorial control. [Read the essay](/posts/syrian-civil-war-2011-onward.html).
-17. **Syrian Kurdish conflict and the campaign against ISIS** — YPG/SDF, Turkey, Syrian actors and coalition operations; map overlap with the Syrian war.
-18. **Turkey–PKK conflict (2000 onward)** — renewed fighting, cross-border operations and the changing status of negotiations.
-19. **Yemen civil war (2014 onward)** — Houthi movement, internationally recognized government, southern actors and external support.
-20. **Saudi-led intervention in Yemen (2015 onward)** — a distinct external-intervention layer within the broader Yemen conflict.
+17. **Syrian Kurdish conflict and the campaign against ISIS** — YPG/SDF, Turkey, Syrian actors and coalition operations; map overlap with the Syrian war. [Read the essay](/posts/syrian-kurdish-conflict-isis-campaign.html).
+18. **Turkey–PKK conflict (2000 onward)** — renewed fighting, cross-border operations and the changing status of negotiations. [Read the essay](/posts/turkey-pkk-conflict-2000-present.html).
+19. **Yemen civil war (2014 onward)** — Houthi movement, internationally recognized government, southern actors and external support. [Read the essay](/posts/yemen-civil-war-2014-present.html).
+20. **Saudi-led intervention in Yemen (2015 onward)** — a distinct external-intervention layer within the broader Yemen conflict. [Read the essay](/posts/saudi-led-intervention-yemen-2015-present.html).
 21. **Red Sea and Houthi regional attacks (2023 onward)** — record as a related theatre, not automatically as an independent war.
-22. **Israel–Hezbollah conflict and border fighting (2000 onward)** — include the 2006 war and later escalation as dated phases.
-23. **Israel–Hamas war in Gaza (2006 onward; major war from 2023)** — separate recurring rounds from the 2023-onward war and its wider regional effects.
-24. **Israeli–Palestinian armed conflict outside Gaza** — West Bank, Gaza and other theatres, with careful event-level dating.
-25. **Israel–Iran direct and indirect confrontation** — distinguish direct interstate exchanges from proxy theatres in Lebanon, Syria, Iraq and elsewhere.
-26. **Lebanon’s internal armed clashes and spillover** — include only episodes meeting organized-violence criteria; avoid treating every political crisis as a war.
-27. **Iranian Kurdish insurgencies and Iran–PJAK fighting** — actor-specific and time-bounded.
+22. **Israel–Hezbollah conflict and border fighting (2000 onward)** — include the 2006 war and later escalation as dated phases. [Read the essay](/posts/israel-hezbollah-conflict-2000-present.html).
+23. **Israel–Hamas war in Gaza (2006 onward; major war from 2023)** — separate recurring rounds from the 2023-onward war and its wider regional effects. [Read the essay](/posts/israel-hamas-gaza-war-2023-present.html).
+24. **Israeli–Palestinian armed conflict outside Gaza** — West Bank, Gaza and other theatres, with careful event-level dating. [Read the essay](/posts/israeli-palestinian-conflict-west-bank-beyond-gaza.html).
+25. **Israel–Iran direct and indirect confrontation** — distinguish direct interstate exchanges from proxy theatres in Lebanon, Syria, Iraq and elsewhere. [Read the essay](/posts/israel-iran-direct-indirect-confrontation.html).
+26. **Lebanon’s internal armed clashes and spillover** — include only episodes meeting organized-violence criteria; avoid treating every political crisis as a war. [Read the essay](/posts/lebanon-internal-armed-clashes-spillover.html).
+27. **Iranian Kurdish insurgencies and Iran–PJAK fighting** — actor-specific and time-bounded. [Read the essay](/posts/iranian-kurdish-insurgencies-pjak.html).
 28. **Iran–Pakistan border strikes and armed incidents** — short interstate episode, not a continuous war.
 29. **Libyan civil wars and rival-government conflict (2011 onward)** — distinguish the 2011 uprising, 2014–2020 wars and later localized fighting.
 30. **Sinai insurgency (2011 onward)** — Egyptian state forces and jihadist armed groups.
