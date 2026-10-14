@@ -7,8 +7,7 @@ excerpt: Borderland disputes between Sudan and South Sudan involve sovereignty, 
 topic: human-world
 tags:
 - history
-- conflict
-- africa
+- war
 draft: false
 featured: false
 language: en
