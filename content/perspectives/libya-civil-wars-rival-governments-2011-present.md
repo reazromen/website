@@ -7,7 +7,6 @@ excerpt: Libya’s post-2011 violence consists of distinct wars, militia struggl
 topic: human-world
 tags:
 - history
-- conflict
 - war
 draft: false
 featured: false
