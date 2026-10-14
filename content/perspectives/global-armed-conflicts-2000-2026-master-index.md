@@ -85,16 +85,16 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 37. **Sudan–South Sudan border and oil-region clashes** — separate interstate and local episodes where supported by evidence. [Read the essay](/posts/sudan-south-sudan-border-clashes.html).
 38. **Democratic Republic of the Congo: Kivu conflicts** — state forces, M23 and other armed groups; maintain actor and period distinctions. [Read the essay](/posts/dr-congo-kivu-conflicts.html).
 39. **M23 insurgency and Rwanda–DRC regional escalation** — a related but separately tracked phase of the eastern DRC conflict. [Read the essay](/posts/m23-insurgency-rwanda-drc-escalation.html).
-40. **Lord’s Resistance Army (LRA) conflict** — Uganda and cross-border theatres in Central Africa.
-41. **Central African Republic civil war (2012 onward)** — Séléka, anti-balaka, state and external forces.
-42. **Somalia conflict and al-Shabaab insurgency (2000 onward)** — federal and regional forces, al-Shabaab and international operations.
-43. **Ethiopia–Eritrea border war and post-war tensions** — the 1998–2000 war falls mostly outside the window, but 2000 fighting and later border incidents require careful dating.
-44. **Ogaden insurgency in Ethiopia** — ONLF and state forces, with the peace agreement and aftermath.
-45. **Tigray war (2020–2022)** — federal forces, Tigrayan forces, Eritrean involvement and civilian harm.
-46. **Amhara armed conflict in Ethiopia** — Fano and federal forces, with region- and date-specific reporting.
-47. **Oromia conflict in Ethiopia** — OLA and federal/regional forces; distinguish from the Tigray and Amhara wars.
-48. **Boko Haram insurgency and Lake Chad Basin conflict (2009 onward)** — Nigeria, ISWAP, Cameroon, Chad and Niger.
-49. **Mali conflict (2012 onward)** — Tuareg rebellion, jihadist groups, state forces, foreign missions and local armed actors.
+40. **Lord’s Resistance Army (LRA) conflict** — Uganda and cross-border theatres in Central Africa. [Read the essay](/posts/lord-resistance-army-conflict-central-africa.html).
+41. **Central African Republic civil war (2012 onward)** — Séléka, anti-balaka, state and external forces. [Read the essay](/posts/central-african-republic-civil-war-2012-present.html).
+42. **Somalia conflict and al-Shabaab insurgency (2000 onward)** — federal and regional forces, al-Shabaab and international operations. [Read the essay](/posts/somalia-conflict-al-shabaab-2000-present.html).
+43. **Ethiopia–Eritrea border war and post-war tensions** — the 1998–2000 war falls mostly outside the window, but 2000 fighting and later border incidents require careful dating. [Read the essay](/posts/ethiopia-eritrea-border-war-and-tensions.html).
+44. **Ogaden insurgency in Ethiopia** — ONLF and state forces, with the peace agreement and aftermath. [Read the essay](/posts/ogaden-insurgency-ethiopia-onlf.html).
+45. **Tigray war (2020–2022)** — federal forces, Tigrayan forces, Eritrean involvement and civilian harm. [Read the essay](/posts/tigray-war-ethiopia-2020-2022.html).
+46. **Amhara armed conflict in Ethiopia** — Fano and federal forces, with region- and date-specific reporting. [Read the essay](/posts/amhara-fano-armed-conflict-ethiopia.html).
+47. **Oromia conflict in Ethiopia** — OLA and federal/regional forces; distinguish from the Tigray and Amhara wars. [Read the essay](/posts/oromia-ola-insurgency-ethiopia.html).
+48. **Boko Haram insurgency and Lake Chad Basin conflict (2009 onward)** — Nigeria, ISWAP, Cameroon, Chad and Niger. [Read the essay](/posts/boko-haram-lake-chad-basin-conflict.html).
+49. **Mali conflict (2012 onward)** — Tuareg rebellion, jihadist groups, state forces, foreign missions and local armed actors. [Read the essay](/posts/mali-conflict-2012-present.html).
 50. **Burkina Faso insurgency (2015 onward)** — jihadist armed groups, state forces and civilian self-defence formations.
 51. **Niger insurgencies and coups-related armed violence** — distinguish western Sahel and Lake Chad theatres and avoid treating a coup itself as a war.
 52. **Central Sahel regional insurgency** — a cross-border analytical umbrella linking Mali, Burkina Faso and Niger, not a replacement for national records.
