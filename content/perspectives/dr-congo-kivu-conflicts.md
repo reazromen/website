@@ -7,8 +7,7 @@ excerpt: Eastern DRC’s Kivu conflicts involve state forces and numerous armed 
 topic: human-world
 tags:
 - history
-- conflict
-- africa
+- war
 draft: false
 featured: false
 language: en
