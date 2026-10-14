@@ -7,8 +7,7 @@ excerpt: M23’s resurgence is a distinct phase of eastern Congo’s wider confl
 topic: human-world
 tags:
 - history
-- conflict
-- africa
+- war
 draft: false
 featured: false
 language: en
