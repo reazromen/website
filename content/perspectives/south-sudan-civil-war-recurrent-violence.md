@@ -7,8 +7,7 @@ excerpt: South Sudan’s national civil war formally de-escalated after the 2018
 topic: human-world
 tags:
 - history
-- conflict
-- africa
+- war
 draft: false
 featured: false
 language: en
