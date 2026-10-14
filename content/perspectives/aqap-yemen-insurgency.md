@@ -7,7 +7,6 @@ excerpt: AQAP’s campaign is a distinct armed-conflict layer in Yemen and shoul
 topic: human-world
 tags:
 - history
-- conflict
 - war
 draft: false
 featured: false
