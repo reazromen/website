@@ -44,21 +44,21 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 2. **War in Afghanistan (2001–2021)** — US-led intervention, international military presence, Afghan government forces, Taliban and other armed groups. **Published:** [Read the essay](/posts/war-in-afghanistan-2001-2021.html).
 3. **Iraq War and occupation (2003 onward)** — invasion, occupation, insurgency and state reconstruction. **Published:** [Read the essay](/posts/iraq-war-2003-invasion-occupation.html).
 4. **Insurgency in Pakistan (2004 onward)** — TTP and other militant groups, state operations and attacks on civilians. **Published:** [Read the essay](/posts/insurgency-in-pakistan-2004-present.html).
-5. **Kashmir insurgency and India–Pakistan armed crises** — insurgency, Line of Control clashes, and major interstate crises; distinguish separate episodes.
-6. **Naxalite–Maoist insurgency in India** — CPI (Maoist), state counterinsurgency and affected communities.
-7. **Northeast India insurgencies** — distinct Naga, Manipur, Assam and other movements; do not collapse all groups into one war.
-8. **Baloch insurgency in Pakistan** — separatist armed groups, state operations and civilian impact.
-9. **Afghanistan–Pakistan border conflict** — cross-border strikes, militant sanctuaries and state-to-state tensions; distinguish from the wider Afghan war and Pakistan insurgency.
-10. **Sri Lanka’s final civil-war phase and post-war violence (2000–2009 and aftermath)** — LTTE–state war, civilian harm and post-war accountability.
+5. **Kashmir insurgency and India–Pakistan armed crises** — insurgency, Line of Control clashes, and major interstate crises; distinguish separate episodes. [Read the essay](/posts/kashmir-insurgency-india-pakistan-armed-crises.html).
+6. **Naxalite–Maoist insurgency in India** — CPI (Maoist), state counterinsurgency and affected communities. [Read the essay](/posts/india-naxalite-maoist-insurgency.html).
+7. **Northeast India insurgencies** — distinct Naga, Manipur, Assam and other movements; do not collapse all groups into one war. [Read the regional overview](/posts/northeast-india-insurgencies-actor-specific.html).
+8. **Baloch insurgency in Pakistan** — separatist armed groups, state operations and civilian impact. [Read the essay](/posts/baloch-insurgency-pakistan.html).
+9. **Afghanistan–Pakistan border conflict** — cross-border strikes, militant sanctuaries and state-to-state tensions; distinguish from the wider Afghan war and Pakistan insurgency. [Read the essay](/posts/afghanistan-pakistan-border-conflict.html).
+10. **Sri Lanka’s final civil-war phase and post-war violence (2000–2009 and aftermath)** — LTTE–state war, civilian harm and post-war accountability. [Read the essay](/posts/sri-lanka-final-civil-war-phase-2000-2009.html).
 11. **Bangladesh’s Chittagong Hill Tracts and other organized armed violence** — assess whether each episode meets inclusion criteria rather than assume a continuous war.
-12. **Nepal’s Maoist conflict and transition (2000–2006)** — final years of the civil war and violence around the peace process.
+12. **Nepal’s Maoist conflict and transition (2000–2006)** — final years of the civil war and violence around the peace process. [Read the essay](/posts/nepal-maoist-conflict-transition-2000-2006.html).
 13. **Insurgent and cross-border violence in India’s eastern borderlands** — include only documented organized armed campaigns and keep actor-specific records.
 
 ## Middle East and North Africa
 
-14. **Iraq insurgency and sectarian war (2003–2011)** — insurgent factions, militias, coalition forces and state forces.
-15. **Iraq and the Islamic State (2013 onward)** — ISIS territorial expansion, Iraqi and Kurdish forces, and the campaign to retake territory.
-16. **Syrian civil war (2011 onward)** — government forces, opposition groups, foreign intervention and changing territorial control.
+14. **Iraq insurgency and sectarian war (2003–2011)** — insurgent factions, militias, coalition forces and state forces. [Read the essay](/posts/iraq-insurgency-sectarian-war-2003-2011.html).
+15. **Iraq and the Islamic State (2013 onward)** — ISIS territorial expansion, Iraqi and Kurdish forces, and the campaign to retake territory. [Read the essay](/posts/iraq-islamic-state-conflict-2013-present.html).
+16. **Syrian civil war (2011 onward)** — government forces, opposition groups, foreign intervention and changing territorial control. [Read the essay](/posts/syrian-civil-war-2011-onward.html).
 17. **Syrian Kurdish conflict and the campaign against ISIS** — YPG/SDF, Turkey, Syrian actors and coalition operations; map overlap with the Syrian war.
 18. **Turkey–PKK conflict (2000 onward)** — renewed fighting, cross-border operations and the changing status of negotiations.
 19. **Yemen civil war (2014 onward)** — Houthi movement, internationally recognized government, southern actors and external support.
