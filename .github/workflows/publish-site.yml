@@ -12,7 +12,8 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  # Cancel stale queued/running deployments so a hung build cannot block publication.
+  cancel-in-progress: true
 
 jobs:
   build:
