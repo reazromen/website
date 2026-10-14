@@ -3,7 +3,7 @@ title: 'Algeria’s Islamist Insurgency After 2000: From Civil-War Legacy to Sah
 url: /posts/algerian-islamist-insurgency-sahel-spillover.html
 date: '2026-10-15'
 read_time: 6
-excerpt: Algeria’s 1990s civil war largely predates this archive, but armed Islamist campaigns and transnational networks continued into the 2000s.
+excerpt: 'Algeria’s 1990s civil war largely predates this archive, but armed Islamist campaigns and transnational networks continued into the 2000s.'
 topic: human-world
 tags:
 - history

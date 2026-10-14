@@ -3,7 +3,7 @@ title: 'Niger’s Insurgencies: Western Sahel and Lake Chad Theatres'
 url: /posts/niger-insurgencies-western-sahel-lake-chad.html
 date: '2026-10-15'
 read_time: 6
-excerpt: Niger faces distinct but connected insurgency theatres: jihadist violence in the west and the Lake Chad Basin conflict in the southeast.
+excerpt: 'Niger faces distinct but connected insurgency theatres: jihadist violence in the west and the Lake Chad Basin conflict in the southeast.'
 topic: human-world
 tags:
 - history

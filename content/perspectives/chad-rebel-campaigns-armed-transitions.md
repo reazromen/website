@@ -3,7 +3,7 @@ title: 'Chad’s Rebel Campaigns and Armed Transitions: Separate Episodes, Chang
 url: /posts/chad-rebel-campaigns-armed-transitions.html
 date: '2026-10-15'
 read_time: 6
-excerpt: Chad’s post-2000 armed history includes successive rebel coalitions, cross-border dynamics and political transitions that should not be collapsed into one continuous war.
+excerpt: 'Chad’s post-2000 armed history includes successive rebel coalitions, cross-border dynamics and political transitions that should not be collapsed into one continuous war.'
 topic: human-world
 tags:
 - history
