@@ -52,5 +52,3 @@ The 2026 picture must be treated cautiously until provisional event records are 
 - International Crisis Group, analysis of the peace process and armed groups in Mindanao.
 - UN and humanitarian reporting on displacement and protection in Mindanao.
 - Uppsala Conflict Data Program, annual conflict datasets and codebooks.
-
-Archive note: Moro autonomy, extremist violence, Marawi and local clan conflict are linked contexts, not one interchangeable category.

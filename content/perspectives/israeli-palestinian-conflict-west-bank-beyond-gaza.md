@@ -40,5 +40,3 @@ This entry focuses on organized armed violence and related lethal incidents outs
 - [UN Human Rights Office](https://www.ohchr.org/)
 - [International Committee of the Red Cross](https://www.icrc.org/)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: Event-level attribution matters. Current casualty and displacement figures should be refreshed from dated reporting.*

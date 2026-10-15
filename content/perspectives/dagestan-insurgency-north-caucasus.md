@@ -62,5 +62,3 @@ The final dataset audit should compare state-based conflict and event records wi
 - International Crisis Group, [Dagestan’s Abandoned Counter-insurgency Experiment](https://www.ecoi.net/en/document/1440701.html).
 - International Crisis Group, [The North Caucasus: The Challenges of Integration (II)](https://www.ecoi.net/en/document/1039935.html).
 - International Crisis Group, [The North Caucasus Insurgency and Syria: An Exported Jihad?](https://fln.dk/media/5bzh2epj/rusl412.pdf).
-
-Archive note: This article distinguishes Dagestan’s local conflict dynamics from the wider North Caucasus insurgency and does not equate religious identity with armed-group membership.

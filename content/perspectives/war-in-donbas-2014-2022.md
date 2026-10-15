@@ -64,5 +64,3 @@ The UN’s human-rights reporting and the OSCE’s monitoring record are useful 
 - OSCE, [Package of Measures for the Implementation of the Minsk Agreements](https://www.osce.org/cio/140156).
 - UN Security Council, [Resolution 2202 (2015) and the Minsk package](https://press.un.org/en/2015/sc11785.doc.htm).
 - OHCHR, [Ukraine civilian casualties as of 31 December 2021](https://ukraine.un.org/sites/default/files/2022-02/Conflict-related%20civilian%20casualties%20as%20of%2031%20December%202021%20%28rev%2027%20January%202022%29%20corr%20EN_0.pdf?shem=ssusxt).
-
-Archive note: The Donbas phase ends as a distinct operational period with the full-scale invasion in February 2022; it remains historically and politically connected to the wider Russo-Ukrainian war.

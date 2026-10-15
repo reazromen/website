@@ -50,5 +50,3 @@ Historical dataset coverage through 2025 should be reconciled with source-specif
 * Mexico’s National Search Commission and official missing-person resources.
 * International Crisis Group reporting on criminal governance and regional violence in Mexico.
 * Uppsala Conflict Data Program datasets, definitions and codebooks.
-
-Archive note: the “drug war” is a broad public label; each event must be classified by actor, relationship and evidence rather than assumed to be a single uniform war.

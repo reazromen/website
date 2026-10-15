@@ -40,5 +40,3 @@ International law on sovereignty and the use of force is central to assessing th
 * Iranian official statements, January 2024, treated as party claims
 * Reuters reporting on the strikes and diplomatic de-escalation
 * Uppsala Conflict Data Program for formal conflict classification
-
-Archive note: Keep the two strikes, reported civilian harm and diplomatic response as separately dated events. Do not treat official target claims as independently confirmed.

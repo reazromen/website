@@ -42,5 +42,3 @@ This entry provides the regional frame for the Kivu conflicts. It should be link
 * UN Group of Experts on the DRC
 * International Committee of the Red Cross
 * Uppsala Conflict Data Program and ACLED
-
-Archive note: Avoid implying that every armed incident in eastern Congo is attributable to M23 or to a single foreign state. Actor and event attribution must remain specific.

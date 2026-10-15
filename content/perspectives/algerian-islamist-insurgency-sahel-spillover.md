@@ -31,5 +31,3 @@ AQIM and splinter organizations became involved in hostage-taking and insurgent 
 ## Classification and sources
 
 This scope-sensitive entry covers documented post-2000 armed activity linked to Algeria’s Islamist insurgency and transnational evolution, while treating the 1990s war as context. Sources include UN Security Council monitoring reports, International Crisis Group, UCDP and ACLED.
-
-Archive note: Distinguish the historical civil war, later domestic attacks and cross-border operations.

@@ -40,5 +40,3 @@ This entry treats the Lake Chad Basin insurgency as a regional theatre with sepa
 * UN Security Council monitoring reports on Boko Haram and ISWAP
 * Multinational Joint Task Force statements, treated as party accounts
 * Uppsala Conflict Data Program and ACLED
-
-Archive note: Keep Boko Haram and ISWAP distinct when evidence supports it, and date all claims about territorial control and operational strength.

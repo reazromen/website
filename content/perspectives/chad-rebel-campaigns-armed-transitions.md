@@ -31,5 +31,3 @@ Déby’s death in 2021 during fighting with FACT led to a military transition. 
 ## Classification and sources
 
 Civilians have faced displacement, disrupted services and risks from clashes and counterinsurgency. Sources include UN Security Council and humanitarian reporting, International Crisis Group, UCDP and ACLED.
-
-Archive note: Keep named rebel campaigns distinct and cross-reference Darfur and Lake Chad without double-counting incidents.

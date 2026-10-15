@@ -46,5 +46,3 @@ Casualty totals must identify whether they count combat deaths, civilians killed
 * UN Verification Mission and other UN reporting relevant to peace negotiations and civilian protection.
 * International Crisis Group analysis of ELN negotiations and territorial dynamics.
 * Uppsala Conflict Data Program datasets and codebooks.
-
-Archive note: the ELN is a distinct armed actor, linked to the national conflict but not interchangeable with FARC dissidents or other regional groups.

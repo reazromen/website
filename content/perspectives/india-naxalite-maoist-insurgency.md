@@ -44,5 +44,3 @@ This page covers the CPI (Maoist)-centred insurgency from the early 2000s onward
 - [South Asia Terrorism Portal — Left-wing extremism](https://www.satp.org/)
 - [Human Rights Watch — India](https://www.hrw.org/asia/india)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: Official security data and civil-society reporting often use different definitions. This summary avoids treating state-reported incident totals as a complete measure of civilian harm or political support.*

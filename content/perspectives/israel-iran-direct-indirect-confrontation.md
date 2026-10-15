@@ -44,5 +44,3 @@ This page is a cross-theatre index for direct Israel–Iran exchanges and docume
 - [International Atomic Energy Agency](https://www.iaea.org/)
 - [International Crisis Group](https://www.crisisgroup.org/)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: Distinguish confirmed strikes from claims of responsibility and separate direct state attacks from partner-group operations. Current status requires dated verification.*

@@ -42,5 +42,3 @@ This entry treats the post-2012 crisis as a sequence of related phases, not one 
 * UN Panel of Experts on the Central African Republic
 * UN Office for the Coordination of Humanitarian Affairs
 * Uppsala Conflict Data Program and ACLED
-
-Archive note: Use date-specific sources for territorial control, external support and casualty claims.

@@ -48,5 +48,3 @@ Casualty claims should include a date range and definition. Displacement, threat
 * Colombia’s official peace-agreement implementation and monitoring institutions.
 * International Crisis Group reporting on dissident groups and regional armed dynamics.
 * Uppsala Conflict Data Program datasets and actor documentation.
-
-Archive note: “FARC dissidents” is a research umbrella, not proof of one unified command or one continuous organization.

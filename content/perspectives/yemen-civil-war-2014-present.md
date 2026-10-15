@@ -48,5 +48,3 @@ This page covers Yemen’s state-based and multi-actor civil war from 2014 onwar
 - [UN Office for the Coordination of Humanitarian Affairs — Yemen](https://www.unocha.org/yemen)
 - [UN Panel of Experts on Yemen](https://main.un.org/securitycouncil/en/sanctions/2140/panel-of-experts/work-and-mandate)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: The military and political situation can change quickly. Current control and negotiation claims require dated verification.*

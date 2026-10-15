@@ -44,5 +44,3 @@ This entry covers the war beginning 7 October 2023 and its subsequent phases. Ea
 - [UNRWA](https://www.unrwa.org/)
 - [International Committee of the Red Cross](https://www.icrc.org/)
 - [UN Independent International Commission of Inquiry](https://www.ohchr.org/en/hr-bodies/hrc/co-israel)
-
-*Archive note: Use dated, attributed sources for casualty totals, access conditions, ceasefires and legal developments. Do not conflate civilian populations with armed organizations.*

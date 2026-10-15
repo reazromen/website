@@ -48,5 +48,3 @@ Kachin is a regional actor-and-theatre record linked to the nationwide Myanmar c
 - UN Office for the Coordination of Humanitarian Affairs, Myanmar humanitarian updates.
 - UNHCR, Myanmar displacement and protection data.
 - Uppsala Conflict Data Program, annual conflict datasets and codebooks.
-
-Archive note: Kachin is a distinct regional conflict connected to, but not interchangeable with, Myanmar’s nationwide war. Dataset reconciliation remains pending.

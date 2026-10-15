@@ -50,5 +50,3 @@ UCDP’s annual datasets provide a framework for organized conflict and violence
 - UN and humanitarian agency reporting on Marawi displacement and recovery.
 - Human Rights Watch, reporting on civilian protection and accountability.
 - Uppsala Conflict Data Program, conflict datasets and codebooks.
-
-Archive note: Marawi is a discrete 2017 urban battle linked to, but not identical with, the wider Moro conflict.

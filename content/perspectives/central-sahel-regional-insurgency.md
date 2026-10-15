@@ -31,5 +31,3 @@ Communities face raids, attacks on transport and security posts, forced recruitm
 ## Archive classification
 
 This page is an analytical cross-index connecting national records, not a fourth war to be added to national totals. Event data should retain country, location, date, actor and source. Sources include UN Sahel reporting, UN human-rights investigations, International Crisis Group, UCDP and ACLED.
-
-Archive note: Regional synthesis must not double-count incidents or erase differences among national theatres.

@@ -31,5 +31,3 @@ The conflict has displaced residents and disrupted education, health care, farmi
 ## Classification and sources
 
 This entry tracks Cabo Delgado and its cross-border intervention links, distinct from Mozambique’s older RENAMO conflict and other Islamic State theatres. Sources include UN humanitarian reporting, UN Security Council reports, International Crisis Group, UCDP and ACLED.
-
-Archive note: Distinguish the local armed organization from similarly named groups elsewhere and keep external deployments time-bounded.

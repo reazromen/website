@@ -40,5 +40,3 @@ Civilians have faced attacks, displacement, restrictions on movement, disrupted 
 * UN Office of the High Commissioner for Human Rights
 * International Crisis Group
 * Uppsala Conflict Data Program and ACLED
-
-Archive note: Separate northern rebellion, jihadist campaigns, local communal violence and international interventions into linked but distinct records.

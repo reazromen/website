@@ -40,5 +40,3 @@ This entry follows organized fighting between Fano-linked forces and federal or 
 * Ethiopian Human Rights Commission
 * International Crisis Group
 * Uppsala Conflict Data Program and ACLED
-
-Archive note: Attribute allegations carefully, identify the specific faction where known, and date claims about territorial control.

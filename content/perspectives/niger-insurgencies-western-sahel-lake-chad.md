@@ -31,5 +31,3 @@ Niger’s 2023 coup changed foreign security relationships, but political transi
 ## Classification and sources
 
 This national overview links western Sahel violence and the Lake Chad insurgency while cross-referencing Burkina Faso, Mali and the regional Boko Haram record. Sources include UN humanitarian reporting, UN Security Council reports, International Crisis Group, UCDP and ACLED.
-
-Archive note: Keep national incidents, cross-border campaigns and political transitions distinct.

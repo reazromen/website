@@ -42,5 +42,3 @@ A full audit should compare the UCDP/PRIO Armed Conflict Dataset and Dyadic Data
 - [UCDP Dataset Download Center](https://ucdp.uu.se/downloads/) — yearly and event datasets, codebooks and version histories.
 - [UCDP API documentation](https://ucdp.uu.se/apidocs/index.html) — dataset resources, variable definitions and access requirements.
 - [International Crisis Group: Burundi](https://www.crisisgroup.org/africa/central-africa/burundi) — analysis of political and security developments.
-
-Archive note: Keep the 1993–2000 civil-war history as context; separate the 2015 political crisis from the later armed opposition conflict; attribute disputed allegations; and do not infer the absence of all political violence from a conflict dataset’s inactive classification.

@@ -74,5 +74,3 @@ The 2026 section must remain explicitly time-bounded and provisional until final
 - United Nations in Ukraine, [UN report on summary executions and attacks on civilians in northern Ukraine](https://ukraine.un.org/en/210464-un-report-details-summary-executions-and-attacks-individual-civilians-russian-troops).
 - European Court of Human Rights, [Ukraine and the Netherlands v. Russia](https://hudoc.echr.coe.int/eng?i=002-14493).
 - OHCHR, [four years since the full-scale invasion: key facts and findings, February 2026](https://ukraine.un.org/en/download/202544/310529).
-
-Archive note: This essay describes the full-scale phase beginning in February 2022. Casualty figures, battlefield control and allegations of violations must be tied to dates and evidence, not treated as static facts.

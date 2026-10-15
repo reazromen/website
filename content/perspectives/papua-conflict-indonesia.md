@@ -52,5 +52,3 @@ The archive should compare the actors and years in each source, note where event
 - Human Rights Watch, reporting on human rights in Papua.
 - UN human-rights mechanisms and humanitarian reporting relevant to Papua.
 - Uppsala Conflict Data Program, annual conflict datasets and codebooks.
-
-Archive note: Papua’s political dispute, armed separatist incidents and wider human-rights concerns are connected but should not be treated as identical evidence categories.

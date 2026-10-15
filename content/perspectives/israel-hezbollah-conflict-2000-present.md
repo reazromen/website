@@ -42,5 +42,3 @@ This article covers Israel–Hezbollah armed confrontation from 2000 onward, wit
 - [UN Security Council Resolution 1701](https://undocs.org/S/RES/1701(2006))
 - [UN Office for the Coordination of Humanitarian Affairs — Lebanon](https://www.unocha.org/lebanon)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: Current ceasefire status and casualty totals are time-sensitive and require dated confirmation.*

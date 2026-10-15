@@ -50,5 +50,3 @@ This page covers the state-to-state border theatre and its links to militant act
 - [UN Assistance Mission in Afghanistan](https://unama.unmissions.org/)
 - [Associated Press reporting on Afghanistan–Pakistan tensions](https://apnews.com/)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: Claims by either government about militant sanctuaries, targets and responsibility are attributed positions unless independently corroborated. The 2026 situation is provisional and should be updated against dated reporting.*

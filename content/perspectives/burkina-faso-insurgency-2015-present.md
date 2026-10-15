@@ -33,5 +33,3 @@ Military coups in 2022 changed the political leadership and security partnership
 ## Classification and sources
 
 This entry tracks organized fighting involving state forces and insurgent organizations. It links to Mali and Niger but should not double-count their incidents. Sources for verification include UN humanitarian and human-rights reporting, International Crisis Group, UCDP and ACLED.
-
-Archive note: Do not attribute every violent incident to jihadist groups or equate civilian auxiliaries with regular state forces without evidence.

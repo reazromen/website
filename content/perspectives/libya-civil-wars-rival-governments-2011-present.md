@@ -42,5 +42,3 @@ This entry links the 2011 uprising, the 2014–2020 civil-war phases and subsequ
 * UN Panel of Experts on Libya
 * International Criminal Court documentation where applicable
 * Uppsala Conflict Data Program and ACLED, with their definitions kept distinct
-
-Archive note: Attribute allegations carefully and separate documented events from the claims of rival authorities.

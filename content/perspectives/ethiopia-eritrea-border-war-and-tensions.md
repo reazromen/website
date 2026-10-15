@@ -39,5 +39,3 @@ The archive records the 2000 end of the interstate war and any later, independen
 * Algiers Agreement, December 2000
 * International Crisis Group reporting on Ethiopia–Eritrea relations
 * Uppsala Conflict Data Program for event and conflict classification
-
-Archive note: This is a scope-sensitive entry. Verify whether each post-2000 incident meets the archive’s armed-conflict inclusion criteria before assigning it a continuous conflict label.

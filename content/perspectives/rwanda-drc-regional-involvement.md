@@ -29,5 +29,3 @@ M23’s emergence and renewed offensives have brought Rwanda–DRC relations int
 Civilians in eastern Congo have faced killings, forced displacement, sexual violence, recruitment and loss of access to land and services. Regional rivalry can intensify local conflict, but armed actors also have their own political and economic interests. They should not be portrayed simply as proxies without evidence.
 
 This page links the Rwanda–DRC relationship to the Kivu conflicts and M23 escalation. It should not be counted as an independent war unless a distinct interstate armed-conflict classification is supported. Sources include UN Group of Experts reports on the DRC, UN peacekeeping reporting, regional diplomatic documents, International Crisis Group, UCDP and ACLED.
-
-Archive note: Separate verified findings, allegations by parties and unresolved claims, with the relevant period explicit.

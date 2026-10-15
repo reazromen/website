@@ -42,5 +42,3 @@ This page covers armed confrontation between Iranian state forces and PJAK, plus
 - [UN Human Rights Office — Iran](https://www.ohchr.org/)
 - [Amnesty International — Iran](https://www.amnesty.org/en/location/middle-east-and-north-africa/iran/)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: Group affiliations, casualty figures and current operational status require dated verification; distinguish attributed claims from independently confirmed events.*

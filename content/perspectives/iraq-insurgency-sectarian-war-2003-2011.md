@@ -48,5 +48,3 @@ This page covers the insurgency and sectarian-war phase from 2003 through 2011. 
 - [UN Assistance Mission for Iraq](https://unami.unmissions.org/)
 - [Costs of War Project, Brown University](https://watson.brown.edu/costsofwar/)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: Casualty estimates should be read with their definitions and methods. Responsibility for individual incidents requires incident-specific evidence rather than assumptions based on a group’s general affiliation.*

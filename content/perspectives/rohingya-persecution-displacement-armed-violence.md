@@ -68,5 +68,3 @@ UCDP state-based and non-state conflict datasets help identify organized armed f
 - UN Independent Investigative Mechanism for Myanmar, [mandate and work](https://iimm.un.org/).
 - International Court of Justice, [The Gambia v. Myanmar](https://www.icj-cij.org/case/178).
 - International Criminal Court, [Bangladesh/Myanmar situation](https://www.icc-cpi.int/bangladesh-myanmar).
-
-Archive note: This entry treats persecution, forced displacement, refugee protection and armed conflict as connected but distinct categories. Figures are dated and legal claims are described within the scope of the relevant institution.

@@ -42,5 +42,3 @@ This entry tracks documented interstate clashes and border incidents where organ
 * UN Mission in South Sudan (UNMISS)
 * UN Security Council reporting on Sudan and South Sudan
 * Uppsala Conflict Data Program
-
-Archive note: Record the date, location, units or groups involved, and source for each event. Keep diplomatic tension distinct from armed clashes.

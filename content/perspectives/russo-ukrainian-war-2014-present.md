@@ -74,5 +74,3 @@ The archive’s dataset audit remains a separate task. UCDP state-based conflict
 - European Court of Human Rights, [Ukraine and the Netherlands v. Russia](https://hudoc.echr.coe.int/eng?i=002-14493).
 - UN General Assembly, [Resolution 68/262 on Ukraine’s territorial integrity](https://undocs.org/A/RES/68/262).
 - OHCHR, [Ukraine civilian casualty and human-rights reporting](https://www.ohchr.org/en/countries/ukraine).
-
-Archive note: This article provides the umbrella chronology. It does not treat Crimea, Donbas, the 2022 invasion, and international assistance as interchangeable or independent conflicts. Casualty counts and territorial control require explicit dates and source definitions.

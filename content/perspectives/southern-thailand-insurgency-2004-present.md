@@ -54,5 +54,3 @@ The southern Thailand insurgency is a distinct subnational conflict record. A da
 - Human Rights Watch, reporting on security-force conduct and accountability in the southern border provinces.
 - Deep South Watch, incident monitoring and conflict analysis.
 - Uppsala Conflict Data Program, annual conflict datasets and codebooks.
-
-Archive note: This article separates the southern insurgency from wider Thai political violence and treats incident attribution and casualty totals as source-dependent questions.

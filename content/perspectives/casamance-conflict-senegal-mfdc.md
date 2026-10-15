@@ -31,5 +31,3 @@ Senegalese authorities have pursued military operations and several rounds of di
 ## Classification and sources
 
 This entry focuses on the post-2000 phase while explaining the older origins. It distinguishes active clashes from crime, land disputes and peaceful political advocacy. Sources for verification include regional peace-process documentation, humanitarian reporting, International Crisis Group, UCDP and ACLED.
-
-Archive note: Use dated sources before describing a faction as active, disarmed or part of a final settlement.

@@ -48,5 +48,3 @@ The Syrian war includes state-based fighting, non-state armed conflicts, foreign
 - [UN Office for the Coordination of Humanitarian Affairs — Syria](https://www.unocha.org/syria)
 - [UNHCR — Syria emergency](https://www.unhcr.org/emergencies/syria-emergency)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: Syria’s post-2024 transition is ongoing and must be updated from dated reporting. This page is a historical overview, not a real-time assessment of territorial control or security conditions.*

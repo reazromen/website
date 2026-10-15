@@ -33,5 +33,3 @@ The conflict is distinct from Boko Haram/ISWAP violence in Cameroon’s Far Nort
 ## Classification and sources
 
 This entry follows organized fighting in the Anglophone regions, distinguishing it from earlier protest, peaceful advocacy and unrelated criminal incidents. Sources include UN human-rights and humanitarian reporting, International Crisis Group, UCDP and ACLED.
-
-Archive note: Do not treat Anglophone civilians as synonymous with separatist armed groups.

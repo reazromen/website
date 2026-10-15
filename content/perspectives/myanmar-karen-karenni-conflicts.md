@@ -50,5 +50,3 @@ This entry groups Karen and Karenni theatres for regional navigation, not becaus
 - UN Office for the Coordination of Humanitarian Affairs, Myanmar humanitarian updates.
 - UNHCR, displacement and protection reporting for Myanmar and neighbouring countries.
 - Uppsala Conflict Data Program, dataset downloads and codebooks.
-
-Archive note: Karen and Karenni are distinct theatres with overlapping timelines. This overview is not a claim that they form one unified armed conflict.

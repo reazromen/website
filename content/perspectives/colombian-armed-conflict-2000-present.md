@@ -48,5 +48,3 @@ For 2026, reports should remain provisional until event records, actor attributi
 * UN Verification Mission in Colombia reports.
 * International Crisis Group analysis of armed groups and peace implementation.
 * Uppsala Conflict Data Program datasets and codebooks.
-
-Archive note: this article is the umbrella chronology; the FARC dissident and ELN entries are separate linked records to reduce double-counting.

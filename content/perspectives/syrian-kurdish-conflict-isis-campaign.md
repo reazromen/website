@@ -42,5 +42,3 @@ This page covers the Kurdish-led Syrian forces, Turkey’s operations against th
 - [UN Office for the Coordination of Humanitarian Affairs — Syria](https://www.unocha.org/syria)
 - [UN Security Council](https://main.un.org/securitycouncil/)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: Actor labels and territorial claims must be dated. This overview distinguishes the anti-ISIS campaign from Turkey’s operations and from the wider Syrian civil war.*

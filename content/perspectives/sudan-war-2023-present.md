@@ -43,5 +43,3 @@ International humanitarian law requires parties to distinguish civilians from co
 * UN Panel of Experts on Sudan
 * International Committee of the Red Cross
 * Uppsala Conflict Data Program, with provisional event data clearly labelled
-
-Archive note: Use dated reporting for territorial control, casualty totals and famine conditions. Do not confuse an announced ceasefire with an implemented nationwide cessation of hostilities.

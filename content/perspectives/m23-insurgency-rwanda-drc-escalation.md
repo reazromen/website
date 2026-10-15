@@ -42,5 +42,3 @@ This entry tracks M23’s insurgency and regional escalation as a specific phase
 * UN Security Council and MONUSCO reporting
 * International Crisis Group
 * Uppsala Conflict Data Program and ACLED
-
-Archive note: Date every territorial claim and distinguish documented findings from accusations by the parties.

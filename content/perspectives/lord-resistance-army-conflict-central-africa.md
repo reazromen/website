@@ -40,5 +40,3 @@ This entry follows the LRA as an organized armed group across several countries 
 * UN Security Council reporting on the LRA
 * International Criminal Court proceedings concerning Joseph Kony and LRA commanders
 * Uppsala Conflict Data Program and ACLED, with their event definitions kept distinct
-
-Archive note: Distinguish documented attacks and abductions from unverified claims about current leadership or territorial presence.

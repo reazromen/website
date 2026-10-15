@@ -42,5 +42,3 @@ This entry tracks AQAP’s organized armed campaign as a distinct layer linked t
 * UN Panel of Experts on Yemen
 * International Crisis Group
 * Uppsala Conflict Data Program and ACLED
-
-Archive note: Current activity, leadership claims and casualty totals require dated verification. Separate independently established facts from claims by governments and armed groups.

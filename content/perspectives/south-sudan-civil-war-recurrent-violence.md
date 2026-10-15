@@ -44,5 +44,3 @@ This entry covers the 2013–2018 national civil war and recurrent post-agreemen
 * UN Commission on Human Rights in South Sudan
 * OCHA and the International Committee of the Red Cross
 * Uppsala Conflict Data Program
-
-Archive note: Separate verified armed-conflict events from broader insecurity and keep dates and actor labels explicit.

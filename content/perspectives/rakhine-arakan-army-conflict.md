@@ -55,5 +55,3 @@ UCDP annual datasets through 2025 provide one structured reference for organized
 - OHCHR, reporting on human-rights conditions affecting Rohingya and other minorities.
 - International Crisis Group, analysis of Rakhine and the Arakan Army.
 - Uppsala Conflict Data Program, annual datasets and codebooks.
-
-Archive note: Rakhine’s armed conflict, the nationwide Myanmar war and Rohingya persecution are linked but analytically distinct records.

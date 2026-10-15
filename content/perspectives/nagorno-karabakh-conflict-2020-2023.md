@@ -68,5 +68,3 @@ A complete event-level audit remains necessary. The archive should compare dated
 - International Court of Justice, [Order of 22 February 2023 on the Lachin Corridor](https://www.icj-cij.org/node/202552).
 - International Court of Justice, [Order of 17 November 2023 concerning persons displaced from Nagorno-Karabakh](https://www.icj-cij.org/node/203314).
 - UNHCR Armenia, [refugee response and coordination](https://www.unhcr.org/am/en/refugee-response-and-coordination-0).
-
-Archive note: The article distinguishes the 2020 war, the post-war corridor crisis, the 2023 offensive and Armenia–Azerbaijan border clashes outside Nagorno-Karabakh. Legal measures and factual findings are described within their actual scope.

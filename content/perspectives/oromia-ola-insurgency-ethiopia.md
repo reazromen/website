@@ -40,5 +40,3 @@ This entry tracks the organized OLA–state conflict and distinguishes it from c
 * Ethiopian Human Rights Commission
 * International Crisis Group
 * Uppsala Conflict Data Program and ACLED
-
-Archive note: Keep the group’s changing structure and the status of negotiations current through dated sources.

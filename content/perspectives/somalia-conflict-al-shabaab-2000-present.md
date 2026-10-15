@@ -42,5 +42,3 @@ This entry tracks the broad Somalia conflict while linking al-Shabaab operations
 * UN Security Council monitoring reports on al-Shabaab
 * African Union mission reporting
 * Uppsala Conflict Data Program and ACLED
-
-Archive note: Avoid presenting official battlefield claims as independently verified, and keep event-level actor attribution explicit.

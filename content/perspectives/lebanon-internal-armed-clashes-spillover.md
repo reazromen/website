@@ -42,5 +42,3 @@ This entry is a carefully bounded index for discrete internal armed episodes and
 - [UN Independent International Investigation Commission archive](https://www.un.org/)
 - [International Crisis Group — Lebanon](https://www.crisisgroup.org/middle-east-north-africa/east-mediterranean/lebanon)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: Separate domestic armed clashes, regional attacks and non-armed political crises. Classification remains event-specific.*

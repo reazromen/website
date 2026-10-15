@@ -31,5 +31,3 @@ Residents have faced displacement, disrupted agriculture, food insecurity and ba
 ## Classification and sources
 
 This entry keeps South Kordofan and Blue Nile as linked but distinct theatres, cross-referenced to the north–south war, Darfur and the 2023 war. Sources include UN humanitarian and human-rights reporting, International Crisis Group, UCDP and ACLED.
-
-Archive note: Track factional changes and access limitations; do not double-count incidents under the national-war umbrella.

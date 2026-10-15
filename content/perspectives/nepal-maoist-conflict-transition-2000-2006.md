@@ -46,5 +46,3 @@ For this archive, Nepal’s Maoist war is a state-based intrastate conflict that
 - [Comprehensive Peace Agreement, 2006 — UN Peacemaker](https://peacemaker.un.org/en/node/9215)
 - [UN Security Council statement on Nepal’s peace agreement](https://press.un.org/en/2006/sc8883.doc.htm)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: The conflict’s main dates and peace agreement are well established; estimates and allegations should be read with attention to source definitions and the distinction between documented findings and contested claims.*

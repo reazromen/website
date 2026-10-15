@@ -46,5 +46,3 @@ This page is a regional index, not a claim that all northeastern insurgencies fo
 - [Press Information Bureau: Ceasefire organisations in the Northeast](https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=115860)
 - [South Asia Terrorism Portal](https://www.satp.org/)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: The entry is deliberately regional and provisional. It does not replace actor-by-actor reconciliation against UCDP/PRIO and non-state conflict records.*

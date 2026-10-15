@@ -48,5 +48,3 @@ This entry is a linked overview of two related layers: the insurgency in Indian-
 - [Congressional Research Service: India, Pakistan, and the Pulwama Crisis (2019)](https://www.everycrsreport.com/reports/IN11057.html)
 - [Office of the UN High Commissioner for Human Rights: Kashmir reports](https://www.ohchr.org/)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: This article distinguishes established chronology from competing political claims. It does not endorse either state’s sovereignty narrative and does not treat every border incident as a separate war.*

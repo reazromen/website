@@ -50,5 +50,3 @@ Casualty totals vary by source, time period and definition. The archive should n
 - Office of the Presidential Adviser on Peace, Reconciliation and Unity, peace-process records.
 - Human Rights Watch, reporting on human rights and counterinsurgency.
 - Uppsala Conflict Data Program, annual conflict datasets and codebooks.
-
-Archive note: This article covers the CPP–NPA conflict and keeps it analytically separate from the Moro conflict and the Marawi siege.

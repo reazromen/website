@@ -43,5 +43,3 @@ The Tigray war is a distinct state-based armed conflict, linked to but separate 
 * UN Office for the Coordination of Humanitarian Affairs
 * International Crisis Group
 * Uppsala Conflict Data Program
-
-Archive note: Use cautious language for contested allegations and do not conflate verified findings with claims by the parties.

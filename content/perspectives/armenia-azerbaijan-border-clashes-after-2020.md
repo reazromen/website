@@ -63,5 +63,3 @@ The entry should not be described as a continuous war at constant intensity. It 
 - European Parliament Research Service, [Armenia and Azerbaijan: Between war and peace](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI%282023%29747919).
 - European External Action Service, [EU Mission in Armenia](https://www.eeas.europa.eu/euma/eu-mission-armenia-euma_en).
 - International Court of Justice, [Armenia v. Azerbaijan proceedings and provisional measures](https://www.icj-cij.org/case/180).
-
-Archive note: This entry is limited to post-2020 interstate border clashes. It does not count the Nagorno-Karabakh battlefield or the 2023 offensive as identical events.

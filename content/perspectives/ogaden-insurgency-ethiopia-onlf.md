@@ -40,5 +40,3 @@ This entry tracks the ONLF–state conflict and its transition to a peace proces
 * International Crisis Group reporting on Ethiopia and the ONLF
 * Ethiopian government and ONLF statements, attributed as party accounts
 * Uppsala Conflict Data Program and ACLED
-
-Archive note: Verify post-agreement incidents independently and distinguish political dissent from organized armed activity.

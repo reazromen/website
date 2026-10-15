@@ -46,5 +46,3 @@ This entry covers the Saudi-led coalition’s intervention as an external milita
 - [UN Office for the Coordination of Humanitarian Affairs — Yemen](https://www.unocha.org/yemen)
 - [UN Human Rights Office](https://www.ohchr.org/)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: Coalition membership, operational goals and the conflict’s intensity changed over time. Claims about specific strikes should be tied to dated investigations or reporting.*

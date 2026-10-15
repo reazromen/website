@@ -44,5 +44,3 @@ This entry covers documented internal Palestinian factional armed clashes, espec
 * Human Rights Watch and Amnesty International reporting
 * International Crisis Group
 * Uppsala Conflict Data Program, where event definitions apply
-
-Archive note: Keep factional violence distinct from interstate or Israeli–Palestinian fighting, and attribute each incident precisely.

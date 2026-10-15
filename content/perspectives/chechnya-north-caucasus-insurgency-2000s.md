@@ -60,5 +60,3 @@ The archive must avoid double-counting incidents in Chechnya and the regional in
 - Council of Europe Parliamentary Assembly, [Recommendation 1456 (2000)](https://pace.coe.int/en/files/16797/html).
 - International Crisis Group, [The North Caucasus Insurgency and Syria: An Exported Jihad?](https://fln.dk/media/5bzh2epj/rusl412.pdf).
 - Human Rights Watch, [Invisible War: Russia’s Abusive Response to the Dagestan Insurgency](https://www.hrw.org/report/2015/06/18/invisible-war/russias-abusive-response-dagestan-insurgency).
-
-Archive note: This article separates Chechnya’s post-2000 insurgency from the broader regional campaign and does not treat all violence in the North Caucasus as one uniform conflict.

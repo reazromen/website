@@ -42,5 +42,3 @@ This page tracks the Turkey–PKK armed conflict from 2000 onward, including cro
 - [European Court of Human Rights](https://www.echr.coe.int/)
 - [UN Human Rights Office](https://www.ohchr.org/)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: This entry distinguishes the PKK from Kurdish civilians and political organizations. The conflict’s status is time-sensitive and should be refreshed against reliable dated sources.*

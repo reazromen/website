@@ -46,5 +46,3 @@ The Islamic State phase overlaps with the earlier Iraq insurgency and with the S
 - [UN Assistance Mission for Iraq](https://unami.unmissions.org/)
 - [UN Commission of Inquiry on Syria](https://www.ohchr.org/en/hr-bodies/hrc/iici-syria)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: The page distinguishes the loss of territorial control from the end of insurgent violence. Any current operational assessment requires a fresh, dated source.*

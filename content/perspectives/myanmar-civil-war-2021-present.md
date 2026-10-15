@@ -65,5 +65,3 @@ UCDP’s annual datasets version 26.1 cover state-based conflict, dyadic conflic
 - UNHCR, [Myanmar emergency and 2026 protection context](https://www.unhcr.org/myanmar).
 - International Crisis Group, [Myanmar conflict analysis and reports](https://www.crisisgroup.org/asia/south-east-asia/myanmar).
 - Uppsala Conflict Data Program, [dataset downloads and codebooks](https://ucdp.uu.se/downloads/).
-
-Archive note: This is the national umbrella entry for the post-coup war. Regional conflicts and one-sided violence should be cross-linked, not mechanically added together.

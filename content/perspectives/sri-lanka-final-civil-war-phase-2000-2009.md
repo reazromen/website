@@ -42,5 +42,3 @@ This article treats 2000–2009 as a dated phase of the longer Sri Lankan civil 
 - [UN Secretary-General’s Panel of Experts on Accountability in Sri Lanka](https://www.un.org/sg/en/content/sg/personnel-appointments/2010-06-22/panel-of-experts-accountability-sri-lanka)
 - [Lessons Learnt and Reconciliation Commission report archive](https://www.mfa.gov.lk/)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: This is a historical synthesis, not a final legal finding on disputed incidents. Casualty figures and responsibility for particular events should be assessed against the underlying investigations and their stated limitations.*

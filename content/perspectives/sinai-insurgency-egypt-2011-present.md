@@ -42,5 +42,3 @@ This entry treats Sinai as an actor- and region-specific insurgency nested withi
 * Egyptian official statements, treated as party claims
 * International Crisis Group reporting on Sinai and Egypt
 * Uppsala Conflict Data Program and ACLED
-
-Archive note: Separate verified incidents from broad claims of control, and do not infer current operational status from older reports.

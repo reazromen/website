@@ -73,5 +73,3 @@ This essay is not a substitute for event-level dataset reconciliation. A full au
 - European Union, [Independent International Fact-Finding Mission on the Conflict in Georgia: mandate and report framework](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32008D0901).
 - European External Action Service, [EU Monitoring Mission in Georgia](https://www.eeas.europa.eu/eumm-georgia/eumm-georgia-european-union-monitoring-mission-georgia-civilian-mission_und?s=335).
 - European External Action Service, [Historical context of EUMM Georgia](https://www.eeas.europa.eu/eumm-georgia/historical-context-eumm-georgia_en?s=335).
-
-Archive note: This essay distinguishes the August 2008 interstate war from the earlier South Ossetia and Abkhazia conflicts and from later incidents along the administrative boundary lines. Civilian casualty and displacement figures require source-specific definitions and dates.

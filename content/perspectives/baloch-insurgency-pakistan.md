@@ -48,5 +48,3 @@ This article treats the post-2000 insurgency as a recurring, evolving conflict r
 - [International Crisis Group — Pakistan](https://www.crisisgroup.org/asia/south-asia/pakistan)
 - [Amnesty International — Pakistan](https://www.amnesty.org/en/location/asia-and-the-pacific/south-asia/pakistan/)
 - [Uppsala Conflict Data Program](https://ucdp.uu.se/)
-
-*Archive note: The article distinguishes armed separatist groups from Baloch civil society and political movements. Current incident claims should be verified against multiple independent sources before being added to a dated event log.*
