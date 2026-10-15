@@ -1,7 +1,7 @@
 ---
 title: 'The Second Intifada: How a Political Crisis Became a Prolonged Uprising'
 url: /posts/second-intifada-2000-2005.html
-date: '2026-10-15'
+date: '2018-02-09'
 read_time: 8
 excerpt: The Second Intifada began in 2000 amid failed negotiations, competing national claims, and deep mistrust, bringing years of violence to Israelis and Palestinians.
 topic: human-world
