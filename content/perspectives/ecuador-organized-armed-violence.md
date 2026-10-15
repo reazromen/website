@@ -1,7 +1,7 @@
 ---
 title: 'Ecuador’s Organized Armed Violence and the Security Response'
 url: /posts/ecuador-organized-armed-violence.html
-date: '2026-10-15'
+date: '2019-09-30'
 read_time: 8
 excerpt: 'Ecuador’s sharp rise in organized violence involves criminal organizations, prison networks, port routes and state security operations. The conflict classification requires evidence about actors and organized lethal violence.'
 topic: human-world

@@ -1,7 +1,7 @@
 ---
 title: 'The Oromia Conflict: Oromo Liberation Army and Ethiopian State Forces'
 url: /posts/oromia-ola-insurgency-ethiopia.html
-date: '2026-10-15'
+date: '2020-03-06'
 read_time: 7
 excerpt: The Oromia conflict involves the OLA and state forces, with civilian communities caught between insurgency, security operations and local disputes.
 topic: human-world

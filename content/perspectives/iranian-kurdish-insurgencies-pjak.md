@@ -1,7 +1,7 @@
 ---
 title: 'Iranian Kurdish Insurgencies and the Iran–PJAK Conflict'
 url: /posts/iranian-kurdish-insurgencies-pjak.html
-date: '2026-10-15'
+date: '2023-07-12'
 read_time: 8
 excerpt: Iran’s confrontations with Kurdish armed organizations have been episodic and actor-specific, with cross-border dynamics linking Iranian Kurdistan to northern Iraq.
 topic: human-world

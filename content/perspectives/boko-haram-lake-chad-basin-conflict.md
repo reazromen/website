@@ -1,7 +1,7 @@
 ---
 title: 'Boko Haram and the Lake Chad Basin Conflict'
 url: /posts/boko-haram-lake-chad-basin-conflict.html
-date: '2026-10-15'
+date: '2019-03-23'
 read_time: 7
 excerpt: The Boko Haram insurgency spread from northeastern Nigeria into a regional conflict involving splinter groups and forces from four countries.
 topic: human-world

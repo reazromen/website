@@ -1,7 +1,7 @@
 ---
 title: 'Ethiopia–Eritrea: The Border War’s Final Phase and Later Tensions'
 url: /posts/ethiopia-eritrea-border-war-and-tensions.html
-date: '2026-10-15'
+date: '2024-04-16'
 read_time: 7
 excerpt: The interstate war ended in 2000, but later border incidents and the 2018 rapprochement require separate timelines and careful scope decisions.
 topic: human-world

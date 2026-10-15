@@ -1,7 +1,7 @@
 ---
 title: 'Brazil’s Organized Armed Violence: Factions, Milícias and State Operations'
 url: /posts/brazil-organized-armed-violence.html
-date: '2026-10-15'
+date: '2018-07-11'
 read_time: 8
 excerpt: 'Brazil’s violence includes criminal factions, paramilitary-style militias and security operations. High homicide levels do not automatically establish a single armed conflict, so each campaign needs separate evidence.'
 topic: human-world

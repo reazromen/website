@@ -1,7 +1,7 @@
 ---
 title: 'The War in Donbas, 2014–2022: Front Lines, Ceasefires, and Civilian Life'
 url: /posts/war-in-donbas-2014-2022.html
-date: '2026-10-15'
+date: '2020-08-24'
 read_time: 8
 excerpt: 'The Donbas war began in 2014 between Ukrainian government forces and Russia-backed separatist forces, persisted through fragile ceasefires, and became part of the full-scale invasion in 2022.'
 topic: human-world

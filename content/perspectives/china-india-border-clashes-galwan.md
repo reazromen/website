@@ -1,7 +1,7 @@
 ---
 title: 'China–India Border Clashes: Galwan and the Wider Line of Actual Control Dispute'
 url: /posts/china-india-border-clashes-galwan.html
-date: '2026-10-15'
+date: '2019-02-16'
 read_time: 7
 excerpt: 'The 2020 Galwan Valley clash was a lethal episode in a much older boundary dispute. It should be separated from the wider political and military contest along the Line of Actual Control.'
 topic: human-world

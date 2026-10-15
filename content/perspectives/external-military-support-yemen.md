@@ -1,7 +1,7 @@
 ---
 title: 'External Military Support in Yemen: Coalition Intervention and Iranian Links'
 url: /posts/external-military-support-yemen.html
-date: '2026-10-15'
+date: '2021-05-30'
 read_time: 8
 excerpt: 'Yemen’s war has involved a Saudi-led coalition, Iranian support to the Houthis and other external relationships. These should be recorded by period and evidence rather than merged into one proxy-war label.'
 topic: human-world

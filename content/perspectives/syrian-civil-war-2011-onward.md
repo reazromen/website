@@ -1,7 +1,7 @@
 ---
 title: 'Syria’s Civil War, 2011 Onward: Revolution, Fragmentation, and Foreign Intervention'
 url: /posts/syrian-civil-war-2011-onward.html
-date: '2026-10-15'
+date: '2025-08-05'
 read_time: 10
 excerpt: Syria’s uprising developed into a fragmented war involving government forces, opposition factions, Kurdish-led forces, jihadist groups and foreign militaries, with civilians bearing enormous costs.
 topic: human-world

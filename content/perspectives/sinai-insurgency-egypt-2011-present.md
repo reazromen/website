@@ -1,7 +1,7 @@
 ---
 title: 'The Sinai Insurgency in Egypt, 2011 Onward'
 url: /posts/sinai-insurgency-egypt-2011-present.html
-date: '2026-10-15'
+date: '2020-07-17'
 read_time: 7
 excerpt: The Sinai insurgency involved Egyptian security forces and jihadist armed groups, with changing tactics and major consequences for local communities.
 topic: human-world

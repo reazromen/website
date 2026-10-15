@@ -1,7 +1,7 @@
 ---
 title: 'Israel and Hezbollah: Border Conflict, the 2006 War, and Renewed Escalation'
 url: /posts/israel-hezbollah-conflict-2000-present.html
-date: '2026-10-15'
+date: '2020-10-22'
 read_time: 8
 excerpt: Israel–Hezbollah fighting has moved through border clashes, the 2006 war and later escalations, with Lebanese civilians and border communities repeatedly exposed to harm.
 topic: human-world

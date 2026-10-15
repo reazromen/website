@@ -1,7 +1,7 @@
 ---
 title: 'European Foreign Fighters and Transnational Jihadist Campaigns'
 url: /posts/european-foreign-fighters-transnational-jihadist-campaigns.html
-date: '2026-10-15'
+date: '2023-09-05'
 read_time: 7
 excerpt: 'Foreign-fighter networks connect European recruitment, travel and financing to conflicts abroad. They are a transnational phenomenon, not automatically one armed conflict in Europe.'
 topic: human-world

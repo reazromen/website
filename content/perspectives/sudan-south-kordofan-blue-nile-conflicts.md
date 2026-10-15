@@ -1,7 +1,7 @@
 ---
 title: 'Sudan’s South Kordofan and Blue Nile Conflicts: Separate Fronts, Connected Histories'
 url: /posts/sudan-south-kordofan-blue-nile-conflicts.html
-date: '2026-10-15'
+date: '2024-12-23'
 read_time: 6
 excerpt: 'Armed conflict in South Kordofan and Blue Nile predates Sudan’s 2023 war and should remain distinct from Darfur and the national SAF–RSF conflict.'
 topic: human-world

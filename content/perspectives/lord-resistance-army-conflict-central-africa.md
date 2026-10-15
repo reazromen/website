@@ -1,7 +1,7 @@
 ---
 title: 'The Lord’s Resistance Army Conflict in Central Africa'
 url: /posts/lord-resistance-army-conflict-central-africa.html
-date: '2026-10-15'
+date: '2021-02-20'
 read_time: 7
 excerpt: The LRA conflict crossed national borders and changed shape as military pressure displaced the group from its original Ugandan theatre.
 topic: human-world

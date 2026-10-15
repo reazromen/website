@@ -1,7 +1,7 @@
 ---
 title: 'Iraq’s Insurgency and Sectarian War, 2003–2011'
 url: /posts/iraq-insurgency-sectarian-war-2003-2011.html
-date: '2026-10-15'
+date: '2024-05-17'
 read_time: 9
 excerpt: After the 2003 invasion, Iraq faced multiple insurgencies, militia violence and sectarian killings; the reduction in violence did not resolve the political causes of instability.
 topic: human-world

@@ -1,7 +1,7 @@
 ---
 title: 'Foreign Military Support in Ukraine Since 2014'
 url: /posts/foreign-military-support-ukraine.html
-date: '2026-10-15'
+date: '2021-07-02'
 read_time: 8
 excerpt: 'Foreign support to Ukraine and Russia’s external partnerships have shaped the Russo-Ukrainian war. Support, direct participation and the war itself should remain analytically distinct.'
 topic: human-world

@@ -1,7 +1,7 @@
 ---
 title: 'The Rohingya Crisis: Persecution, Mass Displacement, and Armed Violence'
 url: /posts/rohingya-persecution-displacement-armed-violence.html
-date: '2026-10-15'
+date: '2018-12-17'
 read_time: 9
 excerpt: 'The Rohingya crisis combines decades of statelessness and discrimination, the 2017 mass expulsion to Bangladesh, renewed fighting in Rakhine and continuing risks under both military and non-state control.'
 topic: human-world

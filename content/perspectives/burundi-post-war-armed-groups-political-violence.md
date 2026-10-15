@@ -1,7 +1,7 @@
 ---
 title: 'Burundi After the Civil War: Armed Opposition, RED-Tabara, and Political Violence'
 url: /posts/burundi-post-war-armed-groups-political-violence.html
-date: '2026-10-15'
+date: '2018-07-16'
 read_time: 7
 excerpt: 'Burundi’s post-war security record includes armed opposition and political violence, but the conflict’s intensity and classification changed over time. UCDP reports the government–RED-Tabara conflict was inactive by its 2025 assessment.'
 topic: human-world

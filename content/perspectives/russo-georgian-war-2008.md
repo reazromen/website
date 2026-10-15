@@ -1,7 +1,7 @@
 ---
 title: 'The Russo-Georgian War of August 2008: Escalation, Intervention, and Unresolved Borders'
 url: /posts/russo-georgian-war-2008.html
-date: '2026-10-15'
+date: '2021-09-06'
 read_time: 8
 excerpt: 'A five-day war over South Ossetia widened into a Russian-Georgian interstate conflict, displaced civilians, and left unresolved territorial and security disputes.'
 topic: human-world

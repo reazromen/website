@@ -1,7 +1,7 @@
 ---
 title: 'Israel and Iran: Direct Exchanges, Regional Networks, and Escalation Risk'
 url: /posts/israel-iran-direct-indirect-confrontation.html
-date: '2026-10-15'
+date: '2023-05-13'
 read_time: 8
 excerpt: Israel–Iran confrontation combines covert activity and regional partner networks with episodes of direct missile and drone exchanges; those layers should not be counted as one continuous war.
 topic: human-world

@@ -1,7 +1,7 @@
 ---
 title: 'Myanmar’s Nationwide Civil War Since the 2021 Coup'
 url: /posts/myanmar-civil-war-2021-present.html
-date: '2026-10-15'
+date: '2021-04-15'
 read_time: 9
 excerpt: 'The 2021 military coup transformed Myanmar’s political crisis into a nationwide armed conflict linking established ethnic armies, newly formed resistance forces, military operations and a deepening humanitarian emergency.'
 topic: human-world

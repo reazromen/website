@@ -1,7 +1,7 @@
 ---
 title: 'East Timor’s 2006 Crisis: Armed Unrest, Displacement and International Intervention'
 url: /posts/east-timor-violence-2006.html
-date: '2026-10-15'
+date: '2019-03-26'
 read_time: 7
 excerpt: 'Timor-Leste’s 2006 crisis involved security-force fractures, political turmoil, deaths and mass displacement. It should be documented as a bounded episode, not a continuous war.'
 topic: human-world

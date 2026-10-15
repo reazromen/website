@@ -1,7 +1,7 @@
 ---
 title: 'Al-Qaeda in the Arabian Peninsula and Yemen’s Wider Insurgencies'
 url: /posts/aqap-yemen-insurgency.html
-date: '2026-10-15'
+date: '2026-01-02'
 read_time: 7
 excerpt: AQAP’s campaign is a distinct armed-conflict layer in Yemen and should not be merged with the Houthi–government war.
 topic: human-world

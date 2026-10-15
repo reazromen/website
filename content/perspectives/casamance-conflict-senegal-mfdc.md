@@ -1,7 +1,7 @@
 ---
 title: 'The Casamance Conflict in Senegal: MFDC Factions and a Long Peace Process'
 url: /posts/casamance-conflict-senegal-mfdc.html
-date: '2026-10-15'
+date: '2026-01-05'
 read_time: 6
 excerpt: 'Senegal’s Casamance conflict has involved separatist factions, state forces, cross-border dynamics and intermittent peace efforts since the 1980s.'
 topic: human-world

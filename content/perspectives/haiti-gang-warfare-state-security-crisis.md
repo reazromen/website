@@ -1,7 +1,7 @@
 ---
 title: 'Haiti’s Gang Warfare and the State-Security Crisis'
 url: /posts/haiti-gang-warfare-state-security-crisis.html
-date: '2026-10-15'
+date: '2025-01-06'
 read_time: 8
 excerpt: 'Haiti’s security crisis includes armed gang coalitions, attacks on civilians, state-security operations and institutional breakdown. High levels of violence must be classified carefully rather than automatically called civil war.'
 topic: human-world

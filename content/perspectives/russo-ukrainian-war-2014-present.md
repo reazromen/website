@@ -1,7 +1,7 @@
 ---
 title: 'The Russo-Ukrainian War Since 2014: From Crimea and Donbas to Full-Scale Invasion'
 url: /posts/russo-ukrainian-war-2014-present.html
-date: '2026-10-15'
+date: '2024-10-09'
 read_time: 9
 excerpt: 'The Russo-Ukrainian war is a connected conflict with distinct phases: Russia’s 2014 seizure of Crimea, the Donbas war, and the full-scale invasion launched in February 2022.'
 topic: human-world

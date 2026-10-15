@@ -1,7 +1,7 @@
 ---
 title: 'US-Led Coalition Operations in Afghanistan, 2001–2021'
 url: /posts/us-led-afghanistan-coalition-operations.html
-date: '2026-10-15'
+date: '2019-04-21'
 read_time: 7
 excerpt: 'The US-led intervention and subsequent coalition missions were major layers of Afghanistan’s war, but they should be linked to the primary conflict rather than counted as separate wars by default.'
 topic: human-world

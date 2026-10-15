@@ -1,7 +1,7 @@
 ---
 title: 'Gulf and Levant Proxy-Conflict Theatres: Networks, Not One War'
 url: /posts/gulf-levant-proxy-conflict-theatres.html
-date: '2026-10-15'
+date: '2023-06-22'
 read_time: 7
 excerpt: 'External support links armed conflicts across the Gulf and Levant, but the term proxy war should not erase local actors, independent goals or separate conflict classifications.'
 topic: human-world

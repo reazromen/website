@@ -1,7 +1,7 @@
 ---
 title: 'The Saudi-led Intervention in Yemen: Air Power, Regional Rivalry, and Civilian Protection'
 url: /posts/saudi-led-intervention-yemen-2015-present.html
-date: '2026-10-15'
+date: '2022-02-20'
 read_time: 8
 excerpt: The Saudi-led coalition’s intervention transformed Yemen’s domestic war into a regionalized conflict, raising questions about military objectives, civilian harm and accountability.
 topic: human-world

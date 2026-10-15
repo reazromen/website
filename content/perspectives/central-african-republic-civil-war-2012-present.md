@@ -1,7 +1,7 @@
 ---
 title: 'The Central African Republic’s Civil War and Armed Coalitions'
 url: /posts/central-african-republic-civil-war-2012-present.html
-date: '2026-10-15'
+date: '2026-01-04'
 read_time: 7
 excerpt: CAR’s conflict has involved shifting rebel coalitions, anti-balaka groups, state forces and external security actors.
 topic: human-world

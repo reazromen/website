@@ -1,7 +1,7 @@
 ---
 title: "FARC Dissident Groups After Colombia’s 2016 Peace Agreement"
 url: /posts/farc-dissident-groups-after-peace-agreement.html
-date: '2026-10-15'
+date: '2022-10-23'
 read_time: 7
 excerpt: "The 2016 FARC agreement transformed Colombia’s conflict, but dissident organizations emerged with distinct leadership and regional trajectories. They should not be treated as a single unified actor."
 topic: human-world

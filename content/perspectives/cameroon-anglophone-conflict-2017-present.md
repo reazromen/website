@@ -1,7 +1,7 @@
 ---
 title: 'Cameroon’s Anglophone Conflict: Separatist Groups and State Forces'
 url: /posts/cameroon-anglophone-conflict-2017-present.html
-date: '2026-10-15'
+date: '2025-12-17'
 read_time: 6
 excerpt: 'Cameroon’s Anglophone conflict escalated from protest and repression into sustained fighting involving separatist groups and government forces.'
 topic: human-world

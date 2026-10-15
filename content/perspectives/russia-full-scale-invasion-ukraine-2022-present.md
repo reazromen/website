@@ -1,7 +1,7 @@
 ---
 title: 'Russia’s Full-Scale Invasion of Ukraine Since February 2022'
 url: /posts/russia-full-scale-invasion-ukraine-2022-present.html
-date: '2026-10-15'
+date: '2023-11-05'
 read_time: 9
 excerpt: 'Russia’s 2022 invasion expanded the war across Ukraine, bringing failed advances, shifting fronts, occupation, long-range strikes, and a major civilian and humanitarian emergency.'
 topic: human-world

@@ -1,7 +1,7 @@
 ---
 title: 'Peru and the Remnants of Sendero Luminoso'
 url: /posts/peru-sendero-luminoso-remnants.html
-date: '2026-10-15'
+date: '2021-03-07'
 read_time: 7
 excerpt: 'The Shining Path insurgency began decades before 2000. Later activity, especially in the VRAEM region, should be distinguished from the historical national insurgency and assessed using current evidence.'
 topic: human-world

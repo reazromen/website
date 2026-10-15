@@ -1,7 +1,7 @@
 ---
 title: 'The Amhara Armed Conflict: Fano, Federal Forces, and Ethiopia’s Security Crisis'
 url: /posts/amhara-fano-armed-conflict-ethiopia.html
-date: '2026-10-15'
+date: '2022-04-07'
 read_time: 7
 excerpt: Fighting between Fano networks and Ethiopian federal forces escalated in Amhara in 2023 after disputes over regional security arrangements.
 topic: human-world

@@ -1,7 +1,7 @@
 ---
 title: 'The Kivu Conflicts in the Democratic Republic of the Congo'
 url: /posts/dr-congo-kivu-conflicts.html
-date: '2026-10-15'
+date: '2023-02-05'
 read_time: 7
 excerpt: Eastern DRC’s Kivu conflicts involve state forces and numerous armed groups whose alliances, aims and local impacts change over time.
 topic: human-world

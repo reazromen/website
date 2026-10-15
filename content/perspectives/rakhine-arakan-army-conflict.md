@@ -1,7 +1,7 @@
 ---
 title: 'Rakhine and the Arakan Army: Autonomy, Territorial Control, and Civilian Risk'
 url: /posts/rakhine-arakan-army-conflict.html
-date: '2026-10-15'
+date: '2024-06-20'
 read_time: 8
 excerpt: The Arakan Army’s struggle for power in Rakhine has moved through ceasefires, renewed war and major territorial gains, with severe risks for Rohingya and other civilians.
 topic: human-world

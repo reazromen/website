@@ -1,7 +1,7 @@
 ---
 title: 'Insurgent and Cross-Border Violence in India’s Eastern Borderlands'
 url: /posts/india-eastern-borderlands-insurgencies.html
-date: '2026-10-15'
+date: '2024-11-04'
 read_time: 7
 excerpt: 'Naga, Manipuri and Assamese armed movements have distinct histories, actors and ceasefire trajectories, often crossing a border with Myanmar. They should not be collapsed into one conflict.'
 topic: human-world

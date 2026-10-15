@@ -1,7 +1,7 @@
 ---
 title: 'Syria’s Kurdish-led Forces, Turkey, and the Campaign Against ISIS'
 url: /posts/syrian-kurdish-conflict-isis-campaign.html
-date: '2026-10-15'
+date: '2018-05-16'
 read_time: 8
 excerpt: The Kurdish-led Syrian Democratic Forces became central to the campaign against ISIS, while Turkey treated the YPG as linked to the PKK and carried out cross-border operations.
 topic: human-world

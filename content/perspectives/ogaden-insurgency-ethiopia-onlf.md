@@ -1,7 +1,7 @@
 ---
 title: 'The Ogaden Insurgency in Ethiopia: ONLF, State Forces, and the Peace Process'
 url: /posts/ogaden-insurgency-ethiopia-onlf.html
-date: '2026-10-15'
+date: '2024-10-20'
 read_time: 7
 excerpt: The ONLF insurgency in Ethiopia’s Somali Region combined separatist claims, security operations and severe restrictions on civilian life before a 2018 peace agreement.
 topic: human-world

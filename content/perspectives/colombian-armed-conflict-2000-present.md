@@ -1,7 +1,7 @@
 ---
 title: "Colombia’s Armed Conflict Since 2000: Insurgency, Paramilitaries, and an Uneven Peace"
 url: /posts/colombian-armed-conflict-2000-present.html
-date: '2026-10-15'
+date: '2021-09-14'
 read_time: 8
 excerpt: "Colombia’s post-2000 conflict has shifted through paramilitary demobilization, the 2016 FARC peace agreement, and continuing campaigns by other armed groups. These overlapping histories require careful classification to avoid double-counting."
 topic: human-world

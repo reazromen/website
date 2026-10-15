@@ -1,7 +1,7 @@
 ---
 title: 'Yemen’s Civil War: Fragmented Authority and a Prolonged Humanitarian Crisis'
 url: /posts/yemen-civil-war-2014-present.html
-date: '2026-10-15'
+date: '2025-03-06'
 read_time: 8
 excerpt: Yemen’s war involves the Houthi movement, internationally recognized authorities, southern forces and external actors; front lines and political control have shifted repeatedly.
 topic: human-world

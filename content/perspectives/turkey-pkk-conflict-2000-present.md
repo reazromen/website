@@ -1,7 +1,7 @@
 ---
 title: 'Turkey and the PKK: Insurgency, Cross-border War, and Unfinished Politics'
 url: /posts/turkey-pkk-conflict-2000-present.html
-date: '2026-10-15'
+date: '2020-08-05'
 read_time: 8
 excerpt: The Turkey–PKK conflict has shifted between armed campaigns, ceasefires and cross-border operations, with civilians affected in Turkey and neighboring Iraq and Syria.
 topic: human-world

@@ -1,7 +1,7 @@
 ---
 title: 'Iraq and the Islamic State, 2013 Onward: Territorial War and Its Aftermath'
 url: /posts/iraq-islamic-state-conflict-2013-present.html
-date: '2026-10-15'
+date: '2020-05-01'
 read_time: 9
 excerpt: The Islamic State’s seizure of territory in Iraq in 2014 triggered a multi-sided campaign that retook major cities but did not eliminate the group or its long-term effects.
 topic: human-world

@@ -1,7 +1,7 @@
 ---
 title: 'Dagestan’s Insurgency: Local Grievances, Security Operations, and Regional Militancy'
 url: /posts/dagestan-insurgency-north-caucasus.html
-date: '2026-10-15'
+date: '2022-05-02'
 read_time: 7
 excerpt: 'Dagestan became a major centre of North Caucasus insurgent violence in the late 2000s and early 2010s, where armed attacks, coercive policing and local political grievances interacted.'
 topic: human-world

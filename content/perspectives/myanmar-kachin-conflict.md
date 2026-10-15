@@ -1,7 +1,7 @@
 ---
 title: 'Myanmar’s Kachin Conflict: Autonomy, Ceasefires, and Renewed War'
 url: /posts/myanmar-kachin-conflict.html
-date: '2026-10-15'
+date: '2019-04-24'
 read_time: 7
 excerpt: The Kachin conflict links a long struggle for autonomy to Myanmar’s post-coup nationwide war, while retaining its own organizations, geography and political history.
 topic: human-world

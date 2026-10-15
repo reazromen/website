@@ -1,7 +1,7 @@
 ---
 title: 'Other Myanmar Ethnic Theatres: Chin, Shan and Related Armed Campaigns'
 url: /posts/myanmar-other-ethnic-theatres-chin-shan.html
-date: '2026-10-15'
+date: '2023-12-06'
 read_time: 8
 excerpt: 'Myanmar’s armed conflict includes distinct ethnic and regional theatres beyond the nationwide resistance, Kachin, Karen, Karenni and Rakhine cases. Each requires its own actors and timeline.'
 topic: human-world

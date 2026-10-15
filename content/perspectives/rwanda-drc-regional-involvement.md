@@ -1,7 +1,7 @@
 ---
 title: 'Rwanda and the DR Congo: External Involvement Across Eastern Congo’s Conflicts'
 url: /posts/rwanda-drc-regional-involvement.html
-date: '2026-10-15'
+date: '2020-09-10'
 read_time: 6
 excerpt: 'Rwanda’s involvement in eastern DR Congo is a relationship layer across distinct Congolese theatres, not automatically a separate war.'
 topic: human-world

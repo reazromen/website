@@ -1,7 +1,7 @@
 ---
 title: 'Kosovo–Serbia Armed Incidents and Organized Violence After 2000'
 url: /posts/kosovo-serbia-armed-incidents.html
-date: '2026-10-15'
+date: '2018-10-14'
 read_time: 7
 excerpt: 'Post-2000 incidents in northern Kosovo have included lethal attacks, security operations and periodic escalations. Political tension should be distinguished from a continuous armed war.'
 topic: human-world

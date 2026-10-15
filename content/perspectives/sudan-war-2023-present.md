@@ -1,7 +1,7 @@
 ---
 title: 'Sudan’s War Since April 2023: The SAF, RSF, and Civilian Catastrophe'
 url: /posts/sudan-war-2023-present.html
-date: '2026-10-15'
+date: '2020-07-29'
 read_time: 7
 excerpt: The war between Sudan’s Armed Forces and the Rapid Support Forces transformed a power struggle into a nationwide humanitarian disaster.
 topic: human-world

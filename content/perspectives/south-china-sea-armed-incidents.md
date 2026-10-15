@@ -1,7 +1,7 @@
 ---
 title: 'South China Sea Armed Incidents and Maritime Confrontations'
 url: /posts/south-china-sea-armed-incidents.html
-date: '2026-10-15'
+date: '2020-02-22'
 read_time: 8
 excerpt: 'The South China Sea dispute involves competing maritime claims, coast guards, naval patrols and occasional dangerous confrontations. It should not be called a continuous war without evidence of qualifying armed conflict.'
 topic: human-world

@@ -1,7 +1,7 @@
 ---
 title: 'Nagorno-Karabakh: The 2020 War, the 2023 Offensive, and the End of De Facto Armenian Rule'
 url: /posts/nagorno-karabakh-conflict-2020-2023.html
-date: '2026-10-15'
+date: '2025-01-06'
 read_time: 8
 excerpt: 'The Nagorno-Karabakh conflict moved from the 2020 war to Azerbaijan’s September 2023 offensive, after which more than 100,000 ethnic Armenians fled to Armenia.'
 topic: human-world

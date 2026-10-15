@@ -1,7 +1,7 @@
 ---
 title: 'Bangladesh’s Chittagong Hill Tracts: Armed Conflict, Accord and Residual Violence'
 url: /posts/bangladesh-chittagong-hill-tracts-armed-conflict.html
-date: '2026-10-15'
+date: '2024-12-02'
 read_time: 7
 excerpt: 'The Chittagong Hill Tracts conflict predates 2000 and changed after the 1997 peace accord. Post-2000 armed incidents should be documented carefully rather than assumed to form one continuous war.'
 topic: human-world

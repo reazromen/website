@@ -1,7 +1,7 @@
 ---
 title: 'Venezuela–Colombia Borderland Armed Groups and Cross-Border Violence'
 url: /posts/venezuela-colombia-border-armed-groups.html
-date: '2026-10-15'
+date: '2026-03-04'
 read_time: 8
 excerpt: 'The Venezuela–Colombia border contains Colombian armed organizations, smuggling economies, displaced communities and changing state responses. Cross-border activity should be distinguished from direct interstate war.'
 topic: human-world

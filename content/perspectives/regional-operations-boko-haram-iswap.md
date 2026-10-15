@@ -1,7 +1,7 @@
 ---
 title: 'Regional Operations Against Boko Haram and ISWAP in the Lake Chad Basin'
 url: /posts/regional-operations-boko-haram-iswap.html
-date: '2026-10-15'
+date: '2021-02-01'
 read_time: 8
 excerpt: 'Nigeria, Cameroon, Chad and Niger have coordinated against Boko Haram and ISWAP, but national operations and the regional task force are intervention layers in a multi-country conflict.'
 topic: human-world

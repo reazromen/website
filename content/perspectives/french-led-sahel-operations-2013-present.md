@@ -1,7 +1,7 @@
 ---
 title: 'French-Led Sahel Operations: Serval, Barkhane and the Regional Insurgencies'
 url: /posts/french-led-sahel-operations-2013-present.html
-date: '2026-10-15'
+date: '2020-07-23'
 read_time: 8
 excerpt: 'French-led operations in the Sahel changed from emergency intervention in Mali to a wider regional counterinsurgency. They must be linked to national conflicts rather than counted as one new war.'
 topic: human-world

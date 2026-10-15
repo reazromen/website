@@ -1,7 +1,7 @@
 ---
 title: 'International Intervention in Libya in 2011'
 url: /posts/international-intervention-libya-2011.html
-date: '2026-10-15'
+date: '2023-12-27'
 read_time: 7
 excerpt: 'The 2011 international intervention in Libya began with a UN-authorized civilian-protection mandate and became a major factor in the war against Muammar Gaddafi’s forces. It should be linked to the Libyan conflict.'
 topic: human-world

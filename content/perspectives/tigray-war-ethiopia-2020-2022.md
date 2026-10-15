@@ -1,7 +1,7 @@
 ---
 title: 'The Tigray War in Ethiopia, 2020–2022'
 url: /posts/tigray-war-ethiopia-2020-2022.html
-date: '2026-10-15'
+date: '2019-07-30'
 read_time: 7
 excerpt: The Tigray war pitted federal and allied forces against Tigrayan forces, caused immense civilian suffering and formally entered a cessation phase in 2022.
 topic: human-world

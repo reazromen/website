@@ -1,7 +1,7 @@
 ---
 title: 'Transnational Islamic State Campaigns and Affiliates'
 url: /posts/transnational-isis-campaigns-affiliates.html
-date: '2026-10-15'
+date: '2020-08-19'
 read_time: 8
 excerpt: 'The Islamic State’s territorial project in Iraq and Syria gave way to a wider set of insurgent and affiliate campaigns. Each theatre requires separate evidence about organization, command and local context.'
 topic: human-world

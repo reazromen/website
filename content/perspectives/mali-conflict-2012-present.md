@@ -1,7 +1,7 @@
 ---
 title: 'Mali’s Conflict Since 2012: Rebellion, Jihadist Insurgency, and Military Rule'
 url: /posts/mali-conflict-2012-present.html
-date: '2026-10-15'
+date: '2022-12-23'
 read_time: 7
 excerpt: Mali’s conflict has moved through a Tuareg-led rebellion, jihadist expansion, foreign military deployments and a changing political order.
 topic: human-world

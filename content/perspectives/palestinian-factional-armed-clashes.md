@@ -1,7 +1,7 @@
 ---
 title: 'Palestinian Factional Armed Clashes: Gaza, Political Division, and Civilian Risk'
 url: /posts/palestinian-factional-armed-clashes.html
-date: '2026-10-15'
+date: '2019-03-18'
 read_time: 7
 excerpt: Internal Palestinian armed clashes should be recorded as discrete episodes, not treated as a continuous war or confused with Israeli–Palestinian fighting.
 topic: human-world

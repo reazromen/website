@@ -1,7 +1,7 @@
 ---
 title: 'The Central Sahel Insurgency: A Regional Conflict System, Not One War'
 url: /posts/central-sahel-regional-insurgency.html
-date: '2026-10-15'
+date: '2022-07-25'
 read_time: 6
 excerpt: 'Mali, Burkina Faso and Niger share cross-border insurgent networks, but a regional overview should not replace national conflict records.'
 topic: human-world

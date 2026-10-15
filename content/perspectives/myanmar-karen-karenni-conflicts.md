@@ -1,7 +1,7 @@
 ---
 title: 'Karen and Karenni Conflicts in Myanmar: Borderlands, Resistance, and Federalism'
 url: /posts/myanmar-karen-karenni-conflicts.html
-date: '2026-10-15'
+date: '2026-08-22'
 read_time: 7
 excerpt: Karen and Karenni armed movements have separate histories and political institutions, now intersecting with resistance to military rule and the struggle over Myanmar’s future federal order.
 topic: human-world

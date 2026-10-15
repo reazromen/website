@@ -1,7 +1,7 @@
 ---
 title: 'Israeli–Palestinian Armed Conflict Beyond Gaza: The West Bank and Other Theatres'
 url: /posts/israeli-palestinian-conflict-west-bank-beyond-gaza.html
-date: '2026-10-15'
+date: '2026-07-01'
 read_time: 8
 excerpt: The West Bank and other areas outside Gaza have experienced raids, shootings, settler violence and armed attacks that require separate event-level documentation from the Gaza war.
 topic: human-world

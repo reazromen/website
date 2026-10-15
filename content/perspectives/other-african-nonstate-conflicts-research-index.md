@@ -1,7 +1,7 @@
 ---
 title: 'Other Documented African Non-State Conflicts: A Research Index'
 url: /posts/other-african-nonstate-conflicts-research-index.html
-date: '2026-10-15'
+date: '2020-04-29'
 read_time: 8
 excerpt: 'African non-state conflicts range from communal armed clashes to organized-group fighting. The dataset category is useful for discovery, but each case needs its own parties, dates and evidence.'
 topic: human-world

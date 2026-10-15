@@ -1,7 +1,7 @@
 ---
 title: 'Russian Military Involvement in Syria and Other External Theatres'
 url: /posts/russian-military-involvement-syria-external-theatres.html
-date: '2026-10-15'
+date: '2022-01-30'
 read_time: 8
 excerpt: 'Russia’s external military deployments have affected several wars, but intervention should be recorded as a relationship with a primary conflict, not automatically as a separate war.'
 topic: human-world

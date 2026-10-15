@@ -1,7 +1,7 @@
 ---
 title: 'Chechnya and the North Caucasus Insurgency: From the Second War to Regional Militancy'
 url: /posts/chechnya-north-caucasus-insurgency-2000s.html
-date: '2026-10-15'
+date: '2023-07-25'
 read_time: 8
 excerpt: 'The final phase of the Second Chechen War and the later North Caucasus insurgency were connected but distinct campaigns shaped by federal force, separatism, regional networks and abusive counterinsurgency.'
 topic: human-world

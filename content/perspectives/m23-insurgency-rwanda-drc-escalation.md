@@ -1,7 +1,7 @@
 ---
 title: 'The M23 Insurgency and Rwanda–DRC Regional Escalation'
 url: /posts/m23-insurgency-rwanda-drc-escalation.html
-date: '2026-10-15'
+date: '2018-08-24'
 read_time: 7
 excerpt: M23’s resurgence is a distinct phase of eastern Congo’s wider conflict, involving territorial control, regional tensions and large-scale displacement.
 topic: human-world

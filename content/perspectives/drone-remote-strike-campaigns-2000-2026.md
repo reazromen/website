@@ -1,7 +1,7 @@
 ---
 title: 'Drone and Remote-Strike Campaigns, 2000–2026'
 url: /posts/drone-remote-strike-campaigns-2000-2026.html
-date: '2026-10-15'
+date: '2025-11-07'
 read_time: 8
 excerpt: 'Drone and remote-strike operations have appeared in several conflicts, but a weapon or method is not itself a war. The archive should connect each strike to its conflict, actor and evidence.'
 topic: human-world

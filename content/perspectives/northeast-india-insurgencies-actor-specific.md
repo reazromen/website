@@ -1,7 +1,7 @@
 ---
 title: 'Northeast India’s Insurgencies: Distinct Movements, Borders, and Peace Processes'
 url: /posts/northeast-india-insurgencies-actor-specific.html
-date: '2026-10-15'
+date: '2025-01-16'
 read_time: 9
 excerpt: Northeast India’s armed conflicts involve different organizations, ethnic and political claims, and peace agreements; treating the region as one insurgency hides those distinctions.
 topic: human-world

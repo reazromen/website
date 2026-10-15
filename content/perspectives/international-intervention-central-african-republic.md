@@ -1,7 +1,7 @@
 ---
 title: 'International Intervention in the Central African Republic'
 url: /posts/international-intervention-central-african-republic.html
-date: '2026-10-15'
+date: '2026-05-22'
 read_time: 7
 excerpt: 'Peacekeeping and external military deployments have intersected with the Central African Republic’s civil war. The archive should distinguish UN mandates, bilateral support and armed-group activity.'
 topic: human-world

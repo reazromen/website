@@ -1,7 +1,7 @@
 ---
 title: 'Red Sea Attacks and Houthi Regional Operations Since 2023'
 url: /posts/red-sea-houthi-regional-attacks-2023-present.html
-date: '2026-10-15'
+date: '2018-10-28'
 read_time: 8
 excerpt: 'Houthi attacks on shipping and regional targets since 2023 connect Yemen’s war to maritime security and wider regional confrontation. They should be dated as a linked campaign, not automatically a separate war.'
 topic: human-world

@@ -1,7 +1,7 @@
 ---
 title: 'Sudan–South Sudan Border Clashes and Oil-Region Tensions'
 url: /posts/sudan-south-sudan-border-clashes.html
-date: '2026-10-15'
+date: '2021-09-27'
 read_time: 7
 excerpt: Borderland disputes between Sudan and South Sudan involve sovereignty, oil infrastructure and local armed actors, but require episode-specific classification.
 topic: human-world

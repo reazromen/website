@@ -1,7 +1,7 @@
 ---
 title: 'The Insurgency in Pakistan: Militancy, State Power, and Civilian Security'
 url: /posts/insurgency-in-pakistan-2004-present.html
-date: '2026-10-15'
+date: '2026-09-13'
 read_time: 8
 excerpt: Pakistan's armed conflict expanded from the mid-2000s through militant networks, military operations, cross-border dynamics, and recurring attacks on civilians.
 topic: human-world

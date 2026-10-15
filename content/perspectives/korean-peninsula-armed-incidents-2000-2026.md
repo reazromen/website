@@ -1,7 +1,7 @@
 ---
 title: 'Korean Peninsula Armed Incidents, 2000–2026'
 url: /posts/korean-peninsula-armed-incidents-2000-2026.html
-date: '2026-10-15'
+date: '2025-05-06'
 read_time: 7
 excerpt: 'The Korean Peninsula has experienced lethal border and maritime incidents, missile crises and military demonstrations. They must be dated individually rather than presented as a continuous post-2000 war.'
 topic: human-world

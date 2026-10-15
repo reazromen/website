@@ -1,7 +1,7 @@
 ---
 title: 'Papua New Guinea and Pacific Internal Armed Violence'
 url: /posts/papua-new-guinea-pacific-internal-armed-violence.html
-date: '2026-10-15'
+date: '2022-06-01'
 read_time: 7
 excerpt: 'Papua New Guinea has experienced serious local armed violence, particularly in the Highlands and Bougainville’s longer history. Cases need separate dates and actors rather than a broad Pacific-wide war label.'
 topic: human-world

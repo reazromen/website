@@ -1,7 +1,7 @@
 ---
 title: 'Nepal’s Maoist Conflict and Peace Transition, 2000–2006'
 url: /posts/nepal-maoist-conflict-transition-2000-2006.html
-date: '2026-10-15'
+date: '2019-08-24'
 read_time: 8
 excerpt: Nepal’s decade-long Maoist insurgency ended through a political transition and peace agreement, but accountability and justice for conflict-era abuses remained unresolved.
 topic: human-world

@@ -1,7 +1,7 @@
 ---
 title: "Mexico’s Drug War Since 2006: Cartel Fragmentation, State Force, and Organized Violence"
 url: /posts/mexican-drug-war-organized-armed-violence-2006-present.html
-date: '2026-10-15'
+date: '2020-01-02'
 read_time: 8
 excerpt: "Mexico’s organized violence includes cartel rivalries, state operations and civilian targeting, but homicide and criminal violence do not automatically meet UCDP armed-conflict criteria."
 topic: human-world

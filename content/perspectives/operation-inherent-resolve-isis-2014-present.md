@@ -1,7 +1,7 @@
 ---
 title: 'Operation Inherent Resolve Against the Islamic State, 2014 Onward'
 url: /posts/operation-inherent-resolve-isis-2014-present.html
-date: '2026-10-15'
+date: '2025-07-12'
 read_time: 8
 excerpt: 'Operation Inherent Resolve describes the US-led coalition campaign against the Islamic State in Iraq and Syria. It is an intervention layer within local conflicts, not a separate war by default.'
 topic: human-world

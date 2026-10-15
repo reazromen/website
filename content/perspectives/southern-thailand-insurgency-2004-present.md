@@ -1,7 +1,7 @@
 ---
 title: 'Southern Thailand Insurgency Since 2004: Separatism, Security, and Civilian Protection'
 url: /posts/southern-thailand-insurgency-2004-present.html
-date: '2026-10-15'
+date: '2022-06-05'
 read_time: 7
 excerpt: The renewed insurgency in Thailand’s Malay-Muslim south involves separatist organizations, state security operations and civilians affected by recurring attacks and emergency rule.
 topic: human-world

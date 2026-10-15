@@ -1,7 +1,7 @@
 ---
 title: 'Papua Conflict in Indonesia: Separatism, Security Operations, and Civilian Displacement'
 url: /posts/papua-conflict-indonesia.html
-date: '2026-10-15'
+date: '2023-09-11'
 read_time: 8
 excerpt: Papua’s conflict reflects a long dispute over political status, identity and state authority, with armed separatist activity and security operations affecting civilians across remote highland districts.
 topic: human-world

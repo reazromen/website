@@ -1,7 +1,7 @@
 ---
 title: 'The War in Darfur: Rebellion, Counterinsurgency, and Mass Displacement'
 url: /posts/darfur-war-sudan-2003.html
-date: '2026-10-15'
+date: '2018-06-14'
 read_time: 8
 excerpt: Darfur's war began in 2003 amid long-standing political and resource disputes and escalated into widespread attacks on civilians and mass displacement.
 topic: human-world

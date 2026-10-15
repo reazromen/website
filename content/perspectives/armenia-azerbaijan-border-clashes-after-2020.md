@@ -1,7 +1,7 @@
 ---
 title: 'Armenia–Azerbaijan Border Clashes After 2020: A Separate Front from Nagorno-Karabakh'
 url: /posts/armenia-azerbaijan-border-clashes-after-2020.html
-date: '2026-10-15'
+date: '2020-08-05'
 read_time: 7
 excerpt: 'Lethal clashes along the Armenia–Azerbaijan state border after the 2020 Nagorno-Karabakh war widened the conflict beyond the former line of contact and complicated regional diplomacy.'
 topic: human-world

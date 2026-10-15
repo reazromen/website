@@ -1,7 +1,7 @@
 ---
 title: 'The Philippine Communist Insurgency Since 2000: Negotiations, Rural Conflict, and Fragmentation'
 url: /posts/philippine-communist-insurgency-2000-present.html
-date: '2026-10-15'
+date: '2019-08-03'
 read_time: 7
 excerpt: The communist insurgency in the Philippines has persisted through peace initiatives, counterinsurgency campaigns and organizational splits, with distinct regional patterns and civilian consequences.
 topic: human-world

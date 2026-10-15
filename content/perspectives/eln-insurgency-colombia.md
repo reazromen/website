@@ -1,7 +1,7 @@
 ---
 title: "The ELN Insurgency in Colombia: A Separate Armed Campaign Within a Wider Conflict"
 url: /posts/eln-insurgency-colombia.html
-date: '2026-10-15'
+date: '2026-05-26'
 read_time: 7
 excerpt: "The ELN’s campaign overlaps with Colombia’s wider armed conflict but has its own leadership, geography and timeline. Separating the campaign helps prevent double-counting across conflict records."
 topic: human-world

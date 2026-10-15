@@ -1,7 +1,7 @@
 ---
 title: 'South Sudan’s Civil War and Recurrent Armed Violence, 2013 Onward'
 url: /posts/south-sudan-civil-war-recurrent-violence.html
-date: '2026-10-15'
+date: '2019-01-09'
 read_time: 7
 excerpt: South Sudan’s national civil war formally de-escalated after the 2018 peace agreement, but localized armed violence and political insecurity continued.
 topic: human-world

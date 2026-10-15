@@ -1,7 +1,7 @@
 ---
 title: 'Mexico–Central America Transnational Armed Groups: Networks and Local Conflicts'
 url: /posts/mexico-central-america-transnational-armed-groups.html
-date: '2026-10-15'
+date: '2019-08-16'
 read_time: 8
 excerpt: 'Criminal organizations and armed networks cross borders between Mexico and Central America, but migration, trafficking and high homicide rates are not automatically one regional war.'
 topic: human-world

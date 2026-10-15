@@ -1,7 +1,7 @@
 ---
 title: 'African Union and International Operations in Somalia'
 url: /posts/african-union-international-operations-somalia.html
-date: '2026-10-15'
+date: '2023-07-05'
 read_time: 8
 excerpt: 'African Union missions and international partners have supported Somali authorities against al-Shabaab, but their deployments are intervention layers within Somalia’s conflict.'
 topic: human-world

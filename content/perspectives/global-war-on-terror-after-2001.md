@@ -1,7 +1,7 @@
 ---
 title: 'The Global War on Terror After 2001: A Campaign Umbrella, Not One Conflict'
 url: /posts/global-war-on-terror-after-2001.html
-date: '2026-10-15'
+date: '2024-10-24'
 read_time: 8
 excerpt: 'The post-2001 Global War on Terror links multiple interventions and counterterrorism campaigns, but Afghanistan, Iraq, Somalia and other theatres have distinct parties and timelines.'
 topic: human-world

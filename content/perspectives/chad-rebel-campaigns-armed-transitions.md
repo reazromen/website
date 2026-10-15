@@ -1,7 +1,7 @@
 ---
 title: 'Chad’s Rebel Campaigns and Armed Transitions: Separate Episodes, Changing Coalitions'
 url: /posts/chad-rebel-campaigns-armed-transitions.html
-date: '2026-10-15'
+date: '2019-06-05'
 read_time: 6
 excerpt: 'Chad’s post-2000 armed history includes successive rebel coalitions, cross-border dynamics and political transitions that should not be collapsed into one continuous war.'
 topic: human-world

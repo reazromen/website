@@ -1,7 +1,7 @@
 ---
 title: 'Mindanao and the Moro Conflict: Autonomy, Peace Agreements, and Armed Splinter Groups'
 url: /posts/mindanao-moro-conflict.html
-date: '2026-10-15'
+date: '2023-11-06'
 read_time: 8
 excerpt: The Moro conflict in Mindanao has shifted from separatist war toward autonomy arrangements, while splinter factions and extremist groups have continued to pose distinct security and civilian-protection challenges.
 topic: human-world

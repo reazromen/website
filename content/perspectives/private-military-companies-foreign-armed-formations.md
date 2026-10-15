@@ -1,7 +1,7 @@
 ---
 title: 'Private Military Companies and Foreign Armed Formations'
 url: /posts/private-military-companies-foreign-armed-formations.html
-date: '2026-10-15'
+date: '2021-03-03'
 read_time: 8
 excerpt: 'Private military companies, state-linked formations and foreign volunteer units have appeared in multiple conflicts. Each deployment must be tied to a specific theatre, command relationship and evidence.'
 topic: human-world

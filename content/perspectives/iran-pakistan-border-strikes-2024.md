@@ -1,7 +1,7 @@
 ---
 title: 'Iran–Pakistan Border Strikes, January 2024: A Short Interstate Crisis'
 url: /posts/iran-pakistan-border-strikes-2024.html
-date: '2026-10-15'
+date: '2024-08-02'
 read_time: 7
 excerpt: The January 2024 Iran–Pakistan exchange was a brief but serious cross-border crisis, not a continuous war.
 topic: human-world

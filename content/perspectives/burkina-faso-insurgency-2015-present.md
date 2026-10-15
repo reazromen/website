@@ -1,7 +1,7 @@
 ---
 title: 'Burkina Faso’s Insurgency: Armed Groups, State Forces, and Civilian Defence'
 url: /posts/burkina-faso-insurgency-2015-present.html
-date: '2026-10-15'
+date: '2020-02-17'
 read_time: 6
 excerpt: 'Burkina Faso’s armed conflict has expanded from northern borderlands into a national crisis involving jihadist groups, state forces and civilian auxiliaries.'
 topic: human-world

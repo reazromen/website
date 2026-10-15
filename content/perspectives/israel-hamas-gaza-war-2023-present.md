@@ -1,7 +1,7 @@
 ---
 title: 'Israel–Hamas and the War in Gaza: Attacks, Hostilities, and Civilian Catastrophe'
 url: /posts/israel-hamas-gaza-war-2023-present.html
-date: '2026-10-15'
+date: '2025-10-16'
 read_time: 8
 excerpt: The war beginning in October 2023 followed Hamas-led attacks in Israel and Israel’s military campaign in Gaza, producing mass civilian harm and a prolonged humanitarian emergency.
 topic: human-world

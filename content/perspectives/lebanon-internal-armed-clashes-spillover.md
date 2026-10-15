@@ -1,7 +1,7 @@
 ---
 title: 'Lebanon’s Internal Armed Clashes and Regional Spillover'
 url: /posts/lebanon-internal-armed-clashes-spillover.html
-date: '2026-10-15'
+date: '2024-06-04'
 read_time: 8
 excerpt: Lebanon’s post-2000 security crises include discrete armed clashes, political violence and spillover from neighboring wars; not every crisis qualifies as a separate war.
 topic: human-world

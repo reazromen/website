@@ -1,7 +1,7 @@
 ---
 title: 'Afghanistan–Pakistan Border Conflict: Militancy, Sovereignty, and Escalation'
 url: /posts/afghanistan-pakistan-border-conflict.html
-date: '2026-10-15'
+date: '2021-10-03'
 read_time: 8
 excerpt: Afghanistan–Pakistan tensions combine militant cross-border activity, disputed frontier management and episodes of direct state force; the border theatre is distinct from both countries’ internal wars.
 topic: human-world

@@ -1,7 +1,7 @@
 ---
 title: 'Other Caribbean Organized Armed Violence: Scope and Classification'
 url: /posts/other-caribbean-organized-armed-violence.html
-date: '2026-10-15'
+date: '2023-02-11'
 read_time: 7
 excerpt: 'Caribbean countries face different patterns of gang violence, political violence and organized crime. These should be evaluated country by country rather than grouped into one regional armed conflict.'
 topic: human-world

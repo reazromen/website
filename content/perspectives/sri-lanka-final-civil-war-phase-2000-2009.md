@@ -1,7 +1,7 @@
 ---
 title: 'Sri Lanka’s Final Civil-War Phase, 2000–2009: War, Civilians, and an Unfinished Peace'
 url: /posts/sri-lanka-final-civil-war-phase-2000-2009.html
-date: '2026-10-15'
+date: '2021-04-20'
 read_time: 8
 excerpt: The final phase of Sri Lanka’s war between the government and the LTTE combined failed ceasefire diplomacy, renewed fighting, mass displacement, and unresolved questions of civilian protection and accountability.
 topic: human-world

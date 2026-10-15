@@ -1,7 +1,7 @@
 ---
 title: 'Transnistria and Moldova: The Post-2000 Security Status'
 url: /posts/transnistria-moldova-security-status.html
-date: '2026-10-15'
+date: '2020-06-04'
 read_time: 7
 excerpt: 'Transnistria remains a protracted territorial and security dispute with Russian forces present, but the post-2000 period should not be described as continuous active warfare without evidence of qualifying combat.'
 topic: human-world

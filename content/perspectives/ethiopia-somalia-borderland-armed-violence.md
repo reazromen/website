@@ -1,7 +1,7 @@
 ---
 title: 'The Ethiopia–Somalia Borderland: Regional Armed Violence and Cross-Border Risks'
 url: /posts/ethiopia-somalia-borderland-armed-violence.html
-date: '2026-10-15'
+date: '2025-12-07'
 read_time: 7
 excerpt: 'The Ethiopia–Somalia borderland contains several distinct security theatres involving state forces, local administrations and armed organizations. A regional label should not be mistaken for one continuous war.'
 topic: human-world

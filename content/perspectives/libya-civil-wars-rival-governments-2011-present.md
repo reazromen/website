@@ -1,7 +1,7 @@
 ---
 title: 'Libya’s Civil Wars and Rival Governments, 2011 Onward'
 url: /posts/libya-civil-wars-rival-governments-2011-present.html
-date: '2026-10-15'
+date: '2022-12-13'
 read_time: 7
 excerpt: Libya’s post-2011 violence consists of distinct wars, militia struggles and rival-government phases rather than one uninterrupted campaign.
 topic: human-world

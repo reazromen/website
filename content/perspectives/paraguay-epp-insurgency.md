@@ -1,7 +1,7 @@
 ---
 title: 'Paraguay’s EPP Insurgency: A Localized Armed Campaign'
 url: /posts/paraguay-epp-insurgency.html
-date: '2026-10-15'
+date: '2026-04-24'
 read_time: 7
 excerpt: 'The Paraguayan People’s Army has conducted a localized armed campaign, especially in northern Paraguay. Its scale and active years should be established from specific incidents, not generalized to the whole country.'
 topic: human-world

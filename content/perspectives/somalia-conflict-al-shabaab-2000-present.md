@@ -1,7 +1,7 @@
 ---
 title: 'Somalia’s Conflict and the al-Shabaab Insurgency'
 url: /posts/somalia-conflict-al-shabaab-2000-present.html
-date: '2026-10-15'
+date: '2022-08-20'
 read_time: 7
 excerpt: Somalia’s long-running conflict includes the federal state-building struggle, al-Shabaab’s insurgency, clan-level disputes and international military operations.
 topic: human-world

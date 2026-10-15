@@ -1,7 +1,7 @@
 ---
 title: 'The Marawi Siege of 2017: Urban Warfare, Displacement, and the Islamic State Connection'
 url: /posts/marawi-siege-2017.html
-date: '2026-10-15'
+date: '2022-03-16'
 read_time: 7
 excerpt: The 2017 battle for Marawi was a discrete urban conflict involving Philippine forces and pro-Islamic State militants, with long-lasting displacement and reconstruction consequences.
 topic: human-world

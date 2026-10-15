@@ -1,7 +1,7 @@
 ---
 title: 'Mozambique’s Cabo Delgado Insurgency: Local Grievances and Regional Intervention'
 url: /posts/mozambique-cabo-delgado-insurgency-2017-present.html
-date: '2026-10-15'
+date: '2025-05-15'
 read_time: 6
 excerpt: 'The Cabo Delgado insurgency combines jihadist violence, state operations, displacement and regional military intervention in northern Mozambique.'
 topic: human-world
