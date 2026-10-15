@@ -69,5 +69,3 @@
 <div aria-live="polite" class="command-results" id="command-results"></div><div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div></div></dialog>
 <script src="/assets/phase1.js"></script><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script><script src="/assets/telecom.js" defer></script>
 </body></html>
-
-[executed on device: hserver (e3ce91f8-8d4c-413e-b14d-04ad4fe8d7e3)]
