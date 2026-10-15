@@ -1,9 +1,9 @@
 ---
-title: "Ecuador’s Organized Armed Violence"
+title: 'Ecuador’s Organized Armed Violence and the Security Response'
 url: /posts/ecuador-organized-armed-violence.html
 date: '2026-10-15'
-read_time: 6
-excerpt: "Ecuador experienced a major deterioration in public security as criminal organizations and prison-based networks expanded their capacity for viol"
+read_time: 8
+excerpt: 'Ecuador’s sharp rise in organized violence involves criminal organizations, prison networks, port routes and state security operations. The conflict classification requires evidence about actors and organized lethal violence.'
 topic: human-world
 tags:
 - history
@@ -14,21 +14,22 @@ language: en
 eyebrow: Conflict Archive · Research Essay
 ---
 
-# Ecuador’s Organized Armed Violence
+# Ecuador’s Organized Armed Violence and the Security Response
 
-Ecuador experienced a major deterioration in public security as criminal organizations and prison-based networks expanded their capacity for violence. Rival groups have fought over routes, prisons and local control, while killings, extortion and attacks on officials have become central political issues. In January 2024, the government declared an internal armed conflict against named criminal organizations, a legal and policy decision that must be distinguished from independent conflict-data classification.
+Ecuador has experienced a major deterioration in public security as criminal organizations compete over trafficking routes, prison networks and local control. The country’s location between major cocaine-producing areas and maritime export routes has made ports and logistics infrastructure strategically important. But the shift from criminal violence to an armed-conflict classification requires explicit criteria and evidence.
 
-## Timeline and actors
+## Criminal networks and fragmentation
 
-The causes include competition over illicit markets, prison networks, weapons flows and institutional vulnerabilities. State emergency measures and military deployments can alter the balance but also raise questions about detention, due process and civilian protection. Gang labels and alliances may shift, so older descriptions can quickly become misleading.
+Organized groups in Ecuador have changed names, alliances and leadership as rivalries and state pressure altered their operating environment. Violence in prisons has intersected with street-level competition, extortion and attacks on officials. A label applied to a gang at one point may not describe the same coalition later. Analysts should therefore identify the group, period and event rather than assume a stable national front.
 
-## Scope and classification
+The government has deployed security forces and used emergency measures in response to escalating violence. In January 2024, the government publicly described an internal armed conflict and designated multiple criminal organizations as terrorist groups. That political and legal declaration is important to the history of state policy, but it does not automatically settle how every incident should be classified in comparative conflict datasets.
 
-This archive entry does not assume that every criminal killing is an armed-conflict event. It uses a cautious threshold: identifiable organized actors, a documented pattern of lethal violence and a clear time and place. The government’s legal terminology is part of the story, not conclusive proof that every episode belongs in the same conflict category.
+## What the data can and cannot say
 
-## Sources and further reading
+Homicide statistics measure deaths under a particular counting system; they do not by themselves identify perpetrators, command structures or the relationship between incidents. Prison killings, attacks on police, gang-on-gang violence and one-sided attacks on civilians should be disaggregated where the evidence allows. Allegations about organizational responsibility should be attributed to officials, investigators or independent reporting.
 
-- UNODC: https://www.unodc.org/
-- International Crisis Group: https://www.crisisgroup.org/
+## Archive treatment
 
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*
+This page records Ecuador as an evolving organized-violence case. It avoids claiming that all criminal violence forms one continuous war and leaves dataset classification open to actor- and event-level assessment. The archive should document when the government’s designation changed, what groups were named, and which events meet the chosen definition of armed conflict.
+
+**Sources and further reading:** [Ecuador’s Ministry of Government](https://www.ministeriodegobierno.gob.ec/); [UN Office on Drugs and Crime](https://www.unodc.org/); [UCDP datasets](https://ucdp.uu.se/downloads/).

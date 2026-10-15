@@ -144,7 +144,7 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 87. **South China Sea armed incidents and maritime confrontations** — include only events meeting the archive’s threshold for organized lethal violence; keep non-lethal coercion in a separate context file.
 88. **East Timor post-independence violence (2006)** — armed unrest and international intervention, classified carefully rather than automatically as a war. [Read the essay](/posts/east-timor-violence-2006.html).
 89. **Papua New Guinea and Pacific internal armed violence** — add only if a source-backed event meets the scope and threshold.
-90. **Other Myanmar ethnic theatres** — Chin, Shan and additional organized armed campaigns identified by dataset review, with distinct actor and time labels.
+90. **Other Myanmar ethnic theatres** — Chin, Shan and additional organized armed campaigns identified by dataset review, with distinct actor and time labels. [Read the essay](/posts/myanmar-other-ethnic-theatres-chin-shan.html).
 
 ## Americas and the Caribbean
 
@@ -152,21 +152,21 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 92. **FARC dissident groups after the peace agreement** — factionalization, territorial competition and post-accord status. [Read the essay](/posts/farc-dissident-groups-after-peace-agreement.html).
 93. **ELN insurgency in Colombia** — distinct actor and negotiation chronology within the wider conflict. [Read the essay](/posts/eln-insurgency-colombia.html).
 94. **Mexican drug war and organized armed violence (2006 onward)** — apply explicit conflict definitions; do not equate all cartel violence with conventional war. [Read the essay](/posts/mexican-drug-war-organized-armed-violence-2006-present.html).
-95. **Peru and Sendero Luminoso remnants** — distinguish the historical insurgency from later localized activity.
+95. **Peru and Sendero Luminoso remnants** — distinguish the historical insurgency from later localized activity. [Read the essay](/posts/peru-sendero-luminoso-remnants.html).
 96. **Paraguay’s EPP insurgency** — low-intensity armed campaign, tracked with careful threshold notes.
-97. **Haiti’s gang warfare and state-security crisis** — document organized armed violence and one-sided attacks while distinguishing the UCDP classification from the broader political crisis.
-98. **Ecuador’s organized armed violence** — track the escalation involving criminal organizations and state forces; clearly label the dataset and legal definitions used.
-99. **Brazil’s organized armed violence** — include only source-backed organized lethal campaigns; do not treat high homicide alone as a war.
-100. **Venezuela–Colombia borderland armed groups** — distinguish Colombian armed organizations, Venezuelan state involvement and local cross-border theatres.
-101. **Mexico–Central America transnational armed groups** — include discrete, documented conflicts, not migration or crime as such.
+97. **Haiti’s gang warfare and state-security crisis** — document organized armed violence and one-sided attacks while distinguishing the UCDP classification from the broader political crisis. [Read the essay](/posts/haiti-gang-warfare-state-security-crisis.html).
+98. **Ecuador’s organized armed violence** — track the escalation involving criminal organizations and state forces; clearly label the dataset and legal definitions used. [Read the essay](/posts/ecuador-organized-armed-violence.html).
+99. **Brazil’s organized armed violence** — include only source-backed organized lethal campaigns; do not treat high homicide alone as a war. [Read the essay](/posts/brazil-organized-armed-violence.html).
+100. **Venezuela–Colombia borderland armed groups** — distinguish Colombian armed organizations, Venezuelan state involvement and local cross-border theatres. [Read the essay](/posts/venezuela-colombia-border-armed-groups.html).
+101. **Mexico–Central America transnational armed groups** — include discrete, documented conflicts, not migration or crime as such. [Read the essay](/posts/mexico-central-america-transnational-armed-groups.html).
 102. **Other Caribbean organized armed violence** — include only where a defensible event-based threshold and reliable source record exist.
 
 ## International interventions and cross-border campaigns
 
 These entries are **relationship layers**, not automatically extra wars. Their events should be linked to the country or conflict pages above to avoid double counting.
 
-103. **Global War on Terror after 2001** — a policy and military campaign umbrella, not a single conflict.
-104. **US-led Afghanistan coalition operations** — linked to the Afghanistan conflict.
+103. **Global War on Terror after 2001** — a policy and military campaign umbrella, not a single conflict. [Read the essay](/posts/global-war-on-terror-after-2001.html).
+104. **US-led Afghanistan coalition operations** — linked to the Afghanistan conflict. [Read the essay](/posts/us-led-afghanistan-coalition-operations.html).
 105. **Operation Inherent Resolve against ISIS (2014 onward)** — Iraq and Syria theatres.
 106. **International intervention in Libya (2011)** — link to the Libyan civil war and regime change.
 107. **French-led Sahel operations (2013 onward)** — link each operation to Mali, Burkina Faso and Niger records.

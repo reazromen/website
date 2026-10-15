@@ -1,9 +1,9 @@
 ---
-title: "Mexico–Central America Transnational Armed Groups"
+title: 'Mexico–Central America Transnational Armed Groups: Networks and Local Conflicts'
 url: /posts/mexico-central-america-transnational-armed-groups.html
 date: '2026-10-15'
-read_time: 6
-excerpt: "Transnational criminal organizations and armed groups operate across parts of Mexico and Central America, using migration corridors, ports, roads"
+read_time: 8
+excerpt: 'Criminal organizations and armed networks cross borders between Mexico and Central America, but migration, trafficking and high homicide rates are not automatically one regional war.'
 topic: human-world
 tags:
 - history
@@ -14,21 +14,22 @@ language: en
 eyebrow: Conflict Archive · Research Essay
 ---
 
-# Mexico–Central America Transnational Armed Groups
+# Mexico–Central America Transnational Armed Groups: Networks and Local Conflicts
 
-Transnational criminal organizations and armed groups operate across parts of Mexico and Central America, using migration corridors, ports, roads and illicit markets. Their presence can intersect with local gangs, state security operations, extortion and attacks on civilians. Yet the organizations, patterns and intensity of violence differ substantially between countries and even between neighbouring municipalities.
+Organized criminal networks operating between Mexico and Central America are transnational in their logistics, recruitment, finance and trafficking routes. Yet their presence does not create a single unified regional war. The organizations involved change over time, and violence in one country may be shaped by local rivalries, state operations and different institutional conditions.
 
-## Timeline and actors
+## A fragmented landscape
 
-A regional label is useful for examining trafficking routes and organizational relationships, but it risks flattening distinct national contexts. Mexico’s cartel fragmentation, gang structures in the Northern Triangle, and local state responses should be documented separately. Migration itself must never be treated as evidence of criminal or armed-group membership.
+Mexico’s major criminal organizations have competed over trafficking corridors, local markets and political influence. In Central America, gangs, local criminal groups and other armed actors have operated within different historical and social settings. Some networks cooperate across borders; others fragment, compete or use intermediaries. A shared route or supplier does not prove a single chain of command.
 
-## Scope and classification
+Violence also varies by activity. Homicide, extortion, kidnapping, trafficking and attacks on state personnel may overlap but are not identical categories. Migration routes can be sites of exploitation and abuse, but migrants themselves should not be described as evidence of an armed conflict. Specific attacks need dates, locations, perpetrators where known and reliable sources.
 
-This entry is a cross-border index rather than a single conflict claim. A separate essay should be based on a defensible actor relationship, a defined period and reliable event evidence. Homicide, organized crime, gang conflict and state-based armed conflict are related but non-identical categories.
+## State response and classification
 
-## Sources and further reading
+Security policies have included military deployments, policing operations, extradition and cross-border cooperation. These may affect criminal groups without establishing direct armed conflict between the states involved. Comparative datasets use defined thresholds and actor categories; crime statistics and human-rights reporting may cover broader forms of violence. The measures should be presented side by side without pretending they count the same thing.
 
-- UNODC: https://www.unodc.org/
-- International Crisis Group: https://www.crisisgroup.org/
+## Archive treatment
 
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*
+This entry is a regional cross-index linking Mexico’s organized violence to specific Central American cases where evidence supports a distinct campaign. It does not treat the entire corridor as a war. The archive should prefer country- and actor-specific articles, while using this page to explain cross-border connections and prevent the same event from being counted twice.
+
+**Sources and further reading:** [UN Office on Drugs and Crime](https://www.unodc.org/); [International Organization for Migration](https://www.iom.int/); [UCDP datasets](https://ucdp.uu.se/downloads/).

@@ -168,3 +168,16 @@ The catalogue’s links identify where an essay exists; they do not substitute f
 - [Korean Peninsula Armed Incidents, 2000–2026](/posts/korean-peninsula-armed-incidents-2000-2026.html)
 - [China–India Border Clashes: Galwan and the Wider Line of Actual Control Dispute](/posts/china-india-border-clashes-galwan.html)
 - [East Timor’s 2006 Crisis: Armed Unrest, Displacement and International Intervention](/posts/east-timor-violence-2006.html)
+
+
+## Newly published research entries
+
+- [Other Myanmar Ethnic Theatres: Chin, Shan and Related Armed Campaigns](/posts/myanmar-other-ethnic-theatres-chin-shan.html)
+- [Peru and the Remnants of Sendero Luminoso](/posts/peru-sendero-luminoso-remnants.html)
+- [Haiti’s Gang Warfare and the State-Security Crisis](/posts/haiti-gang-warfare-state-security-crisis.html)
+- [Ecuador’s Organized Armed Violence and the Security Response](/posts/ecuador-organized-armed-violence.html)
+- [Brazil’s Organized Armed Violence: Factions, Milícias and State Operations](/posts/brazil-organized-armed-violence.html)
+- [Venezuela–Colombia Borderland Armed Groups and Cross-Border Violence](/posts/venezuela-colombia-border-armed-groups.html)
+- [Mexico–Central America Transnational Armed Groups: Networks and Local Conflicts](/posts/mexico-central-america-transnational-armed-groups.html)
+- [The Global War on Terror After 2001: A Campaign Umbrella, Not One Conflict](/posts/global-war-on-terror-after-2001.html)
+- [US-Led Coalition Operations in Afghanistan, 2001–2021](/posts/us-led-afghanistan-coalition-operations.html)
