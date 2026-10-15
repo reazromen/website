@@ -1,20 +1,50 @@
 title: Local Cultures
 browser_title: Local Cultures — Interests — Reaz Romen
-description: Explore Bangladesh's regional cultures through Jamdani weaving, Shital Pati, Baul music, Pahela Baishakh traditions and Dhaka rickshaw art, with historical context and credible sources.
+description: Explore Bangladesh's living cultural traditions through craft, music, festivals and urban visual culture, with historical context, careful sourcing and respect for local knowledge.
 url: /local-cultures.html
 draft: false
 body: |
-  Culture is lived locally. Language, food, music, craft, festivals, work, memory and relationships to land and water differ between communities and change over time. This collection starts with Bangladesh, documenting specific practices without treating any district or community as culturally uniform.
+  # Culture, seen up close
 
-  The articles below use documented sources to explain how traditions are practised, how knowledge passes between generations, and why the people who sustain them matter. UNESCO listings provide useful reference points, but a listing is not a substitute for local voices or the full diversity of lived experience.
+  Language, food, music, craft, festivals, work and memory take shape in particular places. This collection explores cultural practices in Bangladesh through the people who make, teach and sustain them—not as a single national checklist, but as varied traditions that continue to change.
 
-  ## Explore local cultures
+  The aim is to look beyond the finished object or public celebration and understand the knowledge, labour and relationships that make it possible.
 
-  Read across craft, music, public celebration and urban visual culture. Each article distinguishes documented information from interpretation and points to its principal sources.
+  ---
 
-  ## Editorial approach
+  ## Craft and material knowledge
 
-  Traditions are not frozen in the past. Migration, technology, trade, education, climate and generational choices shape them. These articles aim to avoid stereotypes, credit practitioners, and distinguish historical evidence from popular stories.
+  From Jamdani's intricate handloom patterns to the cool, flexible surface of Shital Pati, everyday materials carry specialised skills. These stories look at how techniques are learned, how work is organised, and what it takes for a craft to remain economically viable.
+
+  ## Music and oral tradition
+
+  Songs travel through listening, memory, practice and performance. Baul traditions show how a repertoire can carry philosophical questions and inherited knowledge while remaining open to interpretation and change.
+
+  ## Festivals and public life
+
+  Public celebrations are also acts of making. Mangal Shobhajatra brings students, teachers, artists and audiences together through masks, large-scale forms and a procession that connects the Bengali New Year with shared public space.
+
+  ## Urban visual culture
+
+  Culture is made in cities as well as villages. Dhaka's decorated rickshaws bring painting and craft into the street, turning everyday transport into a moving gallery shaped by artists, workshops, customers and changing tastes.
+
+  ---
+
+  ## Read the collection
+
+  These articles combine documented historical details with interpretation. Each links to a principal source, and none should be mistaken for field reporting or a substitute for the voices of practitioners.
+
+  ## How these stories are approached
+
+  **Living traditions, not frozen relics.** Migration, technology, trade, climate, markets and generational choices affect how practices continue.
+
+  **Evidence before certainty.** Institutional records and published sources are identified; oral histories and popular accounts should be labelled as such rather than presented as settled fact.
+
+  **People before stereotypes.** No single craft, festival or musical tradition represents every person in a region. Practitioners are skilled people working within real social and economic conditions.
+
+  ## A growing field notebook
+
+  This is an evolving collection. Future entries can follow regional language and expression, foodways, river and coastal livelihoods, weaving and craft, seasonal festivals, oral histories and local knowledge. New work should add specific places and voices rather than make broad claims about entire communities.
 lists:
   - filter:
       section: local-cultures
