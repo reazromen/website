@@ -135,10 +135,10 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 78. **Rakhine and Arakan Army conflict** — track the pre-coup phase and later escalation. [Read the essay](/posts/rakhine-arakan-army-conflict.html).
 79. **Rohingya persecution, mass displacement and armed violence** — distinguish one-sided violence, displacement, insurgent activity and the wider Myanmar conflict; do not reduce it to a single “war.”
 80. **Southern Thailand insurgency (2004 onward)** — Malay-Muslim separatist groups and Thai security forces. [Read the essay](/posts/southern-thailand-insurgency-2004-present.html).
-81. **Philippine communist insurgency** — CPP–NPA and state forces, with time-specific regional records.
-82. **Mindanao and Moro conflict** — MILF, MNLF, government forces and post-agreement violence; separate the Marawi siege.
-83. **Marawi siege (2017)** — ISIS-linked militants and Philippine forces, nested in the wider Mindanao conflict.
-84. **Papua conflict in Indonesia** — separatist armed groups and Indonesian security forces.
+81. **Philippine communist insurgency** — CPP–NPA and state forces, with time-specific regional records. [Read the essay](/posts/philippine-communist-insurgency-2000-present.html).
+82. **Mindanao and Moro conflict** — MILF, MNLF, government forces and post-agreement violence; separate the Marawi siege. [Read the essay](/posts/mindanao-moro-conflict.html).
+83. **Marawi siege (2017)** — ISIS-linked militants and Philippine forces, nested in the wider Mindanao conflict. [Read the essay](/posts/marawi-siege-2017.html).
+84. **Papua conflict in Indonesia** — separatist armed groups and Indonesian security forces. [Read the essay](/posts/papua-conflict-indonesia.html).
 85. **Korean Peninsula armed incidents** — discrete lethal incidents and exchanges; do not call the whole period a continuous war.
 86. **China–India border clashes (including 2020 Galwan)** — distinguish lethal clashes from the wider border dispute.
 87. **South China Sea armed incidents and maritime confrontations** — include only events meeting the archive’s threshold for organized lethal violence; keep non-lethal coercion in a separate context file.
