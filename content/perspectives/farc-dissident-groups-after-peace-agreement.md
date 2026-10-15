@@ -1,3 +1,19 @@
+---
+title: "FARC Dissident Groups After Colombia’s 2016 Peace Agreement"
+url: /posts/farc-dissident-groups-after-peace-agreement.html
+date: '2026-10-15'
+read_time: 7
+excerpt: "The 2016 FARC agreement transformed Colombia’s conflict, but dissident organizations emerged with distinct leadership and regional trajectories. They should not be treated as a single unified actor."
+topic: human-world
+tags:
+- history
+- war
+draft: false
+featured: false
+language: en
+eyebrow: Conflict Archive · Research Essay
+---
+
 # FARC Dissident Groups After Colombia’s 2016 Peace Agreement
 
 The 2016 peace agreement between Colombia’s government and the Revolutionary Armed Forces of Colombia (FARC) was a turning point, but it did not produce a single, uniform post-conflict landscape. Most of the FARC’s principal organization demobilized and entered a political transition. Some former members rejected the agreement, while other networks later rearmed or formed new alliances. These organizations are often collectively called FARC dissidents, but the term can conceal substantial differences.

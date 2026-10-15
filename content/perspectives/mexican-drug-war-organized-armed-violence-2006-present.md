@@ -1,3 +1,19 @@
+---
+title: "Mexico’s Drug War Since 2006: Cartel Fragmentation, State Force, and Organized Violence"
+url: /posts/mexican-drug-war-organized-armed-violence-2006-present.html
+date: '2026-10-15'
+read_time: 8
+excerpt: "Mexico’s organized violence includes cartel rivalries, state operations and civilian targeting, but homicide and criminal violence do not automatically meet UCDP armed-conflict criteria."
+topic: human-world
+tags:
+- history
+- war
+draft: false
+featured: false
+language: en
+eyebrow: Conflict Archive · Research Essay
+---
+
 # Mexico’s Drug War Since 2006: Cartel Fragmentation, State Force, and Organized Violence
 
 Mexico’s escalation of military operations against drug-trafficking organizations in 2006 marked a major phase in the country’s modern security crisis. Since then, organized violence has been shaped by federal and state security strategies, competition among criminal organizations, fragmentation of larger groups, and local struggles over trafficking routes, extortion and territorial control. The term “drug war” is widely used, but it does not automatically mean that every violent incident qualifies as an armed conflict under a particular dataset’s definition.

@@ -1,3 +1,19 @@
+---
+title: "The ELN Insurgency in Colombia: A Separate Armed Campaign Within a Wider Conflict"
+url: /posts/eln-insurgency-colombia.html
+date: '2026-10-15'
+read_time: 7
+excerpt: "The ELN’s campaign overlaps with Colombia’s wider armed conflict but has its own leadership, geography and timeline. Separating the campaign helps prevent double-counting across conflict records."
+topic: human-world
+tags:
+- history
+- war
+draft: false
+featured: false
+language: en
+eyebrow: Conflict Archive · Research Essay
+---
+
 # The ELN Insurgency in Colombia: A Separate Armed Campaign Within a Wider Conflict
 
 The National Liberation Army (Ejército de Liberación Nacional, ELN) is a long-running Colombian guerrilla organization whose armed campaign has continued through major changes in the country’s wider conflict. Although the ELN and the former FARC have sometimes operated in the same regions and faced the same state forces, they are distinct organizations with separate leadership, histories and negotiating strategies.
