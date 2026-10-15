@@ -1,51 +1,51 @@
-title: Observability & Infrastructure
-browser_title: Observability & Infrastructure — Reaz Romen
-description: How I operate and observe a multi-service Linux platform: metrics, logs, probes, dashboards, alert validation, network visibility, secure access and recovery engineering.
+title: "Observability & Infrastructure"
+browser_title: "Observability & Infrastructure — Reaz Romen"
+description: "How I operate and observe a multi-service Linux platform: metrics, logs, probes, dashboards, alert validation, network visibility, secure access and recovery engineering."
 url: /observability.html
 draft: false
 blocks:
 - id: BLOCK0
-  label: ENGINEERING / OBSERVABILITY
-  body: ENGINEERING / OBSERVABILITY
+  label: "ENGINEERING / OBSERVABILITY"
+  body: "ENGINEERING / OBSERVABILITY"
 - id: BLOCK1
-  label: Observe the system, not just the processes.
-  body: Observe the system, not just the processes.
+  label: "Observe the system, not just the processes."
+  body: "Observe the system, not just the processes."
 - id: BLOCK2
-  label: A practical engineering notebook on how I build, monitor, troubleshoot and recover a multi-service Linux environment—from host and containers to public endpoints, databases, voice services and the monitoring stack itself.
-  body: A practical engineering notebook on how I build, monitor, troubleshoot and recover a multi-service Linux environment—from host and containers to public endpoints, databases, voice services and the monitoring stack itself.
+  label: "A practical engineering notebook on how I build, monitor, troubleshoot and recover a multi-service Linux environment—from host and containers to public endpoints, databases, voice services and the monitoring stack itself."
+  body: "A practical engineering notebook on how I build, monitor, troubleshoot and recover a multi-service Linux environment—from host and containers to public endpoints, databases, voice services and the monitoring stack itself."
 - id: BLOCK3
-  label: The platform we built
-  body: The platform we built
+  label: "The platform we built"
+  body: "The platform we built"
 - id: BLOCK4
-  label: I started with Linux, Docker, remote access and individual services. As the system grew, I added a consistent operations layer: a central service overview, secure ingress, private administration, authentication, metrics, logs, health probes, alert routing, topology views and documented recovery paths. The aim is to understand whether a service is actually useful to a user—not merely whether its container exists.
-  body: I started with Linux, Docker, remote access and individual services. As the system grew, I added a consistent operations layer: a central service overview, secure ingress, private administration, authentication, metrics, logs, health probes, alert routing, topology views and documented recovery paths. The aim is to understand whether a service is actually useful to a user—not merely whether its container exists.
+  label: "I started with Linux, Docker, remote access and individual services. As the system grew, I added a consistent operations layer: a central service overview, secure ingress, private administration, authentication, metrics, logs, health probes, alert routing, topology views and documented recovery paths. The aim is to understand whether a service is actually useful to a user—not merely whether its container exists."
+  body: "I started with Linux, Docker, remote access and individual services. As the system grew, I added a consistent operations layer: a central service overview, secure ingress, private administration, authentication, metrics, logs, health probes, alert routing, topology views and documented recovery paths. The aim is to understand whether a service is actually useful to a user—not merely whether its container exists."
 - id: BLOCK5
-  label: How the observability stack works
-  body: How the observability stack works
+  label: "How the observability stack works"
+  body: "How the observability stack works"
 - id: BLOCK6
-  label: Prometheus collects host, container and application metrics. Exporters and purpose-built probes cover operating-system resources, Docker workloads, public HTTPS/DNS/TLS reachability, database availability and voice-service signals. Grafana turns those signals into overview and drill-down dashboards; Loki with Alloy supports log correlation, while other log/search services are used where appropriate.
-  body: Prometheus collects host, container and application metrics. Exporters and purpose-built probes cover operating-system resources, Docker workloads, public HTTPS/DNS/TLS reachability, database availability and voice-service signals. Grafana turns those signals into overview and drill-down dashboards; Loki with Alloy supports log correlation, while other log/search services are used where appropriate.
+  label: "Prometheus collects host, container and application metrics. Exporters and purpose-built probes cover operating-system resources, Docker workloads, public HTTPS/DNS/TLS reachability, database availability and voice-service signals. Grafana turns those signals into overview and drill-down dashboards; Loki with Alloy supports log correlation, while other log/search services are used where appropriate."
+  body: "Prometheus collects host, container and application metrics. Exporters and purpose-built probes cover operating-system resources, Docker workloads, public HTTPS/DNS/TLS reachability, database availability and voice-service signals. Grafana turns those signals into overview and drill-down dashboards; Loki with Alloy supports log correlation, while other log/search services are used where appropriate."
 - id: BLOCK7
-  label: Alerts are tested, not assumed
-  body: Alerts are tested, not assumed
+  label: "Alerts are tested, not assumed"
+  body: "Alerts are tested, not assumed"
 - id: BLOCK8
-  label: I validate the complete path: create a controlled failure, confirm the underlying metric, inspect the PromQL rule and label matching, verify the alert state, then test delivery and resolution. This caught a real case where metrics were present but a label-matching problem prevented the expected alert from firing. External probes and freshness checks help distinguish an actual outage from stale or incomplete telemetry.
-  body: I validate the complete path: create a controlled failure, confirm the underlying metric, inspect the PromQL rule and label matching, verify the alert state, then test delivery and resolution. This caught a real case where metrics were present but a label-matching problem prevented the expected alert from firing. External probes and freshness checks help distinguish an actual outage from stale or incomplete telemetry.
+  label: "I validate the complete path: create a controlled failure, confirm the underlying metric, inspect the PromQL rule and label matching, verify the alert state, then test delivery and resolution. This caught a real case where metrics were present but a label-matching problem prevented the expected alert from firing. External probes and freshness checks help distinguish an actual outage from stale or incomplete telemetry."
+  body: "I validate the complete path: create a controlled failure, confirm the underlying metric, inspect the PromQL rule and label matching, verify the alert state, then test delivery and resolution. This caught a real case where metrics were present but a label-matching problem prevented the expected alert from firing. External probes and freshness checks help distinguish an actual outage from stale or incomplete telemetry."
 - id: BLOCK9
-  label: Operations beyond dashboards
-  body: Operations beyond dashboards
+  label: "Operations beyond dashboards"
+  body: "Operations beyond dashboards"
 - id: BLOCK10
-  label: The work also includes service and network-flow maps, packet-path investigation, payload capture pipelines, authenticated operator tools, configuration review, secret lifecycle, backup freshness and integrity checks, restore verification, storage headroom, and recovery procedures. Service state, dependency health, public reachability and operator intent are treated as different signals rather than collapsed into one green light.
-  body: The work also includes service and network-flow maps, packet-path investigation, payload capture pipelines, authenticated operator tools, configuration review, secret lifecycle, backup freshness and integrity checks, restore verification, storage headroom, and recovery procedures. Service state, dependency health, public reachability and operator intent are treated as different signals rather than collapsed into one green light.
+  label: "The work also includes service and network-flow maps, packet-path investigation, payload capture pipelines, authenticated operator tools, configuration review, secret lifecycle, backup freshness and integrity checks, restore verification, storage headroom, and recovery procedures. Service state, dependency health, public reachability and operator intent are treated as different signals rather than collapsed into one green light."
+  body: "The work also includes service and network-flow maps, packet-path investigation, payload capture pipelines, authenticated operator tools, configuration review, secret lifecycle, backup freshness and integrity checks, restore verification, storage headroom, and recovery procedures. Service state, dependency health, public reachability and operator intent are treated as different signals rather than collapsed into one green light."
 - id: BLOCK11
-  label: Engineering for constrained hardware
-  body: Engineering for constrained hardware
+  label: "Engineering for constrained hardware"
+  body: "Engineering for constrained hardware"
 - id: BLOCK12
-  label: Monitoring shares CPU, RAM and storage with the applications it observes. I budget exporters, scrape intervals, metric cardinality, retention, log volume and dashboard queries; I also monitor the monitoring pipeline for stale data or dropped logs. That keeps the system useful on modest hardware instead of allowing observability itself to become the outage.
-  body: Monitoring shares CPU, RAM and storage with the applications it observes. I budget exporters, scrape intervals, metric cardinality, retention, log volume and dashboard queries; I also monitor the monitoring pipeline for stale data or dropped logs. That keeps the system useful on modest hardware instead of allowing observability itself to become the outage.
+  label: "Monitoring shares CPU, RAM and storage with the applications it observes. I budget exporters, scrape intervals, metric cardinality, retention, log volume and dashboard queries; I also monitor the monitoring pipeline for stale data or dropped logs. That keeps the system useful on modest hardware instead of allowing observability itself to become the outage."
+  body: "Monitoring shares CPU, RAM and storage with the applications it observes. I budget exporters, scrape intervals, metric cardinality, retention, log volume and dashboard queries; I also monitor the monitoring pipeline for stale data or dropped logs. That keeps the system useful on modest hardware instead of allowing observability itself to become the outage."
 - id: BLOCK13
-  label: Projects and implementation notes
-  body: Projects and implementation notes
+  label: "Projects and implementation notes"
+  body: "Projects and implementation notes"
 lists:
 - key: LIST0
   filter:
