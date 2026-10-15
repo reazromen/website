@@ -21,12 +21,21 @@ main:
   - label: Specs & Technical Documents
     href: /specs.html
     enabled: true
-- label: Culture
-  href: /culture.html
+- label: Interests
+  href: /interests.html
   enabled: true
   children:
   - label: Archaeology
     href: /archaeology.html
+    enabled: true
+  - label: Heritage
+    href: /heritage.html
+    enabled: true
+  - label: Local Cultures
+    href: /local-cultures.html
+    enabled: true
+  - label: World Cultures
+    href: /world-cultures.html
     enabled: true
   - label: Music
     href: /music.html
