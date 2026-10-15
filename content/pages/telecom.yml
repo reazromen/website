@@ -1,32 +1,78 @@
 title: Telecom
 browser_title: Telecom — Reaz Romen
-description: 'Telecommunications, voice infrastructure, SIP and RTP, PBX systems, carrier interconnects, network engineering and AI voice.'
+description: Telecommunications, SIP, RTP, PBX infrastructure, carrier networks, embedded voice and AI calling.
 url: /telecom.html
 draft: false
-body: 'Telecommunications is where protocols meet real networks and real people. This section brings together practical engineering notes on voice systems, signalling, media transport, carrier connectivity, network reliability and the changing boundary between telecom and AI.
-
-## Voice over IP
-
-SIP signalling, RTP media, call flows, registration, routing, NAT traversal, codecs, interoperability and troubleshooting across real deployments.
-
-[Explore voice and VoIP topics →](/topics.html)
-
-## PBX and carrier infrastructure
-
-Asterisk, OpenSIPS, FreeSWITCH, trunks, DIDs, dial plans, routing policy, call-centre infrastructure, observability and production operations.
-
-## Networks and protocols
-
-How packets, addressing, routing, DNS, timing, quality of service and failure modes shape communication systems from endpoint to carrier edge.
-
-## AI voice systems
-
-Voice agents, speech pipelines and automation integrated with telephony, with attention to latency, call control, reliability, privacy and the limits of automation.
-
-## Embedded communications
-
-Connected devices, SIP endpoints, ESP32-class hardware, audio pipelines, provisioning and over-the-air updates where embedded systems meet telecom.
-
-## Editorial approach
-
-The goal is to explain the system underneath the call: distinguish protocol behaviour from implementation choices, describe trade-offs, and separate verified observations from hypotheses. Case studies should reflect actual work and evidence rather than invented performance claims.'
+blocks:
+- id: BLOCK0
+  label: TELECOM · VOICE · NETWORKS
+  body: TELECOM · VOICE · NETWORKS
+- id: BLOCK1
+  label: Communication systems, from signalling to speech.
+  body: Communication systems, from signalling to speech.
+- id: BLOCK2
+  label: Practical notes on SIP and RTP, PBX infrastructure, carrier networks, embedded voice and AI calling.
+  body: Practical notes on SIP and RTP, PBX infrastructure, carrier networks, embedded voice and AI calling. Explore by engineering area, then go deeper through evidence-led articles and project notes.
+- id: BLOCK3
+  label: VoIP & real-time communications
+  body: VoIP & real-time communications
+- id: BLOCK4
+  label: SIP registration and call flows, RTP media, codecs, NAT traversal, WebRTC, timing and interoperability.
+  body: SIP registration and call flows, RTP media, codecs, NAT traversal, WebRTC, timing and interoperability.
+- id: BLOCK5
+  label: PBX & carrier infrastructure
+  body: PBX & carrier infrastructure
+- id: BLOCK6
+  label: Asterisk, OpenSIPS, FreeSWITCH, trunks, DIDs, dial plans, routing, call-centre systems and observability.
+  body: Asterisk, OpenSIPS, FreeSWITCH, trunks, DIDs, dial plans, routing, call-centre systems and observability.
+- id: BLOCK7
+  label: AI voice & automation
+  body: AI voice & automation
+- id: BLOCK8
+  label: Voice agents and speech pipelines integrated with telephony, with latency, reliability, privacy and control in view.
+  body: Voice agents and speech pipelines integrated with telephony, with latency, reliability, privacy and control in view.
+- id: BLOCK9
+  label: Embedded communications
+  body: Embedded communications
+- id: BLOCK10
+  label: Connected endpoints, ESP32-class devices, audio pipelines, provisioning, firmware and over-the-air updates.
+  body: Connected endpoints, ESP32-class devices, audio pipelines, provisioning, firmware and over-the-air updates.
+- id: BLOCK11
+  label: Production networks & operations
+  body: Production networks & operations
+- id: BLOCK12
+  label: Troubleshooting, monitoring, change safety and the failure modes that only appear in real systems.
+  body: Troubleshooting, monitoring, change safety and the failure modes that only appear in real systems.
+- id: BLOCK13
+  label: RECENT NOTES · FILTERABLE
+  body: RECENT NOTES · FILTERABLE
+lists:
+- key: LIST0
+  filter:
+    topic: telecom-voip
+    limit: 12
+  style: cards
+template: cms/templates/pages/telecom.tpl
+source: cms/templates/pages/telecom.json
+links:
+- id: LINK0
+  label: Browse all telecom articles
+  url: /topics/telecom-voip.html
+- id: LINK1
+  label: Communications projects
+  url: /domains/communications-voice.html
+- id: LINK2
+  label: VoIP & real-time communications
+  url: /topics/telecom-voip.html
+- id: LINK3
+  label: PBX & carrier infrastructure
+  url: /domains/communications-voice.html
+- id: LINK4
+  label: AI voice & automation
+  url: /domains/ai-automation.html
+- id: LINK5
+  label: Embedded communications
+  url: /topics/embedded-audio-voice.html
+- id: LINK6
+  label: Production networks & operations
+  url: /topics/production-engineering.html

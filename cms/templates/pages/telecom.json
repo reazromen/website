@@ -1,0 +1,58 @@
+{
+  "BLOCK0": {
+    "html": "TELECOM · VOICE · NETWORKS",
+    "inline": true
+  },
+  "BLOCK1": {
+    "html": "Communication systems, from signalling to speech.",
+    "inline": true
+  },
+  "BLOCK2": {
+    "html": "Practical notes on SIP and RTP, PBX infrastructure, carrier networks, embedded voice and AI calling. Explore by engineering area, then go deeper through evidence-led articles and project notes.",
+    "inline": true
+  },
+  "BLOCK3": {
+    "html": "VoIP & real-time communications",
+    "inline": true
+  },
+  "BLOCK4": {
+    "html": "SIP registration and call flows, RTP media, codecs, NAT traversal, WebRTC, timing and interoperability.",
+    "inline": true
+  },
+  "BLOCK5": {
+    "html": "PBX & carrier infrastructure",
+    "inline": true
+  },
+  "BLOCK6": {
+    "html": "Asterisk, OpenSIPS, FreeSWITCH, trunks, DIDs, dial plans, routing, call-centre systems and observability.",
+    "inline": true
+  },
+  "BLOCK7": {
+    "html": "AI voice & automation",
+    "inline": true
+  },
+  "BLOCK8": {
+    "html": "Voice agents and speech pipelines integrated with telephony, with latency, reliability, privacy and control in view.",
+    "inline": true
+  },
+  "BLOCK9": {
+    "html": "Embedded communications",
+    "inline": true
+  },
+  "BLOCK10": {
+    "html": "Connected endpoints, ESP32-class devices, audio pipelines, provisioning, firmware and over-the-air updates.",
+    "inline": true
+  },
+  "BLOCK11": {
+    "html": "Production networks & operations",
+    "inline": true
+  },
+  "BLOCK12": {
+    "html": "Troubleshooting, monitoring, change safety and the failure modes that only appear in real systems.",
+    "inline": true
+  },
+  "BLOCK13": {
+    "html": "RECENT NOTES · FILTERABLE",
+    "inline": true
+  }
+}
