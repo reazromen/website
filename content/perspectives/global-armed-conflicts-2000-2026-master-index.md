@@ -116,8 +116,8 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 
 63. **Russo-Georgian war (2008)** — interstate war and its aftermath. [Read the essay](/posts/russo-georgian-war-2008.html).
 64. **Russo-Ukrainian war (2014 onward)** — Crimea, Donbas and the full-scale invasion from February 2022; connect phases without erasing their differences. [Read the essay](/posts/russo-ukrainian-war-2014-present.html).
-65. **War in Donbas (2014–2022)** — separatist forces, Ukraine and external involvement, nested within the broader Russo-Ukrainian conflict.
-66. **Russia’s full-scale invasion of Ukraine (2022 onward)** — major campaigns, occupation, strikes and civilian impact.
+65. **War in Donbas (2014–2022)** — separatist forces, Ukraine and external involvement, nested within the broader Russo-Ukrainian conflict. [Read the essay](/posts/war-in-donbas-2014-2022.html).
+66. **Russia’s full-scale invasion of Ukraine (2022 onward)** — major campaigns, occupation, strikes and civilian impact. [Read the essay](/posts/russia-full-scale-invasion-ukraine-2022-present.html).
 67. **Nagorno-Karabakh conflict and 2020 war** — Armenia, Azerbaijan and de facto Karabakh forces; include the 2023 Azerbaijani offensive and displacement as a distinct phase.
 68. **Armenia–Azerbaijan border clashes after 2020** — track separately from the Nagorno-Karabakh theatre.
 69. **Chechen and North Caucasus insurgencies** — the Second Chechen War’s final period and later insurgency.

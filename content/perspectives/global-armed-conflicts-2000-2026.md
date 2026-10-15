@@ -95,7 +95,7 @@ This catalogue is the navigation layer for the [master research index](/posts/gl
 
 ## Europe and Eurasia
 
-- [Russo-Georgian War of August 2008](/posts/russo-georgian-war-2008.html) — a discrete interstate war, distinguished from the earlier South Ossetia and Abkhazia conflicts and later boundary-line incidents.\n\nThe next research batch covers Russia’s war against Ukraine and its distinct phases, Nagorno-Karabakh, the North Caucasus, Kosovo–Serbia incidents, and external intervention layers. These are tracked in the [master index](/posts/global-armed-conflicts-2000-2026-master-index.html); entries must remain distinct where their actors, legal character or time periods differ.
+- [Russo-Georgian War of August 2008](/posts/russo-georgian-war-2008.html) — a discrete interstate war, distinguished from the earlier South Ossetia and Abkhazia conflicts and later boundary-line incidents.\n- [Russo-Ukrainian War since 2014](/posts/russo-ukrainian-war-2014-present.html) — the umbrella chronology linking Crimea, Donbas and the full-scale invasion.\n- [War in Donbas, 2014–2022](/posts/war-in-donbas-2014-2022.html) — the distinct eastern front before the full-scale invasion.\n- [Russia’s full-scale invasion of Ukraine since 2022](/posts/russia-full-scale-invasion-ukraine-2022-present.html) — nationwide war phase and civilian consequences.\n\nThe next research batch covers Russia’s war against Ukraine and its distinct phases, Nagorno-Karabakh, the North Caucasus, Kosovo–Serbia incidents, and external intervention layers. These are tracked in the [master index](/posts/global-armed-conflicts-2000-2026-master-index.html); entries must remain distinct where their actors, legal character or time periods differ.
 
 ## East Asia, Southeast Asia and Oceania
 
