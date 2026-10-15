@@ -1,7 +1,7 @@
 ---
 title: 'The War in Afghanistan, 2001–2021: Two Decades of Intervention and Insurgency'
 url: /posts/war-in-afghanistan-2001-2021.html
-date: '2026-10-15'
+date: '2023-10-26'
 read_time: 9
 excerpt: The Afghanistan war began after the September 11 attacks and became a twenty-year conflict involving foreign intervention, the Taliban, Afghan governments, and civilians.
 topic: human-world
