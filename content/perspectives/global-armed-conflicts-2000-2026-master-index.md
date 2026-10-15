@@ -130,11 +130,11 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 ## East Asia, Southeast Asia and Oceania
 
 75. **Myanmar civil war and nationwide resistance (2021 onward)** — military authorities, resistance forces, ethnic armed organizations and civilian impact.
-76. **Myanmar’s Kachin conflict** — KIA and state forces; connect to the wider Myanmar conflict without losing its history.
-77. **Karen and Karenni conflicts in Myanmar** — distinct ethnic armed movements and theatres.
-78. **Rakhine and Arakan Army conflict** — track the pre-coup phase and later escalation.
+76. **Myanmar’s Kachin conflict** — KIA and state forces; connect to the wider Myanmar conflict without losing its history. [Read the essay](/posts/myanmar-kachin-conflict.html).
+77. **Karen and Karenni conflicts in Myanmar** — distinct ethnic armed movements and theatres. [Read the essay](/posts/myanmar-karen-karenni-conflicts.html).
+78. **Rakhine and Arakan Army conflict** — track the pre-coup phase and later escalation. [Read the essay](/posts/rakhine-arakan-army-conflict.html).
 79. **Rohingya persecution, mass displacement and armed violence** — distinguish one-sided violence, displacement, insurgent activity and the wider Myanmar conflict; do not reduce it to a single “war.”
-80. **Southern Thailand insurgency (2004 onward)** — Malay-Muslim separatist groups and Thai security forces.
+80. **Southern Thailand insurgency (2004 onward)** — Malay-Muslim separatist groups and Thai security forces. [Read the essay](/posts/southern-thailand-insurgency-2004-present.html).
 81. **Philippine communist insurgency** — CPP–NPA and state forces, with time-specific regional records.
 82. **Mindanao and Moro conflict** — MILF, MNLF, government forces and post-agreement violence; separate the Marawi siege.
 83. **Marawi siege (2017)** — ISIS-linked militants and Philippine forces, nested in the wider Mindanao conflict.
