@@ -98,3 +98,24 @@ body.rr-themed{--bg:var(--bg);--panel:transparent;--text:var(--text-strong);--so
 .culture-principles strong{display:block;color:var(--text-strong);font-size:.9rem}
 .prose .culture-principles p{margin:.5rem 0 0;color:var(--muted);font-size:.87rem;line-height:1.65}
 @media(max-width:640px){.culture-index{grid-template-columns:minmax(0,1fr);margin:1.5rem 0 2rem}.culture-index>a{padding:.8rem 0}.culture-kicker>span:last-child{margin-left:0}.culture-principles{grid-template-columns:minmax(0,1fr);gap:.3rem}.culture-principles>div{padding:.9rem 0}.prose .culture-section-title{margin-top:2rem;font-size:1.04rem}}
+
+
+/* World Cultures — regional index, aligned with the Local Cultures editorial system. */
+.world-culture-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:2rem 0 2.4rem;padding:1rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.world-culture-stats>div{display:grid;grid-template-columns:30px minmax(0,1fr);align-items:center;gap:.65rem;min-width:0}
+.world-stat-icon{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border:1px solid var(--line-soft);border-radius:7px;color:var(--accent)}
+.world-stat-icon .tech-icon{width:15px;height:15px}
+.world-culture-stats>div>span:last-child{display:grid;gap:.15rem}
+.world-culture-stats small{color:var(--muted);font:500 .59rem/1.5 var(--mono);letter-spacing:.035em}
+.world-culture-stats strong{font-size:.8rem;font-weight:550;color:var(--text-strong)}
+.world-region-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 1.5rem;margin:1.4rem 0 2.6rem;border-top:1px solid var(--line)}
+.world-region-card{min-width:0;padding:1.1rem 0 1.2rem;border-bottom:1px solid var(--line)}
+.world-region-top{display:flex;align-items:center;gap:.65rem;margin-bottom:.85rem}
+.world-region-top>small{color:var(--muted);font:500 .61rem/1.4 var(--mono);letter-spacing:.04em}
+.world-region-icon{display:inline-flex;align-items:center;justify-content:center;width:29px;height:29px;border-radius:7px;background:var(--accent-soft);color:var(--accent);transition:background .16s ease,transform .16s ease}
+.world-region-icon .tech-icon{width:15px;height:15px}
+.world-region-card:hover .world-region-icon{background:color-mix(in srgb,var(--accent) 16%,transparent);transform:translateY(-1px)}
+.world-region-card h3{margin:0 0 .4rem;color:var(--text-strong);font-size:1.02rem;font-weight:600}
+.prose .world-region-card p{margin:0 0 .7rem;color:var(--muted);font-size:.88rem;line-height:1.65}
+.world-region-scope{display:block;color:var(--faint);font:500 .63rem/1.6 var(--mono)}
+@media(max-width:640px){.world-culture-stats{grid-template-columns:minmax(0,1fr);gap:.7rem;margin:1.5rem 0 2rem}.world-culture-stats>div{grid-template-columns:28px minmax(0,1fr)}.world-region-grid{grid-template-columns:minmax(0,1fr);gap:0}.world-region-card{padding:1rem 0}.world-region-scope{font-size:.61rem}}
