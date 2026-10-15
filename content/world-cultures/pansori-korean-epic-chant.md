@@ -34,4 +34,4 @@ UNESCO inscribed pansori on the Representative List in 2008, following its earli
 
 This article summarises the institutional source and adds interpretation. It is not field reporting or a claim to represent all Korean performance traditions.
 
-**Primary source:** [UNESCO — Pansori epic chant](https://ich.unesco.org/en/RL/cultural-space-of-jemaa-el-fna-square-00070).
+**Primary source:** [UNESCO — Pansori epic chant](https://ich.unesco.org/en/RL/pansori-epic-chant-00070).
