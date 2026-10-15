@@ -3,10 +3,18 @@ from cms_common import *
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from collections import defaultdict
+from copy import deepcopy
 import xml.etree.ElementTree as ET
 
 SECTIONS=('writing','perspectives','music','movies','archaeology','bangla')
 ASSET_VERSIONS={}
+_SHARED_CHROME=None
+
+def shared_chrome():
+    global _SHARED_CHROME
+    if _SHARED_CHROME is None:
+        _SHARED_CHROME=soup((ROOT/'cms/shell.tpl').read_text())
+    return _SHARED_CHROME
 
 def load_all():
     tax={k:{} for k in ('tags','topics')}
@@ -143,6 +151,40 @@ def link(item,current):
 
 def finalize(raw,url,nav,entry=None,tax=None):
     s=soup(raw)
+    # Every published page uses the same reviewed global header/footer. Legacy
+    # article templates may still contain nav-right markup or omit a footer;
+    # normalize the public output here instead of fixing each page by hand.
+    chrome=shared_chrome()
+    shared_header=chrome.select_one('body > header.rr-global-header')
+    shared_footer=chrome.select_one('body > footer.site-footer')
+    if s.body and shared_header:
+        old_header=s.select_one('body > header.rr-global-header')
+        new_header=deepcopy(shared_header)
+        if old_header:
+            old_header.replace_with(new_header)
+        else:
+            main=s.select_one('body > main')
+            if main:main.insert_before(new_header)
+            else:s.body.insert(0,new_header)
+    if s.body and shared_footer:
+        old_footer=s.select_one('body > footer')
+        keep_research_note=bool(old_footer and 'Research listening notes are separated from personal listening-memory essays.' in old_footer.get_text(' ',strip=True))
+        new_footer=deepcopy(shared_footer)
+        if keep_research_note:
+            note=s.new_tag('p',attrs={'class':'footer-note'})
+            note.string='Research listening notes are separated from personal listening-memory essays.'
+            description=new_footer.find('p')
+            if description:description.insert_after(note)
+        if old_footer:
+            old_footer.replace_with(new_footer)
+        else:
+            main=s.select_one('body > main')
+            if main:main.insert_after(new_footer)
+            else:s.body.append(new_footer)
+    # Use a new, separately cacheable asset URL for the mobile navigation fix.
+    # The existing responsive-v3.css path may remain cached at the edge after a release.
+    if s.head and s.select_one('body > main') and not s.select_one('link[rel="stylesheet"][href*="/assets/mobile-nav.css"]'):
+        s.head.append(s.new_tag('link',rel='stylesheet',href='/assets/mobile-nav.css'))
     # Version stylesheet/script URLs so a new HTML deployment cannot reuse stale browser assets.
     for node in s.select('link[rel="stylesheet"][href],script[src]'):
         attr='href' if node.name=='link' else 'src';asset=route(node[attr],url)
