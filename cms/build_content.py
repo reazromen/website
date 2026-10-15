@@ -6,6 +6,6 @@ from collections import defaultdict
 from copy import deepcopy
 import xml.etree.ElementTree as ET
 
-SECTIONS=('writing','perspectives','music','movies','archaeology','bangla','local-cultures','world-cultures')
+SECTIONS=('writing','perspectives','music','movies','archaeology','heritage','bangla','local-cultures','world-cultures')
 ASSET_VERSIONS={}
 _SHARED_CHROME=None

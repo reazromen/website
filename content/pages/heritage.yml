@@ -1,35 +1,39 @@
 title: Heritage
-browser_title: Heritage — Interests — Reaz Romen
-description: Historic buildings, monuments, archaeological landscapes and the practice of conserving cultural
-  heritage in Bangladesh and beyond.
+browser_title: Heritage & Conservation — Interests — Reaz Romen
+description: "Field notes on historic places, architecture, conservation choices and the evidence that helps cultural heritage survive."
 url: /heritage.html
 draft: false
-body: 'Heritage is more than a famous monument. It includes buildings, archaeological landscapes, historic
-  streets, craft knowledge, archives and the living relationships people maintain with places. This collection
-  looks at what survives, how it is interpreted, and the practical work of conserving it without stripping
-  away its context.
+body: |
+  <div class="culture-kicker"><span class="culture-live-dot"></span> FIELD NOTES / HERITAGE <span>PLACE · MATERIAL · MEMORY</span></div>
 
+  Heritage is not simply a label for old buildings. It is the evidence, skills, places and shared meanings that people choose to carry forward—and the practical work required to do so responsibly.
 
-  ## Start with Bangladesh
+  This collection starts in Bangladesh and looks at historic architecture, religious places, urban landscapes and conservation decisions. It distinguishes a site's documented history from later interpretation, and a proposal for recognition from formal World Heritage inscription.
 
+  <div class="world-culture-stats" aria-label="Heritage collection scope">
+    <div><span class="world-stat-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-7h6v7M8 10h2M14 10h2"/></svg></span><span><small>FOCUS</small><strong>Historic places</strong></span></div>
+    <div><span class="world-stat-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 20h16M6 20V9l6-5 6 5v11M9 12h6M9 15h6"/></svg></span><span><small>CONTEXT</small><strong>Bangladesh first</strong></span></div>
+    <div><span class="world-stat-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5M8 10h5M10.5 7.5v6"/></svg></span><span><small>METHOD</small><strong>Evidence before claims</strong></span></div>
+  </div>
 
-  - [Mahasthangarh: Reading Bangladesh’s Early Urban Past](/posts/mahasthangarh-reading-bangladeshs-early-urban-past.html)
+  ---
 
-  - [Paharpur: Somapura Mahavihara and a Wider Monastery Network](/posts/paharpur-somapura-mahavihara-and-a-monastery-network.html)
+  <h2 class="culture-section-title"><span class="culture-section-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-7h6v7M8 10h2M14 10h2"/></svg></span><span><small>FIELD NOTES / 01—05</small>Read the places, not just the monuments</span></h2>
 
-  - [Bagerhat and Khalifatabad: Water, Brick and a Medieval City](/posts/bagerhat-khalifatabad-water-and-the-medieval-city.html)
+  Each note begins with a defined subject and a traceable source. The collection includes UNESCO Tentative List entries, which are proposals submitted by a country—not confirmation that a place has been inscribed on the World Heritage List.
 
-  - [Panam Nagar at Sonargaon: Reading a Historic Urban Landscape](/posts/panam-nagar-sonargaon-reading-a-historic-urban-landscape.html)
+  <div class="culture-principles heritage-principles">
+    <div><span class="culture-principle-mark">01 / MATERIAL</span><strong>Look closely</strong><p>Brick, lime mortar, terracotta, repairs and the surrounding landscape are evidence—not decoration.</p></div>
+    <div><span class="culture-principle-mark">02 / CONTEXT</span><strong>Keep the setting</strong><p>A historic structure is connected to waterways, streets, worship, work and the people who use the place.</p></div>
+    <div><span class="culture-principle-mark">03 / CARE</span><strong>Record before changing</strong><p>Conservation needs documentation, compatible methods, maintenance and honest explanation of uncertainty.</p></div>
+  </div>
 
+  ## Beyond the building
 
-  ## How to read a heritage place
+  Heritage can include a site's landscape, social use, craft knowledge and the accumulated traces of change. Conservation is not automatically the same as reconstruction, and making a place look new can erase evidence. Good interpretation explains what is known, what has changed and what remains uncertain.
 
-
-  Good heritage writing separates what can be observed from what is inferred. It considers original materials,
-  later repairs, the surrounding landscape, community use and the evidence behind historical claims. Conservation
-  is not simply making an old building look new; it is retaining the information and relationships that
-  make a place meaningful.
-
-
-  This archive will grow to include built heritage, landscapes, museums, conservation practice and community-led
-  heritage from Bangladesh and other regions.'
+  <p class="heritage-related-link"><a href="/archaeology.html">Explore Archaeology <span aria-hidden="true">↗</span></a><span>Excavated sites, material evidence and the questions researchers are still investigating.</span></p>
+lists:
+  - filter:
+      section: heritage
+    style: cards
