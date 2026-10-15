@@ -1,7 +1,7 @@
 ---
 title: 'India’s Naxalite–Maoist Insurgency: Armed Struggle and the Politics of Exclusion'
 url: /posts/india-naxalite-maoist-insurgency.html
-date: '2026-10-15'
+date: '2024-11-27'
 read_time: 8
 excerpt: India’s Maoist insurgency has combined armed attacks and state counterinsurgency with long-running disputes over land, forest rights, displacement and the reach of public institutions.
 topic: human-world
