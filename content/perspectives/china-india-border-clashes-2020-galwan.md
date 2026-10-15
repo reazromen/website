@@ -30,5 +30,3 @@ This essay separates the lethal Galwan event from the larger border dispute and 
 
 - India Ministry of External Affairs: https://www.mea.gov.in/
 - China Ministry of Foreign Affairs: https://www.fmprc.gov.cn/
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*

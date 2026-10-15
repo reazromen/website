@@ -30,5 +30,3 @@ This entry is an index for identifying additional actor-specific essays, not a s
 
 - UCDP Dataset Center: https://ucdp.uu.se/downloads/
 - UN Human Rights Myanmar: https://www.ohchr.org/en/countries/myanmar
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*

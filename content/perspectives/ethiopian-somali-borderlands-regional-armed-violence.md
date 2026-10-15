@@ -30,5 +30,3 @@ This entry is a regional map of related theatres. Specific incidents should be a
 
 - UCDP Dataset Center: https://ucdp.uu.se/downloads/
 - UN Security Council reports: https://www.un.org/securitycouncil/
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*

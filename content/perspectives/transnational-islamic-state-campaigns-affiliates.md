@@ -30,5 +30,3 @@ This entry is a transnational index. Each affiliate should be documented through
 
 - UN Analytical Support and Sanctions Monitoring Team: https://www.un.org/securitycouncil/sanctions/1267/monitoring-team/reports
 - UCDP: https://ucdp.uu.se/downloads/
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*

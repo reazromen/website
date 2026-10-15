@@ -30,5 +30,3 @@ This entry should be read alongside the main Afghanistan war essay, not counted 
 
 - SIGAR: https://www.sigar.mil/
 - UNAMA civilian casualty reports: https://unama.unmissions.org/
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*

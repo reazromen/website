@@ -30,5 +30,3 @@ This is an intervention cross-index linked to the national conflict essays. It s
 
 - French Ministry of Armed Forces: https://www.defense.gouv.fr/
 - International Crisis Group: https://www.crisisgroup.org/africa/sahel
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*

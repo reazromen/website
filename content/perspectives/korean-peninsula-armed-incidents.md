@@ -30,5 +30,3 @@ This entry is a chronology of discrete incidents and escalation risks, not a cla
 
 - United Nations Command: https://www.unc.mil/
 - UN Security Council: https://www.un.org/securitycouncil/
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*

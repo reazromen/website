@@ -30,5 +30,3 @@ This entry focuses on documented organized violence. A separate political timeli
 
 - NATO KFOR: https://www.nato.int/cps/en/natohq/topics_48818.htm
 - European External Action Service: https://www.eeas.europa.eu/
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*

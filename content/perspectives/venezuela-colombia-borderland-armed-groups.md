@@ -30,5 +30,3 @@ This entry links related Colombian and Venezuelan theatres. Each incident should
 
 - UNHCR Colombia: https://www.unhcr.org/countries/colombia
 - UCDP: https://ucdp.uu.se/downloads/
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*

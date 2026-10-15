@@ -30,5 +30,3 @@ This is a method-of-warfare index across multiple conflicts, not a standalone wa
 
 - UN Special Rapporteur on counter-terrorism and human rights: https://www.ohchr.org/
 - Airwars: https://airwars.org/
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*

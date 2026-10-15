@@ -30,5 +30,3 @@ This entry records the regional intervention layer alongside national and subreg
 
 - Multinational Joint Task Force: https://mnjtf.org/
 - UN Office for West Africa and the Sahel: https://unowas.unmissions.org/
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*

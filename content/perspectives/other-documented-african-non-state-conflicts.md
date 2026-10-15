@@ -30,5 +30,3 @@ This article is a method-led catalogue entry rather than a claim that all Africa
 
 - UCDP Non-State Conflict Dataset: https://ucdp.uu.se/downloads/
 - ACLED methodology: https://acleddata.com/
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*

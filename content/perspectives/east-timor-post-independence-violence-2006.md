@@ -30,5 +30,3 @@ This entry treats 2006 as a time-bounded crisis and does not describe all post-i
 
 - UN Integrated Mission in Timor-Leste archive: https://peacekeeping.un.org/
 - International Crisis Group: https://www.crisisgroup.org/
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*

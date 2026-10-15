@@ -30,5 +30,3 @@ This essay is a regional guide, not a claim that all groups remain active or tha
 
 - UCDP Dataset Center: https://ucdp.uu.se/downloads/
 - Ministry of Home Affairs, Government of India: https://www.mha.gov.in/
-
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*
