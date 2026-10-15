@@ -25,6 +25,9 @@ main:
   href: /culture.html
   enabled: true
   children:
+  - label: Archaeology
+    href: /archaeology.html
+    enabled: true
   - label: Music
     href: /music.html
     enabled: true

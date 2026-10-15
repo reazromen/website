@@ -273,6 +273,43 @@ collections:
     widget: hidden
     required: false
   - *id015
+
+- name: archaeology
+  label: Archaeology · Bangladesh sites
+  folder: content/archaeology
+  create: true
+  delete: true
+  extension: md
+  format: frontmatter
+  slug: '{{slug}}'
+  summary: '{{title}}'
+  sortable_fields:
+  - title
+  - date
+  view_filters:
+  - label: Drafts
+    field: draft
+    pattern: true
+  - label: Published
+    field: draft
+    pattern: false
+  fields:
+  - *id001
+  - *id002
+  - *id003
+  - *id004
+  - *id005
+  - *id006
+  - *id007
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id012
+  - *id013
+  - *id014
+  - *id015
+
 - name: bangla
   label: বাংলা
   folder: content/bangla

@@ -5,7 +5,7 @@ from email.utils import format_datetime
 from collections import defaultdict
 import xml.etree.ElementTree as ET
 
-SECTIONS=('writing','perspectives','music','movies','bangla')
+SECTIONS=('writing','perspectives','music','movies','archaeology','bangla')
 ASSET_VERSIONS={}
 
 def load_all():

@@ -1,0 +1,22 @@
+title: Archaeology of Bangladesh
+browser_title: Archaeology — Culture — Reaz Romen
+description: Evidence-led notes on Bangladesh’s archaeological sites, from early urban settlements and
+  Buddhist monasteries to medieval cities and historic streetscapes.
+url: /archaeology.html
+draft: false
+body: 'A growing field notebook on the material history of Bangladesh. These essays look at architecture,
+  settlement, inscriptions, objects, trade and conservation while distinguishing documented evidence from
+  open interpretation. The aim is not to turn every ruin into a legend, but to show what the surviving
+  record can and cannot tell us.
+
+
+  The first seven articles cover ancient urban life, Buddhist monastic landscapes, medieval urban planning
+  and historic streetscapes. Dates shown on the articles are editorial archive dates.
+
+
+  ## Explore the sites'
+lists:
+- key: ARCHAEOLOGY
+  filter:
+    section: archaeology
+  style: cards
