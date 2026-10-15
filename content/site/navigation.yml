@@ -2,6 +2,9 @@ main:
 - label: Work
   href: /portfolio.html
   enabled: true
+- label: Telecom
+  href: /telecom.html
+  enabled: true
 - label: Learn
   href: https://learn.reazromen.com/course.html
   enabled: true
