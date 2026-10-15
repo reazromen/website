@@ -120,8 +120,8 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 66. **Russia’s full-scale invasion of Ukraine (2022 onward)** — major campaigns, occupation, strikes and civilian impact. [Read the essay](/posts/russia-full-scale-invasion-ukraine-2022-present.html).
 67. **Nagorno-Karabakh conflict and 2020 war** — Armenia, Azerbaijan and de facto Karabakh forces; include the 2023 Azerbaijani offensive and displacement as a distinct phase. [Read the essay](/posts/nagorno-karabakh-conflict-2020-2023.html).
 68. **Armenia–Azerbaijan border clashes after 2020** — track separately from the Nagorno-Karabakh theatre. [Read the essay](/posts/armenia-azerbaijan-border-clashes-after-2020.html).
-69. **Chechen and North Caucasus insurgencies** — the Second Chechen War’s final period and later insurgency.
-70. **Dagestan and wider North Caucasus insurgency** — separate regional actors and dates while cross-linking to the Caucasus insurgency.
+69. **Chechen and North Caucasus insurgencies** — the Second Chechen War’s final period and later insurgency. [Read the essay](/posts/chechnya-north-caucasus-insurgency-2000s.html).
+70. **Dagestan and wider North Caucasus insurgency** — separate regional actors and dates while cross-linking to the Caucasus insurgency. [Read the essay](/posts/dagestan-insurgency-north-caucasus.html).
 71. **Kosovo–Serbia armed incidents and organized violence** — include specific documented events; do not describe all political tension as war.
 72. **Transnistria and Moldova** — post-2000 status and security incidents; likely a monitoring entry unless qualifying armed conflict is demonstrated.
 73. **Russian military involvement in Syria and other external theatres** — track as intervention records linked to the primary conflict, not as duplicate wars.

@@ -95,7 +95,16 @@ This catalogue is the navigation layer for the [master research index](/posts/gl
 
 ## Europe and Eurasia
 
-- [Russo-Georgian War of August 2008](/posts/russo-georgian-war-2008.html) — a discrete interstate war, distinguished from the earlier South Ossetia and Abkhazia conflicts and later boundary-line incidents.\n- [Russo-Ukrainian War since 2014](/posts/russo-ukrainian-war-2014-present.html) — the umbrella chronology linking Crimea, Donbas and the full-scale invasion.\n- [War in Donbas, 2014–2022](/posts/war-in-donbas-2014-2022.html) — the distinct eastern front before the full-scale invasion.\n- [Russia’s full-scale invasion of Ukraine since 2022](/posts/russia-full-scale-invasion-ukraine-2022-present.html) — nationwide war phase and civilian consequences.\n- [Nagorno-Karabakh conflict, 2020–2023](/posts/nagorno-karabakh-conflict-2020-2023.html) — the 2020 war, corridor crisis and September 2023 offensive.\n- [Armenia–Azerbaijan border clashes after 2020](/posts/armenia-azerbaijan-border-clashes-after-2020.html) — a separate interstate border theatre.\n\nThe next research batch covers Russia’s war against Ukraine and its distinct phases, Nagorno-Karabakh, the North Caucasus, Kosovo–Serbia incidents, and external intervention layers. These are tracked in the [master index](/posts/global-armed-conflicts-2000-2026-master-index.html); entries must remain distinct where their actors, legal character or time periods differ.
+- [Russo-Georgian War of August 2008](/posts/russo-georgian-war-2008.html) — a discrete interstate war, distinguished from the earlier South Ossetia and Abkhazia conflicts and later boundary-line incidents.
+- [Russo-Ukrainian War since 2014](/posts/russo-ukrainian-war-2014-present.html) — the umbrella chronology linking Crimea, Donbas and the full-scale invasion.
+- [War in Donbas, 2014–2022](/posts/war-in-donbas-2014-2022.html) — the distinct eastern front before the full-scale invasion.
+- [Russia’s full-scale invasion of Ukraine since 2022](/posts/russia-full-scale-invasion-ukraine-2022-present.html) — nationwide war phase and civilian consequences.
+- [Nagorno-Karabakh conflict, 2020–2023](/posts/nagorno-karabakh-conflict-2020-2023.html) — the 2020 war, corridor crisis and September 2023 offensive.
+- [Armenia–Azerbaijan border clashes after 2020](/posts/armenia-azerbaijan-border-clashes-after-2020.html) — a separate interstate border theatre.
+- [Chechnya and the North Caucasus insurgency](/posts/chechnya-north-caucasus-insurgency-2000s.html) — the shift from separatist war to regional militancy.
+- [Dagestan’s insurgency](/posts/dagestan-insurgency-north-caucasus.html) — local dynamics, counterinsurgency and human-rights concerns.
+
+The next research batch covers Russia’s war against Ukraine and its distinct phases, Nagorno-Karabakh, the North Caucasus, Kosovo–Serbia incidents, and external intervention layers. These are tracked in the [master index](/posts/global-armed-conflicts-2000-2026-master-index.html); entries must remain distinct where their actors, legal character or time periods differ.
 
 ## East Asia, Southeast Asia and Oceania
 
