@@ -3,7 +3,7 @@ title: "Washoku: The Knowledge Behind a Japanese Meal"
 date: '2026-10-16'
 url: /posts/washoku-seasonal-knowledge-japanese-food.html
 read_time: 4
-excerpt: Washoku is more than a national cuisine label: it connects seasonal ingredients, preparation skills, shared meals and respect for natural resources.
+excerpt: "Washoku is more than a national cuisine label: it connects seasonal ingredients, preparation skills, shared meals and respect for natural resources."
 description: "A context-first look at washoku, Japanese seasonal foodways, household learning and the limits of treating a varied cuisine as one fixed tradition."
 eyebrow: Japan · Foodways and seasonal knowledge
 topic: ''
