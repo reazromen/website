@@ -114,7 +114,7 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 
 ## Europe and Eurasia
 
-63. **Russo-Georgian war (2008)** — interstate war and its aftermath.
+63. **Russo-Georgian war (2008)** — interstate war and its aftermath. [Read the essay](/posts/russo-georgian-war-2008.html).
 64. **Russo-Ukrainian war (2014 onward)** — Crimea, Donbas and the full-scale invasion from February 2022; connect phases without erasing their differences.
 65. **War in Donbas (2014–2022)** — separatist forces, Ukraine and external involvement, nested within the broader Russo-Ukrainian conflict.
 66. **Russia’s full-scale invasion of Ukraine (2022 onward)** — major campaigns, occupation, strikes and civilian impact.
