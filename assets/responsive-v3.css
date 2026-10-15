@@ -204,3 +204,69 @@ iframe{border:0}
 @media (prefers-reduced-motion:reduce){
   .nav-scroll{backdrop-filter:none;-webkit-backdrop-filter:none}
 }
+
+
+/* Mobile navigation stays visible: wrap links instead of collapsing them behind a menu button. */
+@media (max-width:760px){
+  .site-header-inner{
+    flex-wrap:wrap;
+    align-items:flex-start;
+    gap:0;
+    padding:.45rem 0 .25rem;
+  }
+  .site-header-inner>.brand{
+    flex:0 0 auto;
+    align-self:center;
+    min-height:44px;
+  }
+  .site-header-inner>.nav{
+    flex:1 0 100%;
+    width:100%;
+    min-width:0;
+    margin:0;
+    overflow:visible!important;
+  }
+  .site-header-inner>.nav>.nav-scroll{
+    position:static!important;
+    inset:auto!important;
+    display:flex!important;
+    flex-direction:row!important;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:flex-start;
+    gap:.2rem .35rem;
+    width:100%;
+    max-height:none!important;
+    overflow:visible!important;
+    padding:.25rem 0 .35rem;
+    border:0!important;
+    border-radius:0!important;
+    background:transparent!important;
+    box-shadow:none!important;
+    backdrop-filter:none!important;
+    -webkit-backdrop-filter:none!important;
+  }
+  .site-header-inner>.nav>.nav-scroll a{
+    display:inline-flex;
+    flex:0 0 auto;
+    width:auto;
+    min-height:38px;
+    padding:.3rem .48rem;
+    white-space:nowrap;
+    border-radius:6px;
+  }
+  .site-header-inner>.nav>.nav-actions{
+    position:absolute;
+    top:.45rem;
+    right:0;
+    display:flex;
+    align-items:center;
+    margin:0;
+    padding:0;
+    border:0;
+    background:transparent!important;
+  }
+  .site-header-inner>.nav>.nav-actions .mobile-menu-toggle{display:none!important}
+  .site-header-inner>.nav>.nav-actions .theme-toggle{display:inline-flex!important}
+  .rr-global-header.nav-open .nav-scroll{display:flex!important}
+}
