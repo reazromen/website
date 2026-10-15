@@ -2,7 +2,7 @@ main:
 - label: Work
   href: /portfolio.html
   enabled: true
-- label: IOT
+- label: IoT
   href: /iot.html
   enabled: true
 - label: Telecom
