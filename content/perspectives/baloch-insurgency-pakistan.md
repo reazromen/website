@@ -1,7 +1,7 @@
 ---
 title: 'The Baloch Insurgency in Pakistan: Autonomy, Resources, and State Violence'
 url: /posts/baloch-insurgency-pakistan.html
-date: '2026-10-15'
+date: '2026-02-14'
 read_time: 8
 excerpt: Balochistan’s recurring insurgencies are rooted in disputes over political autonomy, resource control and state power, while attacks on civilians and alleged state abuses deepen insecurity.
 topic: human-world
