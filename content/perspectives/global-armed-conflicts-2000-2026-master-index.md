@@ -16,6 +16,9 @@ eyebrow: Conflict Archive · Master Index
 
 # Global Armed Conflicts, 2000–2026: Master Archive and Research Index
 
+**Browse the regional catalogue:** [Global Armed Conflicts, 2000–2026: Catalogue](/posts/global-armed-conflicts-2000-2026.html).
+
+
 This is the working master index for a global archive of armed conflict from 1 January 2000 through 15 October 2026. Its purpose is to organize the research programme, expose gaps, and prevent the archive from becoming a collection of disconnected essays about only the most familiar wars.
 
 **This is a coverage register, not a claim that every entry is a separate war or that every event has already been verified.** Several entries are theatres, phases, insurgencies, cross-border campaigns, or overlapping labels for violence that may belong under one parent conflict. They must be reconciled against the underlying datasets before the archive describes its coverage as exhaustive.
