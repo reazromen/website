@@ -4,13 +4,12 @@ description: A contextual field guide to cultural histories and contemporary lif
 url: /world-cultures.html
 draft: false
 body: |
-  <div class="culture-kicker"><span class="culture-live-dot"></span> FIELD NOTES / GLOBAL CULTURES <span>REGIONAL INDEX</span></div>
+  <div class="culture-kicker"><span class="culture-live-dot"></span> FIELD NOTES / WORLD CULTURES <span>· REGIONAL INDEX</span></div>
 
-  # World Cultures
 
-  No country has just one culture, and no tradition exists outside history. This collection explores cultural life through language, belief, art, food, architecture, festivals, music, migration and everyday practice.
+  Culture is shaped by place, language, belief, work, migration and memory. These field notes explore specific practices and histories through art, food, architecture, festivals, music and everyday life.
 
-  The aim is to explain context—not turn complex societies into lists of exotic customs.
+  The aim is to explain context—not reduce complex societies to lists of exotic customs.
 
   <div class="world-culture-stats" aria-label="Collection scope">
     <div><span class="world-stat-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg></span><span><small>GEOGRAPHY</small><strong>7 world regions</strong></span></div>
@@ -49,3 +48,13 @@ body: |
   Entries will focus on a defined subject and identify useful sources. Regional categories help navigation; they do not replace the specific histories, languages and perspectives of the people concerned.
 
   This is an index for a growing collection of cultural histories and contemporary perspectives from around the world.
+
+  ## New field notes
+
+  Five source-led introductions explore foodways, music, oral performance and craft across Japan, Indonesia, Korea and Morocco. Each article identifies its primary source and distinguishes the published record from editorial interpretation.
+
+lists:
+  - filter:
+      section: world-cultures
+    style: cards
+
