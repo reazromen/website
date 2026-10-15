@@ -71,3 +71,30 @@ body.rr-themed{--bg:var(--bg);--panel:transparent;--text:var(--text-strong);--so
 .tags a{text-decoration:none!important}
 
 .taxonomy-index [hidden]{display:none!important}
+
+
+/* Local Cultures — quiet editorial instrumentation, using the site's existing tokens and SVG icon language. */
+.culture-kicker{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;margin:0 0 1.2rem;color:var(--muted);font:500 .66rem/1.5 var(--mono);letter-spacing:.045em}
+.culture-kicker>span:last-child{margin-left:auto;color:var(--faint)}
+.culture-live-dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.culture-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 1.5rem;margin:2rem 0 2.6rem;border-top:1px solid var(--line)}
+.culture-index>a{display:grid;grid-template-columns:32px minmax(0,1fr) 16px;align-items:center;gap:.75rem;padding:1rem 0;border-bottom:1px solid var(--line);text-decoration:none!important;min-width:0}
+.culture-index-icon,.culture-section-icon{display:inline-flex;align-items:center;justify-content:center;color:var(--muted);border:1px solid var(--line-soft);border-radius:7px;width:30px;height:30px;transition:color .16s ease,border-color .16s ease,background .16s ease}
+.culture-index-icon .tech-icon,.culture-section-icon .tech-icon{width:15px;height:15px}
+.culture-index>a>span:nth-child(2){display:grid;gap:.18rem;min-width:0}
+.culture-index small,.culture-section-title small{color:var(--muted);font:500 .61rem/1.5 var(--mono);letter-spacing:.04em}
+.culture-index strong{font-size:.9rem;font-weight:550;color:var(--text-strong)}
+.culture-index-arrow{font-size:.9rem;color:var(--faint);transition:transform .16s ease,color .16s ease}
+.culture-index>a:hover .culture-index-icon,.culture-index>a:focus-visible .culture-index-icon{color:var(--accent);border-color:var(--tech-line);background:var(--accent-soft)}
+.culture-index>a:hover .culture-index-arrow{color:var(--accent);transform:translate(2px,-2px)}
+.prose .culture-section-title{display:grid;grid-template-columns:34px minmax(0,1fr);align-items:center;gap:.8rem;margin:2.5rem 0 .8rem;font-size:1.12rem;line-height:1.35}
+.culture-section-title>span:last-child{display:grid;gap:.22rem}
+.prose .culture-section-title small{display:block;font-size:.6rem;font-weight:500}
+.culture-section-icon{width:30px;height:30px;color:var(--accent);background:var(--accent-soft);border-color:transparent}
+.culture-count{display:inline-block;margin-left:.65rem;color:var(--muted);font:500 .64rem/1.5 var(--mono);vertical-align:middle}
+.culture-principles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1.25rem 0 2rem}
+.culture-principles>div{padding:1rem 0;border-top:1px solid var(--line)}
+.culture-principle-mark{display:block;margin-bottom:.75rem;color:var(--accent);font:500 .65rem/1.4 var(--mono)}
+.culture-principles strong{display:block;color:var(--text-strong);font-size:.9rem}
+.prose .culture-principles p{margin:.5rem 0 0;color:var(--muted);font-size:.87rem;line-height:1.65}
+@media(max-width:640px){.culture-index{grid-template-columns:minmax(0,1fr);margin:1.5rem 0 2rem}.culture-index>a{padding:.8rem 0}.culture-kicker>span:last-child{margin-left:0}.culture-principles{grid-template-columns:minmax(0,1fr);gap:.3rem}.culture-principles>div{padding:.9rem 0}.prose .culture-section-title{margin-top:2rem;font-size:1.04rem}}
