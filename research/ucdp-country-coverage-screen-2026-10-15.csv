@@ -1,0 +1,118 @@
+number,title,countries,state_rows,state_years,dyadic_rows,nonstate_rows,onesided_rows,ged_events,candidate_2026_events,audit_note
+1,Second Intifada (2000–2005),Israel; Palestine,36,2000-2025,73,3,15,11194,61,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+2,War in Afghanistan (2001–2021),Afghanistan,40,2000-2025,51,21,40,40729,26,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+3,Iraq War and occupation (2003 onward),Iraq,23,2003-2025,34,9,39,9260,1,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+4,Insurgency in Pakistan (2004 onward),Pakistan,60,2000-2025,82,33,44,8823,152,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+5,Kashmir insurgency and India–Pakistan armed crises,India; Pakistan,167,2000-2025,201,51,119,23934,163,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+6,Naxalite–Maoist insurgency in India,India,107,2000-2025,119,18,75,15111,11,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+7,Northeast India insurgencies,India,107,2000-2025,119,18,75,15111,11,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+8,Baloch insurgency in Pakistan,Pakistan,60,2000-2025,82,33,44,8823,152,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+9,Afghanistan–Pakistan border conflict,Afghanistan; Pakistan,100,2000-2025,133,54,84,49552,178,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+10,Sri Lanka’s final civil-war phase and post-war violence (2000–2009 and aftermath),Sri Lanka,8,2000-2009,8,3,7,2588,2,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+11,Bangladesh’s Chittagong Hill Tracts and other organized armed violence,Bangladesh,4,2005-2017,5,4,8,503,4,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+12,Nepal’s Maoist conflict and transition (2000–2006),Nepal,7,2000-2006,7,1,14,5088,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+13,Insurgent and cross-border violence in India’s eastern borderlands,India; Bangladesh; Myanmar,193,2000-2025,217,28,110,15614,15,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+14,Iraq insurgency and sectarian war (2003–2011),Iraq,23,2003-2025,34,9,39,9260,1,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+15,Iraq and the Islamic State (2013 onward),Iraq; Syria,61,2003-2025,72,147,77,97549,53,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+16,Syrian civil war (2011 onward),Syria,38,2011-2025,38,138,38,88289,52,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+17,Syrian Kurdish conflict and the campaign against ISIS,Syria; Turkey,69,2000-2025,70,143,44,90951,52,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+18,Turkey–PKK conflict (2000 onward),Turkey,31,2000-2025,32,5,6,2662,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+19,Yemen civil war (2014 onward),Yemen,25,2008-2025,38,38,9,0,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+20,Saudi-led intervention in Yemen (2015 onward),Yemen; Saudi Arabia,25,2008-2025,38,38,13,168,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+21,Red Sea and Houthi regional attacks (2023 onward),Yemen,25,2008-2025,38,38,9,0,0,"Multi-country/theatre scope; country presence is weak evidence, manual event/actor audit required"
+22,Israel–Hezbollah conflict and border fighting (2000 onward),Israel; Lebanon,39,2000-2025,76,16,19,12985,71,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+23,Israel–Hamas war in Gaza (2006 onward; major war from 2023),Israel; Palestine,36,2000-2025,73,3,15,11194,61,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+24,Israeli–Palestinian armed conflict outside Gaza,Israel; Palestine,36,2000-2025,73,3,15,11194,61,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+25,Israel–Iran direct and indirect confrontation,Israel; Iran; Syria; Lebanon; Iraq,127,2000-2025,179,163,105,111222,136,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+26,Lebanon’s internal armed clashes and spillover,Lebanon,3,2014-2017,3,13,4,1791,10,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+27,Iranian Kurdish insurgencies and Iran–PJAK fighting,Iran,27,2000-2025,31,0,9,688,12,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+28,Iran–Pakistan border strikes and armed incidents,Iran; Pakistan,87,2000-2025,113,33,53,9511,164,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+29,Libyan civil wars and rival-government conflict (2011 onward),Libya,12,2011-2020,16,39,7,1263,2,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+30,Sinai insurgency (2011 onward),Egypt,12,2014-2022,13,4,12,825,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+31,Al-Qaeda in the Arabian Peninsula (AQAP) and Yemen’s wider insurgencies,Yemen,25,2008-2025,38,38,9,0,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+32,Palestinian factional armed clashes,Palestine,0,,0,0,0,0,0,NO COUNTRY-MATCHED RECORDS FOUND in selected datasets; verify aliases/scope manually
+33,Gulf and Levant proxy-conflict theatres,Iran; Iraq; Syria; Lebanon; Yemen,116,2000-2025,144,198,99,100028,75,"Multi-country/theatre scope; country presence is weak evidence, manual event/actor audit required"
+34,Darfur conflict (2003 onward),Sudan,39,2000-2025,71,185,78,4626,47,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+35,Sudan war (April 2023 onward),Sudan,39,2000-2025,71,185,78,4626,47,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+36,South Sudan civil war (2013–2018) and recurrent violence,South Sudan,13,2011-2025,16,79,23,1054,2,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+37,Sudan–South Sudan border and oil-region clashes,Sudan; South Sudan,52,2000-2025,87,264,101,5680,49,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+38,Democratic Republic of the Congo: Kivu conflicts,Democratic Republic of the Congo,36,2000-2025,62,95,182,0,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+39,M23 insurgency and Rwanda–DRC regional escalation,Democratic Republic of the Congo; Rwanda,50,2000-2025,80,95,185,82,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+40,Lord’s Resistance Army (LRA) conflict,Uganda; Central African Republic; Democratic Republic of the Congo; South Sudan,87,2000-2025,129,228,277,4324,10,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+41,Central African Republic civil war (2012 onward),Central African Republic,20,2001-2025,26,30,57,2093,6,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+42,Somalia conflict and al-Shabaab insurgency (2000 onward),Somalia,27,2001-2025,30,69,27,6804,37,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+43,Ethiopia–Eritrea border war and post-war tensions,Eritrea; Ethiopia,53,2000-2025,54,76,38,6370,76,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+44,Ogaden insurgency in Ethiopia,Ethiopia,49,2000-2025,50,76,38,6345,76,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+45,Tigray war (2020–2022),Ethiopia,49,2000-2025,50,76,38,6345,76,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+46,Amhara armed conflict in Ethiopia,Ethiopia,49,2000-2025,50,76,38,6345,76,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+47,Oromia conflict in Ethiopia,Ethiopia,49,2000-2025,50,76,38,6345,76,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+48,Boko Haram insurgency and Lake Chad Basin conflict (2009 onward),Nigeria; Cameroon; Chad; Niger,96,2000-2025,98,214,143,11529,192,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+49,Mali conflict (2012 onward),Mali,34,2007-2025,42,42,44,2994,62,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+50,Burkina Faso insurgency (2015 onward),Burkina Faso,15,2018-2025,15,7,30,2483,47,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+51,Niger insurgencies and coups-related armed violence,Niger,18,2007-2025,18,9,26,760,11,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+52,Central Sahel regional insurgency,Mali; Niger; Burkina Faso,67,2007-2025,75,58,100,6237,120,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+53,Cameroon Anglophone conflict (2017 onward),Cameroon,23,2015-2025,23,3,36,2304,15,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+54,Mozambique’s Cabo Delgado insurgency (2017 onward),Mozambique,13,2013-2025,13,4,13,1429,4,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+55,Casamance conflict in Senegal,Senegal,3,2000-2011,3,1,2,106,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+56,Algerian Islamist insurgency and Sahel spillover,Algeria; Mali; Niger,73,2000-2025,86,52,80,5935,73,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+57,Chad’s recurrent rebel campaigns and armed transitions,Chad,21,2000-2023,23,14,22,348,2,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+58,Burundi after the civil war: armed opposition and political violence,Burundi,16,2000-2024,24,4,29,1827,4,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+59,Rwanda–DRC regional involvement,Rwanda; Democratic Republic of the Congo,50,2000-2025,80,95,185,82,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+60,Sudan’s South Kordofan and Blue Nile conflicts,Sudan,39,2000-2025,71,185,78,4626,47,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+61,Ethiopian–Somali borderland and regional armed violence,Ethiopia; Somalia,76,2000-2025,80,145,65,13149,113,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+62,Other documented African non-state conflicts,Mali; Niger; Burkina Faso; Nigeria; Cameroon; Chad; Democratic Republic of the Congo; Somalia; Sudan; South Sudan,260,2000-2025,334,691,527,29490,387,"Multi-country/theatre scope; country presence is weak evidence, manual event/actor audit required"
+63,Russo-Georgian war (2008),Georgia; Russia,32,2000-2025,34,0,15,33,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+64,Russo-Ukrainian war (2014 onward),Ukraine; Russia,46,2000-2025,56,1,18,40434,297,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+65,War in Donbas (2014–2022),Ukraine,16,2014-2025,24,1,4,40434,297,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+66,Russia’s full-scale invasion of Ukraine (2022 onward),Ukraine; Russia,46,2000-2025,56,1,18,40434,297,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+67,Nagorno-Karabakh conflict and 2020 war,Azerbaijan; Armenia,11,2005-2023,11,0,0,514,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+68,Armenia–Azerbaijan border clashes after 2020,Armenia; Azerbaijan,11,2005-2023,11,0,0,514,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+69,Chechen and North Caucasus insurgencies,Russia,30,2000-2025,32,0,14,0,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+70,Dagestan and wider North Caucasus insurgency,Russia,30,2000-2025,32,0,14,0,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+71,Kosovo–Serbia armed incidents and organized violence,Kosovo; Serbia,0,,0,0,0,0,0,NO COUNTRY-MATCHED RECORDS FOUND in selected datasets; verify aliases/scope manually
+72,Transnistria and Moldova,Moldova,0,,0,0,0,0,0,NO COUNTRY-MATCHED RECORDS FOUND in selected datasets; verify aliases/scope manually
+73,Russian military involvement in Syria and other external theatres,Syria; Libya; Iraq; Ukraine,89,2003-2025,112,187,88,139246,352,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+74,European foreign-fighter and transnational jihadist campaigns,France; United Kingdom; Germany; Belgium; Spain; Italy,4,2001-2025,4,2,13,128,2,"Multi-country/theatre scope; country presence is weak evidence, manual event/actor audit required"
+75,Myanmar civil war and nationwide resistance (2021 onward),Myanmar,82,2000-2025,93,6,27,0,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+76,Myanmar’s Kachin conflict,Myanmar,82,2000-2025,93,6,27,0,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+77,Karen and Karenni conflicts in Myanmar,Myanmar,82,2000-2025,93,6,27,0,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+78,Rakhine and Arakan Army conflict,Myanmar,82,2000-2025,93,6,27,0,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+79,"Rohingya persecution, mass displacement and armed violence",Myanmar; Bangladesh,86,2000-2025,98,10,35,503,4,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+80,Southern Thailand insurgency (2004 onward),Thailand,25,2003-2025,25,0,13,2881,2,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+81,Philippine communist insurgency,Philippines,56,2000-2025,78,3,19,3770,4,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+82,Mindanao and Moro conflict,Philippines,56,2000-2025,78,3,19,3770,4,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+83,Marawi siege (2017),Philippines,56,2000-2025,78,3,19,3770,4,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+84,Papua conflict in Indonesia,Indonesia,14,2000-2025,14,5,9,1488,5,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+85,Korean Peninsula armed incidents,North Korea; South Korea,0,,0,0,0,0,0,NO COUNTRY-MATCHED RECORDS FOUND in selected datasets; verify aliases/scope manually
+86,China–India border clashes (including 2020 Galwan),China; India,109,2000-2025,121,19,76,15139,11,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+87,South China Sea armed incidents and maritime confrontations,China; Vietnam; Philippines; Malaysia; Brunei,59,2000-2025,81,4,20,3813,4,"Multi-country/theatre scope; country presence is weak evidence, manual event/actor audit required"
+88,East Timor post-independence violence (2006),Timor-Leste,0,,0,0,0,0,0,NO COUNTRY-MATCHED RECORDS FOUND in selected datasets; verify aliases/scope manually
+89,Papua New Guinea and Pacific internal armed violence,Papua New Guinea,0,,0,11,1,56,1,No state-based conflict-year match; other organized-violence records exist in mapped countries
+90,Other Myanmar ethnic theatres,Myanmar,82,2000-2025,93,6,27,0,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+91,Colombian armed conflict (2000 onward),Colombia,26,2000-2025,49,32,73,14340,206,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+92,FARC dissident groups after the peace agreement,Colombia,26,2000-2025,49,32,73,14340,206,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+93,ELN insurgency in Colombia,Colombia,26,2000-2025,49,32,73,14340,206,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+94,Mexican drug war and organized armed violence (2006 onward),Mexico,0,,0,200,14,25660,182,No state-based conflict-year match; other organized-violence records exist in mapped countries
+95,Peru and Sendero Luminoso remnants,Peru,4,2007-2010,4,0,0,111,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+96,Paraguay’s EPP insurgency,Paraguay,0,,0,1,0,4,0,No state-based conflict-year match; other organized-violence records exist in mapped countries
+97,Haiti’s gang warfare and state-security crisis,Haiti,3,2004-2025,4,5,23,533,1,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+98,Ecuador’s organized armed violence,Ecuador,0,,0,19,5,980,0,No state-based conflict-year match; other organized-violence records exist in mapped countries
+99,Brazil’s organized armed violence,Brazil,0,,0,95,11,8857,22,No state-based conflict-year match; other organized-violence records exist in mapped countries
+100,Venezuela–Colombia borderland armed groups,Colombia; Venezuela,26,2000-2025,49,34,94,15316,213,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+101,Mexico–Central America transnational armed groups,Mexico; Guatemala; Honduras; El Salvador,0,,0,217,25,26002,185,No state-based conflict-year match; other organized-violence records exist in mapped countries
+102,Other Caribbean organized armed violence,Haiti; Jamaica; Trinidad and Tobago,3,2004-2025,4,7,23,565,1,"Multi-country/theatre scope; country presence is weak evidence, manual event/actor audit required"
+103,Global War on Terror after 2001,Afghanistan; Iraq; Somalia; Syria; Yemen; Pakistan,213,2000-2025,273,308,197,153905,268,"Multi-country/theatre scope; country presence is weak evidence, manual event/actor audit required"
+104,US-led Afghanistan coalition operations,Afghanistan,40,2000-2025,51,21,40,40729,26,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+105,Operation Inherent Resolve against ISIS (2014 onward),Iraq; Syria,61,2003-2025,72,147,77,97549,53,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+106,International intervention in Libya (2011),Libya,12,2011-2020,16,39,7,1263,2,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+107,French-led Sahel operations (2013 onward),Mali; Niger; Burkina Faso,67,2007-2025,75,58,100,6237,120,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+108,African Union and international operations in Somalia,Somalia; Central African Republic; Mali,81,2001-2025,98,141,128,11891,105,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+109,International intervention in the Central African Republic,Central African Republic,20,2001-2025,26,30,57,2093,6,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+110,Regional operations against Boko Haram and ISWAP,Nigeria; Niger; Chad; Cameroon,96,2000-2025,98,214,143,11529,192,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+111,External military support in Yemen,Yemen,25,2008-2025,38,38,9,0,0,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+112,Foreign military support in Ukraine,Ukraine,16,2014-2025,24,1,4,40434,297,country-year presence screen only; does not confirm conflict identity or justify separate archive entry
+113,Transnational ISIS campaigns and affiliates,Iraq; Syria; Afghanistan; Nigeria; Somalia; Mali,196,2000-2025,229,467,247,156193,342,"Multi-country/theatre scope; country presence is weak evidence, manual event/actor audit required"
+114,Drone and remote-strike campaigns,Afghanistan; Iraq; Syria; Yemen; Pakistan; Somalia; Libya,225,2000-2025,289,347,204,155168,270,"Multi-country/theatre scope; country presence is weak evidence, manual event/actor audit required"
+115,Private military companies and foreign armed formations,Mali; Niger; Burkina Faso; Central African Republic; Libya; Syria; Ukraine,153,2001-2025,179,266,206,138316,477,"Multi-country/theatre scope; country presence is weak evidence, manual event/actor audit required"
+
+[executed on device: hserver (e3ce91f8-8d4c-413e-b14d-04ad4fe8d7e3)]
