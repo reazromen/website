@@ -5,6 +5,9 @@ main:
 - label: IoT
   href: /iot.html
   enabled: true
+- label: Observability
+  href: /observability.html
+  enabled: true
 - label: Telecom
   href: /telecom.html
   enabled: true
