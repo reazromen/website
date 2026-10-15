@@ -148,10 +148,10 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 
 ## Americas and the Caribbean
 
-91. **Colombian armed conflict (2000 onward)** — government, FARC, ELN, paramilitaries and successor armed groups; distinguish the 2016 peace accord from continued violence.
-92. **FARC dissident groups after the peace agreement** — separate factions, regions and dates; do not treat all dissidents as one unified organization.
-93. **ELN insurgency in Colombia** — a distinct continuing armed campaign linked to but not identical with the wider Colombian conflict.
-94. **Mexican drug war and organized armed violence (2006 onward)** — include where armed actors and lethal organized violence meet the dataset criteria; avoid implying every cartel dispute is a conventional war.
+91. **Colombian armed conflict (2000 onward)** — umbrella chronology and actor distinctions. [Read the essay](/posts/colombian-armed-conflict-2000-present.html).
+92. **FARC dissident groups after the peace agreement** — factionalization, territorial competition and post-accord status. [Read the essay](/posts/farc-dissident-groups-after-peace-agreement.html).
+93. **ELN insurgency in Colombia** — distinct actor and negotiation chronology within the wider conflict. [Read the essay](/posts/eln-insurgency-colombia.html).
+94. **Mexican drug war and organized armed violence (2006 onward)** — apply explicit conflict definitions; do not equate all cartel violence with conventional war. [Read the essay](/posts/mexican-drug-war-organized-armed-violence-2006-present.html).
 95. **Peru and Sendero Luminoso remnants** — distinguish the historical insurgency from later localized activity.
 96. **Paraguay’s EPP insurgency** — low-intensity armed campaign, tracked with careful threshold notes.
 97. **Haiti’s gang warfare and state-security crisis** — document organized armed violence and one-sided attacks while distinguishing the UCDP classification from the broader political crisis.

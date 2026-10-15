@@ -112,7 +112,7 @@ The research queue includes Myanmar’s nationwide conflict and its ethnic theat
 
 ## Americas and the Caribbean
 
-The research queue includes Colombia’s wider armed conflict and specific armed organizations, organized armed violence in Mexico and parts of Latin America, Haiti’s gang warfare, Ecuador, Brazil and cross-border theatres. High homicide, political instability or organized crime alone does not automatically establish a war; each record requires an explicit definition and evidence base.
+Published essays in this section: [Colombia’s armed conflict since 2000](/posts/colombian-armed-conflict-2000-present.html), [FARC dissident groups after the 2016 peace agreement](/posts/farc-dissident-groups-after-peace-agreement.html), [the ELN insurgency](/posts/eln-insurgency-colombia.html), and [Mexico’s drug war and organized armed violence](/posts/mexican-drug-war-organized-armed-violence-2006-present.html). The remaining research queue includes Peru, Haiti, Ecuador, Brazil and cross-border theatres. High homicide, political instability or organized crime alone does not automatically establish a war; each record requires an explicit definition and evidence base.
 
 ## International interventions and cross-border campaigns
 
