@@ -53,7 +53,7 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 8. **Baloch insurgency in Pakistan** — separatist armed groups, state operations and civilian impact. [Read the essay](/posts/baloch-insurgency-pakistan.html).
 9. **Afghanistan–Pakistan border conflict** — cross-border strikes, militant sanctuaries and state-to-state tensions; distinguish from the wider Afghan war and Pakistan insurgency. [Read the essay](/posts/afghanistan-pakistan-border-conflict.html).
 10. **Sri Lanka’s final civil-war phase and post-war violence (2000–2009 and aftermath)** — LTTE–state war, civilian harm and post-war accountability. [Read the essay](/posts/sri-lanka-final-civil-war-phase-2000-2009.html).
-11. **Bangladesh’s Chittagong Hill Tracts and other organized armed violence** — assess whether each episode meets inclusion criteria rather than assume a continuous war.
+11. **Bangladesh’s Chittagong Hill Tracts and other organized armed violence** — assess whether each episode meets inclusion criteria rather than assume a continuous war. [Read the essay](/posts/bangladesh-chittagong-hill-tracts-armed-conflict.html).
 12. **Nepal’s Maoist conflict and transition (2000–2006)** — final years of the civil war and violence around the peace process. [Read the essay](/posts/nepal-maoist-conflict-transition-2000-2006.html).
 13. **Insurgent and cross-border violence in India’s eastern borderlands** — include only documented organized armed campaigns and keep actor-specific records. [Read the essay](/posts/india-eastern-borderlands-insurgencies.html).
 
@@ -66,7 +66,7 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 18. **Turkey–PKK conflict (2000 onward)** — renewed fighting, cross-border operations and the changing status of negotiations. [Read the essay](/posts/turkey-pkk-conflict-2000-present.html).
 19. **Yemen civil war (2014 onward)** — Houthi movement, internationally recognized government, southern actors and external support. [Read the essay](/posts/yemen-civil-war-2014-present.html).
 20. **Saudi-led intervention in Yemen (2015 onward)** — a distinct external-intervention layer within the broader Yemen conflict. [Read the essay](/posts/saudi-led-intervention-yemen-2015-present.html).
-21. **Red Sea and Houthi regional attacks (2023 onward)** — record as a related theatre, not automatically as an independent war.
+21. **Red Sea and Houthi regional attacks (2023 onward)** — record as a related theatre, not automatically as an independent war. [Read the essay](/posts/red-sea-houthi-regional-attacks-2023-present.html).
 22. **Israel–Hezbollah conflict and border fighting (2000 onward)** — include the 2006 war and later escalation as dated phases. [Read the essay](/posts/israel-hezbollah-conflict-2000-present.html).
 23. **Israel–Hamas war in Gaza (2006 onward; major war from 2023)** — separate recurring rounds from the 2023-onward war and its wider regional effects. [Read the essay](/posts/israel-hamas-gaza-war-2023-present.html).
 24. **Israeli–Palestinian armed conflict outside Gaza** — West Bank, Gaza and other theatres, with careful event-level dating. [Read the essay](/posts/israeli-palestinian-conflict-west-bank-beyond-gaza.html).
@@ -123,7 +123,7 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 69. **Chechen and North Caucasus insurgencies** — the Second Chechen War’s final period and later insurgency. [Read the essay](/posts/chechnya-north-caucasus-insurgency-2000s.html).
 70. **Dagestan and wider North Caucasus insurgency** — separate regional actors and dates while cross-linking to the Caucasus insurgency. [Read the essay](/posts/dagestan-insurgency-north-caucasus.html).
 71. **Kosovo–Serbia armed incidents and organized violence** — include specific documented events; do not describe all political tension as war. [Read the essay](/posts/kosovo-serbia-armed-incidents.html).
-72. **Transnistria and Moldova** — post-2000 status and security incidents; likely a monitoring entry unless qualifying armed conflict is demonstrated.
+72. **Transnistria and Moldova** — post-2000 status and security incidents; likely a monitoring entry unless qualifying armed conflict is demonstrated. [Read the essay](/posts/transnistria-moldova-security-status.html).
 73. **Russian military involvement in Syria and other external theatres** — track as intervention records linked to the primary conflict, not as duplicate wars. [Read the essay](/posts/russian-military-involvement-syria-external-theatres.html).
 74. **European foreign-fighter and transnational jihadist campaigns** — document only where a defined armed-conflict record exists; otherwise treat as context. [Read the essay](/posts/european-foreign-fighters-transnational-jihadist-campaigns.html).
 
@@ -141,9 +141,9 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 84. **Papua conflict in Indonesia** — separatist armed groups and Indonesian security forces. [Read the essay](/posts/papua-conflict-indonesia.html).
 85. **Korean Peninsula armed incidents** — discrete lethal incidents and exchanges; do not call the whole period a continuous war. [Read the essay](/posts/korean-peninsula-armed-incidents-2000-2026.html).
 86. **China–India border clashes (including 2020 Galwan)** — distinguish lethal clashes from the wider border dispute. [Read the essay](/posts/china-india-border-clashes-galwan.html).
-87. **South China Sea armed incidents and maritime confrontations** — include only events meeting the archive’s threshold for organized lethal violence; keep non-lethal coercion in a separate context file.
+87. **South China Sea armed incidents and maritime confrontations** — include only events meeting the archive’s threshold for organized lethal violence; keep non-lethal coercion in a separate context file. [Read the essay](/posts/south-china-sea-armed-incidents.html).
 88. **East Timor post-independence violence (2006)** — armed unrest and international intervention, classified carefully rather than automatically as a war. [Read the essay](/posts/east-timor-violence-2006.html).
-89. **Papua New Guinea and Pacific internal armed violence** — add only if a source-backed event meets the scope and threshold.
+89. **Papua New Guinea and Pacific internal armed violence** — add only if a source-backed event meets the scope and threshold. [Read the essay](/posts/papua-new-guinea-pacific-internal-armed-violence.html).
 90. **Other Myanmar ethnic theatres** — Chin, Shan and additional organized armed campaigns identified by dataset review, with distinct actor and time labels. [Read the essay](/posts/myanmar-other-ethnic-theatres-chin-shan.html).
 
 ## Americas and the Caribbean
@@ -153,13 +153,13 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 93. **ELN insurgency in Colombia** — distinct actor and negotiation chronology within the wider conflict. [Read the essay](/posts/eln-insurgency-colombia.html).
 94. **Mexican drug war and organized armed violence (2006 onward)** — apply explicit conflict definitions; do not equate all cartel violence with conventional war. [Read the essay](/posts/mexican-drug-war-organized-armed-violence-2006-present.html).
 95. **Peru and Sendero Luminoso remnants** — distinguish the historical insurgency from later localized activity. [Read the essay](/posts/peru-sendero-luminoso-remnants.html).
-96. **Paraguay’s EPP insurgency** — low-intensity armed campaign, tracked with careful threshold notes.
+96. **Paraguay’s EPP insurgency** — low-intensity armed campaign, tracked with careful threshold notes. [Read the essay](/posts/paraguay-epp-insurgency.html).
 97. **Haiti’s gang warfare and state-security crisis** — document organized armed violence and one-sided attacks while distinguishing the UCDP classification from the broader political crisis. [Read the essay](/posts/haiti-gang-warfare-state-security-crisis.html).
 98. **Ecuador’s organized armed violence** — track the escalation involving criminal organizations and state forces; clearly label the dataset and legal definitions used. [Read the essay](/posts/ecuador-organized-armed-violence.html).
 99. **Brazil’s organized armed violence** — include only source-backed organized lethal campaigns; do not treat high homicide alone as a war. [Read the essay](/posts/brazil-organized-armed-violence.html).
 100. **Venezuela–Colombia borderland armed groups** — distinguish Colombian armed organizations, Venezuelan state involvement and local cross-border theatres. [Read the essay](/posts/venezuela-colombia-border-armed-groups.html).
 101. **Mexico–Central America transnational armed groups** — include discrete, documented conflicts, not migration or crime as such. [Read the essay](/posts/mexico-central-america-transnational-armed-groups.html).
-102. **Other Caribbean organized armed violence** — include only where a defensible event-based threshold and reliable source record exist.
+102. **Other Caribbean organized armed violence** — include only where a defensible event-based threshold and reliable source record exist. [Read the essay](/posts/other-caribbean-organized-armed-violence.html).
 
 ## International interventions and cross-border campaigns
 

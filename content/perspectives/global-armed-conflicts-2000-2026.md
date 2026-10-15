@@ -196,3 +196,14 @@ The catalogue’s links identify where an essay exists; they do not substitute f
 - [Transnational Islamic State Campaigns and Affiliates](/posts/transnational-isis-campaigns-affiliates.html)
 - [Drone and Remote-Strike Campaigns, 2000–2026](/posts/drone-remote-strike-campaigns-2000-2026.html)
 - [Private Military Companies and Foreign Armed Formations](/posts/private-military-companies-foreign-armed-formations.html)
+
+
+## Scope-reviewed research entries
+
+- [Bangladesh’s Chittagong Hill Tracts: Armed Conflict, Accord and Residual Violence](/posts/bangladesh-chittagong-hill-tracts-armed-conflict.html)
+- [Red Sea Attacks and Houthi Regional Operations Since 2023](/posts/red-sea-houthi-regional-attacks-2023-present.html)
+- [Transnistria and Moldova: The Post-2000 Security Status](/posts/transnistria-moldova-security-status.html)
+- [South China Sea Armed Incidents and Maritime Confrontations](/posts/south-china-sea-armed-incidents.html)
+- [Papua New Guinea and Pacific Internal Armed Violence](/posts/papua-new-guinea-pacific-internal-armed-violence.html)
+- [Paraguay’s EPP Insurgency: A Localized Armed Campaign](/posts/paraguay-epp-insurgency.html)
+- [Other Caribbean Organized Armed Violence: Scope and Classification](/posts/other-caribbean-organized-armed-violence.html)
