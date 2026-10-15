@@ -43,3 +43,7 @@
 @media(max-width:760px){.telecom-hero{grid-template-columns:1fr;gap:2rem;padding-top:2rem}.telecom-hero h1{font-size:clamp(2.5rem,12vw,4rem)}.telecom-signal{max-width:560px}.telecom-quickbar{grid-template-columns:1fr}.telecom-quickbar>a,.telecom-quickbar>a:first-child{padding:1rem 0;border-right:0;border-bottom:1px solid var(--line)}.telecom-quickbar>a:last-child{border-bottom:0}.telecom-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.telecom-topic-card{min-height:200px;padding:1rem}.telecom-list-tools{grid-template-columns:1fr;gap:.5rem}.telecom-list-tools>span{margin-bottom:.5rem}.telecom-principles{grid-template-columns:1fr;gap:1rem}}
 @media(max-width:420px){.telecom-topic-grid{grid-template-columns:1fr}.telecom-topic-card{min-height:unset}.telecom-topic-card em{padding-top:1.2rem}}
 @media(prefers-reduced-motion:reduce){.telecom-topic-card{transition:none}}
+
+/* Layout correction: align both telecom two-column sections to their top edge. */
+.telecom-hero{align-items:start}
+.telecom-principles{align-items:start}
