@@ -1,3 +1,19 @@
+---
+title: "Colombia’s Armed Conflict Since 2000: Insurgency, Paramilitaries, and an Uneven Peace"
+url: /posts/colombian-armed-conflict-2000-present.html
+date: '2026-10-15'
+read_time: 8
+excerpt: "Colombia’s post-2000 conflict has shifted through paramilitary demobilization, the 2016 FARC peace agreement, and continuing campaigns by other armed groups. These overlapping histories require careful classification to avoid double-counting."
+topic: human-world
+tags:
+- history
+- war
+draft: false
+featured: false
+language: en
+eyebrow: Conflict Archive · Research Essay
+---
+
 # Colombia’s Armed Conflict Since 2000: Insurgency, Paramilitaries, and an Uneven Peace
 
 Colombia’s armed conflict entered the twenty-first century with guerrilla organizations, paramilitary formations, state security forces and communities caught between them. The conflict’s roots stretch back decades, but its post-2000 history is not a single unchanging war. Military offensives, paramilitary demobilization, the 2016 peace agreement with the Revolutionary Armed Forces of Colombia (FARC), and the continued activity of other armed organizations have repeatedly changed the map of violence.
