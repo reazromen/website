@@ -167,17 +167,17 @@ These entries are **relationship layers**, not automatically extra wars. Their e
 
 103. **Global War on Terror after 2001** — a policy and military campaign umbrella, not a single conflict. [Read the essay](/posts/global-war-on-terror-after-2001.html).
 104. **US-led Afghanistan coalition operations** — linked to the Afghanistan conflict. [Read the essay](/posts/us-led-afghanistan-coalition-operations.html).
-105. **Operation Inherent Resolve against ISIS (2014 onward)** — Iraq and Syria theatres.
-106. **International intervention in Libya (2011)** — link to the Libyan civil war and regime change.
-107. **French-led Sahel operations (2013 onward)** — link each operation to Mali, Burkina Faso and Niger records.
-108. **African Union and international operations in Somalia** — link to the Somali conflict and al-Shabaab campaign.
-109. **International intervention in the Central African Republic** — link to the CAR conflict.
-110. **Regional operations against Boko Haram and ISWAP** — Nigeria, Cameroon, Chad and Niger.
-111. **External military support in Yemen** — coalition intervention, Iranian support and other external involvement, separated by evidence and period.
-112. **Foreign military support in Ukraine** — document support and intervention as a relationship layer, not as a separate war from the Russo-Ukrainian conflict.
-113. **Transnational ISIS campaigns and affiliates** — create country-specific pages for distinct theatres and link them to the umbrella organization.
-114. **Drone and remote-strike campaigns** — a method-of-warfare index across multiple conflicts, not a standalone war.
-115. **Private military companies and foreign armed formations** — actor and intervention cross-index, with each deployment tied to a named theatre.
+105. **Operation Inherent Resolve against ISIS (2014 onward)** — Iraq and Syria theatres. [Read the essay](/posts/operation-inherent-resolve-isis-2014-present.html).
+106. **International intervention in Libya (2011)** — link to the Libyan civil war and regime change. [Read the essay](/posts/international-intervention-libya-2011.html).
+107. **French-led Sahel operations (2013 onward)** — link each operation to Mali, Burkina Faso and Niger records. [Read the essay](/posts/french-led-sahel-operations-2013-present.html).
+108. **African Union and international operations in Somalia** — link to the Somali conflict and al-Shabaab campaign. [Read the essay](/posts/african-union-international-operations-somalia.html).
+109. **International intervention in the Central African Republic** — link to the CAR conflict. [Read the essay](/posts/international-intervention-central-african-republic.html).
+110. **Regional operations against Boko Haram and ISWAP** — Nigeria, Cameroon, Chad and Niger. [Read the essay](/posts/regional-operations-boko-haram-iswap.html).
+111. **External military support in Yemen** — coalition intervention, Iranian support and other external involvement, separated by evidence and period. [Read the essay](/posts/external-military-support-yemen.html).
+112. **Foreign military support in Ukraine** — document support and intervention as a relationship layer, not as a separate war from the Russo-Ukrainian conflict. [Read the essay](/posts/foreign-military-support-ukraine.html).
+113. **Transnational ISIS campaigns and affiliates** — create country-specific pages for distinct theatres and link them to the umbrella organization. [Read the essay](/posts/transnational-isis-campaigns-affiliates.html).
+114. **Drone and remote-strike campaigns** — a method-of-warfare index across multiple conflicts, not a standalone war. [Read the essay](/posts/drone-remote-strike-campaigns-2000-2026.html).
+115. **Private military companies and foreign armed formations** — actor and intervention cross-index, with each deployment tied to a named theatre. [Read the essay](/posts/private-military-companies-foreign-armed-formations.html).
 
 ## Required audit before calling the archive exhaustive
 

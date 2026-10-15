@@ -181,3 +181,18 @@ The catalogue’s links identify where an essay exists; they do not substitute f
 - [Mexico–Central America Transnational Armed Groups: Networks and Local Conflicts](/posts/mexico-central-america-transnational-armed-groups.html)
 - [The Global War on Terror After 2001: A Campaign Umbrella, Not One Conflict](/posts/global-war-on-terror-after-2001.html)
 - [US-Led Coalition Operations in Afghanistan, 2001–2021](/posts/us-led-afghanistan-coalition-operations.html)
+
+
+## Newly published research entries
+
+- [Operation Inherent Resolve Against the Islamic State, 2014 Onward](/posts/operation-inherent-resolve-isis-2014-present.html)
+- [International Intervention in Libya in 2011](/posts/international-intervention-libya-2011.html)
+- [French-Led Sahel Operations: Serval, Barkhane and the Regional Insurgencies](/posts/french-led-sahel-operations-2013-present.html)
+- [African Union and International Operations in Somalia](/posts/african-union-international-operations-somalia.html)
+- [International Intervention in the Central African Republic](/posts/international-intervention-central-african-republic.html)
+- [Regional Operations Against Boko Haram and ISWAP in the Lake Chad Basin](/posts/regional-operations-boko-haram-iswap.html)
+- [External Military Support in Yemen: Coalition Intervention and Iranian Links](/posts/external-military-support-yemen.html)
+- [Foreign Military Support in Ukraine Since 2014](/posts/foreign-military-support-ukraine.html)
+- [Transnational Islamic State Campaigns and Affiliates](/posts/transnational-isis-campaigns-affiliates.html)
+- [Drone and Remote-Strike Campaigns, 2000–2026](/posts/drone-remote-strike-campaigns-2000-2026.html)
+- [Private Military Companies and Foreign Armed Formations](/posts/private-military-companies-foreign-armed-formations.html)

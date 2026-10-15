@@ -1,9 +1,9 @@
 ---
-title: "International Intervention in the Central African Republic"
+title: 'International Intervention in the Central African Republic'
 url: /posts/international-intervention-central-african-republic.html
 date: '2026-10-15'
-read_time: 6
-excerpt: "The Central African Republic’s conflict since 2012 has involved changing armed coalitions, state forces, anti-balaka groups, former Seleka factio"
+read_time: 7
+excerpt: 'Peacekeeping and external military deployments have intersected with the Central African Republic’s civil war. The archive should distinguish UN mandates, bilateral support and armed-group activity.'
 topic: human-world
 tags:
 - history
@@ -16,19 +16,20 @@ eyebrow: Conflict Archive · Research Essay
 
 # International Intervention in the Central African Republic
 
-The Central African Republic’s conflict since 2012 has involved changing armed coalitions, state forces, anti-balaka groups, former Seleka factions and foreign security partners. International responses have included African-led initiatives, French operations and UN peacekeeping. Their mandates and presence have changed over time, while local armed groups have retained influence in some areas.
+The Central African Republic (CAR) has experienced repeated armed crises, including the conflict that escalated after the Séléka coalition seized power in 2013 and the subsequent mobilization of anti-balaka groups and other armed actors. International intervention has taken several forms, including African Union initiatives, French operations and United Nations peacekeeping.
 
-## Timeline and actors
+## Different mandates, different roles
 
-External operations have pursued different goals, including civilian protection, support for state authority, peacekeeping and security assistance. These purposes are not interchangeable. Foreign military support can alter local balances and protect some populations while also creating accountability questions where operations are opaque or allegations of abuse emerge.
+French Operation Sangaris deployed in 2013 to support stabilization and civilian protection during acute violence. The African-led International Support Mission in the Central African Republic (MISCA) was followed by the UN Multidimensional Integrated Stabilization Mission in the Central African Republic (MINUSCA) in 2014. These missions had different legal bases, command arrangements and tasks. Bilateral military support and other foreign deployments should be assessed separately from UN peacekeeping.
 
-## Scope and classification
+The presence of external forces did not end the conflict. Armed groups retained local influence, and peace agreements did not consistently produce disarmament or stable security. The actors and alliances changed across prefectures and years. Reports about foreign personnel, private military contractors or support to particular forces require careful attribution and should not be treated as interchangeable categories.
 
-This entry is an intervention layer connected to the Central African Republic conflict, not a separate war count. A careful account must identify the mission, mandate, period, command structure and documented outcomes, and distinguish UN peacekeeping from bilateral security assistance and private formations.
+## Civilian protection and accountability
 
-## Sources and further reading
+International mandates may include civilian protection, support for political processes and assistance to state institutions. Their actual effects must be assessed from documented operations, investigations and local reporting. Allegations of abuses by national forces, armed groups or foreign personnel should be attributed to the source and should not be generalized beyond the evidence.
 
-- UN Multidimensional Integrated Stabilization Mission in the Central African Republic: https://minusca.unmissions.org/
-- UCDP: https://ucdp.uu.se/downloads/
+## Archive treatment
 
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*
+This page is an intervention layer linked to the CAR civil-war article. It distinguishes peacekeeping from direct combat and from bilateral military assistance. It also avoids counting the same battle once as a national conflict and again as a separate intervention war.
+
+**Sources and further reading:** [MINUSCA](https://minusca.unmissions.org/); [UN Security Council](https://www.un.org/securitycouncil/); [UCDP datasets](https://ucdp.uu.se/downloads/).

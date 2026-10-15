@@ -1,9 +1,9 @@
 ---
-title: "African Union and International Operations in Somalia"
+title: 'African Union and International Operations in Somalia'
 url: /posts/african-union-international-operations-somalia.html
 date: '2026-10-15'
-read_time: 6
-excerpt: "African Union-led operations in Somalia have supported Somali forces against al-Shabaab and helped secure key urban centres and transport corrido"
+read_time: 8
+excerpt: 'African Union missions and international partners have supported Somali authorities against al-Shabaab, but their deployments are intervention layers within Somalia’s conflict.'
 topic: human-world
 tags:
 - history
@@ -16,19 +16,20 @@ eyebrow: Conflict Archive · Research Essay
 
 # African Union and International Operations in Somalia
 
-African Union-led operations in Somalia have supported Somali forces against al-Shabaab and helped secure key urban centres and transport corridors. The mission framework changed over time, from AMISOM to ATMIS and then the African Union Support and Stabilization Mission in Somalia. Other international partners have provided training, funding, logistics and air support.
+International operations have been central to Somalia’s security landscape since the collapse of the central state in 1991 and the rise of al-Shabaab. African Union missions, UN support structures, bilateral partners and other international forces have assisted Somali authorities through different mandates and periods. Those missions should be tracked as interventions within Somalia’s wider conflict, not automatically counted as separate wars.
 
-## Timeline and actors
+## Changing missions
 
-The military mission operates within the broader Somali conflict, where federal and regional authorities, clan politics, local administrations and al-Shabaab all shape the situation. Tactical gains do not automatically translate into durable security; local governance, justice, public services and the ability to hold territory affect whether armed groups can return.
+The African Union Mission in Somalia (AMISOM) began in 2007 and supported Somali transitional and later federal institutions while fighting al-Shabaab. It was replaced by the African Union Transition Mission in Somalia (ATMIS), which was designed to transfer security responsibilities to Somali forces. Subsequent changes to the mission framework reflect continuing debates about force readiness, financing, logistics and the pace of transition.
 
-## Scope and classification
+International support has included training, equipment, intelligence and direct military operations. The scope differs among contributors and across time. A country’s participation in training or funding does not mean its troops were direct combatants in every engagement. Each claim should identify the mission, mandate, units and dates.
 
-This entry tracks the intervention and mission architecture rather than creating a separate war from Somalia’s conflict. Mission mandates, troop contributions and dates should be kept precise, and claims about battlefield success should be compared with independent monitoring and civilian-impact reporting.
+## The local conflict remains central
 
-## Sources and further reading
+Al-Shabaab’s campaign is shaped by Somali politics, local governance, clan relations, taxation and coercion as well as international military pressure. Somali federal and regional forces, local communities and other armed actors also influence the outcome. External missions can alter the battlefield but cannot be understood apart from the political and security institutions they support.
 
-- African Union: https://au.int/
-- UN Assistance Mission in Somalia: https://unsom.unmissions.org/
+## Archive treatment
 
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*
+This page is an intervention index connected to the Somalia–al-Shabaab article. It should preserve the distinction between AMISOM, ATMIS and subsequent mission arrangements, and should not treat every change of mandate as the start of a new war. Casualty and territorial-control claims require source-specific dates.
+
+**Sources and further reading:** [African Union](https://au.int/); [UN Assistance Mission in Somalia](https://unsom.unmissions.org/); [UN Security Council](https://www.un.org/securitycouncil/).
