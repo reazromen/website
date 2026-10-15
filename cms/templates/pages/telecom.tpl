@@ -1,5 +1,3 @@
-[Reading 63 lines from start (total: 63 lines, 0 remaining)]
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
