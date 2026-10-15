@@ -21,12 +21,16 @@ main:
   - label: Specs & Technical Documents
     href: /specs.html
     enabled: true
-- label: Music
-  href: /music.html
+- label: Culture
+  href: /culture.html
   enabled: true
-- label: Movies
-  href: /movies.html
-  enabled: true
+  children:
+  - label: Music
+    href: /music.html
+    enabled: true
+  - label: Movies
+    href: /movies.html
+    enabled: true
 - label: বাংলা
   href: /bangla.html
   lang: bn
