@@ -1,3 +1,5 @@
+[Reading 63 lines from start (total: 63 lines, 0 remaining)]
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,5 +61,13 @@
 </section>
 </main>
 <footer class="shell site-footer"><div><span class="status-dot"></span><strong>Reaz Romen — independent systems engineer.</strong></div><p>Firmware, real-time communications, infrastructure and field notes.</p><nav aria-label="Footer"><a href="/topics.html">Topics</a><a href="/systems.html">Systems</a><a href="/archive.html">Archive</a><a href="/author/reaz-romen.html">Author record</a></nav></footer>
-<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script><script src="/assets/phase1.js"></script><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script><script src="/assets/telecom.js" defer></script>
+<script src="/assets/site.js"></script><script src="/assets/sitewide.js"></script>
+<dialog aria-label="Search and quick navigation" class="command-palette" data-pagefind-ignore="" id="command-palette">
+<div class="command-shell"><div class="command-input-row"><svg aria-hidden="true" class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input aria-label="Search site" autocomplete="off" id="command-input" placeholder="Search telecom, SIP, RTP, PBX…" type="search"/><button aria-label="Close" class="command-close" data-close-command="" type="button">×</button></div>
+<div class="command-hint"><span>Quick navigation</span><kbd>Esc</kbd></div>
+<nav aria-label="Quick navigation" class="command-shortcuts"><a href="/topics/telecom-voip.html">Telecom &amp; VoIP <span>All telecom articles</span></a><a href="/domains/communications-voice.html">Communications &amp; Voice <span>Projects and systems</span></a><a href="/portfolio.html">Work <span>Projects and systems</span></a><a href="/writing.html">Writing <span>Articles and engineering notes</span></a><a href="/systems.html">Stack <span>Tools by engineering layer</span></a></nav>
+<div aria-live="polite" class="command-results" id="command-results"></div><div class="command-footer"><span>Search</span><kbd>⌘/Ctrl K</kbd><span>Open result</span><kbd>Enter</kbd></div></div></dialog>
+<script src="/assets/phase1.js"></script><script src="/assets/phase2.js"></script><script src="/assets/responsive-v3.js"></script><script src="/assets/telecom.js" defer></script>
 </body></html>
+
+[executed on device: hserver (e3ce91f8-8d4c-413e-b14d-04ad4fe8d7e3)]
