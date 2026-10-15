@@ -55,7 +55,7 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 10. **Sri Lanka’s final civil-war phase and post-war violence (2000–2009 and aftermath)** — LTTE–state war, civilian harm and post-war accountability. [Read the essay](/posts/sri-lanka-final-civil-war-phase-2000-2009.html).
 11. **Bangladesh’s Chittagong Hill Tracts and other organized armed violence** — assess whether each episode meets inclusion criteria rather than assume a continuous war.
 12. **Nepal’s Maoist conflict and transition (2000–2006)** — final years of the civil war and violence around the peace process. [Read the essay](/posts/nepal-maoist-conflict-transition-2000-2006.html).
-13. **Insurgent and cross-border violence in India’s eastern borderlands** — include only documented organized armed campaigns and keep actor-specific records.
+13. **Insurgent and cross-border violence in India’s eastern borderlands** — include only documented organized armed campaigns and keep actor-specific records. [Read the essay](/posts/india-eastern-borderlands-insurgencies.html).
 
 ## Middle East and North Africa
 
@@ -78,7 +78,7 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 30. **Sinai insurgency (2011 onward)** — Egyptian state forces and jihadist armed groups. [Read the essay](/posts/sinai-insurgency-egypt-2011-present.html).
 31. **Al-Qaeda in the Arabian Peninsula (AQAP) and Yemen’s wider insurgencies** — distinguish AQAP’s campaign from the state-based Yemen war. [Read the essay](/posts/aqap-yemen-insurgency.html).
 32. **Palestinian factional armed clashes** — include only well-documented organized fighting and connect it to the wider Palestinian conflict. [Read the essay](/posts/palestinian-factional-armed-clashes.html).
-33. **Gulf and Levant proxy-conflict theatres** — use as cross-links, not as a substitute for naming each local conflict and its parties.
+33. **Gulf and Levant proxy-conflict theatres** — use as cross-links, not as a substitute for naming each local conflict and its parties. [Read the essay](/posts/gulf-levant-proxy-conflict-theatres.html).
 
 ## Sub-Saharan Africa
 
@@ -109,8 +109,8 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 58. **Burundi after the civil war: armed opposition and political violence** — distinguish the 2015 crisis, the Government–RED-Tabara conflict and other organized-violence categories. Read the essay: [Burundi After the Civil War: Armed Opposition, RED-Tabara, and Political Violence](/posts/burundi-post-war-armed-groups-political-violence.html).
 59. **Rwanda–DRC regional involvement** — document as external involvement in specific Congolese theatres, not as a free-standing war unless the evidence supports it. Read the essay: [Rwanda and the DR Congo: External Involvement Across Eastern Congo’s Conflicts](/posts/rwanda-drc-regional-involvement.html).
 60. **Sudan’s South Kordofan and Blue Nile conflicts** — separate from Darfur and the 2023 national war while documenting their links. Read the essay: [Sudan’s South Kordofan and Blue Nile Conflicts: Separate Fronts, Connected Histories](/posts/sudan-south-kordofan-blue-nile-conflicts.html).
-61. **Ethiopian–Somali borderland and regional armed violence** — use discrete conflict records rather than a broad geographic label.
-62. **Other documented African non-state conflicts** — identify communal and organized-group conflicts from UCDP non-state records, then determine whether each warrants a standalone essay.
+61. **Ethiopian–Somali borderland and regional armed violence** — use discrete conflict records rather than a broad geographic label. [Read the essay](/posts/ethiopia-somalia-borderland-armed-violence.html).
+62. **Other documented African non-state conflicts** — identify communal and organized-group conflicts from UCDP non-state records, then determine whether each warrants a standalone essay. [Read the essay](/posts/other-african-nonstate-conflicts-research-index.html).
 
 ## Europe and Eurasia
 
@@ -122,10 +122,10 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 68. **Armenia–Azerbaijan border clashes after 2020** — track separately from the Nagorno-Karabakh theatre. [Read the essay](/posts/armenia-azerbaijan-border-clashes-after-2020.html).
 69. **Chechen and North Caucasus insurgencies** — the Second Chechen War’s final period and later insurgency. [Read the essay](/posts/chechnya-north-caucasus-insurgency-2000s.html).
 70. **Dagestan and wider North Caucasus insurgency** — separate regional actors and dates while cross-linking to the Caucasus insurgency. [Read the essay](/posts/dagestan-insurgency-north-caucasus.html).
-71. **Kosovo–Serbia armed incidents and organized violence** — include specific documented events; do not describe all political tension as war.
+71. **Kosovo–Serbia armed incidents and organized violence** — include specific documented events; do not describe all political tension as war. [Read the essay](/posts/kosovo-serbia-armed-incidents.html).
 72. **Transnistria and Moldova** — post-2000 status and security incidents; likely a monitoring entry unless qualifying armed conflict is demonstrated.
-73. **Russian military involvement in Syria and other external theatres** — track as intervention records linked to the primary conflict, not as duplicate wars.
-74. **European foreign-fighter and transnational jihadist campaigns** — document only where a defined armed-conflict record exists; otherwise treat as context.
+73. **Russian military involvement in Syria and other external theatres** — track as intervention records linked to the primary conflict, not as duplicate wars. [Read the essay](/posts/russian-military-involvement-syria-external-theatres.html).
+74. **European foreign-fighter and transnational jihadist campaigns** — document only where a defined armed-conflict record exists; otherwise treat as context. [Read the essay](/posts/european-foreign-fighters-transnational-jihadist-campaigns.html).
 
 ## East Asia, Southeast Asia and Oceania
 
@@ -139,10 +139,10 @@ The principal statistical backbone is the Uppsala Conflict Data Program (UCDP). 
 82. **Mindanao and Moro conflict** — MILF, MNLF, government forces and post-agreement violence; separate the Marawi siege. [Read the essay](/posts/mindanao-moro-conflict.html).
 83. **Marawi siege (2017)** — ISIS-linked militants and Philippine forces, nested in the wider Mindanao conflict. [Read the essay](/posts/marawi-siege-2017.html).
 84. **Papua conflict in Indonesia** — separatist armed groups and Indonesian security forces. [Read the essay](/posts/papua-conflict-indonesia.html).
-85. **Korean Peninsula armed incidents** — discrete lethal incidents and exchanges; do not call the whole period a continuous war.
-86. **China–India border clashes (including 2020 Galwan)** — distinguish lethal clashes from the wider border dispute.
+85. **Korean Peninsula armed incidents** — discrete lethal incidents and exchanges; do not call the whole period a continuous war. [Read the essay](/posts/korean-peninsula-armed-incidents-2000-2026.html).
+86. **China–India border clashes (including 2020 Galwan)** — distinguish lethal clashes from the wider border dispute. [Read the essay](/posts/china-india-border-clashes-galwan.html).
 87. **South China Sea armed incidents and maritime confrontations** — include only events meeting the archive’s threshold for organized lethal violence; keep non-lethal coercion in a separate context file.
-88. **East Timor post-independence violence (2006)** — armed unrest and international intervention, classified carefully rather than automatically as a war.
+88. **East Timor post-independence violence (2006)** — armed unrest and international intervention, classified carefully rather than automatically as a war. [Read the essay](/posts/east-timor-violence-2006.html).
 89. **Papua New Guinea and Pacific internal armed violence** — add only if a source-backed event meets the scope and threshold.
 90. **Other Myanmar ethnic theatres** — Chin, Shan and additional organized armed campaigns identified by dataset review, with distinct actor and time labels.
 

@@ -121,3 +121,17 @@ Intervention and campaign pages are cross-indexes, not extra wars to add mechani
 ## Method and limitations
 
 The catalogue’s links identify where an essay exists; they do not substitute for a dataset audit. Before the archive claims exhaustive coverage, each entry must be compared with UCDP/PRIO state-based, dyadic, non-state and one-sided-violence records, and 2026 reporting must remain provisional. The [master index](/posts/global-armed-conflicts-2000-2026-master-index.html) records scope and research status.
+
+
+## Newly published research entries
+
+- [Insurgent and Cross-Border Violence in India’s Eastern Borderlands](/posts/india-eastern-borderlands-insurgencies.html)
+- [Gulf and Levant Proxy-Conflict Theatres: Networks, Not One War](/posts/gulf-levant-proxy-conflict-theatres.html)
+- [The Ethiopia–Somalia Borderland: Regional Armed Violence and Cross-Border Risks](/posts/ethiopia-somalia-borderland-armed-violence.html)
+- [Other Documented African Non-State Conflicts: A Research Index](/posts/other-african-nonstate-conflicts-research-index.html)
+- [Kosovo–Serbia Armed Incidents and Organized Violence After 2000](/posts/kosovo-serbia-armed-incidents.html)
+- [Russian Military Involvement in Syria and Other External Theatres](/posts/russian-military-involvement-syria-external-theatres.html)
+- [European Foreign Fighters and Transnational Jihadist Campaigns](/posts/european-foreign-fighters-transnational-jihadist-campaigns.html)
+- [Korean Peninsula Armed Incidents, 2000–2026](/posts/korean-peninsula-armed-incidents-2000-2026.html)
+- [China–India Border Clashes: Galwan and the Wider Line of Actual Control Dispute](/posts/china-india-border-clashes-galwan.html)
+- [East Timor’s 2006 Crisis: Armed Unrest, Displacement and International Intervention](/posts/east-timor-violence-2006.html)

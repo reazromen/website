@@ -1,9 +1,9 @@
 ---
-title: "Gulf and Levant Proxy-Conflict Theatres"
+title: 'Gulf and Levant Proxy-Conflict Theatres: Networks, Not One War'
 url: /posts/gulf-levant-proxy-conflict-theatres.html
 date: '2026-10-15'
-read_time: 6
-excerpt: "The phrase “proxy conflict” describes relationships in which regional states support local armed actors, but it can obscure the independent aims "
+read_time: 7
+excerpt: 'External support links armed conflicts across the Gulf and Levant, but the term proxy war should not erase local actors, independent goals or separate conflict classifications.'
 topic: human-world
 tags:
 - history
@@ -14,21 +14,20 @@ language: en
 eyebrow: Conflict Archive · Research Essay
 ---
 
-# Gulf and Levant Proxy-Conflict Theatres
+# Gulf and Levant Proxy-Conflict Theatres: Networks, Not One War
 
-The phrase “proxy conflict” describes relationships in which regional states support local armed actors, but it can obscure the independent aims of those actors. Across the Gulf and Levant, external finance, weapons, training, intelligence and political backing have intersected with domestic struggles in Yemen, Syria, Iraq, Lebanon and the Palestinian territories.
+The phrase “Gulf and Levant proxy conflicts” describes a network of relationships, not a single war. Regional governments and non-state partners have provided arms, funding, training, intelligence or political backing to actors in Syria, Iraq, Lebanon, Yemen and the Palestinian territories. Those relationships can shape a battlefield without making local organizations mere instruments of an outside power.
 
-## Timeline and actors
+## Local conflicts remain analytically distinct
 
-A reliable account therefore starts with the local conflict and then documents external relationships separately. Iran’s support for several armed organizations, Gulf state support for selected partners, and US, Russian and other interventions have varied by theatre and period. The label does not mean every local force is controlled by its sponsor, nor does it erase local grievances or agency.
+The Syrian war involved domestic opposition, state forces, Kurdish-led formations, jihadist organizations and multiple foreign militaries. Iraq’s post-2003 violence combined occupation, insurgency, sectarian mobilization, militia politics and the campaign against the Islamic State. Lebanon’s armed balance includes Hezbollah and a state whose authority and capabilities have varied over time. Yemen’s war has involved the Houthi movement, internationally recognized authorities, southern actors and an external coalition. These theatres overlap, but each has its own actors, political setting and chronology.
 
-## Scope and classification
+“Proxy” is therefore a relationship to investigate, not a classification to assume. An armed group may receive external support while pursuing its own objectives, competing with other partners or resisting its sponsor’s preferences. A state’s support can also change from one period to another. A credible account must identify what is documented, by whom, and when.
 
-This is an analytical cross-index, not an independent war record. Each relationship needs a named recipient, a documented type of support, a dated source and a link to the primary theatre. The archive must avoid counting a sponsor relationship as another conflict unless direct fighting meets the inclusion criteria.
+## How the archive uses this entry
 
-## Sources and further reading
+This page is a cross-index. It should connect the primary essays on Syria, Iraq, Yemen, Israel–Hezbollah and Israel–Iran, rather than count the entire regional network as an additional war. Where an outside state directly uses force against another state, that episode needs a separate dated assessment; indirect support should not be equated automatically with direct interstate combat.
 
-- UCDP Dataset Center: https://ucdp.uu.se/downloads/
-- International Crisis Group: https://www.crisisgroup.org/
+The UCDP framework separates state-based armed conflict, dyadic relationships, non-state conflict and one-sided violence. That distinction helps prevent a support relationship from being counted as a conflict event by itself. Country-level overlaps should be reviewed at actor and event level before drawing conclusions.
 
-*Research note: this entry is part of a developing 2000–2026 archive. It distinguishes a research overview from a complete event-level dataset audit. Claims and classifications should be revised when new source evidence is documented.*
+**Sources and further reading:** [UCDP dataset centre](https://ucdp.uu.se/downloads/); [International Crisis Group](https://www.crisisgroup.org/); [UN Security Council](https://www.un.org/securitycouncil/).
