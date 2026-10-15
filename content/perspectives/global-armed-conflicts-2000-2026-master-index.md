@@ -198,3 +198,39 @@ For 2026, the editor must use the latest available UCDP Candidate Events release
 Every standalone essay should identify the dates, geography, parties, conflict classification, civilian consequences, major turning points, and what remains disputed or uncertain. Separate verified facts from estimates and interpretations. Do not equate casualty counts across datasets without explaining their definitions, and do not turn a list of armed incidents into a claim of continuous war.
 
 The archive is complete only when the dataset audit is recorded, duplicate and borderline cases are explained, and every eligible conflict has either a published essay or an explicit research status. This page is the master register for that process.
+
+
+## Additional published essays — 15 October 2026
+
+The following planned entries now have dedicated research essays. Scope-review entries remain separate and are not represented here as confirmed standalone conflicts.
+
+- [Insurgent and Cross-Border Violence in India’s Eastern Borderlands](/posts/insurgent-cross-border-violence-india-eastern-borderlands.html)
+- [Gulf and Levant Proxy-Conflict Theatres](/posts/gulf-levant-proxy-conflict-theatres.html)
+- [Ethiopian–Somali Borderlands and Regional Armed Violence](/posts/ethiopian-somali-borderlands-regional-armed-violence.html)
+- [Other Documented African Non-State Conflicts](/posts/other-documented-african-non-state-conflicts.html)
+- [Kosovo–Serbia Armed Incidents and Organized Violence](/posts/kosovo-serbia-armed-incidents-organized-violence.html)
+- [Russian Military Involvement in Syria and Other External Theatres](/posts/russian-military-involvement-syria-external-theatres.html)
+- [European Foreign Fighters and Transnational Jihadist Campaigns](/posts/european-foreign-fighters-transnational-jihadist-campaigns.html)
+- [Korean Peninsula Armed Incidents](/posts/korean-peninsula-armed-incidents.html)
+- [China–India Border Clashes, Including the 2020 Galwan Incident](/posts/china-india-border-clashes-2020-galwan.html)
+- [East Timor’s Post-Independence Violence in 2006](/posts/east-timor-post-independence-violence-2006.html)
+- [Other Ethnic Armed Theatres in Myanmar](/posts/other-ethnic-armed-theatres-myanmar.html)
+- [Peru and the Remnants of Sendero Luminoso](/posts/peru-sendero-luminoso-remnants.html)
+- [Haiti’s Gang Warfare and State-Security Crisis](/posts/haiti-gang-warfare-state-security-crisis.html)
+- [Ecuador’s Organized Armed Violence](/posts/ecuador-organized-armed-violence.html)
+- [Brazil’s Organized Armed Violence](/posts/brazil-organized-armed-violence.html)
+- [Venezuela–Colombia Borderland Armed Groups](/posts/venezuela-colombia-borderland-armed-groups.html)
+- [Mexico–Central America Transnational Armed Groups](/posts/mexico-central-america-transnational-armed-groups.html)
+- [The Global War on Terror After 2001](/posts/global-war-on-terror-after-2001.html)
+- [US-Led Coalition Operations in Afghanistan](/posts/us-led-coalition-operations-afghanistan.html)
+- [Operation Inherent Resolve Against the Islamic State](/posts/operation-inherent-resolve-isis-2014-onward.html)
+- [International Intervention in Libya in 2011](/posts/international-intervention-libya-2011.html)
+- [French-Led Sahel Operations Since 2013](/posts/french-led-sahel-operations-since-2013.html)
+- [African Union and International Operations in Somalia](/posts/african-union-international-operations-somalia.html)
+- [International Intervention in the Central African Republic](/posts/international-intervention-central-african-republic.html)
+- [Regional Operations Against Boko Haram and ISWAP](/posts/regional-operations-against-boko-haram-iswap.html)
+- [External Military Support in Yemen](/posts/external-military-support-yemen.html)
+- [Foreign Military Support in Ukraine](/posts/foreign-military-support-ukraine.html)
+- [Transnational Islamic State Campaigns and Affiliates](/posts/transnational-islamic-state-campaigns-affiliates.html)
+- [Drone and Remote-Strike Campaigns](/posts/drone-remote-strike-campaigns.html)
+- [Private Military Companies and Foreign Armed Formations](/posts/private-military-companies-foreign-armed-formations.html)
