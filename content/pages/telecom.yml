@@ -1,0 +1,32 @@
+title: Telecom
+browser_title: Telecom — Reaz Romen
+description: 'Telecommunications, voice infrastructure, SIP and RTP, PBX systems, carrier interconnects, network engineering and AI voice.'
+url: /telecom.html
+draft: false
+body: 'Telecommunications is where protocols meet real networks and real people. This section brings together practical engineering notes on voice systems, signalling, media transport, carrier connectivity, network reliability and the changing boundary between telecom and AI.
+
+## Voice over IP
+
+SIP signalling, RTP media, call flows, registration, routing, NAT traversal, codecs, interoperability and troubleshooting across real deployments.
+
+[Explore voice and VoIP topics →](/topics.html)
+
+## PBX and carrier infrastructure
+
+Asterisk, OpenSIPS, FreeSWITCH, trunks, DIDs, dial plans, routing policy, call-centre infrastructure, observability and production operations.
+
+## Networks and protocols
+
+How packets, addressing, routing, DNS, timing, quality of service and failure modes shape communication systems from endpoint to carrier edge.
+
+## AI voice systems
+
+Voice agents, speech pipelines and automation integrated with telephony, with attention to latency, call control, reliability, privacy and the limits of automation.
+
+## Embedded communications
+
+Connected devices, SIP endpoints, ESP32-class hardware, audio pipelines, provisioning and over-the-air updates where embedded systems meet telecom.
+
+## Editorial approach
+
+The goal is to explain the system underneath the call: distinguish protocol behaviour from implementation choices, describe trade-offs, and separate verified observations from hypotheses. Case studies should reflect actual work and evidence rather than invented performance claims.'
