@@ -6,7 +6,7 @@ from collections import defaultdict
 from copy import deepcopy
 import xml.etree.ElementTree as ET
 
-SECTIONS=('writing','perspectives','music','movies','archaeology','bangla')
+SECTIONS=('writing','perspectives','music','movies','archaeology','bangla','local-cultures')
 ASSET_VERSIONS={}
 _SHARED_CHROME=None
 
@@ -86,7 +86,7 @@ def new_post(m,tax):
     body=render_md(m['body'])
     image=m.get('cover_image')
     cover=f'<figure><img src="{esc(image)}" alt="{esc(m.get("cover_alt",""))}" loading="lazy"></figure>' if image else ''
-    return shell(m['title'],f'<article class="article" data-pagefind-body><p class="eyebrow">{esc(m["section"].title())}</p><h1>{esc(m["title"])}</h1><p class="lede">{esc(m.get("excerpt",""))}</p><div class="article-meta"><span>Published {esc(m.get("date",""))}</span><span>{int(m.get("read_time",1))} min read</span></div><div class="tags">{tags_html(m,tax)}</div>{cover}<div class="prose">{body}</div></article>',m.get('excerpt',''),m.get('language','en'))
+    return shell(m['title'],f'<article class="article" data-pagefind-body><p class="eyebrow">{esc(m.get('eyebrow') or m["section"].replace('-', ' ').title())}</p><h1>{esc(m["title"])}</h1><p class="lede">{esc(m.get("excerpt",""))}</p><div class="article-meta"><span>Published {esc(m.get("date",""))}</span><span>{int(m.get("read_time",1))} min read</span></div><div class="tags">{tags_html(m,tax)}</div>{cover}<div class="prose">{body}</div></article>',m.get('excerpt',''),m.get('language','en'))
 
 def card(m,tax,style='cards',index=1):
     if style=='home':

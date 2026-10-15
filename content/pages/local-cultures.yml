@@ -1,30 +1,21 @@
 title: Local Cultures
 browser_title: Local Cultures — Interests — Reaz Romen
-description: 'Regional cultures and everyday traditions, beginning with Bangladesh: languages, foodways,
-  craft, festivals, oral histories and local knowledge.'
+description: Explore Bangladesh's regional cultures through Jamdani weaving, Shital Pati, Baul music, Pahela Baishakh traditions and Dhaka rickshaw art, with historical context and credible sources.
 url: /local-cultures.html
 draft: false
-body: 'Culture is lived locally. Language, food, music, craft, festivals, work, memory and relationships
-  to land and water can differ from one district or community to the next. This collection starts with
-  Bangladesh and aims to document those differences without reducing any community to a single custom
-  or stereotype.
+body: |
+  Culture is lived locally. Language, food, music, craft, festivals, work, memory and relationships to land and water differ between communities and change over time. This collection starts with Bangladesh, documenting specific practices without treating any district or community as culturally uniform.
 
+  The articles below use documented sources to explain how traditions are practised, how knowledge passes between generations, and why the people who sustain them matter. UNESCO listings provide useful reference points, but a listing is not a substitute for local voices or the full diversity of lived experience.
 
-  ## Bangladesh, region by region
+  ## Explore local cultures
 
+  Read across craft, music, public celebration and urban visual culture. Each article distinguishes documented information from interpretation and points to its principal sources.
 
-  Future entries will explore regional languages and expressions, river and coastal livelihoods, food
-  traditions, weaving and other crafts, seasonal festivals, oral histories and local knowledge. Each subject
-  deserves its own context: who practises it, how it has changed, and what community members say it means.
+  ## Editorial approach
 
-
-  ## A careful approach
-
-
-  Traditions are not frozen in the past. They change through migration, technology, trade, education,
-  climate and generational choice. Where possible, articles should use local voices and credible sources,
-  distinguish documented history from popular stories, and avoid treating a whole region as culturally
-  uniform.
-
-
-  This is the starting point for a growing archive of Bangladesh’s diverse local cultures.'
+  Traditions are not frozen in the past. Migration, technology, trade, education, climate and generational choices shape them. These articles aim to avoid stereotypes, credit practitioners, and distinguish historical evidence from popular stories.
+lists:
+  - filter:
+      section: local-cultures
+    style: cards
