@@ -1,50 +1,59 @@
 title: Local Cultures
 browser_title: Local Cultures — Interests — Reaz Romen
-description: Explore Bangladesh's living cultural traditions through craft, music, festivals and urban visual culture, with historical context, careful sourcing and respect for local knowledge.
+description: A field notebook on Bangladesh's living cultural traditions: craft, music, festivals and urban visual culture, explored through evidence and local knowledge.
 url: /local-cultures.html
 draft: false
 body: |
+  <div class="culture-kicker"><span class="culture-live-dot"></span> FIELD NOTES / BANGLADESH <span>COLLECTION 01—05</span></div>
+
   # Culture, seen up close
 
-  Language, food, music, craft, festivals, work and memory take shape in particular places. This collection explores cultural practices in Bangladesh through the people who make, teach and sustain them—not as a single national checklist, but as varied traditions that continue to change.
+  Culture is not a museum label. It is knowledge carried by hands, voices, gatherings and streets—practised, adapted and passed on in everyday life.
 
-  The aim is to look beyond the finished object or public celebration and understand the knowledge, labour and relationships that make it possible.
+  This collection looks closely at the people and systems behind Bangladesh's cultural traditions: the work that sustains a craft, the memory inside a song, the meaning of a procession and the art that moves through a city.
 
-  ---
-
-  ## Craft and material knowledge
-
-  From Jamdani's intricate handloom patterns to the cool, flexible surface of Shital Pati, everyday materials carry specialised skills. These stories look at how techniques are learned, how work is organised, and what it takes for a craft to remain economically viable.
-
-  ## Music and oral tradition
-
-  Songs travel through listening, memory, practice and performance. Baul traditions show how a repertoire can carry philosophical questions and inherited knowledge while remaining open to interpretation and change.
-
-  ## Festivals and public life
-
-  Public celebrations are also acts of making. Mangal Shobhajatra brings students, teachers, artists and audiences together through masks, large-scale forms and a procession that connects the Bengali New Year with shared public space.
-
-  ## Urban visual culture
-
-  Culture is made in cities as well as villages. Dhaka's decorated rickshaws bring painting and craft into the street, turning everyday transport into a moving gallery shaped by artists, workshops, customers and changing tastes.
+  <div class="culture-index" aria-label="Explore cultural themes">
+    <a href="#craft-and-material-knowledge"><span class="culture-index-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 9h16M9 4v16M15 4v16M4 15h16"/></svg></span><span><small>01 / MATERIAL</small><strong>Craft &amp; making</strong></span><span class="culture-index-arrow">↗</span></a>
+    <a href="#music-and-oral-tradition"><span class="culture-index-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M9 18V5l12-2v13M9 8l12-2M5 21a4 3 0 1 0 0-6 4 3 0 0 0 0 6ZM17 19a4 3 0 1 0 0-6 4 3 0 0 0 0 6Z"/></svg></span><span><small>02 / SOUND</small><strong>Music &amp; memory</strong></span><span class="culture-index-arrow">↗</span></a>
+    <a href="#festivals-and-public-life"><span class="culture-index-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M5.5 5.5l13 13M18.5 5.5l-13 13M8 3l4 4 4-4M8 21l4-4 4 4"/></svg></span><span><small>03 / GATHERING</small><strong>Festivals &amp; public life</strong></span><span class="culture-index-arrow">↗</span></a>
+    <a href="#urban-visual-culture"><span class="culture-index-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6M8 10h2M14 10h2"/></svg></span><span><small>04 / STREET</small><strong>Urban visual culture</strong></span><span class="culture-index-arrow">↗</span></a>
+  </div>
 
   ---
 
-  ## Read the collection
+  <h2 id="craft-and-material-knowledge" class="culture-section-title"><span class="culture-section-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 9h16M9 4v16M15 4v16M4 15h16"/></svg></span><span><small>01 / MATERIAL KNOWLEDGE</small>Craft and material knowledge</span></h2>
 
-  These articles combine documented historical details with interpretation. Each links to a principal source, and none should be mistaken for field reporting or a substitute for the voices of practitioners.
+  From Jamdani's intricate handloom patterns to the cool, flexible surface of Shital Pati, everyday materials hold specialised knowledge. Look beyond the finished object: at the technique, labour, tools, learning and economics that help a tradition endure.
 
-  ## How these stories are approached
+  <h2 id="music-and-oral-tradition" class="culture-section-title"><span class="culture-section-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M9 18V5l12-2v13M9 8l12-2M5 21a4 3 0 1 0 0-6 4 3 0 0 0 0 6ZM17 19a4 3 0 1 0 0-6 4 3 0 0 0 0 6Z"/></svg></span><span><small>02 / SOUND &amp; MEMORY</small>Music and oral tradition</span></h2>
 
-  **Living traditions, not frozen relics.** Migration, technology, trade, climate, markets and generational choices affect how practices continue.
+  Songs travel through listening, memory, practice and performance. Baul traditions offer a way to explore how music carries philosophical questions and inherited knowledge while leaving room for personal interpretation and change.
 
-  **Evidence before certainty.** Institutional records and published sources are identified; oral histories and popular accounts should be labelled as such rather than presented as settled fact.
+  <h2 id="festivals-and-public-life" class="culture-section-title"><span class="culture-section-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M5.5 5.5l13 13M18.5 5.5l-13 13M8 3l4 4 4-4M8 21l4-4 4 4"/></svg></span><span><small>03 / SHARED SPACE</small>Festivals and public life</span></h2>
 
-  **People before stereotypes.** No single craft, festival or musical tradition represents every person in a region. Practitioners are skilled people working within real social and economic conditions.
+  Mangal Shobhajatra turns making into a public act. Masks, large-scale forms, artists, students and audiences come together in a procession associated with the Bengali New Year—connecting creative work with shared civic space.
+
+  <h2 id="urban-visual-culture" class="culture-section-title"><span class="culture-section-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6M8 10h2M14 10h2"/></svg></span><span><small>04 / CITY &amp; STREET</small>Urban visual culture</span></h2>
+
+  Dhaka's decorated rickshaws bring painting into the street. Their surfaces form a moving gallery shaped by artists, workshops, customers, urban movement and changing tastes—a reminder that cultural production is part of contemporary city life, too.
+
+  ---
+
+  ## The collection <span class="culture-count">05 STORIES · 2024</span>
+
+  These articles combine documented context with interpretation. Each points to a principal source; they are not presented as field reporting or as substitutes for practitioners' own voices.
+
+  ## Editorial principles
+
+  <div class="culture-principles">
+    <div><span class="culture-principle-mark">01</span><strong>Living traditions</strong><p>Practices evolve with migration, technology, trade, climate, markets and generational choices. They are not frozen relics.</p></div>
+    <div><span class="culture-principle-mark">02</span><strong>Evidence before certainty</strong><p>Published and institutional sources are identified. Oral histories and popular accounts should be described honestly.</p></div>
+    <div><span class="culture-principle-mark">03</span><strong>People before stereotypes</strong><p>No single craft, festival or musical tradition represents every person in a region. Skills exist within real social and economic conditions.</p></div>
+  </div>
 
   ## A growing field notebook
 
-  This is an evolving collection. Future entries can follow regional language and expression, foodways, river and coastal livelihoods, weaving and craft, seasonal festivals, oral histories and local knowledge. New work should add specific places and voices rather than make broad claims about entire communities.
+  Future entries can follow regional language, foodways, river and coastal livelihoods, seasonal festivals, oral histories and local knowledge. The goal is to add specific places, sources and voices—not make broad claims about entire communities.
 lists:
   - filter:
       section: local-cultures
