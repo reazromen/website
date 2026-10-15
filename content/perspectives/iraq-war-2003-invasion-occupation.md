@@ -1,7 +1,7 @@
 ---
 title: 'The Iraq War: Invasion, Occupation, and the Unraveling of a State'
 url: /posts/iraq-war-2003-invasion-occupation.html
-date: '2026-10-15'
+date: '2020-10-09'
 read_time: 9
 excerpt: The 2003 invasion overthrew Saddam Hussein but opened a prolonged period of occupation, insurgency, sectarian violence, and institutional upheaval.
 topic: human-world
