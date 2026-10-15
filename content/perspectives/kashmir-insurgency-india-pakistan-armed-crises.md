@@ -1,7 +1,7 @@
 ---
 title: 'Kashmir’s Insurgency and India–Pakistan Armed Crises: Separate Conflicts, Shared Risks'
 url: /posts/kashmir-insurgency-india-pakistan-armed-crises.html
-date: '2026-10-15'
+date: '2023-07-14'
 read_time: 9
 excerpt: Kashmir’s local insurgency, the unresolved territorial dispute, and repeated India–Pakistan military crises overlap but should not be treated as one continuous episode of identical fighting.
 topic: human-world
