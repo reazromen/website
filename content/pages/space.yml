@@ -1,0 +1,12 @@
+title: Space
+browser_title: Space — Perspectives — Reaz Romen
+description: Writing on the cosmos, astronomy, astrobiology and humanity’s place in the universe.
+url: /space.html
+draft: false
+body: A focused collection on the cosmos and the place of life and intelligence in the universe. This
+  section will grow as new astronomy, solar observation, satellite and space-science work is published.
+lists:
+- key: SPACE
+  filter:
+    topic: cosmos-universe
+  style: cards

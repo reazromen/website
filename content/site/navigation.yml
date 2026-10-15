@@ -8,6 +8,19 @@ main:
 - label: Perspectives
   href: /perspectives.html
   enabled: true
+  children:
+  - label: World
+    href: /world.html
+    enabled: true
+  - label: Space
+    href: /space.html
+    enabled: true
+  - label: Research & Reports
+    href: /research-reports.html
+    enabled: true
+  - label: Specs & Technical Documents
+    href: /specs.html
+    enabled: true
 - label: Music
   href: /music.html
   enabled: true

@@ -1,0 +1,13 @@
+title: Research & Reports
+browser_title: Research & Reports — Reaz Romen
+description: Long-form research essays, structured reports, evidence reviews and cross-topic analysis.
+url: /research-reports.html
+draft: false
+body: 'Long-form research and reports live here: structured investigations, source-led essays, historical
+  and scientific analysis, and cross-topic work. Use World and Space for narrower subject collections;
+  this index brings together the wider Perspectives archive.'
+lists:
+- key: RESEARCH_REPORTS
+  filter:
+    section: perspectives
+  style: cards

@@ -1,0 +1,62 @@
+title: Specs & Technical Documents
+browser_title: Specs & Technical Documents — Reaz Romen
+description: Technical specifications, protocol notes, architecture documents, implementation constraints
+  and engineering references.
+url: /specs.html
+draft: false
+body: A technical reference shelf for architecture, protocol behavior, embedded systems, networking, firmware
+  and production engineering. These documents explain constraints and system behavior; project delivery
+  and case studies remain under Work.
+lists:
+- key: SPEC_ENGINEERING_NOTES
+  filter:
+    topic: engineering-notes
+  style: cards
+- key: SPEC_TELECOM
+  filter:
+    topic: telecom-voip
+  style: cards
+- key: SPEC_EMBEDDED
+  filter:
+    topic: embedded-firmware
+  style: cards
+- key: SPEC_PRODUCTION
+  filter:
+    topic: production-engineering
+  style: cards
+- key: SPEC_FIRMWARE_RELEASE
+  filter:
+    topic: firmware-release-engineering
+  style: cards
+- key: SPEC_NETWORKING
+  filter:
+    topic: networking
+  style: cards
+- key: SPEC_LOUP
+  filter:
+    topic: loup-engineering
+  style: cards
+- key: SPEC_VOICEWARE
+  filter:
+    topic: voiceware-engineering
+  style: cards
+- key: SPEC_PCB
+  filter:
+    topic: pcb-bringup-hardware
+  style: cards
+- key: SPEC_AUDIO
+  filter:
+    topic: embedded-audio-voice
+  style: cards
+- key: SPEC_SECURITY
+  filter:
+    topic: security-identity
+  style: cards
+- key: SPEC_CONTROL_PLANE
+  filter:
+    topic: web-control-plane
+  style: cards
+- key: SPEC_CADDY
+  filter:
+    topic: caddy-reverse-proxy
+  style: cards

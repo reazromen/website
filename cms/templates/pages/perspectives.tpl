@@ -27,6 +27,15 @@
 <button type="submit"><svg aria-hidden="true" class="tech-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><span>{{RR_BLOCK4}}</span></button>
 </form>
 </section>
+<section class="topic-strip" aria-label="Perspectives sections">
+<div class="section-kicker"><span>EXPLORE BY SECTION</span><span>World · Space · Research · Technical references</span></div>
+<div class="topic-grid compact">
+<a class="topic-card" href="/world.html"><strong>World</strong><span>Conflict, geopolitics, history and civilization</span></a>
+<a class="topic-card" href="/space.html"><strong>Space</strong><span>Cosmos, astronomy and astrobiology</span></a>
+<a class="topic-card" href="/research-reports.html"><strong>Research &amp; Reports</strong><span>Long-form research and evidence-led analysis</span></a>
+<a class="topic-card" href="/specs.html"><strong>Specs &amp; Technical Documents</strong><span>Protocols, architecture and engineering references</span></a>
+</div>
+</section>
 <section aria-labelledby="featured-writing-title" class="section-block writing-featured">
 <div class="section-kicker"><span id="featured-writing-title">{{RR_BLOCK5}}</span><span>{{RR_BLOCK6}}</span></div>
 <div class="writing-list featured-writing-list">

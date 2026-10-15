@@ -1,0 +1,13 @@
+title: World
+browser_title: World — Perspectives — Reaz Romen
+description: Research essays on conflict, geopolitics, civilization, institutions and the systems shaping
+  the human world.
+url: /world.html
+draft: false
+body: Explore the human world through evidence-led writing on conflict, geopolitics, institutions, history
+  and civilization. Articles are separated by topic and should distinguish documented facts from interpretation.
+lists:
+- key: WORLD
+  filter:
+    topic: human-world
+  style: cards
