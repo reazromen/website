@@ -136,7 +136,9 @@ def link(item,current):
     attr=' aria-current="page"' if route(href)==current else ''
     lang=' lang="'+esc(item['lang'])+'"' if item.get('lang') else ''
     a=f'<a href="{esc(href)}"{attr}{lang}>{name}</a>' if href else ''
-    if children:return f'<details class="nav-group"><summary>{name}</summary><div class="nav-submenu">{a}{"".join(link(x,current) for x in children)}</div></details>'
+    if children:
+        overview=a.replace(f'>{name}</a>', '>Overview</a>')
+        return f'<details class="nav-group"><summary>{name}</summary><div class="nav-submenu">{overview}{"".join(link(x,current) for x in children)}</div></details>'
     return a
 
 def finalize(raw,url,nav,entry=None,tax=None):

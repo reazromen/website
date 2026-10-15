@@ -69,6 +69,3 @@ footer:
 - label: Archive
   href: /archive.html
   enabled: true
-- label: Author record
-  href: /author/reaz-romen.html
-  enabled: true
