@@ -1,30 +1,51 @@
 title: World Cultures
 browser_title: World Cultures — Interests — Reaz Romen
-description: An expanding guide to cultural histories and contemporary life across countries and regions,
-  with context and attention to diversity within societies.
+description: A contextual field guide to cultural histories and contemporary life across world regions, with attention to evidence, diversity and local perspectives.
 url: /world-cultures.html
 draft: false
-body: 'No country has just one culture, and no tradition exists outside history. This collection explores
-  cultural life across regions through language, belief, art, food, architecture, festivals, music, migration
-  and everyday practice. The aim is to explain context, not to turn complex societies into lists of exotic
-  customs.
+body: |
+  <div class="culture-kicker"><span class="culture-live-dot"></span> FIELD NOTES / GLOBAL CULTURES <span>REGIONAL INDEX</span></div>
 
+  # World Cultures
 
-  ## Explore by region
+  No country has just one culture, and no tradition exists outside history. This collection explores cultural life through language, belief, art, food, architecture, festivals, music, migration and everyday practice.
 
+  The aim is to explain context—not turn complex societies into lists of exotic customs.
 
-  The archive will expand across South Asia, East and Southeast Asia, the Middle East, Africa, Europe,
-  the Americas and Oceania. Individual articles will focus on specific communities, periods or practices,
-  with clear distinctions between historical evidence, contemporary reporting and interpretation.
+  <div class="world-culture-stats" aria-label="Collection scope">
+    <div><span class="world-stat-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg></span><span><small>GEOGRAPHY</small><strong>7 world regions</strong></span></div>
+    <div><span class="world-stat-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21zM4 5.5v15M8 7h8M8 11h7"/></svg></span><span><small>APPROACH</small><strong>Context before labels</strong></span></div>
+    <div><span class="world-stat-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5M8 10h5M10.5 7.5v6"/></svg></span><span><small>METHOD</small><strong>Evidence and scope</strong></span></div>
+  </div>
 
+  ---
 
-  ## Context before generalisation
+  <h2 class="culture-section-title"><span class="culture-section-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg></span><span><small>REGIONAL INDEX / 01—07</small>Explore by region</span></h2>
 
+  The archive is designed to grow through specific communities, places, periods and practices. These regional groupings are starting points, not claims that each region is culturally uniform.
 
-  Cultural practices vary by region, class, generation, religion, language and personal choice. Articles
-  in this section should name their scope, draw on reliable sources and avoid presenting one person’s
-  experience as representative of an entire country.
+  <div class="world-region-grid">
+    <article class="world-region-card"><span class="world-region-top"><span class="world-region-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 20h18M5 20V9l7-5 7 5v11M9 20v-6h6v6M8 10h2M14 10h2"/></svg></span><small>REGION 01</small></span><h3>South Asia</h3><p>Languages, devotional traditions, textiles, foodways, cinema, architecture and layered histories of exchange.</p><span class="world-region-scope">Bangladesh · India · Pakistan · Nepal · Sri Lanka and more</span></article>
+    <article class="world-region-card"><span class="world-region-top"><span class="world-region-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 20h18M5 20V9l7-5 7 5v11M9 20v-6h6v6M8 10h2M14 10h2"/></svg></span><small>REGION 02</small></span><h3>East &amp; Southeast Asia</h3><p>Writing systems, performance, craft, religious life, popular culture and the movement of ideas across land and sea.</p><span class="world-region-scope">China · Japan · Korea · Vietnam · Indonesia and more</span></article>
+    <article class="world-region-card"><span class="world-region-top"><span class="world-region-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v18M4 8h16M6 8l-3 6h6L6 8ZM18 8l-3 6h6l-3-6ZM7 21h10"/></svg></span><small>REGION 03</small></span><h3>Middle East</h3><p>Oral poetry, calligraphy, music, trade routes, built environments and diverse religious and linguistic histories.</p><span class="world-region-scope">A broad region with many overlapping definitions</span></article>
+    <article class="world-region-card"><span class="world-region-top"><span class="world-region-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3 14 8 20 6 18 12 21 16 15 17 12 22 9 17 3 16 6 12 4 6 10 8zM9 11h.01M15 11h.01"/></svg></span><small>REGION 04</small></span><h3>Africa</h3><p>Thousands of languages and local histories, artistic traditions, urban cultures, music, migration and knowledge systems.</p><span class="world-region-scope">North, West, Central, East and Southern Africa</span></article>
+    <article class="world-region-card"><span class="world-region-top"><span class="world-region-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 21h16M6 21V8l6-4 6 4v13M9 21v-7h6v7M8 10h2M14 10h2"/></svg></span><small>REGION 05</small></span><h3>Europe</h3><p>Regional identities, minority languages, folk and contemporary arts, migration, memory and contested heritage.</p><span class="world-region-scope">Local traditions and transnational histories</span></article>
+    <article class="world-region-card"><span class="world-region-top"><span class="world-region-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12c3-6 6 6 9 0s6 6 9 0M3 17c3-6 6 6 9 0s6 6 9 0M3 7c3-6 6 6 9 0s6 6 9 0"/></svg></span><small>REGION 06</small></span><h3>The Americas</h3><p>Indigenous continuities, diasporas, colonial legacies, music, food, language and changing identities.</p><span class="world-region-scope">North, Central and South America, and the Caribbean</span></article>
+    <article class="world-region-card"><span class="world-region-top"><span class="world-region-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 15c3-7 5 4 8-2s5 5 10-3M5 20c3-3 5 2 8-1s4 2 6-1M7 5l2 2M15 4l-1 3"/></svg></span><small>REGION 07</small></span><h3>Oceania</h3><p>Island and continental cultures, Indigenous knowledge, navigation, language revitalisation and contemporary creative life.</p><span class="world-region-scope">Australia, Pacific Islands and connected communities</span></article>
+  </div>
 
+  <h2 class="culture-section-title"><span class="culture-section-icon"><svg class="tech-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3 14 9l6 3-6 3-2 6-2-6-6-3 6-3z"/></svg></span><span><small>EDITORIAL STANDARD</small>Context before generalisation</span></h2>
 
-  This page is the index for a growing collection of cultural histories and contemporary perspectives
-  from around the world.'
+  Cultural practices vary by region, class, generation, religion, language and personal choice. Articles should name their scope, draw on reliable sources and avoid presenting one person's experience as representative of an entire country.
+
+  <div class="culture-principles">
+    <div><span class="culture-principle-mark">01</span><strong>Name the context</strong><p>Identify the community, place, time period and practice under discussion instead of treating a country as a single cultural unit.</p></div>
+    <div><span class="culture-principle-mark">02</span><strong>Separate evidence from interpretation</strong><p>Distinguish historical records and documented research from contemporary reporting, oral accounts and analysis.</p></div>
+    <div><span class="culture-principle-mark">03</span><strong>Respect living voices</strong><p>Represent traditions as practices shaped by people today—not as exotic objects viewed from the outside.</p></div>
+  </div>
+
+  ## How this archive grows
+
+  Entries will focus on a defined subject and identify useful sources. Regional categories help navigation; they do not replace the specific histories, languages and perspectives of the people concerned.
+
+  This is an index for a growing collection of cultural histories and contemporary perspectives from around the world.
