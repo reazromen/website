@@ -1,44 +1,72 @@
 {
   "BLOCK0": {
+    "hash": "d6a524248ef90ab119288c22d7f409638eda2ff81e2e832ab8e9c56f1a34b275",
+    "html": "ENGINEERING / OBSERVABILITY",
     "inline": true
   },
   "BLOCK1": {
+    "hash": "0c76d0835524d0e66ddb9b518c152f44bdd923c48c8455213e14055338e78a46",
+    "html": "Observe the system, not just the processes.",
     "inline": true
   },
   "BLOCK2": {
+    "hash": "690292227ffcccf5fbff315f255b19c2d5a9c1da969fd640b723c3b2c9ae8ddc",
+    "html": "A practical engineering notebook on how I build, monitor, troubleshoot and recover a multi-service Linux environment—from host and containers to public endpoints, databases, voice services and the monitoring stack itself.",
     "inline": true
   },
   "BLOCK3": {
+    "hash": "b5ef18f0d26befca4810870c9ee973b5ea73ac7245bee65d1c3ac686b4238771",
+    "html": "The platform we built",
     "inline": true
   },
   "BLOCK4": {
+    "hash": "dbf79027bb5206dd3765a23bb564c008a474c698c7f338abd86f2d011b3c5f41",
+    "html": "I started with Linux, Docker, remote access and individual services. As the system grew, I added a consistent operations layer: a central service overview, secure ingress, private administration, authentication, metrics, logs, health probes, alert routing, topology views and documented recovery paths. The aim is to understand whether a service is actually useful to a user—not merely whether its container exists.",
     "inline": true
   },
   "BLOCK5": {
+    "hash": "55cb9be7a63b94e76645950dd088d527efe0fc91e017e37fb1edaf0f737ddadb",
+    "html": "How the observability stack works",
     "inline": true
   },
   "BLOCK6": {
+    "hash": "882fc35b23d38299b966db97ea27602c7a4f311424a84cfcc7d80cb131a9c998",
+    "html": "Prometheus collects host, container and application metrics. Exporters and purpose-built probes cover operating-system resources, Docker workloads, public HTTPS/DNS/TLS reachability, database availability and voice-service signals. Grafana turns those signals into overview and drill-down dashboards; Loki with Alloy supports log correlation, while other log/search services are used where appropriate.",
     "inline": true
   },
   "BLOCK7": {
+    "hash": "6effb7e128fe84d0f7f7efd069d1d6833d3d02cf6ab3bc2252d952670d9c1bdc",
+    "html": "Alerts are tested, not assumed",
     "inline": true
   },
   "BLOCK8": {
+    "hash": "d8e7abde12b9de89048c3155b3973162498c764d856b0f1ec2d5f5dda9f5d7ce",
+    "html": "I validate the complete path: create a controlled failure, confirm the underlying metric, inspect the PromQL rule and label matching, verify the alert state, then test delivery and resolution. This caught a real case where metrics were present but a label-matching problem prevented the expected alert from firing. External probes and freshness checks help distinguish an actual outage from stale or incomplete telemetry.",
     "inline": true
   },
   "BLOCK9": {
+    "hash": "0cf01b5a7fa2ddeb4e899ed80ee1d6c8f8c061baa3ef0a13f5d7eca7a0c75f06",
+    "html": "Operations beyond dashboards",
     "inline": true
   },
   "BLOCK10": {
+    "hash": "196a9373f546f5b3fef84edde91ca5f8f7be34ac4372915c9f29fb0261b426fe",
+    "html": "The work also includes service and network-flow maps, packet-path investigation, payload capture pipelines, authenticated operator tools, configuration review, secret lifecycle, backup freshness and integrity checks, restore verification, storage headroom, and recovery procedures. Service state, dependency health, public reachability and operator intent are treated as different signals rather than collapsed into one green light.",
     "inline": true
   },
   "BLOCK11": {
+    "hash": "d97079338514df1d592597df306b2ceb27fe3a4f6c8a2c3fcd75ed7d927461c1",
+    "html": "Engineering for constrained hardware",
     "inline": true
   },
   "BLOCK12": {
+    "hash": "7e6205a5f4e15e39ea6d2b6bd65ce4df9c2e51abe69f61457d01e7c32f755296",
+    "html": "Monitoring shares CPU, RAM and storage with the applications it observes. I budget exporters, scrape intervals, metric cardinality, retention, log volume and dashboard queries; I also monitor the monitoring pipeline for stale data or dropped logs. That keeps the system useful on modest hardware instead of allowing observability itself to become the outage.",
     "inline": true
   },
   "BLOCK13": {
+    "hash": "7a521fcc8ce7fb10c38901e8c276a4f628842f0ae8d19b1a6389509c4401107c",
+    "html": "Projects and implementation notes",
     "inline": true
   }
 }
