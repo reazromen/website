@@ -1,7 +1,6 @@
 title: I’m Reaz Romen. I work at the seams between systems.
 browser_title: About Reaz Romen — Systems Engineer
-description: About Reaz Romen and his work across embedded firmware, real-time communications,
-  Linux infrastructure, observability and cross-layer systems debugging.
+description: About Reaz Romen: IoT and embedded systems, VoIP, FreeSWITCH, Asterisk, Linux, Docker, Kubernetes, technical writing and research.
 url: /about.html
 draft: false
 blocks:
@@ -12,19 +11,11 @@ blocks:
   label: I’m Reaz Romen. I work at the seams between systems.
   body: I’m Reaz Romen. I work at the seams between systems.
 - id: BLOCK2
-  label: I’m a systems engineer who works across embedded devices, networks, real-time
-    communications, b
-  body: I’m a systems engineer who works across embedded devices, networks, real-time
-    communications, backend services and infrastructure. I’m most useful when a product
-    crosses several of those layers and the problem does not belong cleanly to one
-    team or one tool.
+  label: "I work across IoT, embedded systems, VoIP, telecommunications and Linux infrastructure."
+  body: "I work across IoT, embedded systems, VoIP, telecommunications and Linux infrastructure. I also research and write about technology, engineering, science and the systems behind them. I’m most useful when a product crosses several layers and the problem does not belong cleanly to one team or one tool."
 - id: BLOCK3
-  label: 'A lot of my work is hands-on: ESP32-S3 firmware and audio, SIP/RTP call
-    paths, Linux and Docker'
-  body: 'A lot of my work is hands-on: ESP32-S3 firmware and audio, SIP/RTP call paths,
-    Linux and Docker systems, observability, ingress, service control and the glue
-    between them. The same pattern keeps showing up — the symptom appears in one layer
-    while the root cause lives somewhere else.'
+  label: "ESP32 firmware and audio, SIP/RTP call paths, FreeSWITCH, Docker, Kubernetes and observability."
+  body: "A lot of my work is hands-on: ESP32-S3 firmware and audio, SIP/RTP call paths, Asterisk and FreeSWITCH, Linux services, Docker and Kubernetes, observability, ingress and the glue between them. The symptom often appears in one layer while the root cause lives somewhere else."
 - id: BLOCK4
   label: I prefer evidence over guesswork. I use serial logs, packet captures, timing
     measurements, metr
@@ -33,43 +24,29 @@ blocks:
     working states before changing them, and I document the path so the system can
     be understood again later.
 - id: BLOCK5
-  label: Connected firmware, real-time voice paths, Linux infrastructure and operational
-    tooling.
-  body: Connected firmware, real-time voice paths, Linux infrastructure and operational
-    tooling.
+  label: "IoT and embedded devices, VoIP systems, infrastructure and technical writing."
+  body: "IoT and embedded devices, VoIP systems, Linux infrastructure and technical writing."
 - id: BLOCK6
-  label: Known-good baselines, logs, packets, timing, metrics, controlled changes
-    and repeatable tests.
-  body: Known-good baselines, logs, packets, timing, metrics, controlled changes and
-    repeatable tests.
+  label: "SIP/RTP, FreeSWITCH, Asterisk, Docker, Kubernetes, logs, metrics and repeatable tests."
+  body: "SIP/RTP, FreeSWITCH, Asterisk, Docker, Kubernetes, logs, metrics, controlled changes and repeatable tests."
 - id: BLOCK7
-  label: Problems that cross device, network, media, service and infrastructure boundaries.
-  body: Problems that cross device, network, media, service and infrastructure boundaries.
+  label: "Problems spanning device, network, media, service and infrastructure boundaries."
+  body: "Problems spanning device, network, media, service and infrastructure boundaries."
 - id: BLOCK8
-  label: I do not fit neatly into one engineering box.
-  body: I do not fit neatly into one engineering box.
+  label: "I work across four connected areas."
+  body: "I work across four connected areas."
 - id: BLOCK9
-  label: That is intentional. A connected product rarely fails according to an org
-    chart. Firmware timin
-  body: That is intentional. A connected product rarely fails according to an org
-    chart. Firmware timing can surface as audio quality. SIP can succeed while RTP
-    fails. A container can be “up” while the service is unusable. I like following
-    the actual data path until the failure makes sense.
+  label: "Connected products rarely fail according to an org chart."
+  body: "Connected products rarely fail according to an org chart. Firmware timing can surface as audio quality. SIP can succeed while RTP fails. A container can be running while its service remains unusable. I follow the actual data path until the failure makes sense."
 - id: BLOCK10
-  label: 'Embedded: ESP32-S3, ESP-IDF/ADF, audio codecs, I2S/I2C, provisioning, OTA,
-    controls and board b'
-  body: '**Embedded:** ESP32-S3, ESP-IDF/ADF, audio codecs, I2S/I2C, provisioning,
-    OTA, controls and board bring-up.'
+  label: "IoT & Embedded Systems: ESP32-S3, ESP-IDF/ADF, audio codecs, connectivity, provisioning, OTA and board bring-up."
+  body: "**IoT & Embedded Systems:** ESP32-S3, ESP-IDF/ADF, audio codecs, I2S/I2C, connectivity, provisioning, OTA, controls and board bring-up."
 - id: BLOCK11
-  label: 'Voice: SIP, SDP, RTP, Asterisk, FreeSWITCH, OpenSIPS, Drachtio, endpoint
-    and media-path debuggi'
-  body: '**Voice:** SIP, SDP, RTP, Asterisk, FreeSWITCH, OpenSIPS, Drachtio, endpoint
-    and media-path debugging.'
+  label: "VoIP & Real-Time Communications: SIP, SDP, RTP, Asterisk, FreeSWITCH, OpenSIPS, Drachtio, PBX and media-path debugging."
+  body: "**VoIP & Real-Time Communications:** SIP, SDP, RTP, Asterisk, FreeSWITCH, OpenSIPS, Drachtio, PBX, SIP trunks, routing and media-path debugging."
 - id: BLOCK12
-  label: 'Systems: Linux, Docker, ingress, observability, service health, logging,
-    dependencies and recov'
-  body: '**Systems:** Linux, Docker, ingress, observability, service health, logging,
-    dependencies and recovery.'
+  label: "Linux, Containers & Infrastructure: Linux, Docker, Kubernetes, ingress, observability, health, logging and recovery."
+  body: "**Linux, Containers & Infrastructure:** Linux, Docker, Kubernetes, ingress, observability, service health, logging, dependencies and recovery."
 - id: BLOCK13
   label: Frame the system
   body: Frame the system
@@ -109,37 +86,29 @@ blocks:
   body: Document architecture, verification and recovery so the system is easier to
     operate after the fix.
 - id: BLOCK23
-  label: Connected Device Firmware
-  body: Connected Device Firmware
+  label: "IoT & Embedded Systems"
+  body: "Connected-device development from ESP32 firmware and hardware interfaces to connectivity, provisioning, telemetry and OTA lifecycle."
 - id: BLOCK24
-  label: Firmware for connected products where the device, hardware interfaces, network
-    behavior and lif
-  body: Firmware for connected products where the device, hardware interfaces, network
-    behavior and lifecycle all have to agree.
+  label: "Firmware and connected-product development across hardware interfaces, network behavior and lifecycle."
+  body: "Firmware and connected-product development across hardware interfaces, network behavior and lifecycle."
 - id: BLOCK25
-  label: Voice & Real-Time Communications
-  body: Voice & Real-Time Communications
+  label: "VoIP & Real-Time Communications"
+  body: "SIP/RTP systems from endpoint behavior through PBX, SIP trunking, routing and media paths, including failures that only appear during real calls."
 - id: BLOCK26
-  label: SIP/RTP systems from endpoint behavior through PBX and media paths, including
-    the failures that
-  body: SIP/RTP systems from endpoint behavior through PBX and media paths, including
-    the failures that only appear during real calls.
+  label: "SIP/RTP systems from endpoint behavior through PBX and media paths, including the failures that only appear during real calls."
+  body: "SIP/RTP systems from endpoint behavior through PBX and media paths, including the failures that only appear during real calls."
 - id: BLOCK27
-  label: Infrastructure & Operations
-  body: Infrastructure & Operations
+  label: "Linux, Containers & Infrastructure"
+  body: "Linux services and containerized workloads with Docker and Kubernetes, supported by clear ingress, health checks, observability and recovery paths."
 - id: BLOCK28
-  label: Linux and container infrastructure with clear ingress, health, observability,
-    service state and
-  body: Linux and container infrastructure with clear ingress, health, observability,
-    service state and recovery paths.
+  label: "Linux and container infrastructure with clear ingress, health, observability, service state and recovery paths."
+  body: "Linux and container infrastructure with Docker and Kubernetes, clear ingress, health checks, observability, service state and recovery paths."
 - id: BLOCK29
-  label: Cross-Layer Debugging
-  body: Cross-Layer Debugging
+  label: "Technical Writing & Research"
+  body: "Research, technical explainers, system documentation and evidence-based writing about engineering, science and technology."
 - id: BLOCK30
-  label: 'For problems that refuse to stay in one box: audio that is really timing,
-    calls that connect wi'
-  body: 'For problems that refuse to stay in one box: audio that is really timing,
-    calls that connect without media, or healthy processes behind broken services.'
+  label: "Research, technical explainers, system documentation and evidence-based writing about engineering, science and technology."
+  body: "Research, technical explainers, system documentation and evidence-based writing about engineering, science and technology."
 - id: BLOCK31
   label: A FEW THINGS I CARE ABOUT
   body: A FEW THINGS I CARE ABOUT
