@@ -87,25 +87,25 @@ blocks:
     operate after the fix.
 - id: BLOCK23
   label: "IoT & Embedded Systems"
-  body: "Connected-device development from ESP32 firmware and hardware interfaces to connectivity, provisioning, telemetry and OTA lifecycle."
+  body: "IoT & Embedded Systems"
 - id: BLOCK24
-  label: "Firmware and connected-product development across hardware interfaces, network behavior and lifecycle."
-  body: "Firmware and connected-product development across hardware interfaces, network behavior and lifecycle."
+  label: "Connected-device development from ESP32 firmware and hardware interfaces to connectivity, provisioning, telemetry and OTA lifecycle."
+  body: "Connected-device development from ESP32 firmware and hardware interfaces to connectivity, provisioning, telemetry and OTA lifecycle."
 - id: BLOCK25
   label: "VoIP & Real-Time Communications"
-  body: "SIP/RTP systems from endpoint behavior through PBX, SIP trunking, routing and media paths, including failures that only appear during real calls."
+  body: "VoIP & Real-Time Communications"
 - id: BLOCK26
-  label: "SIP/RTP systems from endpoint behavior through PBX and media paths, including the failures that only appear during real calls."
-  body: "SIP/RTP systems from endpoint behavior through PBX and media paths, including the failures that only appear during real calls."
+  label: "SIP/RTP systems from endpoint behavior through PBX, SIP trunking, routing and media paths, including failures that only appear during real calls."
+  body: "SIP/RTP systems from endpoint behavior through PBX, SIP trunking, routing and media paths, including failures that only appear during real calls."
 - id: BLOCK27
   label: "Linux, Containers & Infrastructure"
-  body: "Linux services and containerized workloads with Docker and Kubernetes, supported by clear ingress, health checks, observability and recovery paths."
+  body: "Linux, Containers & Infrastructure"
 - id: BLOCK28
-  label: "Linux and container infrastructure with clear ingress, health, observability, service state and recovery paths."
-  body: "Linux and container infrastructure with Docker and Kubernetes, clear ingress, health checks, observability, service state and recovery paths."
+  label: "Linux services and containerized workloads with Docker and Kubernetes, supported by clear ingress, health checks, observability and recovery paths."
+  body: "Linux services and containerized workloads with Docker and Kubernetes, supported by clear ingress, health checks, observability and recovery paths."
 - id: BLOCK29
   label: "Technical Writing & Research"
-  body: "Research, technical explainers, system documentation and evidence-based writing about engineering, science and technology."
+  body: "Technical Writing & Research"
 - id: BLOCK30
   label: "Research, technical explainers, system documentation and evidence-based writing about engineering, science and technology."
   body: "Research, technical explainers, system documentation and evidence-based writing about engineering, science and technology."
