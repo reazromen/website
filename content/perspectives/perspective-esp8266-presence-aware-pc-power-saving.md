@@ -6,11 +6,11 @@ read_time: 5
 excerpt: "A small presence-aware automation experiment explores when a computer should sleep, why timers need care, and how to measure energy savings instead of guessing."
 topic: radio-iot
 tags:
-  - esp8266
-  - iot
-  - energy-efficiency
+  - embedded
+  - firmware
+  - sensors
+  - energy
   - automation
-  - home-lab
 draft: false
 featured: true
 language: en

@@ -6,12 +6,12 @@ read_time: 6
 excerpt: "A practical comparison of DIY ESP8266 experiments, PIR and mmWave sensing, ESPHome, Home Assistant and dedicated presence products—without confusing detection with reliability."
 topic: radio-iot
 tags:
-  - presence-sensing
-  - esp8266
-  - esphome
-  - home-assistant
-  - mmwave
-  - iot
+  - presence
+  - sensors
+  - wifi
+  - automation
+  - embedded
+  - hardware
 draft: false
 featured: true
 language: en

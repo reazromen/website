@@ -6,11 +6,11 @@ read_time: 5
 excerpt: "A presence sensor exposed an architectural weakness: when a desktop-hosted dashboard disappears, useful automation should not disappear with it."
 topic: radio-iot
 tags:
-  - iot
-  - esp8266
-  - local-first
+  - embedded
+  - firmware
   - resilience
-  - home-automation
+  - home-server
+  - automation
 draft: false
 featured: true
 language: en
