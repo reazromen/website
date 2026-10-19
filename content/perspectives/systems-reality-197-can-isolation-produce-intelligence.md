@@ -4,12 +4,11 @@ date: '2026-10-20'
 draft: false
 language: en
 url: /posts/systems-reality-197-can-isolation-produce-intelligence.html
-topic: mind-and-machines
+topic: systems-and-evolution
 tags:
-- intelligence
-- learning
 - systems
-- culture
+- causality
+- evolution
 featured: false
 read_time: 4
 excerpt: "A system can learn from experience alone, but isolation limits access to other systems' discoveries and accumulated knowledge."
