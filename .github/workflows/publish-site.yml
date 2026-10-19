@@ -35,11 +35,6 @@ jobs:
         run: python cms/package_public.py
       - name: Build search with current posts and tag filters
         run: npx --yes pagefind@1.5.2 --site dist
-      - name: Add public article version editor
-        run: |
-          mkdir -p dist/assets
-          cp assets/article-versioning-preview.js dist/assets/article-versioning-preview.js
-          python cms/inject_public_article_editor.py
       - name: Verify public artifact
         run: |
           test -s dist/index.html
@@ -62,6 +57,3 @@ jobs:
       - name: Deploy complete website
         id: deployment
         uses: actions/deploy-pages@v4
-
-
-[executed on device: hserver (e3ce91f8-8d4c-413e-b14d-04ad4fe8d7e3)]
