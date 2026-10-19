@@ -61,3 +61,12 @@ To roll back an editorial change, revert its Git commit and allow the publishing
 ## Publication year archives
 
 The Archive now groups published posts by the recorded Date field. The year links cover 2017–2026 and update on each publish. Empty historical years remain empty until dated original material is supplied. Never change a publication date merely to fill a year. Bangla articles appear on the Bangla page across writing collections. The October 2 batch contains 100 short Bangla posts: 65 engineering notes, 25 essays and 10 research listening notes.
+
+
+## Development-only article version history
+
+`dev.reazromen.com` is rebuilt from the same canonical public artifact as `reazromen.com`, then receives a dev-only article-version editor overlay. The overlay is not enabled by the production workflow. After a successful local public build and Pagefind run, the dev-only helper can be run with:
+
+    python cms/prepare_article_versioning_preview.py
+
+This helper injects the editor into article detail pages only, writes a disallow-all `robots.txt`, and copies the development documentation. Never run it as part of the production publish workflow. The shared API stores immutable snapshots in PostgreSQL and uses Content Studio's existing zero-cost AI mesh to summarize only new revisions. See `docs/article-version-history.md` and the Content Studio repository's `docs/article-version-history.md` for the API, schema, authentication, failure handling and rollback details.

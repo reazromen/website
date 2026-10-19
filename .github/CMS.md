@@ -54,3 +54,8 @@ HTML commits trigger `.github/workflows/rebuild-pagefind.yml`, which refreshes t
 Cloudflare Pages project `reazromen-static` is the production edge/router, not the content source. Normal public requests are proxied to GitHub Pages. The authenticated `/admin` surface is served by Cloudflare edge assets.
 
 The hserver `reazromen-antfu-live` tree and legacy website editor are rollback/reference only. Their preview/production deploy paths remain disabled.
+
+
+## Article-versioning development preview
+
+`dev.reazromen.com` is a separate, noindex preview built from the same public artifact as the current production commit. Its dev-only version editor is overlaid after the canonical build using `cms/prepare_article_versioning_preview.py`; that helper must never be added to the production workflow. Version reads use the isolated article-versioning API; writes pass through the existing Authelia forward-auth gate. The API stores immutable snapshots in the existing Content Studio PostgreSQL database and requests summaries from the existing zero-cost AI mesh only when a changed revision is created. Production remains static and does not expose the editor or API route. See `docs/article-version-history.md` and the Content Studio repository's `docs/article-version-history.md` for implementation and rollback details.

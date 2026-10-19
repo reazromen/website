@@ -1,3 +1,16 @@
+(() => {
+  // Keep dev preview traffic out of production analytics.
+  if (location.hostname === 'dev.reazromen.com')
+    return;
+  if (document.querySelector('script[data-rybbit-tracking]'))
+    return;
+  const script = document.createElement('script');
+  script.src = 'https://visitors.reazromen.com/api/script.js?siteId=f76ec01ee993';
+  script.defer = true;
+  script.dataset.rybbitTracking = 'true';
+  document.head.append(script);
+})();
+
 document.addEventListener('DOMContentLoaded', async () => {
   const currentPath = location.pathname.replace(/\/index\.html$/, '/');
   const existingActiveHref =
@@ -108,6 +121,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   catch {
     // Keep the hardcoded HTML navigation as an offline/failure fallback.
   }
+
+  document.querySelectorAll('.site-footer p').forEach((paragraph) => {
+    if (paragraph.textContent.includes('no analytics, no third-party scripts.')) {
+      paragraph.textContent = location.hostname === 'dev.reazromen.com'
+        ? 'Analytics is disabled on this development preview.'
+        : 'Self-hosted analytics helps me understand which pages are useful.';
+    }
+  });
 
   markActiveNavigation();
 
