@@ -33,8 +33,21 @@ def load_all():
             m,b=read_doc(p);m.update(section=section,body=b,source_file=str(p.relative_to(ROOT)))
             if not m.get('title') or not b:raise ValueError('Missing title/body: '+str(p))
             m['url']=m.get('url') or '/posts/'+p.stem+'.html'; m['tags']=m.get('tags') or [];m['topic']=m.get('topic') or ''
-            if m['topic'] and m['topic'] not in tax['topics']:raise ValueError('Unknown topic '+m['topic']+' in '+str(p))
-            if not isinstance(m['tags'],list) or any(t not in tax['tags'] for t in m['tags']):raise ValueError('Unknown tag in '+str(p))
+            # Content can introduce a new topic or tag. Create a minimal taxonomy
+            # record automatically so one unregistered label cannot block the
+            # entire production publish queue. Editors can refine its metadata later.
+            def ensure_taxonomy(kind, ident):
+                if not isinstance(ident, str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', ident):
+                    raise ValueError('Invalid '+kind[:-1]+' identifier '+repr(ident)+' in '+str(p))
+                if ident not in tax[kind]:
+                    title = ident.replace('-', ' ').title()
+                    tax[kind][ident] = {'id': ident, 'title': title, 'description': ''}
+            if m['topic']:
+                ensure_taxonomy('topics', m['topic'])
+            if not isinstance(m['tags'],list):
+                raise ValueError('Tags must be a list in '+str(p))
+            for tag in m['tags']:
+                ensure_taxonomy('tags', tag)
             if m.get('date'):datetime.fromisoformat(str(m['date']).replace('Z','+00:00'))
             if int(m.get('read_time',1))<1:raise ValueError('Reading time must be positive')
             urls={m['url']}|{o['url'] for o in m.get('outputs',[])}
