@@ -39,20 +39,7 @@ jobs:
         run: |
           mkdir -p dist/assets
           cp assets/article-versioning-preview.js dist/assets/article-versioning-preview.js
-          python - <<'PY'
-          from pathlib import Path
-          injection = '\n<script src="/assets/article-versioning-preview.js" defer></script>\n'
-          count = 0
-          for path in Path('dist').rglob('*.html'):
-              html = path.read_text(encoding='utf-8', errors='ignore')
-              if all(x in html for x in ('<article class="article"', 'class="article-meta"', 'class="lede"', 'class="prose"')) and '/assets/article-versioning-preview.js' not in html:
-                  if '</body>' in html:
-                      path.write_text(html.replace('</body>', injection + '</body>', 1), encoding='utf-8')
-                      count += 1
-          if count < 1:
-              raise SystemExit('No article pages received the public version editor')
-          print(f'Injected public version editor into {count} article pages')
-          PY
+          python cms/inject_public_article_editor.py
       - name: Verify public artifact
         run: |
           test -s dist/index.html
