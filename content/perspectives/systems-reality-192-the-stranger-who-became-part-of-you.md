@@ -7,9 +7,8 @@ url: /posts/systems-reality-192-the-stranger-who-became-part-of-you.html
 topic: evolution-life
 tags:
 - biology
-- symbiosis
 - evolution
-- complexity
+- ecology
 featured: false
 read_time: 4
 excerpt: "The history of the cell suggests that some major transitions in life emerged when independent organisms became partners."
