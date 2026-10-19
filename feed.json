@@ -5,6 +5,48 @@
   "feed_url": "https://reazromen.com/feed.json",
   "items": [
     {
+      "id": "https://reazromen.com/posts/romance-studio-epistolary-testing-verification.html",
+      "url": "https://reazromen.com/posts/romance-studio-epistolary-testing-verification.html",
+      "title": "96 Tests, a Live Route Check, and an Authenticated Browser: Verifying an Epistolary Feature",
+      "content_html": "<p>How I verified a new Romance Studio feature with focused regression tests, production health checks, and authenticated browser automation.</p><p><a href=\"/notes/epistolary-route-field-notes.html\">Four implementation field notes</a></p>",
+      "summary": "How I verified a new Romance Studio feature with focused regression tests, production health checks, and authenticated browser automation.",
+      "tags": [
+        "testing",
+        "release-verification",
+        "web-applications",
+        "regression"
+      ],
+      "date_published": "2026-10-19T00:00:00+06:00"
+    },
+    {
+      "id": "https://reazromen.com/posts/building-epistolary-writing-workflow.html",
+      "url": "https://reazromen.com/posts/building-epistolary-writing-workflow.html",
+      "title": "From a Missing Route to a Working Writing Space: Building Epistolary into Romance Studio",
+      "content_html": "<p>A practical look at integrating a letter-writing workspace into an existing content platform with draft handling, CSRF protection, and workspace isolation.</p><p><a href=\"/notes/epistolary-route-field-notes.html\">Four implementation field notes</a></p>",
+      "summary": "A practical look at integrating a letter-writing workspace into an existing content platform with draft handling, CSRF protection, and workspace isolation.",
+      "tags": [
+        "content-platforms",
+        "web-security",
+        "workflow-design",
+        "testing"
+      ],
+      "date_published": "2026-10-19T00:00:00+06:00"
+    },
+    {
+      "id": "https://reazromen.com/posts/romance-studio-epistolary-route-debugging.html",
+      "url": "https://reazromen.com/posts/romance-studio-epistolary-route-debugging.html",
+      "title": "The Missing Page That Wasn't a Frontend Bug: Debugging Romance Studio's Epistolary Route",
+      "content_html": "<p>How I traced a broken Romance Studio Epistolary URL to a missing backend route, then built and verified a dedicated writing page.</p><p><a href=\"/notes/epistolary-route-field-notes.html\">Four implementation field notes</a></p>",
+      "summary": "How I traced a broken Romance Studio Epistolary URL to a missing backend route, then built and verified a dedicated writing page.",
+      "tags": [
+        "debugging",
+        "web-applications",
+        "routing",
+        "content-platforms"
+      ],
+      "date_published": "2026-10-19T00:00:00+06:00"
+    },
+    {
       "id": "https://reazromen.com/posts/test.html",
       "url": "https://reazromen.com/posts/test.html",
       "title": "test",
