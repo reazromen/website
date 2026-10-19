@@ -1,5 +1,5 @@
 ---
-title: A System Evolves Like Life: From Primordial Soup to Emergent Complexity
+title: 'A System Evolves Like Life: From Primordial Soup to Emergent Complexity'
 url: /posts/a-system-evolves-like-life-primordial-soup-emergent-complexity.html
 date: '2026-10-20'
 read_time: 6
