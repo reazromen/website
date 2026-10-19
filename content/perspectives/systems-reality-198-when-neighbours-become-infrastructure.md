@@ -4,12 +4,11 @@ date: '2026-10-20'
 draft: false
 language: en
 url: /posts/systems-reality-198-when-neighbours-become-infrastructure.html
-topic: technology-and-systems
+topic: systems-and-evolution
 tags:
-- infrastructure
 - ecology
 - networks
-- interdependence
+- systems
 featured: false
 read_time: 4
 excerpt: "Some relationships become so essential that they function as part of a system's operating environment."
