@@ -9,8 +9,7 @@ tags:
 - evolution
 - systems-thinking
 - emergence
-- engineering
-- Carl Sagan
+- complexity
 draft: false
 featured: false
 language: en
