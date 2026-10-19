@@ -6,10 +6,10 @@ read_time: 7
 excerpt: John Frum আন্দোলনের সামরিক-ধাঁচের আচারকে শুধু কুসংস্কার বললে আমরা কী হারাই? নৃতত্ত্বের আলোকে রীতির সামাজিক ভূমিকা, পরিচয় ও সমষ্টিগত বন্ধন।
 topic: ''
 tags:
-- cargo cult
+- cargo-cult
 - anthropology
 - ritual
-- Melanesia
+- melanesia
 draft: false
 featured: false
 language: bn
