@@ -6,9 +6,9 @@ read_time: 6
 excerpt: ভানুয়াতুর Tanna দ্বীপে John Frum Day-এর কুচকাওয়াজ শুধু অদ্ভুত দৃশ্য নয়; এর পেছনে আছে যুদ্ধের স্মৃতি, ধর্মীয় প্রত্যাশা এবং ঔপনিবেশিক ইতিহাস।
 topic: ''
 tags:
-- John Frum
-- Vanuatu
-- Melanesia
+- john-frum
+- vanuatu
+- melanesia
 - ritual
 draft: false
 featured: false
