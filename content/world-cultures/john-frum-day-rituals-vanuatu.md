@@ -6,10 +6,10 @@ read_time: 5
 excerpt: ভানুয়াতুর সরকারি পর্যটন দপ্তরের বিবরণ ধরে দেখা যাক, John Frum Day-তে কী ঘটে এবং একটি স্থানীয় আচারকে পর্যটকের চোখে দেখার সীমাবদ্ধতা কোথায়।
 topic: ''
 tags:
-- John Frum Day
-- Vanuatu
+- john-frum
+- vanuatu
 - kastom
-- cultural heritage
+- cultural-heritage
 draft: false
 featured: false
 language: bn
