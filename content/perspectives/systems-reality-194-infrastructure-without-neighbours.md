@@ -4,12 +4,11 @@ date: '2026-10-20'
 draft: false
 language: en
 url: /posts/systems-reality-194-infrastructure-without-neighbours.html
-topic: technology-and-systems
+topic: systems-and-evolution
 tags:
-- infrastructure
-- software
+- systems
 - networks
-- evolution
+- causality
 featured: false
 read_time: 4
 excerpt: "An isolated service may work reliably, but what kinds of discovery become impossible when systems cannot exchange capabilities?"
