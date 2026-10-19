@@ -108,5 +108,3 @@
   });
   renderHistory();populate(baseline);refresh();
 })();
-
-[executed on device: hserver (e3ce91f8-8d4c-413e-b14d-04ad4fe8d7e3)]
