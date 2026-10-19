@@ -4,12 +4,11 @@ date: '2026-10-20'
 draft: false
 language: en
 url: /posts/systems-reality-199-the-universe-is-not-made-of-islands.html
-topic: cosmos-and-systems
+topic: systems-and-evolution
 tags:
-- cosmos
 - complexity
 - systems
-- science
+- causality
 featured: false
 read_time: 4
 excerpt: "From gravity to ecosystems, interactions shape what systems become. Yet connection alone does not explain every emergent property."
