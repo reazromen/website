@@ -8,7 +8,6 @@ topic: systems-and-evolution
 tags:
 - systems
 - evolution
-- ecology
 - causality
 featured: false
 read_time: 4
