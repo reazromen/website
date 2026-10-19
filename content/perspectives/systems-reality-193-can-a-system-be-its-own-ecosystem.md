@@ -9,7 +9,6 @@ tags:
 - ecology
 - complexity
 - systems
-- boundaries
 featured: false
 read_time: 4
 excerpt: "A system may contain many interacting parts and still depend on a world beyond its border. Where does the system end?"
