@@ -9,7 +9,6 @@ tags:
 - biology
 - evolution
 - systems
-- ancestry
 featured: false
 read_time: 4
 excerpt: "What makes two systems kin: common ancestry, shared structure, exchanged parts, or the capacity to build something together?"
