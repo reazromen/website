@@ -37,7 +37,7 @@ def load_all():
             # record automatically so one unregistered label cannot block the
             # entire production publish queue. Editors can refine its metadata later.
             def ensure_taxonomy(kind, ident):
-                if not isinstance(ident, str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', ident):
+                if not isinstance(ident, str) or not re.fullmatch(r'[a-z0-9]+(?:[-_][a-z0-9]+)*', ident):
                     raise ValueError('Invalid '+kind[:-1]+' identifier '+repr(ident)+' in '+str(p))
                 if ident not in tax[kind]:
                     title = ident.replace('-', ' ').title()
