@@ -7,7 +7,6 @@ url: /posts/systems-reality-195-why-evolution-needs-more-than-one-lineage.html
 topic: evolution-life
 tags:
 - evolution
-- variation
 - biology
 - systems
 featured: false
