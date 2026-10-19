@@ -8,7 +8,6 @@ topic: systems-and-evolution
 tags:
 - networks
 - ecology
-- complexity
 - systems
 featured: false
 read_time: 4
