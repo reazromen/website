@@ -13,7 +13,7 @@ permissions:
 concurrency:
   group: pages-deploy-v2
   # Cancel stale queued/running deployments so a hung build cannot block publication.
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
