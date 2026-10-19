@@ -24,7 +24,7 @@ if not editor_source.is_file():
 editor_target.parent.mkdir(parents=True, exist_ok=True)
 shutil.copy2(editor_source, editor_target)
 
-injection = '\\n<script src="/assets/article-versioning-preview.js" defer></script>\\n'
+injection = '\n<script src="/assets/article-versioning-preview.js" defer></script>\n'
 injected = 0
 markers = ('<article class="article"', 'class="article-meta"', 'class="lede"', 'class="prose"')
 for page in OUT.rglob("*.html"):
