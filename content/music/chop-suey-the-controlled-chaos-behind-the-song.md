@@ -3,7 +3,7 @@ title: Chop Suey! — The Controlled Chaos Behind the Song
 url: /posts/chop-suey-the-controlled-chaos-behind-the-song.html
 date: '2024-02-11'
 read_time: 7
-excerpt: System of a Down make sudden shifts feel strangely inevitable: a clipped verse, a soaring chorus and a bridge that changes the emotional scale. The song's power comes from contrast, not chaos alone.
+excerpt: "System of a Down make sudden shifts feel strangely inevitable: a clipped verse, a soaring chorus and a bridge that changes the emotional scale. The song's power comes from contrast, not chaos alone."
 topic: ''
 tags:
 - system-of-a-down
