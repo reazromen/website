@@ -10,7 +10,6 @@ tags:
 - bengali-music
 - kolkata
 - storytelling
-draft: false
 featured: false
 language: en
 eyebrow: LISTEN AGAIN · ANJAN DUTT
