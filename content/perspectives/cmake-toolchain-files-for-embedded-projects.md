@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   CMake toolchain files centralize target-specific settings such as system name, processor, cross-compiler, sysroot, and library search rules.
 eyebrow: "Perspectives · Build Systems"
-tags: ["CMake","Embedded"]
+tags: ["cmake","embedded","build-systems"]
 ---
 
 CMake toolchain files centralize target-specific settings such as system name, processor, cross-compiler, sysroot, and library search rules. This prevents compiler paths and board flags from spreading across IDE settings and local shell history. Keep board configuration distinct from toolchain configuration when they represent different concerns.

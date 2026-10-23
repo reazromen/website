@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   Hardware-in-the-loop testing connects automated tests to physical boards, checking behavior that unit tests cannot prove: real GPIO, audio paths, radios, power, and bootloaders.
 eyebrow: "Perspectives · Firmware Testing"
-tags: ["Firmware","Automation"]
+tags: ["firmware","testing","automation"]
 ---
 
 Hardware-in-the-loop testing connects automated tests to physical boards, checking behavior that unit tests cannot prove: real GPIO, audio paths, radios, power, and bootloaders. A stable setup needs a known firmware artifact, repeatable power and connections, a reset mechanism, and observable pass/fail signals. Automate flashing, serial capture, input stimulation, and response checks where possible.

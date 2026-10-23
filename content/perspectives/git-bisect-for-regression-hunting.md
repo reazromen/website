@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   Git bisect performs a binary search through commit history.
 eyebrow: "Perspectives · Developer Tools"
-tags: ["Git","Debugging"]
+tags: ["git","debugging"]
 ---
 
 Git bisect performs a binary search through commit history. Mark a known-broken revision bad and a known-working revision good; test each midpoint and report the result. Each answer eliminates roughly half the candidates.

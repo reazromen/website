@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   eBPF-based tools can observe selected kernel events, including networking, system calls, and scheduling, often without rebuilding an application.
 eyebrow: "Perspectives · Linux Observability"
-tags: ["Linux","eBPF"]
+tags: ["linux","ebpf","observability"]
 ---
 
 eBPF-based tools can observe selected kernel events, including networking, system calls, and scheduling, often without rebuilding an application. They can help explain outbound connections, wait time, or latency patterns, depending on kernel configuration, permissions, and supported instrumentation. Start with a focused question and a compatible tool.

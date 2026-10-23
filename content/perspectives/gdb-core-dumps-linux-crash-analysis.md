@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   A core dump preserves a process snapshot for post-mortem analysis when a crash cannot be reproduced under a debugger.
 eyebrow: "Perspectives · Debugging"
-tags: ["Linux","GDB"]
+tags: ["linux","gdb","crash-analysis"]
 ---
 
 A core dump preserves a process snapshot for post-mortem analysis when a crash cannot be reproduced under a debugger. On systemd systems, `coredumpctl` can help locate dumps; limits, service settings, containers, and core-pattern configuration affect collection. Keep the exact executable and debug symbols alongside release metadata.

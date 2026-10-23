@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   An update is not complete when a download finishes.
 eyebrow: "Perspectives · Firmware Reliability"
-tags: ["OTA","Bootloader"]
+tags: ["ota","bootloader","reliability"]
 ---
 
 An update is not complete when a download finishes. The device must validate the image, select it safely, boot, and confirm health. A bootloader-managed staging area or separate image slots can allow rollback if the new application fails to confirm within a bounded number of attempts.

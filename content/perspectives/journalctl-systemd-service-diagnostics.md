@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   A service can fail to start, start and exit, run as the wrong user, or wait on a dependency.
 eyebrow: "Perspectives · Linux Operations"
-tags: ["Linux","systemd"]
+tags: ["linux","systemd","observability"]
 ---
 
 A service can fail to start, start and exit, run as the wrong user, or wait on a dependency. Begin with `systemctl status service-name`, then inspect the unit journal around the incident with `journalctl -u service-name`. Narrow the time range to expose restart loops and repeating errors.

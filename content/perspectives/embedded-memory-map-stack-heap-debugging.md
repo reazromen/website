@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   A successful compile does not guarantee enough RAM at runtime.
 eyebrow: "Perspectives · Embedded Debugging"
-tags: ["Firmware","Memory"]
+tags: ["firmware","memory","linker"]
 ---
 
 A successful compile does not guarantee enough RAM at runtime. Inspect the linker map for large static buffers, queues, and globals, and confirm that sections intended for external RAM or special regions are placed correctly. Static reports do not include every allocation or prove that a contiguous heap block is available.

@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   AddressSanitizer instruments C and C++ code to detect errors such as out-of-bounds access and use-after-free.
 eyebrow: "Perspectives · Developer Tools"
-tags: ["C","C++","Testing"]
+tags: ["cpp","memory-safety","testing"]
 ---
 
 AddressSanitizer instruments C and C++ code to detect errors such as out-of-bounds access and use-after-free. Enable it in a debug or test build using supported compiler and linker flags, preserve symbols, and exercise realistic paths. Read the first diagnostic carefully; later failures may be consequences of the original invalid access.

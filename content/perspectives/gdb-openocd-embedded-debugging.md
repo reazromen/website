@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   With a supported probe and OpenOCD, GDB can halt a target, inspect registers and memory, and show where execution went wrong.
 eyebrow: "Perspectives · Debugging"
-tags: ["GDB","OpenOCD"]
+tags: ["gdb","openocd","firmware"]
 ---
 
 With a supported probe and OpenOCD, GDB can halt a target, inspect registers and memory, and show where execution went wrong. Build with debug symbols and preserve the exact ELF that matches the flashed image; mismatched symbols can make source lines misleading.

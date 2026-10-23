@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   When an application reports a vague error, system calls can expose the concrete reason.
 eyebrow: "Perspectives · Linux Tools"
-tags: ["Linux","strace"]
+tags: ["linux","strace","debugging"]
 ---
 
 When an application reports a vague error, system calls can expose the concrete reason. `strace` records file opens, reads, writes, network operations, and process creation. Look for repeated `ENOENT` errors, permission failures, unexpected paths, or a process blocked on a read that never completes.

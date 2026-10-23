@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   A log should answer a question, not narrate every line of code.
 eyebrow: "Perspectives · Firmware"
-tags: ["Firmware"]
+tags: ["firmware","debugging"]
 ---
 
 A log should answer a question, not narrate every line of code. Use consistent levels, subsystem labels, timestamps, and structured values that explain decisions. Never log credentials or private payloads.

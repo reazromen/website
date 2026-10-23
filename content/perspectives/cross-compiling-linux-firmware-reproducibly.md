@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   Cross-compilation builds software on one machine for a different target architecture.
 eyebrow: "Perspectives · Build Systems"
-tags: ["Cross Compilation","Linux"]
+tags: ["cross-compilation","linux","toolchains"]
 ---
 
 Cross-compilation builds software on one machine for a different target architecture. Record the target triple, compiler, sysroot, ABI, C library, SDK, and flags. Mixing host headers with target libraries can produce confusing link failures or binaries that cannot run on the device. In CMake, use a toolchain file to separate target settings from project logic.

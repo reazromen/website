@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   Profiling replaces guesses with evidence.
 eyebrow: "Perspectives · Linux Performance"
-tags: ["Linux","Performance"]
+tags: ["linux","performance","profiling"]
 ---
 
 Profiling replaces guesses with evidence. Linux `perf` can sample CPU execution and report hot functions and call paths, subject to kernel configuration, permissions, and symbol availability. Define the symptom, measure a baseline under representative load, and preserve the exact binary and matching debug symbols.

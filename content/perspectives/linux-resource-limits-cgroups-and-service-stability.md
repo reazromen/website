@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   A runaway process can exhaust memory, spawn too many tasks, or consume CPU until unrelated services become unhealthy.
 eyebrow: "Perspectives · Linux Operations"
-tags: ["Linux","systemd","cgroups"]
+tags: ["linux","systemd","cgroups"]
 ---
 
 A runaway process can exhaust memory, spawn too many tasks, or consume CPU until unrelated services become unhealthy. Linux cgroups and systemd resource controls can reduce that blast radius, but limits should be based on measured workload behavior rather than copied blindly.

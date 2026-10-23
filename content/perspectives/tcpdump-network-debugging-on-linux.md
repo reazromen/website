@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   A timeout can come from DNS, routing, firewall policy, TCP setup, TLS, or the application.
 eyebrow: "Perspectives · Linux Tools"
-tags: ["Linux","Networking"]
+tags: ["linux","networking","tcpdump"]
 ---
 
 A timeout can come from DNS, routing, firewall policy, TCP setup, TLS, or the application. `tcpdump` helps show which packets enter and leave a Linux host. Select the correct interface and filter by host, port, or protocol; inspect whether a SYN leaves, a reply returns, or retransmissions continue.

@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   A watchdog can recover a device from a stalled task, but a badly designed one can hide evidence.
 eyebrow: "Perspectives · Firmware Reliability"
-tags: ["Firmware","Watchdogs"]
+tags: ["firmware","watchdogs","deadlocks"]
 ---
 
 A watchdog can recover a device from a stalled task, but a badly designed one can hide evidence. Feed it only when meaningful progress occurs; if any active task can feed a shared watchdog regardless of system health, a critical subsystem may remain stuck indefinitely.

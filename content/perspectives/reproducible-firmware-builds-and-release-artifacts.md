@@ -8,7 +8,7 @@ read_time: 2
 excerpt: >-
   A reliable release process connects source code to the binary that was tested and flashed.
 eyebrow: "Perspectives · Release Engineering"
-tags: ["Firmware","CI"]
+tags: ["firmware","ci","release-engineering"]
 ---
 
 A reliable release process connects source code to the binary that was tested and flashed. Record the source commit, compiler and SDK versions, configuration, bootloader, partition layout, and build environment. Retain checksums, the map file, and the ELF with the flashable image so a field failure can be matched to the correct symbols and memory layout.
