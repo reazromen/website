@@ -1,5 +1,6 @@
 ---
 title: "Anjan Dutt and the Ordinary Person"
+draft: false
 url: /posts/anjan-dutt-and-the-ordinary-person.html
 date: '2019-04-13'
 read_time: 5
