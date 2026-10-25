@@ -8,7 +8,7 @@ topic: technology-language
 tags:
 - technology
 - translation
-- AI
+- ai
 - communication
 draft: false
 featured: false
