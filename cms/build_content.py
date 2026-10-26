@@ -8,6 +8,23 @@ import xml.etree.ElementTree as ET
 
 SECTIONS=('writing','perspectives','music','movies','archaeology','heritage','bangla','local-cultures','world-cultures')
 ASSET_VERSIONS={}
+# Keep one indexable URL for legacy .html and /index.html copies. The
+# alternate paths remain accessible but canonicalize to the .html URL.
+CANONICAL_ALIASES = {
+    '/archive/index.html': '/archive.html',
+    '/bangla/index.html': '/bangla.html',
+    '/movies/index.html': '/movies.html',
+    '/music/index.html': '/music.html',
+    '/notes/index.html': '/notes.html',
+    '/now/index.html': '/now.html',
+    '/perspectives/index.html': '/perspectives.html',
+    '/portfolio/index.html': '/portfolio.html',
+    '/reference-reader/index.html': '/reference-reader.html',
+    '/services/index.html': '/services.html',
+    '/systems/index.html': '/systems.html',
+    '/topics/redis-systems/index.html': '/topics/redis-systems.html',
+    '/topics/terraform-systems/index.html': '/topics/terraform-systems.html',
+}
 _SHARED_CHROME=None
 
 def shared_chrome():
@@ -212,7 +229,7 @@ def finalize(raw,url,nav,entry=None,tax=None):
         n.clear();n.append(soup(''.join(link(x,url) for x in nav.get('footer',[]))))
     canonical=s.select_one('link[rel="canonical"]')
     if not canonical:canonical=s.new_tag('link',rel='canonical');s.head.append(canonical)
-    canonical['href']='https://reazromen.com'+url
+    canonical['href']='https://reazromen.com'+CANONICAL_ALIASES.get(url, url)
     # Structured data belongs in the renderer, not only in generated HTML:
     # build_content.py recreates these pages on every publish.
     schema_by_url = {
@@ -466,7 +483,9 @@ def feeds(entries,outputs):
     (ROOT/'feed.json').write_text(json.dumps(feed,ensure_ascii=False,indent=2)+'\n')
     for filename,tree in [('feed.xml',rss),('atom.xml',atom)]:ET.ElementTree(tree).write(ROOT/filename,encoding='utf-8',xml_declaration=True)
     sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
-    for url in sorted(outputs):ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text='https://reazromen.com'+url
+    for url in sorted(outputs):
+        if url in CANONICAL_ALIASES:continue
+        ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text='https://reazromen.com'+url
     ET.ElementTree(sitemap).write(ROOT/'sitemap.xml',encoding='utf-8',xml_declaration=True)
 
 if __name__=='__main__':main()
