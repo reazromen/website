@@ -213,6 +213,60 @@ def finalize(raw,url,nav,entry=None,tax=None):
     canonical=s.select_one('link[rel="canonical"]')
     if not canonical:canonical=s.new_tag('link',rel='canonical');s.head.append(canonical)
     canonical['href']='https://reazromen.com'+url
+    # Structured data belongs in the renderer, not only in generated HTML:
+    # build_content.py recreates these pages on every publish.
+    schema_by_url = {
+        '/index.html': {
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            '@id': 'https://reazromen.com/#website',
+            'name': 'Reaz Romen',
+            'url': 'https://reazromen.com/',
+            'description': 'Systems engineering across Linux infrastructure, SIP/RTP and VoIP, embedded systems, cloud infrastructure, networking and observability.',
+            'publisher': {'@id': 'https://reazromen.com/author/reaz-romen.html#person'}
+        },
+        '/about.html': {
+            '@context': 'https://schema.org',
+            '@type': 'Person',
+            '@id': 'https://reazromen.com/author/reaz-romen.html#person',
+            'name': 'Reaz Romen',
+            'url': 'https://reazromen.com/author/reaz-romen.html',
+            'jobTitle': 'Systems Engineer and Technical Author',
+            'description': 'Systems engineer working across Linux infrastructure, SIP/RTP and VoIP, embedded systems, cloud infrastructure, networking and observability.',
+            'sameAs': [
+                'https://www.linkedin.com/in/reaz-romen',
+                'https://github.com/reazromen',
+                'https://medium.com/@returnofhe'
+            ],
+            'knowsAbout': [
+                'Linux system administration', 'SIP', 'RTP', 'VoIP', 'Asterisk',
+                'FreeSWITCH', 'OpenSIPS', 'Cloud infrastructure', 'Embedded systems',
+                'ESP32', 'ESP-IDF', 'Kubernetes', 'Observability'
+            ]
+        }
+    }
+    page_topics = {
+        '/systems.html': ['Linux infrastructure', 'embedded firmware', 'real-time communications', 'observability'],
+        '/portfolio.html': ['embedded systems projects', 'SIP/RTP systems', 'Linux infrastructure', 'observability'],
+        '/telecom.html': ['SIP', 'RTP', 'VoIP', 'PBX infrastructure', 'telecommunications'],
+        '/observability.html': ['Linux infrastructure', 'monitoring', 'metrics', 'logs', 'reliability engineering']
+    }
+    if url in page_topics:
+        schema_by_url[url] = {
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            'name': s.title.get_text(' ', strip=True) if s.title else url.strip('/'),
+            'description': (s.select_one('meta[name="description"]').get('content', '') if s.select_one('meta[name="description"]') else ''),
+            'url': 'https://reazromen.com' + url,
+            'about': {'@id': 'https://reazromen.com/author/reaz-romen.html#person'},
+            'keywords': page_topics[url],
+            'isPartOf': {'@id': 'https://reazromen.com/#website'}
+        }
+    schema_data = schema_by_url.get(url)
+    if schema_data and not s.select_one('script[type="application/ld+json"]'):
+        schema_node = s.new_tag('script', type='application/ld+json')
+        schema_node.string = json.dumps(schema_data, ensure_ascii=False, separators=(',', ':'))
+        s.head.append(schema_node)
     if entry:
         s.html['lang']=entry.get('language','en')
         # Explicit schema.org identity: make every published article unambiguously
