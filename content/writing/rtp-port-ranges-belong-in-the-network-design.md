@@ -11,6 +11,7 @@ tags:
 - ports
 - firewall
 draft: false
+indexable: false
 featured: false
 language: en
 eyebrow: LOUP Engineering · ARCHIVED NOTE
