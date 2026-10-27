@@ -90,7 +90,7 @@ jobs:
                   non_indexable.update(tag.get("aliases", []))
           assert not any("https://reazromen.com" + u in locs for u in non_indexable), "non-indexable URL leaked into sitemap"
           # A post without body-level internal links should receive a small, relevant related-reading block.
-          candidate = next((m for m in entries if not m.get("draft") and (m.get("tags") or m.get("topic")) and not re.search(r"\\]\\(/|<a\\b[^>]+href=[\\\"\\']", m.get("body", ""), re.I)), None)
+          candidate = next((m for m in entries if not m.get("draft") and (m.get("tags") or m.get("topic")) and "](/" not in m.get("body", "") and 'href="/' not in m.get("body", "")), None)
           assert candidate, "no candidate post found for related-reading test"
           rendered = BeautifulSoup(target(candidate["url"]).read_text(), "html.parser")
           related = rendered.select_one("main > section.related-reading")
