@@ -65,7 +65,9 @@ jobs:
           import re
           from pathlib import Path
           from bs4 import BeautifulSoup
-          from cms.build_content import load_all, select, ROOT, target
+          import sys
+          sys.path.insert(0, "cms")
+          from build_content import load_all, ROOT, target
 
           manifest = json.loads((ROOT / "cms/generated-manifest.json").read_text())
           sitemap = (ROOT / "sitemap.xml").read_text()
