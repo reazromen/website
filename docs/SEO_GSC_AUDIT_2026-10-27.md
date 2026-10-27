@@ -76,7 +76,11 @@ The branch's CI now installs the CMS requirements, runs the content-preservation
 - explicitly non-indexable article placeholders are absent from the sitemap;
 - unlinked articles receive a related-reading block with links to other generated articles.
 
-The successful CMS build before the final three-post threshold change produced 1,916 published posts, 118 pages, 45 topics, 1,226 tags and 3,291 generated routes. The final threshold is being validated by CI on the draft PR.
+The successful CMS build before the final three-post threshold change produced 1,916 published posts, 118 pages, 45 topics, 1,226 tags and 3,291 generated routes. The final three-post threshold and related-reading block passed the full CMS build and preservation validator in GitHub Actions. Final generated output: 1,916 published posts, 118 pages, 45 topics, 1,226 tag archives and 3,291 generated routes. The sitemap contains 2,369 canonical URLs after 909 non-indexable URL exclusions and canonical-alias exclusions.
+
+## URL-by-URL matrix
+
+The companion file [`seo-gsc-url-triage-2026-10-27.csv`](seo-gsc-url-triage-2026-10-27.csv) records each URL, last-crawled date where supplied, host/category, source match, live status/canonical, generated-manifest/sitemap status, article metadata/quality signals and recommended action.
 
 ## Release status
 
