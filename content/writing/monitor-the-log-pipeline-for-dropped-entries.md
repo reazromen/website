@@ -12,6 +12,7 @@ tags:
 - log-drops
 - meta-monitoring
 draft: false
+indexable: false
 featured: false
 language: en
 eyebrow: Observability & Monitoring · ARCHIVED NOTE

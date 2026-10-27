@@ -4,7 +4,9 @@ from build_content import load_all,select,render_page,post_values,original_or_md
 def main():
     entries,pages,tax,nav,owned=load_all()
     baseline=json.loads((ROOT/'cms/migration-baseline.json').read_text());errors=[]
+    draft_urls={u for m in entries if m.get('draft') for u in ({m['url']}|{o['url'] for o in m.get('outputs',[])})}
     for url,old in baseline.items():
+        if url in draft_urls:continue
         p=target(url)
         if not p.exists():errors.append('Missing old URL '+url);continue
         s=soup(p.read_text());body=s.select_one('main article div.prose')

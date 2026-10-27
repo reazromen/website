@@ -142,6 +142,24 @@ def select(entries,rule):
     if rule.get('featured_first'):result.sort(key=lambda x:not x.get('featured',False))
     return result[:int(rule.get('limit',len(result)))]
 
+def related_articles(entry,entries,limit=3):
+    body=entry.get('body','') or ''
+    if re.search(r'\]\(/|<a\b[^>]+href=[\"\']/',body,re.I):return []
+    tags=set(entry.get('tags',[]) or []);topic=entry.get('topic')
+    if not tags and not topic:return []
+    language=entry.get('language','en');scored=[]
+    for other in entries:
+        if other.get('draft') or other.get('url')==entry.get('url'):continue
+        if other.get('language','en')!=language:continue
+        overlap=len(tags & set(other.get('tags',[]) or []))
+        same_topic=bool(topic and topic==other.get('topic'))
+        score=overlap*2+(4 if same_topic else 0)
+        if score:scored.append((score,other))
+    # Stable sorts keep the strongest topical/tag overlap first, then newest date.
+    scored.sort(key=lambda pair:pair[1].get('date',''),reverse=True)
+    scored.sort(key=lambda pair:pair[0],reverse=True)
+    return [m for _,m in scored[:limit]]
+
 def render_page(m,entries,tax):
     if not m.get('template'):
         body='<article class="article" data-pagefind-body><h1>'+esc(m['title'])+'</h1><div class="prose">'+render_md(m.get('body',''))+'</div></article>'
@@ -179,7 +197,7 @@ def link(item,current):
         return f'<details class="nav-group"><summary>{name}</summary><div class="nav-submenu">{overview}{"".join(link(x,current) for x in children)}</div></details>'
     return a
 
-def finalize(raw,url,nav,entry=None,tax=None):
+def finalize(raw,url,nav,entry=None,tax=None,related_entries=None):
     s=soup(raw)
     # Every published page uses the same reviewed global header/footer. Legacy
     # article templates may still contain nav-right markup or omit a footer;
@@ -230,6 +248,12 @@ def finalize(raw,url,nav,entry=None,tax=None):
     canonical=s.select_one('link[rel="canonical"]')
     if not canonical:canonical=s.new_tag('link',rel='canonical');s.head.append(canonical)
     canonical['href']='https://reazromen.com'+CANONICAL_ALIASES.get(url, url)
+    if entry and entry.get('indexable') is False:
+        robots=s.select_one('meta[name="robots"]')
+        if not robots:
+            robots=s.new_tag('meta',attrs={'name':'robots'})
+            s.head.append(robots)
+        robots['content']='noindex,follow'
     # Structured data belongs in the renderer, not only in generated HTML:
     # build_content.py recreates these pages on every publish.
     schema_by_url = {
@@ -318,6 +342,9 @@ def finalize(raw,url,nav,entry=None,tax=None):
         s.head.append(node)
         article=s.select_one('main article')
         if article:article['data-pagefind-body']=''
+        if related_entries and article:
+            section=soup('<section class="section-block related-reading" aria-labelledby="related-reading-title"><h2 id="related-reading-title">Related reading</h2><div class="post-list editorial-list">'+''.join(card(item,tax) for item in related_entries)+'</div></section>')
+            article.insert_after(section)
         if entry.get('cover_image'):
             article=s.select_one('main article');body=article.select_one('.prose') if article else None
             if body and not article.select_one('figure.cms-cover'):
@@ -382,9 +409,9 @@ def main():
             for o in legacy:
                 source=json.loads((ROOT/o['source']).read_text())
                 rendered=fill((ROOT/o['template']).read_text(),post_values(m,tax,original_or_md(m['body'],source)))
-                outputs[o['url']]=finalize(rendered,m['url'],nav,m,tax)
+                outputs[o['url']]=finalize(rendered,m['url'],nav,m,tax,related_articles(m,public))
             if m['url'] not in outputs:outputs[m['url']]=outputs[legacy[0]['url']]
-        else:outputs[m['url']]=finalize(new_post(m,tax),m['url'],nav,m,tax)
+        else:outputs[m['url']]=finalize(new_post(m,tax),m['url'],nav,m,tax,related_articles(m,public))
     for m in pages:
         if m['url'].startswith('/topics/'):
             ident=Path(m['url']).stem if not m['url'].endswith('/index.html') else Path(m['url']).parent.name
@@ -422,6 +449,11 @@ def main():
             else:
                 body='<h1>'+esc(t['title'])+'</h1><div class="prose">'+render_md(t.get('body') or t.get('description',''))+'</div><div class="post-list editorial-list">'+''.join(card(x,tax) for x in rows)+'</div>'
                 outputs[url]=finalize(shell(t['title'],body,t.get('description','')),url,nav)
+            if kind=='tags' and len(rows)<3 and not str(t.get('description','')).strip() and not str(t.get('body','')).strip():
+                page=soup(outputs[url]);robots=page.select_one('meta[name="robots"]')
+                if not robots:
+                    robots=page.new_tag('meta',attrs={'name':'robots'});page.head.append(robots)
+                robots['content']='noindex,follow';outputs[url]=str(page)
             for alias in t.get('aliases',[]):
                 target(alias)
                 if alias in owned and alias!=url:raise ValueError('Taxonomy alias collision: '+alias)
@@ -458,12 +490,12 @@ def main():
     import os,subprocess
     commit=os.environ.get('GITHUB_SHA') or subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
     (ROOT/'build-info.json').write_text(json.dumps({'commit':commit,'posts':len(public),'pages':len(pages),'topics':len(tax['topics']),'tags':len(tax['tags'])})+'\n')
-    feeds(public,outputs)
+    feeds(public,outputs,tax)
     print(json.dumps({'published_posts':len(public),'drafts':len(entries)-len(public),'pages':len(pages),'topics':len(tax['topics']),'tags':len(tax['tags']),'output_urls':len(outputs)},ensure_ascii=False))
 
 def redirect(url):return '<!doctype html><html><head><meta http-equiv="refresh" content="0;url='+esc(url)+'"><link rel="canonical" href="https://reazromen.com'+esc(url)+'"></head><body><a href="'+esc(url)+'">Continue</a></body></html>'
 
-def feeds(entries,outputs):
+def feeds(entries,outputs,tax=None):
     feed={'version':'https://jsonfeed.org/version/1.1','title':'Reaz Romen — Writing','home_page_url':'https://reazromen.com','feed_url':'https://reazromen.com/feed.json','items':[]}
     rss=ET.Element('rss',version='2.0');channel=ET.SubElement(rss,'channel')
     for k,v in [('title','Reaz Romen — Writing'),('link','https://reazromen.com'),('description','Articles and listening notes')]:ET.SubElement(channel,k).text=v
@@ -482,9 +514,15 @@ def feeds(entries,outputs):
     ET.SubElement(atom,'updated').text=(str(entries[0].get('date',''))[:10] or '2026-10-02')+'T00:00:00Z' if entries else '2026-10-02T00:00:00Z'
     (ROOT/'feed.json').write_text(json.dumps(feed,ensure_ascii=False,indent=2)+'\n')
     for filename,tree in [('feed.xml',rss),('atom.xml',atom)]:ET.ElementTree(tree).write(ROOT/filename,encoding='utf-8',xml_declaration=True)
+    non_indexable_urls={u for m in entries if not m.get('draft') and m.get('indexable') is False for u in ({m['url']}|{o['url'] for o in m.get('outputs',[])})}
+    for ident,t in (tax or {}).get('tags',{}).items():
+        post_count=sum(1 for m in entries if not m.get('draft') and ident in m.get('tags',[]))
+        if post_count<3 and not str(t.get('description','')).strip() and not str(t.get('body','')).strip():
+            non_indexable_urls.add('/tags/'+ident+'.html')
+            non_indexable_urls.update(t.get('aliases',[]))
     sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
     for url in sorted(outputs):
-        if url in CANONICAL_ALIASES:continue
+        if url in CANONICAL_ALIASES or url in non_indexable_urls:continue
         ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text='https://reazromen.com'+url
     ET.ElementTree(sitemap).write(ROOT/'sitemap.xml',encoding='utf-8',xml_declaration=True)
 
