@@ -428,7 +428,7 @@ def main():
             else:
                 body='<h1>'+esc(t['title'])+'</h1><div class="prose">'+render_md(t.get('body') or t.get('description',''))+'</div><div class="post-list editorial-list">'+''.join(card(x,tax) for x in rows)+'</div>'
                 outputs[url]=finalize(shell(t['title'],body,t.get('description','')),url,nav)
-            if kind=='tags' and len(rows)<2 and not str(t.get('description','')).strip() and not str(t.get('body','')).strip():
+            if kind=='tags' and len(rows)<3 and not str(t.get('description','')).strip() and not str(t.get('body','')).strip():
                 page=soup(outputs[url]);robots=page.select_one('meta[name="robots"]')
                 if not robots:
                     robots=page.new_tag('meta',attrs={'name':'robots'});page.head.append(robots)
@@ -496,7 +496,7 @@ def feeds(entries,outputs,tax=None):
     non_indexable_urls={u for m in entries if not m.get('draft') and m.get('indexable') is False for u in ({m['url']}|{o['url'] for o in m.get('outputs',[])})}
     for ident,t in (tax or {}).get('tags',{}).items():
         post_count=sum(1 for m in entries if not m.get('draft') and ident in m.get('tags',[]))
-        if post_count<2 and not str(t.get('description','')).strip() and not str(t.get('body','')).strip():
+        if post_count<3 and not str(t.get('description','')).strip() and not str(t.get('body','')).strip():
             non_indexable_urls.add('/tags/'+ident+'.html')
             non_indexable_urls.update(t.get('aliases',[]))
     sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
