@@ -13,6 +13,7 @@ tags:
 - containers
 - capacity
 draft: false
+indexable: false
 featured: false
 language: en
 eyebrow: Observability & Monitoring · ARCHIVED NOTE
