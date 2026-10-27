@@ -1,5 +1,5 @@
 ---
-title: LoRa Field Tests: What We Can Learn About Wireless Comms
+title: 'LoRa Field Tests: What We Can Learn About Wireless Comms'
 url: /posts/lora-field-tests-what-we-can-learn-about-wireless-comms.html
 date: '2026-10-27'
 read_time: 6
