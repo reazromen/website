@@ -73,7 +73,8 @@ jobs:
           urls = set(manifest)
           assert "/posts/test.html" not in urls, "test draft leaked into generated manifest"
           assert "https://reazromen.com/posts/test.html" not in locs, "test draft leaked into sitemap"
-          assert all("https://reazromen.com" + u in locs for u in locs if u.startswith("/")), "unexpected sitemap URL"
+          assert all(u.startswith("https://reazromen.com/") for u in locs), "sitemap contains non-canonical host"
+          assert all(u.removeprefix("https://reazromen.com") in urls for u in locs), "sitemap URL missing from generated manifest"
           assert all(target(u).exists() for u in urls), "manifest references missing generated output"
           entries, pages, tax, nav, owned = load_all()
           non_indexable = {
