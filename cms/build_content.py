@@ -142,6 +142,24 @@ def select(entries,rule):
     if rule.get('featured_first'):result.sort(key=lambda x:not x.get('featured',False))
     return result[:int(rule.get('limit',len(result)))]
 
+def related_articles(entry,entries,limit=3):
+    body=entry.get('body','') or ''
+    if re.search(r'\]\(/|<a\b[^>]+href=[\"\']/',body,re.I):return []
+    tags=set(entry.get('tags',[]) or []);topic=entry.get('topic')
+    if not tags and not topic:return []
+    language=entry.get('language','en');scored=[]
+    for other in entries:
+        if other.get('draft') or other.get('url')==entry.get('url'):continue
+        if other.get('language','en')!=language:continue
+        overlap=len(tags & set(other.get('tags',[]) or []))
+        same_topic=bool(topic and topic==other.get('topic'))
+        score=overlap*2+(4 if same_topic else 0)
+        if score:scored.append((score,other))
+    scored.sort(key=lambda pair:(-pair[0],str(pair[1].get('date','')),pair[1].get('title','').casefold()),reverse=False)
+    # Prefer the strongest topical/tag overlap, then the newest publication date.
+    scored.sort(key=lambda pair:(-pair[0],pair[1].get('date','')),reverse=True)
+    return [m for _,m in scored[:limit]]
+
 def render_page(m,entries,tax):
     if not m.get('template'):
         body='<article class="article" data-pagefind-body><h1>'+esc(m['title'])+'</h1><div class="prose">'+render_md(m.get('body',''))+'</div></article>'
@@ -179,7 +197,7 @@ def link(item,current):
         return f'<details class="nav-group"><summary>{name}</summary><div class="nav-submenu">{overview}{"".join(link(x,current) for x in children)}</div></details>'
     return a
 
-def finalize(raw,url,nav,entry=None,tax=None):
+def finalize(raw,url,nav,entry=None,tax=None,related_entries=None):
     s=soup(raw)
     # Every published page uses the same reviewed global header/footer. Legacy
     # article templates may still contain nav-right markup or omit a footer;
@@ -324,6 +342,9 @@ def finalize(raw,url,nav,entry=None,tax=None):
         s.head.append(node)
         article=s.select_one('main article')
         if article:article['data-pagefind-body']=''
+        if related_entries and article:
+            section=soup('<section class="section-block related-reading" aria-labelledby="related-reading-title"><h2 id="related-reading-title">Related reading</h2><div class="post-list editorial-list">'+''.join(card(item,tax) for item in related_entries)+'</div></section>')
+            article.insert_after(section)
         if entry.get('cover_image'):
             article=s.select_one('main article');body=article.select_one('.prose') if article else None
             if body and not article.select_one('figure.cms-cover'):
@@ -388,9 +409,9 @@ def main():
             for o in legacy:
                 source=json.loads((ROOT/o['source']).read_text())
                 rendered=fill((ROOT/o['template']).read_text(),post_values(m,tax,original_or_md(m['body'],source)))
-                outputs[o['url']]=finalize(rendered,m['url'],nav,m,tax)
+                outputs[o['url']]=finalize(rendered,m['url'],nav,m,tax,related_articles(m,public))
             if m['url'] not in outputs:outputs[m['url']]=outputs[legacy[0]['url']]
-        else:outputs[m['url']]=finalize(new_post(m,tax),m['url'],nav,m,tax)
+        else:outputs[m['url']]=finalize(new_post(m,tax),m['url'],nav,m,tax,related_articles(m,public))
     for m in pages:
         if m['url'].startswith('/topics/'):
             ident=Path(m['url']).stem if not m['url'].endswith('/index.html') else Path(m['url']).parent.name
