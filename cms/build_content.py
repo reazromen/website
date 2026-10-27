@@ -488,7 +488,7 @@ def feeds(entries,outputs):
     ET.SubElement(atom,'updated').text=(str(entries[0].get('date',''))[:10] or '2026-10-02')+'T00:00:00Z' if entries else '2026-10-02T00:00:00Z'
     (ROOT/'feed.json').write_text(json.dumps(feed,ensure_ascii=False,indent=2)+'\n')
     for filename,tree in [('feed.xml',rss),('atom.xml',atom)]:ET.ElementTree(tree).write(ROOT/filename,encoding='utf-8',xml_declaration=True)
-    non_indexable_urls={u for m in public if m.get('indexable') is False for u in ({m['url']}|{o['url'] for o in m.get('outputs',[])})}
+    non_indexable_urls={u for m in entries if not m.get('draft') and m.get('indexable') is False for u in ({m['url']}|{o['url'] for o in m.get('outputs',[])})}
     sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
     for url in sorted(outputs):
         if url in CANONICAL_ALIASES or url in non_indexable_urls:continue
