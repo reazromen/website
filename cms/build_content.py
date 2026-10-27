@@ -155,9 +155,9 @@ def related_articles(entry,entries,limit=3):
         same_topic=bool(topic and topic==other.get('topic'))
         score=overlap*2+(4 if same_topic else 0)
         if score:scored.append((score,other))
-    scored.sort(key=lambda pair:(-pair[0],str(pair[1].get('date','')),pair[1].get('title','').casefold()),reverse=False)
-    # Prefer the strongest topical/tag overlap, then the newest publication date.
-    scored.sort(key=lambda pair:(-pair[0],pair[1].get('date','')),reverse=True)
+    # Stable sorts keep the strongest topical/tag overlap first, then newest date.
+    scored.sort(key=lambda pair:pair[1].get('date',''),reverse=True)
+    scored.sort(key=lambda pair:pair[0],reverse=True)
     return [m for _,m in scored[:limit]]
 
 def render_page(m,entries,tax):
