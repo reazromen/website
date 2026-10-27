@@ -45,9 +45,9 @@ The eligible set is not guaranteed to be indexed; its titles, descriptions, arti
 
 All **261 production article URLs** in the export matched a CMS source. Their body-level review found:
 
-- **118 / 261** have fewer than 200 words; median body length is 233 words.
+- **118 / 261** have fewer than 200 words; median body length is 233 words. Of those, **109** were published before July 2026 and are marked P1 in the URL matrix; the remaining **9** are marked P2 for review/monitoring.
 - **259 / 261** have no body-level internal Markdown/HTML link.
-- 1 lacks an excerpt, 61 lack a topic assignment, and 27 have no tags.
+- 1 lacks an excerpt, 61 lack a topic assignment, and 27 have no tags. An additional 40 posts that are not already in the short-article queue are marked P2 for missing topic/tag metadata.
 - No exact duplicate body was found among these 261 production articles.
 - The 80 articles above 800 words skew the mean substantially; the median is the more useful summary.
 
@@ -80,7 +80,7 @@ The successful CMS build before the final three-post threshold change produced 1
 
 ## URL-by-URL matrix
 
-The companion file [`seo-gsc-url-triage-2026-10-27.csv`](seo-gsc-url-triage-2026-10-27.csv) records each URL, last-crawled date where supplied, host/category, source match, live status/canonical, generated-manifest/sitemap status, article metadata/quality signals and recommended action.
+The companion file [`seo-gsc-url-triage-2026-10-27.csv`](seo-gsc-url-triage-2026-10-27.csv) records each URL, last-crawled date where supplied, host/category, source match, live status/canonical, generated-manifest/sitemap status, source publication date, article metadata/quality signals, editorial-review priority and recommended action.
 
 ## Release status
 
