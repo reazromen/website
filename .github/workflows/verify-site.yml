@@ -85,7 +85,7 @@ jobs:
           }
           for ident, tag in tax["tags"].items():
               count = sum(1 for m in entries if not m.get("draft") and ident in m.get("tags", []))
-              if count < 2 and not str(tag.get("description", "")).strip() and not str(tag.get("body", "")).strip():
+              if count < 3 and not str(tag.get("description", "")).strip() and not str(tag.get("body", "")).strip():
                   non_indexable.add("/tags/" + ident + ".html")
                   non_indexable.update(tag.get("aliases", []))
           assert not any("https://reazromen.com" + u in locs for u in non_indexable), "non-indexable URL leaked into sitemap"
