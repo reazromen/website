@@ -428,6 +428,11 @@ def main():
             else:
                 body='<h1>'+esc(t['title'])+'</h1><div class="prose">'+render_md(t.get('body') or t.get('description',''))+'</div><div class="post-list editorial-list">'+''.join(card(x,tax) for x in rows)+'</div>'
                 outputs[url]=finalize(shell(t['title'],body,t.get('description','')),url,nav)
+            if kind=='tags' and len(rows)<2 and not str(t.get('description','')).strip() and not str(t.get('body','')).strip():
+                page=soup(outputs[url]);robots=page.select_one('meta[name="robots"]')
+                if not robots:
+                    robots=page.new_tag('meta',attrs={'name':'robots'});page.head.append(robots)
+                robots['content']='noindex,follow';outputs[url]=str(page)
             for alias in t.get('aliases',[]):
                 target(alias)
                 if alias in owned and alias!=url:raise ValueError('Taxonomy alias collision: '+alias)
@@ -464,12 +469,12 @@ def main():
     import os,subprocess
     commit=os.environ.get('GITHUB_SHA') or subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
     (ROOT/'build-info.json').write_text(json.dumps({'commit':commit,'posts':len(public),'pages':len(pages),'topics':len(tax['topics']),'tags':len(tax['tags'])})+'\n')
-    feeds(public,outputs)
+    feeds(public,outputs,tax)
     print(json.dumps({'published_posts':len(public),'drafts':len(entries)-len(public),'pages':len(pages),'topics':len(tax['topics']),'tags':len(tax['tags']),'output_urls':len(outputs)},ensure_ascii=False))
 
 def redirect(url):return '<!doctype html><html><head><meta http-equiv="refresh" content="0;url='+esc(url)+'"><link rel="canonical" href="https://reazromen.com'+esc(url)+'"></head><body><a href="'+esc(url)+'">Continue</a></body></html>'
 
-def feeds(entries,outputs):
+def feeds(entries,outputs,tax=None):
     feed={'version':'https://jsonfeed.org/version/1.1','title':'Reaz Romen — Writing','home_page_url':'https://reazromen.com','feed_url':'https://reazromen.com/feed.json','items':[]}
     rss=ET.Element('rss',version='2.0');channel=ET.SubElement(rss,'channel')
     for k,v in [('title','Reaz Romen — Writing'),('link','https://reazromen.com'),('description','Articles and listening notes')]:ET.SubElement(channel,k).text=v
@@ -489,6 +494,11 @@ def feeds(entries,outputs):
     (ROOT/'feed.json').write_text(json.dumps(feed,ensure_ascii=False,indent=2)+'\n')
     for filename,tree in [('feed.xml',rss),('atom.xml',atom)]:ET.ElementTree(tree).write(ROOT/filename,encoding='utf-8',xml_declaration=True)
     non_indexable_urls={u for m in entries if not m.get('draft') and m.get('indexable') is False for u in ({m['url']}|{o['url'] for o in m.get('outputs',[])})}
+    for ident,t in (tax or {}).get('tags',{}).items():
+        post_count=sum(1 for m in entries if not m.get('draft') and ident in m.get('tags',[]))
+        if post_count<2 and not str(t.get('description','')).strip() and not str(t.get('body','')).strip():
+            non_indexable_urls.add('/tags/'+ident+'.html')
+            non_indexable_urls.update(t.get('aliases',[]))
     sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
     for url in sorted(outputs):
         if url in CANONICAL_ALIASES or url in non_indexable_urls:continue
