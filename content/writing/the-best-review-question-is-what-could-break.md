@@ -11,6 +11,7 @@ tags:
 - failure-modes
 - change-management
 draft: false
+indexable: false
 featured: false
 language: en
 eyebrow: DevOps & Culture · ARCHIVED NOTE
