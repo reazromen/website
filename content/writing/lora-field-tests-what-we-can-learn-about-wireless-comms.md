@@ -1,7 +1,7 @@
 ---
 title: 'LoRa Field Tests: What We Can Learn About Wireless Comms'
 url: /posts/lora-field-tests-what-we-can-learn-about-wireless-comms.html
-date: '2026-10-27'
+date: '2026-05-27'
 read_time: 6
 excerpt: I reached around 20 km in my own LoRa field tests. The result was a reminder that real-world wireless range depends on the whole radio link, not a headline specification.
 topic: radio-iot
