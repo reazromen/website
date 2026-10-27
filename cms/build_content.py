@@ -230,6 +230,12 @@ def finalize(raw,url,nav,entry=None,tax=None):
     canonical=s.select_one('link[rel="canonical"]')
     if not canonical:canonical=s.new_tag('link',rel='canonical');s.head.append(canonical)
     canonical['href']='https://reazromen.com'+CANONICAL_ALIASES.get(url, url)
+    if entry and entry.get('indexable') is False:
+        robots=s.select_one('meta[name="robots"]')
+        if not robots:
+            robots=s.new_tag('meta',attrs={'name':'robots'})
+            s.head.append(robots)
+        robots['content']='noindex,follow'
     # Structured data belongs in the renderer, not only in generated HTML:
     # build_content.py recreates these pages on every publish.
     schema_by_url = {
@@ -482,9 +488,10 @@ def feeds(entries,outputs):
     ET.SubElement(atom,'updated').text=(str(entries[0].get('date',''))[:10] or '2026-10-02')+'T00:00:00Z' if entries else '2026-10-02T00:00:00Z'
     (ROOT/'feed.json').write_text(json.dumps(feed,ensure_ascii=False,indent=2)+'\n')
     for filename,tree in [('feed.xml',rss),('atom.xml',atom)]:ET.ElementTree(tree).write(ROOT/filename,encoding='utf-8',xml_declaration=True)
+    non_indexable_urls={u for m in public if m.get('indexable') is False for u in ({m['url']}|{o['url'] for o in m.get('outputs',[])})}
     sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
     for url in sorted(outputs):
-        if url in CANONICAL_ALIASES:continue
+        if url in CANONICAL_ALIASES or url in non_indexable_urls:continue
         ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text='https://reazromen.com'+url
     ET.ElementTree(sitemap).write(ROOT/'sitemap.xml',encoding='utf-8',xml_declaration=True)
 
