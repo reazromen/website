@@ -46,3 +46,34 @@ jobs:
           count="$(find . -type f ! -path './.git/*' | wc -l | tr -d ' ')"
           echo "tracked/static file count: $count"
           test "$count" -gt 2000
+
+      - name: Build and verify canonical SEO output
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --quiet -r cms/requirements.txt
+          python cms/build_content.py
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          from urllib.parse import urlsplit
+
+          homepage = Path('index.html').read_text(encoding='utf-8')
+          assert 'rel="canonical"' in homepage and 'href="https://reazromen.com/" rel="canonical"' in homepage, 'Homepage canonical must be the root URL'
+
+          ns = {'sm': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
+          root = ET.parse('sitemap.xml').getroot()
+          urls = [node.text.strip() for node in root.findall('sm:url/sm:loc', ns)]
+          assert 'https://reazromen.com/' in urls, 'Sitemap must include the canonical homepage'
+          assert len(urls) == len(set(urls)), 'Sitemap contains duplicate URLs'
+
+          aliases = []
+          for value in urls:
+              path = urlsplit(value).path
+              if path.endswith('/index.html'):
+                  candidate = path[:-len('/index.html')] + '.html'
+                  if (Path('.') / candidate.lstrip('/')).is_file():
+                      aliases.append(value)
+          assert not aliases, 'Sitemap contains index aliases with existing .html counterparts: ' + ', '.join(aliases[:20])
+          print(f'Canonical SEO checks passed for {len(urls)} sitemap URLs.')
+          PY
