@@ -539,5 +539,3 @@ def feeds(entries,outputs):
     ET.ElementTree(sitemap).write(ROOT/'sitemap.xml',encoding='utf-8',xml_declaration=True)
 
 if __name__=='__main__':main()
-
-[executed on device: hserver (10020db2-ed45-41ea-84a3-6dfe385b19ca)]
