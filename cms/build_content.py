@@ -462,7 +462,7 @@ def main():
             # editorial description are thin navigation endpoints, not useful
             # standalone search landing pages. Keep them accessible and followable,
             # but explicitly exclude them from indexing and the sitemap.
-            if kind in ('tags', 'topics') and len(rows) < 3 and not (str(t.get('description') or '').strip() or str(t.get('body') or '').strip()):
+            if kind in ('tags', 'topics') and t.get('indexable') is not True and len(rows) < 3 and not (str(t.get('description') or '').strip() or str(t.get('body') or '').strip()):
                 outputs[url] = mark_noindex(outputs[url])
             for alias in t.get('aliases',[]):
                 target(alias)
