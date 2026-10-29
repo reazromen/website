@@ -53,27 +53,6 @@ jobs:
           set -euo pipefail
           python -m pip install --quiet -r cms/requirements.txt
           python cms/build_content.py
-          python3 - <<'PY'
-          import xml.etree.ElementTree as ET
-          from pathlib import Path
-          from urllib.parse import urlsplit
+          python cms/verify_seo.py
 
-          homepage = Path('index.html').read_text(encoding='utf-8')
-          assert 'rel="canonical"' in homepage and 'href="https://reazromen.com/" rel="canonical"' in homepage, 'Homepage canonical must be the root URL'
-
-          ns = {'sm': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
-          root = ET.parse('sitemap.xml').getroot()
-          urls = [node.text.strip() for node in root.findall('sm:url/sm:loc', ns)]
-          assert 'https://reazromen.com/' in urls, 'Sitemap must include the canonical homepage'
-          assert len(urls) == len(set(urls)), 'Sitemap contains duplicate URLs'
-
-          aliases = []
-          for value in urls:
-              path = urlsplit(value).path
-              if path.endswith('/index.html'):
-                  candidate = path[:-len('/index.html')] + '.html'
-                  if (Path('.') / candidate.lstrip('/')).is_file():
-                      aliases.append(value)
-          assert not aliases, 'Sitemap contains index aliases with existing .html counterparts: ' + ', '.join(aliases[:20])
-          print(f'Canonical SEO checks passed for {len(urls)} sitemap URLs.')
-          PY
+[executed on device: hserver (10020db2-ed45-41ea-84a3-6dfe385b19ca)]
