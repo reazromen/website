@@ -27,6 +27,19 @@ CANONICAL_ALIASES = {
 }
 _SHARED_CHROME=None
 
+def canonical_url(url):
+    """Return the preferred public URL for generated aliases."""
+    if url == '/index.html':
+        return '/'
+    if url in CANONICAL_ALIASES:
+        return CANONICAL_ALIASES[url]
+    if url.endswith('/index.html'):
+        candidate = url[:-len('/index.html')] + '.html'
+        candidate_path = (ROOT / candidate.lstrip('/')).resolve()
+        if candidate_path.is_relative_to(ROOT.resolve()) and candidate_path.is_file():
+            return candidate
+    return url
+
 def shared_chrome():
     global _SHARED_CHROME
     if _SHARED_CHROME is None:
@@ -229,7 +242,7 @@ def finalize(raw,url,nav,entry=None,tax=None):
         n.clear();n.append(soup(''.join(link(x,url) for x in nav.get('footer',[]))))
     canonical=s.select_one('link[rel="canonical"]')
     if not canonical:canonical=s.new_tag('link',rel='canonical');s.head.append(canonical)
-    canonical['href']='https://reazromen.com'+CANONICAL_ALIASES.get(url, url)
+    canonical['href']='https://reazromen.com'+canonical_url(url)
     # Structured data belongs in the renderer, not only in generated HTML:
     # build_content.py recreates these pages on every publish.
     schema_by_url = {
@@ -483,9 +496,11 @@ def feeds(entries,outputs):
     (ROOT/'feed.json').write_text(json.dumps(feed,ensure_ascii=False,indent=2)+'\n')
     for filename,tree in [('feed.xml',rss),('atom.xml',atom)]:ET.ElementTree(tree).write(ROOT/filename,encoding='utf-8',xml_declaration=True)
     sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
+    ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text='https://reazromen.com/'
     for url in sorted(outputs):
-        if url in CANONICAL_ALIASES:continue
-        ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text='https://reazromen.com'+url
+        preferred=canonical_url(url)
+        if preferred != url or preferred == '/':continue
+        ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text='https://reazromen.com'+preferred
     ET.ElementTree(sitemap).write(ROOT/'sitemap.xml',encoding='utf-8',xml_declaration=True)
 
 if __name__=='__main__':main()
