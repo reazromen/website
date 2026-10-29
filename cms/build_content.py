@@ -26,6 +26,7 @@ CANONICAL_ALIASES = {
     '/topics/terraform-systems/index.html': '/topics/terraform-systems.html',
 }
 _SHARED_CHROME=None
+CANONICAL_TARGETS=set()
 
 def canonical_url(url):
     """Return the preferred public URL for generated aliases."""
@@ -35,10 +36,23 @@ def canonical_url(url):
         return CANONICAL_ALIASES[url]
     if url.endswith('/index.html'):
         candidate = url[:-len('/index.html')] + '.html'
-        candidate_path = (ROOT / candidate.lstrip('/')).resolve()
-        if candidate_path.is_relative_to(ROOT.resolve()) and candidate_path.is_file():
+        # Resolve only to a page that belongs to this build's source manifest.
+        # A stale generated file on disk is not proof that the target will ship.
+        if candidate in CANONICAL_TARGETS:
             return candidate
     return url
+
+def mark_noindex(raw):
+    """Keep a page available to visitors while excluding it from search results."""
+    document = soup(raw)
+    robots = document.select_one('meta[name="robots"]')
+    if robots:
+        directives = [part.strip().lower() for part in (robots.get('content') or '').split(',') if part.strip()]
+        preserved = [part for part in directives if part not in ('index', 'noindex', 'follow', 'nofollow')]
+        robots['content'] = ', '.join(['noindex', 'follow'] + preserved)
+    else:
+        document.head.append(document.new_tag('meta', attrs={'name': 'robots', 'content': 'noindex,follow'}))
+    return html_string(document)
 
 def shared_chrome():
     global _SHARED_CHROME
@@ -388,7 +402,10 @@ def finalize(raw,url,nav,entry=None,tax=None):
     return html_string(s)
 
 def main():
-    entries,pages,tax,nav,owned=load_all(); outputs={};public=[m for m in entries if not m.get('draft')]
+    entries,pages,tax,nav,owned=load_all()
+    global CANONICAL_TARGETS
+    CANONICAL_TARGETS={m['url'] for m in entries if not m.get('draft')} | {m['url'] for m in pages if not m.get('draft')}
+    outputs={};public=[m for m in entries if not m.get('draft')]
     for m in public:
         legacy=m.get('outputs',[])
         if legacy:
@@ -398,6 +415,9 @@ def main():
                 outputs[o['url']]=finalize(rendered,m['url'],nav,m,tax)
             if m['url'] not in outputs:outputs[m['url']]=outputs[legacy[0]['url']]
         else:outputs[m['url']]=finalize(new_post(m,tax),m['url'],nav,m,tax)
+        if m.get('noindex'):
+            for output_url in ({m['url']} | {o['url'] for o in legacy}):
+                if output_url in outputs:outputs[output_url]=mark_noindex(outputs[output_url])
     for m in pages:
         if m['url'].startswith('/topics/'):
             ident=Path(m['url']).stem if not m['url'].endswith('/index.html') else Path(m['url']).parent.name
@@ -408,7 +428,10 @@ def main():
                 s=soup(raw)
                 if s.find('main'):s.find('main')['data-pagefind-body']=''
                 raw=html_string(s)
-            outputs[m['url']]=finalize(raw,m['url'],nav)
+            rendered=finalize(raw,m['url'],nav)
+            if m.get('noindex'):
+                rendered=mark_noindex(rendered)
+            outputs[m['url']]=rendered
     # New research notes stay distinct from personal listening memories.
     new_music=[m for m in public if m.get('section')=='music' and m.get('editorial_batch')=='20261003-100-niches']
     for music_url in ('/music.html','/music/index.html'):
@@ -435,6 +458,12 @@ def main():
             else:
                 body='<h1>'+esc(t['title'])+'</h1><div class="prose">'+render_md(t.get('body') or t.get('description',''))+'</div><div class="post-list editorial-list">'+''.join(card(x,tax) for x in rows)+'</div>'
                 outputs[url]=finalize(shell(t['title'],body,t.get('description','')),url,nav)
+            # Auto-generated tags with only one or two associated posts and no
+            # editorial description are thin navigation endpoints, not useful
+            # standalone search landing pages. Keep them accessible and followable,
+            # but explicitly exclude them from indexing and the sitemap.
+            if kind in ('tags', 'topics') and len(rows) < 3 and not (str(t.get('description') or '').strip() or str(t.get('body') or '').strip()):
+                outputs[url] = mark_noindex(outputs[url])
             for alias in t.get('aliases',[]):
                 target(alias)
                 if alias in owned and alias!=url:raise ValueError('Taxonomy alias collision: '+alias)
@@ -497,10 +526,18 @@ def feeds(entries,outputs):
     for filename,tree in [('feed.xml',rss),('atom.xml',atom)]:ET.ElementTree(tree).write(ROOT/filename,encoding='utf-8',xml_declaration=True)
     sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
     ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text='https://reazromen.com/'
-    for url in sorted(outputs):
+    for url, raw in sorted(outputs.items()):
         preferred=canonical_url(url)
         if preferred != url or preferred == '/':continue
-        ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text='https://reazromen.com'+preferred
+        document=soup(raw)
+        canonicals=document.select('link[rel="canonical"]')
+        if len(canonicals) != 1 or canonicals[0].get('href') != 'https://reazromen.com'+url:
+            continue
+        if any('noindex' in [part.strip() for part in (node.get('content') or '').lower().split(',')] for node in document.select('meta[name="robots"]')):
+            continue
+        ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text='https://reazromen.com'+url
     ET.ElementTree(sitemap).write(ROOT/'sitemap.xml',encoding='utf-8',xml_declaration=True)
 
 if __name__=='__main__':main()
+
+[executed on device: hserver (10020db2-ed45-41ea-84a3-6dfe385b19ca)]
