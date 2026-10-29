@@ -150,7 +150,7 @@ for kind in ('tags', 'topics'):
     for ident in identifiers:
         usage_count = taxonomy_usage[kind][ident]
         metadata, body = taxonomy_records[kind].get(ident, ({}, ''))
-        if usage_count >= 3 or str(metadata.get('description') or '').strip() or body.strip():
+        if metadata.get('indexable') is True or usage_count >= 3 or str(metadata.get('description') or '').strip() or body.strip():
             continue
         page = ROOT / kind / f'{ident}.html'
         assert page.is_file(), f'Missing generated taxonomy page: /{kind}/{ident}.html'
@@ -158,6 +158,17 @@ for kind in ('tags', 'topics'):
         assert has_noindex(document), f'Thin taxonomy page must be noindex,follow: /{kind}/{ident}.html'
         assert BASE + f'/{kind}/{ident}.html' not in url_set, f'Thin taxonomy page must be omitted from sitemap: /{kind}/{ident}.html'
         low_value_taxonomy_pages += 1
+
+# An authored topic landing page can be substantive even when the generic
+# taxonomy association counter is incomplete. It must not inherit the thin-topic
+# noindex rule from an empty taxonomy record.
+terraform_url = BASE + '/topics/terraform-systems.html'
+terraform_page = ROOT / 'topics' / 'terraform-systems.html'
+assert terraform_page.is_file(), 'Authored Terraform Systems landing page is missing'
+terraform_document = document_for(terraform_page)
+assert not has_noindex(terraform_document), 'Substantive Terraform Systems landing page must remain indexable'
+assert terraform_url in url_set, 'Substantive Terraform Systems landing page must be in the sitemap'
+assert terraform_document.select_one('meta[name="description"][content]') and terraform_document.select_one('meta[name="description"]').get('content', '').strip(), 'Terraform Systems landing page must have a description'
 
 # Homepage heading semantics and search-control accessible name are regressions.
 homepage_document = document_for(ROOT / 'index.html')
