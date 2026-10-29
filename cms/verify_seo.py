@@ -177,5 +177,3 @@ assert any(item.get('@type') == 'Article' and item.get('url') == BASE + '/posts/
 
 assert low_value_taxonomy_pages > 0, 'Expected at least one thin tag page to exercise the noindex policy'
 print(f'SEO checks passed: {len(urls)} unique canonical/indexable sitemap URLs; {noindex_count} noindex public HTML pages excluded; {low_value_taxonomy_pages} low-value tag/topic pages intentionally noindex; article metadata/schema, homepage, and robots.txt verified.')
-
-[executed on device: hserver (10020db2-ed45-41ea-84a3-6dfe385b19ca)]
