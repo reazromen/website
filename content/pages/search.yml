@@ -24,5 +24,3 @@ lists: []
 template: cms/templates/pages/search.tpl
 source: cms/templates/pages/search.json
 links: []
-
-[executed on device: hserver (10020db2-ed45-41ea-84a3-6dfe385b19ca)]

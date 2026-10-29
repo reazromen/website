@@ -18,5 +18,3 @@ outputs:
 ---
 
 qswwqs
-
-[executed on device: hserver (10020db2-ed45-41ea-84a3-6dfe385b19ca)]

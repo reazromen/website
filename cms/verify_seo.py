@@ -159,6 +159,14 @@ for kind in ('tags', 'topics'):
         assert BASE + f'/{kind}/{ident}.html' not in url_set, f'Thin taxonomy page must be omitted from sitemap: /{kind}/{ident}.html'
         low_value_taxonomy_pages += 1
 
+# Homepage heading semantics and search-control accessible name are regressions.
+homepage_document = document_for(ROOT / 'index.html')
+assert len(homepage_document.select('main h1')) == 1, 'Homepage must render exactly one main h1'
+search_document = document_for(ROOT / 'search.html')
+search_input = search_document.select_one('#site-search-input')
+assert search_input is not None, 'Site-search input is missing'
+assert (search_input.get('aria-label') or search_input.get('aria-labelledby') or search_input.find_parent('label')) , 'Site-search input has no accessible name'
+
 # Representative article metadata and Article JSON-LD are part of the release contract.
 article_path = ROOT / 'posts' / 'zfs-scrub-resilver-snapshot-replication.html'
 assert article_path.is_file(), 'Representative published article is missing'
@@ -177,5 +185,3 @@ assert any(item.get('@type') == 'Article' and item.get('url') == BASE + '/posts/
 
 assert low_value_taxonomy_pages > 0, 'Expected at least one thin tag page to exercise the noindex policy'
 print(f'SEO checks passed: {len(urls)} unique canonical/indexable sitemap URLs; {noindex_count} noindex public HTML pages excluded; {low_value_taxonomy_pages} low-value tag/topic pages intentionally noindex; article metadata/schema, homepage, and robots.txt verified.')
-
-[executed on device: hserver (10020db2-ed45-41ea-84a3-6dfe385b19ca)]
