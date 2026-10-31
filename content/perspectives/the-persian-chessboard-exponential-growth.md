@@ -10,7 +10,7 @@ excerpt: >-
   exponential growth can outrun human intuition, even when the mathematics is
   remarkably simple.
 eyebrow: "Perspectives · Science and Mathematics"
-tags: ["science", "mathematics", "exponential-growth", "Carl-Sagan", "technology"]
+tags: ["science", "mathematics", "exponential-growth", "carl-sagan", "technology"]
 ---
 
 There is something peculiar about the way we understand numbers. We can look at a thousand grains of rice and imagine a thousand more, or watch a tree grow and reasonably estimate how much larger it might become over the next few years. Our minds are remarkably good at dealing with quantities when they increase in ways we have experienced before. But there is a particular kind of growth that quietly breaks this intuition, not because its mathematics is complicated, but because its consequences become difficult to imagine long before we realise what is happening. A story about a chessboard, a Persian king, and a request for a few grains of wheat offers a rather beautiful way of understanding this problem.
