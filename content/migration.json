@@ -3382,6 +3382,9 @@
     },
     "/posts/terraform-create-before-destroy-propagates/index.html": {
       "source": "content/writing/terraform-create-before-destroy-propagates--index.md"
+    },
+    "/posts/the-journey-of-a-sound-esp32-audio-latency.html": {
+      "source": "content/perspectives/the-journey-of-a-sound-esp32-audio-latency.md"
     }
   },
   "counts": {
