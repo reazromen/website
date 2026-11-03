@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07090d">
+<meta name="description" content="An interactive study of time, Fibonacci numbers and spiral geometry.">
+<link rel="canonical" href="https://reazromen.com/experiments/fibonacci-clock/">
+<title>Fibonacci Clock — Reaz Romen</title>
+<style>
+:root{color-scheme:dark;--bg:#07090d;--panel:#0d121a;--edge:#252e39;--muted:#929ba8;--white:#edf1f5;--cyan:#65cce9;--coral:#ff786b;--gold:#d7b878}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 38%,#14202b 0,#090d13 44%,var(--bg) 78%);color:var(--white);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+main{width:min(100% - 32px,980px);margin:auto;padding:32px 0 40px}.head{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}.eyebrow{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}h1{font:400 clamp(38px,7vw,68px)/1.04 Georgia,serif;letter-spacing:-.04em;margin:10px 0}.desc{font-size:14px;color:#aab3bf;margin:0}.edition{white-space:nowrap;padding-top:4px}.time{font:500 clamp(27px,5vw,39px)/1.2 Georgia,serif;letter-spacing:.08em;color:var(--coral);font-variant-numeric:tabular-nums;margin:22px 0 14px}
+.stage{border:1px solid var(--edge);border-radius:24px;overflow:hidden;background:linear-gradient(145deg,#0a1018ed,#080b10e8);box-shadow:0 24px 80px #0007}.stage svg{display:block;width:100%;height:auto;max-height:760px}.orbit{fill:none;stroke:#39414c;stroke-width:2.2;stroke-linecap:round}.orbit.current{stroke:var(--coral);stroke-width:3.4;filter:drop-shadow(0 0 5px #ff786b66)}.hour-label{font:600 19px Georgia,serif;fill:#e0e5eb}.hour-label.current{fill:var(--coral)}.spiral{fill:none;stroke:url(#spiralGradient);stroke-width:3.3;stroke-linecap:round;filter:drop-shadow(0 0 6px #65cce955)}.dial{fill:#080c12;stroke:#edf1f5;stroke-width:1.5}.tick{stroke:#d7dee7;stroke-width:1;opacity:.8}.hand{stroke:#f4f5f6;stroke-width:3;stroke-linecap:round}.minute-hand{stroke:var(--cyan);stroke-width:2.3}.hub{fill:var(--coral)}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0}.stat{background:#0d121a;border:1px solid var(--edge);border-radius:15px;padding:14px 16px;min-width:0}.stat small{display:block;color:var(--muted);font-size:10px;letter-spacing:.13em;text-transform:uppercase}.stat strong{display:block;font-weight:500;font-size:18px;margin-top:6px;font-variant-numeric:tabular-nums}.controls{display:flex;flex-wrap:wrap;justify-content:center;gap:9px;margin:17px 0}.controls button{border:1px solid #354150;border-radius:99px;background:#121a24;color:var(--white);padding:10px 16px;font:500 13px inherit;cursor:pointer}.controls button:hover,.controls button:focus-visible{border-color:var(--cyan);outline:none}.controls .primary{background:#15303a;border-color:#2d6576}.legend{display:flex;justify-content:center;flex-wrap:wrap;gap:18px;color:var(--muted);font-size:12px;margin:12px 0 22px}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px}.explain{max-width:760px;margin:auto;color:#a5afbb;font-size:12px;line-height:1.75;text-align:center}.explain b{color:#e0e5eb;font-weight:550}.foot{text-align:center;color:#66717f;font-size:10px;letter-spacing:.12em;margin-top:24px}
+@media(max-width:560px){main{width:min(100% - 22px,980px);padding-top:23px}.head{gap:8px}.edition{font-size:9px}.desc{max-width:280px;line-height:1.5}.stage{border-radius:17px}.stats{gap:7px}.stat{padding:11px 9px}.stat small{font-size:8px;letter-spacing:.08em}.stat strong{font-size:15px}.legend{gap:10px;font-size:10px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+<header class="head"><div><div class="eyebrow">A study in time &amp; geometry</div><h1>Fibonacci Clock</h1><p class="desc">An experimental clock drawn along a Fibonacci-inspired spiral.</p></div><div class="eyebrow edition">VOL. 01 / LIVE</div></header>
+<div class="time" id="digital" aria-live="off">--:--:--</div>
+<section class="stage" aria-label="Fibonacci-inspired clock visualization">
+<svg viewBox="0 0 720 760" role="img" aria-labelledby="svgTitle svgDesc">
+<title id="svgTitle">Fibonacci-inspired clock</title><desc id="svgDesc">Twelve curved hour intervals surround a central analog clock. A cyan spiral traces the composition.</desc>
+<defs><linearGradient id="spiralGradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#65cce9"/><stop offset="1" stop-color="#438eb9"/></linearGradient></defs>
+<g id="orbits"></g><path id="spiral" class="spiral"/><g id="labels"></g>
+<circle cx="360" cy="380" r="82" class="dial"/><circle cx="360" cy="380" r="74" fill="none" stroke="#687482" stroke-width="1" stroke-dasharray="2 4"/><g id="ticks"></g>
+<line id="hourHand" x1="360" y1="380" x2="360" y2="320" class="hand"/><line id="minuteHand" x1="360" y1="380" x2="360" y2="312" class="hand minute-hand"/><circle cx="360" cy="380" r="6" class="hub"/>
+</svg></section>
+<section class="stats" aria-label="Clock data"><div class="stat"><small>Hour interval</small><strong id="hourValue">—</strong></div><div class="stat"><small>Minute position</small><strong id="minuteValue">—</strong></div><div class="stat"><small>Golden ratio φ</small><strong>1.6180339</strong></div></section>
+<div class="controls"><button class="primary" id="pause" type="button">Ⅱ Pause</button><button id="format" type="button">12-hour format</button><button id="seconds" type="button">Seconds: on</button><button id="reset" type="button">Reset view</button></div>
+<div class="legend"><span><i class="dot" style="background:var(--cyan)"></i>Fibonacci-inspired spiral</span><span><i class="dot" style="background:var(--coral)"></i>Current hour</span><span><i class="dot" style="background:#edf1f5"></i>Analog time</span></div>
+<p class="explain"><b>How to read it:</b> the outer composition marks the twelve positions of a conventional 12-hour clock. The central dial shows the familiar hour and minute hands, while the cyan curve is a Fibonacci-inspired spiral. The geometry is an artistic construction, not a claim that the hours themselves are Fibonacci intervals. The underlying sequence begins 1, 1, 2, 3, 5, 8, 13…</p>
+<div class="foot">MATHEMATICS · GEOMETRY · TIME</div>
+</main>
+<script>
+(()=>{'use strict';
+const ns='http://www.w3.org/2000/svg',cx=360,cy=380,orbits=document.getElementById('orbits'),labels=document.getElementById('labels'),ticks=document.getElementById('ticks');
+const add=(tag,attrs,parent)=>{const n=document.createElementNS(ns,tag);Object.entries(attrs).forEach(([k,v])=>n.setAttribute(k,v));parent.appendChild(n);return n};
+const pt=(r,a)=>[cx+r*Math.cos(a),cy+r*Math.sin(a)];
+const start=-Math.PI*.78,span=Math.PI*2.02;
+let path='';for(let i=0;i<=500;i++){const t=i/500,a=start+t*span,r=104+245*t,[x,y]=pt(r,a);path+=(i?'L':'M')+x.toFixed(2)+' '+y.toFixed(2)}document.getElementById('spiral').setAttribute('d',path);
+for(let i=0;i<12;i++){const a0=start+i*span/12,a1=start+(i+1)*span/12,r=190+i*8.2,p0=pt(r,a0),p1=pt(r+25,a1),pm=pt(r+12,(a0+a1)/2);add('path',{d:`M ${p0[0]} ${p0[1]} Q ${pm[0]+(i<6?19:-19)} ${pm[1]} ${p1[0]} ${p1[1]}`,class:'orbit','data-hour':i+1},orbits);const [x,y]=pt(164+i*8.2,(a0+a1)/2);const label=add('text',{x,y:y+6,'text-anchor':'middle',class:'hour-label'},labels);label.textContent=String(i+1)}
+for(let i=0;i<60;i++){const a=i*Math.PI/30-Math.PI/2,p1=pt(i%5===0?72:77,a),p2=pt(i%5===0?82:80,a);add('line',{x1:p1[0],y1:p1[1],x2:p2[0],y2:p2[1],class:'tick'},ticks)}
+let running=true,showSeconds=true,use24=false,interval;
+function update(){const d=new Date(),h=d.getHours(),m=d.getMinutes(),s=d.getSeconds(),h12=h%12||12,shown=use24?h:h12;document.getElementById('digital').textContent=String(shown).padStart(2,'0')+':'+String(m).padStart(2,'0')+(showSeconds?':'+String(s).padStart(2,'0'):'')+(use24?'':' '+(h>=12?'PM':'AM'));const ha=((h%12)+m/60+s/3600)/12*Math.PI*2-Math.PI/2,ma=(m+s/60)/60*Math.PI*2-Math.PI/2,[hx,hy]=pt(57,ha),[mx,my]=pt(68,ma);for(const [id,x,y] of [['hourHand',hx,hy],['minuteHand',mx,my]]){document.getElementById(id).setAttribute('x2',x);document.getElementById(id).setAttribute('y2',y)}document.querySelectorAll('.orbit').forEach((n,i)=>n.classList.toggle('current',i===h12-1));document.querySelectorAll('.hour-label').forEach((n,i)=>n.classList.toggle('current',i===h12-1));document.getElementById('hourValue').textContent=h12+':00 interval';document.getElementById('minuteValue').textContent=m+' / 60 minutes'}
+function tick(){if(running)update()}interval=setInterval(tick,250);update();
+document.getElementById('pause').addEventListener('click',()=>{running=!running;document.getElementById('pause').textContent=running?'Ⅱ Pause':'▶ Resume';if(running)update()});
+document.getElementById('format').addEventListener('click',()=>{use24=!use24;document.getElementById('format').textContent=use24?'24-hour format':'12-hour format';update()});
+document.getElementById('seconds').addEventListener('click',()=>{showSeconds=!showSeconds;document.getElementById('seconds').textContent='Seconds: '+(showSeconds?'on':'off');update()});
+document.getElementById('reset').addEventListener('click',()=>{running=true;use24=false;showSeconds=true;document.getElementById('pause').textContent='Ⅱ Pause';document.getElementById('format').textContent='12-hour format';document.getElementById('seconds').textContent='Seconds: on';update()});
+})();
+</script>
+</body></html>
