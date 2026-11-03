@@ -126,7 +126,17 @@ def tags_html(m,tax):
     return ''.join('<a data-pagefind-filter="tag" href="/tags/'+esc(t)+'.html">'+esc(label(tax,'tags',t))+'</a>' for t in m.get('tags',[]))
 def post_values(m,tax,body):
     topic=m.get('topic','')
-    return {'BODY':body,'TITLE':esc(m['title']),'EXCERPT':esc(m.get('excerpt','')),'EYEBROW':esc(m.get('eyebrow') or label(tax,'topics',topic) or m['section'].title()),'TAGS':tags_html(m,tax),'TOPIC_URL':'/topics/'+esc(topic)+'.html' if topic else '/topics.html','TOPIC_TITLE':esc(label(tax,'topics',topic)),'DATE':'Published '+esc(m.get('date','')),'READ':str(int(m.get('read_time',1)))+' min read','ALBUM_YEAR':esc(' · '.join(str(m.get(k,'')) for k in ('album','year') if m.get(k))),'BROWSER_TITLE':esc(m['title'])+' — Reaz Romen','DESCRIPTION':esc(m.get('description') or m.get('excerpt',''))}
+    schema={
+        '@context':'https://schema.org',
+        '@type':'BlogPosting',
+        'headline':m['title'],
+        'description':m.get('description') or m.get('excerpt',''),
+        'author':{'@type':'Person','name':'Reaz Romen','url':'https://reazromen.com/author/reaz-romen.html'},
+        'mainEntityOfPage':'https://reazromen.com'+m.get('url',''),
+    }
+    if m.get('date'):schema['datePublished']=str(m['date'])
+    schema_slot='<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')+'</script>'
+    return {'BODY':body,'TITLE':esc(m['title']),'EXCERPT':esc(m.get('excerpt','')),'EYEBROW':esc(m.get('eyebrow') or label(tax,'topics',topic) or m['section'].title()),'TAGS':tags_html(m,tax),'TOPIC_URL':'/topics/'+esc(topic)+'.html' if topic else '/topics.html','TOPIC_TITLE':esc(label(tax,'topics',topic)),'DATE':'Published '+esc(m.get('date','')),'READ':str(int(m.get('read_time',1)))+' min read','ALBUM_YEAR':esc(' · '.join(str(m.get(k,'')) for k in ('album','year') if m.get(k))),'BROWSER_TITLE':esc(m['title'])+' — Reaz Romen','DESCRIPTION':esc(m.get('description') or m.get('excerpt','')),'SCHEMA':schema_slot}
 
 def shell(title,body,description='',lang='en'):
     # Reuse the original site chrome and monochrome technical icons.
