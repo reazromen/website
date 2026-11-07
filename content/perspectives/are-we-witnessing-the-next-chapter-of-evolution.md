@@ -29,8 +29,6 @@ Human intelligence did not develop in isolation. It evolved through biological p
 
 Language allowed information to move between minds. Writing preserved it beyond a person's lifetime. Printing multiplied its reach. Computers transformed the speed and scale at which information could be stored and processed.
 
-Each invention allowed knowledge to accumulate across generations, without requiring every generation to rediscover everything from the beginning.
-
 This is different from biological evolution. Genetic evolution depends on inherited variation and natural selection across generations. Cultural and technological change can happen much faster, through communication, learning and deliberate design.
 
 Yet the processes can influence one another. Evolutionary biologists use the term *niche construction* to describe how organisms modify their environments, sometimes changing the conditions under which future evolution occurs. Humans have taken this remarkably far. Agriculture, cities, medicine and technology have transformed the environment in which human beings live.
@@ -47,13 +45,9 @@ A feedback loop is beginning to emerge. AI can assist scientists with analysing 
 
 Could this process become self-reinforcing? Possibly. But fully autonomous systems that continuously improve themselves remain an open research challenge, not an established reality.
 
-Nor does technological growth escape physical limits. Computation requires energy, materials, manufacturing and infrastructure. Nothing in the universe grows without constraints.
-
 ## Can the human mind keep up?
 
 Here lies a curious contradiction. Our technology is changing at extraordinary speed, but the human brain remains a biological organ shaped by millions of years of evolution.
-
-We have limited attention, working memory and time. A new technological capability can become available long before an individual has learned to use it effectively.
 
 Yet the brain is adaptable. Through neuroplasticity, neural connections and patterns of activity change with learning and experience. Human intelligence has also always depended on tools beyond the skull.
 
