@@ -259,6 +259,7 @@ def finalize(raw,url,nav,entry=None,tax=None):
                 <a href="#" data-share="whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp</a>
                 <a href="#" data-share="x" target="_blank" rel="noopener noreferrer">X</a>
                 <a href="#" data-share="linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="#" data-share="medium" target="_blank" rel="noopener noreferrer">Medium</a>
                 <button type="button" data-share-copy>Copy link</button>
                 <button type="button" data-share-native hidden>Share…</button>
               </div>
