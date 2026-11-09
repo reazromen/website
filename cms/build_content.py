@@ -248,6 +248,25 @@ def finalize(raw,url,nav,entry=None,tax=None):
             main=s.select_one('body > main')
             if main:main.insert_after(new_footer)
             else:s.body.append(new_footer)
+    # Add one canonical, reusable sharing bar to every published article output.
+    if entry is not None:
+        article=s.select_one('main article.article') or s.select_one('main article')
+        if article and not article.select_one('.rr-share'):
+            share=soup('''<section class="rr-share" aria-label="Share this article" data-pagefind-ignore>
+              <span class="rr-share-label">Share this article</span>
+              <div class="rr-share-actions">
+                <a href="#" data-share="facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="#" data-share="whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                <a href="#" data-share="x" target="_blank" rel="noopener noreferrer">X</a>
+                <a href="#" data-share="linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <button type="button" data-share-copy>Copy link</button>
+                <button type="button" data-share-native hidden>Share…</button>
+              </div>
+              <span class="rr-share-status" role="status" aria-live="polite"></span>
+            </section>''')
+            article.append(share)
+        if article and not s.select_one('script[src="/assets/share.js"]'):
+            s.body.append(s.new_tag('script',src='/assets/share.js',defer=True))
     # Use a new, separately cacheable asset URL for the mobile navigation fix.
     # The existing responsive-v3.css path may remain cached at the edge after a release.
     if s.head and s.select_one('body > main') and not s.select_one('link[rel="stylesheet"][href*="/assets/mobile-nav.css"]'):
