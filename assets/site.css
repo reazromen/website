@@ -66,3 +66,12 @@ html.dark{--accent:#5eead4;--accent-soft:#5eead412;--tech-line:color-mix(in srgb
 /* Telecom page alignment fix: keep hero and principles columns top-aligned. */
 .telecom-hero{align-items:start}
 .telecom-principles{align-items:start}
+
+/* Article sharing — restrained monochrome controls */
+.rr-share{max-width:var(--content);margin:3.5rem auto 0;padding:1.15rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;gap:.75rem 1rem}
+.rr-share-label{font:600 .72rem/1.5 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.rr-share-actions{display:flex;flex-wrap:wrap;gap:.45rem}
+.rr-share-actions a,.rr-share-actions button{display:inline-flex;align-items:center;justify-content:center;min-height:34px;padding:.35rem .62rem;border:1px solid var(--line);border-radius:5px;background:transparent;color:var(--muted);font:500 .78rem/1.2 var(--sans);text-decoration:none;cursor:pointer}
+.rr-share-actions a:hover,.rr-share-actions button:hover{color:var(--text-strong);border-color:var(--accent);background:var(--accent-soft)}
+.rr-share-status{flex-basis:100%;min-height:1.2em;color:var(--muted);font-size:.78rem}
+@media(max-width:560px){.rr-share{align-items:flex-start;flex-direction:column}.rr-share-actions{gap:.4rem}.rr-share-actions a,.rr-share-actions button{min-height:38px}}
