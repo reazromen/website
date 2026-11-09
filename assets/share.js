@@ -15,7 +15,8 @@
       facebook: 'https://www.facebook.com/sharer/sharer.php?u=' + encodedUrl,
       whatsapp: 'https://api.whatsapp.com/send?text=' + encodedText,
       x: 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(title) + '&url=' + encodedUrl,
-      linkedin: 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodedUrl
+      linkedin: 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodedUrl,
+      medium: 'https://medium.com/p/' + encodedUrl
     };
 
     bar.querySelectorAll('[data-share]').forEach((link) => {
