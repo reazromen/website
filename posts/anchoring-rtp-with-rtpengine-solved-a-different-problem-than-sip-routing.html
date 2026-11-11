@@ -5,35 +5,112 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="light dark" name="color-scheme"/>
-<meta content="Kamailio could route the signaling perfectly while media still failed. rtpengine made the signaling path and media path explicit instead of treating them as one thing." name="description"/>
+<meta content="Why SIP signaling can succeed while voice fails, how RTP media anchoring works, and where RTPengine fits into a NAT-aware VoIP architecture." name="description"/>
 <meta content="Reaz Romen" name="author"/>
 <link href="../about.html" rel="author"/>
-<title>Anchoring RTP with rtpengine Solved a Different Problem Than SIP Routing — Reaz Romen</title>
+<title>The Media Must Go Somewhere: Understanding RTP Anchoring in VoIP Networks — Reaz Romen</title>
 <link href="../static/css/site.css" rel="stylesheet"/>
-<link href="/assets/site.css" rel="stylesheet"/><link href="/assets/sitewide-v2.css" rel="stylesheet"/><link href="/assets/phase1.css" rel="stylesheet"/><link href="/feed.xml" rel="alternate" title="Reaz Romen — Writing" type="application/rss+xml"/><link href="/atom.xml" rel="alternate" title="Reaz Romen — Writing" type="application/atom+xml"/><meta content="Writing" data-pagefind-filter="type[content]"/><meta content="Communications &amp; Voice" data-pagefind-filter="domain[content]"/><meta content="Article" data-pagefind-filter="format[content]"/><meta content="Writing" data-pagefind-meta="type[content]"/><meta content="Communications &amp; Voice" data-pagefind-meta="domain[content]"/><meta content="Anchoring RTP with rtpengine Solved a Different Problem Than SIP Routing" data-pagefind-meta="title[content]"/><link href="/assets/responsive-v3.css" rel="stylesheet"/><link href="/assets/mobile-nav.css" rel="stylesheet"/><link href="https://reazromen.com/posts/anchoring-rtp-with-rtpengine-solved-a-different-problem-than-sip-routing.html" rel="canonical"/><meta content="RTP" data-pagefind-filter="tag[content]"/><meta content="RTPengine" data-pagefind-filter="tag[content]"/><meta content="Kamailio" data-pagefind-filter="tag[content]"/><meta content="SDP" data-pagefind-filter="tag[content]"/><meta content="Telecom &amp; VoIP" data-pagefind-filter="topic[content]"/><meta content="Anchoring RTP with rtpengine Solved a Different Problem Than SIP Routing" property="og:title"/><meta content="Kamailio could route the signaling perfectly while media still failed. rtpengine made the signaling path and media path explicit instead of treating them as one thing." property="og:description"/><meta content="https://reazromen.com/posts/anchoring-rtp-with-rtpengine-solved-a-different-problem-than-sip-routing.html" property="og:url"/></head>
+<link href="/assets/site.css" rel="stylesheet"/><link href="/assets/sitewide-v2.css" rel="stylesheet"/><link href="/assets/phase1.css" rel="stylesheet"/><link href="/feed.xml" rel="alternate" title="Reaz Romen — Writing" type="application/rss+xml"/><link href="/atom.xml" rel="alternate" title="Reaz Romen — Writing" type="application/atom+xml"/><meta content="Writing" data-pagefind-filter="type[content]"/><meta content="Communications &amp; Voice" data-pagefind-filter="domain[content]"/><meta content="Article" data-pagefind-filter="format[content]"/><meta content="Writing" data-pagefind-meta="type[content]"/><meta content="Communications &amp; Voice" data-pagefind-meta="domain[content]"/><meta content="The Media Must Go Somewhere: Understanding RTP Anchoring in VoIP Networks" data-pagefind-meta="title[content]"/><link href="/assets/responsive-v3.css" rel="stylesheet"/><link href="/assets/mobile-nav.css" rel="stylesheet"/><link href="https://reazromen.com/posts/anchoring-rtp-with-rtpengine-solved-a-different-problem-than-sip-routing.html" rel="canonical"/><meta content="RTP" data-pagefind-filter="tag[content]"/><meta content="RTPengine" data-pagefind-filter="tag[content]"/><meta content="Kamailio" data-pagefind-filter="tag[content]"/><meta content="SDP" data-pagefind-filter="tag[content]"/><meta content="Telecom &amp; VoIP" data-pagefind-filter="topic[content]"/><meta content="The Media Must Go Somewhere: Understanding RTP Anchoring in VoIP Networks" property="og:title"/><meta content="Why SIP signaling can succeed while voice fails, how RTP media anchoring works, and where RTPengine fits into a NAT-aware VoIP architecture." property="og:description"/><meta content="https://reazromen.com/posts/anchoring-rtp-with-rtpengine-solved-a-different-problem-than-sip-routing.html" property="og:url"/></head>
 <body class="rr-themed"><a class="skip-link" href="#rr-main">Skip to content</a>
 <header class="site-header rr-global-header"><div class="site-header-inner"><a aria-label="Reaz Romen home" class="brand" href="/">RR</a><nav aria-label="Main navigation" class="nav"><div class="nav-scroll"><a href="/portfolio.html">Work</a><a href="/telecom.html">Telecom</a><a href="https://learn.reazromen.com/course.html">Learn</a><details class="nav-group"><summary>Perspectives</summary><div class="nav-submenu"><a href="/perspectives.html">Overview</a><a href="/world.html">World</a><a href="/space.html">Space</a><a href="/research-reports.html">Research &amp; Reports</a><a href="/specs.html">Specs &amp; Technical Documents</a></div></details><details class="nav-group"><summary>Interests</summary><div class="nav-submenu"><a href="/interests.html">Overview</a><a href="/archaeology.html">Archaeology</a><a href="/heritage.html">Heritage</a><a href="/local-cultures.html">Local Cultures</a><a href="/world-cultures.html">World Cultures</a><a href="/music.html">Music</a><a href="/movies.html">Movies</a></div></details><a href="/bangla.html" lang="bn">বাংলা</a><a href="/about.html">About</a><a href="/systems.html">Stack</a></div><div class="nav-actions"><button aria-label="Search and quick navigation" class="icon-link search-action" data-open-command="" title="Search (Ctrl/⌘ K)" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg></button><a aria-label="GitHub" class="icon-link github-action" href="https://github.com/reazromen" rel="noopener" target="_blank"><svg aria-hidden="true" class="icon icon-fill" viewbox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.18c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 5.9c.98 0 1.96.13 2.87.39 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.35-5.23 5.64.41.36.78 1.06.78 2.14v3.18c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"></path></svg></a><button aria-label="Toggle color scheme" class="theme-toggle" onclick="toggleTheme()" type="button"><svg aria-hidden="true" class="icon" data-theme-icon="moon" viewbox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.5 6.5 0 0 0 21 12.8Z"></path></svg><svg aria-hidden="true" class="icon" data-theme-icon="sun" hidden="" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></svg></button></div></nav></div></header>
 <main class="shell site-main" id="rr-main">
 <article class="article" data-pagefind-body="">
 <nav aria-label="Breadcrumb" class="breadcrumbs"><a href="../topics.html">Topics</a> / <a href="/topics/telecom-voip.html">Telecom &amp; VoIP</a></nav>
-<p class="eyebrow">2021 SIP Infrastructure · intermediate</p>
-<h1>Anchoring RTP with rtpengine Solved a Different Problem Than SIP Routing</h1>
-<p class="lede">Kamailio could route the signaling perfectly while media still failed. rtpengine made the signaling path and media path explicit instead of treating them as one thing.</p>
+<p class="eyebrow">VoIP Architecture · intermediate</p>
+<h1>The Media Must Go Somewhere: Understanding RTP Anchoring in VoIP Networks</h1>
+<p class="lede">A SIP call can be established while the conversation never arrives. Understanding why means separating the signaling path from the media path—and understanding what changes when a relay anchors RTP.</p>
 <div class="article-meta">
 <address class="author-line">By <a href="../author/reaz-romen.html">Reaz Romen</a><span class="verified" title="Verified by this publication">✓ Site verified</span></address>
-<span>Lab period March 2021</span>
-<span>Published 2026-09-14</span>
-<span>3 min read</span>
+<span>Published 2026-11-12</span>
+<span>7 min read</span>
 </div>
-<div class="tags"><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a><a data-pagefind-filter="tag" href="/tags/rtpengine.html">RTPengine</a><a data-pagefind-filter="tag" href="/tags/kamailio.html">Kamailio</a><a data-pagefind-filter="tag" href="/tags/sdp.html">SDP</a></div>
-<div class="provenance"><strong>Lab Note.</strong> Reconstructed in 2026 as a lab note from the 2021 VoIP and SIP-infrastructure study period. The archive date indicates the period covered; the current site publication date is shown separately.</div>
-<div class="prose"><p>By this point I was comfortable with the idea that SIP and RTP are separate, but I still tended to design them together in my head. A Kamailio proxy could route an INVITE successfully while the endpoints exchanged unusable SDP or tried to send RTP directly across a NAT boundary. Adding rtpengine forced me to make the media path explicit.</p>
-<p>The basic lab used Kamailio for signaling and rtpengine as a media relay. On the initial offer, Kamailio passed the SDP to rtpengine so the advertised media address and port could be rewritten toward the relay. When the answer returned, the same process established the opposite side. The endpoints then sent RTP toward the relay instead of directly toward each other.</p>
-<p>The important part was not that media now crossed the server. It was understanding why I would choose to anchor it. NAT is an obvious reason, but there are others: hiding endpoint addresses, enforcing a predictable media path, bridging address families, converting between encrypted and clear media domains, or keeping media near a service that needs to record or inspect it. The tradeoff is that the server becomes part of the media data path and must be sized and monitored accordingly.</p>
-<p>I verified the setup with three pieces of evidence. The SIP trace showed rewritten SDP. <code>rtpengine-ctl</code> showed active media sessions. A packet capture showed RTP entering and leaving the relay on the expected interfaces. If SIP said the call was connected but the media counters stayed at zero, the problem was no longer vaguely described as 'audio broken'. I could tell whether the endpoint was sending anything to the advertised address.</p>
-<p>The lab also exposed a common configuration mistake: calling the media-management function only on the offer side. SDP can appear in provisional responses, final responses, re-INVITEs and updates. A real call flow is more than one INVITE and one 200 OK. The media-control logic has to follow the places where SDP can change.</p>
-<p>Once rtpengine was in the path, one-way audio became easier to localize. If RTP reached the relay from one endpoint but nothing arrived from the other, I looked at that endpoint's SDP, NAT behavior and firewall. If both streams reached the relay but one side received nothing, I inspected the relay's outgoing path. This separated the call into observable segments.</p>
-<p>The broader lesson was architectural: a SIP proxy and a media relay solve different problems. Putting them on the same host does not make them one component. Keeping their responsibilities separate made later scaling and troubleshooting decisions much cleaner.</p></div>
+<div class="tags"><a data-pagefind-filter="tag" href="/tags/rtp.html">RTP</a><a data-pagefind-filter="tag" href="/tags/rtpengine.html">RTPengine</a><a data-pagefind-filter="tag" href="/tags/sip.html">SIP</a><a data-pagefind-filter="tag" href="/tags/sdp.html">SDP</a><a data-pagefind-filter="tag" href="/tags/nat.html">NAT</a></div>
+<div class="prose">
+<p>A telephone call is an interesting illusion of simplicity. We dial a number, hear a ringtone, and eventually hear another human voice. From the user's perspective, everything appears to happen through one continuous connection. Underneath that experience, however, two different communication processes are taking place, and they do not necessarily follow the same network path.</p>
+<p>One process establishes the call, negotiates its parameters and determines who should communicate with whom. The other carries the actual sound. This distinction is fundamental to Voice over IP. A SIP server can authenticate a user, process an INVITE, locate the destination and complete session negotiation, yet neither participant may hear anything. The call exists from the perspective of signaling, but the media path does not work.</p>
+<p>This is where <strong>RTP media anchoring</strong> becomes important. To understand why RTPengine exists, we first need to understand why voice packets sometimes cannot travel directly between two endpoints, even when both endpoints have successfully established a SIP session.</p>
+
+<h2>Two different paths inside one telephone call</h2>
+<p>Consider Alice using a SIP phone on a private network and Bob using another phone somewhere else on the internet. Alice sends a SIP INVITE through the service's SIP infrastructure. The proxy routes the request, Bob's device responds, and the endpoints negotiate media parameters through Session Description Protocol (SDP).</p>
+<p>SDP describes the proposed media session: IP addresses, UDP ports, codecs and other media capabilities. Alice might advertise an address and port like this:</p>
+<pre><code>c=IN IP4 192.168.1.20
+m=audio 40000 RTP/AVP 0 8 101</code></pre>
+<p>The address belongs to a private network. Bob, on the public internet, cannot route packets directly to <code>192.168.1.20</code>. Alice's SIP signaling may have crossed the network because she initiated an outbound connection to her provider, but that does not mean an incoming RTP stream can reach her phone. Signaling and media have different transport requirements and often different network paths.</p>
+<p><strong>Successful SIP signaling does not prove successful RTP connectivity.</strong> That one distinction explains a surprising number of silent calls and one-way-audio problems.</p>
+
+<h2>Why direct media can fail</h2>
+<p>In an ideal network, two endpoints exchange RTP directly. This is commonly called direct media or endpoint-to-endpoint media. It avoids sending continuous voice traffic through an additional server, and it can reduce infrastructure bandwidth and processing requirements.</p>
+<p>But the public internet is not an ideal network. Residential and mobile networks commonly use Network Address Translation (NAT). A device receives a private address while its router translates outgoing traffic to a public address and maintains mappings for return traffic. The address written in an SDP message is therefore not necessarily an address another participant can reach.</p>
+<p>A private address may be advertised to a public endpoint. The public UDP mapping may differ from the local port. A firewall may reject unsolicited incoming traffic, and NAT behavior can vary between networks. A SIP transaction can complete while the media packets are dropped, misdirected or never delivered.</p>
+<p>There are techniques such as symmetric RTP and ICE that help endpoints discover and use viable media paths. They are important tools, but they do not remove every topology, policy or interoperability problem. Some services need a predictable media path under their own control.</p>
+
+<h2>What media anchoring changes</h2>
+<p>Media anchoring introduces an intermediate media relay. Instead of allowing Alice and Bob to send RTP directly to each other, both send their media to a relay, which forwards each stream to the other participant.</p>
+<pre><code>Signaling:
+Alice  &lt;------ SIP ------&gt;  OpenSIPS / Kamailio  &lt;------ SIP ------&gt;  Bob
+                                |
+                                | NG control
+                                v
+                             RTPengine
+
+Media:
+Alice  &lt;------ RTP ------&gt;  RTPengine  &lt;------ RTP ------&gt;  Bob</code></pre>
+<p>The SIP proxy remains responsible for signaling. RTPengine handles the media session. The proxy instructs RTPengine to process the SDP offer and answer; RTPengine allocates media endpoints and rewrites the session description so that each participant sends media to the relay rather than to the other endpoint directly.</p>
+<p>The important change is not merely that another server has been introduced. The negotiated media destination has changed. Alice now sends her RTP packets to RTPengine, and RTPengine forwards them toward Bob. The reverse direction works in the same way. The relay becomes an intentional point in the media path.</p>
+
+<h2>Following one media session</h2>
+<p>Imagine a lab with Alice behind a router and Bob on a reachable public address. The following addresses are reserved documentation examples, not real production endpoints:</p>
+<table>
+<thead><tr><th>Component</th><th>Address or port</th><th>Role</th></tr></thead>
+<tbody>
+<tr><td>Alice's phone</td><td><code>192.168.1.20:40000</code></td><td>Private-side RTP endpoint</td></tr>
+<tr><td>Alice's NAT</td><td><code>203.0.113.10</code></td><td>Public address seen outside</td></tr>
+<tr><td>Bob's phone</td><td><code>198.51.100.20:50000</code></td><td>Remote RTP endpoint</td></tr>
+<tr><td>RTPengine</td><td><code>203.0.113.50:30000</code></td><td>Illustrative public media endpoint</td></tr>
+</tbody>
+</table>
+<p>First, Alice sends an INVITE containing an SDP offer. OpenSIPS or Kamailio processes the request and invokes RTPengine through its NG control protocol. RTPengine examines the SDP and allocates the media resources required for the session.</p>
+<p>RTPengine then rewrites the media description presented to Bob. Rather than exposing Alice's private address, the offer identifies the relay's reachable media address. Bob returns an SDP answer, which is processed as well so that the two sides receive the appropriate relay destinations.</p>
+<p>Once the session is established, Alice sends RTP toward RTPengine. The relay forwards the packets toward Bob. Bob's media follows the reverse path. The SIP proxy coordinates the session, but it does not need to carry the voice packets itself.</p>
+
+<h2>RTPengine is more than a UDP forwarder</h2>
+<p>It would be tempting to describe RTPengine as a process that receives packets on one port and sends them to another. That description misses the part that makes it useful. RTPengine maintains media-session state and understands SDP, streams and negotiated parameters. Depending on configuration and build capabilities, it can also provide functions that a generic UDP forwarder cannot.</p>
+<p><strong>SDP manipulation</strong> allows it to rewrite media addresses, ports and related session attributes. <strong>NAT-aware media handling</strong> helps the relay work with the addresses and ports actually observed on the media path. <strong>ICE support</strong> allows it to participate in candidate negotiation for environments that need ICE-based connectivity. It also supports secure-media scenarios, including SRTP, and can be configured for functions such as codec transcoding, recording and media forking.</p>
+<p>These are not all automatic consequences of enabling a relay. They depend on the negotiated media profile, RTPengine build, configuration and the proxy's call-flow logic. A relay can anchor packets without transcoding them; it can also be asked to perform more work when the service requires it.</p>
+
+<h2>The cost of anchoring everything</h2>
+<p>If anchoring solves so many problems, why not route every call through RTPengine? Because every architectural solution introduces costs. Direct media avoids an extra media hop. Anchored media makes the relay part of the data path, and every packet must be received, processed and forwarded.</p>
+<p>Bandwidth is the first consideration. A bidirectional call creates traffic in both directions, and the relay handles both the incoming and outgoing sides of those streams. Across hundreds or thousands of concurrent calls, the aggregate packet rate and network throughput become significant.</p>
+<p>Latency is another consideration. The relay adds a network hop, and its physical location matters. A media server placed far from both participants can make an otherwise healthy call feel less responsive. CPU and packet-processing capacity also matter, particularly when transcoding, recording or other media operations are enabled.</p>
+<p>Finally, the relay becomes a dependency. If RTPengine becomes unavailable, calls whose media is anchored through it can lose audio even while the SIP proxy remains healthy. Capacity planning, monitoring, redundancy and failure handling are therefore part of the design—not optional operational polish.</p>
+
+<h2>When should media be anchored?</h2>
+<p>There is no universal requirement to anchor every media session. The decision depends on topology, endpoint capabilities, security policy and the service's operational needs. Anchoring is useful when endpoints sit behind restrictive NAT, direct media is blocked by firewall policy, the service needs a controlled media route, address-family bridging is required, or recording, monitoring or transcoding must take place.</p>
+<p>Direct media can be preferable when endpoints have reliable connectivity and the service does not need an intermediary for media processing or policy enforcement. A good architecture should make this a deliberate choice rather than assuming that every call has identical network requirements.</p>
+
+<h2>The relay has to be reachable too</h2>
+<p>RTPengine does not make network engineering disappear. It moves the media-path problem to a component designed to manage it. If RTPengine itself sits behind NAT or has multiple network interfaces, its internal address and externally reachable address must be configured and advertised correctly. The relevant firewall rules and UDP port ranges must also match the media configuration.</p>
+<p>Incorrect interface selection can recreate the original failure one level deeper: SIP signaling succeeds, but endpoints receive an SDP address they cannot reach. A useful investigation therefore checks the SDP actually sent to each endpoint, the relay's selected interface, the firewall policy and the packets observed on both sides of the relay.</p>
+
+<h2>OpenSIPS and RTPengine solve different problems</h2>
+<p>In a production architecture, OpenSIPS or Kamailio handles signaling responsibilities such as registration, authentication, routing and call control. RTPengine handles media-session operations such as SDP-aware address rewriting, media anchoring and other configured media processing. The components communicate through RTPengine's NG control protocol.</p>
+<p>The proxy must coordinate the media lifecycle correctly. Offers and answers can appear in more places than the initial INVITE and final 200 OK. Provisional responses, re-INVITEs and session updates can change SDP. Cancellation and call termination must also release the corresponding media state. Calling the media-management function only on one side of the initial exchange is not a complete call-flow design.</p>
+<p>This separation allows signaling and media workloads to be scaled and managed independently, but it also means the proxy's routing logic must keep the two sides aligned. A media session is not simply created when a call starts; it may need to be updated as the session changes and must be released when the call ends.</p>
+
+<h2>A call is more than a successful response</h2>
+<p>A VoIP call is not one connection. It is a coordinated collection of signaling exchanges, negotiated media parameters, transport addresses, packet flows and network policies. SIP establishes the communication relationship. SDP describes the proposed media session. RTP carries the real-time audio. NAT and firewalls determine whether the network can actually deliver those packets.</p>
+<p>RTPengine exists because these layers do not always cooperate naturally. Media anchoring gives the network an intermediate point where it can manage and control the media path without forcing the SIP proxy to carry the voice traffic itself.</p>
+<p>A successful SIP response tells us that signaling has progressed. It does not tell us that a human voice can travel from one endpoint to another. In VoIP engineering, establishing a call and delivering a conversation are two different problems. RTPengine helps solve the second one.</p>
+
+<h2>Further reading</h2>
+<ul>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc3261">RFC 3261 — SIP: Session Initiation Protocol</a></li>
+<li><a href="https://datatracker.ietf.org/doc/rfc3550/">RFC 3550 — RTP: A Transport Protocol for Real-Time Applications</a></li>
+<li><a href="https://www.rfc-editor.org/rfc/rfc6314.html">RFC 6314 — NAT Traversal Practices for Client-Server SIP</a></li>
+<li><a href="https://rtpengine.readthedocs.io/en/latest/ng_control_protocol.html">RTPengine NG Control Protocol</a></li>
+<li><a href="https://github.com/sipwise/rtpengine">Sipwise RTPengine source code</a></li>
+</ul>
+</div>
 <aside class="author-card">
 <div><p class="eyebrow">ABOUT THE AUTHOR</p><h3><a href="../author/reaz-romen.html">Reaz Romen</a></h3></div>
 <p>Systems engineer working across embedded devices, networks, real-time communications, backend systems, Linux infrastructure, observability, and operational tooling.</p>
