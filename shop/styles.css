@@ -5,3 +5,29 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
 
 [executed on device: hserver (4886fa43-9236-4369-8fb8-ad8f790e64ab)]
+/* FimiT brand system */
+:root{--paper:#f5f6f2;--white:#fcfdf9;--ink:#17283b;--muted:#647184;--line:#dce2df;--green:#c8f169;--forest:#1a2c43;--serif:Georgia,'Times New Roman',serif}
+.site-header{background:rgba(245,246,242,.95)}
+.brand-mark{background:var(--forest);color:var(--green);border-radius:8px;font-size:21px;letter-spacing:-.08em}
+.brand-name{font-size:15px;letter-spacing:-.035em;text-transform:none}
+.brand-sub{letter-spacing:.12em}
+.nav-cta,.button-dark{background:var(--forest)}
+.nav-cta:hover,.button-dark:hover{background:#29415f}
+.hero-art{background:#e8eee8}
+.art-core{background:var(--forest)}
+.core-symbol{color:var(--green)}
+.node-icon{background:#edf3e6;color:#36533e}
+.intro-band,.fit-section{background:#e9eee8}
+.intro-statement span{color:#496b46}
+.approach-section,.site-footer{background:var(--forest)}
+.flow-accent{background:var(--green);border-color:var(--green)}
+.fit-section{padding:94px 0}
+.fit-inner{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:start}
+.fit-inner h2{font:700 clamp(36px,4vw,52px)/1.08 var(--display);letter-spacing:-.06em;margin:0;color:var(--ink)}
+.fit-inner h2 em{font-family:var(--serif);font-weight:400}
+.fit-points{border-top:1px solid #cbd6ca}
+.fit-points p{padding:17px 0;margin:0;border-bottom:1px solid #cbd6ca;display:grid;gap:7px}
+.fit-points b{font:650 15px var(--display);color:var(--ink)}
+.fit-points span{font-size:12px;line-height:1.75;color:#657366}
+.footer-brand .brand-mark{background:var(--green);color:var(--forest)}
+@media(max-width:680px){.fit-section{padding:68px 0}.fit-inner{display:block}.fit-points{margin-top:28px}.fit-inner h2{font-size:38px}}
