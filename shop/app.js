@@ -22,7 +22,7 @@ if (form && note) {
     if (!form.reportValidity()) return;
     const data = new FormData(form);
     const brief = [
-      'PROJECT ENQUIRY — REAZ ROMEN',
+      'PROJECT ENQUIRY — FimiT',
       `Name: ${data.get('name')}`,
       `Email: ${data.get('email')}`,
       `Service: ${data.get('service')}`,
